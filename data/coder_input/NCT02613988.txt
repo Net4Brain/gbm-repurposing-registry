@@ -1,0 +1,58 @@
+NCT ID: NCT02613988
+### title
+Advanced MR Imaging as Predictor of Treatment Response in Newly Diagnosed Glioblastomas
+Official: Early Response Assessment Using on 3T Advanced MR Imaging as Predictor of Long-term Treatment Response in Newly Diagnosed Glioblastomas
+
+### conditions
+Adult Glioblastoma
+
+### keywords
+Glioblastoma; MRI; standard treatment
+
+### brief_summary
+This clinical trial studies advanced MR imaging techniques in measuring early response of standard treatment may become predictors of long-term treatment response in patients with newly diagnosed glioblastomas.
+
+### detailed_description
+The standard care of patients with glioblastoma is concomitant chemoradiation and adjuvant temozolomide. Allowing for assessment of tumor therapy prior to treatment completion is important to select patients most likely to benefit from alternative treatment option. Multimodal advanced MR imaging- contrast-enhanced T1 weighted imaging, diffusion-weighted imaging, chemical exchange saturation transfer imaging, and perfusion imaging on 3T enables quantitative assessment of treatment response. Quantifying changes in advanced MR imaging techniques would allow predict outcome for early and long-term treatment response and survival in glioblastomas.
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [OTHER] MR imaging and standard treatment: Patients with glioblastoma undergo 3-Tesla magnetic resonance imaging to measure tumor protein content (using CEST-MRI), cellularity (using DW-MRI), and perfusion (using DCE-MRI and DSC-MRI with IV administration of gadolinium-containing contrast agent) at pre-CCRT; 4 weeks after completion of the CCRT; and every 2 or 3 months during the adjuvant temozolomide therapy. (interventions: Device: 3 Tesla magnetic resonance imaging; Device: Chemical exchange saturation transfer MRI; Device: Diffusion weighted MRI; Device: Dynamic susceptibility contrast MRI)
+
+### interventions
+- [DEVICE] 3 Tesla magnetic resonance imaging: High resolution structural imaging (contrast-enhanced T1-weighted image, T2-weighted image, Fluid-attenuated inversion recovery)
+- [DEVICE] Chemical exchange saturation transfer MRI: Amide proton transfer-weighted image
+- [DEVICE] Diffusion weighted MRI: diffusion-weighted image with b value 0, 1000, and 3000
+- [DEVICE] Dynamic susceptibility contrast MRI: dual echo EPI sequence
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Patients must have radiologically and histologically confirmed diagnosis of newly diagnosed glioblastoma
+* Patients must have measurable disease, defined as evident tumors with gadolinium enhancement on MRI that is measurable in at least one diameter
+* Life expectancy of greater than 3 months
+* Patients scheduled for standard therapy (6 weeks radiation treatment (RT) \~ 60 Gy, plus temozolomide 75 mg/m\^2 during 6 week RT, and followed routine monthly temozolomide therapy)
+* Ability to understand and the willingness to sign a written informed consent document; all patients, or their legal guardians, must sign a written informed consent and Health Insurance Portability and Accountability Act (HIPAA) authorization in accordance with institutional guidelines
+
+Exclusion Criteria:
+
+* Patients who underwent complete resection
+* Patients with no evidence of measurable disease after surgery
+* Patients who have had chemotherapy or radiotherapy
+* Patients who have any type of bioimplant activated by mechanical, electronic, or magnetic means (e.g., cochlear implants, pacemakers, neurostimulators, electronic infusion pumps, etc), because such devices may be displaced or malfunction
+* Patients who are pregnant or breast feeding; urine pregnancy test will be performed on women of child bearing potential
+* For patients who have undergone surgical resection prior to joining the study, in whom baseline magnetic resonance (MR) images exhibit enough signal degradation (due to susceptibility artifact in the region of the surgical bed) such that the data are uninterpretable will be excluded
+
+### outcomes
+- [primaryOutcomes] Diagnostic Performance of Response Rate: The response was determined by a modification of the RANO criteria that combined the image assessment, neurologic evaluation and assessment of steroid use. Clinical and radiologic assessments were carried out at pre-CCRT; 4 weeks after completion of the CCRT; and every 2 or 3 months during the adjuvant TMZ therapy. Complete Response (CR) was defined as complete disappearance on MR of all enhancing tumor; Partial Response (PR) was defined as greater than or equal to 50% reduction in tumor size on MR by bi-dimensional measurement; Pseudoprogression was defined when there was a decrease or stabilization of the contrast-enhancing lesions for a minimum of six months and combined with no change in treatment/ or a increase in contrast-enhancing lesion on the first subsequent follow-up MR image, as long as it stabilized on the second follow-up and there was no need for treatment change. Responder = CR+PR+Pseudoprogression, Non-responder = Progression.
+- [secondaryOutcomes] Progression Free Survival (PFS): Estimated probable duration of life without disease progression, from on-study date to earlier of progression date or date of death from any cause, using the Kaplan-Meier method with censoring. Disease progression is defined under Response Evaluation Criteria in Solid Tumors (RECIST v1.1) as \>=20% increase in sum of longest diameters (LD) of target lesions, unequivocal progression of non-target lesions, or appearance of new lesions.
+- [secondaryOutcomes] Quantitative changes to tumor protein content and tumor acidosis: Amide proton transfer asymmetry (APTasym, %) from Chemical Exchange Saturation Transfer (CEST) Amine proton transfer asymmetry (AmPTasym %) from CEST
+- [secondaryOutcomes] Quantitative changes to tumor cellularity: Apparent diffusion coefficient (ADC, mm2/s) from Diffusion weighted MRI
+- [secondaryOutcomes] Quantitative changes to tumor perfusion using dynamic susceptibility contrast MRI: Normalized Cerebral blood volume (CBV, %) from dynamic susceptibility contrast (DSC)-MRI
+- [secondaryOutcomes] Quantitative changes to tumor perfusion using dynamic contrast enhancement MRI: Initial area-under-the-curve (IAUC) from dynamic contrast enhancement (DCE)-MRI
+
+### sponsor
+Lead: Asan Medical Center; collaborators:

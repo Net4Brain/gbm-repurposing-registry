@@ -1,0 +1,101 @@
+{
+ "nct_id": "NCT05380349",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "gbm_only",
+  "gbm_population_evidence": [
+   {
+    "field": "conditions",
+    "quote": "Newly Diagnosed Glioblastoma"
+   },
+   {
+    "field": "eligibility",
+    "quote": "Histological diagnosis of GBM (WHO grade 4)"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "arms",
+    "quote": "Administer combinations of up to 3 FDA approved drugs from a panel of compounds selected based on high throughput screening"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": true,
+   "reason": "Specific drugs are not named in the record; they are patient-specific picks from a panel of FDA-approved drugs."
+  },
+  "cns5_terminology": "unclear"
+ },
+ "trial": {
+  "treatment_setting": "newly_diagnosed",
+  "treatment_setting_evidence": [
+   {
+    "field": "brief_summary",
+    "quote": "subjects with newly diagnosed glioblastoma with novel personalized drug regimens"
+   }
+  ],
+  "regimen": "combination",
+  "combination_partners": [
+   "temozolomide",
+   "radiotherapy"
+  ],
+  "basket": false,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": false
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "combinations of up to 3 FDA approved drugs from a panel of compounds",
+   "active_moiety": "unspecified (personalized panel of FDA-approved drugs)",
+   "role": "experimental_combination",
+   "role_evidence": [
+    {
+     "field": "detailed_description",
+     "quote": "Investigational drug therapy, targeting CSCs, will be initiated alongside standard of care chemoradiation with TMZ."
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "patient-specific repurposed FDA-approved drugs selected by cancer stem cell screening",
+   "stated_antitumour_mechanism": "targeting cancer stem cells (CSCs)",
+   "flag": {
+    "uncertain": true,
+    "reason": "Individual drugs are not identified, so the active moiety cannot be mapped."
+   }
+  },
+  {
+   "agent_name_registered": "TMZ (standard of care chemoradiation)",
+   "active_moiety": "temozolomide",
+   "role": "soc_backbone",
+   "role_evidence": [
+    {
+     "field": "brief_summary",
+     "quote": "alongside standard of care radiation and TMZ"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "alkylating agent",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "biomarkers": [],
+ "coder_notes": "Drugs are personalised from a screening panel and not named; origin lookup will not be possible without the actual drug list. TMZ is not a registered intervention but is described as background."
+}

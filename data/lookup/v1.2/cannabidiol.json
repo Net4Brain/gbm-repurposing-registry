@@ -1,0 +1,1084 @@
+{
+ "moiety": "cannabidiol",
+ "accessed_utc": "2026-11-01T16:17:37+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA210365",
+    "date": "2018-06-25",
+    "brand": [
+     "EPIDIOLEX"
+    ]
+   }
+  ],
+  "first_approval_date": "2018-06-25",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE EPIDIOLEX is indicated for the treatment of seizures associated with Lennox-Gastaut syndrome (LGS), Dravet syndrome (DS), or tuberous sclerosis complex (TSC) in patients 1 year of age and older. EPIDIOLEX is indicated for the treatment of seizures associated with Lennox-Gastaut syndrome, Dravet syndrome, or tuberous sclerosis complex in patients 1 year of age and older ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"cannabidiol\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Epidyolex",
+    "status": "Authorised",
+    "authorisation_date": "2019-09-19",
+    "atc": "N03AX",
+    "therapeutic_area": "Lennox Gastaut Syndrome;Epilepsies, Myoclonic",
+    "indication": "Epidyolex is indicated for use as adjunctive therapy of seizures associated with Lennox Gastaut syndrome (LGS) or Dravet syndrome (DS), in conjunction with clobazam, for patients 2 years of age and older.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/epidyolex"
+   }
+  ],
+  "first_authorisation_date": "2019-09-19"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL190461",
+  "pref_name": "CANNABIDIOL",
+  "max_phase": 4.0,
+  "atc": [
+   "N03AX24"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02751359,NCT03877991,NCT04193631,NCT04226690,NCT04271917,NCT04672252,NCT05170451,NCT05240755,NCT05411913,NCT05934500"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02392780"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02548559,NCT04267679,NCT04286594,NCT05283382"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N03AX24"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02091206,NCT02091375,NCT02224560,NCT02224703,NCT02286986,NCT02564952,NCT02565108,NCT02607891,NCT02607904,NCT02783092,NCT04280289,NCT05803434"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02255292"
+     }
+    ]
+   },
+   {
+    "efo_term": "Seizure",
+    "mesh_heading": "Seizures",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02318602,NCT02324673,NCT05288283"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8bf27097-4870-43fb-94f0-f3d0871d1eec"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-traumatic stress disorder",
+    "mesh_heading": "Stress Disorders, Post-Traumatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02517424,NCT02759185,NCT03518801,NCT04197102,NCT05132699,NCT05269459,NCT06222268"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hepatic steatosis",
+    "mesh_heading": "Fatty Liver",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01284634"
+     }
+    ]
+   },
+   {
+    "efo_term": "ulcerative colitis",
+    "mesh_heading": "Colitis, Ulcerative",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01037322,NCT01562314"
+     }
+    ]
+   },
+   {
+    "efo_term": "cocaine dependence",
+    "mesh_heading": "Cocaine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02559167"
+     }
+    ]
+   },
+   {
+    "efo_term": "opioid dependence",
+    "mesh_heading": "Opioid-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01311778,NCT01605539,NCT02539823,NCT04238754"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01037322,NCT04056442"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01844687,NCT05445804,NCT06218056"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizoaffective disorder",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00588731,NCT02504151"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03550352,NCT05306249"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential tremor",
+    "mesh_heading": "Essential Tremor",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03805750"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03634189"
+     }
+    ]
+   },
+   {
+    "efo_term": "Autoimmune Hepatitis",
+    "mesh_heading": "Hepatitis, Autoimmune",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04129489"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02044809,NCT02083874,NCT03102918,NCT04283019,NCT04741477,NCT05049733,NCT05885542,NCT06149988"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic neuropathy",
+    "mesh_heading": "Diabetic Neuropathies",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04088929"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chronic pain",
+    "mesh_heading": "Chronic Pain",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02683018,NCT03215940,NCT03635593,NCT03984565,NCT04044729,NCT04587791,NCT06213233"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriatic arthritis",
+    "mesh_heading": "Arthritis, Psoriatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04269993"
+     }
+    ]
+   },
+   {
+    "efo_term": "interstitial cystitis",
+    "mesh_heading": "Cystitis, Interstitial",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04349930"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02675842"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01385124,NCT01596075,NCT02478424,NCT03840512"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04428203"
+     }
+    ]
+   },
+   {
+    "efo_term": "peripheral neuropathy",
+    "mesh_heading": "Peripheral Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04582591"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03900923,NCT04517799,NCT04520685,NCT04745026,NCT05015439"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04517799"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04411225"
+     }
+    ]
+   },
+   {
+    "efo_term": "fibromyalgia",
+    "mesh_heading": "Fibromyalgia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04729179,NCT05283161"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04679545,NCT05351801,NCT05766969"
+     }
+    ]
+   },
+   {
+    "efo_term": "status epilepticus",
+    "mesh_heading": "Status Epilepticus",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04721691"
+     }
+    ]
+   },
+   {
+    "efo_term": "toothache",
+    "mesh_heading": "Toothache",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04642404"
+     }
+    ]
+   },
+   {
+    "efo_term": "opioid use disorder",
+    "mesh_heading": "Opioid-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03787628,NCT04192370,NCT04238754,NCT04982029,NCT05269706,NCT05299944,NCT06206291"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cognitive impairment",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04590495,NCT05822362"
+     }
+    ]
+   },
+   {
+    "efo_term": "radiculopathy",
+    "mesh_heading": "Radiculopathy",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04760613"
+     }
+    ]
+   },
+   {
+    "efo_term": "developmental and epileptic encephalopathy",
+    "mesh_heading": "Spasms, Infantile",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03421496"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04467918,NCT04686539,NCT04731116"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04883255"
+     }
+    ]
+   },
+   {
+    "efo_term": "obsessive-compulsive disorder",
+    "mesh_heading": "Obsessive-Compulsive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04978428"
+     }
+    ]
+   },
+   {
+    "efo_term": "hamartoma",
+    "mesh_heading": "Tuberous Sclerosis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "8bf27097-4870-43fb-94f0-f3d0871d1eec"
+     }
+    ]
+   },
+   {
+    "efo_term": "Intellectual disability",
+    "mesh_heading": "Intellectual Disability",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04821856"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypertension",
+    "mesh_heading": "Hypertension",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05346562"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug dependence",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05076370"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoarthritis, knee",
+    "mesh_heading": "Osteoarthritis, Knee",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03825965,NCT04412837,NCT04992624,NCT04992962,NCT05020028,NCT06234631,NCT06414473"
+     }
+    ]
+   },
+   {
+    "efo_term": "insomnia",
+    "mesh_heading": "Sleep Initiation and Maintenance Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05233761,NCT05840822"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tourette syndrome",
+    "mesh_heading": "Tourette Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04978428,NCT05184478"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sleep Disorder",
+    "mesh_heading": "Sleep Wake Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05097651"
+     }
+    ]
+   },
+   {
+    "efo_term": "Osteopenia",
+    "mesh_heading": "Bone Diseases, Metabolic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05317013"
+     }
+    ]
+   },
+   {
+    "efo_term": "Arthralgia",
+    "mesh_heading": "Arthralgia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05002114"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hair-pulling",
+    "mesh_heading": "Trichotillomania",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04978428"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01776970,NCT03690791"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00309413,NCT00588731,NCT00628290,NCT00916201,NCT01491490,NCT02006628,NCT02051387,NCT02088060,NCT02504151,NCT02926859,NCT04421456"
+     }
+    ]
+   },
+   {
+    "efo_term": "Parkinson disease",
+    "mesh_heading": "Parkinson Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02818777,NCT03582137"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine disorder",
+    "mesh_heading": "Migraine Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03972124"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03252756,NCT03904849,NCT04873453,NCT05159830,NCT05317546,NCT05387148,NCT05613608"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05016349"
+     }
+    ]
+   },
+   {
+    "efo_term": "Huntington disease",
+    "mesh_heading": "Huntington Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01502046"
+     }
+    ]
+   },
+   {
+    "efo_term": "Prader-Willi syndrome",
+    "mesh_heading": "Prader-Willi Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02844933,NCT03458416"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sturge-Weber syndrome",
+    "mesh_heading": "Sturge-Weber Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02332655,NCT04447846"
+     }
+    ]
+   },
+   {
+    "efo_term": "fragile X syndrome",
+    "mesh_heading": "Fragile X Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03614663,NCT03802799,NCT04977986"
+     }
+    ]
+   },
+   {
+    "efo_term": "Rett syndrome",
+    "mesh_heading": "Rett Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03848832,NCT04252586"
+     }
+    ]
+   },
+   {
+    "efo_term": "childhood absence epilepsy",
+    "mesh_heading": "Epilepsy, Absence",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03336242,NCT03355300"
+     }
+    ]
+   },
+   {
+    "efo_term": "Lennox-Gastaut syndrome",
+    "mesh_heading": "Lennox Gastaut Syndrome",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02224690,NCT02318537,NCT04133480"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004675"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2018/210365lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "West syndrome",
+    "mesh_heading": "Spasms, Infantile",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02953548,NCT02954887"
+     }
+    ]
+   },
+   {
+    "efo_term": "Benign essential blepharospasm",
+    "mesh_heading": "Blepharospasm",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04423341"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05753007"
+     }
+    ]
+   },
+   {
+    "efo_term": "injury",
+    "mesh_heading": "Wounds and Injuries",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05632627,NCT05650697"
+     }
+    ]
+   },
+   {
+    "efo_term": "pericarditis",
+    "mesh_heading": "Pericarditis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05494788"
+     }
+    ]
+   },
+   {
+    "efo_term": "social anxiety disorder",
+    "mesh_heading": "Phobia, Social",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05571592,NCT05600114,NCT05823753,NCT06123702"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03310593,NCT04231643,NCT05457465,NCT05867849"
+     }
+    ]
+   },
+   {
+    "efo_term": "anorexia nervosa",
+    "mesh_heading": "Anorexia Nervosa",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04878627"
+     }
+    ]
+   },
+   {
+    "efo_term": "benign essential blepharospasm",
+    "mesh_heading": "Blepharospasm",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04423341"
+     }
+    ]
+   },
+   {
+    "efo_term": "mental or behavioural disorder",
+    "mesh_heading": "Mental Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00309413"
+     }
+    ]
+   },
+   {
+    "efo_term": "rheumatoid arthritis",
+    "mesh_heading": "Arthritis, Rheumatoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04269993,NCT05942911"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometriosis",
+    "mesh_heading": "Endometriosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06477406"
+     }
+    ]
+   },
+   {
+    "efo_term": "motor neuron disease",
+    "mesh_heading": "Motor Neuron Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03690791"
+     }
+    ]
+   },
+   {
+    "efo_term": "bone fracture",
+    "mesh_heading": "Fractures, Bone",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06448923"
+     }
+    ]
+   },
+   {
+    "efo_term": "carpal tunnel syndrome",
+    "mesh_heading": "Carpal Tunnel Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06108349"
+     }
+    ]
+   },
+   {
+    "efo_term": "post operative nausea and vomiting",
+    "mesh_heading": "Postoperative Nausea and Vomiting",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06137027"
+     }
+    ]
+   },
+   {
+    "efo_term": "memory",
+    "mesh_heading": "Memory",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06074172"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06014424"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoarthritis",
+    "mesh_heading": "Osteoarthritis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04412837"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06261489"
+     }
+    ]
+   },
+   {
+    "efo_term": "mucopolysaccharidosis type 2",
+    "mesh_heading": "Mucopolysaccharidosis II",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06333041"
+     }
+    ]
+   },
+   {
+    "efo_term": "encephalopathy, progressive, early-onset, with brain edema and/or leukoencephalopathy",
+    "mesh_heading": "Epilepsies, Myoclonic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004675"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2018/210365lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "mucopolysaccharidosis type 3",
+    "mesh_heading": "Mucopolysaccharidosis III",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06333041"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic idiopathic urticaria",
+    "mesh_heading": "Chronic Urticaria",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04439955"
+     }
+    ]
+   },
+   {
+    "efo_term": "long COVID-19",
+    "mesh_heading": "Post-Acute COVID-19 Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04997395"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Cannabinoid CB1 receptor negative allosteric modulator",
+    "action_type": "NEGATIVE ALLOSTERIC MODULATOR",
+    "target": "CHEMBL218"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 175,
+  "earliest": {
+   "nct": "NCT00628290",
+   "start": "2002-10",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2018-06-25",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

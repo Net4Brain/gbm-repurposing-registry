@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT04479241",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Recurrent supratentorial glioblastoma (GBM) confirmed via prior histology by the site's neuropathologist or designate."},
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; Supratentorial Glioblastoma; Brain Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] lerapolturev + pembrolizumab: Lerapolturev delivered once intratumorally via convection enhanced delivery. Pembrolizumab given intravenously every 3 weeks."},
+      {"field": "title", "quote": "Evaluating the Efficacy, Safety and Tolerability of Lerapolturev (PVSRIPO) and the Immune Checkpoint Inhibitor Pembrolizumab in the Treatment of Patients With Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false, "reason": "Lerapolturev is an oncolytic poliovirus (excluded intervention type); pembrolizumab, a checkpoint antibody, is the pharmacological candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First or second relapse supported by MRI or CT scan; relapse is defined as progression following initial/prior therapy(ies)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lerapolturev (oncolytic virus)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "lerapolturev",
+      "active_moiety": "lerapolturev",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Lerapolturev (5x10\\^7 TCID50) delivered intratumorally via convection enhanced delivery (CED)."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic virus (recombinant poliovirus PVSRIPO); excluded intervention type per manual 1.2",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Oncolytic virus is an excluded intervention type; listed for transparency in the experimental arm but it is not a pharmacological candidate. Adjudicator to confirm how to record."}
+    },
+    {
+      "agent_name_registered": "pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Pembrolizumab (200 mg IV) given every 3 weeks."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] lerapolturev + pembrolizumab"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immune Checkpoint Inhibitor",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "plus concomitant chemotherapy followed by maintenance chemotherapy if unknown or methylated O6-methylguanine-DNA methyltransferase (MGMT) promoter"},
+      "flag": {"uncertain": true, "reason": "MGMT status only determines which prior first-line therapy was required; it does not itself restrict entry. Role may be better treated as not a selection biomarker."}
+    }
+  ],
+  "coder_notes": "Single-arm phase 2: oncolytic poliovirus lerapolturev (excluded type) + pembrolizumab. Pembrolizumab treated as the eligible pharmacological candidate. cns5 coded historical because transformation from lower-grade glioma is accepted and no IDH-wildtype requirement is stated. Sponsor Istari Oncology is industry (structured field), no separate text on drug supply."
+}

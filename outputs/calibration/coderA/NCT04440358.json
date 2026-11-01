@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT04440358",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma"},
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to evaluate the safety and feasibility of the Exablate Model 4000 Type 2 system when used as a tool to open the blood-brain-barrier (BBB) in subjects with recurrent glioblastoma (rGBM) undergoing carboplatin monotherapy."},
+      {"field": "eligibility", "quote": "Planned for Carboplatin monotherapy"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Investigational intervention is the focused-ultrasound BBB-disruption device; carboplatin is planned background chemotherapy. If carboplatin delivered after BBBD is judged the investigated agent (new delivery), it would be an experimental_monotherapy candidate and the trial would pass S6."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Tumor progression after first line therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": ["Exablate BBBD focused ultrasound (device)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Adult glioblastoma subjects that are planned for carboplatin chemotherapy will be considered for study enrollment."},
+        {"field": "interventions", "quote": "Carboplatin infusion on the day of Exablate BBBD procedure to treat cancerous cells in the brain"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Described as the planned therapy patients are undergoing (background), but it is a registered study drug in the single experimental arm; could be experimental_monotherapy."}
+    },
+    {
+      "agent_name_registered": "Microbubbles (ultrasound contrast agent)",
+      "active_moiety": "perflutren",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "Assessment of Safety and Feasibility of Exablate Blood-Brain Barrier Disruption (BBBD) With Microbubbles for the Treatment of Recurrent Glioblastoma (rGBM)"},
+        {"field": "eligibility", "quote": "Known sensitivity or contraindications to ultrasound contrast agent or perflutren"}
+      ],
+      "delivery_enabling": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast agent (microbubbles) used with focused ultrasound for BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Not a registered intervention; inferred from title and exclusion criteria. Purpose is delivery enabling (BBB opening), not symptom control; no fitting role, coded supportive."}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase 1/2 single-arm device study (InSightec Exablate focused ultrasound + microbubbles for BBB disruption) in recurrent GBM patients receiving carboplatin. Primary outcomes are safety and BBB opening on contrast MRI. Coded as excluded intervention type (device) with carboplatin as background; flagged for adjudication."
+}

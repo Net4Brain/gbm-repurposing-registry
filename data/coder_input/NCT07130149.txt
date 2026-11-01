@@ -1,0 +1,132 @@
+NCT ID: NCT07130149
+### title
+Sonodynamic-Chemoradiotherapy Integration in Glioblastoma
+Official: Clinical Investigation of Sonodynamic Therapy in Conjunction With Chemoradiotherapy for Glioblastoma Management
+
+### conditions
+Glioblastoma (GBM)
+
+### keywords
+Glioblastoma (GBM); Sonodynamic Therapy (SDT); Chemoradiotherapy; Temozolomide
+
+### brief_summary
+This Phase II trial tests if sonodynamic therapy (SDT)-a non-invasive treatment using ultrasound to activate a cancer-killing drug-improves outcomes for newly diagnosed glioblastoma patients.
+
+Who? 230 adults (\<75 years) with confirmed glioblastoma, adequate organ function, no major health issues.
+
+Groups:
+
+Test Group: SDT + standard therapy (radiation, chemo, bevacizumab). Control Group: Standard therapy alone.
+
+Procedure:
+
+SDT uses the drug Hiporfin® followed by focused ultrasound sessions. Patients avoid sunlight for 1 month.
+
+Study Duration:
+
+Treatment: \~6-8 weeks. Follow-up: 24 months (monthly MRIs).
+
+Key Goal:
+
+Compare progression-free survival (time until tumor worsens) between groups. Secondary goals: overall survival, safety.
+
+### detailed_description
+Detailed Description
+
+This single-center, randomized, open-label Phase II trial evaluates the synergistic efficacy and safety of sonodynamic therapy (SDT) combined with standard chemoradiotherapy in newly diagnosed glioblastoma (GBM). While the Brief Summary outlines the trial's scope, this section elaborates on mechanistic, methodological, and analytical nuances not captured elsewhere.
+
+Scientific Rationale SDT leverages low-intensity, low-frequency focused ultrasound (LILFU) (800 kHz-1 MHz, 1-1.25 W/cm²) to activate the sonosensitizer Hiporfin® (5 mg/kg), generating cytotoxic reactive oxygen species (ROS) selectively within tumor cells. Preclinical data demonstrate SDT disrupts mitochondrial function, enhances DNA damage from temozolomide, and promotes immunogenic cell death. This trial builds on Phase I results (unpublished) showing SDT induced tumor shrinkage in recurrent GBM with minimal toxicity.
+
+Intervention Specifics
+
+SDT Protocol:
+
+Timing: Initiated 40 hours post-Hiporfin® administration to optimize tumor drug accumulation.
+
+Ultrasound Parameters:
+
+Frequency: 800 kHz-1 MHz (adjustable for tumor depth). Intensity: 1-1.25 W/cm² (below cavitation threshold to minimize tissue damage). Duration: 15 minutes/session, repeated at 24h, 48h, and 72h. Localized Delivery: Adults receive Hiporfin® via intra-arterial infusion (maximizing tumor uptake); children receive intravenous dosing (safety precaution).
+
+Standard Therapy:
+
+Radiation: 50-54 Gy in 1.8-2 Gy fractions (25 sessions). Temozolomide: 75 mg/m²/day concurrent with radiation; escalated to 150-200 mg/m²/day post-radiation.
+
+Bevacizumab: 7.5-10 mg/kg every 3 weeks (angiogenesis inhibition). Methodological Rigor Stratified Randomization: Patients are stratified by tumor location (supratentorial vs. deep midline), size (\<4 cm vs. ≥4 cm), and residual post-surgical volume to balance prognostic factors.
+
+Imaging Protocol: MRI scans (T1-weighted with contrast, FLAIR) are standardized across timepoints (baseline, monthly post-treatment) and analyzed centrally using 3D volumetric segmentation to reduce inter-rater variability.
+
+Safety Monitoring:
+
+Phototoxicity Mitigation: Strict 30-day light avoidance protocol with ambient light levels monitored.
+
+Real-Time AE Tracking: Adverse events (e.g., skin reactions, CNS edema) are graded per WHO criteria and managed via a pre-specified escalation algorithm.
+
+Statistical Analysis Primary Endpoint: Progression-free survival (PFS) analyzed via stratified log-rank test (α=0.05, two-sided), adjusting for stratification factors.
+
+Secondary Endpoints:
+
+Overall survival (OS) analyzed using Weibull parametric survival models. Tumor control rate (CR+PR+SD) assessed via RECIST 1.1 with RANO criteria for neurologic tumors.
+
+Exploratory Analysis: Biomarker correlation (EGFR expression, ROS levels) with SDT response using multiplex IHC and RNA sequencing.
+
+Innovation \& Impact
+
+This trial is the first to integrate SDT with standard GBM therapy in a randomized design. If successful, SDT could address critical unmet needs:
+
+Non-invasive targeting of deep/inoperable tumors. ROS-mediated chemo/radio-sensitization to overcome treatment resistance. Reduced neurotoxicity vs. traditional therapies.
+
+### design
+Phase: PHASE2; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] SDT + Standard Therapy: Hematoporphyrin 5 mg/kg.Sonodynamic therapy is administered 40 hours later, twice a day with an interval of 10-12 hours, for 5 consecutive days. One cycle lasts 28 days, and a total of 4-6 cycles are conducted Radiotherapy: The dose is 50-54 Gy, 1.8-2 Gy per day, 5 times a week, for a total of 25 sessions Chemotherapy: When temozolomide is administered concurrently with radiotherapy, the dose is 75 mg/m² per day, taken daily until the end of radiotherapy. For adjuvant chemotherapy with temozolomide, the dose is 150 mg/m² per day from day1to day 5, followed by a 23-day rest period. Each cycle lasts 28 days. If well-tolerated, the dose should be adjusted to 200 mg/m² per day for the 2nd - 6th cycles Targeted Therapy: Bevacizumab 7.5-10 mg/kg, once every 3 weeks, for a total of 4-6 courses (interventions: Procedure: Sonodynamic Therapy (SDT); Other: Standard Treatment)
+- [ACTIVE_COMPARATOR] Standard Therapy: Radiotherapy: The dose is 50-54 Gy, 1.8-2 Gy per day, 5 times a week, for a total of 25 sessions Chemotherapy: When temozolomide is administered concurrently with radiotherapy, the dose is 75 mg/m² per day, taken daily until the end of radiotherapy. For adjuvant chemotherapy with temozolomide, the dose is 150 mg/m² per day from day 1 to day 5, followed by a 23 - day rest period. Each cycle lasts 28 days. If well - tolerated, the dose should be adjusted to 200 mg/m² per day for the 2nd - 6th cycles Targeted Therapy: Bevacizumab 7.5-10 mg/kg, once every 3 weeks, for a total of 4-6 courses (interventions: Other: Standard Treatment)
+
+### interventions
+- [PROCEDURE] Sonodynamic Therapy (SDT): SDT: Hematoporphyrin 5 mg/kg.Sonodynamic therapy is administered 40 hours later, twice a day with an interval of 10-12 hours, for 5 consecutive days. One cycle lasts 28 days, and a total of 4-6 cycles are conducted.
+- [OTHER] Standard Treatment: Radiotherapy: The dose is 50-54 Gy, 1.8-2 Gy per day, 5 times a week, for a total of 25 sessions Chemotherapy: When temozolomide is administered concurrently with radiotherapy, the dose is 75 mg/m² per day, taken daily until the end of radiotherapy. For adjuvant chemotherapy with temozolomide, the dose is 150 mg/m² per day from day 1 to day 5, followed by a 23 - day rest period. Each cycle lasts 28 days. If well - tolerated, the dose should be adjusted to 200 mg/m² per day for the 2nd - 6th cycles Targeted Therapy: Bevacizumab 7.5-10 mg/kg, once every 3 weeks, for a total of 4-6 courses
+
+### eligibility
+Ages: CHILD, ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+1. Signed informed consent form;
+2. Age \< 75 years;
+3. Newly diagnosed postoperative glioblastoma patients pathologically confirmed as glioblastoma;
+4. Absence of severe hematopoietic dysfunction or cardiac, pulmonary, hepatic, renal abnormalities, or immunodeficiency. Pre-enrollment laboratory results must meet the following:
+
+   * Hematology:
+
+     * White blood cell count ≥4×10⁹/L
+     * Absolute neutrophil count ≥1.5×10⁹/L
+     * Platelets ≥100×10⁹/L
+     * Hemoglobin ≥90g/L
+   * Renal function:
+
+     * Serum creatinine ≤1.2mg/dL or creatinine clearance ≥60mL/min
+   * Hepatic function:
+
+     * Total bilirubin ≤1.5×ULN (≤3.0×ULN if liver metastasis present)
+     * AST/ALT ≤2.0×ULN (≤5.0×ULN if liver metastasis present)
+   * Coagulation:
+
+     * INR ≤2.0, with PT, APTT, and TT within normal ranges;
+5. Life expectancy ≥3 months;
+6. Adverse reactions from prior anti-tumor therapy recovered to ≤ Grade 1, or complete recovery from surgery (Investigator's judgment);
+7. Fertile females and all male subjects must agree to use highly effective contraception (condoms, sponges, gels, diaphragms, IUDs, oral/injectable contraceptives, or implants) during the trial and for 12 months after last Hematoporphyrin use. Fertile females must have negative pregnancy test within ≤7 days before investigational product administration.
+
+Exclusion Criteria:
+
+1. Recurrent glioblastoma, brainstem tumors, or glioblastoma patients having received postoperative chemoradiotherapy;
+2. Hypersensitivity to photosensitizers;
+3. Uncontrolled infections, refractory epilepsy, and/or intracranial hypertension, and/or hypertension, and/or hyperglycemia;
+4. HIV infection, active hepatitis B (HBsAg positive with HBV DNA positive), or hepatitis C (HCV antibody positive);
+5. Other malignancies within 5 years without effective control (excluding cervical carcinoma in situ, cutaneous squamous cell carcinoma, or localized basal cell skin cancer);
+6. Other Investigator-assessed contraindications for trial participation.
+
+### outcomes
+- [primaryOutcomes] Progression - free survival (PFS): 
+- [secondaryOutcomes] Overall survival time:
+
+### sponsor
+Lead: Yingjuan Zheng; collaborators:

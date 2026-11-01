@@ -1,0 +1,71 @@
+NCT ID: NCT05565521
+### title
+UNITy-BasED MR-Linac Adaptive Simultaneous Integrated Hypofractionated Boost Trial for High Grade Glioma in the Elderly
+Official: UNITy-BasED MR-Linac Adaptive Simultaneous Integrated Hypofractionated Boost Trial for High Grade Glioma in the Elderly
+
+### conditions
+Glioblastoma Multiforme, Adult; Glioblastoma, IDH-mutant
+
+### keywords
+(not provided)
+
+### brief_summary
+The usual standard of care for patients over 65 diagnosed with glioblastoma ("GBM") or Grade 4 astrocytoma, IDH-mutant is a 3-week course of radiotherapy, with concurrent and adjuvant temozolomide (TMZ). This radiation dose and length of treatment are less than what would be given for younger patients, primarily due to unclear survival benefits from randomized trials. However, survival remains dismal, and may be partially due to the reduced radiation dose. Recent studies investigating this have found that increased radiation dose (to the equivalent of what is normally given over 6 weeks in younger patients) over 3 weeks is well-tolerated and has improved survival rates.
+
+Additionally, with the advent of novel technology such as the MR-Linac, adaptive radiotherapy with this regimen using reduced radiation margins is possible. Use of the MR-Linac allows for daily MRI scans to be done prior to treatment, so plans can be adapted to tumour dynamics and anatomical deformations. In this trial, we will examine the outcomes of increased radiation dose, combined with reduced-margin adaptive radiotherapy in this patient population.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: PHASE2; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Treatment Arm: Concurrent dose-escalated chemoradiation with temozolomide (TMZ) on the MR-Linac with weekly adaptation (interventions: Radiation: Dose escalation + Reduced Margin Adaptive Radiotherapy)
+
+### interventions
+- [RADIATION] Dose escalation + Reduced Margin Adaptive Radiotherapy: Concurrent chemoradiation with temozolomide (TMZ) over 3 weeks (40 Gy in 15 fractions). The gross tumor volume (GTV) plus margin will be boosted simultaneously (SIB) to 52.5 Gy in 15 fractions. Radiation will be delivered on the MR-Linac with a reduced clinical target volume (CTV) margin of minimum 5 mm and a weekly online adaptive approach.
+
+### eligibility
+Ages: OLDER_ADULT
+Inclusion Criteria:
+
+* Patient age ≥ 65 years
+* Histopathologically confirmed, based on biopsy or surgical resection, glioblastoma or WHO grade 4 astrocytoma, IDH-mutant
+* Biopsy or surgical resection performed ≤ 6 weeks prior to study entry
+* Deemed suitable by the treating physicians for 15 daily fractions of radiation, delivered daily over 3 weeks, with concurrent temozolomide chemotherapy
+* Expected survival ≥ 12 weeks
+* ECOG performance status of 0, 1 or 2
+* Able (sufficiently fluent in English) and willing to complete QOL questionnaires; however, inability to complete the questionnaires will not make the patient ineligible for the study
+* Sufficient estimated glomerular filtration rate (eGFR) of ≥ 30 mL/min/1.73 m2 to allow administration of gadolinium-based contrast agent; patients with eGFR \< 30 mL/min/1.73 m2 not on dialysis may be allowed on the study after discussion of risks and benefits and approval by study neuroradiologist(s)
+* Completed written informed consent
+* Patient must be accessible for treatment and follow-up
+
+Exclusion Criteria:
+
+* Contraindications to MRI as per standard MRI screening policy
+* Contraindication to Gadolinium-based contrast media
+* Inability to lie flat in a supine position for at least 90 minutes
+* Inability to tolerate immobilization in a head thermoplastic mask
+* Patients \> 140 kg and/or a circumference \> 60 cm
+* Prior dose-limiting cranial irradiation
+* T1w post-gadolinium enhancing disease involving the brainstem
+* Leptomeningeal dissemination of disease
+* Patients with any condition (e.g. psychological, geographical, etc.) that does not permit compliance with the protocol
+
+### outcomes
+- [primaryOutcomes] Progression-free survival at 6 months following chemoradiation: 
+- [secondaryOutcomes] Overall survival: The time interval between study start date and date of death from any cause
+- [secondaryOutcomes] Progression-free survival: The time interval between study start date and date of disease progression or death, whichever comes first
+- [secondaryOutcomes] Local control: As assessed on imaging using the Response Assessment Criteria for High-Grade Gliomas (RANO-HGG)
+- [secondaryOutcomes] Patterns of Failure: The risk of local, marginal, and distant failure at the time of progression
+- [secondaryOutcomes] Toxicity and Health-related Quality of Life Changes based on the EORTC QLQ-C30: Adverse events and changes in quality of life before, during, and after chemoradiation therapy
+- [secondaryOutcomes] Toxicity and Health-related Quality of Life Changes based on the EORTC QLQ-BN20: Adverse events and changes in quality of life before, during, and after chemoradiation therapy
+- [secondaryOutcomes] Compare differences in adaptive vs non-adaptive with regards to treatment volume: Differences in treatment volume using adaptive vs. non-adaptive treatment planning will be compared
+- [secondaryOutcomes] Compare differences in adaptive vs non-adaptive with regards to organ-at-risk doses: Differences in dosing to organs-at-risk using adaptive vs. non-adaptive treatment planning will be compared
+- [secondaryOutcomes] Compare differences in adaptive vs non-adaptive with regards to cumulative dose: Differences in cumulative dose of radiation using adaptive vs. non-adaptive treatment planning will be compared
+- [secondaryOutcomes] Compare differences in adaptive vs non-adaptive with regards to length of radiation treatment time: Differences in time for radiation treatment using adaptive vs. non-adaptive treatment planning will be compared
+- [secondaryOutcomes] Functional Imaging Kinetics as a Correlate of Treatment Response: Temporal changes of functional imaging metrics will be correlated with clinical outcomes
+
+### sponsor
+Lead: Sunnybrook Health Sciences Centre; collaborators:

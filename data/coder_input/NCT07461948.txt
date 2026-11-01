@@ -1,0 +1,67 @@
+NCT ID: NCT07461948
+### title
+Advanced Imaging Techniques for Evaluating the Tumor Immune Microenvironment in Glioblastoma Patients
+Official: Advanced MRI for Visualization and Quantification of the Tumor Immune Microenvironment (TIME) in Glioblastoma
+
+### conditions
+Glioblastoma
+
+### keywords
+(not provided)
+
+### brief_summary
+This phase III trial is evaluating whether a combination of three advanced magnetic resonance imaging (MRI) techniques, including chemical exchange saturation transfer (CEST) MRI, diffusion-relaxation correlation spectrum imaging (DR-CSI), and ferumoxytol-enhanced magnetic resonance imaging (Fe-MRI) are effective as non-invasive methods for assessing the cells and proteins that surround and interact with tumor cells (the tumor immune microenvironment) in patients with glioblastoma. Researchers understand that some types of brain tumors are harder to treat than others, but the reasons for this are not known in many cases. CEST MRI uses differences in the tissue microenvironment, like protein concentration or intracellular pH, to generate contrast differences. DR-CSI detects microstructural changes in tissue associated with immune cells infiltrating the tumor. Fe-MRI uses ferumoxytol as a contrast agent with MRI. Contrast agents are substances that are injected into the body and taken up by certain tissues, making the tissues easier to see in imaging scans. More advanced imaging techniques like CEST, DR-CSI, and Fe-MRI may offer less invasive methods than surgery or biopsy for helping researchers understand the tumor immune microenvironment in patients with glioblastoma, which may help researchers determine why some tumors are more resistant to treatment.
+
+### detailed_description
+PRIMARY OBJECTIVE:
+
+I. To establish the biological validation of advanced MRI as a non-invasive imaging modality for assessing the tumor immune microenvironment (TIME) in glioma.
+
+SECONDARY OBJECTIVES:
+
+I. Conduct more detailed correlation explorations focusing on relevant subpopulations, such as cluster of differentiation 4 (CD4+) versus ( cluster of differentiation 8 (CD8+) T cells and M1- versus M2-like tumor-associated macrophages (TAMs).
+
+II. Perform exploratory correlation analysis between tumor-averaged imaging measures with systemic immunological markers (T cell activation and interferon pathway signaling), to improve our understanding of the relationship between local tissue immune environment and systemic immune response in glioma patients.
+
+OUTLINE:
+
+Patients undergo research CEST MRI and DR-CSI over 30 minutes at research visit 1, up to 28 days before standard of care surgery/biopsy. Following research CEST MRI and DR-CSI at research visit 1, patients receive ferumoxytol intravenously (IV) over 10-15 minutes. Approximately 24-48 hours later, patients undergo Fe-MRI over 15 minutes at research visit 2. Patients also undergo standard of care clinical MRI and collection of blood samples on study.
+
+After completion of study intervention, patients are followed up until death.
+
+### design
+Phase: PHASE3; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Diagnostic (CEST MRI, DR-CSI, Fe-MRI): Patients undergo research CEST MRI and DR-CSI over 30 minutes at research visit 1, up to 28 days before standard of care surgery/biopsy. Following research CEST MRI and DR-CSI at research visit 1, patients receive ferumoxytol IV over 10-15 minutes. Approximately 24-48 hours later, patients undergo Fe-MRI over 15 minutes at research visit 2. Patients also undergo standard of care clinical MRI and collection of blood samples on study. (interventions: Procedure: Biospecimen Collection; Procedure: Chemical Exchange Saturation Transfer Magnetic Resonance Imaging; Procedure: Diffusion-Relaxation Correlation Spectrum Imaging; Other: Electronic Health Record Review; Drug: Ferumoxytol; Radiation: Magnetic Resonance Imaging)
+
+### interventions
+- [PROCEDURE] Biospecimen Collection (other names: Biological Sample Collection, Biospecimen Collected, Specimen Collection): Undergo collection of blood samples
+- [PROCEDURE] Chemical Exchange Saturation Transfer Magnetic Resonance Imaging (other names: Chemical Exchange Saturation Transfer MRI): Undergo CEST MRI
+- [PROCEDURE] Diffusion-Relaxation Correlation Spectrum Imaging (other names: Diffusion-Relaxation Correlation Spectroscopic Imaging, DR-CSI): Undergo DR-CSI
+- [OTHER] Electronic Health Record Review: Ancillary studies
+- [DRUG] Ferumoxytol (other names: Feraheme, Ferumoxytol Non-Stoichiometric Magnetite): Given IV
+- [RADIATION] Magnetic Resonance Imaging (other names: Magnetic Resonance, Magnetic Resonance Imaging (MRI), Magnetic resonance imaging (procedure), Magnetic Resonance Imaging Scan, Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance, MR, MR Imaging, MRI, MRI Scan, MRIs, NMR Imaging, NMRI, Nuclear Magnetic Resonance Imaging, sMRI, Structural MRI): Undergo MRI
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Male or female ≥ 18 years of age
+* Documentation of a confirmed or suspected diagnosis of glioblastoma
+* The participant is scheduled to undergo standard of care surgical tumor resection and/or biopsy
+* The participant has a measurable contrast-enhancing lesion (\> 1ml) based on the most recent MRI prior to resection/biopsy
+
+Exclusion Criteria:
+
+* Presence of a condition or abnormality that in the opinion of the investigator would compromise the safety of the patient or the quality of the data
+* Individuals who cannot tolerate MRI scan, or with contraindication to 3-Tesla (3T) MRI
+* Any abnormalities that would be a contraindication to iron-oxide nanoparticle-based contrast agent. Medical history will be gathered from the patient and clinical chart. The information will be reviewed with medical professionals (Doctor of Medicine \[MD\]) to determine the eligibility of the patient
+
+### outcomes
+- [primaryOutcomes] Mean diffusion-relaxation correlation spectrum imaging (DR-CSI) value: Mean DR-CSI values will be correlated with T cell densities. Pearson's or Spearman's correlation coefficients will be used depending on variable distributions.
+- [primaryOutcomes] Ferumoxytol-enhanced magnetic resonance imaging (Fe-MRI) measures: Fe-MRI measures will be correlated with tumor-associated macrophage densities and iron staining concentration. Pearson's or Spearman's correlation coefficients will be used depending on variable distributions.
+- [primaryOutcomes] Chemical exchange saturation transfer (CEST) values: CEST values will be correlated with tumor burden and immune suppression markers. Pearson's or Spearman's correlation coefficients will be used depending on variable distributions.
+
+### sponsor
+Lead: Jonsson Comprehensive Cancer Center; collaborators: National Center for Advancing Translational Sciences (NCATS)

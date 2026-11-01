@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT04397679",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade IV glioma (gliosarcoma allowed)"}
+    ],
+    "gbm_population_flag": {"uncertain": false, "reason": "Eligibility says 'grade IV glioma' but title, conditions and summary refer only to glioblastoma/gliosarcoma."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Chloroquine is normally used to treat strains of malaria and prior preclinical and clinical data suggests that it may increase the efficacy of both radiation and tumor treating fields therapy."},
+      {"field": "interventions", "quote": "[DRUG] Chloroquine (other names: 54-05-7): Given PO"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade IV glioma (gliosarcoma allowed)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy (3D CRT or IMRT)", "tumor treating fields (device)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chloroquine",
+      "active_moiety": "chloroquine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "receive temozolomide orally (PO) and chloroquine PO daily from day 1 for the duration of radiation therapy up to day 49"},
+        {"field": "brief_summary", "quote": "prior preclinical and clinical data suggests that it may increase the efficacy of both radiation and tumor treating fields therapy"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial (4-aminoquinoline)",
+      "stated_antitumour_mechanism": "may increase the efficacy of both radiation and tumor treating fields therapy",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Beginning 4 weeks after the last day of radiation therapy, patients receive temozolomide PO once daily (QD) on days 1-5 and chloroquine PO daily on days 1-28."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm pilot (phase 1): partial-brain RT + TMZ + chloroquine, then TTFields + TMZ + chloroquine in newly diagnosed GBM. Chloroquine is the only investigational drug (radiation/TTF sensitiser). AMT-PET and advanced MRI are imaging endpoints only, not recorded as molecular biomarkers. TTFields is a device partner."
+}

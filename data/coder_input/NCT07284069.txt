@@ -1,0 +1,102 @@
+NCT ID: NCT07284069
+### title
+Senicapoc and Perampanel for Newly Diagnosed Glioblastoma
+Official: Phase 0/1 Randomized Clinical Trial of SENIcapoc and PERAmpanel Mono- and Combination Therapy of Newly Diagnosed Glioblastoma
+
+### conditions
+Glioblastoma
+
+### keywords
+glioblastoma; senicapoc; perampanel; early-phase; cancer neuroscience; neuro-oncology; window-of-opportunity trial; pacemaker cells
+
+### brief_summary
+Glioblastoma is the most common and aggressive form of brain cancer in adults. Despite surgery, radiotherapy, and chemotherapy, most patients only live about one year after diagnosis. There is an urgent need for new and better treatments.
+
+Recent research has shown that glioblastoma cancer cells communicate with surrounding brain cells through electrical signals that help the tumor grow and resist treatment. Two existing drugs, perampanel (used for epilepsy) and senicapoc (previously tested for blood disorders), may block these harmful signals. Laboratory studies suggest that combining these two drugs could slow tumor growth and make cancer cells more sensitive to standard therapy.
+
+The SENIPERA trial will test whether perampanel and senicapoc, alone and in combination, are safe and well tolerated when added to standard treatment for newly diagnosed glioblastoma. The study will also measure how well these drugs reach the brain and tumor, and how they affect tumor biology.
+
+The study has two parts:
+
+Part A: Tests different doses of senicapoc alone to find the maximum tolerable dose.
+
+Part B: Randomly assigns patients to receive either perampanel alone or perampanel together with senicapoc.
+
+Participants will all receive standard therapy, including surgery, radiochemotherapy, and adjuvant chemotherapy. During surgery, small samples of tumor and fluid will be collected safely to study how the drugs act in the body and how tumor cells respond. Participants will be closely monitored for side effects and followed with regular clinical visits and MRI scans.
+
+The trial will take place at Aarhus University Hospital, Denmark, from February 2026 to November 2028 and will enroll 27-36 adult patients. The study aims to identify safe and biologically active treatment combinations that could be tested in larger trials to improve future glioblastoma care.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: EARLY_PHASE1; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [ACTIVE_COMPARATOR] Senicapoc monotherapy (Group 1): Dose escalation will follow a conventional 3 + 3 design to establish the maximum tolerated dose of senicapoc monotherapy, starting at the lowest dose level (DL 1) and proceeding stepwise according to observed dose-limiting toxicities. The maximum tolerable dose is defined as the highest dose level at which fewer than two of six patients experience a dose-limiting toxicity during the first four weeks of treatment. Senicapoc will be administered orally twice daily from the day of inclusion (Days 1-2) and continued until 30 days after completion of radiochemotherapy (approximately day 120-130). (interventions: Drug: senicapoc)
+- [ACTIVE_COMPARATOR] Perampanel monotherapy (Group 2): Perampanel dose-escalation will begin at 2 mg once daily and increase by 2 mg per week up to a maximum of 10 mg/day, depending on individual tolerability. (interventions: Drug: Perampanel)
+- [ACTIVE_COMPARATOR] Senicapoc and perampanel combination therapy (Group 3): Patients will receive senicapoc at the maximum tolerable dose defined in Group 1 in Part A, together with perampanel titrated as described for Group 2. (interventions: Drug: senicapoc; Drug: Perampanel)
+
+### interventions
+- [DRUG] senicapoc: Senicapoc (ICA-17043) is a selective blocker of the intermediate-conductance calcium-activated potassium channel KCa3.1.
+- [DRUG] Perampanel: Perampanel (Fycompa®) is a non-competitive AMPA-receptor antagonist approved for the treatment of focal and generalized tonic-clonic seizures.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+1. Age 18 years or older
+2. Presumed GBM as determined by an expert multidisciplinary neuro-oncological tumor board, including participants from neurosurgery, neuro-oncology, neurology, and neuroradiology. The assessment should be based on a whole-brain MRI according to the consensus recommendations for a standardized brain tumor imaging protocol in clinical trials, not older than 4 weeks from the assessment
+3. Eligibility for surgical resection and planned postoperative concomitant radiochemotherapy and adjuvant chemotherapy according to the Stupp regimen
+4. Eligible for safe postponement of surgery for 14 days from enrollment
+5. Life expectancy \> 3 months
+6. WHO Performance Status ≤ 2.
+7. Ability to provide written informed consent.
+8. Use of validated anti-conception for fertile female participants in concordance with guidelines provided by the Danish health and medicines authority.
+9. Signed written consent form.
+
+Exclusion Criteria:
+
+1. Pregnancy or nursing. Fertile female participants will be required to take a validated pregnancy test for evaluation of pregnancy.
+2. Previous treatment with or allergic reaction to perampanel or senicapoc.
+3. Contraindications for senicapoc or perampanel treatment.
+4. Previous malignancy with completion of treatment within five years before inclusion, except for basal cell carcinoma.
+5. Concomitant intake of enzyme-inducing antiepileptic drugs (carbamazepine, phenytoin, phenobarbotal, or primidon).
+6. Significant co-morbidities, i.e.
+
+   1. Significant liver function impairment (ALAT \> 210 umol/L for men and \> 135 umol/L for women or total bilirubin \> 25 umol/L)
+   2. Significant renal impairment (eGFR \< 60 mL)
+   3. Coagulopathy (INR \> 1.8 or APTT \> 57s)
+   4. Thrombocytopenia (platelet count \< 100 x 103/μL = 100 x 109/L)
+   5. Neutropenia (ANC \< 1.5 x 103/μL = 1.5 x 109/L)
+   6. Anemia (Hb \< 10 g/L = 6.0 mmol/l)
+   7. Severe cognitive impairment.
+7. Active participation in another therapeutic interventional clinical trial.
+8. Any condition that might affect the absorption, distribution, metabolism, or excretion of the trial drugs (including malabsorption states as Whipple's disease, short bowel syndrome, etc.).
+
+### outcomes
+- [primaryOutcomes] Maximum tolerable dose of senicapoc monotherapy (mg): The primary endpoint of the study's Part A will be the maximum tolerable dose of senicapoc monotherapy (milligrams, first four weeks) when added to standard-of-care therapy.
+- [primaryOutcomes] Number of patients in each group (2 and 3) excluded from the study due to intolerability when exposed to perampanel at the lowest dose (2 mg): The primary endpoint of Part B is the number of patients in each group (2 and 3) excluded from the study due to intolerability when exposed to perampanel at the lowest dose (2 mg) within the first 6 weeks of treatment.
+- [secondaryOutcomes] Incidence and severity of adverse events: Safety will be measured as the risk of adverse events and serious adverse events in each group, evaluated continuously from inclusion until \~30 days after patient exclusion, graded by Common Terminology Criteria for Adverse Events version 5.0 and tabulated by type, grade, and attribution.
+- [secondaryOutcomes] Overall survival: Overall survival is defined as the time from randomization to death from any cause. Patients still alive at End-of-trial or lost to follow-up will be censored at the date of last contact. End-of-trial is defined as 1 year after the last patient completes treatment in Part B, with an estimated maximum follow-up of approximately 24 months per participant.
+- [secondaryOutcomes] Progression-free survival: Progression-free survival is defined as the time from randomization to first documented disease progression according to RANO 2.0 criteria or death from any cause, whichever occurs first. Patients without progression or death at End-of-trial or lost to follow-up will be censored at the date of last contact. End-of-trial is defined as 1 year after the last patient completes treatment in Part B, with an estimated maximum follow-up of approximately 24 months per participant.
+- [secondaryOutcomes] Objective response rate: Objective response rate is defined as the proportion of patients achieving complete or partial response according to RANO 2.0 criteria. Response is assessed relative to the postoperative baseline MRI obtained within 48 hours after surgery. Patients without a documented response at End-of-trial or lost to follow-up will be censored at the date of last contact. End-of-trial is defined as 1 year after the last patient completes treatment in Part B, with an estimated maximum follow-up of approximately 24 months per participant.
+- [secondaryOutcomes] Tumor volume: Tumor volume will be quantified based on manual or semiautomated segmentation of T2 FLAIR hyperintense and T1 contrast-enhancing lesions. Preoperative tumor volumes obtained approximately on day 10-14 will be compared to baseline postoperative MRI volumes obtained within 48 hours after surgery. Postoperative tumor volumes assessed on follow-up MRIs will be compared to this postoperative baseline. Aggregated volumes and volume changes compared to baseline will be reported for each time-point.
+- [secondaryOutcomes] Perampanel dose levels: In Part B, the mean maximum tolerated daily dose of perampanel achieved during the first six weeks of treatment will be recorded for each participant and compared between groups 2 (perampanel monotherapy) and 3 (perampanel + senicapoc).
+- [otherOutcomes] Peak plasma concentration (Cmax) of senicapoc: Cmax of senicapoc measured in serial blood samples using validated UHPLC-MS/MS methods. Samples are collected at predefined visits throughout the treatment period
+- [otherOutcomes] Peak plasma concentration (Cmax) of perampanel: Cmax of perampanel measured in serial blood samples using validated HPLC-MS methods. Samples are collected at predefined visits throughout the treatment period.
+- [otherOutcomes] Area under the plasma concentration-time curve (AUC) of senicapoc: AUC of senicapoc measured in serial blood samples using validated UHPLC-MS/MS methods. Samples are collected at predefined visits throughout the treatment period.
+- [otherOutcomes] Area under the concentration-time curve (AUC) of perampanel: AUC of perampanel measured in serial blood samples using validated HPLC-MS methods. AUC will be estimated using non-compartmental analysis based on predefined serial blood sampling throughout the treatment period.
+- [otherOutcomes] Elimination half-life (t½) of senicapoc: Elimination half-life (t½) of senicapoc estimated from serial blood concentrations using validated UHPLC-MS/MS methods and non-compartmental pharmacokinetic analysis.
+- [otherOutcomes] Elimination half-life (t½) of perampanel: Elimination half-life (t½) of perampanel estimated from serial blood concentrations using validated HPLC-MS methods and non-compartmental pharmacokinetic analysis.
+- [otherOutcomes] Senicapoc and perampanel concentrations in cerebrospinal fluid (CSF): CSF concentrations of senicapoc and perampanel measured using validated analytical methods. CSF samples are collected at predefined postoperative time points and compared with plasma levels.
+- [otherOutcomes] Senicapoc and perampanel concentrations in tumor and peritumoral brain tissue: Concentrations of senicapoc and perampanel in tumor tissue and peritumoral brain tissue obtained during surgery and quantified using validated analytical methods. Tissue concentrations will be compared with matched plasma and cerebrospinal fluid levels.
+- [otherOutcomes] Molecular biomarker status: MGMT-promotor methylation status: MGMT-promotor methylation status evaluated from resected tumor tissue.
+- [otherOutcomes] Molecular biomarker status: CHI3L1-conductivity score: CHI3L1-conductivity score evaluated from resected tumor tissue.
+- [otherOutcomes] Molecular biomarker status: Neural epigenetic signature: Neural epigenetic signatures evaluated from resected tumor tissue.
+- [otherOutcomes] Proportion of cellular subtypes in tumor and peritumoral tissue: Proportions of glioblastoma cellular subtypes (NPC-like, OPC-like, MES-like, AC-like) will be quantified using single-cell RNA sequencing of tumor core and peritumoral tissue obtained at surgery. Subtype proportions will be compared between treatment groups.
+- [otherOutcomes] Differentially expressed genes in tumor and peritumoral tissue: Differential gene expression profiles in tumor core and peritumoral tissue will be quantified using single-cell RNA sequencing. Differential expression analysis will compare treatment groups and tissue regions using generalized linear mixed models.
+- [otherOutcomes] Expression of resistance-associated transcriptional signatures: Expression levels of predefined transcriptional signatures associated with treatment resistance will be quantified using single-cell RNA sequencing and spatial molecular imaging. Gene Set Enrichment Analysis (GSEA) will be used to identify signature enrichment in tumor core and peritumoral regions.
+
+### sponsor
+Lead: Aarhus University Hospital; collaborators: University of Aarhus, University of Copenhagen

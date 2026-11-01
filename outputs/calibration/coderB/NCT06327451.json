@@ -1,0 +1,113 @@
+{
+ "nct_id": "NCT06327451",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "gbm_only",
+  "gbm_population_evidence": [
+   {
+    "field": "conditions",
+    "quote": "Glioblastoma, IDH-wildtype"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "brief_summary",
+    "quote": "evaluate the clinical efficacy of a comprehensive treatment strategy of atorvastatin (ATO) combined with temozolomide (TMZ)"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "cns5"
+ },
+ "trial": {
+  "treatment_setting": "both",
+  "treatment_setting_evidence": [
+   {
+    "field": "brief_summary",
+    "quote": "in primary and recurrent glioblastomas with high EGFR expression"
+   }
+  ],
+  "regimen": "combination",
+  "combination_partners": [
+   "temozolomide",
+   "radiotherapy"
+  ],
+  "basket": false,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": true,
+   "reason": "Setting stated as primary and recurrent, but arm text describes post-surgery STUPP"
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "Atorvastatin 20mg",
+   "active_moiety": "atorvastatin",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "[EXPERIMENTAL] Atorvastatin administrating group: According to the clinical standard dose of lipid-lowering drugs"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "statin (HMG-CoA reductase inhibitor)",
+   "stated_antitumour_mechanism": "statins can block the malignant progression of glioma mediated by EGFR pathway",
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "agent_name_registered": "Temozolomide (STUPP regimen)",
+   "active_moiety": "temozolomide",
+   "role": "soc_backbone",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "one tablet of liptor was taken orally every night on the basis of STUPP protocol"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "alkylating agent",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "TMZ not listed as an intervention; inferred from STUPP protocol"
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "EGFR_EGFRvIII",
+   "biomarker_other": null,
+   "role": "eligibility",
+   "candidate_matched": true,
+   "matched_agent": "atorvastatin",
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "The immunohistochemical results of postoperative glioma samples showed that EGFR score was 3"
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Link is via stated statin/EGFR-pathway rationale, not a direct EGFR inhibitor"
+   }
+  }
+ ],
+ "coder_notes": "Atorvastatin is the only investigational agent (role rule 4); regimen coded combination because TMZ and RT are given in the experimental arm. Design described as 'double-blind' but single-arm."
+}

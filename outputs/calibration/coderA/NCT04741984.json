@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT04741984",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"
+      },
+      {
+        "field": "conditions",
+        "quote": "Glioblastoma; Glioma, Malignant"
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": false
+    },
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {
+        "field": "interventions",
+        "quote": "[BIOLOGICAL] MT-201-GBM monocyte vaccine: monocytes isolated from patient's leukapheresis loaded with CMV pp65-LAMP (Lysosomal-associated Membrane Protein) mRNA (Messenger Ribonucleic Acid)"
+      },
+      {
+        "field": "detailed_description",
+        "quote": "The investigational vaccine (MT-201-GBM) in this study is made from a type of immune cell called monocytes, which have been engineered to express a cytomegalovirus (CMV) protein."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": false
+    },
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"
+      }
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (TMZ; standard of care, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "Patients will receive a total of 3 intravenous vaccines every 4 weeks after completing standard radiation therapy (XRT) and temozolomide (TMZ) and a single course of dose-intensified TMZ."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "A single course of dose-intensified TMZ precedes the vaccine; it is described as part of the background schedule rather than the subject of investigation, so coded soc_backbone rather than established_therapy_experiment."
+      }
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "MGMT promoter unmethylated (Determined by Caris Life Science pyrosequencing)"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "coder_notes": "Only experimental intervention is an autologous monocyte cell vaccine loaded with CMV pp65-LAMP mRNA (cell therapy / cancer vaccine), an excluded intervention type. Temozolomide is background only. The MT-201-GBM vaccine is not listed in agents because it is not a drug or biologic eligible as a pharmacological agent; adjudicator may wish to add it as a registered biologic."
+}

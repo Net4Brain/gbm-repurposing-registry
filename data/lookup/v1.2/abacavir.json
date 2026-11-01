@@ -1,0 +1,224 @@
+{
+ "moiety": "abacavir",
+ "accessed_utc": "2026-11-01T16:10:53+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020977",
+    "date": "1998-12-17",
+    "brand": [
+     "ZIAGEN"
+    ]
+   },
+   {
+    "application": "NDA020978",
+    "date": "1998-12-17",
+    "brand": [
+     "ZIAGEN"
+    ]
+   },
+   {
+    "application": "NDA021205",
+    "date": "2000-11-14",
+    "brand": [
+     "TRIZIVIR"
+    ]
+   },
+   {
+    "application": "NDA021652",
+    "date": "2004-08-02",
+    "brand": [
+     "EPZICOM"
+    ]
+   },
+   {
+    "application": "NDA205551",
+    "date": "2014-08-22",
+    "brand": [
+     "TRIUMEQ"
+    ]
+   },
+   {
+    "application": "NDA215413",
+    "date": "2022-03-30",
+    "brand": [
+     "TRIUMEQ PD"
+    ]
+   },
+   {
+    "application": "NDA204311",
+    "date": "2023-12-22",
+    "brand": [
+     "ABACAVIR SULFATE AND LAMIVUDINE"
+    ]
+   }
+  ],
+  "first_approval_date": "1998-12-17",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Abacavir and lamivudine tablet, a combination of abacavir and lamivudine, both nucleoside analogue HIV-1 reverse transcriptase inhibitors, is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. ( 1 ) Abacavir and lamivudine tablets, in combination with other antiretroviral agents, are indicated for the treatment of human immunodeficiency virus type 1 (HIV-1) infection.",
+   "1 INDICATIONS AND USAGE Abacavir tablet, a nucleoside analogue human immunodeficiency virus (HIV-1) reverse transcriptase inhibitor, is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. Abacavir tablets USP 300 mg, in combination with other antiretroviral agents, are indicated for the treatment of human immunodeficiency virus (HIV-1) infection.",
+   "1 INDICATIONS AND USAGE Abacavir tablets, in combination with other antiretroviral agents, are indicated for the treatment of human immunodeficiency virus (HIV-1) infection. Abacavir tablets, a nucleoside analogue human immunodeficiency virus (HIV-1) reverse transcriptase inhibitor, are indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. (1)",
+   "1 INDICATIONS AND USAGE Abacavir tablets, in combination with other antiretroviral agents, are indicated for the treatment of human immunodeficiency virus (HIV-1) infection. Abacavir, a nucleoside analogue human immunodeficiency virus (HIV-1) reverse transcriptase inhibitor, is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. ( 1 )",
+   "1 INDICATIONS AND USAGE TRIUMEQ and TRIUMEQ PD are indicated for the treatment of HIV-1 infection in adults and in pediatric patients aged at least 3 months and weighing at least 6 kg. Limitations of Use: TRIUMEQ and TRIUMEQ PD alone are not recommended in patients with resistance\u2011associated integrase substitutions or clinically suspected integrase strand transfer inhibitor (INSTI) resistance because the dose of dolutegravir in TRIUMEQ and TRIUMEQ PD is insufficient in these subpopulations. See full prescribing information for TIVICAY (dolutegravir). TRIUMEQ and TRIUMEQ PD are a combination of dolutegravir (integrase strand transfer inhibitor [INSTI]), abacavir, and lamivudine (both nucleoside analogue reverse transcriptase inhibitors) indicated for the treatment of HIV-1 infection in adults and in pediatric patients aged at least 3 months and weighing at least 6 kg. ( 1 ) Limitations of Use: TRIUMEQ and TRIUMEQ PD alone are not recommended in patients with resistance-associated integrase substitutions or clinically suspected INSTI resistance because the dose of dolutegravir in TRIUMEQ and TRIUMEQ PD is insufficient in these subpopulations. See the dolutegravir prescribing information. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"abacavir\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Ziagen",
+    "status": "Authorised",
+    "authorisation_date": "1999-07-08",
+    "atc": "J05AF06",
+    "therapeutic_area": "HIV Infections",
+    "indication": "Ziagen is indicated in antiretroviral combination therapy for the treatment of Human Immunodeficiency Virus (HIV) infection in adults, adolescents and children. The demonstration of the benefit of Ziagen is mainly based on results of studies performed with a twice daily regimen, in treatment-na\u00efve adult patients on combination therapy. Before initiating treatment with abacavir, screening for carriage of the HLA-B*5701 allele should be performed in any HIV-infected patient, irrespective of racial origin. Abacavir should not be used in patients known to carry the HLA-B*5701 allele.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziagen"
+   }
+  ],
+  "first_authorisation_date": "1999-07-08"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1380",
+  "pref_name": "ABACAVIR",
+  "max_phase": 4.0,
+  "atc": [
+   "J05AF06"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001758,NCT00001766,NCT00044577,NCT00046176,NCT00053638,NCT00078247,NCT00085943,NCT00094367,NCT00118898,NCT00214890,NCT00234091,NCT00270556,NCT00314626,NCT00320307,NCT00338390,NCT00405925,NCT00427297,NCT00428116,NCT00440947,NCT00624195,NCT00765271,NCT00928187,NCT01127204,NCT01153217,NCT01227824,NCT01263015,NCT01366547,NCT01622790,NCT01641809,NCT01656122,NCT01900106,NCT01910402,NCT02075593,NCT02105987,NCT02131025,NCT02182765,NCT02539576,NCT02596334,NCT02893488,NCT02938520,NCT03016533,NCT03760458,NCT03836833,NCT04493216"
+     }
+    ]
+   },
+   {
+    "efo_term": "AIDS",
+    "mesh_heading": "Acquired Immunodeficiency Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001968,NCT01146873,NCT02284035"
+     }
+    ]
+   },
+   {
+    "efo_term": "lipodystrophy",
+    "mesh_heading": "Lipodystrophy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00647946"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00799864,NCT00915655,NCT01352715,NCT02067767,NCT02469246,NCT02603107,NCT02603120,NCT02605954,NCT02607930,NCT04155554"
+     }
+    ]
+   },
+   {
+    "efo_term": "Kaposi's sarcoma",
+    "mesh_heading": "Sarcoma, Kaposi",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00834457"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis C virus infection",
+    "mesh_heading": "Hepatitis C",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01052701"
+     }
+    ]
+   },
+   {
+    "efo_term": "viral disease",
+    "mesh_heading": "Virus Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "J05AF06"
+     }
+    ]
+   },
+   {
+    "efo_term": "lactic acidosis",
+    "mesh_heading": "Acidosis, Lactic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00143702"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00078247"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06428045"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 60,
+  "earliest": {
+   "nct": "NCT00001758",
+   "start": "1997-11",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1998-12-17",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

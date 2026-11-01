@@ -1,0 +1,71 @@
+NCT ID: NCT04545177
+### title
+Improving Understanding of Brain Tumors Through Preservation of Biologically Active Brain Tissue
+Official: Prospective Surgical Study on the Feasibility of Semi-Automated Tissue Collection, Stabilization, Preservation, and Site Transfer - Improving Understanding of Brain Tumors Through Preservation of Biologically Active Brain Tissue
+
+### conditions
+Glioblastoma
+
+### keywords
+(not provided)
+
+### brief_summary
+Recent experiments are giving researchers insight into the changes (mutations) that occur in an individual brain tumor cell compared to a normal cell. Currently, we do not have enough knowledge about how uniform these changes are throughout a single brain tumor and if different regions of a brain tumor have different groupings of changes. By obtaining multiple samples of the tumor from various regions during surgery, it will allow researchers to better understand these changes, with the hope that they will lead to new discoveries in the diagnosis and treatment of brain tumors.
+
+### detailed_description
+This is a single site, interventional cohort study to assess the feasibility of the NICO Myriad and Tissue Preservation System (TPS) to collect and preserve biologically active tissue in 5 prospectively-enrolled participants with Glioblastoma (GBM) undergoing surgical resection.
+
+The primary objective of this study is to assess the viability of tumor tissue obtained by the NICO Myriad and Tissue Preservation System (TPS) via an automated, standardized methodology in participants undergoing surgery
+
+The exploratory objective of this study is to assess the spatial genomic and transcriptomic heterogeneity of GBM tumors in 3 locations via preoperative annotation and stereotactic guidance
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Tissue Preservation System (TPS): Tumor tissue will be obtained, processed, and then transported remotely to undergo multiple tests, including gene panel DNA sequencing, DNA methylation array, and bulk as well as single-cell transcriptome analyses (RNA-seq) (interventions: Device: NICO Myriad and Tissue Preservation System (TPS))
+
+### interventions
+- [DEVICE] NICO Myriad and Tissue Preservation System (TPS): Tumor tissue will be obtained by the NICO Myriad and Tissue Preservation System (TPS) via an automated, standardized methodology
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Participants who have the appearance of high grade glioma on MR imaging are allowed to consent and will undergo the procedure if the frozen is consistent with World Health Organization Grade IV glioma (glioblastoma or gliosarcoma) OR
+* Participants with a history of histologically-confirmed diagnosis of World Health Organization Grade IV glioma (glioblastoma or gliosarcoma) that are undergoing repeat resection of a recurrent tumor as identified on preoperative MR imaging
+* Contrast-enhancing tumor volume of at least 15 cc on the preoperative, volumetric MRI within 1 month prior to surgery
+* Karnofsky performance status of 70 or higher
+* The participant (or legally acceptable representative if applicable) provides written informed consent for the trial.
+* Screening/Baseline laboratory values must meet the following criteria within 1 month prior to surgery:
+
+  * Hematological
+
+    * Absolute neutrophil count (ANC): ≥ 1500/µL
+    * Platelets ≥100 000/µL
+    * Hemoglobin ≥ 9.0 g/dL or ≥5.6 mmol/L ----Criteria must be met without erythropoietin dependency and without packed red blood cell (pRBC) transfusion within last 2 weeks.
+  * Renal
+
+    ---Creatinine OR Measured or calculated creatinine clearance (glomerular filtration rate (GFR) can also be used in place of creatinine or CrCl) ≤ 1.5 × ULN OR ≥30 mL/min for participant with creatinine levels \>1.5 × institutional ULN
+    * Creatinine clearance (CrCl) should be calculated per institutional standard.
+  * Coagulation
+
+    ---International normalized ratio (INR) OR prothrombin time (PT). Activated partial thromboplastin time (aPTT) ≤ 1.5 × upper limit of normal (ULN) unless participant is receiving anticoagulant therapy as long as PT or aPTT is within therapeutic range of intended use of anticoagulants
+  * Miscellaneous
+
+    * Urine or Serum Pregnancy Test ----Negative (Not applicable to patients with bilateral oophorectomy and/or hysterectomy or to those patients who are postmenopausal).
+
+Exclusion Criteria:
+
+* Has a history or current evidence of any medical condition, therapy, or laboratory abnormality that might confound the results of the study, interfere with the subject's participation for the full duration of the study, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.
+* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.
+* Is pregnant.
+
+### outcomes
+- [primaryOutcomes] Feasibility, as measured by percentage of the sample deemed viable by flow cytometry: Flow cytometry will be performed to quantify viable cells in a cell suspension. This will be reported as a percentage of live cells of the population
+- [otherOutcomes] Number of somatic mutations per region: Comparison of mutational burden in each tumor region, with the number of somatic mutations per region compared to one another
+- [otherOutcomes] Gene expression in tumor regions: Comparison of gene expression in each tumor region via RNA-seq, with the readout being heatmaps of gene expression and quantified via differential gene expression
+- [otherOutcomes] DNA methylation status in tumor regions: Comparison of DNA methylation status between tumor regions, with the readout being heatmaps and/or volcano plots of methylation differences to determine activated pathways of gene expression.
+
+### sponsor
+Lead: Case Comprehensive Cancer Center; collaborators:

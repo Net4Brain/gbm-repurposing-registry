@@ -1,0 +1,76 @@
+NCT ID: NCT04406714
+### title
+Scaling CRC Screening Through Outreach, Referral, and Engagement (SCORE)
+Official: Scaling Colorectal Cancer Screening Through Outreach, Referral, and Engagement (SCORE): A State-Level Program to Reduce Colorectal Cancer Burden in Vulnerable Populations
+
+### conditions
+Colorectal Cancer
+
+### keywords
+Cancer Screening; Colonoscopy; Community Health Centers; Implementation Science; Patient Navigation
+
+### brief_summary
+This study will test the effectiveness of mailing fecal immunochemical tests (FITs) in increasing colorectal cancer (CRC) screening rates in U.S. adults ages 45-75. We are implementing this study in two age groups, 45-49 years and 50-75 years.
+
+### detailed_description
+Trial (Age Group 50-75) This randomized controlled trial assesses the effectiveness, feasibility, acceptability, and cost-effectiveness of mailing FITs from a central location to patients served by FQHCs. Subjects are randomly selected and assigned to receive either a mailed FIT intervention (Arm 1: Trial Mailed FIT Intervention - Age Group 50-75) or usual care (Arm 2: Trial Usual Care - Age Group 50-75). To assess United States Preventive Services Task Force recommendations for annual screening, we will mail subjects one round of FIT per year for up to two years.
+
+Sub-study (Age Group 45-49) A sub-study assesses the effectiveness of mailing FITs from a central location to patients who are 45-49 years of age and newly eligible for CRC screening. The sub-study also assesses the impact of varying the appearance of the FIT packet mailing envelope on FIT return. All eligible patients from one FQHC clinic site are randomly assigned to receive either a mailed FIT intervention that includes an enhanced mailing envelope (Arm 3: Sub-study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49) or a plain envelope (Arm 4: Sub-study Mailed FIT Active Comparator Plain Envelope - Age Group 45-49).
+
+The Trial (Age Group 50-75) and the Sub-study (Age Group 45-49) also assess the effectiveness of delivering patient navigation from a central location to facilitate follow up colonoscopy for patients with a positive (abnormal) FIT result.
+
+### design
+Phase: NA; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] Trial Mailed FIT Intervention - Age Group 50-75: Subjects randomized to this arm are 50-75 years of age and eligible for CRC screening using FIT per electronic health record at either of two FQHCs. Only subjects who are 50-75 years of age are randomized to this arm. Subjects who are 50-75 cannot be randomized to Arm 3 or Arm 4. (interventions: Behavioral: Trial Mailed FIT Intervention - Age Group 50-75)
+- [NO_INTERVENTION] Trial Usual Care - Age Group 50-75: Subjects randomized to this arm are 50-75 years of age and eligible for CRC screening using FIT per electronic health record at either of two FQHCs. Only subjects who are 50-75 years of age are randomized to this arm. Subjects who are 50-75 cannot be randomized to Arm 3 or Arm 4. (interventions: )
+- [EXPERIMENTAL] Sub-study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49: Subjects randomized to this arm are 45-49 years of age and eligible for CRC screening using FIT per electronic health record at one FQHC. Only subjects who are 45-49 years of age are randomized to this arm. Subjects who are 45-49 years of age cannot be randomized to Arm 1 or Arm 2 of the main trial. (interventions: Behavioral: Sub-Study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49)
+- [ACTIVE_COMPARATOR] Sub-study Mailed FIT Comparator Plain Envelope - Age Group 45-49: Subjects randomized to this arm are 45-49 years of age and eligible for CRC screening using FIT per electronic health record at one FQHC. Only subjects who are 45-49 years of age are randomized to this arm. Subjects who are 45-49 years of age cannot be randomized to Arm 1 or Arm 2 of the main trial. (interventions: Behavioral: Sub-Study Mailed FIT Active Comparator Plain Envelope - Age Group 45-49)
+
+### interventions
+- [BEHAVIORAL] Trial Mailed FIT Intervention - Age Group 50-75: Subjects are mailed an introductory letter advising them that they will receive a FIT kit in the mail. Next, subjects are mailed a FIT packet in an envelope that contains a cover letter, CRC information sheet, FIT instruction sheet, and FIT kit with a pre-paid return envelope. Subjects receive up to two mailed letters reminding them to complete and return the FIT. Subjects receive FIT results via letter or phone call.
+- [BEHAVIORAL] Sub-Study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49: Subjects are mailed an introductory letter advising them that they will receive a FIT kit in the mail. Next, subjects are mailed a FIT packet in an enhanced envelope that contains a cover letter, CRC information sheet, FIT instruction sheet, and FIT kit with a pre-paid return envelope. The enhanced envelope is a yellow padded envelope with a USPS tracking label and sticker message: "Important information from your doctor". Subjects receive up to two mailed letters reminding them to complete and return the FIT. Subjects receive FIT results via letter or phone call.
+- [BEHAVIORAL] Sub-Study Mailed FIT Active Comparator Plain Envelope - Age Group 45-49: Subjects are mailed an introductory letter advising them that they will receive a FIT kit in the mail. Next, subjects are mailed a FIT packet in plain envelope that contains a cover letter, CRC information sheet, FIT instruction sheet, and FIT kit with a pre-paid return envelope. The plain envelope is a white envelope without a USPS tracking label or sticker message. Subjects receive up to two mailed letters reminding them to complete and return the FIT. Subjects receive FIT results via letter or phone call.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age 45-75 years
+* At average risk for CRC ("average risk" is defined as those patients who do not have any of the following: documented history of CRC, colorectal neoplasms, colorectal polyps, colonic adenomas, family history of CRC among first degree relative \[father, mother, sister, brother\], or diagnosis of inflammatory bowel disease)
+* No record of fecal occult blood test (FOBT)/FIT within the past 12 months or colonoscopy within 10 years, sigmoidoscopy within 5 years, barium enema within 5 years, or computed tomography (CT) colonography within 10 years of the EHR query date
+* No record of any CRC diagnosis or total colectomy
+* No record of comorbidities or screening contraindications, including dementia, hospice care, assisted living, end-stage renal disease, and other cancers (glioblastoma, pancreatic cancer, lung cancer, esophageal cancer, liver and bile duct cancer, mesothelioma)
+* Has a complete North Carolina mailing address in the EHR
+* Active patient of the clinic (seen within the past 18 months) at the time of randomization
+* No record of a positive (abnormal) FIT result in the first study round (Trial Ages 50-75 only)
+
+Exclusion Criteria:
+
+* Age younger than 45 years or older than 75 years
+* Not at average risk for CRC ("average risk" is defined as those patients who do not have any of the following: documented history of CRC, colorectal neoplasms, colorectal polyps, colonic adenomas, family history of CRC among first degree relative \[father, mother, sister, brother\], or diagnosis of inflammatory bowel disease)
+* Record of FOBT/FIT within the past 12 months or colonoscopy within 10 years, sigmoidoscopy within 5 years, barium enema within 5 years, or CT colonography within 10 years of the EHR query date
+* Record of any CRC diagnosis or total colectomy
+* Record of comorbidities or screening contraindications, including dementia, hospice care, assisted living, end-stage renal disease, and other cancers (glioblastoma, pancreatic cancer, lung cancer, esophageal cancer, liver and bile duct cancer, mesothelioma)
+* Does not have a complete North Carolina mailing address in the EHR
+* Not an active patient of the clinic (not seen within the past 18 months) at the time of randomization
+* Record of a positive (abnormal) FIT result reported during the first study round (Trial Ages 50-75)
+
+### outcomes
+- [primaryOutcomes] Proportion of Subjects Who Completed Colorectal Cancer (CRC) Screening Within 6 Months (Trial - Age Group 50-75): "The proportion of subjects who received study Intervention (Age Group 50-75) and did not receive study intervention (Usual Care - Age Group 50-75 who completed CRC screening using any of the screening modalities recommended by the United States Preventive Services Task Force per electronic health record review.
+
+Fecal immunochemical test (FIT), fecal occult blood test \[FOBT\], fecal immunochemical test - deoxyribonucleic acid (FIT-DNA), colonoscopy, flexible sigmoidoscopy, flexible sigmoidoscopy with FIT, Computerized Tomography colonography."
+- [secondaryOutcomes] Proportion of Subjects Who Returned a Completed Mailed FIT at 60 Days: The proportion of subjects who received study Intervention (Age Group - 50-75) and returned a completed FIT per electronic health record review.
+- [secondaryOutcomes] Proportion of Subjects Who Completed a Follow-up (Diagnostic) Colonoscopy: The proportion of subjects who received study Intervention (Age Group 50-75) and did not receive study information (Usual Care only - Age Group 50-75), who had a positive (abnormal) FIT/FOBT result, and for whom colonoscopy was deemed to be clinically appropriate by the subject's provider, who completed follow-up (diagnostic) colonoscopy per electronic health record review.
+- [secondaryOutcomes] Number of Subject Colorectal Carcinoma (CRC) and Advanced Adenomas Detected at 12 Months: Number of CRCs and advanced adenomas detected among subjects who received study Intervention (Age Group 50-75) and subjects who did not receive study intervention (Usual Care only - Age Group 50-75) per electronic health record review.
+- [secondaryOutcomes] Number of Days From CRC Diagnosis to the Date of Evaluation for CRC Treatment: Number of days from CRC diagnosis to the date of evaluation for CRC treatment among subjects who received study Intervention (Age Group 50-75) and subjects who did not receive study intervention (Usual Care - Age Group 50-75) using electronic health record data to ascertain the dates of CRC diagnosis and evaluation for CRC treatment.
+- [secondaryOutcomes] Number of Subjects Who Received Referral for Cancer Treatment: Number of subjects who received study Intervention (Age Group 50-75) and did not receive intervention (Age Group 50-75) who received referral for cancer treatment among individuals diagnosed with CRC per electronic health record review.
+- [secondaryOutcomes] Number of Subjects Mailed FITs Completed After Two Rounds of Annual FIT Outreach: "Number of annual FIT screenings completed (0, 1, or 2) by subjects who received Intervention (Age Group 50-75) after two annual rounds of mailed FIT outreach per electronic health record review.
+- [secondaryOutcomes] Incremental Cost of Each Additional Patient Screened in the Intervention Arm Compared to Usual Care (Trial - Age Group 50-75): Comparison of the programmatic costs incurred and number of subjects screened in Arm 1(Trial Mailed FIT Intervention - Age Group 50-75) compared to Arm 2 (Trial Usual Care - Age Group 50-75), measured as cost of intervention minus the cost of usual care, divided by the number screened in Arm 1 minus the number screened in Arm 2. Intervention costs will be assessed using periodic episodes of direct observation of mailed FIT outreach activities, time logs maintained by the intervention team, and assembly of administrative data capturing non-personnel/non-labor expenditures, such as costs associated with materials printing, FIT processing, and mailing costs. Usual care costs will be assessed using a combination of clinic observations and interviews with staff.
+- [secondaryOutcomes] The Proportion of Subjects, Ages 45-49, Who Are Current With CRC Screening: The proportion of subjects in Arm 3 (Sub-study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49) and Arm 4 (Sub-study Mailed FIT Active Comparator Envelope - Age Group 45-49) who are current with any CRC screening compared to baseline, using any of the screening modalities recommended by the United States Preventive Services Task Force (FIT, fecal occult blood test \[FOBT\], FIT-DNA, colonoscopy, flexible sigmoidoscopy, flexible sigmoidoscopy with FIT, CT colonography) per electronic health record review.
+- [secondaryOutcomes] Proportion of Subjects, Ages 45-49, Who Completed Mailed FIT at 60 Days: The proportion of subjects in Arm 3 (Intervention Enhanced Envelope - Age Group 45-49) compared to subjects in Arm 4 (Intervention Active Comparator Envelope - Age Group 45-49) who returned a completed FIT.
+- [secondaryOutcomes] Proportion of Subjects Who Completed a Follow up (Diagnostic) Colonoscopy: The proportion of subjects in Arm 3 (Sub-study Mailed FIT Intervention Enhanced Envelope - Age Group 45-49) and Arm 4 (Sub-study Mailed FIT Active Comparator Plain Envelope - Age Group 45-40) with a positive (abnormal) FIT/FOBT result for whom colonoscopy is deemed to be clinically appropriate by the subject's provider who completes a follow-up (diagnostic) colonoscopy per electronic health record review.
+
+### sponsor
+Lead: UNC Lineberger Comprehensive Cancer Center; collaborators: National Cancer Institute (NCI), East Carolina University

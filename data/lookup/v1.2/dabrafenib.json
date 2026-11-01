@@ -1,0 +1,316 @@
+{
+ "moiety": "dabrafenib",
+ "accessed_utc": "2026-11-01T16:24:57+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA202806",
+    "date": "2013-05-29",
+    "brand": [
+     "TAFINLAR",
+     "TAFINLAR"
+    ]
+   },
+   {
+    "application": "NDA217514",
+    "date": "2023-03-16",
+    "brand": [
+     "TAFINLAR",
+     "TAFINLAR",
+     "TAFINLAR"
+    ]
+   }
+  ],
+  "first_approval_date": "2013-05-29",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE TAFINLAR is a kinase inhibitor indicated as a single agent for the treatment of patients with unresectable or metastatic melanoma with BRAF V600E mutation as detected by an FDA-approved test. ( 1.1 , 2.1 ) TAFINLAR is indicated, in combination with trametinib , for: the treatment of patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations as detected by an FDA-approved test. ( 1.2 , 2.1 ) the adjuvant treatment of patients with melanoma with BRAF V600E or V600K mutations, as detected by an FDA-approved test, and involvement of lymph node(s), following complete resection. ( 1.3 , 2.1 ) the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation as detected by an FDA-approved test. ( 1.4 , 2.1 ) the treatment of patients with locally advanced or metastatic anaplastic thyroid cancer (ATC) with BRAF V600E mutation, as detected by an FDA-approved test, and with no satisfactory locoregional treatment options. ( 1.5 , 2.1 ) the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options. This indication is approved under accelerated approval based on overall response rate (ORR) and duration of response (DoR). Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). ( 1.6 , 2.1 ) the treatment of pediatric patients 1 year of age and older with low-grade glioma (LGG) with a BRAF V600E mutation who require systemic therapy. ( 1.7 , 2.1 ) Limitations of Use : TAFINLAR is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition. ( 1.8 , 12.1 ) TAFINLAR is not indicated for treatment of patients with wild-type BRAF solid tumors. ( 5.2 ) 1.1 BRAF V600E Mutation-Positive Unresectable or Metastatic Melanoma TAFINLAR \u00ae is indicated as a single agent for the treatment of patients with unresectable or metastatic melanoma with BRAF V600E mutation as detected by an FDA-approved test. 1.2 BRAF V600E or V600K Mutation-Positive Unresectable or Metastatic Melanoma TAFINLAR is indicated, in combination with trametinib, for the treatment of patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations, as detected by an FDA-approved test [see Dosage and Administration (2.1)] . 1.3 Adjuvant Treatment of BRAF V600E or V600K Mutation-Positive Melanoma TAFINLAR is indicated, in combination with trametinib, for the adjuvant treatment of patients with melanoma with BRAF V600E or V600K mutations, as detected by an FDA-approved test, and involvement of lymph node(s), following complete resection [see Dosage and Administration (2.1)] . 1.4 BRAF V600E Mutation-Positive Metastatic NSCLC TAFINLAR is indicated, in combination with trametinib, for the trea"
+  ],
+  "query": "products.active_ingredients.name:\"dabrafenib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2028663",
+  "pref_name": "DABRAFENIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EC02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EC02"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01713972,NCT01767454,NCT01928940,NCT02925234,NCT03239015,NCT04116541,NCT04418167,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01153763,NCT01266967,NCT01584648,NCT01597908,NCT01619774,NCT01682083,NCT01682213,NCT01701037,NCT01721603,NCT01726738,NCT01972347,NCT01978236,NCT02027961,NCT02039947,NCT02087254,NCT02110355,NCT02130466,NCT02143050,NCT02200562,NCT02296996,NCT02382549,NCT02410863,NCT02416232,NCT02447939,NCT02858921,NCT02872259,NCT02915666,NCT02967692,NCT03026517,NCT03088176,NCT03272464,NCT03352947,NCT03391050,NCT03455764,NCT03551626,NCT03563729,NCT03754179,NCT04059224,NCT05299580"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02873650"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01677741"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02231775,NCT02910700,NCT04310397"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular thyroid carcinoma",
+    "mesh_heading": "Adenocarcinoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202"
+     }
+    ]
+   },
+   {
+    "efo_term": "papillary thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03091257"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01940809,NCT02052193,NCT02087254,NCT02357732,NCT02392871,NCT02625337,NCT02910700,NCT03149029,NCT04903119"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01947023,NCT06475989,NCT06482086"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02672358,NCT04452877,NCT06054191"
+     }
+    ]
+   },
+   {
+    "efo_term": "Erdheim-Chester disease",
+    "mesh_heading": "Erdheim-Chester Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02281734"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02852239"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202,NCT03244956,NCT04554680,NCT04619316,NCT04940052,NCT05182931,NCT06079333,NCT06362694"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03543306"
+     }
+    ]
+   },
+   {
+    "efo_term": "ameloblastoma",
+    "mesh_heading": "Ameloblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02367859,NCT06264778"
+     }
+    ]
+   },
+   {
+    "efo_term": "undifferentiated carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03975231,NCT04739566"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04201457"
+     }
+    ]
+   },
+   {
+    "efo_term": "Craniopharyngioma",
+    "mesh_heading": "Craniopharyngioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05525273"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00880321,NCT01072175,NCT01227889,NCT01231594,NCT01262963,NCT01336634,NCT01340833,NCT01340846,NCT01582997,NCT01738451,NCT01750918,NCT01954043,NCT02034110,NCT02082665,NCT02083354,NCT02110355,NCT02124772,NCT02925234,NCT05159245,NCT05876806"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thyroid Gland Undifferentiated (Anaplastic) Carcinoma",
+    "mesh_heading": "Thyroid Carcinoma, Anaplastic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04238624"
+     }
+    ]
+   },
+   {
+    "efo_term": "low grade glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04201457"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 96,
+  "earliest": {
+   "nct": "NCT01072175",
+   "start": "2010-03-26",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2013-05-29",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": true,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "glioma in label: confirm established / glioma-developed / glioma_label"
+  ]
+ }
+}

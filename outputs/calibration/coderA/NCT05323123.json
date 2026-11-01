@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT05323123",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "detailed_description", "quote": "with gay and bisexual men (GBM) being one of the few epidemic-driving groups"},
+      {"field": "conditions", "quote": "Human Immunodeficiency Virus"}
+    ],
+    "gbm_population_flag": {"uncertain": false, "reason": "'GBM' means gay and bisexual men in an HIV PrEP study; not glioblastoma and not anti-GBM disease."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] SPARK (other names: Sexual Health Counseling)"},
+      {"field": "arms", "quote": "Participants will receive PrEP (as part of their standard of care), motivational counseling, and PrEP adherence support."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false, "reason": "Not a glioblastoma trial; trial-level oncology variables not applicable."}
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "HIV PrEP behavioural implementation study in Romania; 'GBM' = gay and bisexual men. All registered interventions are behavioural. PrEP (tenofovir-based) is mentioned as standard of care in both arms but is not a registered intervention, so no agents listed."
+}

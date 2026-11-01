@@ -1,0 +1,163 @@
+{
+ "nct_id": "NCT04962672",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "high_grade_glioma_unspecified",
+  "gbm_population_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Patient will be undergoing primary craniotomy (with general anesthesia) for suspected high-grade primary glial brain tumor (WHO grade III and IV)"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": true,
+   "reason": "GBM is mentioned only in background text; conditions say 'Brain Cancer' and eligibility says suspected high-grade glial tumour (grade III/IV); 'Recurrent GBM' appears only as an exclusion."
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "brief_summary",
+    "quote": "intravenous (propofol) based anesthesia conferred some protection against cancer progression and was also associated with lesser overall mortality"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": true,
+   "reason": "Propofol is an anaesthetic; the antitumour hypothesis (survival/progression) is stated, so not coded supportive, but the trial is a feasibility study of anaesthetic choice."
+  },
+  "cns5_terminology": "unclear"
+ },
+ "trial": {
+  "treatment_setting": "newly_diagnosed",
+  "treatment_setting_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Patient will be undergoing primary craniotomy (with general anesthesia) for suspected high-grade primary glial brain tumor"
+   },
+   {
+    "field": "eligibility",
+    "quote": "Recurrent GBM"
+   }
+  ],
+  "regimen": "monotherapy",
+  "combination_partners": [],
+  "basket": false,
+  "control_arm_from_other_arms": "no",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": true,
+   "reason": "Setting inferred from 'primary craniotomy' and exclusion of recurrent GBM."
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "Propofol (total intravenous anesthesia)",
+   "active_moiety": "propofol",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "patients in the propofol group will receive continuous infusions of propofol and remifentanil"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "intravenous general anaesthetic",
+   "stated_antitumour_mechanism": "In experiments propofol seems to inhibit cancer formation steps, delays inflammation and provide protection from cancer cell growth",
+   "flag": {
+    "uncertain": true,
+    "reason": "Anaesthetic tested for putative antitumour/survival effect."
+   }
+  },
+  {
+   "agent_name_registered": "Sevoflurane",
+   "active_moiety": "sevoflurane",
+   "role": "control_comparator",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "[ACTIVE_COMPARATOR] Sevoflurane group: ... receive Volatile (sevoflurane group) agent for the maintenance phase of anesthesia"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "volatile inhalational anaesthetic",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "agent_name_registered": "Remifentanil",
+   "active_moiety": "remifentanil",
+   "role": "supportive",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "patients in the propofol group will receive continuous infusions of propofol and remifentanil"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "opioid analgesic",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "agent_name_registered": "Fentanyl",
+   "active_moiety": "fentanyl",
+   "role": "supportive",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "induced and intubated after administration of intravenous boluses of fentanyl, propofol and rocuronium"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "opioid analgesic",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "agent_name_registered": "Rocuronium",
+   "active_moiety": "rocuronium",
+   "role": "supportive",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "induced and intubated after administration of intravenous boluses of fentanyl, propofol and rocuronium"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "neuromuscular blocker",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "biomarkers": [],
+ "coder_notes": "Phase NA randomised feasibility study of anaesthetic type in suspected HGG surgery. Propofol also given as induction bolus in both arms."
+}

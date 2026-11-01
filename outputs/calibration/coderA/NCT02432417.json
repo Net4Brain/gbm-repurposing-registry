@@ -1,0 +1,165 @@
+{
+  "nct_id": "NCT02432417",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"
+      },
+      {
+        "field": "conditions",
+        "quote": "Glioblastoma; Astrocytoma, Grade IV"
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": false
+    },
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {
+        "field": "arms",
+        "quote": "In addition this treatment will be combined with a daily intake of the recommended phase two dose (RPTD) of chloroquine (CQ). (interventions: Drug: Chloroquine)"
+      },
+      {
+        "field": "brief_summary",
+        "quote": "Chloroquine (CQ) is a potent autophagy blocker and is the most widely investigated substance in this context."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": false
+    },
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {
+        "field": "title",
+        "quote": "A Phase II Randomized Controlled Trial for the Addition of Chloroquine, an Autophagy Inhibitor, to Concurrent Chemoradiation for Newly Diagnosed Glioblastoma"
+      }
+    ],
+    "regimen": "combination",
+    "combination_partners": [
+      "temozolomide",
+      "radiotherapy"
+    ],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chloroquine (A-CQ)",
+      "active_moiety": "chloroquine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {
+          "field": "detailed_description",
+          "quote": "Arm B (experimental): Standard treatment as described under arm A combined with daily intake of 400mg CQ."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial (4-aminoquinoline); autophagy inhibitor",
+      "stated_antitumour_mechanism": "Autophagy inhibition, sensitising hypoxic (EGFRvIII-expressing) GBM cells to irradiation and temozolomide.",
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "TMZ (temozolomide; standard protocol, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {
+          "field": "detailed_description",
+          "quote": "Arm A (standard): Radiotherapy and chemotherapy according to standard protocol for newly diagnosed GBM."
+        },
+        {
+          "field": "arms",
+          "quote": "in combination with TMZ 75 mg/m² Per os daily (po qd) and six adjuvant cycles of TMZ 150 - 200 mg/m² po qd"
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "outcomes",
+        "quote": "Gene mutation, deletion or amplification: O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "outcomes",
+        "quote": "Gene mutation, deletion or amplification: O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "chloroquine",
+      "source_quote": {
+        "field": "outcomes",
+        "quote": "Gene mutation, deletion or amplification: O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+      },
+      "flag": {
+        "uncertain": true,
+        "reason": "Match rests on the record's rationale that EGFRvIII cells depend on autophagy, which chloroquine inhibits; chloroquine does not target EGFR directly."
+      }
+    }
+  ],
+  "coder_notes": "Control arm is NO_INTERVENTION (standard chemoradiation), captured by [CODE]; no OTHER-type arms. Start date to be checked by [CODE] (NCT0243 suggests a pre-2020 start; phase I part precedes the randomised phase II). A substudy uses [18F]HX4 hypoxia PET (diagnostic radiotracer, not a registered intervention); not listed as an agent and hypoxia imaging not coded as a molecular biomarker."
+}

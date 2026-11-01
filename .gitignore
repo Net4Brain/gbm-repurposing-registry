@@ -1,0 +1,11 @@
+# macOS / Python
+.DS_Store
+__pycache__/
+*.pyc
+# Not redistributed (licence not stated) - fetch with scripts/00_fetch_redo.sh
+data/raw/ReDO_Trials_DB_20261101.txt
+# Superseded drug-lookup caches (script v1.0, v1.1) - see README
+data/lookup/*.json
+data/lookup/v1.1/
+# Manuscript peer-review notes (manuscript-internal)
+reviews/

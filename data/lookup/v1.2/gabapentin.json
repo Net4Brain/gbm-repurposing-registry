@@ -1,0 +1,1467 @@
+{
+ "moiety": "gabapentin",
+ "accessed_utc": "2026-11-01T16:08:40+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020235",
+    "date": "1993-12-30",
+    "brand": [
+     "NEURONTIN",
+     "NEURONTIN",
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA020882",
+    "date": "1998-10-09",
+    "brand": [
+     "NEURONTIN",
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA021129",
+    "date": "2000-03-02",
+    "brand": [
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA021216",
+    "date": "2000-10-12",
+    "brand": [
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA021397",
+    "date": "2002-05-24",
+    "brand": [
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA021423",
+    "date": "2002-05-24",
+    "brand": [
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA021424",
+    "date": "2002-05-24",
+    "brand": [
+     "NEURONTIN"
+    ]
+   },
+   {
+    "application": "NDA022544",
+    "date": "2011-01-28",
+    "brand": [
+     "GRALISE",
+     "GRALISE",
+     "GRALISE"
+    ]
+   },
+   {
+    "application": "NDA022399",
+    "date": "2011-04-06",
+    "brand": [
+     "HORIZANT",
+     "HORIZANT"
+    ]
+   }
+  ],
+  "first_approval_date": "1993-12-30",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Gabapentin Capsules, USP are indicated for: Management of postherpetic neuralgia in adults Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy Gabapentin Capsules, USP are indicated for Postherpetic neuralgia in adults (1) Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy (1)",
+   "1 INDICATIONS AND USAGE Gabapentin capsules are indicated for: \u2022 Management of postherpetic neuralgia in adults \u2022 Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy Gabapentin capsules are indicated for: \u2022 Postherpetic neuralgia in adults ( 1 ) \u2022 Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy ( 1 )",
+   "1 INDICATIONS AND USAGE Gabapentin is indicated for: Management of postherpetic neuralgia in adults Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy Gabapentin is indicated for: Postherpetic neuralgia in adults ( 1 ) Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy ( 1 )",
+   "1 INDICATIONS AND USAGE Gabapentin is indicated for: \u2022 Management of postherpetic neuralgia in adults \u2022 Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy Gabapentin is indicated for: \u2022 Postherpetic neuralgia in adults ( 1 ) \u2022 Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy ( 1 )",
+   "1 INDICATIONS AND USAGE Gabapentin oral solution is indicated for: Management of postherpetic neuralgia in adults Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy Gabapentin oral solution is indicated for: Postherpetic neuralgia in adults (1) Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy (1)"
+  ],
+  "query": "products.active_ingredients.name:\"gabapentin\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL940",
+  "pref_name": "GABAPENTIN",
+  "max_phase": 4.0,
+  "atc": [
+   "N02BF01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "insomnia",
+    "mesh_heading": "Sleep Initiation and Maintenance Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00163046,NCT00659100,NCT00666575,NCT00666770,NCT00666939,NCT00667108,NCT00674752,NCT01421264"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00027963,NCT00221338,NCT00312260,NCT00624455,NCT00735124,NCT00934193,NCT01116583,NCT01776671,NCT02856750,NCT02918760,NCT03088306,NCT03679013,NCT03750773,NCT03867240,NCT04292171,NCT04429022,NCT04620720,NCT04724252,NCT05533684,NCT05609682,NCT05921604"
+     }
+    ]
+   },
+   {
+    "efo_term": "Pruritus",
+    "mesh_heading": "Pruritus",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00058890,NCT01092520"
+     }
+    ]
+   },
+   {
+    "efo_term": "scoliosis",
+    "mesh_heading": "Scoliosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00684112"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01738893"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0002eded-a283-4590-a78c-b6ff2027e684"
+     },
+     {
+      "type": "DailyMed",
+      "id": "01aafb0d-6cf4-406d-baad-560a6c91b33f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "03646015-2d86-4d6d-958f-94687899b838"
+     },
+     {
+      "type": "DailyMed",
+      "id": "036c0c4f-edcc-4974-9ae1-5becb9654cab"
+     },
+     {
+      "type": "DailyMed",
+      "id": "05f88e8a-7504-4074-bca1-c050b9b881a7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "06f5461f-0a34-42e1-b84a-567ffafd8e99"
+     },
+     {
+      "type": "DailyMed",
+      "id": "09567287-2cc1-4918-94e2-913634117a3b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0a12003c-1972-4606-aa82-ab09ad3992df"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0bab4e6e-2c08-48e7-bad5-0b3341ac1340"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0c27d406-45de-4df0-8db0-c3d654fe7637"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0ce15e26-f289-406c-8d5a-de95d790ed1d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0ce67440-8b75-4a10-a70e-9c5286449783"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0d543ed4-ff0d-407c-9c78-c416bd0c4eee"
+     },
+     {
+      "type": "DailyMed",
+      "id": "119ff7cc-5a38-490a-a982-7431b34d061c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "13f9f0bb-17c0-4f15-a733-3e28868e4ade"
+     },
+     {
+      "type": "DailyMed",
+      "id": "161f2ca3-e746-40f2-95c7-f37ee62dfe2d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "182472eb-d955-0b0b-5028-e93c67a913e7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1a619a14-0b63-4cba-80e7-474c9a1c90b9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1bc85f95-c26a-4037-a02a-2248f6518fe2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c245363-51bb-452c-a2bb-e43811e98894"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1dc96b52-7d43-4274-922f-3a070a165086"
+     },
+     {
+      "type": "DailyMed",
+      "id": "237b3a0c-8389-40e1-8fb0-1f6f4ed5bfb4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "25cf6c40-a239-4dd0-9cad-28da84d285db"
+     },
+     {
+      "type": "DailyMed",
+      "id": "29a70e2d-d3fd-4e32-95dd-7ee721d87388"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2ef99c3d-866a-438b-a340-8beba8d4c457"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2fdaf80d-66dc-453d-b3d6-390ec952ce6a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "30a70882-b40a-4782-b227-cd0d35e50a26"
+     },
+     {
+      "type": "DailyMed",
+      "id": "310ce005-5a24-489a-b23c-d42ab6a3bfed"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3180998f-f510-491a-a045-485802230b34"
+     },
+     {
+      "type": "DailyMed",
+      "id": "326cf698-0719-4bfd-b0c5-1dfc95cbbbc7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "330d6f3e-dab9-4a83-9ef1-3f6ea04421a8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "35fee7b8-c127-4345-bae0-bcf46d3b8ccb"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3769f1e4-a5ff-43b8-9128-124bc35346d0"
+     },
+     {
+      "type": "DailyMed",
+      "id": "38055bf9-bcf0-439c-a650-35a6ccc40575"
+     },
+     {
+      "type": "DailyMed",
+      "id": "383fd4de-4d2a-42dc-9a15-48bee7efb0ba"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3848adc8-e3d4-4001-a183-11cda56d6bc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3865a6e3-112c-490c-82ac-35401336b16e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3a6ffb9f-4e3f-449c-a7e4-1315c7f026bd"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3be172f9-acdc-4df8-b745-3884cdd1063e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3ec0d1db-210c-4480-8cd6-2bd8603b1085"
+     },
+     {
+      "type": "DailyMed",
+      "id": "417231e9-129a-4a47-ab2e-cda97d096950"
+     },
+     {
+      "type": "DailyMed",
+      "id": "41f1e929-7c1f-4b3e-b142-4b7533300ee2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "424f78e1-2546-4451-a75e-586084480bbf"
+     },
+     {
+      "type": "DailyMed",
+      "id": "43372910-b0a1-4b2d-9d37-7984a6e4cf7f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "43fb50c1-e6d0-4e59-aa57-640b939899a4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "454f2f4c-5bdd-4aff-b49e-792962dd1a94"
+     },
+     {
+      "type": "DailyMed",
+      "id": "48017784-d2b7-43cc-94bf-5c950d6be263"
+     },
+     {
+      "type": "DailyMed",
+      "id": "493e0603-8148-457b-a743-342f51c4c57a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "49f2afe4-9220-4b9d-a261-5017166f518a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4a4627ab-3a14-4cf2-8556-01d688cd7f19"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4e054319-5d50-49c3-9fe1-681234d81dc1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4eb684e5-4bae-3065-e054-00144ff88e88"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4f4e77f5-5421-4482-82b6-c84b49dcdbea"
+     },
+     {
+      "type": "DailyMed",
+      "id": "501e8d07-bfc3-4427-b7d5-93c4d5874ab4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "507bf6d0-e7a2-413d-9848-cd2445a1411d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "520b11e8-5f16-4c01-a9da-3ca5e31df3ae"
+     },
+     {
+      "type": "DailyMed",
+      "id": "52e49778-03f1-43cb-b75d-6c1adbb96ec6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "579fcb4d-1b2c-4a76-9ff7-0ee76ddd1041"
+     },
+     {
+      "type": "DailyMed",
+      "id": "57ac19da-e60a-4fd3-a412-bb362f87bd4e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "57d438aa-eee7-4403-9ecf-04730fa32f2f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "591e0212-71ac-4f7a-b30a-8f4b745b263b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5969871e-6c71-4c37-9d63-370718ccc80c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5a205e32-ce63-491c-a1e4-0e45635090af"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5ac5271e-316c-4802-a172-aa602d22571f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5b6f93c9-43b2-40a9-9f10-054c1145b4cc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5bf08c96-e0fa-4f67-ba31-c28937dd4815"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5cae6b8d-be87-42a7-ad95-1b24cb2e2c8e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "636f4f87-7a1a-4d02-a9e5-f0cec260513c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "63f09089-f5f0-4723-9d34-57e0e81a0843"
+     },
+     {
+      "type": "DailyMed",
+      "id": "66e3f3fd-5e5e-4db6-a32e-40a88fef42fc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "67ebb302-d044-430c-a98e-1785806c90e8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "69f74e22-9e4f-47e6-ae04-5e323cb91677"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6b3ca748-7172-4c53-b5ae-7e17dad918eb"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6dcaf09c-d3fb-4528-b7de-97dfbbd36594"
+     },
+     {
+      "type": "DailyMed",
+      "id": "722de2a9-38b3-4518-b262-ba0d1346d0ba"
+     },
+     {
+      "type": "DailyMed",
+      "id": "73866965-6eda-43f9-8f2f-8b5df159f72a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "749ade13-082b-40de-be54-541627075d74"
+     },
+     {
+      "type": "DailyMed",
+      "id": "74a05b3b-8e4f-4c72-881c-8215d40d14b9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "76635b0d-0a20-44b7-a076-b8f3c689c2ce"
+     },
+     {
+      "type": "DailyMed",
+      "id": "772d9e7a-3811-455a-99e6-f2a3d0769b9b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "783d8373-b7af-4a6b-8966-50c5ddb2803b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "78edc5af-9a37-45f7-893a-414eb890f07b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7a4cd51c-9f24-4905-bbdd-c540777a4e23"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7c50bb9c-7c49-4ba7-a3e5-c28ff0719ce5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7d1c0aab-5385-4d42-805c-7be2b6cdfe4b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7dbc4275-2472-4eba-a8b1-6e4fe5cab5bf"
+     },
+     {
+      "type": "DailyMed",
+      "id": "81437733-9a56-42b3-ab28-fb58bfbb0f9d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "82262fea-91ef-4905-9e25-10b287cd6456"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8362b919-efa6-4451-8c44-49380f81b5db"
+     },
+     {
+      "type": "DailyMed",
+      "id": "83b8c92a-84fd-4992-8d79-5ce34cee7453"
+     },
+     {
+      "type": "DailyMed",
+      "id": "842b5778-c796-420c-a9ea-168ac930fb03"
+     },
+     {
+      "type": "DailyMed",
+      "id": "84dba679-a118-47c1-8c44-7a3a1e1ed725"
+     },
+     {
+      "type": "DailyMed",
+      "id": "857f774c-ebd1-4332-860e-0c8647cbd70a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "91bfbccd-2cd2-4ff7-9b3e-70dbdded1e2b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9508cb1b-3f9f-48bd-8f34-a6fbb68c9a4a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "971e48af-6aa6-42c3-af9b-50ad373190a3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "98bb408d-c402-4da6-8f9d-5de4833dedc4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "99adb2c7-4725-4768-a2d9-856a87f33192"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9f136e44-ac86-4476-b1f2-9fb650ea7fd3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a2109f51-f1e5-4ba5-b3b1-3e3ebee6cf1d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a4c5d9e0-1de0-4de6-a382-5e5f56bf16e3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a7baa9ea-6cd5-4a86-8936-8e47ed794db5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a806ba79-f8f0-4fe7-b754-59921a93d5ed"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a99cffb0-4504-4e61-b8a7-69aa35c04b01"
+     },
+     {
+      "type": "DailyMed",
+      "id": "aa2e353f-860b-4d10-9a62-aad1c533b8aa"
+     },
+     {
+      "type": "DailyMed",
+      "id": "aacc7c2b-efdc-49b6-869f-107b48cc60a5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "aaf4d420-13a9-412e-b0ea-64234b49a57e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b033c169-4943-4ad9-ace0-7e4a1f0dc100"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b11dbff5-ceee-4a63-a093-f6efebdc2f6f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b1a9ef34-092b-409b-a6b0-59cb079bad0a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b2df0e0e-43ba-47ab-b8f9-22c8010772ba"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b452453b-add6-48a0-9ae8-9db6c48eec17"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b53c69ca-3f9d-285d-7568-aba4a6c87b05"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b5f455c0-d2f1-4e12-bdfe-cd4a50debb30"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b846004f-a71d-4ebe-a1aa-1f9b6ac89ee0"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bbe6bcf4-f7d3-4067-93af-218c641059dc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bc1b507d-9b2a-5328-e053-2995a90a1264"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bdef074d-a8b5-4891-a9a9-52e1ac0ddc53"
+     },
+     {
+      "type": "DailyMed",
+      "id": "be462235-9fa6-457d-b4bb-31277eab1387"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c375ec41-b099-4bb0-a23a-76f3f7a858b7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c78f5574-a2e3-400a-9fad-a73727f0ef74"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c79d94ec-117d-4fb6-845d-1954e3472bb0"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c830369b-6ca7-c661-e053-2995a90a61c2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c8369a3f-6155-f4b5-a1e2-ba392b1d2442"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c9a05f0c-b5f0-422c-9d67-6d0efc921a74"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cd2d3b9d-09cc-4342-9888-9b2e792a51ee"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cd606ad3-9c12-473a-948c-1ad7759a7727"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cfeb2b37-c295-46d0-be1e-68334c0a7f90"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cff7de45-148b-4e96-88fd-6052bf75b5f7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d08562ff-7ebf-4669-a824-933bf66b6328"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d576364c-9aa6-4356-a31b-321b0292a8fe"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d65099f2-b10d-47a8-ba7e-fe113fdb98d1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dab71f43-6644-410b-a5c0-362da371e7e7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "de7207ad-2c50-4c9d-87af-a262ac5e962f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dee07488-7a2b-4d45-89e1-d65ab895fd52"
+     },
+     {
+      "type": "DailyMed",
+      "id": "df12230c-09ea-b03b-c32e-800390ce3e33"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e116597c-1782-4fc1-9550-4a08777d1056"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e2c1bea3-3c6d-4fe9-9bfd-09dbbce0fd7c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e312d01f-570f-2eb8-e877-c13c2cddc088"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e4832536-fe56-40b2-b6c1-6edd3511e2ff"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e5462645-2b46-4764-87ef-bccb1a64067a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e9f2d8a6-fabe-436d-8fba-4976229692f9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ea6016be-2f5d-4bd0-a228-fa8f455abeae"
+     }
+    ]
+   },
+   {
+    "efo_term": "carpal tunnel syndrome",
+    "mesh_heading": "Carpal Tunnel Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00137735,NCT01632215"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00967707,NCT01485185,NCT02219373"
+     }
+    ]
+   },
+   {
+    "efo_term": "premature birth",
+    "mesh_heading": "Premature Birth",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02056899"
+     }
+    ]
+   },
+   {
+    "efo_term": "fibromyalgia",
+    "mesh_heading": "Fibromyalgia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00057278,NCT01107574"
+     }
+    ]
+   },
+   {
+    "efo_term": "partial epilepsy",
+    "mesh_heading": "Epilepsies, Partial",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00603473,NCT00620555"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol withdrawal",
+    "mesh_heading": "Substance Withdrawal Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00229125,NCT02349477"
+     }
+    ]
+   },
+   {
+    "efo_term": "cirrhosis of liver",
+    "mesh_heading": "Liver Cirrhosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02642484"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00578552"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug dependence",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00593463,NCT01893632,NCT02490345,NCT02543944"
+     }
+    ]
+   },
+   {
+    "efo_term": "opioid dependence",
+    "mesh_heading": "Opioid-Related Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00420771,NCT01210079,NCT05539924"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02557945"
+     }
+    ]
+   },
+   {
+    "efo_term": "post operative nausea and vomiting",
+    "mesh_heading": "Postoperative Nausea and Vomiting",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02384187,NCT02525848"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic neuropathy",
+    "mesh_heading": "Diabetic Neuropathies",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00712439,NCT01263132,NCT03749642"
+     }
+    ]
+   },
+   {
+    "efo_term": "reproductive system disease",
+    "mesh_heading": "Paget Disease, Extramammary",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02099006"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol drinking",
+    "mesh_heading": "Alcohol Drinking",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03274167"
+     }
+    ]
+   },
+   {
+    "efo_term": "pelvic organ prolapse",
+    "mesh_heading": "Pelvic Organ Prolapse",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02999724"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-operative sign or symptom",
+    "mesh_heading": "Postoperative Complications",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03023501"
+     }
+    ]
+   },
+   {
+    "efo_term": "hyperemesis gravidarum",
+    "mesh_heading": "Hyperemesis Gravidarum",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02163434"
+     }
+    ]
+   },
+   {
+    "efo_term": "Intervertebral Disc Displacement",
+    "mesh_heading": "Intervertebral Disc Displacement",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01014520"
+     }
+    ]
+   },
+   {
+    "efo_term": "mucositis",
+    "mesh_heading": "Mucositis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02252926"
+     }
+    ]
+   },
+   {
+    "efo_term": "oropharynx cancer",
+    "mesh_heading": "Oropharyngeal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03269344"
+     }
+    ]
+   },
+   {
+    "efo_term": "Dementia",
+    "mesh_heading": "Dementia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "Seizure",
+    "mesh_heading": "Seizures",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00007670"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0002eded-a283-4590-a78c-b6ff2027e684"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2ef99c3d-866a-438b-a340-8beba8d4c457"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4eb684e5-4bae-3065-e054-00144ff88e88"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bc1b507d-9b2a-5328-e053-2995a90a1264"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c830369b-6ca7-c661-e053-2995a90a61c2"
+     }
+    ]
+   },
+   {
+    "efo_term": "injury",
+    "mesh_heading": "Wounds and Injuries",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03818932"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03589898"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03682367"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00395044,NCT05494437"
+     }
+    ]
+   },
+   {
+    "efo_term": "dyspepsia",
+    "mesh_heading": "Dyspepsia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01052896"
+     }
+    ]
+   },
+   {
+    "efo_term": "rotator cuff tear",
+    "mesh_heading": "Rotator Cuff Injuries",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03818919"
+     }
+    ]
+   },
+   {
+    "efo_term": "cicatricial alopecia",
+    "mesh_heading": "Alopecia",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03346668"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tinnitus",
+    "mesh_heading": "Tinnitus",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00257270,NCT00317850,NCT00555776"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chronic pain",
+    "mesh_heading": "Chronic Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00414466,NCT02722603,NCT03158376,NCT03275012"
+     }
+    ]
+   },
+   {
+    "efo_term": "azoospermia",
+    "mesh_heading": "Azoospermia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04230980"
+     }
+    ]
+   },
+   {
+    "efo_term": "spontaneous abortion",
+    "mesh_heading": "Abortion, Spontaneous",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02725710"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tremor",
+    "mesh_heading": "Tremor",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00533455"
+     }
+    ]
+   },
+   {
+    "efo_term": "Vomiting",
+    "mesh_heading": "Vomiting",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01052844"
+     }
+    ]
+   },
+   {
+    "efo_term": "Low back pain",
+    "mesh_heading": "Low Back Pain",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00108550"
+     }
+    ]
+   },
+   {
+    "efo_term": "Intervertebral disk degeneration",
+    "mesh_heading": "Intervertebral Disc Degeneration",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02120703"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hot flashes",
+    "mesh_heading": "Hot Flashes",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00028574,NCT00087399,NCT00112138,NCT00511953,NCT00755417,NCT00777023,NCT01005108,NCT01080300"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03084536"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01533753"
+     }
+    ]
+   },
+   {
+    "efo_term": "Herpes Zoster",
+    "mesh_heading": "Herpes Zoster",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03186443"
+     }
+    ]
+   },
+   {
+    "efo_term": "delirium",
+    "mesh_heading": "Delirium",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00221338"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "restless legs syndrome",
+    "mesh_heading": "Restless Legs Syndrome",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "4c486fc7-c8c4-4c6c-b30c-366dabaeaadd"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuralgia",
+    "mesh_heading": "Neuralgia, Postherpetic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "4c486fc7-c8c4-4c6c-b30c-366dabaeaadd"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4eb684e5-4bae-3065-e054-00144ff88e88"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c830369b-6ca7-c661-e053-2995a90a61c2"
+     }
+    ]
+   },
+   {
+    "efo_term": "postherpetic neuralgia",
+    "mesh_heading": "Neuralgia, Postherpetic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00335933,NCT00636636"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05443555"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung disease",
+    "mesh_heading": "Lung Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05100160"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sleep Disorder",
+    "mesh_heading": "Sleep Wake Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00755508"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck carcinoma",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05156060"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02355886"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01744444"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00011297,NCT00183196,NCT00262639,NCT00391716,NCT01141049,NCT02349477,NCT05827159"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01954927"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain injury",
+    "mesh_heading": "Brain Injuries",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05427474"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05664464"
+     }
+    ]
+   },
+   {
+    "efo_term": "interstitial cystitis",
+    "mesh_heading": "Cystitis, Interstitial",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05658874"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00250744"
+     }
+    ]
+   },
+   {
+    "efo_term": "peripheral neuropathy",
+    "mesh_heading": "Peripheral Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06091553"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Voltage-gated calcium channel modulator",
+    "action_type": "MODULATOR",
+    "target": "CHEMBL2363032"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 117,
+  "earliest": {
+   "nct": "NCT00007670",
+   "start": "1998-01",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1993-12-30",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

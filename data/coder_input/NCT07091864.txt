@@ -1,0 +1,70 @@
+NCT ID: NCT07091864
+### title
+Continuous Glucose Monitoring for the Management of Hyperglycemia in Patients With Glioblastoma
+Official: Phase II Randomized Trial Of Glucose Monitoring In Glioblastoma
+
+### conditions
+Glioblastoma, IDH-Wildtype; WHO Grade 4 Glioma
+
+### keywords
+(not provided)
+
+### brief_summary
+This clinical trial studies whether continuous glucose monitoring (CGM) can be used to help patients with glioblastoma manage their blood sugar (glucose) levels and improve survival. Glioblastoma is the most common malignant primary brain tumor in adults, with an average survival time of approximately 15-18 months despite therapy. Studies have shown that having a higher-than-normal amount of glucose in the blood (hyperglycemia) during radiation therapy is associated with poorer survival outcomes in glioblastoma patients. Hyperglycemia in glioblastoma patients is often driven by steroids that are commonly used during treatment. CGM uses a device that places a sensor under the skin that monitors glucose levels at regular intervals, providing real-time, or near real-time, glucose information. This can help to identify when a patient has changes in their glucose levels so they may receive necessary interventions or medications sooner. CGM may be an effective way for glioblastoma patients to manage their glucose levels, which may improve survival.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: NA; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] Arm A (SOC, CGM): Patients receive SOC treatment plus CGM with endocrinology-guided interventions as needed and attend dietary counseling sessions once a month for up to 52 weeks in the absence of disease progression or unacceptable toxicity. Additionally, patients undergo blood sample collection and MRI throughout the trial. (interventions: Other: Best Practice; Procedure: Biospecimen Collection; Other: Dietary Intervention; Procedure: Magnetic Resonance Imaging; Other: Monitoring; Other: Questionnaire Administration; Other: Supportive Care)
+- [ACTIVE_COMPARATOR] Arm B (SOC, intermittent glucose monitoring): Patients receive SOC treatment plus intermittent glucose monitoring as clinically indicated for up to 52 weeks in the absence of disease progression or unacceptable toxicity. Additionally, patients undergo blood sample collection and MRI throughout the trial. (interventions: Other: Best Practice; Procedure: Biospecimen Collection; Other: Glucose Measurement; Procedure: Magnetic Resonance Imaging; Other: Questionnaire Administration)
+
+### interventions
+- [OTHER] Best Practice (other names: standard of care, standard therapy): Receive SOC treatment
+- [PROCEDURE] Biospecimen Collection (other names: Biological Sample Collection, Biospecimen Collected, Specimen Collection): Undergo blood sample collection
+- [OTHER] Dietary Intervention (other names: Dietary Modification, intervention, dietary, Nutrition Intervention, Nutrition Interventions, Nutritional Interventions): Attend dietary counseling sessions
+- [OTHER] Glucose Measurement (other names: GLUC, Glucose): Undergo intermittent glucose monitoring
+- [PROCEDURE] Magnetic Resonance Imaging (other names: Magnetic Resonance, Magnetic Resonance Imaging (MRI), Magnetic resonance imaging (procedure), Magnetic Resonance Imaging Scan, Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance, MR, MR Imaging, MRI, MRI Scan, MRIs, NMR Imaging, NMRI, Nuclear Magnetic Resonance Imaging, sMRI, Structural MRI): Undergo MRI
+- [OTHER] Monitoring (other names: monitor): Undergo CGM
+- [OTHER] Questionnaire Administration: Ancillary studies
+- [OTHER] Supportive Care (other names: Supportive Therapy, Symptom Management, Therapy, Supportive): Receive endocrinology-guided interventions
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Presumed newly diagnosed GBM based on imaging findings consistent with GBM on brain MRI (e.g., heterogeneously enhancing mass with central necrosis and surrounding edema), as determined by the treating neuro-oncology team
+* Age ≥ 18 years at the time of consent
+* Negative serum pregnancy test within 7 days prior to registration for individuals of childbearing potential
+* Karnofsky performance status (KPS) ≥ 70 at baseline
+* Absolute neutrophil count (ANC) ≥ 1.5 × 10\^9/L (performed within 14 days prior to registration)
+* Platelet count ≥ 100 × 10\^9/L (performed within 14 days prior to registration)
+* Hemoglobin ≥ 9 g/dL (performed within 14 days prior to registration)
+* Serum creatinine ≤ 1.5 × upper limit of normal (ULN) or creatinine clearance ≥ 60 mL/min (performed within 14 days prior to registration)
+* Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 2.5 × ULN (performed within 14 days prior to registration)
+* Total bilirubin ≤ 1.5 × ULN (performed within 14 days prior to registration)
+* Willingness and ability to comply with CGM device use and attend dietary counseling sessions as per standard of care
+
+Exclusion Criteria:
+
+* Recurrent glioblastoma
+* History of eating disorders (e.g., anorexia nervosa, bulimia) or substance use disorder within the past 12 months
+* Any other uncontrolled or inadequately managed medical illness (e.g., unstable cardiovascular, hepatic, renal, or psychiatric condition) that, in the opinion of the investigator, would interfere with study participation or interpretation of results
+* Concurrent diagnosis of another active malignancy requiring treatment
+* Pregnancy or breastfeeding at the time of registration
+* Documented history of type 1 diabetes mellitus
+
+### outcomes
+- [primaryOutcomes] Overall survival at 12 months: Defined as the time from study enrollment until death due to any cause.
+- [secondaryOutcomes] Incidence of symptomatic hypoglycemia: Will be defined as continuous glucose monitoring glucose \< 70 mg/dL with concurrent symptoms. Proportion of participants with ≥ 1 symptomatic hypoglycemia event will be analyzed with Fisher's exact test.
+- [secondaryOutcomes] Quality of Life - EORTC QLQ C-30: The European Organization for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-C30 is a 30-item questionnaire where 28 questions are answered on a scale of 1-4 (1=not at all, 2=a little, 3=quite a bit, and 4= very much) and 2 two questions are answered on a scale of 1-7 (1= very poor and 7=excellent). Higher summary scores indicate better health related quality of life.
+- [secondaryOutcomes] Quality of Life - EORTC QLQ-BN20: The European Organization for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire (QLQ)-BN20 is a 20-item questionnaire related to symptoms experienced by patients with brain cancer during the past week. Questions are answered on a scale of 1-4 where 1=not at all, 2=a little; 3-quite a bit; and 4=very much. Higher scores indicate greater severity of symptoms.
+- [secondaryOutcomes] Hemoglobin (HbA1c): Compared at 3, 6 and 12 months using repeated measures mixed models. Model based contrasts will be used to estimate the between group changes from baseline in A1c values. Random intercept will be used.
+- [secondaryOutcomes] Fasting glucose: Compared at 3, 6 and 12 months using repeated measures mixed models. Random intercept will be used.
+- [secondaryOutcomes] Lactate levels (continuous): Compared at 3, 6 and 12 months using repeated measures mixed models. Random intercept will be used.
+
+### sponsor
+Lead: Mayo Clinic; collaborators:

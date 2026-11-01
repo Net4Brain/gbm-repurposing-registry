@@ -1,0 +1,174 @@
+{
+  "nct_id": "NCT04962672",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Patient will be undergoing primary craniotomy (with general anesthesia) for suspected high-grade primary glial brain tumor (WHO grade III and IV)"
+      },
+      {
+        "field": "eligibility",
+        "quote": "Recurrent GBM"
+      },
+      {
+        "field": "brief_summary",
+        "quote": "Out of all brain cancers, high-grade gliomas \\[Glioblastoma Multiforme (GBM)\\] impose highest morbidity and mortality."
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": true,
+      "reason": "Inclusion is suspected WHO grade III/IV glioma; GBM named in summary and in eligibility only as exclusion of recurrent GBM (implying primary GBM eligible). Could be high_grade_glioma_unspecified."
+    },
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {
+        "field": "detailed_description",
+        "quote": "it seems propofol based anesthesia may limit the progression of brain cancer progression and therefore, the purpose is to evaluate type of anesthetics (propofol versus sevoflurane) as a factor responsible for glioma progression and survival characteristics."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": true,
+      "reason": "Anaesthetic with stated antitumour hypothesis and PFS/OS outcomes (manual rule 3.1.2 -> candidate); primary outcomes are feasibility only."
+    },
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Patient will be undergoing primary craniotomy (with general anesthesia)"
+      },
+      {
+        "field": "eligibility",
+        "quote": "Recurrent GBM"
+      }
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Propofol group (Total intravenous anesthesia)",
+      "active_moiety": "propofol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "For the maintenance phase of anesthesia, patients in the propofol group will receive continuous infusions of propofol and remifentanil."
+        },
+        {
+          "field": "brief_summary",
+          "quote": "propofol seems to inhibit cancer formation steps, delays inflammation and provide protection from cancer cell growth."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "intravenous general anaesthetic",
+      "stated_antitumour_mechanism": "propofol may inhibit cancer formation steps, delay inflammation and protect from cancer cell growth (mechanism not known)",
+      "flag": {
+        "uncertain": true,
+        "reason": "Propofol also used for induction in both arms; candidate role refers to propofol maintenance (TIVA)."
+      }
+    },
+    {
+      "agent_name_registered": "Sevoflurane group (Volatile anesthesia)",
+      "active_moiety": "sevoflurane",
+      "role": "control_comparator",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "randomized to receive Volatile (sevoflurane group) agent for the maintenance phase of anesthesia."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "volatile inhalational anaesthetic",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Remifentanil (within both anaesthesia regimens)",
+      "active_moiety": "remifentanil",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "patients in the volatile inhalational anesthesia group will received a volatile inhalational agent (sevoflurane) and remifentanil infusion."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "opioid analgesic (anaesthesia)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Fentanyl (induction, both arms)",
+      "active_moiety": "fentanyl",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "All patients will be induced and intubated after administration of intravenous boluses of fentanyl, propofol and rocuronium."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "opioid analgesic (anaesthesia induction)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Rocuronium (induction, both arms)",
+      "active_moiety": "rocuronium",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "All patients will be induced and intubated after administration of intravenous boluses of fentanyl, propofol and rocuronium."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "neuromuscular blocker (anaesthesia induction)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Feasibility RCT of propofol TIVA vs sevoflurane during glioma craniotomy; Phase NA in registry (fails S3 by code). Remifentanil, fentanyl, rocuronium are background anaesthesia drugs in both arms; coded supportive (anaesthesia) rather than soc_backbone."
+}

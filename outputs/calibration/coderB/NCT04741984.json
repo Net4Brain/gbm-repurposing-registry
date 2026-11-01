@@ -1,0 +1,108 @@
+{
+ "nct_id": "NCT04741984",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "gbm_only",
+  "gbm_population_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": false,
+  "candidate_exclusion_reason": "excluded_intervention_type",
+  "candidate_evidence": [
+   {
+    "field": "detailed_description",
+    "quote": "The investigational vaccine (MT-201-GBM) in this study is made from a type of immune cell called monocytes"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "historical"
+ },
+ "trial": {
+  "treatment_setting": "newly_diagnosed",
+  "treatment_setting_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"
+   }
+  ],
+  "regimen": "not_applicable",
+  "combination_partners": [],
+  "basket": false,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": false
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "MT-201-GBM monocyte vaccine",
+   "active_moiety": "MT-201-GBM",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "interventions",
+     "quote": "monocytes isolated from patient's leukapheresis loaded with CMV pp65-LAMP (Lysosomal-associated Membrane Protein) mRNA"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "autologous monocyte (cell-based) vaccine",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Cell-based vaccine, an excluded intervention type; listed for transparency only"
+   }
+  },
+  {
+   "agent_name_registered": "Temozolomide",
+   "active_moiety": "temozolomide",
+   "role": "soc_backbone",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "after completing standard radiation therapy (XRT) and temozolomide (TMZ) and a single course of dose-intensified TMZ"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "alkylating agent",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "MGMT",
+   "biomarker_other": null,
+   "role": "eligibility",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "MGMT promoter unmethylated (Determined by Caris Life Science pyrosequencing)"
+   },
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "coder_notes": "Excluded at S6: cell-based vaccine. Collaborator NCI is non-industry."
+}

@@ -1,0 +1,61 @@
+NCT ID: NCT06719440
+### title
+Achieving a Better Outcome Through Limiting the Glioblastoma Clinical Target Volume
+Official: Impact of Reducing the Irradiation Volume on Survival, Toxicity, and Quality of Life in Patients With Glioblastoma Treated With Radiochemotherapy: a Prospective Multicenter Randomised Study
+
+### conditions
+Glioblastoma; Radiotherapy Side Effect
+
+### keywords
+(not provided)
+
+### brief_summary
+The objective of the BELGICA trial is to evaluate if radiotherapy could be given in a more focused manner in patients with glioblastoma in order to reduce side effects and improve quality of life.
+
+The glioblastoma (GBM) is the most common and aggressive tumour originating from the brain, affecting approximately 600 patients per year in Belgium. The treatment consists in surgical resection of the tumour (when feasible), followed by a combination of radiotherapy and chemotherapy. Despite multimodal treatment (surgery, radiotherapy, and chemotherapy), the life expectancy of patients with GBM remains limited, with an average survival of 12-18 months and only 5% of patients surviving more than 5 years. In addition to limited survival, most patients with GBM experience impaired quality of life, both because of the disease and treatments.
+
+Radiotherapy is a treatment where radiation is used to kill cancer cells. In GBM, radiotherapy is targeted at the tumour (or tumour bed if the tumour was resected) with a safety margin around it (the "Clinical Target Volume" or CTV) to account for potential microscopic spread of the tumour. The downside of this safety margin is that a substantial amount of brain tissue is irradiated, which can lead to treatment toxicity. Reducing the CTV margin would enable to decrease the volume of brain being irradiated and could thereby allow to reduce the side effects of brain irradiation.
+
+The BELGICA trial (Achieving a BEtter outcome through Limiting the GlIoblastoma Clinical tArget volume) is a national multicentre trial which will evaluate if reducing the irradiation volume in glioblastoma is safe and allows for lowering side effects and improving quality of life.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: NA; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [ACTIVE_COMPARATOR] Standard of Care:  (interventions: Radiation: Radiotherapy (CTV=15mm))
+- [EXPERIMENTAL] Interventional arm:  (interventions: Radiation: Radiotherapy (CTV=10mm))
+
+### interventions
+- [RADIATION] Radiotherapy (CTV=10mm): Radiotherapy with reduced irradiation volume CTV=10mm
+- [RADIATION] Radiotherapy (CTV=15mm): Radiotherapy with standard irradiation volume CTV=15mm
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Participants capable of giving informed consent
+* Age \>= 18 y.o.
+* WHO performance status 0-2
+* Newly diagnosed glioblastoma (Histologically proven glioblastoma per WHO 2021 classification based on biopsy or resection )
+* Indication of chemoradiotherapy confirmed by multidisciplinary tumour board
+
+Exclusion Criteria:
+
+* Participation in a competing trial
+* Known contraindication to undergo MRI scans
+
+### outcomes
+- [primaryOutcomes] Overall Survival: Number of days from date of randomization to the date of death due to any cause
+- [secondaryOutcomes] Neurocognitive functioning: Hopkins verbal learning test revised; Trail Marking Test A \& B; Controlled Oral Word Association Test
+- [secondaryOutcomes] Radiation-induced toxicity: Assessment of fatigue, headache, nausea, alopecia and radiatio dermatitis according to the CTCAE assessment score. Score ranges from Grade 1 to Grade 5, with higher grades resulting in more severe symptoms.
+- [secondaryOutcomes] Health-related Quality of Life: EQ-5D-5L; QLQ-C30; QLQ-BN20
+- [secondaryOutcomes] Progression-free survival: Length of time during and after treatment for a disease, such as cancer, that a patient lives with the disease without it worsening
+- [secondaryOutcomes] Pattern of recurrence: (in case of progression) Manner in which the tumor returns after a period of improvement or remission. It often involves tracking the frequency, timing, and location of the tumor's return
+- [secondaryOutcomes] Anti-edema therapy: Recording of the needs of anti-edema therapy
+- [otherOutcomes] Normal tissue complication probability model (NTCP): To develop a normal tissue complication probability model (NTCP) for radiation-induced cognitive toxicity, based on clinical and dosimetric measures (e.g. radiation dose delivered to brain structures)
+
+### sponsor
+Lead: Cliniques universitaires Saint-Luc- Université Catholique de Louvain; collaborators: Belgium Health Care Knowledge Centre

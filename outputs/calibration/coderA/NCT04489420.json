@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT04489420",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Histologically confirmed glioblastoma multiforme (GBM) and are at first or second relapse."
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": false
+    },
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {
+        "field": "brief_summary",
+        "quote": "CYNK-001 which are NK cells derived from human placental CD34+ cells and culture-expanded."
+      },
+      {
+        "field": "keywords",
+        "quote": "cell therapy"
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": true,
+      "reason": "Lymphodepleting chemotherapy (cyclophosphamide implied) given before IV NK cells; considered conditioning for cell therapy, not an antitumour candidate."
+    },
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {
+        "field": "title",
+        "quote": "A Phase I Study of Human Placental Hematopoietic Stem Cell Derived Natural Killer Cells (CYNK-001) in Adults With Recurrent Glioblastoma Multiforme (GBM)"
+      }
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CYNK001-IV / CYNK001-IT",
+      "active_moiety": "CYNK-001",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {
+          "field": "brief_summary",
+          "quote": "researchers want to learn if NK cells will help in treating recurrent glioblastoma multiforme."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic placental-derived NK cell therapy (excluded intervention type)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Cell therapy: excluded intervention type per manual 1.2; listed for denominator only."
+      }
+    },
+    {
+      "agent_name_registered": "lymphodepleting chemotherapy (cyclophosphamide, per conditions/keywords)",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "brief_summary",
+          "quote": "CYNK-001 cells will be given after lymphodepleting chemotherapy for the systemic cohort (IV) (intravenous)."
+        },
+        {
+          "field": "keywords",
+          "quote": "Cyclophosphamide"
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used as lymphodepletion before cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Not a registered intervention; agent inferred from conditions/keywords. Lymphodepletion conditioning fits no role category exactly; coded supportive."
+      }
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "NK cell therapy trial; IV cohorts receive lymphodepleting chemotherapy, IT cohorts do not. Surgical cohorts (1B/2B) also enrol GBM patients; setting coded recurrent."
+}

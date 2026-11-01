@@ -1,0 +1,507 @@
+{
+ "moiety": "dronabinol",
+ "accessed_utc": "2026-11-01T16:25:57+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA018651",
+    "date": "1985-05-31",
+    "brand": [
+     "MARINOL",
+     "MARINOL",
+     "MARINOL"
+    ]
+   },
+   {
+    "application": "NDA205525",
+    "date": "2016-07-01",
+    "brand": [
+     "SYNDROS"
+    ]
+   }
+  ],
+  "first_approval_date": "1985-05-31",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Dronabinol capsules are indicated in adults for the treatment of: anorexia associated with weight loss in patients with Acquired Immune Deficiency Syndrome (AIDS). nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. Dronabinol capsules are a cannabinoid indicated in adults for the treatment of: Anorexia associated with weight loss in patients with AIDS. (1) Nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. (1)",
+   "1 INDICATIONS AND USAGE Dronabinol oral solution is indicated in adults for the treatment of: anorexia associated with weight loss in patients with Acquired Immune Deficiency Syndrome (AIDS). nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. Dronabinol oral solution is a cannabinoid indicated in adults for the treatment of: anorexia associated with weight loss in patients with AIDS. ( 1 ) nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. ( 1 )",
+   "1 INDICATIONS AND USAGE SYNDROS is indicated in adults for the treatment of: anorexia associated with weight loss in patients with Acquired Immune Deficiency Syndrome (AIDS). nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. SYNDROS is a cannabinoid indicated in adults for the treatment of: anorexia associated with weight loss in patients with AIDS. ( 1 ) nausea and vomiting associated with cancer chemotherapy in patients who have failed to respond adequately to conventional antiemetic treatments. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"dronabinol\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL465",
+  "pref_name": "DRONABINOL",
+  "max_phase": 4.0,
+  "atc": [
+   "A04AD10"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "irritable bowel syndrome",
+    "mesh_heading": "Irritable Bowel Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01253408,NCT01786109"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chemotherapy-induced nausea and vomiting",
+    "mesh_heading": "Nausea",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00642512"
+     }
+    ]
+   },
+   {
+    "efo_term": "obstructive sleep apnea",
+    "mesh_heading": "Sleep Apnea, Obstructive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01755091,NCT05857384,NCT06146101,NCT06477952"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug dependence",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02094599,NCT03944954"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea",
+    "mesh_heading": "Nausea",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "A04AD10"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00743119,NCT01595620,NCT04025359,NCT04226690"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00079560,NCT03550352,NCT04920539,NCT06034314"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-traumatic stress disorder",
+    "mesh_heading": "Stress Disorders, Post-Traumatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02759185,NCT04080427,NCT06222268"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol drinking",
+    "mesh_heading": "Alcohol Drinking",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02983773"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tourette syndrome",
+    "mesh_heading": "Tourette Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03066193,NCT05184478"
+     }
+    ]
+   },
+   {
+    "efo_term": "opioid dependence",
+    "mesh_heading": "Opioid-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01024335"
+     }
+    ]
+   },
+   {
+    "efo_term": "Dementia",
+    "mesh_heading": "Dementia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01302340"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential tremor",
+    "mesh_heading": "Essential Tremor",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03805750"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00217971,NCT00373399,NCT00373503,NCT00403117,NCT00438139,NCT00480441,NCT00490269,NCT00708994,NCT00743145,NCT00893074,NCT01020019,NCT01037608,NCT01041170,NCT01394185,NCT01598896,NCT02709954,NCT02710331,NCT02781519,NCT02811510,NCT03518567,NCT03560934,NCT04199468,NCT04283019,NCT04704271,NCT04741477,NCT05116527,NCT06149988,NCT06218550"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chronic pain",
+    "mesh_heading": "Chronic Pain",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00153192,NCT03215940,NCT03766269"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cognitive impairment",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03804840"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriatic arthritis",
+    "mesh_heading": "Arthritis, Psoriatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04269993"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoarthritis, knee",
+    "mesh_heading": "Osteoarthritis, Knee",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03825965,NCT04298528,NCT04992962"
+     }
+    ]
+   },
+   {
+    "efo_term": "Torticollis",
+    "mesh_heading": "Torticollis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00418925"
+     }
+    ]
+   },
+   {
+    "efo_term": "Arthropathy",
+    "mesh_heading": "Joint Diseases",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04099355"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea and vomiting",
+    "mesh_heading": "Vomiting",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "5050ed63-c6bc-4761-9a81-ef8e5f3f378e"
+     }
+    ]
+   },
+   {
+    "efo_term": "Anorexia",
+    "mesh_heading": "Anorexia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "5050ed63-c6bc-4761-9a81-ef8e5f3f378e"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05351801"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01776970"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00982982,NCT01832766"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05322213"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00682929,NCT06261489"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine with aura",
+    "mesh_heading": "Migraine with Aura",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00123201"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00624715,NCT04856566"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03978156,NCT05519111"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine without aura",
+    "mesh_heading": "Migraine without Aura",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00123201"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05626959"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03206463,NCT04231643"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "5050ed63-c6bc-4761-9a81-ef8e5f3f378e"
+     }
+    ]
+   },
+   {
+    "efo_term": "anorexia nervosa",
+    "mesh_heading": "Anorexia Nervosa",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00760695"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea and vomiting",
+    "mesh_heading": "Nausea",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "5050ed63-c6bc-4761-9a81-ef8e5f3f378e"
+     }
+    ]
+   },
+   {
+    "efo_term": "mental or behavioural disorder",
+    "mesh_heading": "Mental Disorders",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00708994,NCT00982982"
+     }
+    ]
+   },
+   {
+    "efo_term": "rheumatoid arthritis",
+    "mesh_heading": "Arthritis, Rheumatoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04269993"
+     }
+    ]
+   },
+   {
+    "efo_term": "trichotillomania",
+    "mesh_heading": "Trichotillomania",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03530800"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Cannabinoid CB1 receptor agonist",
+    "action_type": "AGONIST",
+    "target": "CHEMBL218"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 69,
+  "earliest": {
+   "nct": "NCT00153192",
+   "start": "2001-04",
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1985-05-31",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "cancer wording in label but no L01/L02 ATC: oncology drug or supportive use?"
+  ]
+ }
+}

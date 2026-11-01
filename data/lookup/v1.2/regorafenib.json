@@ -1,0 +1,614 @@
+{
+ "moiety": "regorafenib",
+ "accessed_utc": "2026-11-01T16:04:20+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA203085",
+    "date": "2012-09-27",
+    "brand": [
+     "STIVARGA"
+    ]
+   },
+   {
+    "application": "NDA204369",
+    "date": "2013-02-25",
+    "brand": [
+     "STIVARGA"
+    ]
+   }
+  ],
+  "first_approval_date": "2012-09-27",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE STIVARGA is a kinase inhibitor indicated for the treatment of adult patients with: \u2022 Metastatic colorectal cancer (CRC) who have been previously treated with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy, an anti-VEGF therapy, and, if RAS wild-type, an anti-EGFR therapy. ( 1.1 ) \u2022 Locally advanced, unresectable or metastatic gastrointestinal stromal tumor (GIST) who have been previously treated with imatinib mesylate and sunitinib malate. ( 1.2 ) \u2022 Hepatocellular carcinoma (HCC) who have been previously treated with sorafenib ( 1.3 ) 1.1 Colorectal Cancer STIVARGA is indicated for the treatment of adult patients with metastatic colorectal cancer (CRC) who have been previously treated with fluoropyrimidine-, oxaliplatin- and irinotecan-based chemotherapy, an anti-VEGF therapy, and, if RAS wild-type, an anti-EGFR therapy. 1.2 Gastrointestinal Stromal Tumors STIVARGA is indicated for the treatment of adult patients with locally advanced, unresectable or metastatic gastrointestinal stromal tumor (GIST) who have been previously treated with imatinib mesylate and sunitinib malate. 1.3 Hepatocellular Carcinoma STIVARGA is indicated for the treatment of adult patients with hepatocellular carcinoma (HCC) who have been previously treated with sorafenib."
+  ],
+  "query": "products.active_ingredients.name:\"regorafenib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Stivarga",
+    "status": "Authorised",
+    "authorisation_date": "2013-08-26",
+    "atc": "L01EX05",
+    "therapeutic_area": "Colorectal Neoplasms",
+    "indication": "Stivarga is indicated as monotherapy for the treatment of adult patients with:  metastatic colorectal cancer (CRC) who have been previously treated with, or are not considered candidates for, available therapies - these include fluoropyrimidine-based chemotherapy, an anti-VEGF therapy and an anti-EGFR therapy; unresectable or metastatic gastrointestinal stromal tumors (GIST) who progressed on or are intolerant to prior treatment with imatinib and sunitinib; hepatocellular carcinoma (HCC) who have been previously treated with sorafenib.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stivarga"
+   }
+  ],
+  "first_authorisation_date": "2013-08-26"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1946170",
+  "pref_name": "REGORAFENIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX05"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01189903,NCT01929616,NCT02368886,NCT02425683,NCT02788006,NCT03377361"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenoid cystic carcinoma",
+    "mesh_heading": "Carcinoma, Adenoid Cystic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02098538"
+     }
+    ]
+   },
+   {
+    "efo_term": "bile duct carcinoma",
+    "mesh_heading": "Bile Duct Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02115542"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02080260"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01900743"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01774344,NCT03347292,NCT03899428,NCT04170556,NCT04183088,NCT04310709,NCT04327700,NCT04476329,NCT04696055,NCT04718909,NCT04777851,NCT04806243,NCT04985136,NCT05048017,NCT05134532,NCT05194293,NCT05622136,NCT05644379,NCT05770882,NCT05773105,NCT05962450,NCT06280105"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02162914"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX05"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00960258,NCT01096030,NCT01117623,NCT01287598,NCT01322438,NCT01339104,NCT01853046,NCT01973868,NCT02001909,NCT02106845,NCT02168777,NCT02466802,NCT02925234,NCT03406871,NCT04116541,NCT04200404,NCT04704154,NCT05159245,NCT05644392"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian neoplasm",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02736305"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02501551,NCT05370807"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02584465"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02287727,NCT02288078,NCT02368886,NCT02425683,NCT02910843,NCT05900648"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02926222,NCT03970447,NCT04051606,NCT06095375"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03042689,NCT06454409"
+     }
+    ]
+   },
+   {
+    "efo_term": "liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02048371"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02048371,NCT04803877"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00664326"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01187615"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02048722"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00934882,NCT01289821,NCT01584830,NCT01939223,NCT02096354,NCT02195011,NCT02465502,NCT04776148,NCT05328908,NCT05426811"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002573"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02119676,NCT02199223,NCT02368886,NCT03844620,NCT05382741,NCT06455254"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02587650"
+     }
+    ]
+   },
+   {
+    "efo_term": "macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02222207"
+     }
+    ]
+   },
+   {
+    "efo_term": "colon adenocarcinoma",
+    "mesh_heading": "Pulmonary Disease, Chronic Obstructive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02368886"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02048722,NCT03793361"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03627728,NCT04757363"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02657551"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02278783"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02773524,NCT04879368"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02278783,NCT05113368"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02402036,NCT02664077"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract cancer",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02053376,NCT04781192,NCT05820906"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastrointestinal stromal tumor",
+    "mesh_heading": "Gastrointestinal Stromal Tumors",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01068769,NCT01271712,NCT02164240,NCT02365441,NCT02606097,NCT02638766,NCT02889328,NCT03465722,NCT05366816,NCT06087263"
+     }
+    ]
+   },
+   {
+    "efo_term": "rhabdomyosarcoma",
+    "mesh_heading": "Rhabdomyosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04625907"
+     }
+    ]
+   },
+   {
+    "efo_term": "Malignant Bone Neoplasm",
+    "mesh_heading": "Bone Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05830084"
+     }
+    ]
+   },
+   {
+    "efo_term": "intrahepatic cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05535647"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02024607,NCT02095054,NCT02241720,NCT02439723,NCT02925234,NCT03475251,NCT03890731,NCT03994601,NCT05159245,NCT06246643"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06454409"
+     }
+    ]
+   },
+   {
+    "efo_term": "digestive system cancer",
+    "mesh_heading": "Digestive System Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06099821"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02116894,NCT02316340,NCT02581059,NCT02619435,NCT02788279,NCT03099486,NCT03215264,NCT03377361,NCT03555149,NCT03946917,NCT04126733,NCT04787341,NCT05064059,NCT05198934,NCT05425940,NCT05600309,NCT05730673,NCT05985109,NCT06199973,NCT06200363"
+     },
+     {
+      "type": "DailyMed",
+      "id": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7"
+     }
+    ]
+   },
+   {
+    "efo_term": "grade III meningioma",
+    "mesh_heading": "Meningioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06275919"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Tyrosine-protein kinase ABL inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1862"
+   },
+   {
+    "mechanism": "Serine/threonine-protein kinase RAF inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1906"
+   },
+   {
+    "mechanism": "Stem cell growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1936"
+   },
+   {
+    "mechanism": "Fibroblast growth factor receptor 1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3650"
+   },
+   {
+    "mechanism": "MAP kinase p38 beta inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3961"
+   },
+   {
+    "mechanism": "Fibroblast growth factor receptor 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4142"
+   },
+   {
+    "mechanism": "Tyrosine-protein kinase FRK inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4223"
+   },
+   {
+    "mechanism": "Discoidin domain-containing receptor 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5122"
+   },
+   {
+    "mechanism": "Serine/threonine-protein kinase B-raf inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5145"
+   },
+   {
+    "mechanism": "Tyrosine-protein kinase TIE-2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4128"
+   },
+   {
+    "mechanism": "Platelet-derived growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2095189"
+   },
+   {
+    "mechanism": "Vascular endothelial growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2095227"
+   },
+   {
+    "mechanism": "Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2041"
+   },
+   {
+    "mechanism": "Ephrin type-A receptor 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2068"
+   },
+   {
+    "mechanism": "Nerve growth factor receptor Trk-A inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2815"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 134,
+  "earliest": {
+   "nct": "NCT00664326",
+   "start": "2008-04-30",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2012-09-27",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT05460507",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "The type and grade of glioma to follow the 2021 WHO Classification of Tumors of the Central Nervous System, allowing Grade III and IV gliomas."
+      },
+      {
+        "field": "keywords",
+        "quote": "Glioblastoma; Recurrent Glioblastoma"
+      },
+      {
+        "field": "outcomes",
+        "quote": "To assess overall survival following 186RNL in patients with bevacizumab naïve recurrent glioblastoma following treatment with a second administration of 186RNL."
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": true,
+      "reason": "Conditions say only 'Glioma'; eligibility allows WHO grade III/IV glioma; glioblastoma named in keywords and outcomes, not in conditions/inclusion criteria."
+    },
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {
+        "field": "detailed_description",
+        "quote": "This Phase I clinical study evaluates a single dose of 186RNL (radionuclide clinical study drug) administered through a convection enhanced delivery catheter (CED catheter)"
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": false
+    },
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Patients must have malignant glioma that has progressed on or after standard treatment (surgery, radiotherapy, and/or chemotherapy)"
+      }
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Retreatment Rhenium Liposome (Rhenium-186 NanoLiposome)",
+      "active_moiety": "186RNL",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "Each participant will receive a single administration of 186RNL. The proposed dose is up to 8.8 mL as a single administration with an administered dose of 22.3 mCi."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational rhenium-186 nanoliposome radiopharmaceutical (locoregional brachytherapy-like; INN possibly rhenium (186Re) obisbemeda)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Formulation flag: delivered by convection-enhanced delivery; nanoliposome is the product itself, so new_route vs none is debatable."
+      }
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm retreatment study in patients previously treated with 186RNL. Eligibility cites WHO 2021 (CNS5) classification but does not name glioblastoma or require IDH-wildtype, hence cns5 unclear. Lead sponsor Cerenome."
+}

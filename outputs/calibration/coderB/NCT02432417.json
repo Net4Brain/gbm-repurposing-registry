@@ -1,0 +1,139 @@
+{
+ "nct_id": "NCT02432417",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "gbm_only",
+  "gbm_population_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "arms",
+    "quote": "In addition this treatment will be combined with a daily intake of the recommended phase two dose (RPTD) of chloroquine (CQ)."
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "cns5"
+ },
+ "trial": {
+  "treatment_setting": "newly_diagnosed",
+  "treatment_setting_evidence": [
+   {
+    "field": "title",
+    "quote": "Concurrent Chemoradiation for Newly Diagnosed Glioblastoma"
+   }
+  ],
+  "regimen": "combination",
+  "combination_partners": [
+   "temozolomide",
+   "radiotherapy"
+  ],
+  "basket": false,
+  "control_arm_from_other_arms": "no",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": false
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "Chloroquine",
+   "active_moiety": "chloroquine",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "In addition this treatment will be combined with a daily intake of the recommended phase two dose (RPTD) of chloroquine (CQ)."
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "antimalarial, autophagy inhibitor",
+   "stated_antitumour_mechanism": "Chloroquine (CQ) is a potent autophagy blocker",
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "agent_name_registered": "TMZ",
+   "active_moiety": "temozolomide",
+   "role": "soc_backbone",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "in combination with TMZ 75 mg/m\u00b2 Per os daily (po qd) and six adjuvant cycles of TMZ 150 - 200 mg/m\u00b2 po qd"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "alkylating agent",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "EGFR_EGFRvIII",
+   "biomarker_other": null,
+   "role": "exploratory_correlative",
+   "candidate_matched": true,
+   "matched_agent": "chloroquine",
+   "source_quote": {
+    "field": "outcomes",
+    "quote": "Gene mutation, deletion or amplification: O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Rationale links EGFRvIII to autophagy dependence; only exploratory"
+   }
+  },
+  {
+   "biomarker": "MGMT",
+   "biomarker_other": null,
+   "role": "exploratory_correlative",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "outcomes",
+    "quote": "O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+   },
+   "flag": {
+    "uncertain": false
+   }
+  },
+  {
+   "biomarker": "IDH",
+   "biomarker_other": null,
+   "role": "exploratory_correlative",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "outcomes",
+    "quote": "isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"
+   },
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "coder_notes": "Standard arm is typed NO_INTERVENTION but receives RT+TMZ; control_arm_from_other_arms set to no since a control arm is already coded from the arm type. Radiotherapy is background, not a drug row. IDH wildtype is also an eligibility criterion (diagnostic)."
+}

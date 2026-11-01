@@ -1,0 +1,80 @@
+NCT ID: NCT04566185
+### title
+Evaluation of the Predictive Value of 18F-fluorodeoxyglucose Positron Emission Tomography and Brain Perfusion Computed Tomography for the Efficacy of Anti-angiogenic Therapy (Bevacizumab) in Recurrent Glioblastoma
+Official: Evaluation of the Value of 18F-fluorodeoxyglucose Positron Emission Tomography (FDG PET) and Brain Perfusion Computed Tomography (CT Perfusion) for Predicting the Efficacy of Anti-angiogenic Therapy (Bevacizumab) in Patients With Recurrent Glioblastoma
+
+### conditions
+Glioblastoma
+
+### keywords
+(not provided)
+
+### brief_summary
+In this pilot study, the study evaluators will evaluate the ability of positron emission tomography (PET) with 18F-fluorodeoxyglucose (FDG PET) and the computed tomography (CT) perfusion scanner, individually and combined, to predict the effectiveness of anti-angiogenic treatment.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Patients with recurrent glioblastoma:  (interventions: Other: FDG PET; Other: CT scan; Other: Magnetic resonance imaging (MRI))
+
+### interventions
+- [OTHER] FDG PET: IV application of F Dopa, 2 MBq per Kg, with a scout view (angle of view 90 °, 120 kV, 30 mAs), then an X-ray scan is performed for the attenuation correction ( 120 kV - 5mAs - pitch 0.531 - thickness // increment: 3.75mm//3.27mm -QAC filter - DFOV 25).
+
+PET acquisition: static in 3D mode for 20 minutes, 8 minutes after the injection of 18 F Dopa, the axial field of view is 25, the matrix in 256 x 256. After OSEM reconstruction 6 iterations and 24 subsets, with correction of attenuation and diffusion, then Gaussian filter of frequency 4, 47 contiguous axial sections of 3.26 mm are obtained.
+- [OTHER] CT scan: Localization propeller without injection: 120kV - mA regulation (Noise Index 15) - pitch 0.969 - thickness // increment: 5mm // 5mm - Soft filter - Asir 60% - DFOV 25.
+
+Acquisition begins 5 seconds after the start of the injection of 60 ml of contrast product (VISIPAQUE) at 4 cc / second without (acquisition characteristics: 80 kV - 100 mAs -- thickness: 5mm // 8 images / rotation - STD filter - Asir 50% display field of view (DFOV) 25 - phase1: 5s then phase2 15s).
+
+Diagnostic quality CT: 120kV - Regulation of mA (Noise Index 15) - pitch 0.531 - thickness // increment: 1.25 // 0.625mm - Soft filter - Asir 60% - DFOV 25.
+- [OTHER] Magnetic resonance imaging (MRI): If the examination is performed on the SIEMENS SKYRA 3T device: 32 channel head coil antenna, if on the PHILIPPS INGENIA 1.5 T device: DStream HeadSpine Coil antenna.
+
+The sequence begins with an axial, coronal and sagittal "Survey" topogram, lasting 1 minute.
+
+Then axial sequence T1, Axial T2 \*, Axial cerebral perfusion (Injection of gadolinium (0.1 mmol / kg, 5 cc / second), coronal T2, Axial T2 Flair, Axial DWI b100, Axial 3D T1 gadolinium
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* The patient must have given their free and informed consent and signed the consent form
+* The patient must be a member or beneficiary of a health insurance plan
+* The patient has an WHO score ≤ 3
+* The patient's estimated life expectancy is more than 3 months.
+* Patient with histologically proven diagnosis of glioblastoma.
+* Patient presenting with tumor progression on morphological MRI confirmed by a multidisciplinary committee.
+* Patient with a unilateral supratentorial target lesion upon inclusion to establish a tumor region of interest (ROI) zone and an equivalent ROI zone in contralateral healthy tissue.
+* Patient progressing after radiotherapy and at least one line of chemotherapy with TEMODAL
+* Patient in whom treatment with Bevacizumab monotherapy has been validated by a multidisciplinary committee.
+
+Exclusion Criteria:
+
+* The subject is participating in an interventional study, or is in a period of exclusion determined by a previous study
+* The subject refuses to sign the consent
+* It is impossible to give the subject informed information
+* The patient is under safeguard of justice or state guardianship
+* Pregnant or breast feeding patients
+* Hypersensitivity to iodinated contrast media and creatinine clearance less than 60 ml / minute.
+
+### outcomes
+- [primaryOutcomes] Categorization of patients as responders or non-responders to treatment: Measured by MRI according to Response Assessment in Neuro-Oncology (RANO) criteria: Complete response/Partial response/stable/progression
+- [secondaryOutcomes] Metabolic Tumor Volume: FDG PET
+- [secondaryOutcomes] Metabolic Tumor Volume: FDG PET
+- [secondaryOutcomes] Fixation Index: Maximum standard uptake value (SUV) and average SUV of the lesion divided by maximum SUV and average SUV of the striata
+- [secondaryOutcomes] Fixation Index: Maximum standard uptake value (SUV) and average SUV of the lesion divided by maximum SUV and average SUV of the striata
+- [secondaryOutcomes] permeability-surface area product: CT scan
+- [secondaryOutcomes] permeability-surface area product: CT scan
+- [secondaryOutcomes] cerebral blood flow: CT scan
+- [secondaryOutcomes] cerebral blood flow: CT scan
+- [secondaryOutcomes] Normalized permeability-surface area product to healthy brain: CT scan
+- [secondaryOutcomes] Normalized permeability-surface area product to healthy brain: CT scan
+- [secondaryOutcomes] Normalized cerebral blood flow to healthy brain: CT scan
+- [secondaryOutcomes] Normalized cerebral blood flow to healthy brain: CT scan
+- [secondaryOutcomes] Inter-rater reproducibility of FDG PET: LIN intraclass correlation coefficient
+- [secondaryOutcomes] Inter-rater reproducibility of CT scan: LIN intraclass correlation coefficient
+
+### sponsor
+Lead: Centre Hospitalier Universitaire de Nīmes; collaborators:

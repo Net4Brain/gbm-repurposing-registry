@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT07461948",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Documentation of a confirmed or suspected diagnosis of glioblastoma"},
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI. Contrast agents are substances that are injected into the body and taken up by certain tissues, making the tissues easier to see in imaging scans."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Diagnostic (CEST MRI, DR-CSI, Fe-MRI)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The participant is scheduled to undergo standard of care surgical tumor resection and/or biopsy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": true, "reason": "Diagnostic imaging study before surgery/biopsy; record does not state whether newly diagnosed or recurrent tumours are enrolled."}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ferumoxytol",
+      "active_moiety": "ferumoxytol",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "iron oxide nanoparticle (iron replacement; used here as MRI contrast agent)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Ferumoxytol is used as a diagnostic imaging contrast agent; no role category fits diagnostics exactly, coded as supportive (non-antitumour)."}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour immune microenvironment markers (T-cell densities, CD4+/CD8+ T cells, M1/M2 tumour-associated macrophages) and systemic immune markers",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Conduct more detailed correlation explorations focusing on relevant subpopulations, such as cluster of differentiation 4 (CD4+) versus ( cluster of differentiation 8 (CD8+) T cells and M1- versus M2-like tumor-associated macrophages (TAMs)."},
+      "flag": {"uncertain": true, "reason": "Immune cell markers are correlated with imaging measures; may be considered imaging validation endpoints rather than molecular biomarkers."}
+    }
+  ],
+  "coder_notes": "Diagnostic imaging trial (registered PHASE3). Only drug is ferumoxytol as MRI contrast agent; no antitumour intent, so no pharmacological candidate."
+}

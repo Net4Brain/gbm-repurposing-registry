@@ -1,0 +1,70 @@
+NCT ID: NCT07523529
+### title
+Biomarker-Guided Dual-Target CAR-T Cells for Advanced Solid Tumors
+Official: A Phase 1/2, Open-Label, Biomarker-Guided Master Protocol Evaluating Autologous Dual-Target CAR-T Cells Selected From a Predefined Target Library in Adults With Advanced Solid Tumors
+
+### conditions
+Advanced Unresectable; Metastatic
+
+### keywords
+antigen co-expression; B7-H3; bi-specific CAR-T; biomarkerguided; CD133; CD44; CD56; CD70; CLDN18.2; dual-target CAR-T; EGFR; EGFRvIII; GD2; gastric cancer; glioblastoma; GPC3; HER2; hepatocellular carcinoma; IL13Ralpha2; Mesothelin; MUC1; NKG2D; NSCLC; ovarian cancer; pancreatic cancer; PD-L1; prostate cancer; PSMA; solid tumors; tandem CAR-T; TRAIL-R2; triple-negative breast cancer; VEGFR1
+
+### brief_summary
+This is a multicenter, open-label, Phase 1/2 master protocol evaluating autologous dual-target CAR-T cell therapy in adults with advanced solid cancers. After central biomarker screening, each participant is assigned the best-matched dual-target construct from a predefined target-pair library. The trial is designed to test whether biomarkerguided dual targeting can improve tumor control, reduce antigenescape risk, and preserve safety in solid tumors.
+
+### detailed_description
+Participants undergo central pathology review and antigen profiling on fresh or archived tumor tissue. If one or more predefined dual-target pairs qualify, a target-selection committee ranks candidate pairs using
+
+(1) co-expression level, (2) tumor-normal differential, (3) diseasespecific biologic rationale, and (4) product / manufacturing feasibility.
+
+All enrolled participants receive lymphodepletion with fludarabine and cyclophosphamide followed by one infusion of the assigned autologous dual-target CAR-T product. Each newly activated target-pair cohort begins with dose escalation (modified 3+3 lead-in) and, if acceptable, proceeds to dose expansion at the recommended Phase 2 dose / schedule (RP2D / RP2S). Optional repeat infusion is allowed for selected participants with retained eligibility, available product, and no prohibitive toxicity. Disease response is assessed by RECIST 1.1 for non-CNS disease and by RANO for CNS cohorts. Participants are followed for disease outcomes for 24 months and for long-term genemodified cell safety for up to 15 years, consistent with local genetherapy follow-up expectations. Because the solid-tumor target landscape continues to evolve, this example uses a broad predefined target library rather than claiming to be a permanently exhaustive list of every future target.
+
+### design
+Phase: PHASE1, PHASE2; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Biomarker-guided dual-target CAR-T therapy: Participants undergo central antigen-pair screening and receive the bestmatched autologous dual-target CAR-T construct from the predefined library after lymphodepletion with fludarabine / cyclophosphamide. A second infusion may be permitted in selected participants if product is available, the assigned dose level remains safe, and retreatment criteria are met. (interventions: Biological: Autologous dual-target CAR-T cells selected from the predefined target library.; Drug: Fludarabine; Drug: Cyclophosphamide)
+
+### interventions
+- [BIOLOGICAL] Autologous dual-target CAR-T cells selected from the predefined target library.: Autologous dual-target CAR-T cells are patient-derived T cells engineered to recognize two tumor-associated antigens selected from a predefined target library. In clinical trials, they are administered to enhance tumor targeting and reduce antigen escape, with evaluation of safety, tolerability, and preliminary anti-tumor activity.
+- [DRUG] Fludarabine (other names: lymphodepletion): chemotherapy preconditioning regimen used before cell therapy to reduce the patient's existing lymphocytes and create space for infused cells. In clinical trials, it is given prior to CAR-T infusion to enhance cell expansion, persistence, and overall treatment efficacy.
+- [DRUG] Cyclophosphamide (other names: lymphodepletion): Cyclophosphamide lymphodepletion is a chemotherapy preconditioning regimen administered prior to cell therapy to suppress existing immune cells and improve the environment for infused cells. In clinical trials, it is given before CAR-T infusion to support cell expansion, persistence, and enhance therapeutic effectiveness.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age 18-75 years at consent
+* Histologically or cytologically confirmed advanced unresectable, metastatic, or recurrent solid malignancy (including recurrent high-grade glioma for CNSspecific pairs) for which standard curative therapy does not exist, is not tolerated, or has failed.
+* At least one predefined dual-target pair qualifies on central biomarker review. Recommended working thresholds: primary antigen \>= 2+ intensity in \>= 50% of viable tumor cells (or pair-specific equivalent) AND secondary antigen detectable in \>= 25% of viable tumor cells, with acceptable normal-tissue risk after pathology review
+* At least 1 measurable lesion by RECIST 1.1, or measurable / evaluable disease by RANO for CNS cohorts.
+* ECOG performance status 0-1 (CNS cohort may allow Karnofsky \>= 70 or ECOG 0-2 if justified).
+* Adequate organ function: ANC \>= 1.0 x 10\^9/L, platelets \>= 75 x 10\^9/L, hemoglobin \>= 8 g/dL, creatinine clearance \>= 50 mL/min, AST / ALT \<= 3 x ULN (\<= 5 x ULN if liver involvement), total bilirubin \<= 1.5 x ULN unless Gilbert syndrome, LVEF \>= 45%, oxygen saturation \>= 92% on room air.
+* Recovered to Grade \<= 1 from acute toxicities of prior anticancer therapy (except alopecia, stable endocrinopathies, or other protocol-allowed residual toxicities).
+* Adequate venous access and ability to undergo leukapheresis; successful manufacture of a release-qualified autologous dual-target CAR-T product.
+* Life expectancy \>= 12 weeks.
+* Negative pregnancy test for persons of childbearing potential and agreement to use highly effective contraception per protocol.
+* Ability to understand and sign informed consent and comply with study follow-up, including long-term gene-modified cell monitoring.
+
+Exclusion Criteria:
+
+* No qualifying target pair after central review, or target pair considered unsafe because of unacceptable predicted ontarget / off-tumor risk.
+* Prior gene-modified cellular therapy directed against the same target pair within 6 months, or persistent clinically significant toxicity from prior cell / gene therapy.
+* Active uncontrolled infection, including uncontrolled bacterial, fungal, or viral infection; active tuberculosis; uncontrolled HIV; active hepatitis B or C with detectable / unsafe viral burden.
+* Need for systemic corticosteroids \> 10 mg prednisone equivalent daily or other systemic immunosuppressive therapy within 7 days before lymphodepletion, unless specifically allowed for physiologic replacement or CNS edema management per cohort rules.
+* Active autoimmune disease requiring systemic immunosuppression within the past 2 years, except protocol-allowed stable conditions.
+* Clinically significant cardiovascular disease (for example uncontrolled arrhythmia, recent myocardial infarction, unstable angina, decompensated heart failure), severe pulmonary compromise, or other major comorbidity making cell therapy unsafe.
+* Active symptomatic CNS hemorrhage, uncontrolled seizures, or uncontrolled intracranial hypertension; leptomeningeal disease requiring urgent intervention unless explicitly allowed in a CNS-specific cohort.
+* Pregnancy or breastfeeding.
+* Concurrent second malignancy requiring active systemic treatment, except certain low-risk or definitively treated cancers allowed by protocol.
+* Any condition that, in the investigator's judgment, would interfere with safe participation, product manufacture, infusion, or interpretation of results.
+
+### outcomes
+- [primaryOutcomes] Dose-limiting toxicities (DLTs): 
+- [primaryOutcomes] Incidence and severity of treatment-emergent adverse events: 
+- [secondaryOutcomes] Objective response rate (ORR) by RECIST 1.1 or RANO: 
+- [secondaryOutcomes] Disease control rate (DCR): 
+- [secondaryOutcomes] Duration of response (DoR):
+
+### sponsor
+Lead: Beijing Biotech; collaborators:

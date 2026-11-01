@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT04201457",
+  "coder_id": "B",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Low Grade Glioma (LGG) of Brain With BRAF Aberration; High Grade Glioma (HGG) of the Brain With BRAF Aberration; Low Grade Glioma of Brain With Neurofibromatosis Type 1"},
+      {"field": "eligibility", "quote": "Stratum 4 HGG with BRAF V600E/D/K mutation"}
+    ],
+    "gbm_population_flag": {"uncertain": false, "reason": "Glioblastoma is not named anywhere in the record; paediatric/young-adult LGG and HGG only."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Giving hydroxychloroquine with trametinib and/or dabrafenib may lower the chance of brain tumors growing or spreading compared to usual treatments."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have one of the following histologies with molecularly-confirmed diagnosis that is recurrent or progressive."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["dabrafenib", "trametinib", "hydroxychloroquine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dabrafenib",
+      "active_moiety": "dabrafenib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "LGG or HGG with BRAF V600E/D/K mutation will receive Dabrafenib, Trametinib and Hydroxychloroquine."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "BRAF inhibitor",
+      "stated_antitumour_mechanism": "blocking some of the enzymes needed for cell growth (BRAF)",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Trametinib",
+      "active_moiety": "trametinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "LGG with BRAF duplication or fusion with any partner or LGG with NF1 will received Trametinib and Hydroxychloroquine."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MEK inhibitor",
+      "stated_antitumour_mechanism": "blocking some of the enzymes needed for cell growth (MEK)",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Hydroxychloroquine",
+      "active_moiety": "hydroxychloroquine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "the role of autophagy in BRAF-altered or NF1-associated gliomas through sequencing of pre- and post-RAFi or MEKi tumor (when available) and measurement of autophagy inhibition"},
+        {"field": "brief_summary", "quote": "Hydroxychloroquine, works in different ways to stop the growth of tumor cells by killing the cells or stopping them from dividing."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial / autophagy inhibitor",
+      "stated_antitumour_mechanism": "autophagy inhibition to overcome resistance to RAF/MEK inhibitors",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "dabrafenib; trametinib",
+      "source_quote": {"field": "eligibility", "quote": "Stratum 1 LGG or HGG with BRAF V600E/D/K mutation"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "trametinib",
+      "source_quote": {"field": "eligibility", "quote": "Stratum 5 LGG with BRAF duplication or fusion with any partner"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NF1 (neurofibromatosis type 1)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "trametinib",
+      "source_quote": {"field": "eligibility", "quote": "Stratum 6 LGG with neurofibromatosis type 1"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "autophagy markers LC3II and p62 in PBMC",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "hydroxychloroquine",
+      "source_quote": {"field": "outcomes", "quote": "Autophagy inhibition as assessed by the accumulation of LC3II in peripheral blood mononuclear cells"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "MAPK pathway aberrations other than BRAF / resistance biomarkers",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Presence of MAPK pathway aberrations (other than BRAF) as assessed by whole exome sequencing"},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Paediatric/young-adult LGG and HGG trial (ages CHILD, ADULT). Glioblastoma is not named; HGG with BRAF V600 only. Coded high_grade_glioma_unspecified (excluded at S5). Candidate and biomarker fields filled as if screening were passed."
+}

@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT04201457",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Low Grade Glioma (LGG) of Brain With BRAF Aberration; High Grade Glioma (HGG) of the Brain With BRAF Aberration; Low Grade Glioma of Brain With Neurofibromatosis Type 1"},
+      {"field": "eligibility", "quote": "Stratum 4 HGG with BRAF V600E/D/K mutation"}
+    ],
+    "gbm_population_flag": {"uncertain": false, "reason": "LGG and HGG with BRAF aberration or NF1; glioblastoma is never explicitly named."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase I/II trial is designed to study the side effects, best dose and efficacy of adding hydroxychloroquine to dabrafenib and/or trametinib"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have one of the following histologies with molecularly-confirmed diagnosis that is recurrent or progressive."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["dabrafenib", "trametinib"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Hydroxychloroquine",
+      "active_moiety": "hydroxychloroquine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Testing the safety/tolerability of adding HCQ to Dabrafenib + Trametinib or to Trametinib"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "D+T+HCQ / T+HCQ",
+      "drug_class_hint": "antimalarial; autophagy inhibitor",
+      "stated_antitumour_mechanism": "optimize the clinical effect of dabrafenib and trametinib by addressing intrinsic and acquired resistance ... the role of autophagy",
+      "flag": {"uncertain": true, "reason": "HCQ is the only new agent added to dabrafenib/trametinib; if D and T are judged investigational components rather than background, role becomes experimental_combination."}
+    },
+    {
+      "agent_name_registered": "Dabrafenib",
+      "active_moiety": "dabrafenib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "adding hydroxychloroquine to dabrafenib and/or trametinib in children with low grade or high grade brain tumors previously treated with similar drugs"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "D+T+HCQ / T+HCQ",
+      "drug_class_hint": "BRAF V600 kinase inhibitor",
+      "stated_antitumour_mechanism": "Trametinib and dabrafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "flag": {"uncertain": true, "reason": "Given only in BRAF V600 strata, so not equal across all arms; described as the drug HCQ is added to. Could be experimental_combination."}
+    },
+    {
+      "agent_name_registered": "Trametinib (Trametinib dimethyl sulfoxide)",
+      "active_moiety": "trametinib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "adding hydroxychloroquine to dabrafenib and/or trametinib in children with low grade or high grade brain tumors previously treated with similar drugs"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "D+T+HCQ / T+HCQ",
+      "drug_class_hint": "MEK1/2 inhibitor",
+      "stated_antitumour_mechanism": "Trametinib and dabrafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "flag": {"uncertain": true, "reason": "Given in all arms as the backbone HCQ is added to; could be experimental_combination."}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Stratum 4 HGG with BRAF V600E/D/K mutation"},
+      "flag": {"uncertain": true, "reason": "BRAF V600 / fusion determines strata and matches dabrafenib/trametinib, but those are coded backbone; if reclassified as candidates this becomes candidate_matched true. Not mechanistically linked to HCQ as stated."}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NF1 (neurofibromatosis type 1)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Stratum 6 LGG with neurofibromatosis type 1"},
+      "flag": {"uncertain": true, "reason": "Germline NF1 stratum (LGG only); linked to trametinib (MEK), coded backbone."}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "LC3II and p62 in PBMC (autophagy inhibition)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "hydroxychloroquine",
+      "source_quote": {"field": "outcomes", "quote": "Autophagy inhibition as assessed by the accumulation of LC3II in peripheral blood mononuclear cells"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "MAPK pathway aberrations other than BRAF (whole exome sequencing); resistance biomarkers in plasma/CSF",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Presence of MAPK pathway aberrations (other than BRAF) as assessed by whole exome sequencing"},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Paediatric/young-adult PBTC phase I/II of HCQ added to dabrafenib+trametinib (BRAF V600) or trametinib (BRAF fusion/duplication, NF1) in recurrent LGG/HGG. Glioblastoma never named, so high_grade_glioma_unspecified (excluded at S5). Key adjudication point if relevant: whether D/T are backbone or candidates, which changes BRAF candidate matching."
+}

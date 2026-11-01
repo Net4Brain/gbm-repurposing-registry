@@ -1,0 +1,135 @@
+{
+  "nct_id": "NCT05685004",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": false
+    },
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {
+        "field": "interventions",
+        "quote": "Attenuated autologous cancer cells and activated autologous blood-derived t cells"
+      },
+      {
+        "field": "arms",
+        "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": true,
+      "reason": "TVI-Brain-1 is autologous tumour-cell vaccine plus adoptive T-cell therapy (excluded types). Low-dose IL-2 is given as adjunct to T-cell infusion; judged not an independent candidate."
+    },
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"
+      }
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": false
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TVI-Brain-1",
+      "active_moiety": "TVI-Brain-1",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "TVI-Brain-1 immunotherapy is integrated with radiation and temozolomide in the test group"
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous cancer cell vaccine plus adoptive T-cell therapy (excluded intervention type)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Vaccine/cell therapy: excluded intervention type; listed for denominator only."
+      }
+    },
+    {
+      "agent_name_registered": "interleukin 2 (IL-2)",
+      "active_moiety": "interleukin-2",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "arms",
+          "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "cytokine (IL-2; product, e.g. aldesleukin, not specified)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Not a registered intervention; low-dose IL-2 supports infused T cells. No role category fits exactly (not symptom control); product/moiety not specified."
+      }
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {
+          "field": "interventions",
+          "quote": "All Subjects receive 75 mg/m2 of temozolomide daily beginning on the first day of radiotherapy and continuing until the completion of radiotherapy."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard GBM chemotherapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "coder_notes": "Phase 2/3 randomised vs standard Stupp. Adjuvant TMZ stated explicitly only for SOC arm; concurrent TMZ in all subjects. Lead sponsor TVAX Biomedical."
+}

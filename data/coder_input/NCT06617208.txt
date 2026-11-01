@@ -1,0 +1,58 @@
+NCT ID: NCT06617208
+### title
+Pilot IntraOperative Neuronal Electrophysiology in Tumor rElatEd suRgery
+Official: Pilot IntraOperative Neuronal Electrophysiology in Tumor rElatEd suRgery (PIONEER Study)
+
+### conditions
+Glioma; Glioblastoma (GBM); Brain Tumor-Glioma; Brain Metastasis
+
+### keywords
+(not provided)
+
+### brief_summary
+INTRODUCTION AND RATIONALE
+
+Aggressive brain tumors like glioma have the ability to infiltrate the surrounding healthy brain tissue, disrupting normal neuronal activities and leading to impaired motor and cognitive functions, as well as causing epilepsy. This malignant brain tumor is considered one of the most challenging cancers to treat, with a median survival of 12 to 15 months. Recent findings on direct neuron-tumor interactions indicate that abnormal brain activity in the regions surrounding brain tumours may contribute to develop epilepsy and accelerating tumor growth. Tumors tend to 'fuel' themselves with neurotransmitters released during its 'daily' neuronal firing. Hyperactive neurons in the peritumoral cortex can form excitatory electrochemical synapses with surrounding tumor cells, creating direct communication pathways within the peritumoral microenvironment, which aids in the progression and proliferation of tumor cells via direct and paracrine signalling pathways. However, the specific features of this abnormal brain activity in the peritumoral cortex have not been fully clarified and information on the pathological changes of neuronal activity in glioma patients is largely lacking. To advance more effective treatment strategies, it is crucial to better understand the complex interactions between the tumor and the brain.
+
+This is especially important for our group of patients of which many perceive diminished quality of life because of epilepsy, cognitive functioning and language problems after tumor surgery. Furthermore, we lack thorough understanding of what tumor resection does to the original hyperactive peritumoral cortex and if resecting this is beneficial for improving postoperative outcome both for epilepsy as well as regarding survival. Therefore, identifying the hyperactive peritumoral cortex and directly addressing its impacts on the brain function and long-term surgical outcome could be a promising novel therapeutic strategy for treating glioma patients.
+
+STUDY AIM
+
+Our measurement focuses on capturing neuronal activity at single-neuron resolution in the peritumoral cortex of glioma patients using cortical depth electrodes. It is well-established that gliomas can remodel the surrounding brain tissue, leading to abnormal neuronal hyperactivity, which contributes to tumor progression and epilepsy. However, the specific neuronal patterns and underlying mechanisms of these changes are not yet fully understood. Our study will aim to collect detailed single-neuron recordings in this context, enabling us to map the precise neurophysiological disruptions caused by gliomas. On the long term, our research could lay the groundwork in identifying novel therapeutic approaches by providing critical in-sights into how gliomas alter brain function.
+
+### detailed_description
+In this study, patients with a brain tumour who undergo (awake) surgical resection as part of standard clinical care will be included. All patients who undergo such a procedure at Erasmus MC within a five-year period will be invited to participate. Based on historical case numbers, we aim to include ten patients with successful recordings during this timeframe.
+
+The surgical procedure itself will be performed entirely according to standard clinical protocols; the surgery is not part of the research intervention. Neurological functioning will be assessed pre- and postoperatively as part of routine care. Participation in the study concludes at the end of the surgical procedure. All other procedures outside the research recordings are likewise performed within standard care.
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Neuropixel probe recording: Cortical electrophysiology using the Neuropixel probe is performed to record brain activity in the peritumoral cortex (interventions: Device: Neuropixel probe recording)
+
+### interventions
+- [DEVICE] Neuropixel probe recording (other names: laminar electrophysiology, cortical depth electrophysiology): Neuropixel recordings captures neuronal activity at the single-neuron level across the layers of the cortex.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age \>18 yrs old with radiologically diagnosed brain tumor, suspect for glioma and/or metastasis.
+* Eligible for surgical resection or biopsy procedure according to standard practice.
+* Written Informed consent.
+* Able to undergo intra-operative neuromonitoring.
+
+Exclusion Criteria:
+
+* History of major psychiatric disorders (e.g., schizophrenia, bipolar disorder, or severe treatment-resistant depression)
+* Previous brain tumour surgery or radiotherapy.
+* Patient has pacemaker or other implanted electrical device such as vagal nerve stimulator or other.
+* Inability to give consent.
+
+### outcomes
+- [primaryOutcomes] Number of Participants With a Successful Intraoperative Neuropixels Probe Recording: Feasibility is reported as the number (and percentage) of enrolled participants in whom a successful Neuropixels probe recording is obtained. A recording is counted as successful when (1) the probe is inserted into the peritumoral cortex as planned, (2) neural data are acquired during surgery with at least one isolated single neuron after spike sorting, and (3) no device-related complications occur (retained probe fragments, infection, or hemorrhage). Reasons for unsuccessful recordings are documented in the case report form.
+- [secondaryOutcomes] Number of Isolated Single Neurons per Participant Recorded in Peritumoral Cortex: To assess whether intraoperative single-cell recordings are suitable for identifying prognostic biomarkers of disease progression, the number of single neurons isolated per participant is counted after spike sorting of the Neuropixels data. Only units that meet the predefined spike-sorting quality criteria are counted. Results are summarized as median (range) across participants. For each isolated neuron, the firing rate (spikes per second) and waveform characteristics are also reported descriptively.
+
+### sponsor
+Lead: Erasmus Medical Center; collaborators:

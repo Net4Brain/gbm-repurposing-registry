@@ -1,0 +1,121 @@
+{
+ "moiety": "larotrectinib",
+ "accessed_utc": "2026-11-01T16:05:28+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA211710",
+    "date": "2018-11-26",
+    "brand": [
+     "VITRAKVI"
+    ]
+   },
+   {
+    "application": "NDA210861",
+    "date": "2018-11-26",
+    "brand": [
+     "VITRAKVI",
+     "VITRAKVI"
+    ]
+   }
+  ],
+  "first_approval_date": "2018-11-26",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE VITRAKVI is indicated for the treatment of adult and pediatric patients with solid tumors that: have a neurotrophic receptor tyrosine kinase ( NTRK ) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have no satisfactory alternative treatments or that have progressed following treatment. Select patients for therapy based on an FDA-approved test [see Dosage and Administration (2.1) ]. VITRAKVI is a kinase inhibitor indicated for the treatment of adult and pediatric patients with solid tumors that: have a neurotrophic receptor tyrosine kinase ( NTRK ) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have no satisfactory alternative treatments or that have progressed following treatment. Select patients for therapy based on an FDA-approved test. ( 1 , 2.1 )",
+   "1 INDICATIONS AND USAGE VITRAKVI is indicated for the treatment of adult and pediatric patients with solid tumors that: \u2022 have a neurotrophic receptor tyrosine kinase ( NTRK ) gene fusion without a known acquired resistance mutation, \u2022 are metastatic or where surgical resection is likely to result in severe morbidity, and \u2022 have no satisfactory alternative treatments or that have progressed following treatment. This indication is approved under accelerated approval based on overall response rate and duration of response [see Clinical Studies ( 14 )] . Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials. VITRAKVI is a kinase inhibitor indicated for the treatment of adult and pediatric patients with solid tumors that: \u2022 have a neurotrophic receptor tyrosine kinase ( NTRK ) gene fusion without a known acquired resistance mutation, \u2022 are metastatic or where surgical resection is likely to result in severe morbidity, and \u2022 have no satisfactory alternative treatments or that have progressed following treatment. This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials ( 1 , 14 )."
+  ],
+  "query": "products.active_ingredients.name:\"larotrectinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3889654",
+  "pref_name": "LAROTRECTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX12"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX12"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02576431"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse intrinsic pontine glioma",
+    "mesh_heading": "Diffuse Intrinsic Pontine Glioma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04655404"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06390852"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06482086"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Neurotrophic tyrosine kinase receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3559684"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 3,
+  "earliest": {
+   "nct": "NCT02576431",
+   "start": "2015-09-30",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2018-11-26",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

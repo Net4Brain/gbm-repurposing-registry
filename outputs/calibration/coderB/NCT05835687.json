@@ -1,0 +1,104 @@
+{
+ "nct_id": "NCT05835687",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "mixed_glioma_gbm_named",
+  "gbm_population_evidence": [
+   {
+    "field": "conditions",
+    "quote": "Central Nervous System Neoplasms; Atypical Teratoid/Rhabdoid Tumor; Diffuse Midline Glioma, H3 K27M-Mutant; Ependymoma; High Grade Glioma; Glioblastoma; Medulloblastoma"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": true,
+   "reason": "Paediatric (<=21 y) multi-CNS-tumour trial; glioblastoma only named in conditions, not in eligibility"
+  },
+  "has_eligible_candidate": false,
+  "candidate_exclusion_reason": "excluded_intervention_type",
+  "candidate_evidence": [
+   {
+    "field": "interventions",
+    "quote": "Autologous T cells transduced with a lentiviral vector expressing a B7-H3-CAR with a CD28z signaling domain and 41BB ligand"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "unclear"
+ },
+ "trial": {
+  "treatment_setting": "recurrent",
+  "treatment_setting_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "For Cohort A, must have evidence of relapsed or refractory non-brainstem CNS tumor"
+   }
+  ],
+  "regimen": "not_applicable",
+  "combination_partners": [],
+  "basket": false,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "no",
+  "flag": {
+   "uncertain": true,
+   "reason": "Cohort B (DMG) setting not recurrent; mixed cohorts"
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "B7-H3-CAR T cells",
+   "active_moiety": "B7-H3-CAR T cells",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "Arm A (relapsed/refractory CNS tumors): Patients with B7-H3-positive relapsed/refractory non-brainstem primary CNS tumors."
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "new_route",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "autologous CAR T-cell therapy",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Cell therapy registered as Drug; excluded intervention type"
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "other",
+   "biomarker_other": "B7-H3 expression",
+   "role": "enrichment",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "Tumor must be considered B7-H3 positive"
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "B7-H3 is the CAR target but the agent is an excluded cell therapy"
+   }
+  },
+  {
+   "biomarker": "H3K27M",
+   "biomarker_other": null,
+   "role": "enrichment",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "H3K27-altered diffuse midline pontine glioma"
+   },
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "coder_notes": "Excluded at S6: CAR T-cell therapy. Age <=21 years; stdAges include CHILD and ADULT (mixed_age). Cohort B is DMG. I flagged new_route only because of locoregional catheter delivery; the agent is excluded anyway."
+}

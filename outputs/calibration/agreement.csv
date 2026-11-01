@@ -1,0 +1,11 @@
+variable,n,pct_agree,kappa,pabak,gwet_ac1,categories
+gbm_population,40,0.9,0.856,0.875,0.879,5
+has_eligible_candidate,40,0.975,0.947,0.95,0.952,2
+candidate_exclusion_reason,40,0.975,0.956,0.967,0.969,4
+cns5_terminology,40,0.925,0.888,0.888,0.888,3
+treatment_setting,40,0.925,0.877,0.9,0.906,4
+regimen,40,0.95,0.924,0.925,0.926,3
+basket,40,0.975,0.931,0.95,0.961,2
+candidate_set,40,0.8,0.783,0.794,0.794,35
+candidate_matched_selection,40,0.95,0.804,0.9,0.933,2
+any_molecular_selection,40,0.875,0.754,0.75,0.75,2

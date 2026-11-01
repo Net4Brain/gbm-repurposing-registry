@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT07385846",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patient previously diagnosed with WHO grade 4 IDH-wildtype GBM, determined through genomic and/or histopathological analysis."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Pembrolizumab + focused ultrasound sonication: Pembrolizumab along with focused ultrasound sonication following surgery for recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Treatment of Recurrent WHO Grade 4 IDH-Wildtype Glioblastoma With Mismatch Repair Deficiency"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": true, "reason": "Pembrolizumab is the only antitumour drug, but it is combined with a focused ultrasound device (with microbubbles) for BBB opening; device is not a drug or radiotherapy so coded monotherapy."}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Treatment dosing will be 200mg of pembrolizumab every three weeks for up to six months or until disease progression, whichever occurs first."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "microbubble (Bracco Imaging, SonoVue / Lumason)",
+      "active_moiety": "sulfur hexafluoride microspheres",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "patients will received NaviFUS sonication to the complete volume of the tumor resection bed (as limited by anatomic constraints relative to the tumor extension) following microbubble (Bracco Imaging, SonoVue® or Lumason®; 0.1 mL/Kg; maximum 4.8 mL) administration"}
+      ],
+      "delivery_enabling": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast agent used with focused ultrasound for blood-brain barrier opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Microbubbles are part of the device procedure and not a separately registered intervention; role coded supportive with delivery_enabling true as no other role fits."}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "eligibility", "quote": "MMR deficiencies confirmed per standard of care immunohistochemical analysis or Next Generation Sequencing (NGS) of the patient's surgical sample from the time of initial GBM diagnosis or recurrence."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient previously diagnosed with WHO grade 4 IDH-wildtype GBM, determined through genomic and/or histopathological analysis."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "To evaluate levels of baseline tumor markers related to immune and genetic repair function, including PD-L1, microsatellite instability (MSI), and tumor mutational burden (TMB)."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "To evaluate levels of baseline tumor markers related to immune and genetic repair function, including PD-L1, microsatellite instability (MSI), and tumor mutational burden (TMB)."},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "MMR deficiency is an eligibility requirement and is mechanistically linked to the PD-1 inhibitor pembrolizumab (MMR-d/hypermutation as rationale for checkpoint inhibition), so candidate_matched_selection should be true. Focused ultrasound (NaviFUS device) with microbubbles is a BBB-opening device intervention, not a drug candidate. Collaborator NaviFUS Corporation (device company)."
+}

@@ -1,0 +1,32 @@
+# Protocol decisions log — GBM repurposing registry study
+
+Each decision is dated and frozen once confirmed by XL. Changes after freezing are logged as amendments, never edited in place.
+
+| # | Date | Decision | Status |
+|---|------|----------|--------|
+| D1 | 2026-11-01 | Main study = drug repurposing in the adult GBM pipeline (NOA_structure_v2). The biomarker landscape (project-v1) is secondary. | Confirmed |
+| D2 | 2026-11-01 | Primary cohort = interventional trials with start date 2020-01-01 to 2026-07-31, whatever their recruitment status. Trials active on 2026-07-31 are a secondary subset; withdrawn trials are reported separately. | Confirmed |
+| D3 | 2026-11-01 | ClinicalTrials.gov API v2 is the trial source. Snapshot retrieved 2026-11-01 (`data/raw/ctgov_raw_20261101T130137Z.json`). | Confirmed |
+| D4 | 2026-11-01 | Drug approval, indication and mechanism sources = **FDA** (openFDA Drugs@FDA + SPL labels), **EMA** (EPAR medicines report), **ChEMBL** (max phase, indications, mechanism of action). DrugBank is **not** used. Manuscript Methods and ref. 8 must be updated to match. | Confirmed |
+| D5 | 2026-11-01 | Jurisdiction rule: an agent counts as "approved" if it has FDA **or** EMA marketing authorisation. MHRA not used. | Confirmed |
+| D6 | 2026-11-01 | "Established GBM therapy" = FDA or EMA label that explicitly names glioblastoma / malignant glioma in adults. Expected list: temozolomide, carmustine (IV and wafer), lomustine, bevacizumab (FDA only). Excluded from the candidate-origin denominator and reported separately. | Confirmed |
+| D7 | 2026-11-01 | Tumour-agnostic approvals (e.g. dabrafenib + trametinib for BRAF V600E, larotrectinib/entrectinib for NTRK, pembrolizumab/dostarlimab for MSI-H/dMMR) count as **approved-drug repurposing**, flagged `tumour_agnostic = yes`, and are tested in a sensitivity analysis. Paediatric-only glioma approvals (e.g. EMA dabrafenib + trametinib) do not make a drug an established adult GBM therapy. | Confirmed |
+| D8 | 2026-11-01 | ClinicalTrials.gov "Early Phase 1" is treated as Phase 0 and excluded. | Confirmed |
+| D9 | 2026-11-01 | Approval status is judged at the index date (2026-07-31); approvals after that date are ignored. | Confirmed |
+| D10 | 2026-11-01 | External validation against ReDO_Trials_DB (Pantziarka et al., Front Pharmacol 2021, doi:10.3389/fphar.2021.790952). A frozen copy (`data/raw/ReDO_Trials_DB_20261101.txt`) is used after coding is complete: every ReDO trial that is in our final eligible cohort must be coded as approved-drug repurposing (category 2), or the discrepancy is adjudicated and reported. Reported as the share of eligible ReDO trials coded category 2. ReDO is used only as a check, never to add or remove trials from the cohort. At snapshot, ReDO lists 85 CNS-tumour trials; 28 are in our 834-record pull. | Confirmed |
+| D11 | 2026-11-01 | Approved-drug repurposing (category 2) is split into 2a non-oncology drug, 2b oncology drug approved for another tumour, and 2c tumour-agnostic approval. Headline = all of category 2; 2a is the prespecified key secondary exposure, and the primary trial-level comparison is repeated for 2a-containing trials. (Peer review M4) | Confirmed |
+| D12 | 2026-11-01 | **Amends D9.** Drug origin is judged relative to each trial's start date (approval on or before trial start). The agent-level origin uses the agent's earliest eligible trial. Index-date (2026-07-31) status is a sensitivity analysis. (Peer review M5) | Confirmed |
+| D13 | 2026-11-01 | The active-on-2026-07-31 subset uses recruitment status reconstructed as of the index date (registry version history or the nearest dated AACT archive), not status at retrieval. (Peer review M2) | Confirmed |
+| D14 | 2026-11-01 | D8 is kept for the primary analysis. A sensitivity analysis includes Early Phase 1 (Phase 0) trials. (Peer review M7) | Confirmed |
+| D15 | 2026-11-01 | Extraction is AI-assisted: two independent LLM coders plus human adjudication. XL (or a named clinician) codes a stratified random validation sample of about 100 trials blind to the AI output, to estimate per-variable accuracy. (Peer review M12) | Confirmed |
+| D16 | 2026-11-01 | Biologics (antibodies, proteins, antibody–drug conjugates) are eligible candidate agents. Cell therapy, gene therapy, oncolytic viruses and cancer vaccines are excluded. (Peer review M7) | Confirmed |
+| D17 | 2026-11-01 | Supplementary search (`scripts/02_supplementary_search.py`, snapshot `data/raw/ctgov_supp_raw_20261101T150223Z.json`), same filters as step 01. Four queries: CNS5 terms (condition and free text), generic brain-tumour condition terms, and glioblastoma named in eligibility criteria. These returned 833 records not in the main pull. Rule: a supplementary record joins the screening set only if a glioblastoma term (glioblastoma, gliosarcoma, GBM — not "anti-GBM" — IDH-wildtype, grade 4 astrocytoma/glioma) appears in its title, conditions or **inclusion** criteria. 36 records were added (`data/processed/supp_added_to_screening.csv`); 797 were not. **Screening set = 834 + 36 = 870.** | Confirmed (implements v3 Methods) |
+| D18 | 2026-11-01 | LLM coders: **Coder A = Claude Opus 5.5 (`claude-opus-5-5`)**, **Coder B = Claude Sonnet 5.5 (`claude-sonnet-5-5`)**. Both run as separate agents with no shared context, one fresh context per batch, using the identical prompt (`prompts/coder_prompt.md`) and inputs (`data/coder_input/`). Both models come from the same vendor, so errors may be correlated; this is mitigated by the blinded human validation sample (D15) and acknowledged as a limitation. | Confirmed |
+
+## Notes on the sources
+
+- **openFDA** `drug/drugsfda` gives application numbers and approval dates; `drug/label` gives indication text. Generic (ANDA) entries are ignored; NDA/BLA define approval.
+- **EMA** `medicines-output-medicines-report_en.xlsx` lists centrally authorised medicines with therapeutic indication and authorisation status. Nationally authorised-only EU drugs are not in this file; ChEMBL max_phase = 4 is the cross-check for those.
+- **ChEMBL** `drug_indication` (max_phase_for_ind, with FDA/EMA/DailyMed references) and `mechanism` (action type, target). Mechanisms are stored on the parent molecule, so salts are mapped to the parent first.
+- ChEMBL lists trametinib with an EMA "glioblastoma" indication. This comes from the paediatric glioma approval and is handled by D7.
+- ChEMBL does not list lomustine as approved for glioblastoma; the FDA label ("brain tumors") is the deciding source, as set out in D6.

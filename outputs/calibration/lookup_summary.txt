@@ -1,0 +1,104 @@
+186rnl                 approved=False first=None onco=False agnostic=False glioma=False chembl_max=1.0 p2_nonGBM=None check=[]
+68ga-ff58              approved=False first=None onco=True  agnostic=False glioma=False chembl_max=None p2_nonGBM=None check=['not found in FDA, EMA or ChEMBL (check name mapping)', 'oncology wording in label but no L01/L02 ATC']
+abacavir               approved=True  first=1998-12-17 onco=False agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=1997-11 check=[]
+abbv-706               approved=False first=None onco=False agnostic=False glioma=False chembl_max=None p2_nonGBM=None check=['not found in FDA, EMA or ChEMBL (check name mapping)']
+abemaciclib            approved=True  first=2017-09-28 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2010-03-01 check=[]
+aminolevulinic acid    approved=True  first=1946-08-13 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2009-05 check=[]
+atorvastatin           approved=True  first=1996-12-17 onco=False agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=1998-02 check=[]
+b7-h3-car t cells      approved=True  first=1980-07-09 onco=True  agnostic=True  glioma=True  chembl_max=None p2_nonGBM=None check=['oncology wording in label but no L01/L02 ATC', 'glioma in label: confirm established / glioma-developed / glioma_label']
+bevacizumab            approved=True  first=2004-02-26 onco=True  agnostic=False glioma=True  chembl_max=4.0 p2_nonGBM=1998-02 check=['glioma in label: confirm established / glioma-developed / glioma_label']
+budigalimab            approved=False first=None onco=False agnostic=False glioma=False chembl_max=2.0 p2_nonGBM=2023-09-21 check=[]
+cannabidiol            approved=True  first=2018-06-25 onco=False agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2002-10 check=[]
+carboplatin            approved=True  first=1989-03-03 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=1988-03 check=[]
+chloroquine            approved=True  first=1949-10-31 onco=False agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2001-06 check=[]
+cisplatin              approved=True  first=1978-12-19 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=1988-04 check=[]
+cynk-001               approved=False first=None onco=False agnostic=False glioma=False chembl_max=1.0 p2_nonGBM=None check=[]
+dabrafenib             approved=True  first=2013-05-29 onco=True  agnostic=True  glioma=True  chembl_max=4.0 p2_nonGBM=2010-03-26 check=['glioma in label: confirm established / glioma-developed / glioma_label']
+dronabinol             approved=True  first=1985-05-31 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2001-04 check=['oncology wording in label but no L01/L02 ATC']
+durvalumab             approved=True  first=2017-05-01 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2010-03-01 check=[]
+hydroxychloroquine     approved=True  first=1955-04-18 onco=False agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2001-03-27 check=[]
+ict-107                approved=False first=None onco=False agnostic=False glioma=False chembl_max=None p2_nonGBM=None check=['not found in FDA, EMA or ChEMBL (check name mapping)']
+ipilimumab             approved=True  first=2011-03-25 onco=True  agnostic=False glioma=False chembl_max=4.0 p2_nonGBM=2002-01 check=[]
+Traceback (most recent call last):
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/x.li/Library/Python/3.13/lib/python/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/x.li/Work/ClinicalGBM/DrugAI4GBM/pipeline/scripts/05_lookup_drugs.py", line 219, in <module>
+    r = lookup(n)
+  File "/Users/x.li/Work/ClinicalGBM/DrugAI4GBM/pipeline/scripts/05_lookup_drugs.py", line 197, in lookup
+    f, e, ch = fda(moiety), ema(moiety), chembl(moiety)
+                                         ~~~~~~^^^^^^^^
+  File "/Users/x.li/Work/ClinicalGBM/DrugAI4GBM/pipeline/scripts/05_lookup_drugs.py", line 124, in chembl
+    res = (get(CHEMBL + "molecule.json", **{field: moiety, "limit": 5}) or {}).get("molecules", [])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/x.li/Work/ClinicalGBM/DrugAI4GBM/pipeline/scripts/05_lookup_drugs.py", line 45, in get
+    r = requests.get(url, params=params, timeout=60)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Read timed out. (read timeout=60)

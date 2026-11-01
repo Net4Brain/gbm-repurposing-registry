@@ -1,0 +1,146 @@
+{
+ "moiety": "vorasidenib",
+ "accessed_utc": "2026-11-01T16:06:11+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA218784",
+    "date": "2024-08-06",
+    "brand": [
+     "VORANIGO",
+     "VORANIGO"
+    ]
+   }
+  ],
+  "first_approval_date": "2024-08-06",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"vorasidenib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Voranigo",
+    "status": "Authorised",
+    "authorisation_date": "2025-09-17",
+    "atc": "L01XM04",
+    "therapeutic_area": "Oligodendroglioma;Astrocytoma",
+    "indication": "Voranigo as monotherapy is indicated for the treatment of predominantly non\u2011enhancing Grade&nbsp;2 astrocytoma or oligodendroglioma with an IDH1 R132 or IDH2 R172 mutation in adult and adolescent patients aged 12&nbsp;years and older and weighing at least 40&nbsp;kg who only had surgical intervention and are not in immediate need of radiotherapy or chemotherapy (see section&nbsp;5.1).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/voranigo"
+   }
+  ],
+  "first_authorisation_date": "2025-09-17"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4279047",
+  "pref_name": "VORASIDENIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XM04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05484622"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "USAN",
+      "id": "VORASIDENIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05674474"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04164901,NCT06478212"
+     }
+    ]
+   },
+   {
+    "efo_term": "oligodendroglioma",
+    "mesh_heading": "Oligodendroglioma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "FDA",
+      "id": "label/2024/218784s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "low grade glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05609994"
+     }
+    ]
+   },
+   {
+    "efo_term": null,
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "FDA",
+      "id": "label/2024/218784s000lbl.pdf"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "IDH1/IDH2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4523659"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 1,
+  "earliest": null
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2024-08-06",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": true,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "glioma in label: confirm established / glioma-developed / glioma_label"
+  ]
+ }
+}

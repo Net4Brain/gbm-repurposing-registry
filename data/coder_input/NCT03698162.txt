@@ -1,0 +1,70 @@
+NCT ID: NCT03698162
+### title
+Precise DCE-MRI in Diagnosing Participants With Recurrent High Grade Glioma or Melanoma Brain Metastases
+Official: Area B: Precise DCE-MRI Assessment of Brain Tumors
+
+### conditions
+Brain Metastases; Glioma of Brain; Brain Tumor; Metastatic Melanoma
+
+### keywords
+(not provided)
+
+### brief_summary
+Dynamic contrast-enhanced (DCE) magnetic resonance imaging (MRI) is a potentially powerful diagnostic tool for the management of brain cancer and other conditions in which the blood-brain barrier is compromised. This trial studies how well precise DCE MRI works in diagnosing participants with high grade glioma that has come back or melanoma that has spread to the brain. The specially-tailored acquisition and reconstruction (STAR) DCE MRI could provide improved assessment of brain tumor status and response to therapy.
+
+### detailed_description
+PRIMARY OBJECTIVES:
+
+I. To optimize and technically validate specially-tailored acquisition and reconstruction (STAR) DCE-MRI based on the accuracy and reproducibility of whole-brain tracer-kinetic (TK) parameter maps.
+
+SECONDARY OBJECTIVES:
+
+I. To develop a robust clinical implementation of STAR DCE-MRI. II. To clinically evaluate STAR DCE-MRI in patients with brain tumors.
+
+OUTLINE: Participants are assigned to 1 of 2 cohorts.
+
+COHORT I: Participants with recurrent high-grade glioma undergo STAR DCE-MRI every 2 months, and just prior to and 4-6 weeks after starting bevacizumab treatment. If there is concern for tumor progression (i.e. increased contrast enhancement), more frequent MRI scans will be scheduled.
+
+COHORT II: Participants with melanoma brain metastases undergo STAR DCE-MRI at baseline and 4-6 weeks after therapy. Participants may undergo more frequent MRI if there is concern for tumor progression.
+
+### design
+Phase: NA; allocation: NON_RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] Cohort I (STAR DCE-MRI): Participants with recurrent high-grade glioma undergo STAR DCE-MRI every 2 months, and just prior to and 4-6 weeks after starting bevacizumab treatment. Participants may undergo more frequent MRI if there is concern for tumor progression. (interventions: Other: Dynamic Contrast-Enhanced Magnetic Resonance Imaging; Other: Bevacizumab Injection)
+- [EXPERIMENTAL] Cohort II (STAR DCE-MRI): Participants with melanoma brain metastases undergo STAR DCE-MRI at baseline and 4-6 weeks after therapy. Participants may undergo more frequent MRI if there is concern for tumor progression. (interventions: Other: Dynamic Contrast-Enhanced Magnetic Resonance Imaging)
+
+### interventions
+- [OTHER] Dynamic Contrast-Enhanced Magnetic Resonance Imaging (other names: DCE MRI, DCE-MRI, DYNAMIC CONTRAST ENHANCED MRI): Undergo STAR DCE-MRI
+- [OTHER] Bevacizumab Injection (other names: Avastin): Bevacizumab will be give to participants who have recurrent high-grade glioma as part of standard of care.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* COHORT I: Recurrent high-grade glioma (often with thin areas of enhancement) treated with bevacizumab.
+* COHORT I: We will include adult patients with histopathologically confirmed high-grade glioma with evidence of tumor progression at baseline MRI who will undergo treatment with an anti-angiogenic agent (bevacizumab) with or without concomitant chemotherapy, and Karnofsky Performance Score \> 60%.
+* COHORT I: At least 30 days should have elapsed since prior therapy including surgery and temozolomide chemoradiation.
+* COHORT I: Satisfactory renal, hepatic, and hematologic function is required.
+* COHORT II: Melanoma brain metastases (often small and spread throughout the brain) treated with immunotherapy.
+* COHORT II: We will include adult patients with a tissue-proven history of melanoma who have contrast enhancing brain masses who will undergo treatment with immunotherapy with an anti-CTLA-4 or anti-PD-1 approach (e.g. ipilimumab, pembrolizumab, or nivolumab), and Karnofsky Performance Score \> 60%.
+* COHORT II: At least 30 days should have elapsed since prior therapy including surgery, stereotactic brain irradiation, and corticosteroid use.
+
+Exclusion Criteria:
+
+* COHORT I: Exclusion criteria include treatment with any other anti-cancer treatment, enzyme-inducing antiepileptic agents, anticoagulant treatment, pregnancy, other anti-angiogenesis therapy and prior thrombo-embolic disorders.
+* COHORT I: Exclusion criteria will include the standard contraindications for MRI: 1) prior work as a machinist or metal worker, or history of metal being removed from the eyes, 2) cardiac pacemaker or internal pacing wires, 3) non-MRI compatible vena cava filter, vascular aneurysm clip, heart valve, spinal or ventricular shunt, optic implant, neuro-stimulator unit, ocular implant, or intrauterine device, or 4) claustrophobia, or uncontrollable motion disorder.
+* COHORT I: Pregnant women, prisoners, and institutionalized individuals will be excluded.
+* COHORT II: Exclusion criteria include treatment with any other anti-cancer treatment, and other immunotherapy exclusion criteria.
+* COHORT II: Non-cutaneous melanomas will be excluded.
+* COHORT II: Exclusion criteria will include the standard contraindications for MRI: 1) prior work as a machinist or metal worker, or history of metal being removed from the eyes, 2) cardiac pacemaker or internal pacing wires, 3) non-MRI compatible vena cava filter, vascular aneurysm clip, heart valve, spinal or ventricular shunt, optic implant, neuro-stimulator unit, ocular implant, or intrauterine device, or 4) claustrophobia, or uncontrollable motion disorder.
+* COHORT II: Pregnant women, prisoners, and institutionalized individuals will be excluded.
+
+### outcomes
+- [primaryOutcomes] Volume transfer constant (Ktrans): The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. Receiver-operating characteristic curves (ROC) will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. Classification and Regression Tree (CART) with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using area under the curve (AUC) when fitting a ROC curve using predicted outcome against the actual outcome.
+- [primaryOutcomes] Fractional plasma volume (vp): The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.
+- [primaryOutcomes] Fractional extravascular-extracellular space volume (ve): The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.
+- [primaryOutcomes] Model-free initial area under the contrast agent concentration curve (iAUC): The raw data will be acquired at the voxel level. Then the analytic parameters will be extracted from voxel-wise data such as the mean, median, interquartile range, skewness and kurtosis. ROC will be used to illustrate the univariate prediction accuracy for each parameter in predicting the clinically determined outcome. The pattern of change with different clinical response status will be visually illustrated using spaghetti plots or other graphical approaches. CART with 10-fold cross validation will be used for building the final prediction model and determine the diagnostic cut point(s). CART analysis will also include demographics, comorbidity information, and relevant biological variables including sex. The final model accuracy will be assessed using AUC when fitting a ROC curve using predicted outcome against the actual outcome.
+
+### sponsor
+Lead: University of Southern California; collaborators: National Cancer Institute (NCI)

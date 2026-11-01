@@ -1,0 +1,70 @@
+NCT ID: NCT05970757
+### title
+Physiological MRI for Precision Radiotherapy IDH-wildtype Glioblastoma
+Official: Physiological MRI for Precision Radiotherapy IDH-wildtype Glioblastoma
+
+### conditions
+Glioblastoma
+
+### keywords
+Glioblastoma; Precision radiotherapy; Advanced MRI
+
+### brief_summary
+After surgery, a key step in treatment of patients diagnosed with glioblastoma (high grade brain tumour) is radiotherapy. The ideal clinical target volume (CTV) for radiotherapy treatment planning includes all tumour cells remaining after surgery. Currently, the GTV is delineated on conventional imaging techniques that are only visualizing macroscale structural changes due to the presence of a large number of tumour cells. After delineating these visible macroscale changes, the GTV is expanded in all directions with 1.5cm into visibly healthy tissue to account for microscale tumour invasion. This standard CTV therefore also contains healthy tissue that should not be receiving radiation, causing side effects of treatment, hereby reducing quality of life for patients.
+
+Generating a physiological CTV, in which microscale invasion of tumour cells is taken into account specifically whilst sparing healthy tissue that is not in need of radiation, is essential for reducing side effects of radiotherapy. To do so, visualisation is necessary of physiological processes of tumour cells, which are present before macroscale structural changes occur. State-of-the-art MRI techniques are now in use at the Erasmus MC that can assess these physiological processes, including oxygenation status and cell proliferation.
+
+We aim to generate proof-of-concept of using a physiological CTV for radiotherapy treatment planning for patients with brain tumours. By extending the clinical standard MRI session used for radiotherapy planning in 10 patients diagnosed with glioblastoma with advanced MRI techniques that assess oxygenation status and cell proliferation, we will generate the physiological CTV including this information and illustrate that it is more precise in capturing microscale tumour invasion. This proof-of-principle work will be used to obtain external funding to perform the much needed, and the first of its kind globally, clinical trial to show the benefit of a physiological CTV for radiotherapy treatment planning in glioblastoma.
+
+### detailed_description
+Introduction: After surgery, a key step in treatment of patients diagnosed with glioblastoma (high grade brain tumour) is radiotherapy. The ideal clinical target volume (CTV) for radiotherapy treatment planning includes all tumour cells remaining after surgery. Currently, the GTV is delineated on conventional imaging techniques that are only visualizing macroscale structural changes due to the presence of a large number of tumour cells. After delineating these visible macroscale changes, the GTV is expanded in all directions with 1.5cm into visibly healthy tissue to account for microscale tumour invasion. This standard CTV therefore also contains healthy tissue that should not be receiving radiation, causing side effects of treatment, hereby reducing quality of life for patients.
+
+Generating a physiological CTV, in which microscale invasion of tumour cells is taken into account specifically whilst sparing healthy tissue that is not in need of radiation, is essential for reducing side effects of radiotherapy. To do so, visualisation is necessary of physiological processes of tumour cells, which are present before macroscale structural changes occur. State-of-the-art MRI techniques are now in use at the Erasmus MC that can assess these physiological processes, including oxygenation status and cell proliferation.
+
+We aim to generate proof-of-concept of using a physiological CTV for radiotherapy treatment planning for patients with brain tumours. By extending the clinical standard MRI session used for radiotherapy planning in 10 patients diagnosed with glioblastoma with advanced MRI techniques that assess oxygenation status and cell proliferation, we will generate the physiological CTV including this information and illustrate that it is more precise in capturing microscale tumour invasion. This proof-of-principle work will be used to obtain external funding to perform the much needed, and the first of its kind globally, clinical trial to show the benefit of a physiological CTV for radiotherapy treatment planning in glioblastoma.
+
+Rationale: Current treatment management of patients with IDH-wildtype glioblastoma is sub-optimal because of two main issues: (1) Creating an accurate target volume for radiotherapy, a key aspect of glioblastoma treatment, containing all remaining tumour cells after surgery that is impossible with the conventional CT and MRI imaging techniques currently used and (2) in the follow-up of patients after radiotherapy, conventional MRI is incapable of distinguishing tumour progression from treatment effects. The solution to these issues lies in accurate and non-invasive assessment of physiological processes of tumour cells to enable delineation of the true physiological clinical target volume (CTV) for radiotherapy planning and to allow for early detection of true tumour progression during treatment follow-up.
+
+Objective: Generate proof-of-concept of using a physiological CTV for radiotherapy treatment planning for patients with brain tumours.
+
+Study design: By extending the clinical standard MRI session used for radiotherapy planning in patients diagnosed with glioblastoma with advanced MRI techniques that assess oxygenation status and cell proliferation, a physiological CTV will be generated for each patient in addition to the standard CTV. Treatment for each patient will be according to the current standard in which the standard CTV is used. Initial analysis will include comparing both CTVs in terms of volume and location. Patient follow-up will occur according to the clinical standard, including the standard MRI scan protocols, for a maximum of 2 years. Pattern-of-failure analysis will be done to compare the standard CTV and physiological CTV. It is hypothesized that the physiological CTV will be smaller than the standard CTV, whilst having the same pattern-of-failure.
+
+Study population: 10 patients (\> 18 years), diagnosed with IDH-wildtype glioblastoma, as confirmed by molecular or immunohistochemistry analysis post resection/biopsy and referred to outpatient clinic of the department of Radiotherapy to undergo standard treatment with radiotherapy.
+
+Intervention (if applicable): Each patient will have an extension to their standard, radiotherapy planning MRI scan taken for regular clinical care. This scan will last at maximum 60 minutes.
+
+Main study parameters/endpoints: Equal prediction of pattern of failure (locations of tumour recurrence) based on the physiological CTV compared to the standard CTV used for radiotherapy planning, with the physiological CTV being smaller in volume.
+
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: The patients the burden of prolonged scan time (+ 30 minutes, scan will last 60 mins in total) during their standard RT planning scan. The remainder of their clinical care will not be altered: RT will be given to these patients based on standard CTVs. Follow-up will follow the clinical protocol . There will be no personal benefit for the patients in this research project.
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [OTHER] Extended MRI group: The MRI-scan time is extended with 15-20 minutes. (interventions: Diagnostic Test: Extended MRI)
+
+### interventions
+- [DIAGNOSTIC_TEST] Extended MRI: Extension of the brain tumor MRI-protocol
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Informed consent;
+* Adults (18 years or older);
+* diagnosed with IDH-wildtype glioblastoma, as confirmed by pathology including molecular analysis post resection/biopsy;
+* referred to outpatient clinic of the Department of Radiotherapy to undergo standard treatment with high-dose RT.
+* Patients eligible for 30x2Gy or 15x2.67Gy
+
+Exclusion Criteria:
+
+* Contraindication for MRI
+* Contraindication for use of gadolinium-based contrast agent (i.e. subject having renal deficiency)
+* Unable to give informed consent
+
+### outcomes
+- [primaryOutcomes] Volume and location analysis of physiological and standard CTV: Volume and location analysis (Dice correlation coeffcient) will be done to compare the physiological CTVs to standard CTVs generated pre-radiotherapy, where it is hypothesized that the physiological CTVs will be overall smaller in volume and better match microinvasion of the tumour than the standard CTV.
+- [secondaryOutcomes] Pattern-of-failure analysis of the physiological and standard CTV: In the standard follow-up of patients, repeat MRI scans are made every 3 to 4 months. RANO criteria will be used to do response assessment and to determine if and when tumour recurrence is occurring. Pattern-of-failure analysis will then be done with the physiological CTV and the standard CTV, where the percentage of overlap of the recurrence volume with the physiological and standard CTV will be assessed. The hypothesis is that the percentage overlap will not be worse for the physiological CTV compared to the standard CTV, whilst the physiological CTV will be smaller in volume than the standard CTV.
+
+### sponsor
+Lead: Erasmus Medical Center; collaborators:

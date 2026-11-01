@@ -1,0 +1,343 @@
+{
+ "moiety": "aminolevulinic acid",
+ "accessed_utc": "2026-11-01T16:13:31+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020965",
+    "date": "1999-12-03",
+    "brand": [
+     "LEVULAN"
+    ]
+   },
+   {
+    "application": "NDA208081",
+    "date": "2016-05-10",
+    "brand": [
+     "AMELUZ"
+    ]
+   },
+   {
+    "application": "NDA208630",
+    "date": "2017-06-06",
+    "brand": [
+     "GLEOLAN"
+    ]
+   }
+  ],
+  "first_approval_date": "1999-12-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Gleolan is indicated in patients with glioma [suspected World Health Organization (WHO) Grades III or IV on preoperative imaging] as an adjunct for the visualization of malignant tissue during surgery. Gleolan is an optical imaging agent indicated in patients with glioma (suspected World Health Organization Grades III or IV on preoperative imaging) as an adjunct for the visualization of malignant tissue during surgery. ( 1 )",
+   "1 INDICATIONS AND USAGE The LEVULAN KERASTICK for topical solution plus blue light illumination using the BLU-U Blue Light Photodynamic Therapy Illuminator is indicated for the treatment of minimally to moderately thick actinic keratoses of the face, scalp, or upper extremities. LEVULAN KERASTICK for topical solution, a porphyrin precursor, plus blue light illumination using the BLU-U Blue Light Photodynamic Therapy Illuminator is indicated for photodynamic therapy (treatment) of minimally to moderately thick actinic keratoses of the face or scalp, or actinic keratoses of the upper extremities. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"aminolevulinic acid\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL601",
+  "pref_name": "AMINOLEVULINIC ACID",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XD04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00961090,NCT01310868,NCT01351519,NCT01445691,NCT03897491,NCT04469699,NCT04845919"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XD04"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04381806,NCT04443686"
+     }
+    ]
+   },
+   {
+    "efo_term": "actinic keratosis",
+    "mesh_heading": "Keratosis, Actinic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00865878,NCT01458587,NCT01459393,NCT01475955,NCT02137785,NCT02239679,NCT02281136,NCT02628236,NCT02632110,NCT03024060,NCT03322293,NCT06027619"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01148966"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic oligodendroglioma",
+    "mesh_heading": "Oligodendroglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01148966"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00977795,NCT02191488,NCT04738162"
+     }
+    ]
+   },
+   {
+    "efo_term": "acne",
+    "mesh_heading": "Acne Vulgaris",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01689935,NCT04018885,NCT04044898"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01148966"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04164849"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain cancer",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01445691"
+     }
+    ]
+   },
+   {
+    "efo_term": "mixed glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01148966"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01522677"
+     }
+    ]
+   },
+   {
+    "efo_term": "primary brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01445691"
+     }
+    ]
+   },
+   {
+    "efo_term": "infection",
+    "mesh_heading": "Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04636242"
+     }
+    ]
+   },
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02367547,NCT04552990,NCT05020912"
+     }
+    ]
+   },
+   {
+    "efo_term": "Desmoid-type fibromatosis",
+    "mesh_heading": "Desmoid Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01898416"
+     }
+    ]
+   },
+   {
+    "efo_term": "seborrheic dermatitis",
+    "mesh_heading": "Dermatitis, Seborrheic",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03114111"
+     }
+    ]
+   },
+   {
+    "efo_term": "nevoid basal cell carcinoma syndrome",
+    "mesh_heading": "Basal Cell Nevus Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01556009"
+     }
+    ]
+   },
+   {
+    "efo_term": "neurofibromatosis type 1",
+    "mesh_heading": "Neurofibromatosis 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01682811,NCT02728388"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05362409"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06307548"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01351519,NCT01445691,NCT01502280"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06252727"
+     }
+    ]
+   },
+   {
+    "efo_term": "adult glioblastoma",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01148966"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 26,
+  "earliest": {
+   "nct": "NCT00865878",
+   "start": "2009-05",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1999-12-03",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": true,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "glioma in label: confirm established / glioma-developed / glioma_label"
+  ]
+ }
+}

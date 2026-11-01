@@ -1,0 +1,71 @@
+NCT ID: NCT07585851
+### title
+Administration of Repurposed Ketoconazole in Glioma Patients
+Official: Administration of Repurposed Ketoconazole in Glioma Patients: Early Phase 1 Clinical Trial
+
+### conditions
+Diffuse Glioma; Diffuse Glioma, Grade I; Diffuse Glioma, Grade II; Diffuse Glioma, Grade III; Diffuse Glioma, Grade IV
+
+### keywords
+Diffuse Glioma; Glioblastoma; Ketoconazole
+
+### brief_summary
+This early phase 1 clinical trial tests whether ketoconazole, an antifungal drug, can penetrate primary glioma brain tumors through the blood-brain barrier at levels sufficient to disrupt tumor growth, based on preclinical studies targeting glucose metabolism. Gliomas, especially aggressive high-grade types (WHO grades III-IV), have limited treatments like surgery, radiation, or chemotherapy. Patients with low- or high-grade gliomas will receive single or repeated low doses of ketoconazole before scheduled surgery, tailored to their health and procedure timing. During surgery, drug levels will be measured in tumor tissue and plasma. Results will guide future trials exploring azole drugs as glioma therapies.
+
+### detailed_description
+Gliomas, particularly high-grade variants like glioblastoma multiforme (WHO grade IV), represent a major challenge in neuro-oncology, comprising over 50% of gliomas and 17% of all primary brain tumors with an incidence of 5 per 100,000. These tumors exhibit marked intra-tumoral heterogeneity, aggressive angiogenesis, and reliance on aerobic glycolysis-converting glucose to lactate irrespective of oxygen levels-to fuel proliferation, invasion, and survival despite maximal safe resection followed by temozolomide-radiotherapy (Stupp protocol), which yields median survival of only 14.6 months.
+
+Preclinical models of high-grade glioma (HGG) have demonstrated ketoconazole's disruption of this metabolic vulnerability by inhibiting hexokinase 2 (HK2), thereby curtailing glycolysis, promoting apoptosis, and curbing angiogenesis-effects achieved at pharmacologically safe doses without reliance on novel agents that struggle against the blood-brain barrier (BBB). Yet, critical gaps persist: ketoconazole's penetration into plasma and glioma tissue (both low- and high-grade) remains undocumented, precluding translation to efficacy trials amid BBB limitations that undermine many repurposed cancer therapies.
+
+This early phase 1 trial addresses these uncertainties in primary gliomas through individualised pre-surgical dosing (single or repeated low doses) tailored to patient status and operative timing-followed by direct intra-operative sampling of tumor tissue and plasma for ketoconazole quantification. By quantifying ketoconazole concentrations directly in tumor tissue and plasma across all grade of gliomas, this early phase 1 trial determines achievable drug exposure levels and informs safe, effective dosing for subsequent efficacy studies.
+
+### design
+Phase: EARLY_PHASE1; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Ketoconazole Administration: Eligible patients undergo baseline assessments including liver function tests, renal function, metabolic panel, medical history review, and current medication inventory to ensure safety.
+
+Participants receive a single oral dose of ketoconazole 400 mg, administered 4-24 hours prior to scheduled surgery. Oral intake with food optimizes dissolution in acidic gastric conditions and alcohol avoidance for 3 days post-treatment to mitigates hepatotoxicity risks. Dosing is adjusted or withheld based on clinical tolerance: ketoconazole can be given with Dexamethasone 4mg PO QID; if adverse effects occur, dose is reduced to 200 mg; administration is discontinued if patient condition precludes dosing. (interventions: Drug: Ketoconazole)
+
+### interventions
+- [DRUG] Ketoconazole: Dose: 400 mg (two 200 mg tablets) orally.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Participants aged 18 years or older.
+* Radiological confirmation of an intra-axial primary brain tumor (all grades) requiring surgical intervention.
+* Karnofsky Performance Status (KPS) of ≥60 and projected life expectancy exceeding 12 weeks.
+* Normal liver function, indicated by alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels within 1.5x the upper limit of normal (ULN).
+* Normal renal function, defined as urea within 16.6-48.5 mg/dL, creatinine within 0.67-1.17 mg/dL, and/or eGFR ≥90 (within 1.5x the institutional ULN) .
+* Capacity to take oral medications.
+* Women of reproductive age and all male participants must commit to effective contraception (e.g., hormonal methods) throughout the trial.
+* Willingness and ability to provide written informed consent.
+* Commitment to adhere to the protocol, including treatment, procedures, and scheduled follow-ups.
+
+Exclusion Criteria:
+
+* Known hypersensitivity to ketoconazole.
+* Prior severe reactions (e.g., agranulocytosis, neutropenia) to ketoconazole or other azole antifungals used for parasitic conditions.
+* History of acute or chronic hepatitis.
+* Elevated liver enzymes (ALT, AST) or impaired renal function (urea, creatinine, eGFR) exceeding 1.5x ULN per local lab standards.
+* Current use of metronidazole without ability to switch to an alternative antibiotic at least 7 days prior to ketoconazole initiation.
+* Azole antifungal use within the preceding 3 months.
+* Pregnancy or breastfeeding.
+* Any coexisting medical, psychiatric, or lab abnormality that, per investigator judgment, heightens study risks or confounds data interpretation.
+* Unavailability for follow-up or inability to fulfill protocol demands.
+* Concurrent use of ketoconazole metabolic inducers (e.g., isoniazid, nevirapine, rifampin, rifabutin) without discontinuation option.
+
+### outcomes
+- [primaryOutcomes] Difference in Ketoconazole Concentrations Between Tumor Tissue and Plasma in Primary All-Grade Gliomas: Mean concentrations of ketoconazole measured in plasma and intratumoral tissue samples collected intraoperatively from patients with primary all-grade gliomas (grade I to IV) after preoperative single or fixed-dose administration. Ketoconazole concentrations in tumor and plasma will be summarized using descriptive statistics. The 400 mg preoperative dose was chosen in accordance with published pharmacokinetic safety data supporting its established tolerability across varying clinical conditions \[1-3\].
+
+1. Krishna G, et al. Effect of Varying Amounts of a Liquid Nutritional Supplement on the Pharmacokinetics of Posaconazole in Healthy Volunteers. Antimicrob Agents Chemother. 2009;53(11):4749-52.
+2. Krishna G, et al. Pharmacokinetics and Absorption of Posaconazole Oral Suspension under Various Gastric Conditions in Healthy Volunteers. Antimicrob Agents Chemother. 2009;53(3):958-66.
+3. Daneshmend TK, Warnock DW. Clinical Pharmacokinetics of Ketoconazole. Clin Pharmacokinet. 1988;14(1).
+- [secondaryOutcomes] Time Interval vs Ketoconazole Concentration in Tumor Tissue and Plasma: Correlation between time from ketoconazole administration to tumor resection and ketoconazole concentrations in glioma tissue and plasma.
+- [secondaryOutcomes] Glioma Grade vs Ketoconazole Concentration in Tumor Tissue and Plasma: Correlation between glioma grade (grade I-IV) and ketoconazole concentrations in tumor tissue and plasma
+- [secondaryOutcomes] Effect of Glioma Grade and Time Interval on Ketoconazole Concentrations in Tumor Tissue and Plasma: This multivariable analysis evaluates how glioma grade (LGG vs. HGG) and time interval from dosing to sampling independently influence ketoconazole concentrations in tumor tissue and plasma, after controlling for both covariates to quantify these effects and reveal penetration patterns.
+
+### sponsor
+Lead: Universitas Padjadjaran; collaborators:

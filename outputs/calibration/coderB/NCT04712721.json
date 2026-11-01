@@ -1,0 +1,97 @@
+{
+ "nct_id": "NCT04712721",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "basket_gbm_eligible",
+  "gbm_population_evidence": [
+   {
+    "field": "conditions",
+    "quote": "Glioblastoma Multiforme; Brain Neoplasms; Gastroesophageal Adenocarcinoma; Pancreatic Ductal Adenocarcinoma"
+   },
+   {
+    "field": "eligibility",
+    "quote": "Patients with histologically or cytologically confirmed and documented r/r GBM that has progressed after prior radiation therapy and have not received prior bevacizumab"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": false,
+  "candidate_exclusion_reason": "no_pharmacological_candidate",
+  "candidate_evidence": [
+   {
+    "field": "title",
+    "quote": "Evaluate the Imaging Performance, Safety, Biodistribution and Dosimetry of [68Ga]-FF58"
+   },
+   {
+    "field": "outcomes",
+    "quote": "Time-activity curves (TACs) from 68Ga-FF58 PET/CT images"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": true,
+   "reason": "Only intervention is a 68Ga diagnostic PET radiotracer (imaging, no antitumour hypothesis); not a therapeutic candidate."
+  },
+  "cns5_terminology": "historical"
+ },
+ "trial": {
+  "treatment_setting": "recurrent",
+  "treatment_setting_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "confirmed and documented r/r GBM that has progressed after prior radiation therapy"
+   }
+  ],
+  "regimen": "not_applicable",
+  "combination_partners": [],
+  "basket": true,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "yes",
+  "flag": {
+   "uncertain": false
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "68Ga-FF58",
+   "active_moiety": "68Ga-FF58",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "interventions",
+     "quote": "Single intravenous radiolabeled gallium FF58 injection determined by body weight (3 Megabecquerel (MBq)/Kg (+/- 10%))."
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": true,
+   "regimen_id": null,
+   "drug_class_hint": "diagnostic PET radiotracer targeting alphavbeta3/alphavbeta5 integrins",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Diagnostic imaging agent; schema has no diagnostic role, so listed as sole investigational agent but not an antitumour candidate."
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "other",
+   "biomarker_other": "alphavbeta3/alphavbeta5 integrin overexpression (expected)",
+   "role": "pharmacodynamic",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "title",
+    "quote": "Selected Solid Tumors Expected to Overexpress \u03b1v\u03b23 and \u03b1v\u03b25 Integrins"
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Overexpression is expected, not tested for eligibility; tracer targets the integrins (imaging target)."
+   }
+  }
+ ],
+ "coder_notes": "Phase 0/early phase 1 diagnostic PET tracer study; basket (GBM, brain mets from BC, GEA, PDAC). No therapeutic agent."
+}

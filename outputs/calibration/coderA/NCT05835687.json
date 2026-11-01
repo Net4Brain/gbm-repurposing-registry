@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT05835687",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {
+        "field": "conditions",
+        "quote": "Central Nervous System Neoplasms; Atypical Teratoid/Rhabdoid Tumor; Diffuse Midline Glioma, H3 K27M-Mutant; Ependymoma; High Grade Glioma; Glioblastoma; Medulloblastoma"
+      },
+      {
+        "field": "eligibility",
+        "quote": "Cohort A: relapsed/refractory non-brainstem CNS primary tumor AND tumor is B7-H3 positive"
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": true,
+      "reason": "Multi-tumour primary CNS trial (ATRT, ependymoma, medulloblastoma, gliomas); glioblastoma is named only in the conditions list, not in eligibility. Could alternatively be mixed_glioma_gbm_named. Paediatric-focused (age <= 21)."
+    },
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {
+        "field": "interventions",
+        "quote": "Autologous T cells transduced with a lentiviral vector expressing a B7-H3-CAR with a CD28z signaling domain and 41BB ligand (B7-H3-CAR T cells)."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": false
+    },
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "For Cohort A, must have evidence of relapsed or refractory non-brainstem CNS tumor"
+      },
+      {
+        "field": "eligibility",
+        "quote": "Must complete standard radiation prior to Loc3CAR treatment and be a minimum of 6 weeks post-completion of radiation therapy"
+      }
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": true,
+      "reason": "Cohort A (where GBM would enrol) is relapsed/refractory; Cohort B (DMG) enrols after first-line radiation without requiring progression. Setting for GBM patients specifically would be recurrent."
+    }
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 expression (IHC)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "Cohort A: relapsed/refractory non-brainstem CNS primary tumor AND tumor is B7-H3 positive"
+      },
+      "flag": {
+        "uncertain": true,
+        "reason": "B7-H3 is the target of the B7-H3-CAR T cells, but CAR-T is an excluded intervention type, so there is no candidate agent to match."
+      }
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "H3K27-altered diffuse midline pontine glioma"
+      },
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "coder_notes": "Only intervention is autologous B7-H3 CAR T cells delivered locoregionally (cell therapy; excluded intervention type even though registered as DRUG). No drug or biologic eligible for the agents list. Age <= 21 with stdAges CHILD, ADULT (mixed_age by [CODE]). Glioblastoma appears only in the conditions list."
+}

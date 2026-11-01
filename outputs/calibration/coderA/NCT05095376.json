@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT05095376",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "STEP 2 REGISTRATION: Histopathologically proven diagnosis of glioblastoma (or gliosarcoma as a subtype of glioblastoma) confirmed by central pathology review"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase III trial compares the effect of adding lomustine to standard chemotherapy with temozolomide and radiation therapy versus temozolomide and radiation therapy alone"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for Newly Diagnosed MGMT Methylated Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "ARM II: Patients undergo radiation therapy 5 days per week for 6 weeks in the absence of disease progression or unacceptable toxicity. Patients also receive lomustine PO on day 1 of each cycle and temozolomide PO QD on days 2-6 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": "Lomustine is a chemotherapy drug and in a class of medications called alkylating agents. It damages the cell's DNA and may kill tumor cells.",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "adding lomustine to standard chemotherapy with temozolomide and radiation therapy versus temozolomide and radiation therapy alone"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": "It works by damaging the cell's DNA and may kill tumor cells and slow down or stop tumor growth.",
+      "flag": {"uncertain": true, "reason": "Temozolomide is given in both arms (background) but with a different schedule in the experimental arm (days 2-6 of 42-day cycles); coded soc_backbone."}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "STEP 2 REGISTRATION: MGMT promoter with methylation confirmed by central pathology review."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH mutation testing by at least one method (such as immunohistochemistry for IDH1 R132H) must be performed as part of standard of care and no mutation must be found (i.e IDH wildtype)."},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Lomustine is on the D6 established GBM therapy list; adding it to TMZ/RT is an established-therapy experiment, so no candidate agent (S6: established_therapy_only). Control arm is registered ACTIVE_COMPARATOR (handled by [CODE]). MGMT methylation is an eligibility requirement but never candidate-matched."
+}

@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT04467346",
+  "coder_id": "B",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed glioblastoma multiforme treated with temozolomide (200mg/m2) as monotherapy and patients with recurrent or progressive malignant glioma treated with temozolomide as monotherapy (200mg/m2)."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Conditions field lists only 'Therapeutic Equivalency'; GBM is named in eligibility alongside recurrent malignant glioma and 'primary CNS malignancies'."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Bioequivalence Study Between Temozolomide Oral Suspension (Ped-TMZ) and Temodal® Capsules"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed glioblastoma multiforme treated with temozolomide (200mg/m2) as monotherapy and patients with recurrent or progressive malignant glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "yes",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ped-TMZ (Temozolomide Oral Suspension)",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "Ped-TMZ: Single oral administration on D1 or D2 according to randomization at the dose of 200 mg/m2."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy (oral suspension formulation)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temodal capsule",
+      "active_moiety": "temozolomide",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Temodal capsule: Single oral administration on D1 or D2 according to randomization at the dose of 200 mg/m2."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy (reference capsule)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Bioequivalence crossover of a new temozolomide oral suspension versus Temodal capsules. Temozolomide is an established GBM therapy (D6); no candidate. Crossover design means each patient receives both formulations; Temodal is registered only as an arm label, not a separate intervention."
+}

@@ -1,0 +1,402 @@
+{
+ "moiety": "lomustine",
+ "accessed_utc": "2026-11-01T16:08:15+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA017588",
+    "date": "1976-08-04",
+    "brand": [
+     "GLEOSTINE",
+     "GLEOSTINE",
+     "GLEOSTINE"
+    ]
+   }
+  ],
+  "first_approval_date": "1976-08-04",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Gleostine is an alkylating drug indicated for the treatment of patients with: Brain tumors, primary and metastatic, following appropriate surgical and/or radiotherapeutic procedures. ( 1 ) Hodgkin's lymphoma in combination with other chemotherapies, following disease progression with initial chemotherapy. ( 1 ) 1.1 Brain Tumors Gleostine is indicated for the treatment of patients with primary and metastatic brain tumors following appropriate surgical and/or radiotherapeutic procedures. 1.2 Hodgkin's Lymphoma Gleostine is indicated as a component of combination chemotherapy for the treatment of patients with Hodgkin's lymphoma whose disease has progressed following initial chemotherapy.",
+   "1 INDICATIONS AND USAGE Lomustine Capsules are an alkylating drug indicated for the treatment of patients with: Brain tumors, primary and metastatic, following appropriate surgical and/or radiotherapeutic procedures. (1) Hodgkin\u2019s lymphoma in combination with other chemotherapies, following disease progression with initial chemotherapy. (1) 1.1 Brain Tumors Lomustine Capsules are indicated for the treatment of patients with primary and metastatic brain tumors following appropriate surgical and/or radiotherapeutic procedures. 1.2 Hodgkin\u2019s Lymphoma Lomustine Capsules are indicated as a component of combination chemotherapy for the treatment of patients with Hodgkin\u2019s lymphoma whose disease has progressed following initial chemotherapy. 1.1 Brain Tumors Lomustine Capsules are indicated for the treatment of patients with primary and metastatic brain tumors following appropriate surgical and/or radiotherapeutic procedures. 1.2 Hodgkin\u2019s Lymphoma Lomustine Capsules are indicated as a component of combination chemotherapy for the treatment of patients with Hodgkin\u2019s lymphoma whose disease has progressed following initial chemotherapy.",
+   "1 INDICATIONS AND USAGE Lomustine is an alkylating drug indicated for the treatment of patients with: Brain tumors, primary and metastatic, following appropriate surgical and/or radiotherapeutic procedures. ( 1 ) Hodgkin's lymphoma in combination with other chemotherapies, following disease progression with initial chemotherapy. ( 1 ) 1.1 Brain Tumors Lomustine is indicated for the treatment of patients with primary and metastatic brain tumors following appropriate surgical and/or radiotherapeutic procedures. 1.2 Hodgkin's Lymphoma Lomustine is indicated as a component of combination chemotherapy for the treatment of patients with Hodgkin's lymphoma whose disease has progressed following initial chemotherapy."
+  ],
+  "query": "products.active_ingredients.name:\"lomustine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL514",
+  "pref_name": "LOMUSTINE",
+  "max_phase": 4.0,
+  "atc": [
+   "L01AD02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01AD02"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00068952,NCT00295815,NCT00431561,NCT00503204,NCT00504660,NCT00761280,NCT00777153,NCT00948389,NCT01067469,NCT01149109,NCT01562197,NCT01582269,NCT01737346,NCT01860638,NCT01934361,NCT02076152,NCT02343406,NCT02414165,NCT02765165,NCT02926222,NCT03025893,NCT03149575,NCT03382977,NCT03463265,NCT03758014,NCT03970447,NCT04421378,NCT04573192,NCT04762069,NCT04863950,NCT04933942,NCT05095376,NCT05304663,NCT05904119,NCT06336291,NCT06419946"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00480064,NCT00590837"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00100802,NCT00431561,NCT00761280,NCT02414165,NCT02796261"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00072345"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003113,NCT00003114,NCT00003929,NCT00049439,NCT00074191,NCT00989352"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01563614"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003603"
+     }
+    ]
+   },
+   {
+    "efo_term": "medulloblastoma",
+    "mesh_heading": "Medulloblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00031590,NCT00085735,NCT02212574,NCT02724579,NCT04402073,NCT05382338"
+     }
+    ]
+   },
+   {
+    "efo_term": "Lymphoma, AIDS-Related",
+    "mesh_heading": "Lymphoma, AIDS-Related",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01775475"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002875,NCT00002944,NCT00006024,NCT00503204,NCT03025893"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7f77526b-4c40-409c-82ea-d0f934d89cc2"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002569,NCT00002806,NCT00002840,NCT00002944,NCT00003101,NCT00003375,NCT00003788,NCT00004259,NCT00006024,NCT00052455,NCT00053872,NCT00274911,NCT00276666,NCT00278278,NCT00887146"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain cancer",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00504660,NCT01067469,NCT03149575"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney cancer",
+    "mesh_heading": "Kidney Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00293280"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung neoplasm",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01989052,NCT03425292,NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "7f77526b-4c40-409c-82ea-d0f934d89cc2"
+     }
+    ]
+   },
+   {
+    "efo_term": "Malignant Bone Neoplasm",
+    "mesh_heading": "Bone Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00100802,NCT05017610,NCT05095376"
+     }
+    ]
+   },
+   {
+    "efo_term": "spinal cord neoplasm",
+    "mesh_heading": "Spinal Cord Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00100802"
+     }
+    ]
+   },
+   {
+    "efo_term": "plasma cell neoplasm",
+    "mesh_heading": "Neoplasms, Plasma Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003603"
+     }
+    ]
+   },
+   {
+    "efo_term": "bone neoplasm",
+    "mesh_heading": "Bone Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic neoplasm",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03678883"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ocular Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00072345"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01682187,NCT03149575,NCT03463265"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2311221"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 46,
+  "earliest": {
+   "nct": "NCT00002569",
+   "start": "1994-07",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1976-08-04",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

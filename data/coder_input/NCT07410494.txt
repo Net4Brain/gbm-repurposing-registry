@@ -1,0 +1,97 @@
+NCT ID: NCT07410494
+### title
+Biomarker-Guided Allogeneic Single-Target or Dual-Target CAR-NK Cell Therapy for Advanced Solid Tumors
+Official: A Phase 1/2, Open-Label, Biomarker-Driven Study of Allogeneic Donor-Derived CAR-NK Cells With Antigen Selection by Tissue Biopsy and/or Liquid Biopsy Profiling in Participants With Relapsed/Refractory Advanced Solid Tumors (Single-Target vs Dual-Target Strategy)
+
+### conditions
+Cancer; Breast Cancer; Non-Small Cell Lung Cancer (NSCLC); Colorectal Cancer (Locally Advanced or Metastatic); Prostate Cancer - Recurrent; Pancreatic Ductal Adenocarcinoma (PDAC); Ovarian Cancer; Glioblastoma; Melanoma (Skin Cancer); Acute Myeloid Leukemia (AML); Non Hodgkin Lymphoma; Multiple Myeloma (MM), Lymphoma, Large B-Cell, Diffuse (DLBCL), Lymphoma; Liver Cancer
+
+### keywords
+CAR-NK; Solid tumor; Dual-target CAR; ctDNA; CAR-T; Breast cancer; Non-small cell lung cancer (NSCLC); Colorectal cancer (CRC); Prostate cancer; Pancreatic ductal adenocarcinoma (PDAC); Ovarian, fallopian tube, and primary peritoneal cancers; Glioblastoma and other high-grade gliomas; Melanoma; Acute myeloid leukemia (AML); Non-Hodgkin lymphoma (NHL), especially DLBCL and follicular lymphoma; Multiple myeloma (especially relapsed/refractory); Liver cancer (hepatocellular carcinoma, HCC)
+
+### brief_summary
+This Phase 1/2 study evaluates the safety, feasibility, and preliminary anti-tumor activity of allogeneic donor-derived CAR-NK cells in participants with advanced solid tumors. The CAR target antigen is selected for each participant after tumor profiling using a tissue biopsy and/or liquid biopsy. Participants will receive either a single-target or dual-target CAR-NK product based on the antigen profile.
+
+### detailed_description
+This is an open-label, biomarker-driven adoptive cell therapy study.
+
+Screening / Target Selection (Precision Step):
+
+Participants undergo tumor antigen profiling using:
+
+Tissue biopsy (preferred when safely feasible), and/or Liquid biopsy (e.g., circulating tumor DNA plus circulating tumor cells/exosome protein assay, as available in the platform).
+
+Antigen profiling determines eligibility and assigns participants to:
+
+Single-target CAR-NK if one antigen meets positivity thresholds, or Dual-target CAR-NK if two antigens meet thresholds or if heterogeneity is suspected.
+
+Pre-specified target menu :
+
+TROP2, Mesothelin (MSLN), B7-H3 (CD276), HER2, EGFR, GD2, Claudin18.2, GPC3, PSMA ("Target menu" can be expanded in amendments.)
+
+Cell Source / Manufacturing Concept:
+
+NK cells are obtained from a healthy allogeneic donor (unrelated or partially matched per site policy).
+
+Donor NK cells are collected by leukapheresis, activated/expanded, and genetically modified to express:
+
+a single CAR (Arm A) or a dual CAR / dual-target construct (Arm B). Final product is cryopreserved and released after sterility/identity/potency testing.
+
+Conditioning \& Treatment:
+
+Participants receive lymphodepleting chemotherapy followed by CAR-NK infusion(s). Many CAR-NK solid-tumor trials use conditioning regimens such as fludarabine and cyclophosphamide before infusion.
+
+Optional cytokine support (e.g., low-dose IL-2) may be used per protocol to support NK persistence, consistent with approaches used in some CAR-NK studies.
+
+Follow-up:
+
+Intensive safety monitoring during the first 28 days. Tumor imaging at protocol-defined intervals. Correlative studies including CAR-NK persistence and ctDNA dynamics.
+
+### design
+Phase: PHASE1, PHASE2; allocation: NON_RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] Single-Target Antigen-Selected CAR-NK: Participants whose profiling identifies one dominant actionable antigen. (interventions: Biological: EB-SELECT Single-Target CAR-NK Cells)
+- [EXPERIMENTAL] Dual-Target Antigen-Selected CAR-NK: Participants whose profiling identifies two actionable antigens, or strong evidence of antigen heterogeneity. (interventions: Biological: Dual-Target Antigen-Selected CAR-NK)
+
+### interventions
+- [BIOLOGICAL] EB-SELECT Single-Target CAR-NK Cells (other names: Lymphodepleting Chemotherapy, Fludarabine, Cyclophosphamide, IL-2): Donor-derived CAR-NK cells expressing a single CAR selected from the target menu. WITH Fludarabine (IV) + Cyclophosphamide (IV), administered prior to CAR-NK infusion. Similar conditioning drugs are used in CAR-NK solid tumor trials.
+- [BIOLOGICAL] Dual-Target Antigen-Selected CAR-NK (other names: EB-SELECT Dual-Target CAR-NK Cells, Fludarabine, Cyclophosphamide, IL-2): Participants whose profiling identifies two actionable antigens, or strong evidence of antigen heterogeneity. WITH Fludarabine (IV) + Cyclophosphamide (IV), administered prior to CAR-NK infusion . Similar conditioning drugs are used in CAR-NK solid tumor trials.
+
+### eligibility
+Ages: CHILD, ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age 18-75 years.
+* Histologically or cytologically confirmed advanced/unresectable or metastatic solid tumor that is relapsed/refractory after standard therapy, or no standard therapy available.
+* Targetable antigen positivity from the protocol target menu based on:
+
+tissue biopsy and/or liquid biopsy platform (as defined in the lab manual).
+
+* Arm assignment rules :
+* Arm A: ≥1 antigen meets "positive" threshold
+* Arm B: ≥2 antigens meet "positive" threshold
+* ECOG performance status 0-1 (or 0-2 ).
+* At least one measurable lesion by RECIST 1.1.
+* Adequate organ function (hematologic, renal, hepatic, cardiac) within protocol-defined limits.
+* Willingness to undergo blood draws and required biopsies (when medically feasible).
+* Negative pregnancy test for participants of childbearing potential; agreement to effective contraception during and after study treatment.
+
+Exclusion Criteria:
+
+* Prior treatment with gene-modified cellular therapy (e.g., CAR-T, CAR-NK) within a defined washout period .
+* Active, uncontrolled infection requiring IV antibiotics; known uncontrolled HIV; active HBV/HCV with detectable viral load (per local policy).
+* Active CNS metastases requiring escalating steroids or urgent intervention (stable treated CNS disease may be allowed ).
+* Active autoimmune disease requiring systemic immunosuppression, or chronic systemic steroids above protocol threshold.
+* Clinically significant cardiovascular disease (e.g., recent MI, unstable arrhythmia), uncontrolled pulmonary disease, or other serious comorbidity that increases risk.
+* Major surgery or anticancer therapy too close to lymphodepletion (protocol-defined washout).
+* Pregnant or breastfeeding.
+
+### outcomes
+- [primaryOutcomes] Incidence, type, and severity of adverse events (AEs), graded by CTCAE v5.0: 
+- [primaryOutcomes] Incidence of Dose-Limiting Toxicities (DLTs): 
+- [secondaryOutcomes] Objective Response Rate (ORR) (RECIST 1.1): 
+- [secondaryOutcomes] Disease Control Rate (DCR):
+
+### sponsor
+Lead: Essen Biotech; collaborators:

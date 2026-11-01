@@ -1,0 +1,71 @@
+NCT ID: NCT06466031
+### title
+Application of FET-PET in Fusion With MRI in the Treatment of Glioblastoma Multiforme [TYR-GLIO]
+Official: Application of FET-PET in Fusion With MRI in the Surgical Treatment and Postoperative Radiotherapy of Glioblastoma Multiforme - a Randomized, Blinded, Prospective Study
+
+### conditions
+Glioblastoma Multiforme
+
+### keywords
+Glioblastoma Multiforme; Methionine; Positron-Emission Tomography; Brain neoplasms; Progression-free survival; Dose Fractionation, Radiation; Post-surgical radiotherapy
+
+### brief_summary
+Glioblastoma multiforme (GBM WHO IV) is the most common and aggressive primary brain tumor in adults, carrying a poor prognosis with a median survival of 12-16 months. The annual incidence is approximately 5 per 100,000 (roughly 600 cases annually in Poland), predominantly affecting individuals in their prime productive years. The standard of care consists of maximal safe resection followed by the Stupp protocol (60 Gy fractionated radiotherapy and temozolomide chemotherapy).
+
+Routine surgical management relies on contrast-enhanced MRI. Gross total resection (GTR) is defined as the complete removal of the contrast-enhancing lesion. Although GTR improves progression-free survival (PFS) and overall survival (OS), local recurrence at the operative site occurs in up to 51% of patients within a year. This rapid regrowth is driven by glioblastoma stem cells infiltrating the surrounding non-enhancing brain tissue. Consequently, standard contrast-enhanced MRI lacks the sensitivity required to define true tumor boundaries for optimal patient outcomes.
+
+To overcome this, positron emission tomography (PET-CT) using amino acid tracers like 18F-fluoroethyl-L-tyrosine (18F-FET) offers a promising alternative. Unlike 18-FDG, which is obscured by physiologically high glucose uptake in healthy brain tissue, 18F-FET provides high specificity and sensitivity for glial tumors. Crucially, studies show that MRI contrast enhancement overlaps with only 58% of the hypermetabolic area identified by 18F-FET. While "supramarginal" resections based on FLAIR MRI abnormalities (assumed to contain infiltrating stem cells) improve PFS by roughly 2 months, the FLAIR sequence cannot definitively distinguish active tumor infiltration from standard peritumoral edema.
+
+This proposed experiment carries significant innovative value: it aims to use the fusion of 18F-FET PET and contrast-enhanced MRI to precisely guide both primary surgical resection and postoperative radiotherapy. By redefining the primary target volume to include the area of true biological tumor activity rather than just the MRI-enhancing mass (incorporating it into GTV, CTV, and PTV planning), the procedure directly targets residual glioblastoma stem cells. While PET has been evaluated for radiotherapy planning in recurrent GBM, high-quality data regarding its use for primary surgical planning is lacking. This study aims to fill that crucial gap in the literature.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: NA; allocation: RANDOMIZED; model: PARALLEL
+
+### arms
+- [EXPERIMENTAL] Resection and radiotherapy according to the MRI & PET fusion: Surgical treatment and radiotherapy planned based on FET-PET and MRI+T1C fusion. (interventions: Other: MRI & PET fusion)
+- [EXPERIMENTAL] Radiotherapy according to the MRI & PET fusion: Surgical treatment planned based on MRI+T1C study, radiotherapy planned based on FET-PET and MRI+T1C fusion. (interventions: Other: MRI & PET fusion; Other: MRI+T1C)
+- [SHAM_COMPARATOR] Resection and radiotherapy according to the MRI: Surgical treatment and radiotherapy planned based on MRI+T1C. (interventions: Other: MRI+T1C)
+
+### interventions
+- [OTHER] MRI & PET fusion: MRI+T1C in fusion with FET-PET will be used for tumor resection and/or radiotherapy planning. Resection will be terminated after removal of PET-assigned tumor margin or in case any neuromonitoring-based indications regarding neurological damage occur.
+- [OTHER] MRI+T1C: MRI+T1C will be used for tumor resection and radiotherapy planning. Resection will be terminated after removal of contrast-enhancing part regardless of 5-ALA fluorescence or in case any neuromonitoring-based indications regarding neurological damage occur.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Single macroscopic tumor focus with the appearance of glioblastoma multiforme on MRI with contrast - contrast-enhancing lesion, completely or with central necrosis, with surrounding edema.
+* No history of cancer in other organs. No suspicious lesions on X-ray of the chest and abdomen (CT with contrast).
+* No clinical suspicion of brain abscess - no meningeal symptoms, signs of neuroinfection, fever, elevated inflammatory parameters.
+* Primary tumor, without neurosurgical, radiotherapy or oncology intervention. Prior tumor biopsy is allowed.
+* Tumor eligible for surgical treatment - craniotomy and tumor resection.
+* Age ≥ 18 years but \< 70 years old.
+* Quality of life assessment: KPS ≥ 70.
+* Informed patient consent to the study and proposed treatment.
+* No allergy to contrast agents used in PET and MRI.
+* No medical contraindications to neurosurgery - craniotomy and resection.
+
+Exclusion Criteria:
+
+* Multifocal brain tumor.
+* Recurrence of glioblastoma multiforme.
+* Clinical or radiological suspicion of brain metastasis or brain abscess.
+* Postoperative histopathological diagnosis other than WHO grade IV glioblastoma.
+* Medical contraindications to any surgery under general anesthesia.
+* Pregnancy, breastfeeding.
+* Known allergy to gadolinium contrast or radiopharmaceutical tracing agent.
+
+### outcomes
+- [primaryOutcomes] Progression-free survival: 
+- [primaryOutcomes] Overall survival: 
+- [secondaryOutcomes] Assessment of tumor volume (GTV) in MRI with contrast in relation to the tumor borders in PET-CT: It will be assessed as the ratio of the treated tumor volume volumetrically based on MRI+T1C and FLAIR examination by software to the tumor volume estimated in a homogeneous way based on PET-CT examination. Both measurements will be verified independently by a neurosurgeon and a nuclear medicine specialist. This value will allow you to estimate how large the differences are treatment planning based on two different modalities - morphological assessment of the tumor and assessment of metabolic activity.
+- [secondaryOutcomes] Volumetric assessment of the planned radiotherapy volume based on PET-MRI and MRI planning.: 
+- [secondaryOutcomes] Long-term survival rate and prognostic factors (longer than 1 year from diagnosis).: Detailed analysis of factors prognostically favorable for long-term survival, which will allow for better selection of therapeutic options and possible reoperation in this group of patients.
+- [secondaryOutcomes] Pattern of local recurrence based on postoperative PET-MRI. Assessment of the nature and location of local recurrence based on the postoperative SUV parameter FET-PET and MRI examination.: The purpose of this analysis is to develop risk factors for recurrence based on postoperative radiological examinations.
+- [secondaryOutcomes] Assessment of quality of life related (SF-36 questionnaire) to the increase in the volume of the tumor undergoing treatment.: Increasing the scope surgery and radiotherapy treatment may result in deterioration of the patient's functioning. Therefore, the above factors will be analyzed for correlation the scope of resection and the functioning of patients. The evaluation will be performed by neurosurgeons and a psychologist trained in neuropsychological assessment.
+
+### sponsor
+Lead: Copernicus Memorial Hospital; collaborators: Medical Research Agency, Poland

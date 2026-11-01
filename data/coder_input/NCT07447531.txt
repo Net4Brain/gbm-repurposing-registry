@@ -1,0 +1,50 @@
+NCT ID: NCT07447531
+### title
+T2 Star Magnetic Resonance Imaging and Biomarker Blood Testing to Predict the Change and Progress of Malignant Gliomas
+Official: Evaluating Iron-Dependent Biomarkers of Malignant Glioma (WHO Grade IV) Progression
+
+### conditions
+Malignant Glioma
+
+### keywords
+(not provided)
+
+### brief_summary
+This clinical trial studies whether T2 star (T2\*) magnetic resonance imaging (MRI) and biomarker blood testing can help predict how World Health Organization (WHO) grade IV gliomas (malignant gliomas) might change or progress over time.
+
+### detailed_description
+This clinical trial studies whether T2 star (T2\*) magnetic resonance imaging (MRI) and biomarker blood testing can help predict how World Health Organization (WHO) grade IV gliomas (malignant gliomas) might change or progress over time. WHO grade IV gliomas are the most common primary brain tumors. Despite aggressive standard of care treatment, overall survival remains low. Early identification of whether the glioma comes back after a period of improvement (recurrence) remains an important part of treatment management. Early identification of recurrence can be complicated as treatment effects can cause inflammation, making it difficult to identify recurrence on standard MRI. It has been shown that WHO grade IV gliomas have increased iron content and that as the glioma is treated, markers in the blood that represent iron related cell death (biomarkers) increase. T2\* mapping is an MRI technique routinely used to assess iron content within tissues and may help identify recurrence of the glioma on the MRI. The biomarker blood test in this study checks the levels of iron-related cell death biomarkers in the blood, which may help predict how well patients are responding to treatment. T2\* MRI and biomarker blood testing may be an effective way to predict how malignant gliomas might change or progress over time.
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Diagnostic (T2* MRI, blood sample collection): Patients undergo T2\* MRI over 10 minutes and blood sample collection during radiation therapy simulation, weekly during radiation therapy, and at 1- and 3- months post-radiation therapy in the absence of unacceptable toxicity. Patients also undergo standard MRI throughout the study. (interventions: Procedure: T2 (Observed)-Weighted Imaging; Procedure: Biospecimen Collection; Procedure: Magnetic Resonance Imaging)
+
+### interventions
+- [PROCEDURE] T2 (Observed)-Weighted Imaging (other names: T2*-Weighted Imaging, T2*MRI, T2*WI): Undergo T2\* MRI
+- [PROCEDURE] Biospecimen Collection (other names: Biological Sample Collection, Biological Sample Collection, Biospecimen Collected, Biospecimen Collection, Specimen Collection): Undergo blood sample collection
+- [PROCEDURE] Magnetic Resonance Imaging (other names: Magnetic Resonance, Magnetic Resonance Imaging, Magnetic Resonance Imaging, Magnetic Resonance Imaging, magnetic resonance imaging, Magnetic Resonance Imaging, Magnetic Resonance Imaging): Undergo standard MRI
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age \> 21 years
+* New pathologically confirmed diagnosis of WHO grade IV malignant glioma
+* KPS \> 60
+* Ability to give informed consent for standard of care chemotherapy and radiation therapy on the MR Linac and to study procedures for the protocol
+
+Exclusion Criteria:
+
+* History of previous malignancy other than non-melanoma skin cancer in the previous 5 years
+* History of iron metabolic disorder such as hemochromatosis
+* Inability to undergo MR studies due to size, claustrophobia, or metal implants or devices
+
+### outcomes
+- [primaryOutcomes] Relationship between T2 (observed)-weighted imaging (T2*) magnetic resonance imaging relation time and dimeric transferrin receptor expression: Will be characterized with mixed effects regression modeling. Correlation between the two biomarkers will be estimated with the multivariate linear mixed effects regression approach of Hamlett, Ryan, and Wolfinger. Cluster bootstrapping will be employed to calculate a 95% confidence interval for their correlation and a p-value for testing its significance at the 5% level.
+- [secondaryOutcomes] Effects of T2* relaxation and/or circulating dimeric transferrin receptor on progression-free survival (PFS): Cox regression will be used to model the univariable and multivariable effects of T2\* relaxation time and dimeric transferrin receptor on PFS. Time-dependent receiver operating characteristic (ROC) analysis will be performed to estimate ROC curves at 6-months and areas under the curves (AUCs) as measures of prognostic performances. AUCs will be compared to help determine whether the combination of biomarkers is more prognostic than either biomarker alone. Sensitivities and specificities from the ROC curves will also be reported across the observed range of biomarkers (cutoff) values to further characterize their performance in predicting PFS.
+- [secondaryOutcomes] PFS: Cumulative PFS will be descriptively summarized over time with the method of Kaplan-Meier.
+
+### sponsor
+Lead: John M. Buatti; collaborators:

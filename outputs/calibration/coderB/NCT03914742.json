@@ -1,0 +1,146 @@
+{
+ "nct_id": "NCT03914742",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "mixed_glioma_gbm_named",
+  "gbm_population_evidence": [
+   {
+    "field": "conditions",
+    "quote": "IDH1 Mutation; IDH2 Mutation; Recurrent Glioblastoma; Recurrent WHO Grade II Glioma; Recurrent WHO Grade III Glioma"
+   },
+   {
+    "field": "arms",
+    "quote": "GBM Arm: Exploratory grade IV patients only"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": true,
+   "reason": "All patients must be IDH1/2-mutant, so GBM is IDH-mutant grade IV (historical use); under CNS5 note this could be not_glioblastoma"
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "brief_summary",
+    "quote": "This phase I/II trial studies the side effects and how well BGB-290 and temozolomide work in treating patients with gliomas"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "historical"
+ },
+ "trial": {
+  "treatment_setting": "recurrent",
+  "treatment_setting_evidence": [
+   {
+    "field": "title",
+    "quote": "Phase I/II Study of BGB-290 With Temozolomide in Recurrent Gliomas With IDH1/2 Mutations"
+   }
+  ],
+  "regimen": "combination",
+  "combination_partners": [
+   "temozolomide"
+  ],
+  "basket": false,
+  "control_arm_from_other_arms": "no",
+  "industry_support_in_text": "yes",
+  "flag": {
+   "uncertain": false
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "PARP Inhibitor BGB-290",
+   "active_moiety": "pamiparib",
+   "role": "experimental_combination",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "BGB290 + TMZ at dose combination established in Phase 1"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "PARP inhibitor (investigational)",
+   "stated_antitumour_mechanism": "BGB-290 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth",
+   "flag": {
+    "uncertain": true,
+    "reason": "Active moiety taken as pamiparib from the BGB-290 code; the record does not state the INN"
+   }
+  },
+  {
+   "agent_name_registered": "Temozolomide",
+   "active_moiety": "temozolomide",
+   "role": "established_therapy_experiment",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "TMZ de-escalated treatment schedule if necessary (days 1-21; days 1-14; days 1-7)"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "alkylating agent",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "TMZ schedule is varied in phase I, but TMZ is also the partner in the combination; soc_backbone is an alternative"
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "IDH",
+   "biomarker_other": null,
+   "role": "eligibility",
+   "candidate_matched": true,
+   "matched_agent": "pamiparib",
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "Patients must have IDH1/2-mutant glioma."
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Trial design selects IDH-mutant tumours for a PARP inhibitor, but the record gives no explicit mechanistic link"
+   }
+  },
+  {
+   "biomarker": "MGMT",
+   "biomarker_other": null,
+   "role": "exploratory_correlative",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "Patients must have documented molecular 1p/19q and MGMT testing."
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Testing is required but not used for selection"
+   }
+  },
+  {
+   "biomarker": "other",
+   "biomarker_other": "2-hydroxyglutarate (2HG)",
+   "role": "exploratory_correlative",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "detailed_description",
+    "quote": "Quantify 2-hydroxyglutarate (2HG) in archival formalin-fixed paraffin-embedded (FFPE) specimens"
+   },
+   "flag": {
+    "uncertain": false
+   }
+  }
+ ],
+ "coder_notes": "Eligibility requires IDH-mutant glioma; the GBM arm is exploratory grade IV (IDH-mutant) disease. Could be argued as not_glioblastoma under CNS5. BeiGene is a collaborator."
+}

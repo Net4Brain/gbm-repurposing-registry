@@ -1,0 +1,52 @@
+NCT ID: NCT06129760
+### title
+Glioblastoma Remote Monitoring and Care - Research Protocol
+Official: Glioblastoma Remote Monitoring and Care - Research Protocol
+
+### conditions
+Glioblastoma; Venous Thromboembolism; Seizures
+
+### keywords
+(not provided)
+
+### brief_summary
+The purpose of this research is to learn more about how what the Apple watch measures, in terms of walking data, heart rate, breathing rate, and sleep habits, relates to how participants feel. During the course of the treatment, the symptoms participants experience change, and whether the Apple watch can detect these changes. Ultimately, this knowledge is being used to design proactive tools and signatures that can predict complications or symptom changes before they happen.
+
+### detailed_description
+Glioblastoma is the most common primary malignant brain tumor in adults, with a near-universal rate of recurrence, and reports low median survivals of between 14 and 18 months, even with maximal therapy. Although participants have frequent clinical and imaging follow-ups to monitor their condition, complications are difficult to anticipate and may arise suddenly. For instance, participants with glioblastoma commonly demonstrate hypercoagulability, predisposing them to venous thromboembolism (VTE) with significant morbidity and mortality. VTE is a leading cause of death among cancer participants receiving outpatient chemotherapy, and timely detection and treatment can increase survival. Wearable sensors, in the form of direct-to-consumer devices, may allow for insights to allow for timely, proactive interventions. Nearly 20 percent of US residents own a smart wearable device such as the FitBit or Apple watch. Integration of wearable devices into clinical care has accelerated due to the COVID-19 pandemic's boost in the development of telehealth services. The increasing accessibility and affordability of wearable technology have also allowed for new possibilities to deliver remote and timely care to participants.
+
+The sensors in consumer devices capture a wide range of information. Trans-dermal optical photoplethysmography provides cardiac and respiratory measurements using non-invasive blood flow data. Meanwhile, motion and spatial data are supplied by accelerometers and gyroscopes. This raw data can then be assembled to provide insight into biometric parameters ranging from step counts to higher level information (e.g. VO2 max and sleep duration). Prior work has already used this data at a higher level to link movement activity and vital signs to a patient's thrombosis risk but has not been done in the brain tumor population. This study will ask participants to wear an Apple watch and document any health events or symptoms. Patterns will be analyzed within the captured data that may be associated with symptoms. By annotating symptomatic episodes, study is aimed to generate contextualized wearable sensor datasets that do not currently exist for glioblastoma participants and develop digital biomarkers for certain symptoms. For instance, abnormal variations in heart rate or breathing rate will be observed preceding a seizure or other transient neurological symptoms. Wearable data uses the patient's baseline at the beginning of the study as a matched control. Traditional follow-up care and Karnofsky performance status (KPS) evaluation rely on snapshot measurements, patient interviews, and clinician impressions during a relatively brief clinic visit. Wearable sensors may provide higher resolution information to help determine KPS between visit assessment and interventions. Some studies have demonstrated the feasibility of using wearables for remote monitoring of KPS in advanced gastrointestinal and lung cancers, but have yet to include participants with glioblastoma. One feasibility study has explored wearables in determining sleep quality in glioblastoma participants. To understand the relationship between actigraphy data and clinical scores of well-being in participants with glioblastoma, investigators will examine the association between collected movement data and KPS. This is a feasibility study using the Apple Watch and an iOS application on the participant's iPhone to collect continuous actigraphy data and annotate symptom occurrence. Apple's open-source framework is being utilized to specifically design for medical research, ResearchKit, to build the app and securely collect data.
+
+### design
+Phase: NA; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Wearing the Apple watch and the associated logging of health data: As part of the monitoring needed for this study, participants will be enrolled for at least 6 months, as this will give enough data to understand how the participant's health changes associate with what is measured by the Apple watch. After this 6 month period, participants may choose to end their participation on the study, or continue if they wish. (interventions: Device: Apple Watch)
+
+### interventions
+- [DEVICE] Apple Watch: The wearable sensor device is the Apple Watch Series 6 or newer
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* newly-diagnosed or recurrent glioblastoma undergoing treatment or active surveillance
+* at least 18 years of age at the time of study enrolment
+* Karnofsky Performance Status (KPS) ≥ 70% at time of study enrolment
+* able to comprehend informed consent form and provide informed consent
+* access to patient or caregiver's own Apple iPhone to interface with watch application for documentation of symptoms
+
+Exclusion Criteria:
+
+* under 18 years of age at the time of study enrolment
+* inability to give informed consent due to aphasia or other language barrier
+* tattoos located on the skin of the wrist or forearm where the Apple Watch will be placed or other skin conditions preventing adequate sensor function
+* inability to tolerate Apple Watch for at least 12 hours per day on at least 50% of days in a four-week period
+* no access to patient or caregiver Apple iPhone to document symptoms
+
+### outcomes
+- [primaryOutcomes] Success rate of 16-hour wear-time: The wear time will be defined by the "wear detection" onboard the Apple Watch. Median value per day will be used to avoid biasing this estimate toward outlier days. A 16-hr wear-time requirement will be considered feasible for studies of the GBM patient population if results show that there is a greater than 90% likelihood (within the 90% confidence interval) that a member of the population.
+- [primaryOutcomes] Symptom collection success rate: Symptom collection success in a specific patient will be defined as the patient reporting at least one symptom in ≥ 90% of their weeks (22 or more in 6 months) enrolled.
+
+### sponsor
+Lead: Case Comprehensive Cancer Center; collaborators:

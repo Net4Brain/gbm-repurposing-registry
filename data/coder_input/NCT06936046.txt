@@ -1,0 +1,77 @@
+NCT ID: NCT06936046
+### title
+Enhanced Adjuvant Therapy for Newly Diagnosed GBM With Partial Surgical Resection or Short-term Progression
+Official: Enhanced Adjuvant Therapy for Newly Diagnosed Glioblastoma With Partial Surgical Resection or Short-term Progression: a Bayesian Adaptive Randomized Phase II Study
+
+### conditions
+Glioblastoma
+
+### keywords
+(not provided)
+
+### brief_summary
+This study is a prospective Bayesian adaptive randomized phase II clinical trial of enhanced adjuvant therapy for newly diagnosed glioblastoma with partial surgical resection or short-term progression. The Stupp regimen is the standard treatment regimen (control group), while the experimental group receives enhanced treatment by combining different drugs or increasing the radiation dose based on the Stupp standard treatment regimen. Participants will undergo screening and evaluation according to the inclusion and exclusion criteria of the protocol, within 28 days prior to randomization. Patients who agree to participate in this study will sign an informed consent form (ICF) prior to the screening process. After completing all screening activities, those who meet the criteria can start receiving study treatment. Based on sample size estimation, a total of 210 patients are planned to be enrolled. Among the first 28 patients, an average of 7 patients will be allocated to each group for initial randomization to ensure the balance of each group in the early stages of the trial. Starting from the 29th patient, the 12-month PFS rate will be re estimated for every 15 patients enrolled, and the subsequent randomization probability will be calculated based on the observed data. On the first day of self adjuvant therapy, the PD-1/VEGF bispecific group received intravenous administration of PD-1/VEGF bispecific antibody 20mg/kg treatment, with 21 days per cycle, is expected to be administered for a total of 8 cycles. The PD-1/CTLA-4 dual antibody group received intravenous infusion of 6mg/kg PD-1/CTLA-4 dual antibody once on the first day of self adjuvant therapy, with 14 days per cycle. It is expected to be administered for a total of 12 cycles. The dose adjusted Stupp regimen group (mStupp) administered PGTV locally to residual or short-term recurrent lesions after surgery 66Gy/30Gy high-dose irradiation, PTV1 60Gy/30F in high-risk areas around the tumor bed, and 54Gy/30F radiotherapy in low-risk areas. Each group will have weekly blood routine, liver and kidney function, myocardial enzyme spectrum, thyroid function, electrocardiogram, and head MR every 4 weeks to evaluate the efficacy and toxic side effects. Follow up observation will be conducted. The study will start on January 1, 2025 and end on December 31, 2027, to explore the efficacy of enhanced adjuvant therapy for newly diagnosed glioblastoma with partial surgical resection or short-term progression.
+
+### detailed_description
+(not provided)
+
+### design
+Phase: PHASE2; allocation: RANDOMIZED; model: CROSSOVER
+
+### arms
+- [ACTIVE_COMPARATOR] Stupp group: radiotherapy+TMZ synchronous chemotherapy+TMZ adjuvant chemotherapy (interventions: Drug: Stupp protocol)
+- [EXPERIMENTAL] Dual antibody group A: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/VEGF dual antibody adjuvant therapy (interventions: Drug: Dual antibody A)
+- [EXPERIMENTAL] Dual antibody group B: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/CTLA-4 dual antibody adjuvant therapy (interventions: Drug: Dual antibody B)
+- [EXPERIMENTAL] Modified Stupp group: radiotherapy+TMZ synchronous chemotherapy+TMZ adjuvant chemotherapy (interventions: Radiation: Modified Stupp)
+
+### interventions
+- [DRUG] Dual antibody A: Starting 2-6 weeks after surgery, synchronous TMZ radiotherapy and chemotherapy will be performed. After completing synchronous radiotherapy and chemotherapy for 28 days, TMZ combined with PD-1/VEGF dual antibody will be used as adjuvant therapy. PD-1/VEGF dual antibody 20mg/kg intravenous infusion once, with a cycle of 21 days.
+- [DRUG] Dual antibody B: Starting 2-6 weeks after surgery, synchronous TMZ radiotherapy and chemotherapy will be performed. After completing synchronous radiotherapy and chemotherapy for 28 days, TMZ combined with PD-1/CTLA-4 dual antibody will be used as adjuvant therapy. PD-1/CTLA-4 dual antibody 6mg/kg intravenous infusion once, with a cycle of 14 days.
+- [RADIATION] Modified Stupp: Starting 2-6 weeks after surgery, synchronous TMZ radiotherapy and chemotherapy will be performed. For partially resected lesions or short-term recurrence and progression lesions after surgery, high-dose PGTV 66Gy/30Gy will be given locally. PTV1 in high-risk areas around the tumor bed will be 60Gy/30F, and in low-risk areas will be 54Gy/30F. After completing synchronous radiotherapy and chemotherapy for 28 days, 6 cycles of adjuvant TMZ chemotherapy will be started.
+- [DRUG] Stupp protocol: Synchronized TMZ radiotherapy and chemotherapy will begin 2-6 weeks after surgery, and 6 cycles of adjuvant TMZ chemotherapy will begin 28 days after completing the synchronized radiotherapy and chemotherapy. Radiotherapy regimen: PTV1 60Gy/30F in high-risk areas around the tumor bed, 54Gy/30F in low-risk areas. TMZ synchronous chemotherapy regimen: 75mg/m2 po qd. TMZ adjuvant chemotherapy regimen: The first cycle is 150mg/m2 po qd on d1-5,28 days; Cycle 2-6: Cycle 1: 200mg/m2 po qd for d1-5,28 days.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+1. Voluntary participation in clinical research: fully understand and be informed of this study, and sign a written informed consent form; Willing to follow and capable Complete all experimental procedures.
+2. Age: ≥ 18 years old, both male and female are acceptable.
+3. Pathologically diagnosed GBM patients
+4. Partial surgical resection or recurrence and progression 2-6 weeks after surgery (before radiotherapy)
+5. Adequate organ and bone marrow function, without severe hematopoietic dysfunction, heart, lung, liver, kidney dysfunction, or immune deficiency:
+
+   1. Blood routine: Absolute neutrophil count (ANC) ≥ 1.5 \* 109/L (1500/mm3), platelets ≥ 75 \* 109/L, hemoglobin ≥ 9 g/dL (if bone marrow is involved, platelets ≥ 50 \* 109/L, ANC ≥ 1.0 \* 109/L, hemoglobin ≥ 8 g/dL).
+   2. Liver function: Serum bilirubin ≤ 1.5 times the upper limit of normal value, aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 1.5 times the upper limit of normal value (AST is allowed if there is liver involvement, ALT ≤ 5 times the upper limit of normal value).
+   3. Renal function: Serum creatinine ≤ 1.5 times the upper limit of normal value.
+   4. Coagulation function: INR ≤ 1.5 times the upper limit of normal value; PT and APTT are ≤ 1.5 times the upper limit of normal values (unless the subject is receiving anticoagulant treatment and PT and APTT are within the expected range of anticoagulant treatment at the time of screening).
+6. Left ventricular ejection fraction (LVEF) ≥ 50% in cardiac function examination.
+7. The serum pregnancy test is negative, and effective contraceptive measures have been taken from the signing of the informed consent form until 6 months after the last chemotherapy.
+8. Thyroid stimulating hormone (TSH), free thyroxine (FT4), or free triiodothyronine (FT3) are all within the normal range of ± 10%.
+9. Ophthalmic examination: including dilated pupil fundus examination, slit lamp examination, and fundus color photography.
+
+Exclusion Criteria:
+
+* 1\) Currently participating in other clinical studies, or less than 4 weeks after the end of treatment in the previous clinical study.
+
+  2\) In the past 3 years, there has been a history of malignant tumors other than GBM, or other primary malignant tumors that have not been cured.
+
+  3\) Previous history of brain radiation therapy. 4) Pregnant or lactating women. 5) After evaluation, there are patients with contraindications to radiotherapy. 6) Serious active comorbidities that may affect the treatment of this study. 7) Active infections that require systematic anti infective treatment, including but not limited to bacterial, fungal, or viral infections.
+
+  8\) Patients with heart failure, unstable angina, severe uncontrolled ventricular arrhythmias, acute ischemia or myocardial infarction as determined by the New York Heart Association (NYHA) functional classification within the first 6 months of screening.
+
+  9\) QTcF interval\>480milliseconds, unless secondary to bundle branch block. 10) Suffering from uncontrollable comorbidities, including but not limited to uncontrolled hypertension, active peptic ulcers, or bleeding disorders.
+
+  11\) Individuals with a history of mental illness in the past; Individuals without legal capacity or with limited legal capacity.
+
+  12)Medical history or disease evidence that may interfere with the trial results, hinder the subjects' full participation in the study, abnormal treatment or laboratory test values, or other situations that the researchers consider unsuitable for inclusion.
+
+### outcomes
+- [primaryOutcomes] 3 months PFS rate: The proportion of patients in the population who did not progress and survived after 3 months of treatment after enrollment (using RANO 2.0 criteria).
+- [primaryOutcomes] 6 months PFS rate: The proportion of patients in the population who did not progress and survived after 6 months of treatment after enrollment(using RANO 2.0 criteria).
+- [primaryOutcomes] 1-year PFS rate: The proportion of patients in the population who did not progress and survived after 12 months of treatment after enrollment (using RANO 2.0 criteria).
+- [secondaryOutcomes] OS rate: The survival rate of patients in different time periods after starting treatment after enrollment.
+- [secondaryOutcomes] Changes in Quality of Life: Use EORTC QLQ-C30 scale to monitor changes in quality of life at baseline and during treatment.
+- [secondaryOutcomes] The incidence and severity of radiation-induced brain necrosis: Monitoring the incidence and severity of radiation-induced brain necrosis based on CTCAE version 5.0 standard.
+
+### sponsor
+Lead: Second Affiliated Hospital, Zhejiang University, School of Medicine; collaborators:

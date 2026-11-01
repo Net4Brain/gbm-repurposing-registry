@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT05887882",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor including, but not limited to, infant-type hemispheric glioma, gliosarcoma, intracranial sarcoma and WHO Grade II ependymoma."},
+      {"field": "conditions", "quote": "Pediatric Brain Tumor; Recurrent Pediatric Brain Tumor; Pediatric Neoplasm"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named; only gliosarcoma (a GBM variant per manual 1.1) is named among several paediatric/young-adult brain tumours. Could alternatively be coded not_glioblastoma or high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Universal Donor (UD) Transforming growth factor beta imprinting (TGFβi) Natural Killer (NK) Cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Only therapeutic intervention is an NK cell product (cell therapy; excluded intervention type), so agents is empty. Age range 1-39 years (stdAges CHILD, ADULT; mixed_age is [CODE]). Dexamethasone is mentioned only as an allowed concomitant medication in eligibility, not as a study intervention."
+}

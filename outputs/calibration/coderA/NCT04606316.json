@@ -1,0 +1,219 @@
+{
+  "nct_id": "NCT04606316",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Have histologically confirmed World Health Organization Grade IV IDH wildtype glioblastoma or variants including gliosarcoma or IDH wildtype glioma with molecularly features of glioblastoma."
+      },
+      {
+        "field": "eligibility",
+        "quote": "IDH mutation by immunohistochemistry."
+      }
+    ],
+    "gbm_population_flag": {
+      "uncertain": false
+    },
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {
+        "field": "arms",
+        "quote": "One dose of nivolumab plus ipilimumab will be administered 14(±5) days before surgery."
+      },
+      {
+        "field": "detailed_description",
+        "quote": "Both nivolumab and ipilimumab are antibodies (types of human protein) that work to stop tumor cells from growing and multiplying by immunotherapy."
+      }
+    ],
+    "candidate_flag": {
+      "uncertain": false
+    },
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {
+        "field": "eligibility",
+        "quote": "Be at first or second relapse. Note: Relapse is defined as progression following initial therapy (i.e., radiation ± chemotherapy)."
+      }
+    ],
+    "regimen": "combination",
+    "combination_partners": [
+      "nivolumab",
+      "ipilimumab"
+    ],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "industry_support_in_text": "no",
+    "flag": {
+      "uncertain": true,
+      "reason": "Group C (registered as EXPERIMENTAL) receives placebo-nivolumab plus placebo-ipilimumab before surgery and serves as the placebo control for the neoadjuvant primary endpoint; all groups receive nivolumab plus ipilimumab after surgery."
+    }
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nivolumab (Opdivo)",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {
+          "field": "detailed_description",
+          "quote": "Group A receives nivolumab plus ipilimumab"
+        },
+        {
+          "field": "detailed_description",
+          "quote": "-- Nivolumab plus ipilimumab every 3 weeks for 3 doses followed by nivolumab every 4 weeks"
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (approved immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy: antibody that works to stop tumor cells from growing and multiplying by engaging the body's immune system (anti-PD-1).",
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Ipilimumab (Yervoy)",
+      "active_moiety": "ipilimumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {
+          "field": "detailed_description",
+          "quote": "Group A receives nivolumab plus ipilimumab"
+        },
+        {
+          "field": "arms",
+          "quote": "After surgery, participants receive nivolumab in combination with ipilimumab every 3 weeks for 9 weeks and then nivolumab alone every 4 weeks."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CTLA-4 monoclonal antibody (approved immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy: antibody that works to stop tumor cells from growing and multiplying by engaging the body's immune system (anti-CTLA-4).",
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Nivolumab-Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {
+          "field": "interventions",
+          "quote": "[DRUG] Nivolumab-Placebo: Intravenous (IV) solution that has no therapeutic effect, used as a control in testing investigational drug. One dose is received prior to surgery."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo (no active moiety)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Ipilimumab-Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {
+          "field": "interventions",
+          "quote": "[DRUG] Ipilimumab-Placebo: Intravenous (IV) solution that has no therapeutic effect, used as a control in testing investigational drug. One dose is received prior to surgery."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo (no active moiety)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "agent_name_registered": "Zr-89 Crefmirlimab berdoxam (optional sub-study)",
+      "active_moiety": "crefmirlimab berdoxam",
+      "role": "supportive",
+      "role_evidence": [
+        {
+          "field": "detailed_description",
+          "quote": "Subjects also have the option of undergoing Zr-89 Crefmirlimab berdoxam PET scans."
+        }
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "Zr-89-labelled PET imaging agent (diagnostic radiotracer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {
+        "uncertain": true,
+        "reason": "Diagnostic imaging agent in an optional sub-study, not a registered intervention and without antitumour intent; no role category fits exactly, coded supportive. Not a candidate."
+      }
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "eligibility",
+        "quote": "IDH mutation by immunohistochemistry."
+      },
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Tumour-infiltrating T-lymphocyte (TIL) density",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "outcomes",
+        "quote": "Tumor Infiltrating T Lymphocyte (TIL) Density: TIL density will be assessed and compared between the three arms using the Two-sample t-Test."
+      },
+      "flag": {
+        "uncertain": false
+      }
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Cell cycle-related genetic signature in tumour microenvironment (multiplex IHC)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {
+        "field": "outcomes",
+        "quote": "Multiplex IHC staining will be performed on tumor tissue to evaluate the influence of the neoadjuvant administration on the cell cycle-related genetic signature within the tumor microenvironment of recurrent glioblastoma."
+      },
+      "flag": {
+        "uncertain": false
+      }
+    }
+  ],
+  "coder_notes": "Randomised three-group neoadjuvant window trial in recurrent IDH-wildtype GBM; groups differ only in pre-operative nivolumab/ipilimumab vs placebo, and all receive nivolumab plus ipilimumab after surgery. Both checkpoint inhibitors coded experimental_combination. Placebos listed as control_comparator (active_moiety 'placebo') for transparency. Zr-89 crefmirlimab berdoxam (CD8 PET tracer, optional sub-study) listed as non-candidate. Bristol-Myers Squibb is a collaborator (industry by [CODE]); no text statement of drug supply."
+}

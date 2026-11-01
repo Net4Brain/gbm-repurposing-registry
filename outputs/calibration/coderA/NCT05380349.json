@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05380349",
+  "coder_id": "A",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histological diagnosis of GBM (WHO grade 4)"},
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "A panel of FDA approved drugs will be tested by high throughput screening, which is CLIA certified allowing for clinical decisions based on the results, to identify a combination of up to 3 drug candidates for treating individual patients."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Candidate drugs are unnamed (personalised selection from an unspecified panel of FDA-approved drugs); active moieties cannot be identified from the record."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "With Standard of Care for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["up to 3 unspecified FDA-approved drugs", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "combinations of up to 3 FDA approved drugs from a panel of compounds",
+      "active_moiety": "unspecified (personalised panel of FDA-approved drugs)",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Administer combinations of up to 3 FDA approved drugs from a panel of compounds selected based on high throughput screening"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "CSC_HTS_personalised",
+      "drug_class_hint": "unspecified FDA-approved drugs (likely repurposed), selected per patient",
+      "stated_antitumour_mechanism": "Investigational drug therapy, targeting CSCs",
+      "flag": {"uncertain": true, "reason": "Individual drugs not named in the record; cannot be mapped to active moieties."}
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Investigational drug therapy, targeting CSCs, will be initiated alongside standard of care chemoradiation with TMZ."}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "ex vivo cancer stem cell high-throughput drug sensitivity screen (functional, used to select drugs)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "novel personalized drug regimens identified to be effective in vitro using cancer stem cells derived from their individual tumors"},
+      "flag": {"uncertain": true, "reason": "Functional ex vivo drug screen guides drug choice per patient; not a molecular biomarker under section 5 and not an entry requirement. Adjudicator to decide whether it counts as biomarker selection and candidate matching."}
+    }
+  ],
+  "coder_notes": "Personalised functional-precision trial: up to 3 FDA-approved drugs chosen per patient from an unnamed panel by CSC HTS, added to standard TMZ chemoradiation. No individual drug is named, so origin cannot be looked up; registry phase EARLY_PHASE1 (S3 is [CODE]). TMZ listed as soc_backbone though not a separately registered intervention."
+}

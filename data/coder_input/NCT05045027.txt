@@ -1,0 +1,76 @@
+NCT ID: NCT05045027
+### title
+Simultaneous Multinuclear Metabolic MRI in Newly Diagnosed or Recurrent Glioma
+Official: Simultaneous Multinuclear (Na+/H+) Metabolic MRI in Brain Tumors
+
+### conditions
+Glioma; Malignant Glioma; Recurrent Glioma; Recurrent Malignant Glioma
+
+### keywords
+(not provided)
+
+### brief_summary
+This clinical trial constructs and tests a novel multinuclear metabolic magnetic resonance imaging (MRI) sequence in patients with glioma (brain tumor) that is newly diagnosed or has come back (recurrent). This trial aims to develop new diagnostic imaging technology that may bridge gaps between early detection and diagnosis, prognosis, and treatment in brain cancer.
+
+### detailed_description
+PRIMARY OBJECTIVES:
+
+I. Construct and test a novel multinuclear Na+-H+ metabolic MRI sequence with sensitivity to Sodium (Na+) concentration, Potential of Hydrogen (pH), and oxygen (O2).
+
+II. Correlate Na+-, pH-, and O2-weighted MR image measurements with sodium-proton exchanger isoform-1 (NHE1) immunohistochemistry (IHC), bioenergetics, and gene expression using stereotactic image-guided biopsies from human brain tumors.
+
+III. Quantify changes in Na+-, pH-, and O2-weighted MR images after neoadjuvant anti-PD-1 immunotherapy in recurrent glioblastoma (GBM) and explore associated changes in tumor biology.
+
+OUTLINE:
+
+AIM 1: Previous scan data from healthy subjects is collected and analyzed.
+
+AIM 2: Patients undergo MRI. Patients also undergo collection of tissue samples for IHC analysis.
+
+AIM 3: Patients undergo multinuclear metabolic imaging before and after immunotherapy and prior to surgical resection.
+
+### design
+Phase: EARLY_PHASE1; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [EXPERIMENTAL] Basic science (MRI, metabolic imaging, tissue collection): AIM 1: Previous scan data from healthy subjects is collected and analyzed.
+
+AIM 2: Patients undergo MRI. Patients also undergo collection of tissue samples for IHC analysis.
+
+AIM 3: Patients undergo multinuclear metabolic imaging before and after immunotherapy and prior to surgical resection. (interventions: Procedure: Biospecimen Collection; Procedure: Diagnostic Imaging; Procedure: Magnetic Resonance Imaging)
+
+### interventions
+- [PROCEDURE] Biospecimen Collection (other names: Biological Sample Collection): Undergo collection of tissue samples
+- [PROCEDURE] Diagnostic Imaging (other names: Medical Imaging): Undergo multinuclear metabolic imaging
+- [PROCEDURE] Magnetic Resonance Imaging (other names: Magnetic Resonance Imaging Scan, Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance, MR Imaging, MRI, MRI Scan, NMR Imaging, NMRI, Nuclear Magnetic Resonance Imaging): Undergo MRI
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* AIM 1: Healthy volunteers with no evidence of brain tumors or neurologic disease
+* AIM 1: Age 18+
+* AIM 2: Newly diagnosed or recurrent suspected or confirmed glioma (low or high grade)
+* AIM 2: 10 IDH mutant and 10 IDH wild type gliomas
+* AIM 2: Clinically indicated for resective surgery or biopsy
+* AIM 2: Age 18+
+* AIM 2: Tumor size \> 1x1x1 cm (measurable)
+* AIM 3: Recurrent glioma enrolled in an immunotherapy trial or clinically indicated to receive immunotherapy including anti-PD1
+* AIM 3: Age 18+
+
+Exclusion Criteria:
+
+* AIM 1: Cannot safely perform an MRI
+* AIM 1: Age \< 18
+* AIM 2: Cannot safely perform an MRI or use of MRI contrast agents
+* AIM 2: Age \< 18
+* AIM 3: Cannot safely perform an MRI or use of MRI contrast agents
+* AIM 3: Age \< 18
+
+### outcomes
+- [primaryOutcomes] Total sodium concentration: Will calculate NaT using standard methodology and normalize it to ocular Na+ concentration, a constant 135 mmol/l. Will then test whether healthy tissue has a coefficient of variance (COV) of \< 10% across all 20 subjects.
+- [primaryOutcomes] NHE1 expression: Will create a comprehensive map of genes/pathways and unique cell subsets associated with NHE1 expression.
+- [primaryOutcomes] Tumor metabolism: Will examine the correlation between baseline tumor metabolism and change in metabolism with respect to overall survival using Cox multivariable regression.
+
+### sponsor
+Lead: Jonsson Comprehensive Cancer Center; collaborators: United States Department of Defense

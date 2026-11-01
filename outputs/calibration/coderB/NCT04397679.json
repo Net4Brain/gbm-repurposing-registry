@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04397679",
+  "coder_id": "B",
+  "manual_version": "1.0",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade IV glioma (gliosarcoma allowed)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Chloroquine is normally used to treat strains of malaria and prior preclinical and clinical data suggests that it may increase the efficacy of both radiation and tumor treating fields therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade IV glioma (gliosarcoma allowed)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "tumor treating fields"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chloroquine",
+      "active_moiety": "chloroquine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "it may increase the efficacy of both radiation and tumor treating fields therapy"},
+        {"field": "arms", "quote": "receive temozolomide by mouth (PO) and chloroquine PO daily from day 1 for the duration of radiation therapy"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial (4-aminoquinoline)",
+      "stated_antitumour_mechanism": "may increase the efficacy of both radiation and tumor treating fields therapy",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "receive temozolomide by mouth (PO) and chloroquine PO daily from day 1 for the duration of radiation therapy up to day 49"}
+      ],
+      "delivery_enabling": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm pilot: chloroquine added to standard chemoradiation and TTFields. TTFields and radiotherapy are not drugs and are not listed as agents."
+}

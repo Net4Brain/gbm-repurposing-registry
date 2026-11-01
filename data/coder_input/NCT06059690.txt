@@ -1,0 +1,48 @@
+NCT ID: NCT06059690
+### title
+Biologic Association Between Metabolic Magnetic Resonance-positron Emission Tomograph (MR-PET) and Tissue Measures of Glycolysis in Brain Tumors of Infiltrating Glioblastoma Cells
+Official: Biologic Association Between Metabolic MR-PET and Tissue Measures of Glycolysis in Brain Tumors Visualization, Quantitation, and Targeting of Infiltrating Glioblastoma Cells With pH Sensitive Amine Chemical Exchange Saturation Transfer Magnetic Resonance Imaging-KL2TR001882
+
+### conditions
+Glioblastoma Multiforme; Glycolytic Index; Epidermal Growth Factor Receptor
+
+### keywords
+(not provided)
+
+### brief_summary
+The purpose of this project is to validate a new combined MRI and PET imaging technique as a biomarker or measure of glycolysis in brain tumors. To accomplish this, the investigators propose obtaining image-guided measures of tissue pH and biopsied tissue in tumor areas selected for bulk resection surgery. Investigators will then correlate the imaging measurements with pH, RNA expression, protein expression, and bioenergetics measurements of key glycolytic enzymes.
+
+### detailed_description
+Patients who are scheduled for resection of glioblastoma multiforme (GBM) as part of standard care will be invited to take part in the study. All patients will undergo FDG-PET scan for the study using standard clinical imaging techniques, along with standard brain MRI plus up to approximately 15 minutes of investigational MR imaging sequences to permit calculation of \&#34;glycolytic index\&#34; as an experimental GBM imaging biomarker. Following pH measurements, the patient's clinical biopsy/tumor resection will take place as planned for clinical care. Tissue samples resected during the clinical procedure will be obtained and processed using immunohistochemistry techniques for further assessments, including RNA sequencing and bioenergetics analysis.
+
+The current study will investigate the central hypothesis that biopsied tumor tissue undergoing high levels of glycolysis via RNA expression, protein expression, and bioenergetics analyses can be reliably detected, correlates with direct measure of tissue pH, and is strongly associated with a "glycolytic index" created by combining 18F-FDG PET, amine CEST-SAGE-EPI, perfusion MRI and diffusion MRI. In addition, the investigators will investigate whether metabolic differences identified from this imaging modality may identify infiltrating non-enhancing tumor cells.
+
+FDG: 18F-2-fluoro-2-deoxy-D-glucose fluorodeoxyglucose CEST: chemical exchange saturation transfer SAGE: spin and gradient echo EPI: echo planar imaging IHC: immuno-histochemical rCBF: regional cerebral blood flow rCBV: relative cerebral volume DSC: dynamic susceptibility contrast ADC: apparent diffusion coefficient MCT: Monocarboxylate transporters
+
+### design
+Phase: PHASE1, PHASE2; allocation: NA; model: SINGLE_GROUP
+
+### arms
+- [OTHER] Arm I en vivo Glycolic Index measurement: All biopsies are acquired for standard of care and according to standard of care procedures. A 13-gauge biopsy needle and plastic cannula will be inserted into the region of interest identified on MRI and PET. The biopsy needle will be removed, and the Softcell® pH probe, consisting of a 1.8mm diameter high quality glass tip and 1.6m long wire, will be guided down the cannula and inserted at least 15mm into the tissue. Recordings will be made for 1 minute to stabilize the reading, then the pH probe will be removed from the region of interest and placed into a saline vial for the next biopsy target. (interventions: Diagnostic Test: pH Measurement of in vivo tissue)
+
+### interventions
+- [DIAGNOSTIC_TEST] pH Measurement of in vivo tissue: The investigator will identify multiple (2-5) 5-8mm diameter spherical targets on GI maps for use in stereotactic pH measurement and biopsy acquisition. All biopsies are acquired for standard of care and according to standard of care procedures. A 13-gauge biopsy needle and plastic cannula will be inserted into the region of interest identified on MRI and PET. The biopsy needle will be removed, and the Softcell® pH probe, consisting of a 1.8mm diameter high quality glass tip and 1.6m long wire, will be guided down the cannula and inserted at least 15mm into the tissue. Recordings will be made for 1 minute to stabilize the reading, then the pH probe will be removed from the region of interest and placed into a saline vial for the next biopsy target. After the pH probe is removed, the biopsy needle will be placed into the cannula and standard-of-care biopsy tissue will be obtained from the same area where pH measurements were recorded.
+
+### eligibility
+Ages: ADULT, OLDER_ADULT
+Inclusion Criteria:
+
+* Age \> 18
+* Patients with newly diagnosed or recurrent glioblastoma clinically indicated for resective surgery
+
+Exclusion Criteria:
+
+* Patients who cannot obtain an MRI or FDG PET scan with contrast
+* Those with ferromagnetic implanted devices that might produce a safety hazard (e.g. infusion pumps, pace makers, aneurysm clips, etc.) will be excluded from the study along with subjects with severe claustrophobia or who have severely compromised renal function (GFR \< 30).
+
+### outcomes
+- [primaryOutcomes] Glycolytic Index: The Glycolytic Index (GI), ranging from 0 to \~1, will be quantified using a combination of FDG PET and MRI measurements. GI is defined as elevated glucose uptake (18F-FDG standard uptake with respect to lean body mass, SUL), elevated tumor acidity (MTRasym @ 3ppm or MTRRex), and lower oxygen utilization (relative cerebral metabolic rate of oxygen, rCMRO2, defined as R2' x rCBF/rCBV from oxygen-sensitive SAGE-EPI and DSC perfusion), normalized to cell density (using ADC from diffusion MRI, which is inversely proportional to cell density). Average GI within the biopsy area prior to biopsy will be correlated with MCT expression within the sample based on immunohistochemistry stain density of percentage positive cells as the 1st primary outcome measure."
+- [primaryOutcomes] Immunohistochemistry Expression of Glycolytic Molecules: MCT expression will be quantified within biopsy samples based on immunohistochemistry stain density of percentage positive cells
+
+### sponsor
+Lead: Jonsson Comprehensive Cancer Center; collaborators: National Center for Advancing Translational Sciences (NCATS)

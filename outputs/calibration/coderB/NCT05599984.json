@@ -1,0 +1,174 @@
+{
+ "nct_id": "NCT05599984",
+ "coder_id": "B",
+ "manual_version": "1.0",
+ "screening": {
+  "gbm_population": "basket_gbm_eligible",
+  "gbm_population_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "high-grade central nervous system (CNS) tumors (glioblastoma [GBM], IDH-wildtype Grade 4; oligodendroglioma, IDH-mutant, and 1p/19q-codeleted Grade 3; astrocytoma, IDH-mutant Grade 3 or Grade 4)"
+   },
+   {
+    "field": "conditions",
+    "quote": "Advanced Solid Tumors"
+   }
+  ],
+  "gbm_population_flag": {
+   "uncertain": false
+  },
+  "has_eligible_candidate": true,
+  "candidate_exclusion_reason": "none",
+  "candidate_evidence": [
+   {
+    "field": "title",
+    "quote": "ABBV-706 Moves Through the Body When Intravenously (IV) Infused Alone or in Combination With IV Infused Budigalimab, Cisplatin, or Carboplatin"
+   }
+  ],
+  "candidate_flag": {
+   "uncertain": false
+  },
+  "cns5_terminology": "cns5"
+ },
+ "trial": {
+  "treatment_setting": "recurrent",
+  "treatment_setting_evidence": [
+   {
+    "field": "eligibility",
+    "quote": "Advanced recurrent or refractory solid tumors with potential SEZ6 expression including small cell lung cancer (SCLC), high-grade central nervous system (CNS) tumors"
+   }
+  ],
+  "regimen": "monotherapy",
+  "combination_partners": [],
+  "basket": true,
+  "control_arm_from_other_arms": "not_applicable",
+  "industry_support_in_text": "yes",
+  "flag": {
+   "uncertain": true,
+   "reason": "GBM cohorts (Parts 1, 4a) are ABBV-706 monotherapy; Part 3 combinations (budigalimab, platinum) enrol SCLC/NEC only, per the record."
+  }
+ },
+ "agents": [
+  {
+   "agent_name_registered": "ABBV-706",
+   "active_moiety": "ABBV-706",
+   "role": "experimental_monotherapy",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "Part 4a: ABBV-706 Monotherapy Dose Expansion CNS Tumors: Participants with relapsed/refractory (R/R) central nervous system (CNS) tumors will receive ABBV-706 as a monotherapy"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": null,
+   "drug_class_hint": "investigational SEZ6-targeted antibody-drug conjugate (Top1 inhibitor payload inferred from exclusion criteria)",
+   "stated_antitumour_mechanism": "Targets SEZ6 (potential SEZ6 expression); ADC with Top1 inhibitor payload implied",
+   "flag": {
+    "uncertain": true,
+    "reason": "Also combined with budigalimab/platinum in Part 3 (SCLC/NEC); role set by GBM-relevant cohorts."
+   }
+  },
+  {
+   "agent_name_registered": "Budigalimab (ABBV-181)",
+   "active_moiety": "budigalimab",
+   "role": "experimental_combination",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "Part 3a: ABBV-706 + Budigalimab: Participants will receive ABBV-706 in combination with budigalimab"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": "ABBV-706+budigalimab",
+   "drug_class_hint": "investigational anti-PD-1 antibody",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Combination arm restricted to SCLC/NEC; not given to GBM cohort per record."
+   }
+  },
+  {
+   "agent_name_registered": "Cisplatin",
+   "active_moiety": "cisplatin",
+   "role": "experimental_combination",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "Part 3b: ABBV-706 + Platinum Chemotherapy: Participants will receive ABBV-706 in combination with carboplatin or cisplatin"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": "ABBV-706+platinum",
+   "drug_class_hint": "platinum cytotoxic chemotherapy",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Combination arm restricted to SCLC/NEC; platinum is standard therapy there."
+   }
+  },
+  {
+   "agent_name_registered": "Carboplatin",
+   "active_moiety": "carboplatin",
+   "role": "experimental_combination",
+   "role_evidence": [
+    {
+     "field": "arms",
+     "quote": "Part 3b: ABBV-706 + Platinum Chemotherapy: Participants will receive ABBV-706 in combination with carboplatin or cisplatin"
+    }
+   ],
+   "delivery_enabling": false,
+   "formulation_flag": "none",
+   "fixed_dose_combination": false,
+   "radiopharmaceutical": false,
+   "regimen_id": "ABBV-706+platinum",
+   "drug_class_hint": "platinum cytotoxic chemotherapy",
+   "stated_antitumour_mechanism": null,
+   "flag": {
+    "uncertain": true,
+    "reason": "Combination arm restricted to SCLC/NEC; platinum is standard therapy there."
+   }
+  }
+ ],
+ "biomarkers": [
+  {
+   "biomarker": "other",
+   "biomarker_other": "SEZ6 expression",
+   "role": "exploratory_correlative",
+   "candidate_matched": true,
+   "matched_agent": "ABBV-706",
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "Fresh or archival tumor tissue available for submission, for retrospective SEZ6 expression analysis as outlined in the protocol."
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "Eligibility mentions 'potential SEZ6 expression' but testing is retrospective, not required for entry."
+   }
+  },
+  {
+   "biomarker": "IDH",
+   "biomarker_other": null,
+   "role": "eligibility",
+   "candidate_matched": false,
+   "matched_agent": null,
+   "source_quote": {
+    "field": "eligibility",
+    "quote": "glioblastoma [GBM], IDH-wildtype Grade 4; oligodendroglioma, IDH-mutant, and 1p/19q-codeleted Grade 3"
+   },
+   "flag": {
+    "uncertain": true,
+    "reason": "IDH used to define allowed CNS tumour types (diagnostic), not a selection criterion."
+   }
+  }
+ ],
+ "coder_notes": "Pan-tumour phase 1; GBM IDH-wt grade 4 explicitly eligible among high-grade CNS tumours in Part 1 and Part 4a."
+}
