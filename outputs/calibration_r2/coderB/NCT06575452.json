@@ -1,0 +1,12 @@
+{"nct_id":"NCT06575452","coder_id":"B","manual_version":"1.1",
+"screening":{"gbm_population":"mixed_glioma_gbm_named","gbm_population_evidence":[{"field":"eligibility","quote":"IDH mutated grade 3 glioma or GBM, IDH wild-type,"},{"field":"conditions","quote":"Glioma"}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"interventions","quote":"[DIAGNOSTIC_TEST] Blood, urine and tumoral tissue samples"}],"candidate_flag":{"uncertain":false},
+"cns5_terminology":"cns5"},
+"trial":{"treatment_setting":"newly_diagnosed","treatment_setting_evidence":[{"field":"eligibility","quote":"No history of treatment (surgery, radiotherapy or chemotherapy) for glioma,"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","industry_support_in_text":"no","flag":{"uncertain":false}},
+"agents":[],
+"biomarkers":[
+{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"IDH mutated grade 2 glioma (excluding tumors with a focus of grade 3 or 4 glioma), IDH mutated grade 3 glioma or GBM, IDH wild-type,"},"flag":{"uncertain":false}},
+{"biomarker":"other","biomarker_other":"RNA-modified nucleoside marks (epitranscriptomic signature)","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"outcomes","quote":"Sensitivity of RNA-modified nucleoside expression marks for glioma diagnosis vs controls in blood for patients in cohort 1."},"flag":{"uncertain":false}},
+{"biomarker":"other","biomarker_other":"ATRX protein expression","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"outcomes","quote":"Immunohistochemical detection of the Alpha-thalassemia-X-linked intellectual disability (ATRX) protein"},"flag":{"uncertain":false}}
+],
+"coder_notes":"Diagnostic biomarker study (Phase NA, DIAGNOSTIC_TEST samples only); no drug or biologic intervention, so agents is empty. Ki-67 IHC and MRI measures are routine/imaging and not recorded as biomarkers."}

@@ -1,0 +1,53 @@
+{
+  "nct_id": "NCT06665724",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anaplastic Astrocytoma (AA); Anaplastic Oligodendroglioma (AO); Glioblastoma (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients will receive sonodynamic therapy (5 ALA combined with CV01-delivered sonication) 2 to 5 days prior to standard resection."},
+      {"field": "brief_summary", "quote": "This trial is designed to evaluate safety and explore possible efficacy of 5-aminolevulinic acid hydrochloride"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients With Newly Diagnosed High-Grade Glioma (HGG) Prior to Resection and Standard Adjuvant Therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-Aminolevulinic acid Hydrochloride (Gliolan®)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive sonodynamic therapy (5 ALA combined with CV01-delivered sonication) 2 to 5 days prior to standard resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "sonosensitiser (protoporphyrin IX precursor) for sonodynamic therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA is tested here for antitumour sonodynamic therapy (explore possible efficacy, histopathological anti-tumour activity outcome), so a device-dependent candidate rather than a diagnostic agent. Standard resection and radio-/chemotherapy follow the study intervention and are not part of the experimental arm. The CV01 ultrasound device is not listed as an agent."
+}

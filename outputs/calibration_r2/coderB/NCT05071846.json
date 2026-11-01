@@ -1,0 +1,53 @@
+{
+  "nct_id": "NCT05071846",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor, Adult"},
+      {"field": "eligibility", "quote": "(example: GBM or sarcoma with local relapse after surgery, chemo-radiation)"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "GBM is named in the inclusion criteria only as an example of an eligible localized disease, not as a cohort or condition."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "MVX-ONCO-2 is a patient-specific, cell-based, active immunotherapy where the participant's immune response to their own tumor cells is stimulated and/or increased."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "documented tumor progression after at least one line of systemic therapy and for which no further standard therapies are available, feasible or accepted by the patient"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MVX-ONCO-2",
+      "active_moiety": "mvx-onco-2",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "MVX-ONCO-2 is composed of a cell suspension of irradiated autologous tumor cells and two capsules loaded with allogenic genetically modified cells releasing an immunomodulator, granulocyte-macrophage colony stimulating factor (GM-CSF)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous irradiated tumour cell vaccine with encapsulated GM-CSF-secreting allogeneic cells",
+      "stated_antitumour_mechanism": "the participant's immune response to their own tumor cells is stimulated and/or increased",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour basket; GBM is named only in an eligibility example (local relapse after surgery and chemo-radiation). The sole intervention is a cell-based cancer vaccine, an excluded intervention type, so no candidate. GM-CSF is a component of the vaccine cells, not a separate intervention."
+}

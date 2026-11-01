@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT05071846",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor, Adult"},
+      {"field": "eligibility", "quote": "Patient with a localized disease for which no curative therapy is available and a measurable lesion is still amenable for RECIST assessment after biopsy (to manufacture the vaccine) are allowed (example: GBM or sarcoma with local relapse after surgery, chemo-radiation)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "MVX-ONCO-2 is composed of a cell suspension of irradiated autologous tumor cells and two capsules loaded with allogenic genetically modified cells releasing an immunomodulator, granulocyte-macrophage colony stimulating factor (GM-CSF)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient with advanced metastatic solid tumors with documented tumor progression after at least one line of systemic therapy and for which no further standard therapies are available, feasible or accepted by the patient."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MVX-ONCO-2",
+      "active_moiety": "mvx-onco-2",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "MVX-ONCO-2 is a patient-specific, cell-based, active immunotherapy where the participant's immune response to their own tumor cells is stimulated and/or increased."},
+        {"field": "interventions", "quote": "A full treatment course with MVX-ONCO-2 consists of a total of 6 vaccinations: 4 vaccinations 1 week apart, followed by 2 boosters 2 weeks apart."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalised cancer vaccine: irradiated autologous tumour cells plus encapsulated allogeneic genetically modified cells secreting GM-CSF (cell-based vaccine)",
+      "stated_antitumour_mechanism": "the participant's immune response to their own tumor cells is stimulated and/or increased",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Advanced solid-tumour basket; GBM named in inclusion criteria as an example of eligible localized relapsed disease -> basket_gbm_eligible. Sole intervention MVX-ONCO-2 is an autologous tumour-cell vaccine with GM-CSF-secreting encapsulated allogeneic gene-modified cells -> excluded_intervention_type (cancer vaccine / cell and gene-modified cell therapy); GM-CSF is released by the cells, not given as a separate drug, so not listed separately."
+}

@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT02546102",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "title", "quote": "A Phase 3 Randomized Double-blind, Controlled Study of ICT-107 With Maintenance Temozolomide (TMZ) in Newly Diagnosed Glioblastoma Following Resection and Concomitant TMZ Chemoradiotherapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Autologous dendritic cells pulsed with peptides associated with tumor antigens"},
+      {"field": "arms", "quote": "Arm 1 will receive ICT-107 in combination with the standard of care, temozolomide (TMZ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Newly Diagnosed Glioblastoma Following Resection and Concomitant TMZ Chemoradiotherapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ICT-107",
+      "active_moiety": "ict-107",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "ICT-107 consists of dendritic cells, prepared from autologous mononuclear cells that are pulsed with six synthetic peptides that were derived from tumor associated antigens (TAA) present on glioblastoma tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous dendritic-cell vaccine pulsed with six tumour-associated antigen peptides (cancer vaccine / cell therapy)",
+      "stated_antitumour_mechanism": "Reinfusion with the pulsed dendritic cells should stimulate cytotoxic T cells to specifically target glioblastoma tumour cells.",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Arm 1 will receive ICT-107 in combination with the standard of care, temozolomide (TMZ)."},
+        {"field": "arms", "quote": "Arm 2 will receive TMZ with a blinded control."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Control, autologous monocytes-enriched PBMC."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo control consisting of autologous monocyte-enriched PBMC (cell product, not a drug)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "All subjects must have glioblastoma tissue that has tumor assessment for MGMT methylation status prior to randomization (for stratification)."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects with glioblastoma mutated IDH by Immunohistochemistry (IHC)"},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Only investigational agent is ICT-107, an autologous dendritic-cell peptide vaccine -> excluded_intervention_type; temozolomide is standard backbone in both arms. cns5_terminology: record uses 'Glioblastoma Multiforme' (historical) but excludes IDH-mutant glioblastoma by IHC, treated as an IDH-wildtype requirement -> cns5 per the both-criteria rule; adjudicator may prefer historical since the record does not literally require IDH-wildtype and itself refers to 'glioblastoma mutated IDH'. IDH row is the IDH-mutant exclusion (IDH-wildtype used to define GBM). MGMT also analysed in secondary OS subgroup outcomes. HLA-A2 positivity required (germline, not recorded). Filgrastim allowed for neutropenia prevention (not a protocol intervention, not listed). Start date likely pre-2020 but S2 is [CODE]."
+}

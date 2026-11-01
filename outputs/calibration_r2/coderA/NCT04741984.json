@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT04741984",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Monocyte Antigen Carrier Cells for Newly Diagnosed GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The investigational vaccine (MT-201-GBM) in this study is made from a type of immune cell called monocytes, which have been engineered to express a cytomegalovirus (CMV) protein."},
+      {"field": "interventions", "quote": "monocytes isolated from patient's leukapheresis loaded with CMV pp65-LAMP (Lysosomal-associated Membrane Protein) mRNA (Messenger Ribonucleic Acid)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "patients newly diagnosed with a type of brain tumor called glioblastoma (GBM)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT-201-GBM monocyte vaccine",
+      "active_moiety": "mt-201-gbm",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] MT-201-GBM monocyte vaccine"},
+        {"field": "detailed_description", "quote": "The monocyte vaccines are made from the patient's own cells, which are collected through a procedure called leukapheresis."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous monocyte cell vaccine loaded with CMV pp65-LAMP mRNA (cell therapy / cancer vaccine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive a total of 3 intravenous vaccines every 4 weeks after completing standard radiation therapy (XRT) and temozolomide (TMZ) and a single course of dose-intensified TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard chemoradiation backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter unmethylated (Determined by Caris Life Science pyrosequencing);"},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Only investigational product is an autologous monocyte vaccine (excluded intervention type). Temozolomide is standard chemoradiation plus one dose-intensified TMZ cycle preceding the vaccine; coded soc_backbone (dose-intensified cycle not framed as the investigational question). Regimen coded not_applicable because there is no candidate agent. Gadolinium mentioned only in an exclusion criterion (allergy), not as an intervention. CMV pp65 is the vaccine antigen, not recorded as a tumour biomarker."
+}

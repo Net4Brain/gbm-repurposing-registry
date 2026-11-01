@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT06810544",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Non Small Cell Lung Cancer; Glioma Glioblastoma Multiforme; Glioma, Malignant; Solid Tumor; Non-Small Cell Adenocarcinoma; Lung Cancer; Brain Tumor"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] GBM Single Agent Dose Expansion: GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s)"},
+      {"field": "eligibility", "quote": "Has measurable disease based on RECIST v1.1 or a confirmed glioblastoma (IDH-wildtype) with radiographic evidence of disease progression or recurrence defined by RANO 2.0."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] TNG456: A selective PRMT5 inhibitor"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] GBM Combination Expansion: GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Has had progression or an inadequate response to or is intolerant of the approved standard of care therapy, no standard of care therapy exists, or the investigator has determined that treatment with the standard of care therapy is not appropriate."},
+      {"field": "eligibility", "quote": "a confirmed glioblastoma (IDH-wildtype) with radiographic evidence of disease progression or recurrence defined by RANO 2.0."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["abemaciclib"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TNG456",
+      "active_moiety": "tng456",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] GBM Single Agent Dose Expansion: GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s)"},
+        {"field": "arms", "quote": "GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral selective PRMT5 inhibitor (MTAP-loss targeted), Tango Therapeutics",
+      "stated_antitumour_mechanism": "A selective PRMT5 inhibitor",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "abemaciclib",
+      "active_moiety": "abemaciclib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib"},
+        {"field": "outcomes", "quote": "To assess the antitumor activity of TNG456 in combination with abemaciclib in patients with advanced or metastatic tumors with MTAP loss by RECIST or modified RANO criteria"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CDK4/6 inhibitor (approved for breast cancer)",
+      "stated_antitumour_mechanism": "A kinase inhibitor",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP loss",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "tng456",
+      "source_quote": {"field": "eligibility", "quote": "Has a tumor with a confirmed MTAP loss"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "a confirmed glioblastoma (IDH-wildtype) with radiographic evidence of disease progression or recurrence defined by RANO 2.0."},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Basket trial of MTAP-loss solid tumours with dedicated GBM single-agent and combination expansion cohorts. TNG456 is the only investigational agent in the single-agent arms (rule 4 applied first -> experimental_monotherapy) and is also given with abemaciclib in combination arms; abemaciclib appears only in combination arms with TNG456, so experimental_combination. Regimen coded combination because combination arms exist; the trial also has single-agent TNG456 arms (mixed design). MTAP loss + PRMT5 inhibitor is the manual's example of candidate matching. CDKN2A not mentioned. cns5: requires IDH-wildtype (conditions also say 'Glioblastoma Multiforme'). Eli Lilly (abemaciclib maker) is a collaborator, but no text states drug supply."
+}

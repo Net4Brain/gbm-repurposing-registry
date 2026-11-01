@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT06428045",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "eligibility", "quote": "Patients with a histologically confirmed or suspected high-grade glioma (HGG) by MRI."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "On Day 7, participants will begin combination antiretroviral therapy (ART) consisting of Abacavir, Lamivudine, and dose escalation/de-escalation of Ritonavir (RTV), to determine the recommended Phase 2 dose (RP2D) of Ritonavir."},
+      {"field": "title", "quote": "Synergistic Treatment With Antiretrovirals and Laser Interstitial Thermal thErapy (STARLITE) for Unresectable High-Grade Gliomas"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with newly diagnosed high-grade glioma(s) that cannot be removed surgically"},
+      {"field": "eligibility", "quote": "Recurrent HGG."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["abacavir", "lamivudine", "ritonavir", "temozolomide", "focal radiotherapy", "MR-guided laser interstitial thermal therapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Abacavir",
+      "active_moiety": "abacavir",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will take one 600mg tablet of Abacavir orally once daily, as part of combination antiretroviral therapy (ART)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "ART",
+      "drug_class_hint": "antiretroviral nucleoside reverse transcriptase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Lamivudine",
+      "active_moiety": "lamivudine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will take one 300mg tablet of Lamivudine orally once daily, as part of combination antiretroviral therapy (ART)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "ART",
+      "drug_class_hint": "antiretroviral nucleoside reverse transcriptase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Ritonavir",
+      "active_moiety": "ritonavir",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will take one tablet of Ritonavir (RTV) orally twice daily, as part of combination antiretroviral therapy (ART), at one of the following dose levels:"},
+        {"field": "arms", "quote": "to determine the recommended Phase 2 dose (RP2D) of Ritonavir"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "ART",
+      "drug_class_hint": "antiretroviral HIV protease inhibitor (also used as pharmacokinetic booster)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will take Temozolomide (TMZ) via capsule orally, during and after focal radiotherapy, as part of standard of care adjuvant therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Population is high-grade glioma with no explicit mention of glioblastoma in conditions, title or eligibility, so high_grade_glioma_unspecified (exclude at S5). Ritonavir is dose-escalated to an RP2D as part of the ART regimen at up to 600 mg; the record does not state a pharmacokinetic-boosting purpose, so coded as a candidate (experimental_combination), not delivery_enabling_agent. Abacavir, lamivudine and ritonavir share regimen_id ART. HLA-B*5701 exclusion is a germline safety marker and not recorded. Medtronic is a collaborator (LITT device); no text states that drug is supplied by a company. LITT is a device/procedure and not listed as an agent."
+}

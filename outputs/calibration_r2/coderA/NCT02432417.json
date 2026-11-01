@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT02432417",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Astrocytoma, Grade IV"},
+      {"field": "eligibility", "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Arm B (experimental): Standard treatment as described under arm A combined with daily intake of 400mg CQ."},
+      {"field": "brief_summary", "quote": "Chloroquine (CQ) is a potent autophagy blocker and is the most widely investigated substance in this context."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "to Concurrent Chemoradiation for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chloroquine",
+      "active_moiety": "chloroquine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "In addition this treatment will be combined with a daily intake of the recommended phase two dose (RPTD) of chloroquine (CQ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial 4-aminoquinoline; autophagy inhibitor",
+      "stated_antitumour_mechanism": "Inhibition of autophagy sensitizes cells to hypoxia, reduces the viable hypoxic fraction in tumors with \\> 40% and subsequently sensitizes these tumors to irradiation.",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Arm A (standard): Radiotherapy and chemotherapy according to standard protocol for newly diagnosed GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; Stupp backbone in both arms",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "[18F]HX4",
+      "active_moiety": "[18f]hx4",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "will be invited to receive two 3-\\[18F\\]fluoro- 2-(4-((2-nitro-1H-imidazol-1-yl)methyl)-1H-1,2,3-triazol-1- yl)propan-1-ol PET-scans (\\[18F\\]HX4 )"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "hypoxia PET imaging tracer (flortanidazole-type nitroimidazole)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "chloroquine",
+      "source_quote": {"field": "brief_summary", "quote": "Previously MAASTRO lab has shown that expression of EGFRvIII provides GBM cells with a survival advantage when exposed to stress factors such as hypoxia and nutrient deprivation."},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Record describes a phase I dose-finding part and a randomised phase II part; registered as PHASE2. IDH is also measured as an exploratory outcome (row kept as eligibility, its entry-requirement role). EGFRvIII coded candidate_matched because the rationale links EGFRvIII-driven survival to autophagy, which chloroquine blocks; it is exploratory only, so it does not affect the primary outcome. [18F]HX4 hypoxia PET tracer is a radiolabelled diagnostic, not a radiopharmaceutical therapy. G6PD exclusion is germline, not recorded."
+}

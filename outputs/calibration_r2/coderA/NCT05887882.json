@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT05887882",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor including, but not limited to, infant-type hemispheric glioma, gliosarcoma, intracranial sarcoma and WHO Grade II ependymoma."},
+      {"field": "conditions", "quote": "Pediatric Brain Tumor; Recurrent Pediatric Brain Tumor; Pediatric Neoplasm"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Only gliosarcoma (a GBM variant) is named among several paediatric-oriented brain tumour types; glioblastoma itself is not named, so inclusion vs not_glioblastoma needs adjudication."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Universal Donor (UD) Transforming growth factor beta imprinting (TGFβi) Natural Killer (NK) Cells"},
+      {"field": "brief_summary", "quote": "This phase I trial tests the safety, side effects, and best dose of ex vivo expanded natural killer cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Universal Donor (UD) Transforming growth factor beta imprinting (TGFβi) Natural Killer (NK) Cells",
+      "active_moiety": "ud tgfβi nk cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The TGFβi NK cell product will be manufactured in the Cell Therapy Laboratory at Nationwide Children's Hospital and given via infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic ex vivo expanded TGF-beta-imprinted natural killer cell therapy, intratumoral via Ommaya reservoir (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Population: recurrent/progressive malignant brain tumours in children and young adults (age 1-39); gliosarcoma explicitly listed in inclusion (counts as GBM-equivalent per manual 1.1), coded mixed_glioma_gbm_named but flagged; non-glioma types (sarcoma, ependymoma) also eligible. stdAges CHILD+ADULT (mixed_age, CODE). Only intervention is NK cell therapy (excluded intervention type), so S6 fails. Dexamethasone appears only as allowed background medication in eligibility, not an intervention, so not listed."
+}

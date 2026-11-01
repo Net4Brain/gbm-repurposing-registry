@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT05667194",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Solid Tumors"},
+      {"field": "eligibility", "quote": "Patient with histopathology and/or cytology diagnosed advanced malignant adult diffuse glioma has unequivocal evidence of GBM recurrence/progression following completion of standard treatment."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] KH617 dose 1"},
+      {"field": "title", "quote": "Preliminary Antitumor Activity of KH617"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "has unequivocal evidence of GBM recurrence/progression following completion of standard treatment"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "KH617",
+      "active_moiety": "kh617",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "KH617 is s freeze-dried powder injection"},
+        {"field": "brief_summary", "quote": "KH617 is a injection used for advanced solid tumors"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anticancer injection (development code KH617; mechanism not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Basket phase 1 in advanced solid tumours with separate brain-metastases and rGBM cohorts; GBM named in inclusion criteria (rGBM cohort). Dextrose 5% is a diluent only, not listed as an agent. Lead sponsor is a company (captured by [CODE])."
+}

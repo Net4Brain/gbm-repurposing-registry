@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT05323123",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Human Immunodeficiency Virus"},
+      {"field": "detailed_description", "quote": "with gay and bisexual men (GBM) being one of the few epidemic-driving groups"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] PrEP Romania: Participants will receive PrEP (as part of their standard of care), motivational counseling, and PrEP adherence support. (interventions: Behavioral: SPARK; Behavioral: HealthMpowerment)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PrEP",
+      "active_moiety": "tenofovir",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Control: Participants will receive PrEP (as part of their standard of care) and PrEP education during medical visits."},
+        {"field": "outcomes", "quote": "blood plasma concentration of tenofovir diphosphate (TFVdp) from PrEP medication"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HIV pre-exposure prophylaxis (tenofovir-based antiretroviral; exact product not stated)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Not an oncology trial: 'GBM' here means gay and bisexual men in an HIV PrEP behavioural study (not glioblastoma, not anti-GBM disease). Interventions are behavioural; PrEP is standard of care in both arms and is not a registered intervention. PrEP product not named; tenofovir inferred only from the TFVdp adherence outcome."
+}

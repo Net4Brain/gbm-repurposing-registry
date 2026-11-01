@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04391062",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Presumptive glioblastoma according to radiological criteria,"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The phase II study evaluate a light dose escalation in a classical intraoperative PDT regimen mediated by 5-ALA-PpIX, in glioblastoma patients with access to full surgical removal of the contrast enhancement."},
+      {"field": "interventions", "quote": "The patient will receive 5-ALA ( 5-aminolevulinic acid hydrochloride),GLIOLAN drinkable 6h before surgery + lighting of the tumor bed by a red light source (laser with different J/cm²) at the end of resection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "This treatment will be performed in addition to the current reference treatment of glioblastoma: maximum removal surgery followed by radiochemotherapy according to the Stupp protocol."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide (Stupp protocol)", "radiotherapy (Stupp protocol)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gliolan",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The intra-operative photodynamic therapy (\"intraoperative PDT\") added to surgery for glioblastoma excision."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] intraoperative PDT 400J/cm²:  (interventions: Drug: Gliolan; Device: Intraoperative PDT)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitiser prodrug (protoporphyrin IX precursor) used for photodynamic therapy; licensed for fluorescence-guided glioma resection",
+      "stated_antitumour_mechanism": "intraoperative PDT regimen mediated by 5-ALA-PpIX",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "radiochemotherapy according to the Stupp protocol",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This treatment will be performed in addition to the current reference treatment of glioblastoma: maximum removal surgery followed by radiochemotherapy according to the Stupp protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care (Stupp protocol); not named explicitly in the record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "TEP 11C MET",
+      "active_moiety": "methionine c-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Evaluated by MRI/ TEP 11C-MET every 3 months"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[11C]-methionine PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA (Gliolan) is used for photodynamic therapy with intraoperative red-light illumination (not only fluorescence-guided resection) -> candidate experimental_monotherapy with device_dependent true (C12). Arms differ only in light dose. Temozolomide is implied by 'radiochemotherapy according to the Stupp protocol' after surgery (not a registered intervention) -> soc_backbone. [11C]-methionine PET is used for follow-up imaging only (not a registered intervention) -> diagnostic_agent. Setting coded newly_diagnosed: presumptive GBM at first surgery followed by Stupp. Hemerion Therapeutics is a collaborator (CODE); no text on drug supply."
+}

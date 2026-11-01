@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04489420",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase I Study of Human Placental Hematopoietic Stem Cell Derived Natural Killer Cells (CYNK-001) in Adults With Recurrent Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma multiforme (GBM) and are at first or second relapse."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study will find the maximum safe dose (MSD) or maximum tolerated dose (MTD) of CYNK-001 which are NK cells derived from human placental CD34+ cells and culture-expanded."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma multiforme (GBM) and are at first or second relapse."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CYNK001-IV",
+      "active_moiety": "cynk-001",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CYNK001-IV (other names: CYNK-001 dose level 1 for IV): Planned Starting dose dor IV 1.2x10\\^9 cells/dose"},
+        {"field": "keywords", "quote": "cell therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic placental CD34+-derived natural killer cell therapy (cell therapy), intravenous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "CYNK001-IT",
+      "active_moiety": "cynk-001",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CYNK001-IT (other names: CYNK-001 dose level 2 for IT): Planned starting dose for IT 200 x10\\^6 +/- 50 x10\\^6 cells dose"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic placental CD34+-derived natural killer cell therapy (cell therapy), intratumoral via Ommaya catheter",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "CYNK-001 cells will be given after lymphodepleting chemotherapy for the systemic cohort (IV) (intravenous). The intratumoral cohort (IT) will not be giving lymphodepletion."},
+        {"field": "keywords", "quote": "Cyclophosphamide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used here as lymphodepleting conditioning before NK cell infusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "NK cell therapy (CYNK-001) = excluded intervention type; IV and IT products listed separately as registered. Cyclophosphamide is not a registered intervention; it appears only in conditions/keywords and as 'lymphodepleting chemotherapy' for the IV cohort. Coded supportive (conditioning for cell therapy, no antitumour hypothesis); manual has no specific role for lymphodepletion - adjudicator may prefer another non-candidate role. 'Astrocytoma, Grade IV' and 'primary and secondary recurrent GBM' wording suggests historical classification."
+}

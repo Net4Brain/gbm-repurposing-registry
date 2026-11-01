@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT06665724",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anaplastic Astrocytoma (AA); Anaplastic Oligodendroglioma (AO); Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "histologically proven high-grade glioma including GBM, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients will receive sonodynamic therapy (5 ALA combined with CV01-delivered sonication) 2 to 5 days prior to standard resection."},
+      {"field": "outcomes", "quote": "Histopathological efficacy: Anti-tumor activity assessed by Number of cells / mm³ with antibodies against IBA1 and Number of cells / mm³ with antibodies against Caspase III"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No previous tumor specific treatment such as surgery (apart from biopsy), radio- or chemotherapy, antiangiogenic or immunotherapy."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-Aminolevulinic acid Hydrochloride (Gliolan®)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Patients will receive 5-Aminolevulinic acid hydrochloride via oral administration (20 mg/kg) 6-8 hours before CV01 treatment."},
+        {"field": "brief_summary", "quote": "This trial is designed to evaluate safety and explore possible efficacy of 5-aminolevulinic acid hydrochloride (5-ALA HCl, Gliolan®) with CV01 delivery of ultrasound for sonodynamic therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor / sonosensitiser (licensed as Gliolan for fluorescence-guided resection), used here for sonodynamic therapy",
+      "stated_antitumour_mechanism": "sonodynamic therapy (5 ALA combined with CV01-delivered sonication)",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA sonodynamic therapy with CV01 ultrasound device -> candidate with device_dependent true (C12); CV01 device not listed. Regimen coded monotherapy: experimental arm is SDT only, given 2-5 days before resection; standard radio-/chemotherapy follows resection outside the study intervention (adjudicator may consider combination). cns5_terminology unclear: plain 'GBM' with WHO-2016-style 'anaplastic astrocytoma/oligodendroglioma' terms but no explicit WHO edition or IDH reference. IBA1 and caspase III IHC counts are histopathological efficacy endpoints, not recorded as molecular biomarkers. Gliolan brand and industry collaborator Alpheus Medical noted; no text statement of drug supply."
+}

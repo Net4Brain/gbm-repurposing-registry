@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT05973903",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Lenvatinib, Pembrolizumab, and Tumor Treating Fields (TTFields) for Second-line Treatment of Glioblastoma"},
+      {"field": "conditions", "quote": "GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to assess the effectiveness of pembrolizumab and lenvatinib combination therapy for recurrent glioblastoma (rGBM) patients wearing TTFields electrodes"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "recurrent glioblastoma (rGBM) patients wearing TTFields electrodes"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lenvatinib", "pembrolizumab", "TTFields"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lenvatinib",
+      "active_moiety": "lenvatinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "participants will be treated with TTFields (200 kHz) + intravenous pembrolizumab 200 mg every three weeks and oral lenvatinib 20 mg once daily"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-kinase inhibitor (VEGFR/FGFR)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "participants will be treated with TTFields (200 kHz) + intravenous pembrolizumab 200 mg every three weeks and oral lenvatinib 20 mg once daily"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 checkpoint antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": []
+}

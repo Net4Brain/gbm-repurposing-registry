@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT07461948",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Documentation of a confirmed or suspected diagnosis of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The participant is scheduled to undergo standard of care surgical tumor resection and/or biopsy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ferumoxytol",
+      "active_moiety": "ferumoxytol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "iron-oxide nanoparticle MRI contrast agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": []
+}

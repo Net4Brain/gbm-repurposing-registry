@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT03763396",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase 0 Clinical Trial of Two Candidate Azoles (Ketoconazole and Posaconazole) for Patients With Recurrent High Grade Glioma"},
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs has been shown to display favourable anti-tumour effects"},
+      {"field": "arms", "quote": "Single dose 400mg oral tablets 4-24 hours prior to surgery"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole (KCZ)",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Single dose 400mg oral tablets 4-24 hours prior to surgery"},
+        {"field": "detailed_description", "quote": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs has been shown to display favourable anti-tumour effects"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "hexokinase 2 (HK2) inhibition / glucose metabolism targeting",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Posaconazole (PCZ)",
+      "active_moiety": "posaconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Single dose 300 mg delayed release oral tablets 4-24 hours prior to surgery"},
+        {"field": "detailed_description", "quote": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs has been shown to display favourable anti-tumour effects"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "hexokinase 2 (HK2) inhibition / glucose metabolism targeting",
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hexokinase 2 (HK2) activity",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ketoconazole; posaconazole",
+      "source_quote": {"field": "outcomes", "quote": "Assess Hexokinase 2 activity: enzyme activity measured using optical absorbance with a spectrophotometer"},
+      "flag": {"uncertain": false}
+    }
+  ]
+}

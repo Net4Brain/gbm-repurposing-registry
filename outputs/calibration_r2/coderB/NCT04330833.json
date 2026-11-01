@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT04330833",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Glioblastoma multiforme"},
+      {"field": "eligibility", "quote": "Child 1 month to \\< 18 years"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The intervention is a series of 3 guided discussions (using visual aids) between the child's primary oncology physician/nurse team and the child's parent(s)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Child newly diagnosed, i.e., within 16 weeks (112 days) from time of diagnosis of cancer not including the day of diagnosis, OR"},
+      {"field": "eligibility", "quote": "Child with relapsed cancer, defined as within 16 weeks (112 days) of first-time relapse/evidence of progression of disease"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [],
+  "biomarkers": []
+}

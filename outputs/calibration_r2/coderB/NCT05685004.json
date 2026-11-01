@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT05685004",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"},
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "TVI-Brain-1 is vaccine plus cell therapy (excluded type); the only pharmacological antitumour agent is low-dose IL-2, which may be part of the cell-therapy protocol, so S6 depends on its role."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "TVI-Brain-1"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "yes",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TVI-Brain-1",
+      "active_moiety": "tvi-brain-1",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Attenuated autologous cancer cells and activated autologous blood-derived t cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous neoantigen cancer-cell vaccine plus adoptive T-cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All Subjects receive 75 mg/m2 of temozolomide daily beginning on the first day of radiotherapy and continuing until the completion of radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "low-dose interleukin 2 (IL-2)",
+      "active_moiety": "aldesleukin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TVI-Brain-1",
+      "drug_class_hint": "recombinant interleukin-2 cytokine given after adoptive T-cell transfer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "IL-2 appears only inside the cell-therapy protocol with no stated purpose; candidate vs adjunct to excluded cell therapy is unclear."}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"},
+      "flag": {"uncertain": false}
+    }
+  ]
+}

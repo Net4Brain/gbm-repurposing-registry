@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT05095376",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "STEP 2 REGISTRATION: Histopathologically proven diagnosis of glioblastoma (or gliosarcoma as a subtype of glioblastoma) confirmed by central pathology review"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Testing the Addition of the Chemotherapy Drug Lomustine (Gleostine) to the Usual Treatment (Temozolomide and Radiation Therapy) for Newly Diagnosed MGMT Methylated Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for Newly Diagnosed MGMT Methylated Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Adding lomustine to standard chemotherapy with temozolomide and radiation therapy may shrink or stabilize glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent",
+      "stated_antitumour_mechanism": "alkylating agent that damages the cell's DNA",
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients also receive lomustine PO on day 1 of each cycle and temozolomide PO QD on days 2-6 of each cycle."},
+        {"field": "arms", "quote": "Patients undergo radiation therapy 5 days per week and receive temozolomide PO QD for 6 weeks in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "STEP 2 REGISTRATION: MGMT promoter with methylation confirmed by central pathology review."},
+      "flag": {"uncertain": false}
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "STEP 1 REGISTRATION: No known IDH mutation."},
+      "flag": {"uncertain": false}
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT05685004",
+  "coder_id": "A",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."},
+      {"field": "interventions", "quote": "TVI-Brain-1: Attenuated autologous cancer cells and activated autologous blood-derived t cells"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only possible candidate is low-dose IL-2 given with the adoptive T-cell product (not a registered intervention); if IL-2 is regarded as part of the excluded cell/vaccine therapy, S6 fails with excluded_intervention_type."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "TVI-Brain-1 (autologous vaccine + T cells)"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TVI-Brain-1",
+      "active_moiety": "tvi-brain-1",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TVI-Brain-1: Attenuated autologous cancer cells and activated autologous blood-derived t cells"},
+        {"field": "brief_summary", "quote": "The patients' own cancer cells collected after surgery are combined into a vaccine to produce an immune response"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TVI-Brain-1",
+      "drug_class_hint": "autologous tumour-cell vaccine plus ex vivo-activated autologous T-cell adoptive therapy (cancer vaccine / cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "interleukin 2 (IL-2)",
+      "active_moiety": "aldesleukin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TVI-Brain-1",
+      "drug_class_hint": "recombinant interleukin-2 cytokine (immunotherapy), low dose, given to support infused T cells",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "IL-2 is given only in the experimental arm as an adjunct to the adoptive T-cell product; unclear whether it is an investigational antitumour agent or an integral part of the excluded cell therapy."}
+    },
+    {
+      "agent_name_registered": "Temozolomide (other names: Chemotherapy)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All Subjects receive 75 mg/m2 of temozolomide daily beginning on the first day of radiotherapy and continuing until the completion of radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)"},
+      "flag": {"uncertain": false}
+    }
+  ],
+  "coder_notes": "Main investigational product TVI-Brain-1 (autologous tumour-cell vaccine + adoptive T cells) is an excluded intervention type. Low-dose IL-2 (not a separately registered intervention; INN assumed aldesleukin, record says only 'interleukin 2 (IL-2)') follows T-cell infusion in experimental arm only; coded as candidate by analogy with the manual's 'pembrolizumab + investigational vaccine' example, flagged uncertain because it may be considered part of the cell-therapy regimen. Experimental arm gets concurrent TMZ only, control also adjuvant TMZ; TMZ coded soc_backbone. Registered PHASE2/PHASE3."
+}

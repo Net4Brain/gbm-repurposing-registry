@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05323123",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Human Immunodeficiency Virus"},
+      {"field": "detailed_description", "quote": "with gay and bisexual men (GBM) being one of the few epidemic-driving groups"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "SPARK is delivered in a clinic setting by a counselor using motivational interviewing techniques (e.g., open-ended questions, affirmations)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "GBM here means gay and bisexual men; HIV pre-exposure prophylaxis behavioural trial. Not a glioma trial. Only behavioural interventions are registered."
+}

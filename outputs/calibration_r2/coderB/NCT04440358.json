@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04440358",
+  "coder_id": "B",
+  "manual_version": "1.1",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Carboplatin infusion on the day of Exablate BBBD procedure to treat cancerous cells in the brain"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Tumor progression after first line therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Carboplatin infusion on the day of Exablate BBBD procedure to treat cancerous cells in the brain"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Microbubbles (ultrasound contrast agent)",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "title", "quote": "Exablate Blood-Brain Barrier Disruption (BBBD) With Microbubbles"},
+        {"field": "eligibility", "quote": "Known sensitivity or contraindications to ultrasound contrast agent or perflutren"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles used to open the blood-brain barrier with focused ultrasound",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    },
+    {
+      "agent_name_registered": "Gadolinium-based contrast agent",
+      "active_moiety": "gadolinium-based contrast agent",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "BBBD will be determined by contrast intensity in sonicated areas on T1 weighted gadolinium-based MR imaging"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MRI contrast agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false}
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Carboplatin is the tested antitumour drug and needs focused-ultrasound BBB opening for delivery, so it is a device-dependent candidate. Microbubbles are not a registered intervention; they are named in the title and the exclusion criteria (perflutren) and coded as delivery-enabling. Gadolinium contrast appears only as an imaging outcome tool."
+}

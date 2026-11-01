@@ -7,8 +7,9 @@ and writes:
   outputs/<run>/agreement.csv            per-variable agreement before adjudication:
                                          % agreement, Cohen's kappa, PABAK, Gwet's AC1, n
 
-Usage: python3 scripts/07_compare_coders.py outputs/calibration
-       (expects outputs/calibration/coderA/ and outputs/calibration/coderB/)
+Usage: python3 scripts/07_compare_coders.py outputs/calibration [schema.json]
+       (expects outputs/calibration/coderA/ and outputs/calibration/coderB/;
+        schema defaults to schema/trial_coding.schema.json (v1.0); use schema/trial_coding.schema.v1.1.json for manual v1.1)
 """
 import csv
 import json
@@ -19,7 +20,7 @@ from pathlib import Path
 import jsonschema
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA = json.loads((ROOT / "schema" / "trial_coding.schema.json").read_text())
+DEFAULT_SCHEMA = ROOT / "schema" / "trial_coding.schema.json"
 
 FIELDS = [  # (variable name, getter)
     ("gbm_population", lambda d: d["screening"]["gbm_population"]),
@@ -82,8 +83,9 @@ def not_verbatim(d, record):
     return [e["quote"] for e in quotes(d) if norm(e["quote"]) not in text]
 
 
-def main(run_dir):
+def main(run_dir, schema_path=DEFAULT_SCHEMA):
     run = Path(run_dir)
+    schema = json.loads(Path(schema_path).read_text())
     inputs = ROOT / "data" / "coder_input"
     queue, pairs = [], {name: [] for name, _ in FIELDS}
     ids = sorted({p.stem for p in (run / "coderA").glob("NCT*.json")} | {p.stem for p in (run / "coderB").glob("NCT*.json")})
@@ -96,7 +98,7 @@ def main(run_dir):
                 continue
             try:
                 docs[c] = json.loads(path.read_text())
-                jsonschema.validate(docs[c], SCHEMA)
+                jsonschema.validate(docs[c], schema)
             except (json.JSONDecodeError, jsonschema.ValidationError) as e:
                 queue.append([nct, "invalid_output", f"coder {c}", str(e)[:200], ""])
                 docs.pop(c, None)
@@ -134,4 +136,4 @@ def main(run_dir):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(*sys.argv[1:3])
