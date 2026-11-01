@@ -1,0 +1,983 @@
+{
+ "moiety": "lamivudine",
+ "accessed_utc": "2026-11-01T16:32:58+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020596",
+    "date": "1995-11-17",
+    "brand": [
+     "EPIVIR"
+    ]
+   },
+   {
+    "application": "NDA020564",
+    "date": "1995-11-17",
+    "brand": [
+     "EPIVIR",
+     "EPIVIR"
+    ]
+   },
+   {
+    "application": "NDA020857",
+    "date": "1997-09-26",
+    "brand": [
+     "COMBIVIR"
+    ]
+   },
+   {
+    "application": "NDA021003",
+    "date": "1998-12-08",
+    "brand": [
+     "EPIVIR-HBV"
+    ]
+   },
+   {
+    "application": "NDA021004",
+    "date": "1998-12-08",
+    "brand": [
+     "EPIVIR-HBV"
+    ]
+   },
+   {
+    "application": "NDA021205",
+    "date": "2000-11-14",
+    "brand": [
+     "TRIZIVIR"
+    ]
+   },
+   {
+    "application": "NDA021652",
+    "date": "2004-08-02",
+    "brand": [
+     "EPZICOM"
+    ]
+   },
+   {
+    "application": "NDA020564",
+    "date": "2004-11-22",
+    "brand": [
+     "EPIVIR",
+     "EPIVIR"
+    ]
+   },
+   {
+    "application": "NDA205551",
+    "date": "2014-08-22",
+    "brand": [
+     "TRIUMEQ"
+    ]
+   },
+   {
+    "application": "NDA206510",
+    "date": "2015-02-06",
+    "brand": [
+     "DUTREBIS"
+    ]
+   },
+   {
+    "application": "NDA022018",
+    "date": "2017-03-17",
+    "brand": [
+     "LAMIVUDINE AND ZIDOVUDINE"
+    ]
+   },
+   {
+    "application": "NDA208255",
+    "date": "2018-02-05",
+    "brand": [
+     "SYMFI LO"
+    ]
+   },
+   {
+    "application": "NDA022141",
+    "date": "2018-02-28",
+    "brand": [
+     "CIMDUO"
+    ]
+   },
+   {
+    "application": "NDA022142",
+    "date": "2018-03-22",
+    "brand": [
+     "SYMFI"
+    ]
+   },
+   {
+    "application": "NDA022344",
+    "date": "2018-05-15",
+    "brand": [
+     "LAMIVUDINE AND TENOFOVIR DISOPROXIL FUMARATE"
+    ]
+   },
+   {
+    "application": "NDA205626",
+    "date": "2018-08-13",
+    "brand": [
+     "LAMIVUDINE, NEVIRAPINE AND ZIDOVUDINE"
+    ]
+   },
+   {
+    "application": "NDA022343",
+    "date": "2018-08-15",
+    "brand": [
+     "EFAVIRENZ, LAMIVUDINE AND TENOFOVIR DISOPROXIL FUMARATE"
+    ]
+   },
+   {
+    "application": "NDA210807",
+    "date": "2018-08-30",
+    "brand": [
+     "DELSTRIGO"
+    ]
+   },
+   {
+    "application": "NDA211284",
+    "date": "2018-11-16",
+    "brand": [
+     "TEMIXYS"
+    ]
+   },
+   {
+    "application": "NDA210649",
+    "date": "2019-03-15",
+    "brand": [
+     "EFAVIRENZ, LAMIVUDINE AND TENOFOVIR DISOPROXIL FUMARATE"
+    ]
+   },
+   {
+    "application": "NDA211994",
+    "date": "2019-04-08",
+    "brand": [
+     "DOVATO"
+    ]
+   },
+   {
+    "application": "NDA215413",
+    "date": "2022-03-30",
+    "brand": [
+     "TRIUMEQ PD"
+    ]
+   },
+   {
+    "application": "NDA204311",
+    "date": "2023-12-22",
+    "brand": [
+     "ABACAVIR SULFATE AND LAMIVUDINE"
+    ]
+   }
+  ],
+  "first_approval_date": "1995-11-17",
+  "label_indications": [
+   "1 INDICATIONS & USAGE Lamivudine and zidovudine tablets a combination of 2 nucleoside analogues, are indicated in combination with other antiretrovirals for the treatment of human immunodeficiency virus type 1 (HIV-1) infection. Lamivudine and zidovudine tablets, a combination of 2 nucleoside analogue reverse transcriptase inibitors, are indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. (1)",
+   "1 INDICATIONS & USAGE Lamivudine is nucleoside analogue indicated in combination with other antiretroviral agents for the treatment of human immunodeficiency virus type 1 (HIV-1) infection. Limitations of Use: \u2022 The dosage of this product is for HIV-1 and not for HBV. Lamivudine is a nucleoside analogue reverse transcriptase inhibitor indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. Limitations of Use: The dosage of this product is for HIV-1 and not for HBV.( 1 )",
+   "1 INDICATIONS AND USAGE Abacavir and lamivudine tablet, a combination of abacavir and lamivudine, both nucleoside analogue HIV-1 reverse transcriptase inhibitors, is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. ( 1 ) Abacavir and lamivudine tablets, in combination with other antiretroviral agents, are indicated for the treatment of human immunodeficiency virus type 1 (HIV-1) infection.",
+   "1 INDICATIONS AND USAGE COMBIVIR, a combination of 2 nucleoside analogues, is indicated in combination with other antiretrovirals for the treatment of human immunodeficiency virus type 1 (HIV\u20111) infection. COMBIVIR, a combination of 2 nucleoside analogue reverse transcriptase inhibitors, is indicated in combination with other antiretroviral agents for the treatment of HIV\u20111 infection. ( 1 )",
+   "1 INDICATIONS AND USAGE Efavirenz, lamivudine and tenofovir disoproxil fumarate tablets are indicated as a complete regimen for the treatment of human immunodeficiency virus type 1 (HIV-1) infection in adult and pediatric patients weighing at least 40 kg. Efavirenz, lamivudine and tenofovir disoproxil fumarate tablets are three-drug combination of efavirenz (EFV), a non-nucleoside reverse transcriptase inhibitor, and lamivudine (3TC) and tenofovir disoproxil fumarate (TDF), both nucleo(t)side reverse transcriptase inhibitors and are indicated as a complete regimen for the treatment of human immunodeficiency virus type 1 (HIV-1) infection in adult and pediatric patients weighing at least 40 kg. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"lamivudine\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Epivir",
+    "status": "Authorised",
+    "authorisation_date": "1996-08-08",
+    "atc": "J05AF05",
+    "therapeutic_area": "HIV Infections",
+    "indication": "Epivir is indicated as part of antiretroviral combination therapy for the treatment of human-immunodeficiency-virus (HIV)-infected adults and children.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/epivir"
+   },
+   {
+    "product": "Zeffix",
+    "status": "Authorised",
+    "authorisation_date": "1999-07-29",
+    "atc": "J05AF05",
+    "therapeutic_area": "Hepatitis B, Chronic",
+    "indication": "Zeffix is indicated for the treatment of chronic hepatitis B in adults with:  compensated liver disease with evidence of active viral replication, persistently elevated serum alanine aminotransferase (ALT) levels and histological evidence of active liver inflammation and / or fibrosis. Initiation of lamivudine treatment should only be considered when the use of an alternative antiviral agent with a higher genetic barrier is not available or appropriate; decompensated liver disease in combination with a second agent without cross-resistance to lamivudine.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zeffix"
+   }
+  ],
+  "first_authorisation_date": "1996-08-08"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL141",
+  "pref_name": "LAMIVUDINE",
+  "max_phase": 4.0,
+  "atc": [
+   "J05AF05"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "chronic hepatitis B virus infection",
+    "mesh_heading": "Hepatitis B, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00034359,NCT00057265,NCT00076336,NCT00095121,NCT00131742,NCT00132652,NCT00140725,NCT00226447,NCT00316719,NCT00338780,NCT00354653,NCT00393484,NCT00410202,NCT00531167,NCT00605384,NCT00625339,NCT00625560,NCT00637663,NCT00710216,NCT00798460,NCT00810524,NCT00823550,NCT00986778,NCT01005238,NCT01023217,NCT01088009,NCT01095835,NCT01353742,NCT01491295,NCT01546116,NCT01597934,NCT01627223,NCT01732367,NCT01804387,NCT01848743,NCT01928511,NCT02202473,NCT02337127,NCT02482272,NCT02560649,NCT02598063"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2df7349c-f5d7-47b5-d29b-1b6b31985591"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3b1f8ee3-d582-4faa-a7f2-0fbc45721298"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4fba8971-1f57-457d-808a-fadbb2580830"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6bd6b9da-df69-46db-813e-4e7f3bdecf95"
+     },
+     {
+      "type": "DailyMed",
+      "id": "83009c27-f54b-47df-b8b2-e2e4e0b8f4e8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87095352-c088-74b1-7be0-d3e293a90611"
+     },
+     {
+      "type": "DailyMed",
+      "id": "97a9dfe0-4c36-4733-aa06-c2cd2a1f1ca6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a5b963ec-b139-4e28-b447-b72c9e710c1f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bc62b38c-4cc9-4e64-8852-1a0be6d36d8e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e54278ea-25d9-46a5-9dd0-9d5c6ac4cc4f"
+     }
+    ]
+   },
+   {
+    "efo_term": "infection",
+    "mesh_heading": "Infections",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01829802,NCT02150993,NCT04303598"
+     },
+     {
+      "type": "DailyMed",
+      "id": "09131b4d-efcd-435f-8b7c-8738f78e5bf9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0d564c2a-de2c-4c2d-ad5b-d910174debc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "104defcb-720d-4a27-806f-2c0c117b2bac"
+     },
+     {
+      "type": "DailyMed",
+      "id": "13ca868d-a734-4c2f-88f0-ac1071ba7311"
+     },
+     {
+      "type": "DailyMed",
+      "id": "166abd26-675e-4832-9d18-0567f2a9d4e4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c3ba0b0-0352-49e8-b5cd-9df698194988"
+     },
+     {
+      "type": "DailyMed",
+      "id": "26182670-f400-49b8-92e7-f0124920af78"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2d5e70d8-9bf9-212c-63a4-44785f3fd015"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2df7349c-f5d7-47b5-d29b-1b6b31985591"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2f1b5d5a-c2f8-48af-8bdc-67e7dd664436"
+     },
+     {
+      "type": "DailyMed",
+      "id": "34c02bcc-d6ff-99d4-8e6a-4a91908adca8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4fba8971-1f57-457d-808a-fadbb2580830"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5b7ad852-94ff-4e8c-b53e-793a4c0a9db4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "786992bd-13a0-4a00-dfb2-6c135ecd349b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "83009c27-f54b-47df-b8b2-e2e4e0b8f4e8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87095352-c088-74b1-7be0-d3e293a90611"
+     },
+     {
+      "type": "DailyMed",
+      "id": "89226149-47fa-4f7d-bb1f-1aa7034486b8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "89b6f044-fe14-4e38-b5ea-a3c525d29dd6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a5b963ec-b139-4e28-b447-b72c9e710c1f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ada39596-ddcb-46a1-b6fc-962fb1512a80"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b77dd52f-3506-445c-989b-916f844633f6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bd55dd57-348c-4d78-b322-d1ae10279298"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e54278ea-25d9-46a5-9dd0-9d5c6ac4cc4f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f3637209-303e-4232-ae79-07315a990973"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2015/020564s035,020596s034lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000831,NCT00000834,NCT00000838,NCT00000841,NCT00000865,NCT00000870,NCT00000872,NCT00000882,NCT00000885,NCT00000891,NCT00000899,NCT00000901,NCT00000902,NCT00000903,NCT00000916,NCT00000918,NCT00000940,NCT00000944,NCT00000952,NCT00001066,NCT00001067,NCT00001068,NCT00001083,NCT00001084,NCT00001085,NCT00001087,NCT00001091,NCT00001094,NCT00001095,NCT00001108,NCT00001644,NCT00002124,NCT00002162,NCT00002179,NCT00002183,NCT00002184,NCT00002190,NCT00002195,NCT00002199,NCT00002208,NCT00002227,NCT00002233,NCT00002234,NCT00002241,NCT00002245,NCT00002320,NCT00002367,NCT00002368,NCT00002371,NCT00002376,NCT00002378,NCT00002379,NCT00002386,NCT00002389,NCT00002391,NCT00002409,NCT00002410,NCT00002416,NCT00002423,NCT00002424,NCT00002429,NCT00002436,NCT00002442,NCT00002451,NCT00004578,NCT00004583,NCT00004585,NCT00004736,NCT00004852,NCT00004981,NCT00004998,NCT00004999,NCT00005000,NCT00005002,NCT00005017,NCT00005106,NCT00005918,NCT00008554,NCT00009061,NCT00011895,NCT00013520,NCT00013897,NCT00014014,NCT00017719,NCT00028327,NCT00031070,NCT00038220,NCT00038506,NCT00043953,NCT00044577,NCT00046176,NCT00050895,NCT00053638,NCT00074581,NCT00078247,NCT00084136,NCT00084149,NCT00084253,NCT00085943,NCT00086359,NCT00094367,NCT00099359,NCT00099632,NCT00100048,NCT00102206,NCT00102960,NCT00112047,NCT00118898,NCT00120783,NCT00122226,NCT00126880,NCT00127972,NCT00135369,NCT00135382,NCT00143689,NCT00143728,NCT00146380,NCT00158405,NCT00158470,NCT00158821,NCT00164736,NCT00192634,NCT00234091,NCT00234923,NCT00244712,NCT00256828,NCT00270296,NCT00273975,NCT00307151,NCT00312039,NCT00312091,NCT00314626,NCT00332306,NCT00335192,NCT00335270,NCT00336778,NCT00337922,NCT00338390,NCT00342355,NCT00344760,NCT00350272,NCT00398996,NCT00405925,NCT00424814,NCT00427297,NCT00428116,NCT00433056,NCT00440947,NCT00455585,NCT00544128,NCT00549198,NCT00612898,NCT00615810,NCT00618176,NCT00624195,NCT00627055,NCT00640263,NCT00643968,NCT00672412,NCT00724711,NCT00740064,NCT00872417,NCT00885482,NCT00943540,NCT00966160,NCT00979706,NCT00985647,NCT01061151,NCT01127204,NCT01160120,NCT01174914,NCT01227824,NCT01263015,NCT01307488,NCT01366547,NCT01386970,NCT01511237,NCT01599364,NCT01608269,NCT01618305,NCT01620944,NCT01622790,NCT01641809,NCT01656122,NCT01751555,NCT01900106,NCT01905059,NCT01910402,NCT01982396,NCT02028676,NCT02075593,NCT02105987,NCT02116660,NCT02131025,NCT02159599,NCT02181933,NCT02249130,NCT02263326,NCT02300623,NCT02369406"
+     },
+     {
+      "type": "DailyMed",
+      "id": "080e3423-5962-4465-8e78-cd8793699336"
+     },
+     {
+      "type": "DailyMed",
+      "id": "09131b4d-efcd-435f-8b7c-8738f78e5bf9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0bdae7bd-2d03-4948-baa3-73532602b2ef"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0d564c2a-de2c-4c2d-ad5b-d910174debc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "104defcb-720d-4a27-806f-2c0c117b2bac"
+     },
+     {
+      "type": "DailyMed",
+      "id": "13ca868d-a734-4c2f-88f0-ac1071ba7311"
+     },
+     {
+      "type": "DailyMed",
+      "id": "166abd26-675e-4832-9d18-0567f2a9d4e4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "16da660b-9981-4d24-a14a-94c7744fce4f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1a123145-2d63-484a-a0a0-061890796137"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1bc4c6c8-7e75-494e-810b-8f83135a3204"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c3ba0b0-0352-49e8-b5cd-9df698194988"
+     },
+     {
+      "type": "DailyMed",
+      "id": "221a4135-70e1-4913-bd54-f4b84bb4001b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "26182670-f400-49b8-92e7-f0124920af78"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2997739a-aa91-42aa-a206-a70e2db7b84f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2d5e70d8-9bf9-212c-63a4-44785f3fd015"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2f1b5d5a-c2f8-48af-8bdc-67e7dd664436"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3354e50f-4dc5-413f-b5ae-87353ab8913d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "34c02bcc-d6ff-99d4-8e6a-4a91908adca8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3ce0b713-c4a7-4dc0-a6f8-89a7b11716b7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "46a71819-d8f7-4a64-a41e-385c6877480a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "479a2784-8db2-4fe5-94ba-55316a3c4e4f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "49d53e74-3798-4463-b817-1c8beb755034"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4d7df84d-256e-48c9-b164-254d5bce1eb7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "56467b20-c2c0-416a-8e6e-931bac559f7f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5b7ad852-94ff-4e8c-b53e-793a4c0a9db4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "633ac0f4-576f-b556-650b-a5e7af39b4ad"
+     },
+     {
+      "type": "DailyMed",
+      "id": "643d3437-db7f-4fe7-8724-04e71b815a11"
+     },
+     {
+      "type": "DailyMed",
+      "id": "64b73211-b156-4a8b-b6f6-4b97f82bfc43"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6c4fa641-e39c-4327-a127-d24a6103ef52"
+     },
+     {
+      "type": "DailyMed",
+      "id": "786992bd-13a0-4a00-dfb2-6c135ecd349b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8381ce12-92fa-4cab-b45f-f65ed3d0197b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "89226149-47fa-4f7d-bb1f-1aa7034486b8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "89b6f044-fe14-4e38-b5ea-a3c525d29dd6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "90355e89-87d0-456a-87c1-c25bae12affc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "98dfecf6-dbaf-4ef5-9fda-d11f90f6aa58"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9b32f5a4-d0f7-486b-b699-8dc9202b6869"
+     },
+     {
+      "type": "DailyMed",
+      "id": "abd503f4-6de8-41e2-95fa-2496610508ad"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ada39596-ddcb-46a1-b6fc-962fb1512a80"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b03e286a-4d44-489a-89d0-ee563e1f280f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b77dd52f-3506-445c-989b-916f844633f6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bd55dd57-348c-4d78-b322-d1ae10279298"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d346d08d-ebb5-4500-923f-fe111f304876"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d8540843-055c-47fb-9cff-81e64b1d41c3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d9370dfc-283b-4a91-8e5e-18c35d2a78e6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "da2d3a56-a124-46cd-93bf-82b3c419536b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e0fc8605-1d64-41ab-af7e-bcf66a57c1fd"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e816e8f5-1e50-4f49-8bea-92da0121d26e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f1139e7f-2db9-4961-9da3-9b7f2088736f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f3637209-303e-4232-ae79-07315a990973"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f5f7c0d9-a247-4308-8269-32accc490ea6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc2d6065-7806-457c-82e1-04bb19e57b8c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ff3b5265-f533-4332-a861-d8c9c1664ffd"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000107"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2015/020564s035,020596s034lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00098293,NCT00324649,NCT00772902,NCT00799864,NCT00915655,NCT01352715,NCT01489046,NCT01714414,NCT01772940,NCT02067767,NCT02211482,NCT02246998,NCT02397096,NCT02469246,NCT02566707,NCT02582684,NCT02603107,NCT02603120,NCT02605954,NCT02607930,NCT02616783,NCT02629822,NCT02652260,NCT02770508,NCT02777229,NCT03272347,NCT03311945,NCT03333083,NCT03360682,NCT03539224,NCT03869944,NCT03870438,NCT04022967,NCT04155554,NCT04296695,NCT04429152,NCT04433780,NCT04549467,NCT04585737,NCT04880395,NCT04884139,NCT05154747,NCT05295394,NCT06203132,NCT06444620"
+     },
+     {
+      "type": "DailyMed",
+      "id": "13ca868d-a734-4c2f-88f0-ac1071ba7311"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1bc4c6c8-7e75-494e-810b-8f83135a3204"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3354e50f-4dc5-413f-b5ae-87353ab8913d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "77eccfa0-c03c-49a3-bfa7-f31888d77161"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9b32f5a4-d0f7-486b-b699-8dc9202b6869"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b03e286a-4d44-489a-89d0-ee563e1f280f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cd1e9f84-607a-46d3-b01e-2736018d67b6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f1139e7f-2db9-4961-9da3-9b7f2088736f"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2015/020564s035,020596s034lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammation",
+    "mesh_heading": "Inflammation",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "6bd6b9da-df69-46db-813e-4e7f3bdecf95"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01936233"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis B virus infection",
+    "mesh_heading": "Hepatitis B, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00120796,NCT00124241,NCT00230477,NCT00275652,NCT00380614,NCT01438424,NCT03236584,NCT04704024"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000242"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/001113"
+     }
+    ]
+   },
+   {
+    "efo_term": "Kaposi's sarcoma",
+    "mesh_heading": "Sarcoma, Kaposi",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00834457"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00041327,NCT01528865"
+     }
+    ]
+   },
+   {
+    "efo_term": "AIDS",
+    "mesh_heading": "Acquired Immunodeficiency Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001968,NCT00100048,NCT00116298,NCT00122538,NCT00144183,NCT00197613,NCT00433056,NCT00966160,NCT01469520,NCT02219672,NCT02284035,NCT02369406,NCT02369965,NCT03178084"
+     }
+    ]
+   },
+   {
+    "efo_term": "cirrhosis of liver",
+    "mesh_heading": "Liver Cirrhosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00275652,NCT01718587"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00201318"
+     }
+    ]
+   },
+   {
+    "efo_term": "tropical spastic paraparesis",
+    "mesh_heading": "Paraparesis, Tropical Spastic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00272480"
+     }
+    ]
+   },
+   {
+    "efo_term": "Diarrhea",
+    "mesh_heading": "Diarrhea",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00650637"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-associated nephropathy",
+    "mesh_heading": "AIDS-Associated Nephropathy",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002397"
+     }
+    ]
+   },
+   {
+    "efo_term": "viral disease",
+    "mesh_heading": "Virus Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "J05AF05"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis B virus infection",
+    "mesh_heading": "Hepatitis B",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "2df7349c-f5d7-47b5-d29b-1b6b31985591"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4fba8971-1f57-457d-808a-fadbb2580830"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6bd6b9da-df69-46db-813e-4e7f3bdecf95"
+     },
+     {
+      "type": "DailyMed",
+      "id": "83009c27-f54b-47df-b8b2-e2e4e0b8f4e8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87095352-c088-74b1-7be0-d3e293a90611"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a5b963ec-b139-4e28-b447-b72c9e710c1f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e54278ea-25d9-46a5-9dd0-9d5c6ac4cc4f"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hepatitis",
+    "mesh_heading": "Hepatitis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00076336"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2df7349c-f5d7-47b5-d29b-1b6b31985591"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6bd6b9da-df69-46db-813e-4e7f3bdecf95"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04696575"
+     }
+    ]
+   },
+   {
+    "efo_term": "immunodeficiency disease",
+    "mesh_heading": "Autoimmune Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "13ca868d-a734-4c2f-88f0-ac1071ba7311"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1bc4c6c8-7e75-494e-810b-8f83135a3204"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2997739a-aa91-42aa-a206-a70e2db7b84f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9b32f5a4-d0f7-486b-b699-8dc9202b6869"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a300f04d-118f-4136-aaf3-ddfd00197f86"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a37582e3-ddf6-4058-ba52-7c95f778a3f4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f1139e7f-2db9-4961-9da3-9b7f2088736f"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04552795"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00078247,NCT00332306"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03144804"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06428045"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Human immunodeficiency virus type 1 reverse transcriptase inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL247"
+   },
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2363048"
+   },
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2363046"
+   },
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2363047"
+   },
+   {
+    "mechanism": "DNA polymerase/reverse transcriptase inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2362994"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 318,
+  "earliest": {
+   "nct": "NCT00002371",
+   "start": "1996-06",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1995-11-17",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,693 @@
+{
+ "moiety": "ketoconazole",
+ "accessed_utc": "2026-11-01T16:32:09+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA018533",
+    "date": "1981-06-12",
+    "brand": [
+     "NIZORAL"
+    ]
+   },
+   {
+    "application": "NDA019084",
+    "date": "1985-12-31",
+    "brand": [
+     "NIZORAL"
+    ]
+   },
+   {
+    "application": "NDA019927",
+    "date": "1990-08-31",
+    "brand": [
+     "NIZORAL"
+    ]
+   },
+   {
+    "application": "NDA020310",
+    "date": "1997-10-10",
+    "brand": [
+     "NIZORAL ANTI-DANDRUFF"
+    ]
+   },
+   {
+    "application": "NDA021946",
+    "date": "2006-07-28",
+    "brand": [
+     "XOLEGEL"
+    ]
+   },
+   {
+    "application": "NDA021738",
+    "date": "2007-06-12",
+    "brand": [
+     "EXTINA"
+    ]
+   }
+  ],
+  "first_approval_date": "1981-06-12",
+  "label_indications": [
+   "INDICATIONS & USAGE Ketoconazole shampoo, 2% is indicated for the treatment of tinea (pityriasis) versicolor caused by or presumed to be caused by Pityrosporum orbiculare (also known as Malassezia furfur or M. orbiculare ) . Note: Tinea (pityriasis) versicolor may give rise to hyperpigmented or hypopigmented patches on the trunk which may extend to the neck, arms and upper thighs. Treatment of the infection may not immediately result in normalization of pigment to the affected sites. Normalization of pigment following successful therapy is variable and may take months, depending on individual skin type and incidental sun exposure. Although tinea versicolor is not contagious, it may recur because the organism that causes the disease is part of the normal skin flora.",
+   "INDICATIONS AND USAGE Ketoconazole Cream, 2% is indicated for the topical treatment of tinea corporis, tinea cruris and tinea pedis caused by Trichophyton rubrum , T. mentagrophytes and Epidermophyton floccosum ; in the treatment of tinea (pityriasis) versicolor caused by Malassezia furfur (Pityrosporum orbiculare) ; and in the treatment of cutaneous candidiasis caused by Candida spp .",
+   "INDICATIONS AND USAGE Ketoconazole Cream, 2% is indicated for the topical treatment of tinea corporis, tinea cruris and tinea pedis caused by Trichophyton rubrum , T. mentagrophytes and Epidermophyton floccosum ; in the treatment of tinea (pityriasis) versicolor caused by Malassezia furfur (Pityrosporum orbiculare) ; and in the treatment of cutaneous candidiasis caused by Candida spp . and in the treatment of seborrheic dermatitis.",
+   "INDICATIONS AND USAGE Ketoconazole shampoo, 2%, is indicated for the treatment of tinea (pityriasis) versicolor caused by or presumed to be caused by Pityrosporum orbiculare (also known as Malassezia furfur or M. orbiculare ). Note: Tinea (pityriasis) versicolor may give rise to hyperpigmented or hypopigmented patches on the trunk which may extend to the neck, arms and upper thighs. Treatment of the infection may not immediately result in normalization of pigment to the affected sites. Normalization of pigment following successful therapy is variable and may take months, depending on individual skin type and incidental sun exposure. Although tinea versicolor is not contagious, it may recur because the organism that causes the disease is part of the normal skin flora.",
+   "INDICATIONS AND USAGE Ketoconazole tablets are not indicated for treatment of onychomycosis, cutaneous dermatophyte infections, or Candida infections. Ketoconazole tablets should be used only when other effective antifungal therapy is not available or tolerated and the potential benefits are considered to outweigh the potential risks. Ketoconazole tablets are indicated for the treatment of the following systemic fungal infections in patients who have failed or who are intolerant to other therapies: blastomycosis, coccidioidomycosis, histoplasmosis, chromomycosis, and paracoccidioidomycosis. Ketoconazole tablets should not be used for fungal meningitis because it penetrates poorly into the cerebrospinal fluid."
+  ],
+  "query": "products.active_ingredients.name:\"ketoconazole\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Ketoconazole Esteve (previously Ketoconazole HRA)",
+    "status": "Authorised",
+    "authorisation_date": "2014-11-18",
+    "atc": "H02CA03",
+    "therapeutic_area": "Cushing Syndrome",
+    "indication": "Ketoconazole Esteve is indicated for the treatment of endogenous Cushing\u2019s syndrome in adults and adolescents above the age of 12 years.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ketoconazole-esteve"
+   },
+   {
+    "product": "Ketoconazole AID-SCFM",
+    "status": "Application withdrawn",
+    "authorisation_date": null,
+    "atc": "V03",
+    "therapeutic_area": "Cushing Syndrome",
+    "indication": "Treatment of Cushings syndrome",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ketoconazole-aid-scfm"
+   }
+  ],
+  "first_authorisation_date": "2014-11-18"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL157101",
+  "pref_name": "KETOCONAZOLE",
+  "max_phase": 4.0,
+  "atc": [
+   "D01AC08",
+   "G01AF11",
+   "H02CA03",
+   "J02AB02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "chronic obstructive pulmonary disease",
+    "mesh_heading": "Pulmonary Disease, Chronic Obstructive",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00866515,NCT01153711"
+     }
+    ]
+   },
+   {
+    "efo_term": "immune system disease",
+    "mesh_heading": "Immune System Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00975936"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01324310,NCT01454076"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003249,NCT00096317,NCT00162214,NCT00238225,NCT00697437,NCT01114191,NCT01218620,NCT01267084"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroblastoma",
+    "mesh_heading": "Neuroblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00295919,NCT02163356"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00447473,NCT00536991,NCT02560051"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01765556"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00298155,NCT00536991,NCT00586898"
+     }
+    ]
+   },
+   {
+    "efo_term": "insulin resistance",
+    "mesh_heading": "Insulin Resistance",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02256865"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoporosis",
+    "mesh_heading": "Osteoporosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00468689"
+     }
+    ]
+   },
+   {
+    "efo_term": "acne",
+    "mesh_heading": "Acne Vulgaris",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03178994"
+     }
+    ]
+   },
+   {
+    "efo_term": "premature birth",
+    "mesh_heading": "Premature Birth",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01627587"
+     }
+    ]
+   },
+   {
+    "efo_term": "erectile dysfunction",
+    "mesh_heading": "Erectile Dysfunction",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00770042"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01969669"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chemotherapy-induced nausea and vomiting",
+    "mesh_heading": "Nausea",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00404378,NCT00460707"
+     }
+    ]
+   },
+   {
+    "efo_term": "tinea pedis",
+    "mesh_heading": "Tinea Pedis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01110330,NCT02606383,NCT02824926,NCT03320486,NCT03824912,NCT04203342"
+     },
+     {
+      "type": "DailyMed",
+      "id": "074bcd7b-a9cc-44bd-a78a-0d150c04cc1e"
+     }
+    ]
+   },
+   {
+    "efo_term": "vulvovaginal candidiasis",
+    "mesh_heading": "Candidiasis, Vulvovaginal",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01293643,NCT03473418"
+     }
+    ]
+   },
+   {
+    "efo_term": "burn",
+    "mesh_heading": "Burns",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00675714"
+     }
+    ]
+   },
+   {
+    "efo_term": "seborrheic dermatitis",
+    "mesh_heading": "Dermatitis, Seborrheic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00403559,NCT00703846,NCT00862654,NCT03688971"
+     },
+     {
+      "type": "DailyMed",
+      "id": "36629578-188e-434e-bac8-27784b81d50e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "39b85d6a-9133-42e6-b7f8-58f045e9b9f0"
+     },
+     {
+      "type": "DailyMed",
+      "id": "473aa4a4-e5a7-4570-b586-1a641a35ed6a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "60457e7e-c136-4021-9822-a9d63389c2c2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "62f19bd8-926e-4e6b-9097-d81b894b95cc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "720927e8-7b3f-4ed9-9893-1be1ea122dc8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "741b217f-57e6-44f4-a800-a7c637df9628"
+     },
+     {
+      "type": "DailyMed",
+      "id": "836ebf14-fb11-45c3-9e0c-db1bebcd0f5b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "855e42bb-b57f-4772-bffa-d766ddcc46ce"
+     },
+     {
+      "type": "DailyMed",
+      "id": "899a9cb9-09b2-4e16-baa3-058eaab04739"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9b65f632-a98d-400e-9ec3-84dea581d6a3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a8f9a341-f95c-4e97-aa3e-a25a65ec611c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ac219fd7-9f57-4a54-82bd-fb281e0ddd41"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bad1ed51-b23c-4fe3-8263-9ecdec8bf661"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c23a27a2-e2e5-4a93-a96a-1f0248286f43"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cad7c647-34a9-4e4e-83b3-8d78e58f588f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ceaee038-9681-45ab-b974-f32b72443022"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d555cdd0-f9be-484e-9711-65184491a2ec"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e46c7380-a943-4dfd-8953-6402272cf6ff"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastroparesis",
+    "mesh_heading": "Gastroparesis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01039974"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriasis vulgaris",
+    "mesh_heading": "Psoriasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00678756"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01021358"
+     }
+    ]
+   },
+   {
+    "efo_term": "bacterial vaginosis",
+    "mesh_heading": "Vaginosis, Bacterial",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01293643"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypogonadism",
+    "mesh_heading": "Hypogonadism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00431197,NCT02147964"
+     }
+    ]
+   },
+   {
+    "efo_term": "dermatitis",
+    "mesh_heading": "Dermatitis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03845348"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00212095"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002760,NCT00002855,NCT00003084,NCT00006371,NCT00024167,NCT00027859,NCT00030654,NCT00309894,NCT00460031,NCT00673127,NCT00859781,NCT00895310,NCT00953576,NCT01036594,NCT02494713,NCT03261336"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis C virus infection",
+    "mesh_heading": "Hepatitis C",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00768690,NCT00890318"
+     }
+    ]
+   },
+   {
+    "efo_term": "adrenal gland disease",
+    "mesh_heading": "Adrenal Gland Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "H02CA03"
+     }
+    ]
+   },
+   {
+    "efo_term": "adult acute respiratory distress syndrome",
+    "mesh_heading": "Respiratory Distress Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000579"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04869449"
+     }
+    ]
+   },
+   {
+    "efo_term": "blastomycosis",
+    "mesh_heading": "Blastomycosis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0d12b5f7-0f03-46d3-acdd-0e397133e6c3"
+     }
+    ]
+   },
+   {
+    "efo_term": "tinea",
+    "mesh_heading": "Tinea",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "074bcd7b-a9cc-44bd-a78a-0d150c04cc1e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "efbc6388-90ce-11de-b92c-8b7156d89593"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential hypertension",
+    "mesh_heading": "Essential Hypertension",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00938262"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00860275"
+     }
+    ]
+   },
+   {
+    "efo_term": "asthma",
+    "mesh_heading": "Asthma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01165125,NCT01735240"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00302224,NCT00501397,NCT01330563"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01802931"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05638763"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cushing syndrome",
+    "mesh_heading": "Cushing Syndrome",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003906"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00708591,NCT01000376,NCT01340846,NCT01454076,NCT01548170,NCT03471364"
+     }
+    ]
+   },
+   {
+    "efo_term": "pityriasis versicolor",
+    "mesh_heading": "Tinea Versicolor",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06305637"
+     }
+    ]
+   },
+   {
+    "efo_term": "tinea unguium",
+    "mesh_heading": "Onychomycosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01615913"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematopoietic and lymphoid cell neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01324310"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Cytochrome P450 51 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1780"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 56,
+  "earliest": {
+   "nct": "NCT00000579",
+   "start": "1994-09",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1981-06-12",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

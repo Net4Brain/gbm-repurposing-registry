@@ -1,0 +1,744 @@
+{
+ "moiety": "lenvatinib",
+ "accessed_utc": "2026-11-01T16:34:40+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA206947",
+    "date": "2015-02-13",
+    "brand": [
+     "LENVIMA",
+     "LENVIMA"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-02-13",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"lenvatinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1289601",
+  "pref_name": "LENVATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX08"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX08"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01433991,NCT02501096,NCT02640508,NCT02686164,NCT02720068,NCT02925234,NCT03006887,NCT03009292,NCT03245151,NCT03564691,NCT04193553,NCT04447755,NCT05014828,NCT05740215,NCT05767684,NCT06032845,NCT06161558"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02421042"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01529112,NCT03516981,NCT03829332,NCT03976375,NCT04676412,NCT04875585,NCT04989322,NCT05001724,NCT05078931,NCT06068153"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00121719,NCT01525394,NCT02578316"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenoid cystic carcinoma",
+    "mesh_heading": "Carcinoma, Adenoid Cystic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02780310"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01136733,NCT02454478,NCT02915783,NCT03173560,NCT03324373,NCT04203901,NCT04267120,NCT04393350,NCT04522323,NCT04586231,NCT04626479,NCT04626518,NCT04704219,NCT04736706,NCT05012371,NCT05030506,NCT05188118,NCT05262413,NCT05319015,NCT05327686,NCT05877820,NCT05899049,NCT06129955"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00946153,NCT01761266,NCT02953743,NCT03006926,NCT03418922,NCT03433703,NCT03713593,NCT03744247,NCT03746249,NCT03775395,NCT03775707,NCT03791918,NCT03803254,NCT03841201,NCT03867370,NCT03899428,NCT03905967,NCT03919383,NCT04008797,NCT04039607,NCT04042805,NCT04044313,NCT04044651,NCT04053972,NCT04053985,NCT04168944,NCT04170179,NCT04194775,NCT04227808,NCT04229355,NCT04241523,NCT04246177,NCT04368078,NCT04401800,NCT04443309,NCT04444167,NCT04490694,NCT04523493,NCT04542837,NCT04599790,NCT04728321,NCT04740307,NCT04741165,NCT04770896,NCT04803318,NCT04834986,NCT04911959,NCT04997850,NCT05003700,NCT05007587,NCT05033522,NCT05042336,NCT05056337,NCT05057845,NCT05101629,NCT05103904,NCT05113186,NCT05155189,NCT05168163,NCT05171335,NCT05185739,NCT05195294,NCT05213221,NCT05220020,NCT05225116,NCT05250843,NCT05286320,NCT05290220,NCT05301842,NCT05312216,NCT05319431,NCT05389527,NCT05408221,NCT05519410,NCT05533892,NCT05582278,NCT05608200,NCT05608213,NCT05675462,NCT05718232,NCT05775159,NCT05807776,NCT05822752,NCT05842317,NCT05873244,NCT05897138,NCT05897268,NCT05901194,NCT05903456,NCT05910970,NCT05920863,NCT05954897,NCT05992584,NCT06089382,NCT06138769,NCT06143579,NCT06187961,NCT06201065,NCT06210334,NCT06253598,NCT06261125,NCT06361758,NCT06371157,NCT06406634,NCT06420440,NCT06470256"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01133977,NCT01136967,NCT03776136,NCT03820986,NCT04207086,NCT04305041,NCT04305054,NCT04700072,NCT04889118,NCT05308901,NCT05406466,NCT06030037"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial neoplasm",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03005015,NCT03517449,NCT03884101,NCT04865289"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular thyroid carcinoma",
+    "mesh_heading": "Adenocarcinoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02973997,NCT03506048,NCT03630120"
+     }
+    ]
+   },
+   {
+    "efo_term": "papillary thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02973997,NCT03506048,NCT03630120"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02935309"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma of Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01877083"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03898180"
+     }
+    ]
+   },
+   {
+    "efo_term": "intrahepatic cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03779100,NCT03801499,NCT04769908,NCT05010668,NCT05010681,NCT06208462,NCT06298968"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04199104,NCT04428151,NCT05433116,NCT05523323"
+     }
+    ]
+   },
+   {
+    "efo_term": "mesothelioma",
+    "mesh_heading": "Mesothelioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04287829"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04154189"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02199379"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03951597,NCT04361331,NCT04527679,NCT04656249,NCT05532059,NCT05823311,NCT05835245,NCT06192784,NCT06192797"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine neoplasm",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02678780"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03321630,NCT03609359,NCT04745988,NCT05171530,NCT06157996"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01321554,NCT02702388,NCT02726503,NCT02966093,NCT03139747,NCT03630120,NCT03732495,NCT04321954,NCT05696548,NCT06374602"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract cancer",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02579616,NCT04211168,NCT05170438,NCT05254847,NCT05410197,NCT05509478,NCT05775159,NCT05781074,NCT05823987,NCT06389500"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02562118,NCT03168074,NCT04427293,NCT05181033,NCT05286437,NCT06110793"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03321630"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01133756,NCT05422183"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01111461,NCT05077215,NCT05106127,NCT05112991"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04699071"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04784247"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04776148"
+     }
+    ]
+   },
+   {
+    "efo_term": "leptomeningeal metastasis",
+    "mesh_heading": "Meningeal Carcinomatosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04729348"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine carcinoma",
+    "mesh_heading": "Carcinoma, Neuroendocrine",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03290079,NCT05746208"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04924101,NCT04938817,NCT04951947,NCT05296603,NCT05384015"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04949256,NCT05319730,NCT05342636"
+     }
+    ]
+   },
+   {
+    "efo_term": "Merkel cell skin cancer",
+    "mesh_heading": "Carcinoma, Merkel Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04869137"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04865887,NCT06266338"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric carcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05221775"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell renal carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05012371"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract neoplasm",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05291052,NCT05935579,NCT06230471,NCT06362317"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05081180"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uterine Carcinosarcoma",
+    "mesh_heading": "Retroviridae Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05147558"
+     }
+    ]
+   },
+   {
+    "efo_term": "adrenal cortex carcinoma",
+    "mesh_heading": "Adrenal Cortex Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05036434"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney cancer",
+    "mesh_heading": "Kidney Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04393350,NCT05485883,NCT05485896"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric adenocarcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05585580"
+     }
+    ]
+   },
+   {
+    "efo_term": "Kaposi's sarcoma",
+    "mesh_heading": "Sarcoma, Kaposi",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05846724"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical carcinoma",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05824468,NCT06266338"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thymic Carcinoma",
+    "mesh_heading": "Thymoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05832827"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial carcinoma",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05603910,NCT06253494"
+     }
+    ]
+   },
+   {
+    "efo_term": "vulva cancer",
+    "mesh_heading": "Vulvar Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05903833"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02640508,NCT02846766,NCT02925234,NCT03486873,NCT04164199"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver and intrahepatic bile duct neoplasm",
+    "mesh_heading": "Liver Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05555316"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05973903"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant pleural mesothelioma",
+    "mesh_heading": "Mesothelioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06318286"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06241105"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06364631"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06482086"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06140576"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell adenocarcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02811861,NCT05733715"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01137604"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastroesophageal junction adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06030934"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05303090"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 281,
+  "earliest": {
+   "nct": "NCT00946153",
+   "start": "2009-07-24",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-02-13",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

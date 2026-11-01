@@ -1,0 +1,663 @@
+{
+ "moiety": "trametinib",
+ "accessed_utc": "2026-11-01T16:45:54+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA204114",
+    "date": "2013-05-29",
+    "brand": [
+     "MEKINIST",
+     "MEKINIST",
+     "MEKINIST"
+    ]
+   },
+   {
+    "application": "NDA217513",
+    "date": "2023-03-16",
+    "brand": [
+     "MEKINIST",
+     "MEKINIST",
+     "MEKINIST"
+    ]
+   }
+  ],
+  "first_approval_date": "2013-05-29",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE MEKINIST is a kinase inhibitor indicated as a single agent for the treatment of BRAF-inhibitor treatment-na\u00efve patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations as detected by an FDA-approved test. ( 1.1 , 2.1 ) MEKINIST is indicated, in combination with dabrafenib, for: the treatment of patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations as detected by an FDA-approved test. ( 1.1 , 2.1 ) the adjuvant treatment of patients with melanoma with BRAF V600E or V600K mutations, as detected by an FDA-approved test, and involvement of lymph node(s), following complete resection. ( 1.2 , 2.1 ) the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation as detected by an FDA-approved test. ( 1.3 , 2.1 ) the treatment of patients with locally advanced or metastatic anaplastic thyroid cancer (ATC) with BRAF V600E mutation, as detected by an FDA-approved test, and with no satisfactory locoregional treatment options. ( 1.4 , 2.1 ) the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options. This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). ( 1.5 , 2.1 ) the treatment of pediatric patients 1 year of age and older with low-grade glioma (LGG) with a BRAF V600E mutation who require systemic therapy. ( 1.6 , 2.1 ) Limitations of Use : MEKINIST is not indicated for treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition. ( 1.7 , 12.1 ) 1.1 BRAF V600E or V600K Mutation-Positive Unresectable or Metastatic Melanoma MEKINIST \u00ae is indicated, as a single agent in BRAF-inhibitor treatment-na\u00efve patients or in combination with dabrafenib, for the treatment of patients with unresectable or metastatic melanoma with BRAF V600E or V600K mutations, as detected by an FDA-approved test [see Dosage and Administration (2.1)] . 1.2 Adjuvant Treatment of BRAF V600E or V600K Mutation-Positive Melanoma MEKINIST is indicated, in combination with dabrafenib, for the adjuvant treatment of patients with melanoma with BRAF V600E or V600K mutations as detected by an FDA-approved test, and involvement of lymph node(s), following complete resection [see Dosage and Administration (2.1)]. 1.3 BRAF V600E Mutation-Positive Metastatic NSCLC MEKINIST is indicated, in combination with dabrafenib, for the treatment of patients with metastatic non-small cell lung cancer (NSCLC) with BRAF V600E mutation as detected by an FDA-approved test [see Dosage and Administration (2.1)] . 1.4 BRAF V600E Mutation-Positive Locally Advanced or Metastatic Anaplastic T"
+  ],
+  "query": "products.active_ingredients.name:\"trametinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Mekinist",
+    "status": "Authorised",
+    "authorisation_date": "2014-06-30",
+    "atc": "L01EE01",
+    "therapeutic_area": "Melanoma",
+    "indication": "Melanoma Trametinib&nbsp;as monotherapy or in combination with dabrafenib&nbsp;is indicated for the treatment of adults and adolescents aged 12&nbsp;years and older with unresectable or metastatic melanoma with a BRAF V600 mutation (see sections&nbsp;4.4 and 5.1). Trametinib monotherapy has not demonstrated clinical activity in patients who have progressed on a prior BRAF inhibitor therapy (see section&nbsp;5.1). Adjuvant treatment of melanoma Trametinib in combination with dabrafenib is indicated for the adjuvant treatment of adults and adolescents aged 12&nbsp;years and older with Stage&nbsp;III melanoma with a BRAF V600 mutation, following complete resection. Non-small cell lung cancer (NSCLC) Trametinib in combination with dabrafenib is indicated for the treatment of adults with advanced non-small cell lung cancer with a BRAF V600 mutation. Differentiated thyroid cancer (DTC) Trametinib in combination with dabrafenib is indicated for the treatment of adult patients with locally advanced or metastatic differentiated thyroid cancer with a BRAF V600E mutation, refractory to or not eligible for radioactive iodine (RAI) who have progressed during or after prior systemic therapy (for biomarker-based patient selection, see section&nbsp;4.2).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mekinist"
+   }
+  ],
+  "first_authorisation_date": "2014-06-30"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2103875",
+  "pref_name": "TRAMETINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EE01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EE01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00687622,NCT01155453,NCT01324258,NCT01767454,NCT01827384,NCT01928940,NCT01938443,NCT02079740,NCT02705963,NCT02925234,NCT03065387,NCT03266159,NCT04111458,NCT04116541,NCT04185883,NCT05071183,NCT05159245,NCT05907304"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01907815,NCT02016729"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01362296,NCT01912625,NCT01938456,NCT02258607,NCT02580708,NCT02672358,NCT03087448,NCT03225664,NCT03232892,NCT03299088,NCT03333343,NCT03704688,NCT04452877,NCT05435846,NCT06054191"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02881242"
+     }
+    ]
+   },
+   {
+    "efo_term": "mouth neoplasm",
+    "mesh_heading": "Mouth Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01553851"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01245062,NCT01328106,NCT01584648,NCT01597908,NCT01619774,NCT01682083,NCT01701037,NCT01721603,NCT01726738,NCT01941927,NCT01972347,NCT01978236,NCT02027961,NCT02039947,NCT02087254,NCT02110355,NCT02130466,NCT02138292,NCT02143050,NCT02296112,NCT02296996,NCT02300935,NCT02382549,NCT02410863,NCT02416232,NCT02447939,NCT02645149,NCT02858921,NCT02872259,NCT02915666,NCT02967692,NCT03026517,NCT03088176,NCT03272464,NCT03352947,NCT03455764,NCT03501368,NCT03551626,NCT03563729,NCT03580382,NCT03754179,NCT04059224,NCT04417621,NCT05299580,NCT06346067"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02292173,NCT04803318"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02231775,NCT02910700,NCT04310397"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular thyroid carcinoma",
+    "mesh_heading": "Adenocarcinoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01428427"
+     }
+    ]
+   },
+   {
+    "efo_term": "papillary thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01989598,NCT02140840,NCT03091257,NCT05372354"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01940809,NCT02087254,NCT02357732,NCT02392871,NCT02625337,NCT02910700,NCT03149029,NCT04903119"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03825289,NCT05518110"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01740648"
+     }
+    ]
+   },
+   {
+    "efo_term": "Erdheim-Chester disease",
+    "mesh_heading": "Erdheim-Chester Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02281734"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03087071"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03087071,NCT03377361"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma of Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03076164"
+     }
+    ]
+   },
+   {
+    "efo_term": "bronchial neoplasm",
+    "mesh_heading": "Bronchial Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03516214"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03784014"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01723202,NCT03244956,NCT04554680,NCT04619316,NCT04940052,NCT05182931,NCT06079333,NCT06362694"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01958112"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01467310"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01990196"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03543306"
+     }
+    ]
+   },
+   {
+    "efo_term": "epithelioid hemangioendothelioma",
+    "mesh_heading": "Hemangioendothelioma, Epithelioid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03148275"
+     }
+    ]
+   },
+   {
+    "efo_term": "ameloblastoma",
+    "mesh_heading": "Ameloblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02367859"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04566133,NCT05874414"
+     }
+    ]
+   },
+   {
+    "efo_term": "undifferentiated carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03975231,NCT04739566"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04454476"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04201457,NCT04485559"
+     }
+    ]
+   },
+   {
+    "efo_term": "Histiocytosis",
+    "mesh_heading": "Histiocytosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04943224"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04326283"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastrointestinal stromal tumor",
+    "mesh_heading": "Gastrointestinal Stromal Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02342600"
+     }
+    ]
+   },
+   {
+    "efo_term": "meningioma",
+    "mesh_heading": "Meningioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03631953"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03428126"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01964924"
+     }
+    ]
+   },
+   {
+    "efo_term": "Craniopharyngioma",
+    "mesh_heading": "Craniopharyngioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05525273"
+     }
+    ]
+   },
+   {
+    "efo_term": "rosacea",
+    "mesh_heading": "Rosacea",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05616923"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00920140,NCT01037127,NCT01072175,NCT01138085,NCT01192165,NCT01231581,NCT01231594,NCT01248858,NCT01287546,NCT01328106,NCT01336634,NCT01371487,NCT01376310,NCT01387204,NCT01416337,NCT01476137,NCT01647659,NCT01658553,NCT01750918,NCT01938443,NCT01943864,NCT02034110,NCT02065063,NCT02083354,NCT02110355,NCT02124772,NCT02292732,NCT02925234,NCT02939846,NCT03899155,NCT05159245,NCT05876806"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01964924"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02881242"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06475989,NCT06482086"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract neoplasm",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04566133"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thyroid Gland Undifferentiated (Anaplastic) Carcinoma",
+    "mesh_heading": "Thyroid Carcinoma, Anaplastic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03085056,NCT04238624"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uveal Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01328106,NCT01979523,NCT05677373"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver cancer",
+    "mesh_heading": "Liver Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02292173"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05440942"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02230553,NCT02399943,NCT02703571,NCT03377361"
+     }
+    ]
+   },
+   {
+    "efo_term": "low grade glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04201457"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cerebral arteriovenous malformation",
+    "mesh_heading": "Intracranial Arteriovenous Malformations",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06098872"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2111289"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 163,
+  "earliest": {
+   "nct": "NCT01037127",
+   "start": "2009-11",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2013-05-29",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": true,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "glioma in label: confirm established / glioma-developed / glioma_label"
+  ]
+ }
+}

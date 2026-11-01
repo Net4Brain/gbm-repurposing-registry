@@ -1,0 +1,195 @@
+{
+ "moiety": "nabiximols",
+ "accessed_utc": "2026-11-01T16:36:35+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"nabiximols\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3833333",
+  "pref_name": "NABIXIMOLS",
+  "max_phase": 3.0,
+  "atc": [
+   "N02BG10"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "Fever",
+    "mesh_heading": "Fever",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N02BG10"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N02BG10"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01606189,NCT01606202,NCT01893424"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01975688"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01887301"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02956226"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tourette syndrome",
+    "mesh_heading": "Tourette Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03087201"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00872144,NCT05351801"
+     }
+    ]
+   },
+   {
+    "efo_term": "cerebral palsy",
+    "mesh_heading": "Cerebral Palsy",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01898520"
+     }
+    ]
+   },
+   {
+    "efo_term": "peripheral neuropathy",
+    "mesh_heading": "Peripheral Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03782402"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01037608,NCT01747850"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-traumatic stress disorder",
+    "mesh_heading": "Stress Disorders, Post-Traumatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04592159"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00202423,NCT00391079,NCT01599234,NCT01610700,NCT01610713,NCT04203498"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01812603,NCT01812616,NCT02432612"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 18,
+  "earliest": {
+   "nct": "NCT01610700",
+   "start": "2001-05",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

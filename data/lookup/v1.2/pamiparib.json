@@ -1,0 +1,210 @@
+{
+ "moiety": "pamiparib",
+ "accessed_utc": "2026-11-01T16:38:58+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"pamiparib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4112930",
+  "pref_name": "PAMIPARIB",
+  "max_phase": 3.0,
+  "atc": [
+   "L01XK06"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XK06"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02660034,NCT03150810,NCT03991494,NCT03994211,NCT05038839"
+     },
+     {
+      "type": "USAN",
+      "id": "PAMIPARIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03914742,NCT04614909"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03150862"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03427814"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03575065"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05044871,NCT05489926,NCT05669768"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03712930,NCT05327621"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract cancer",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04796454"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05483543"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05526924"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05573373"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04164199,NCT04985721"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06387056"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Poly [ADP-ribose] polymerase-1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3105"
+   },
+   {
+    "mechanism": "Poly [ADP-ribose] polymerase 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5366"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 17,
+  "earliest": {
+   "nct": "NCT03575065",
+   "start": "2018-06-22",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

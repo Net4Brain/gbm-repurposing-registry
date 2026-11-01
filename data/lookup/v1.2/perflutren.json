@@ -1,0 +1,264 @@
+{
+ "moiety": "perflutren",
+ "accessed_utc": "2026-11-01T16:40:51+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA021064",
+    "date": "2001-07-31",
+    "brand": [
+     "DEFINITY",
+     "DEFINITY RT"
+    ]
+   }
+  ],
+  "first_approval_date": "2001-07-31",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE DEFINITY RT is indicated, after activation, for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricular chamber and to improve the delineation of the left ventricular endocardial border. DEFINITY RT is an ultrasound contrast agent indicated, after activation, for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricular chamber and to improve the delineation of the left ventricular endocardial border. ( 1 )",
+   "1 INDICATIONS AND USAGE DEFINITY is indicated, after activation, for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricular chamber and to improve the delineation of the left ventricular endocardial border. DEFINITY is an ultrasound contrast agent indicated, after activation, for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricular chamber and to improve the delineation of the left ventricular endocardial border. ( 1 )",
+   "1 INDICATIONS AND USAGE OPTISON is indicated for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricle and to improve the delineation of the left ventricular endocardial borders. OPTISON is an ultrasound contrast agent indicated for use in adult and pediatric patients with suboptimal echocardiograms to opacify the left ventricle and to improve the delineation of the left ventricular endocardial borders ( 1 )."
+  ],
+  "query": "products.active_ingredients.name:\"perflutren\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Optison",
+    "status": "Authorised",
+    "authorisation_date": "1998-05-17",
+    "atc": "V08DA01",
+    "therapeutic_area": "Echocardiography",
+    "indication": "This medicinal product is for diagnostic use only. Optison is a transpulmonary echocardiographic contrast agent for use in patients with suspected or established cardiovascular disease to provide opacification of cardiac chambers, enhance left-ventricular-endocardial-border delineation with resulting improvement in wall-motion visualisation. Optison should only be used in patients where the study without contrast enhancement is inconclusive.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/optison"
+   },
+   {
+    "product": "Luminity",
+    "status": "Authorised",
+    "authorisation_date": "2006-09-20",
+    "atc": "V08DA04",
+    "therapeutic_area": "Echocardiography",
+    "indication": "This medicinal product is for diagnostic use only. Luminity is an ultrasound contrast-enhancing agent for use in patients in whom non-contrast echocardiography was suboptimal (suboptimal is considered to indicate that at least two of six segments in the 4- or 2-chamber view of the ventricular border were not evaluable) and who have suspected or established coronary artery disease, to provide opacification of cardiac chambers and improvement of left ventricular endocardial border delineation at both rest and stress.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/luminity"
+   }
+  ],
+  "first_authorisation_date": "1998-05-17"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1663",
+  "pref_name": "PERFLUTREN",
+  "max_phase": 4.0,
+  "atc": [],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03092089"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ischemic stroke",
+    "mesh_heading": "Ischemic Stroke",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00507806"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04431674,NCT06185972"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05620290"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04431648"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03199274"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04715958,NCT04721886,NCT06171607"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02967458"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05336786,NCT06024772"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05764642"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulsed doppler echocardiography",
+    "mesh_heading": "Echocardiography",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000166"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000654"
+     }
+    ]
+   },
+   {
+    "efo_term": "intrahepatic cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05328167"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney cancer",
+    "mesh_heading": "Kidney Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04021238"
+     }
+    ]
+   },
+   {
+    "efo_term": "compartment syndrome",
+    "mesh_heading": "Compartment Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05247541"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphedema",
+    "mesh_heading": "Lymphedema",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05613946"
+     }
+    ]
+   },
+   {
+    "efo_term": "bone sarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02384473"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Diagnostic agent",
+    "action_type": null,
+    "target": null
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 14,
+  "earliest": {
+   "nct": "NCT02967458",
+   "start": "2017-02-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1998-05-17",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

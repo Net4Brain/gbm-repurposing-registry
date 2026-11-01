@@ -1,0 +1,656 @@
+{
+ "moiety": "ritonavir",
+ "accessed_utc": "2026-11-01T16:42:25+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020659",
+    "date": "1996-03-01",
+    "brand": [
+     "NORVIR"
+    ]
+   },
+   {
+    "application": "NDA020680",
+    "date": "1996-03-01",
+    "brand": [
+     "NORVIR"
+    ]
+   },
+   {
+    "application": "NDA020945",
+    "date": "1999-06-29",
+    "brand": [
+     "NORVIR"
+    ]
+   },
+   {
+    "application": "NDA021226",
+    "date": "2000-09-15",
+    "brand": [
+     "KALETRA"
+    ]
+   },
+   {
+    "application": "NDA021251",
+    "date": "2000-09-15",
+    "brand": [
+     "KALETRA"
+    ]
+   },
+   {
+    "application": "NDA021906",
+    "date": "2005-10-28",
+    "brand": [
+     "KALETRA",
+     "KALETRA"
+    ]
+   },
+   {
+    "application": "NDA022417",
+    "date": "2010-02-10",
+    "brand": [
+     "NORVIR"
+    ]
+   },
+   {
+    "application": "NDA206619",
+    "date": "2014-12-19",
+    "brand": [
+     "VIEKIRA PAK (COPACKAGED)"
+    ]
+   },
+   {
+    "application": "NDA207931",
+    "date": "2015-07-24",
+    "brand": [
+     "TECHNIVIE"
+    ]
+   },
+   {
+    "application": "NDA208624",
+    "date": "2016-07-22",
+    "brand": [
+     "VIEKIRA XR"
+    ]
+   },
+   {
+    "application": "NDA209512",
+    "date": "2017-06-07",
+    "brand": [
+     "NORVIR"
+    ]
+   },
+   {
+    "application": "NDA217188",
+    "date": "2023-05-25",
+    "brand": [
+     "PAXLOVID (COPACKAGED)",
+     "PAXLOVID (COPACKAGED)"
+    ]
+   }
+  ],
+  "first_approval_date": "1996-03-01",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Lopinavir and ritonavir is indicated in combination with other antiretroviral agents for the treatment of HIV1 infection in adults and pediatric patients 14 days and older. Limitations of Use: Genotypic or phenotypic testing and/or treatment history should guide the use of lopinavir and ritonavir. The number of baseline lopinavir resistance-associated substitutions affects the virologic response to lopinavir and ritonavir [see Microbiology ( 12.4 )]. Lopinavir and ritonavir is an HIV-1 protease inhibitor indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection in adults and pediatric patients (14 days and older). ( 1 )",
+   "1 INDICATIONS AND USAGE NORVIR tablets are indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. NORVIR oral powder is indicated in combination with other antiretroviral agents for the treatment of pediatric patients with HIV-1 infection. NORVIR tablets are HIV protease inhibitors indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection ( 1 ) NORVIR oral powder is indicated in combination with other antiretroviral agents for the treatment of pediatric patients with HIV-1 infection ( 1 )",
+   "1 INDICATIONS AND USAGE Ritonavir tablets are indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. Ritonavir tablets are HIV protease inhibitors indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection ( 1 )",
+   "1 INDICATIONS AND USAGE Ritonavir tablets are indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection. Ritonavir tablets are HIV protease inhibitors indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection (1)"
+  ],
+  "query": "products.active_ingredients.name:\"ritonavir\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Norvir",
+    "status": "Authorised",
+    "authorisation_date": "1996-08-25",
+    "atc": "J05AE03",
+    "therapeutic_area": "HIV Infections",
+    "indication": "Ritonavir is indicated in combination with other antiretroviral agents for the treatment of HIV-1-infected patients (adults and children of two years of age and older).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/norvir"
+   }
+  ],
+  "first_authorisation_date": "1996-08-25"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL163",
+  "pref_name": "RITONAVIR",
+  "max_phase": 4.0,
+  "atc": [
+   "J05AE03"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "chronic hepatitis C virus infection",
+    "mesh_heading": "Hepatitis C, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00797745,NCT01074008,NCT01081158,NCT01185860,NCT01220947,NCT01221298,NCT01278134,NCT01306617,NCT01331850,NCT01464827,NCT01483742,NCT01563536,NCT01579019,NCT01609933,NCT01628094,NCT01672983,NCT01674725,NCT01685203,NCT01715415,NCT01716585,NCT01724086,NCT01749150,NCT01767116,NCT01782495,NCT01813552,NCT01833533,NCT01852604,NCT01854528,NCT01854697,NCT01911845,NCT02023099,NCT02068222,NCT02167945,NCT02216422,NCT02219490,NCT02356562,NCT02399345,NCT02442271,NCT02476617,NCT02486406,NCT02493855,NCT02504099,NCT02517528,NCT02555943,NCT02786537,NCT02806362,NCT02950870,NCT03020004,NCT03020082,NCT03020095,NCT03067883,NCT03485846,NCT04246723"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ab74e474-9fd6-902c-9bd9-16dc9541edd0"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000822,NCT00000891,NCT00000902,NCT00000906,NCT00000913,NCT00000918,NCT00000924,NCT00000940,NCT00000941,NCT00000952,NCT00001083,NCT00001087,NCT00001091,NCT00001108,NCT00001133,NCT00001688,NCT00001766,NCT00002178,NCT00002239,NCT00002241,NCT00002361,NCT00002374,NCT00002378,NCT00002440,NCT00002447,NCT00002448,NCT00002451,NCT00004578,NCT00004580,NCT00004581,NCT00004582,NCT00004583,NCT00004584,NCT00005017,NCT00005118,NCT00006144,NCT00006152,NCT00006154,NCT00006339,NCT00006397,NCT00006604,NCT00009061,NCT00012519,NCT00017992,NCT00025727,NCT00027339,NCT00028301,NCT00035932,NCT00036452,NCT00038220,NCT00038480,NCT00038519,NCT00038532,NCT00038636,NCT00039741,NCT00039975,NCT00040664,NCT00042289,NCT00043888,NCT00043953,NCT00043966,NCT00046033,NCT00050895,NCT00054717,NCT00056641,NCT00063804,NCT00071097,NCT00071760,NCT00074581,NCT00075907,NCT00084058,NCT00084149,NCT00084253,NCT00085943,NCT00086359,NCT00089505,NCT00089583,NCT00090779,NCT00099632,NCT00102206,NCT00102778,NCT00102960,NCT00105079,NCT00109590,NCT00110877,NCT00114933,NCT00118898,NCT00120393,NCT00120783,NCT00122226,NCT00122577,NCT00125983,NCT00135343,NCT00135395,NCT00135434,NCT00140751,NCT00143689,NCT00144170,NCT00144287,NCT00145561,NCT00148759,NCT00148785,NCT00158405,NCT00159224,NCT00162149,NCT00164736,NCT00196625,NCT00207142,NCT00224445,NCT00234091,NCT00234910,NCT00234923,NCT00234962,NCT00234975,NCT00242216,NCT00257621,NCT00258557,NCT00260078,NCT00262522,NCT00270296,NCT00281606,NCT00285883,NCT00296504,NCT00307151,NCT00307502,NCT00326716,NCT00335192,NCT00335270,NCT00335322,NCT00337467,NCT00342355,NCT00344123,NCT00355719,NCT00357188,NCT00357240,NCT00357604,NCT00358917,NCT00362726,NCT00365339,NCT00379405,NCT00381303,NCT00384904,NCT00386659,NCT00389402,NCT00393328,NCT00400738,NCT00409591,NCT00420355,NCT00421551,NCT00424814,NCT00427297,NCT00428116,NCT00433056,NCT00435929,NCT00440271,NCT00440947,NCT00443729,NCT00447902,NCT00450580,NCT00454337,NCT00460382,NCT00460746,NCT00513513,NCT00517192,NCT00524368,NCT00528060,NCT00528892,NCT00530920,NCT00531557,NCT00531999,NCT00532168,NCT00540137,NCT00544128,NCT00552240,NCT00573001,NCT00607958,NCT00611039,NCT00619944,NCT00621166,NCT00622141,NCT00622206,NCT00623597,NCT00624195,NCT00626301,NCT00627055,NCT00632970,NCT00640263,NCT00646776,NCT00648999,NCT00654147,NCT00661349,NCT00665951,NCT00677300,NCT00711009,NCT00717067,NCT00752037,NCT00757783,NCT00759070,NCT00762892,NCT00765154"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0b126fcd-2385-409f-9269-5bf886649c1a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "13b059c6-0c6c-49a5-b985-a4b05caf9ac9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "20f8c35b-bf1c-44cf-bdd7-01b56b85bc0c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2849298e-de6e-47bb-8194-56e075b33fc3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3fa34341-1dce-4bad-b97e-f466e96a0bbe"
+     },
+     {
+      "type": "DailyMed",
+      "id": "47fdef53-4060-4372-9b48-fdb39a7e3fd3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "68e860d7-4adc-418a-ba12-233ccdf85d0a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8290add3-4449-4e58-6c97-8fe1eec972e3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c7fc2d1e-802e-4da1-9763-3355f8aafe3a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d32822d2-940f-464f-b421-7768c6d3d00b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dac2ea61-f5ce-45b8-b4aa-d761c5aecd74"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e2f854cb-7f91-4269-ba67-97065ac8b4a0"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000127"
+     }
+    ]
+   },
+   {
+    "efo_term": "infection",
+    "mesh_heading": "Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00830804,NCT01033760,NCT01138605,NCT01139905,NCT01159275,NCT01281813,NCT02150993,NCT02486133,NCT02489487"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00144833,NCT00242879,NCT00355524,NCT00450580,NCT00534352,NCT00915655,NCT00919854,NCT00993148,NCT01192035,NCT01274780,NCT01345630,NCT01352715,NCT01391013,NCT01400412,NCT01511809,NCT01641367,NCT01702090,NCT01772940,NCT01966822,NCT02275780,NCT02397096,NCT02542852,NCT02770508,NCT03589027,NCT04022967,NCT06337032"
+     },
+     {
+      "type": "DailyMed",
+      "id": "47fdef53-4060-4372-9b48-fdb39a7e3fd3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4f314d1a-237a-464f-e054-00144ff8d46c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8290add3-4449-4e58-6c97-8fe1eec972e3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "db633374-6d8e-4622-9fe1-f9d68baa59bb"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis C virus infection",
+    "mesh_heading": "Hepatitis C",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00833378,NCT00850044,NCT00909311,NCT00931281,NCT01074008,NCT01221298,NCT01323257,NCT01332552,NCT01458054,NCT01458535,NCT01773070,NCT01825980,NCT02023112,NCT02068222,NCT02159352,NCT02194998,NCT02265237,NCT02460133,NCT02476617,NCT02487199,NCT02517515,NCT02517528,NCT02582632,NCT02609659,NCT02634008,NCT03288636,NCT03341988,NCT03362814,NCT03833362"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ab74e474-9fd6-902c-9bd9-16dc9541edd0"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary arterial hypertension",
+    "mesh_heading": "Hypertension, Pulmonary",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01251848,NCT02023450"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis D virus infection",
+    "mesh_heading": "Hepatitis D",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02430181,NCT02430194,NCT02511431,NCT02527707,NCT02968641,NCT03600714,NCT03719313,NCT05229991"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02770378"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypertension",
+    "mesh_heading": "Hypertension",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00039975"
+     }
+    ]
+   },
+   {
+    "efo_term": "Kaposi's sarcoma",
+    "mesh_heading": "Sarcoma, Kaposi",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00834457"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003008"
+     }
+    ]
+   },
+   {
+    "efo_term": "AIDS",
+    "mesh_heading": "Acquired Immunodeficiency Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001968,NCT00433056,NCT00855088,NCT00896051,NCT00966160,NCT00985543,NCT01146873,NCT01448707,NCT02016924,NCT02155101,NCT02219672,NCT02284035,NCT02369965,NCT03602690"
+     }
+    ]
+   },
+   {
+    "efo_term": "malaria",
+    "mesh_heading": "Malaria",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01156389"
+     }
+    ]
+   },
+   {
+    "efo_term": "insulin resistance",
+    "mesh_heading": "Insulin Resistance",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02203461"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis B virus infection",
+    "mesh_heading": "Hepatitis B, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02555943"
+     }
+    ]
+   },
+   {
+    "efo_term": "erectile dysfunction",
+    "mesh_heading": "Erectile Dysfunction",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00770042"
+     }
+    ]
+   },
+   {
+    "efo_term": "Mycobacterium avium complex disease",
+    "mesh_heading": "Mycobacterium avium-intracellulare Infection",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001058"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03832426,NCT05005312"
+     }
+    ]
+   },
+   {
+    "efo_term": "pregnancy",
+    "mesh_heading": "Pregnancy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00125983"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03383692"
+     }
+    ]
+   },
+   {
+    "efo_term": "viral disease",
+    "mesh_heading": "Virus Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "J05AE03"
+     }
+    ]
+   },
+   {
+    "efo_term": "Middle East respiratory syndrome",
+    "mesh_heading": "Coronavirus Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02845843"
+     }
+    ]
+   },
+   {
+    "efo_term": "severe acute respiratory syndrome",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04381936"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute respiratory distress syndrome",
+    "mesh_heading": "Respiratory Distress Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04390152"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02735707,NCT04261270,NCT04276688,NCT04303299,NCT04307693,NCT04315948,NCT04328285,NCT04331470,NCT04343768,NCT04351724,NCT04354428,NCT04364022,NCT04365582,NCT04372628,NCT04409483,NCT04459286,NCT04459702,NCT04466241,NCT04483960,NCT04499677,NCT04521400,NCT04960202,NCT05011513,NCT05011812,NCT05047601,NCT05261139,NCT05321394,NCT05369676,NCT05386472,NCT05438602,NCT05458076,NCT05487040,NCT05545319,NCT05567952,NCT05601167,NCT05656443,NCT05829551,NCT05925140,NCT06084507"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04909853"
+     }
+    ]
+   },
+   {
+    "efo_term": "pneumonia",
+    "mesh_heading": "Pneumonia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02735707"
+     }
+    ]
+   },
+   {
+    "efo_term": "anal neoplasm",
+    "mesh_heading": "Anus Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05334004"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronavirus infectious disease",
+    "mesh_heading": "Coronavirus Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04321174"
+     }
+    ]
+   },
+   {
+    "efo_term": "influenza",
+    "mesh_heading": "Influenza, Human",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02735707"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02437110"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01571414"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05679388"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00637637"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05150691"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05679388"
+     }
+    ]
+   },
+   {
+    "efo_term": "long COVID-19",
+    "mesh_heading": "Post-Acute COVID-19 Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05576662,NCT05668091"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06428045"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Human immunodeficiency virus type 1 protease inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL243"
+   },
+   {
+    "mechanism": "Cytochrome P450 3A inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2364675"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 381,
+  "earliest": {
+   "nct": "NCT00004578",
+   "start": "1997-11",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1996-03-01",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

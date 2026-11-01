@@ -1,0 +1,90 @@
+{
+ "moiety": "onfekafusp alfa",
+ "accessed_utc": "2026-11-01T16:38:46+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"onfekafusp alfa\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4298007",
+  "pref_name": "ONFEKAFUSP ALFA",
+  "max_phase": 3.0,
+  "atc": [],
+  "molecule_type": "Protein",
+  "indications": [
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04032964,NCT04650984,NCT04733183"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04443010,NCT04573192,NCT05304663,NCT06336291"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06284590"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03779230"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 4,
+  "earliest": {
+   "nct": "NCT04650984",
+   "start": "2017-11-29",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}
