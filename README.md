@@ -4,32 +4,34 @@ Code, frozen data snapshots and AI-coding records for a registry-based cross-sec
 *Repurposed drugs in the contemporary glioblastoma clinical trial landscape: a registry-based analysis*
 (target journal: Neuro-Oncology Advances). Corresponding author: Xinzhong Li, Teesside University.
 
-**Status:** protocol finalised, calibration of the AI coders in progress; OSF registration pending. Results are not yet available.
+**Status:** protocol finalised; AI coders calibrated in two rounds; coding manual **v1.2 frozen** for the main pass (`FROZEN_v1.2.sha256`). OSF registration pending. Results are not yet available.
 
 ## What the study does
 - **Cohort:** interventional adult glioblastoma drug trials on ClinicalTrials.gov that started between 2020-01-01 and 2026-07-31, regardless of status. Trials active on 2026-07-31 form a secondary subset.
 - **Classification:** every experimental agent is classified, at the start date of the trial it is in, as *de novo* (1), approved-drug repurposing (2a non-oncology, 2b other-tumour oncology, 2c tumour-agnostic) or investigational repositioning (3). Classification uses FDA, EMA and ChEMBL records.
 - **Primary comparison:** candidate-matched molecular selection in repurposing-containing vs *de novo*-only trials.
 
-The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D18) and [`coding_manual.md`](coding_manual.md).
+The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D19) and [`coding_manual_v1.2.md`](coding_manual_v1.2.md) (frozen; v1.0 and v1.1 are kept for the record).
 
 ## Repository layout
 | Path | Contents |
 |---|---|
 | `protocol_decisions.md` | Dated, frozen protocol decisions and amendments |
-| `coding_manual.md`, `schema/`, `prompts/` | Exactly what the AI coders and human adjudicators work from |
+| `coding_manual_v1.2.md`, `schema/*.v1.2.json`, `prompts/*_v1.2.md` | Frozen versions the AI coders and human adjudicators work from (older versions kept alongside) |
+| `FROZEN_v1.2.sha256` | Checksums of the frozen manual, schema, prompts and coding scripts |
 | `scripts/01_retrieve_ctgov.py` | Main ClinicalTrials.gov retrieval (API v2) |
 | `scripts/02_supplementary_search.py` | CNS5 / brain-tumour / eligibility-text supplementary search |
 | `scripts/03_build_coder_input.py` | Identical plain-text input for both coders, one per trial |
 | `scripts/04_select_calibration.py` | Stratified 40-record calibration sample (seed 20261101) |
 | `scripts/05_lookup_drugs.py` | FDA / EMA / ChEMBL lookups per active moiety (cached in `data/lookup/v1.2/`) |
 | `scripts/06_derive_origin.py` | Drug-origin decision tree (coding manual §4.2) |
-| `scripts/07_compare_coders.py` | Coder A vs B comparison, adjudication queue, κ / PABAK / AC1 |
+| `scripts/07_compare_coders.py` | Coder A vs B comparison, adjudication queue, κ / PABAK / AC1 (optional schema argument) |
 | `scripts/00_fetch_redo.sh` | Downloads ReDO_Trials_DB and checks it against the frozen checksum |
 | `data/raw/` | Frozen registry snapshots and EMA report (checksums in `CHECKSUMS.sha256`) |
 | `data/processed/` | Screening additions, calibration set |
 | `data/coder_input/` | The 870 coder input files |
-| `outputs/calibration/` | Coder A/B outputs, adjudication queue, agreement, calibration report |
+| `outputs/calibration/` | Calibration round 1 (manual v1.0): coder A/B outputs, adjudication queue, agreement, report |
+| `outputs/calibration_r2/` | Calibration round 2 (manual v1.1): same 40 records, outputs, agreement, report |
 | `logs/` | Exact queries and hit counts for every retrieval |
 
 ## Reproducing the analysis
