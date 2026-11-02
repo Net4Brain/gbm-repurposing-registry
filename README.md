@@ -4,7 +4,7 @@ Code, frozen data snapshots and AI-coding records for a registry-based cross-sec
 *Repurposed drugs in the contemporary glioblastoma clinical trial landscape: a registry-based analysis*
 (target journal: Neuro-Oncology Advances). Corresponding author: Xinzhong Li, Teesside University.
 
-**Status:** coding manual **v1.4 frozen** for the main pass (`FROZEN_v1.4.sha256`), after three calibration rounds and a methods review (2026-11-02). v1.2 was frozen earlier but superseded before any main pass. OSF registration pending. No main-pass coding has been done and results are not yet available.
+**Status:** coding manual **v1.4 frozen** for the main pass (`FROZEN_v1.4.sha256`), after three calibration rounds and a methods review (2026-11-02). v1.2 was frozen earlier but superseded before any main pass. Registered on OSF (https://osf.io/gn8v5, embargoed, 2026-11-02). Two-expert validation sample of 100 records drawn (D28). No main-pass coding has been done and results are not yet available.
 
 ## What the study does
 - **Cohort:** interventional adult glioblastoma drug trials on ClinicalTrials.gov that started between 2020-01-01 and 2026-07-31, regardless of status. Trials active on 2026-07-31 form a secondary subset.
@@ -33,7 +33,8 @@ The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D27
 | `scripts/06_derive_origin_v2.py` | Drug-origin decision tree from dated events, with `UNRESOLVED` gate (manual v1.3 §4.2) |
 | `scripts/07_compare_coders.py` | Coder comparison used for rounds 1–2 (kept unchanged) |
 | `scripts/07_compare_coders_v2.py` | Full-field coder comparison checked against the expected record list, plus an outcome-relevant biomarker check |
-| `scripts/08_draw_validation_sample.py` | Draws the blinded human validation sample of AI-agreed negatives and exclusions (D21) |
+| `scripts/08_draw_validation_sample.py` | Negatives-only validation sample (D21; superseded by D28, not used) |
+| `scripts/08b_draw_expert_sample.py` | Draws the 100-record two-expert validation sample (D28) |
 | `scripts/00_fetch_redo.sh` | Downloads ReDO_Trials_DB and stops with an error if it differs from the frozen checksum |
 | `data/raw/` | Frozen registry snapshots and EMA report (checksums in `CHECKSUMS.sha256`) |
 | `data/processed/` | Screening additions, calibration set |
