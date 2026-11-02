@@ -10,6 +10,8 @@ Checks
   - per agent (matched by normalised moiety): every field except free text and evidence
   - agents present in one coder's output only
   - per biomarker: the set of (biomarker, other, role, candidate_matched, matched_agent) tuples
+  - outcome-relevant biomarkers only: selection rows (eligibility = enrichment) as
+    (biomarker, candidate_matched, matched_agent); free text of 'other' and non-selection rows ignored
   - quotes not verbatim in the coder input
   - uncertain flags
 Agreement statistics (kappa, PABAK, AC1) are reported for the trial-level variables of v1.0 plus the
@@ -77,14 +79,21 @@ def biomarker_set(d):
             for b in d["biomarkers"]}
 
 
+def selection_set(d):
+    return {(b["biomarker"], b["candidate_matched"], norm(b.get("matched_agent") or ""))
+            for b in d["biomarkers"] if b["role"] in ("eligibility", "enrichment")}
+
+
 def main(run_dir, schema_path, manifest=None):
     run = Path(run_dir)
     schema = json.loads(Path(schema_path).read_text())
+    trial_props = schema["properties"]["trial"]["properties"]
+    stats_vars = [k for k in STATS if k in SCREEN or k in trial_props or k not in TRIAL]   # skip fields absent from this schema version
     if manifest:
         ids = [l.strip() for l in open(manifest) if l.strip()]
     else:
         ids = [l.strip() for p in sorted((run / "batches").glob("*.txt")) for l in open(p) if l.strip()]
-    queue, pairs = [], {k: [] for k in STATS}
+    queue, pairs = [], {k: [] for k in stats_vars}
     extra = {p.stem for c in "AB" for p in (run / f"coder{c}").glob("NCT*.json")} - set(ids)
     for nct in sorted(extra):
         queue.append([nct, "unexpected_output", "not in manifest", "", ""])
@@ -109,7 +118,7 @@ def main(run_dir, schema_path, manifest=None):
             continue
         A, B = docs["A"], docs["B"]
         va, vb = trial_values(A), trial_values(B)
-        for k in STATS:
+        for k in stats_vars:
             pairs[k].append((va[k], vb[k]))
         for k in sorted(set(va) | set(vb)):
             if va.get(k) != vb.get(k):
@@ -130,6 +139,11 @@ def main(run_dir, schema_path, manifest=None):
             queue.append([nct, "disagreement", "biomarker_only_in_A", json.dumps(t), ""])
         for t in sorted(bb - ba, key=str):
             queue.append([nct, "disagreement", "biomarker_only_in_B", "", json.dumps(t)])
+        sa, sb = selection_set(A), selection_set(B)
+        for t in sorted(sa - sb, key=str):
+            queue.append([nct, "disagreement_outcome", "selection_biomarker_only_in_A", json.dumps(t), ""])
+        for t in sorted(sb - sa, key=str):
+            queue.append([nct, "disagreement_outcome", "selection_biomarker_only_in_B", "", json.dumps(t)])
         for c in "AB":
             for item, reason in uncertain_items(docs[c]):
                 queue.append([nct, "uncertain", f"coder {c}: {item}", reason, ""])

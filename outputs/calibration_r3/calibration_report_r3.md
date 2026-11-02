@@ -8,7 +8,7 @@ Date: 2026-11-02.
 - **Coders:** A = Claude Opus 5.5, B = Claude Sonnet 5.5; 2 batches of 10 each; fresh contexts.
 - **Comparison:** `scripts/07_compare_coders_v2.py` checks every field against the 20-record manifest.
 
-Files: `coderA/`, `coderB/`, `run_log.tsv` (one per coder), `adjudication_queue.csv` (79 rows), `agreement.csv`.
+Files: `coderA/`, `coderB/`, `run_log.tsv` (one per coder), `adjudication_queue.csv` (81 rows, including 2 outcome-relevant biomarker rows added by the W6 check), `agreement.csv`.
 
 ## 1. Run integrity
 - All 40 outputs were produced and validate against schema v1.3, and both run logs are complete (20 lines each).

@@ -4,21 +4,22 @@ Code, frozen data snapshots and AI-coding records for a registry-based cross-sec
 *Repurposed drugs in the contemporary glioblastoma clinical trial landscape: a registry-based analysis*
 (target journal: Neuro-Oncology Advances). Corresponding author: Xinzhong Li, Teesside University.
 
-**Status:** coding manual **v1.3** (after the methods review of 2026-11-02) in calibration round 3; v1.2 was frozen but superseded before any main pass. OSF registration pending. No main-pass coding has been done and results are not yet available.
+**Status:** coding manual **v1.4 frozen** for the main pass (`FROZEN_v1.4.sha256`), after three calibration rounds and a methods review (2026-11-02). v1.2 was frozen earlier but superseded before any main pass. OSF registration pending. No main-pass coding has been done and results are not yet available.
 
 ## What the study does
 - **Cohort:** interventional adult glioblastoma drug trials on ClinicalTrials.gov that started between 2020-01-01 and 2026-07-31, regardless of status. Trials active on 2026-07-31 form a secondary subset.
 - **Classification:** every experimental agent is classified, at the start date of the trial it is in, as *de novo* (1), approved-drug repurposing (2a non-oncology, 2b other-tumour oncology, 2c tumour-agnostic) or investigational repositioning (3). Classification uses FDA, EMA and ChEMBL records.
 - **Primary comparison:** candidate-matched molecular selection in repurposing-containing vs *de novo*-only trials.
 
-The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D26) and [`coding_manual_v1.3.md`](coding_manual_v1.3.md) (current; v1.0–v1.2 are kept for the record).
+The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D27) and [`coding_manual_v1.4.md`](coding_manual_v1.4.md) (frozen; v1.0–v1.3 are kept for the record).
 
 ## Repository layout
 | Path | Contents |
 |---|---|
 | `protocol_decisions.md` | Dated, frozen protocol decisions and amendments |
-| `coding_manual_v1.3.md`, `schema/*.v1.3.json`, `prompts/*_v1.3.md` | Current versions the AI coders and human adjudicators work from (older versions kept alongside) |
-| `FROZEN_v1.2.sha256` | Checksums of the v1.2 freeze (historical; a v1.3 freeze file follows calibration round 3) |
+| `coding_manual_v1.4.md`, `schema/*.v1.4.json`, `prompts/*_v1.4.md` | Frozen versions the AI coders and human adjudicators work from (older versions kept alongside) |
+| `FROZEN_v1.4.sha256` | Checksums of the frozen manual, schema, prompts, decision log, scripts and tests for the main pass |
+| `FROZEN_v1.2.sha256` | Checksums of the earlier v1.2 freeze (historical) |
 | `data/reference/` | Dated regulatory event and development event tables (human-reviewed; D20) |
 | `tests/` | Tests for the origin rules |
 | `scripts/01_retrieve_ctgov.py` | Main ClinicalTrials.gov retrieval (API v2) |
@@ -31,13 +32,16 @@ The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D26
 | `scripts/06_derive_origin.py` | Drug-origin decision tree, v1.2 (superseded; kept unchanged) |
 | `scripts/06_derive_origin_v2.py` | Drug-origin decision tree from dated events, with `UNRESOLVED` gate (manual v1.3 §4.2) |
 | `scripts/07_compare_coders.py` | Coder comparison used for rounds 1–2 (kept unchanged) |
-| `scripts/07_compare_coders_v2.py` | Full-field coder comparison checked against the expected record list |
+| `scripts/07_compare_coders_v2.py` | Full-field coder comparison checked against the expected record list, plus an outcome-relevant biomarker check |
+| `scripts/08_draw_validation_sample.py` | Draws the blinded human validation sample of AI-agreed negatives and exclusions (D21) |
 | `scripts/00_fetch_redo.sh` | Downloads ReDO_Trials_DB and stops with an error if it differs from the frozen checksum |
 | `data/raw/` | Frozen registry snapshots and EMA report (checksums in `CHECKSUMS.sha256`) |
 | `data/processed/` | Screening additions, calibration set |
 | `data/coder_input/` | Coder input files for the 870 **screening records** (not 870 eligible trials) |
 | `outputs/calibration/` | Calibration round 1 (manual v1.0): coder A/B outputs, adjudication queue, agreement, report |
 | `outputs/calibration_r2/` | Calibration round 2 (manual v1.1): same 40 records, outputs, agreement, report |
+| `outputs/calibration_r3/` | Calibration round 3 (manual v1.3): 20 fresh records, outputs, run logs, agreement, report |
+| `outputs/supplementary_filter_audit.md` | Reproduction of the 36 supplementary additions and audit of the 797 rejected records |
 | `logs/` | Exact queries and hit counts for every retrieval |
 
 ## Reproducing the analysis

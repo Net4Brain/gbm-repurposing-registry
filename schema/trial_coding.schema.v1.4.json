@@ -1,0 +1,405 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trial_coding.schema.v1.4.json",
+  "title": "LLM coder output for one trial (coding manual v1.4, [LLM] variables only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "nct_id",
+    "coder_id",
+    "manual_version",
+    "screening",
+    "trial",
+    "agents",
+    "biomarkers"
+  ],
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field",
+        "quote"
+      ],
+      "properties": {
+        "field": {
+          "enum": [
+            "title",
+            "conditions",
+            "keywords",
+            "brief_summary",
+            "detailed_description",
+            "eligibility",
+            "arms",
+            "interventions",
+            "outcomes",
+            "design",
+            "sponsor"
+          ]
+        },
+        "quote": {
+          "type": "string",
+          "maxLength": 300,
+          "not": {
+            "pattern": "\\.\\.\\.|…"
+          }
+        }
+      }
+    },
+    "flag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "uncertain"
+      ],
+      "properties": {
+        "uncertain": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "nct_id": {
+      "type": "string",
+      "pattern": "^NCT\\d{8}$"
+    },
+    "coder_id": {
+      "enum": [
+        "A",
+        "B",
+        "human"
+      ]
+    },
+    "manual_version": {
+      "const": "1.4"
+    },
+    "screening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gbm_population",
+        "gbm_population_evidence",
+        "gbm_population_flag",
+        "has_eligible_candidate",
+        "candidate_exclusion_reason",
+        "candidate_evidence",
+        "candidate_flag",
+        "cns5_terminology"
+      ],
+      "properties": {
+        "gbm_population": {
+          "enum": [
+            "gbm_only",
+            "mixed_glioma_gbm_named",
+            "basket_gbm_eligible",
+            "high_grade_glioma_unspecified",
+            "gbm_excluded",
+            "anti_gbm_disease",
+            "not_glioblastoma"
+          ]
+        },
+        "gbm_population_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "gbm_population_flag": {
+          "$ref": "#/$defs/flag"
+        },
+        "has_eligible_candidate": {
+          "type": "boolean"
+        },
+        "candidate_exclusion_reason": {
+          "enum": [
+            "none",
+            "no_pharmacological_candidate",
+            "excluded_intervention_type",
+            "established_therapy_only"
+          ]
+        },
+        "candidate_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "candidate_flag": {
+          "$ref": "#/$defs/flag"
+        },
+        "cns5_terminology": {
+          "enum": [
+            "cns5",
+            "historical",
+            "unclear"
+          ]
+        }
+      }
+    },
+    "trial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "treatment_setting",
+        "treatment_setting_evidence",
+        "regimen",
+        "combination_partners",
+        "basket",
+        "control_arm_from_other_arms",
+        "flag",
+        "tumour_pk_planned",
+        "tumour_pk_planned_evidence",
+        "target_engagement_planned",
+        "target_engagement_planned_evidence"
+      ],
+      "properties": {
+        "treatment_setting": {
+          "enum": [
+            "newly_diagnosed",
+            "recurrent",
+            "both",
+            "unclear"
+          ]
+        },
+        "treatment_setting_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "regimen": {
+          "enum": [
+            "monotherapy",
+            "combination",
+            "unclear",
+            "not_applicable"
+          ]
+        },
+        "combination_partners": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "basket": {
+          "type": "boolean"
+        },
+        "control_arm_from_other_arms": {
+          "enum": [
+            "yes",
+            "no",
+            "not_applicable"
+          ]
+        },
+        "flag": {
+          "$ref": "#/$defs/flag"
+        },
+        "tumour_pk_planned": {
+          "enum": [
+            "yes",
+            "no",
+            "unclear"
+          ]
+        },
+        "tumour_pk_planned_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "target_engagement_planned": {
+          "enum": [
+            "yes",
+            "no",
+            "unclear"
+          ]
+        },
+        "target_engagement_planned_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "agent_name_registered",
+          "active_moiety",
+          "role",
+          "role_evidence",
+          "delivery_enabling",
+          "device_dependent",
+          "formulation_flag",
+          "fixed_dose_combination",
+          "radiopharmaceutical",
+          "regimen_id",
+          "drug_class_hint",
+          "stated_antitumour_mechanism",
+          "flag",
+          "arms"
+        ],
+        "properties": {
+          "agent_name_registered": {
+            "type": "string"
+          },
+          "active_moiety": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "experimental_monotherapy",
+              "experimental_combination",
+              "soc_backbone",
+              "control_comparator",
+              "supportive",
+              "established_therapy_experiment",
+              "delivery_enabling_agent",
+              "excluded_intervention_type",
+              "diagnostic_agent"
+            ]
+          },
+          "role_evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            },
+            "minItems": 1
+          },
+          "delivery_enabling": {
+            "type": "boolean"
+          },
+          "formulation_flag": {
+            "enum": [
+              "none",
+              "new_formulation",
+              "new_route",
+              "prodrug",
+              "biosimilar"
+            ]
+          },
+          "fixed_dose_combination": {
+            "type": "boolean"
+          },
+          "radiopharmaceutical": {
+            "type": "boolean"
+          },
+          "regimen_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "drug_class_hint": {
+            "type": "string"
+          },
+          "stated_antitumour_mechanism": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "flag": {
+            "$ref": "#/$defs/flag"
+          },
+          "device_dependent": {
+            "type": "boolean"
+          },
+          "arms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "biomarkers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "biomarker",
+          "biomarker_other",
+          "role",
+          "candidate_matched",
+          "matched_agent",
+          "source_quote",
+          "flag",
+          "arms"
+        ],
+        "properties": {
+          "biomarker": {
+            "enum": [
+              "MGMT",
+              "IDH",
+              "EGFR_EGFRvIII",
+              "BRAF",
+              "NTRK",
+              "H3K27M",
+              "CDKN2A_B",
+              "PTEN_PI3K",
+              "CDK4_6_pathway",
+              "FGFR",
+              "MET",
+              "PD_L1",
+              "TMB_MMR",
+              "other"
+            ]
+          },
+          "biomarker_other": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "role": {
+            "enum": [
+              "eligibility",
+              "enrichment",
+              "stratification",
+              "pharmacodynamic",
+              "exploratory_correlative"
+            ]
+          },
+          "candidate_matched": {
+            "type": "boolean"
+          },
+          "matched_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_quote": {
+            "$ref": "#/$defs/evidence"
+          },
+          "flag": {
+            "$ref": "#/$defs/flag"
+          },
+          "arms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "coder_notes": {
+      "type": "string",
+      "description": "Top-level free-text notes for the human adjudicator. Allowed and encouraged."
+    }
+  }
+}
