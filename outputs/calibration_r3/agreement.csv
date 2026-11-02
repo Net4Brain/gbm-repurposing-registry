@@ -1,0 +1,15 @@
+variable,n,pct_agree,kappa,pabak,gwet_ac1,categories
+gbm_population,20,0.9,0.852,0.875,0.88,5
+has_eligible_candidate,20,1.0,1.0,1.0,1.0,2
+candidate_exclusion_reason,20,1.0,1.0,1.0,1.0,3
+cns5_terminology,20,1.0,1.0,1.0,1.0,3
+treatment_setting,20,1.0,1.0,1.0,1.0,4
+regimen,20,1.0,1.0,1.0,1.0,3
+basket,20,1.0,1.0,1.0,1.0,2
+control_arm_from_other_arms,20,0.85,0.72,0.775,0.797,3
+industry_support_in_text,20,0.45,0.068,-0.1,0.02,2
+tumour_pk_planned,20,0.95,0.836,0.925,0.941,3
+target_engagement_planned,20,0.95,0.911,0.925,0.931,3
+candidate_set,20,0.95,0.943,0.947,0.947,16
+candidate_matched_selection,20,1.0,1.0,1.0,1.0,2
+any_molecular_selection,20,1.0,1.0,1.0,1.0,2

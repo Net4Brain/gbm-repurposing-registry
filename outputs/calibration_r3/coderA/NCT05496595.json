@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT05496595",
+  "coder_id": "A",
+  "manual_version": "1.3",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced or Metastatic Solid Tumors"},
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed incurable or metastatic solid tumors - colorectal, gastric, non-small cell lung, renal cell, breast, hepatocellular, ovarian, cervical cancer, GBM or with a potential benefit from PD-1/PD-L1 blockade"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Study DCBY02-101 is a multicenter, open-label, Phase 1 study to assess the effects of anti-CD93 mAb (DCBY02) as a monotherapy in patients with advanced or metastatic solid tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The malignancy must have progressed after at least 1 available standard therapy for incurable disease, and the patient has failed or is intolerant to all available therapies known to be active for the malignancy and have meaningful impact on the disease."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters of DCBY02: maximum observed concentration (Cmax)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "arms", "quote": "Dose expansion to further investigate safety, tolerability, and preliminary evidence of antitumor activity and characterize PK and PD of DCBY02."},
+      {"field": "eligibility", "quote": "Patients with unresectable or metastatic solid tumors, except for patients with GBM, must have a lesion that can be biopsied with acceptable clinical risk and agree to have a fresh biopsy at Screening and an on-treatment biopsy."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DCBY02",
+      "active_moiety": "dcby02",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A monoclonal antibody that binds to CD93, DCBY02 will be administered as a single intravenous (IV) infusion on Day 1 in each 21-day cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-CD93 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part 1: Dose Escalation", "Part 2: Dose Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour basket; GBM explicitly named in inclusion criteria -> basket_gbm_eligible. Population is progressive after standard therapy -> recurrent. tumour_pk_planned coded unclear per manual because PK outcomes (Cmax, AUC, CL, Vz, t1/2) do not state the matrix; these are most likely serum/plasma parameters. target_engagement_planned coded yes because PD of DCBY02 is a stated objective with paired screening/on-treatment tumour biopsies (GBM patients exempt from biopsy); the PD markers themselves are not specified. No stated antitumour mechanism beyond CD93 binding; 'hypoxia associated with resistance to PD-1 blockade' is a disease-selection rationale, not a molecular biomarker requirement, so no biomarker rows. ADA/NAb are not tumour biomarkers."
+}

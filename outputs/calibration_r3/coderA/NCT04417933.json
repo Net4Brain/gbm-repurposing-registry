@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04417933",
+  "coder_id": "A",
+  "manual_version": "1.3",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with pathological diagnosis of glioblastoma at first surgery (WHO Grade IV, supratentorial location);"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients wear two pairs of electrodes on the head for 19-22 hours a day."},
+      {"field": "arms", "quote": "All patients will receive Tumor Electric Fields Treatment System."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "With imaging or pathological evidence of tumor recurrence;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 device-only trial (tumour treating fields, ASCLU-300) in recurrent GBM. No drug or biologic intervention, so agents is empty and the trial has no pharmacological candidate (device = excluded intervention type). 'WHO Grade IV' without a WHO edition or IDH requirement -> cns5_terminology unclear."
+}

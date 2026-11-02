@@ -4,32 +4,38 @@ Code, frozen data snapshots and AI-coding records for a registry-based cross-sec
 *Repurposed drugs in the contemporary glioblastoma clinical trial landscape: a registry-based analysis*
 (target journal: Neuro-Oncology Advances). Corresponding author: Xinzhong Li, Teesside University.
 
-**Status:** protocol finalised; AI coders calibrated in two rounds; coding manual **v1.2 frozen** for the main pass (`FROZEN_v1.2.sha256`). OSF registration pending. Results are not yet available.
+**Status:** coding manual **v1.3** (after the methods review of 2026-11-02) in calibration round 3; v1.2 was frozen but superseded before any main pass. OSF registration pending. No main-pass coding has been done and results are not yet available.
 
 ## What the study does
 - **Cohort:** interventional adult glioblastoma drug trials on ClinicalTrials.gov that started between 2020-01-01 and 2026-07-31, regardless of status. Trials active on 2026-07-31 form a secondary subset.
 - **Classification:** every experimental agent is classified, at the start date of the trial it is in, as *de novo* (1), approved-drug repurposing (2a non-oncology, 2b other-tumour oncology, 2c tumour-agnostic) or investigational repositioning (3). Classification uses FDA, EMA and ChEMBL records.
 - **Primary comparison:** candidate-matched molecular selection in repurposing-containing vs *de novo*-only trials.
 
-The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D19) and [`coding_manual_v1.2.md`](coding_manual_v1.2.md) (frozen; v1.0 and v1.1 are kept for the record).
+The full rules are in [`protocol_decisions.md`](protocol_decisions.md) (D1–D26) and [`coding_manual_v1.3.md`](coding_manual_v1.3.md) (current; v1.0–v1.2 are kept for the record).
 
 ## Repository layout
 | Path | Contents |
 |---|---|
 | `protocol_decisions.md` | Dated, frozen protocol decisions and amendments |
-| `coding_manual_v1.2.md`, `schema/*.v1.2.json`, `prompts/*_v1.2.md` | Frozen versions the AI coders and human adjudicators work from (older versions kept alongside) |
-| `FROZEN_v1.2.sha256` | Checksums of the frozen manual, schema, prompts and coding scripts |
+| `coding_manual_v1.3.md`, `schema/*.v1.3.json`, `prompts/*_v1.3.md` | Current versions the AI coders and human adjudicators work from (older versions kept alongside) |
+| `FROZEN_v1.2.sha256` | Checksums of the v1.2 freeze (historical; a v1.3 freeze file follows calibration round 3) |
+| `data/reference/` | Dated regulatory event and development event tables (human-reviewed; D20) |
+| `tests/` | Tests for the origin rules |
 | `scripts/01_retrieve_ctgov.py` | Main ClinicalTrials.gov retrieval (API v2) |
 | `scripts/02_supplementary_search.py` | CNS5 / brain-tumour / eligibility-text supplementary search |
 | `scripts/03_build_coder_input.py` | Identical plain-text input for both coders, one per trial |
 | `scripts/04_select_calibration.py` | Stratified 40-record calibration sample (seed 20261101) |
 | `scripts/05_lookup_drugs.py` | FDA / EMA / ChEMBL lookups per active moiety (cached in `data/lookup/v1.2/`) |
-| `scripts/06_derive_origin.py` | Drug-origin decision tree (coding manual §4.2) |
-| `scripts/07_compare_coders.py` | Coder A vs B comparison, adjudication queue, κ / PABAK / AC1 (optional schema argument) |
-| `scripts/00_fetch_redo.sh` | Downloads ReDO_Trials_DB and checks it against the frozen checksum |
+| `scripts/02b_filter_supplementary.py` | Rule that selects the 36 supplementary records for screening; writes the rejected list for audit |
+| `scripts/04b_select_calibration_r3.py` | 20 fresh records for calibration round 3 (seed 20261102) |
+| `scripts/06_derive_origin.py` | Drug-origin decision tree, v1.2 (superseded; kept unchanged) |
+| `scripts/06_derive_origin_v2.py` | Drug-origin decision tree from dated events, with `UNRESOLVED` gate (manual v1.3 §4.2) |
+| `scripts/07_compare_coders.py` | Coder comparison used for rounds 1–2 (kept unchanged) |
+| `scripts/07_compare_coders_v2.py` | Full-field coder comparison checked against the expected record list |
+| `scripts/00_fetch_redo.sh` | Downloads ReDO_Trials_DB and stops with an error if it differs from the frozen checksum |
 | `data/raw/` | Frozen registry snapshots and EMA report (checksums in `CHECKSUMS.sha256`) |
 | `data/processed/` | Screening additions, calibration set |
-| `data/coder_input/` | The 870 coder input files |
+| `data/coder_input/` | Coder input files for the 870 **screening records** (not 870 eligible trials) |
 | `outputs/calibration/` | Calibration round 1 (manual v1.0): coder A/B outputs, adjudication queue, agreement, report |
 | `outputs/calibration_r2/` | Calibration round 2 (manual v1.1): same 40 records, outputs, agreement, report |
 | `logs/` | Exact queries and hit counts for every retrieval |
@@ -40,12 +46,12 @@ Requirements: Python 3.13 (packages in `requirements.txt`), R ≥ 4.5 for figure
 ```bash
 pip install -r requirements.txt
 sha256sum -c CHECKSUMS.sha256          # macOS: shasum -a 256 -c CHECKSUMS.sha256
-bash scripts/00_fetch_redo.sh          # optional: external-validation reference (D10)
-bash run_all.sh                        # rebuilds every derived file from the frozen snapshots
+bash scripts/00_fetch_redo.sh          # REQUIRED: calibration sampling (04) and external validation (D10)
+bash run_all.sh                        # rebuilds the stages listed in run_all.sh (screening set, samples, comparisons, tests)
 ```
 
 What each kind of output gives you:
-- **Exactly reproducible:** everything derived from the frozen snapshots and the archived coder outputs (coder inputs, calibration sample, comparison statistics, and later all tables and figures).
+- **Exactly reproducible now:** the stages in `run_all.sh`: supplementary filter, coder inputs, calibration samples, coder comparisons and origin-rule tests. Origin derivation, validation, statistics, tables and figures will be added as they are built.
 - **Re-runnable, but results may drift:**
   - *Retrieval* (`01`, `02`): ClinicalTrials.gov changes over time. The frozen snapshots and query logs are the reference.
   - *Drug lookups* (`05`): FDA, EMA and ChEMBL change over time. The dated cache in `data/lookup/v1.2/` is the reference.

@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT05017610",
+  "coder_id": "A",
+  "manual_version": "1.3",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Recurrent Gliosarcoma"},
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed glioblastoma (or gliosarcoma) at first or second recurrence after initial standard, control or experimental, therapy that includes at least radiation therapy (RT) and temozolomide (TMZ)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the anti-tumor activity of inducing hypothyroxinemic state by assessing progression-free survival (PFS) and overall survival (OS)."},
+      {"field": "detailed_description", "quote": "Patients receive methimazole orally (PO) daily and lomustine daily."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Inducing a Hypothyroxinemic State in Patients With Recurrent Glioblastoma or Gliosarcoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the correlation of PFS and OS with thyroid hormone levels."},
+      {"field": "detailed_description", "quote": "To evaluate the correlation of potential side effects with T3 levels or methimazole dose."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Methimazole",
+      "active_moiety": "methimazole",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This trial aims to see if giving a specific thyroid hormone, such as methimazole and liothyronine, is safe and could benefit cancer treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antithyroid drug (thionamide)",
+      "stated_antitumour_mechanism": "induction of a hypothyroxinemic state (low free T4)",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (methimazole, lomustine, liothyronine)"]
+    },
+    {
+      "agent_name_registered": "Liothyronine",
+      "active_moiety": "liothyronine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Patients receive liothyronine PO BID to maintain lower free T4 below lower limit of normal and TSH and free T3 in the normal range."},
+        {"field": "brief_summary", "quote": "This trial aims to see if giving a specific thyroid hormone, such as methimazole and liothyronine, is safe and could benefit cancer treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "thyroid hormone (T3) replacement",
+      "stated_antitumour_mechanism": "induction of a hypothyroxinemic state (T3 replacement allowing low free T4)",
+      "flag": {"uncertain": true, "reason": "Liothyronine may be viewed as hormone replacement (supportive) rather than an investigational antitumour agent; in Category 1 it is given only when TSH is above normal."},
+      "arms": ["Treatment (methimazole, lomustine, liothyronine)"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Treatment with lomustine repeats every 6 weeks for up to 6 cycles or 12 months."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established therapy for recurrent GBM",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (methimazole, lomustine, liothyronine)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "EARLY_PHASE1 record (translational subset), coded in full. The investigational strategy is induction of hypothyroxinemia with methimazole and/or liothyronine (category-dependent: Category 1 methimazole +/- liothyronine; Categories 2-3 liothyronine replacing levothyroxine), on a lomustine background given to all patients; methimazole and liothyronine coded experimental_combination, lomustine soc_backbone. Thyroid hormone levels (T3/T4/TSH) measure the intended pharmacodynamic effect in blood, so target engagement = yes; they are not tumour molecular biomarkers, so no biomarker rows. 'Lomustine daily' wording in Category 1 conflicts with 6-weekly cycles; noted only."
+}

@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT07648823",
+  "coder_id": "A",
+  "manual_version": "1.3",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma (WHO-Grade IV Glioma); Recurrent Glioblastoma; Glioblastoma (GBM); Recurrent Glioblastoma IDH Wildtype"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (based on the 2021 WHO Classification of Tumors of the Central Nervous System, 5th edition), and confirmed CA IX/CA XII positive by histology or \\[68Ga\\]Ga-XT771 PET/CT."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Investigational Drug: \\[177Lu\\]Lu-XT771 is an investigational, first-in-human (FIH) targeted radiopharmaceutical. It is designed to specifically bind to CA IX and CA XII receptors on the tumor cell surface."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed recurrence of glioblastoma following prior treatments."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "It will be quantified using serial whole-body planar scintigraphy and SPECT/CT imaging to measure drug distribution and calculate the cumulative radiation absorbed dose in the tumor cavity and critical normal organs (e.g., kidneys)."},
+      {"field": "detailed_description", "quote": "These scans will quantify the drug's distribution and the radiation dose absorbed by both the tumor lesions and normal organs (such as the kidneys)."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-XT771",
+      "active_moiety": "xt771",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive a single-dose locoregional injection of 3-5 mCi of the investigational radiopharmaceutical, \\[177Lu\\]Lu-XT771. The drug will be administered directly into the tumor resection cavity via a surgically implanted Ommaya reservoir."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational lutetium-177-labelled CA IX/CA XII-targeted radioligand ([177Lu]Lu-XT771)",
+      "stated_antitumour_mechanism": "Binds CA IX and CA XII on tumour cells; Lutetium-177 delivers localized beta radiation to tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-XT771",
+      "active_moiety": "xt771",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Prior to the therapeutic injection, a leakage test using a \\[68Ga\\]Ga-XT771 tracer will be performed to ensure there is no leakage into the subcutaneous or subarachnoid spaces."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68-labelled CA IX/CA XII PET tracer used for leakage test and target screening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Furthermore, to mitigate radiation-induced cerebral edema, the intervention is paired with a prophylactic regimen of oral dexamethasone (4 mg, three times daily) for 4 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid for oedema prophylaxis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Carbonic anhydrase IX / XII (CA IX/CA XII) positivity by histology or [68Ga]Ga-XT771 PET/CT",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "xt771",
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (based on the 2021 WHO Classification of Tumors of the Central Nervous System, 5th edition), and confirmed CA IX/CA XII positive by histology or \\[68Ga\\]Ga-XT771 PET/CT."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). Single-arm locoregional radioligand therapy via Ommaya reservoir into the resection cavity. [68Ga]Ga-XT771 (leakage test/screening PET) and oral dexamethasone (oedema prophylaxis) are not registered interventions but are given to every patient per the arm description, so listed as diagnostic_agent and supportive. formulation_flag new_route for intracavitary (Ommaya) administration of a first-in-human agent; device_dependent coded false because the Ommaya reservoir is an access catheter, not a device that activates the drug or opens the BBB - adjudicator may consider R4. tumour_pk_planned coded yes because SPECT/CT quantifies drug distribution in the tumour cavity (imaging biodistribution/dosimetry, not tissue concentration). CA IX/XII positivity is an entry requirement directly matched to the CA IX/XII-targeting candidate. IDH-wildtype appears only in conditions, not recorded as a biomarker row."
+}

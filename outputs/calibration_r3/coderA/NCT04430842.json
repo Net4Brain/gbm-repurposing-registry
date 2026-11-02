@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT04430842",
+  "coder_id": "A",
+  "manual_version": "1.3",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "in Previously Treated Patients With Advanced or Metastatic Cancers With High LAT1 Signatures, and in Patients With Relapsed or Refractory Grade 4 Astrocytoma"},
+      {"field": "conditions", "quote": "Astrocytoma; Brain Cancer; Brain Metastases"},
+      {"field": "keywords", "quote": "Glioblastoma; Glioblastoma multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma named only in keywords; title names 'Grade 4 Astrocytoma' without IDH status, which may mean glioblastoma (historical usage) or IDH-mutant astrocytoma; could be basket_gbm_eligible."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "QBS10072S: QBS10072S targets cancers with high LAT1 expression."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The MTD of QBS10072S will be confirmed in patients with relapsed or refractory grade 4 astrocytoma."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "industry_support_in_text": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Determine the maximum plasma concentration of QBS10072S."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "This is a multi-center, open-label, dose escalation study to determine the safety, tolerability, pharmacokinetics, pharmacodynamics, and maximum tolerated dose (MTD) of QBS10072S"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "QBS10072S",
+      "active_moiety": "qbs10072s",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Intravenous administration of QBS10072S once every 4 weeks starting at 3mg/m2 and increasing dose levels in subsequent cohorts."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational LAT1-targeted cytotoxic agent (LAT1-selective alkylating conjugate)",
+      "stated_antitumour_mechanism": "targets cancers with high LAT1 expression",
+      "flag": {"uncertain": false},
+      "arms": ["Dose escalation of QBS10072S"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "LAT1 (SLC7A5) high expression",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "qbs10072s",
+      "source_quote": {"field": "brief_summary", "quote": "determine the safety, tolerability, pharmacokinetics, pharmacodynamics, and maximum tolerated dose (MTD) of QBS10072S in patients with advanced or metastatic cancers with high LAT1 expression."},
+      "flag": {"uncertain": true, "reason": "High LAT1 is stated in title/summary but not in the inclusion criteria, and may not apply to the grade 4 astrocytoma population."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-tumour basket (inclusion lists 'Brain' among tumour types). Glioblastoma/GBM appear only in keywords, which do not count under C7; the title names relapsed/refractory 'Grade 4 Astrocytoma' with no IDH status, so coded high_grade_glioma_unspecified (would exclude as not_glioblastoma) and flagged uncertain; alternative is basket_gbm_eligible. Single experimental arm. PK plasma only; pharmacodynamics mentioned without a measure. Sponsor Quadriga Biosciences (structured field; left to [CODE])."
+}
