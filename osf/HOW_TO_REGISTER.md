@@ -21,7 +21,7 @@ Time: about 45–60 minutes. Everything happens in your browser, under your own 
 3. Note the registration DOI / identifier (form `10.17605/OSF.IO/XXXXX`). It is fixed even while embargoed.
 
 ## 4. Afterwards (tell Claude)
-- Send me the registration identifier. I will add it to `protocol_decisions.md` (as D20), the README, and the next manuscript revision (replacing "[Insert OSF registration identifier…]").
+- Send me the registration identifier. I will add it to `protocol_decisions.md` (as D28), the README, and the next manuscript revision (replacing "[Insert OSF registration identifier…]").
 - Then the main coding pass on the 870 records can start.
 
 ## Notes
