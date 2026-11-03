@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT06058988",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "HER2 is required for the metastatic cohorts A and B; the recurrent glioblastoma cohort C has no stated HER2 requirement in eligibility, although outcomes mention Her2-expressing glioblastoma.",
+      "coder_B": "",
+      "proposed": "keep HER2 expression / activating ERBB2 mutation as enrichment, candidate_matched true (trastuzumab deruxtecan), arms Cohort A and Cohort B only; candidate_matched_selection true by the manual's literal rule",
+      "ruling_applied": "manual §5 (derived outcomes)",
+      "reason": "HER2 is required only for the metastasis cohorts ('Cohort A: Brain parenchymal metastases in patients with Her2-expressing/ERBB2- activating-mutant cancer'), while 'Cohort C: Recurrent glioblastoma' has no HER2 requirement despite the outcome mentioning 'Her2-expressing glioblastoma'. The manual counts any enrichment row with a match, but no rule says whether a requirement that excludes the GBM cohort should count.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "trastuzumab deruxtecan",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: HER2 expression / activating ERBB2 mutation",
+        "matched_agent": "trastuzumab deruxtecan"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Decision needed: GBM patients (Cohort C) are not HER2-selected, so counting this basket trial as candidate-matched selection may overstate GBM selection. If XL restricts the primary outcome to requirements that apply to the GBM cohort, set candidate_matched_selection and any_molecular_selection to false. tumour_pk_planned yes ('brain tumor:plasma ratios')."
+}

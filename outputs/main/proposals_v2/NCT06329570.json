@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT06329570",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "established_therapy_only",
+      "coder_B": "none",
+      "proposed": "established_therapy_only",
+      "ruling_applied": "D30-R1",
+      "reason": "The only antitumour drug is bevacizumab, an established GBM therapy, given 'in combination with microbubble (MB)-mediated FUS'; R1 makes this an established-therapy experiment, not a candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[]",
+      "coder_B": "[\"bevacizumab\"]",
+      "proposed": "[]",
+      "ruling_applied": "D30-R1",
+      "reason": "R1: established GBM drug with focused-ultrasound BBB opening -> rule 6 takes precedence over C12/R5. Lumason (sulfur hexafluoride microbubbles) is delivery_enabling_agent, not a candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "D30-R1",
+      "reason": "No other candidate besides bevacizumab ('BEV+FUS-MB targeted therapy'), so the trial is established_therapy_only and listed separately.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:bevacizumab:role",
+      "coder_A": "established_therapy_experiment",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "established_therapy_experiment",
+      "ruling_applied": "D30-R1",
+      "reason": "Bevacizumab is on the D6 list and is tested with FUS BBB opening ('FUS treatment will be administered after BEV infusion to facilitate BBB opening'); R1 resolves the rule 6 vs C12 conflict in favour of rule 6.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "rule 6 vs C12/R5",
+      "coder_B": "",
+      "proposed": "not a candidate (established_therapy_only)",
+      "ruling_applied": "D30-R1",
+      "reason": "Exactly the R1 case: established GBM drug given with focused-ultrasound BBB opening.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:bevacizumab",
+      "coder_A": "established_therapy_experiment vs device-dependent candidate",
+      "coder_B": "",
+      "proposed": "established_therapy_experiment, device_dependent false",
+      "ruling_applied": "D30-R1",
+      "reason": "R1 applies; device_dependent is defined only for candidates.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "candidate via C12; could be established_therapy_experiment",
+      "proposed": "not a candidate (established_therapy_only)",
+      "ruling_applied": "D30-R1",
+      "reason": "R1 overrides C12/R5 for established GBM drugs with device-enabled delivery.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:bevacizumab",
+      "coder_A": "",
+      "coder_B": "candidate status depends on C12 vs rule 6",
+      "proposed": "established_therapy_experiment",
+      "ruling_applied": "D30-R1",
+      "reason": "R1: rule 6 takes precedence.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "not_applicable",
+      "coder_B": "monotherapy",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual R1",
+      "reason": "has_eligible_candidate is false, so regimen is not_applicable (manual R1).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "List in the supplement with the R1 established-therapy + device trials. Bevacizumab device_dependent false (priority 3) because it is not a candidate.",
+  "revisions": []
+}

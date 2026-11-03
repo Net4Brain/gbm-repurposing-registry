@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05635734",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"temozolomide\"]",
+      "proposed": "[\"temozolomide\", \"radiotherapy\"]",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "The experimental arm gives azeliragon with \"fractionated focal irradiation in daily fractions of 2 Gy ... 60 Gy, plus concomitant daily temozolomide\"; the manual says radiotherapy in the experimental arm is a combination element and partners are recorded, so radiotherapy belongs with temozolomide (coder A).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "azeliragon",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Agreed coding otherwise stands. IDH-wildtype ('Patients should be IDH wild type') defines GBM only and is excluded from any_molecular_selection; MGMT report required but no status required.",
+  "revisions": []
+}

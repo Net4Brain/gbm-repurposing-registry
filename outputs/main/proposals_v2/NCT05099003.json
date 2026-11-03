@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT05099003",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1 C7",
+      "reason": "Glioblastoma is named in the inclusion criteria ('proven to be high-grade gliomas (such as anaplastic astrocytoma, glioblastoma, high-grade glioma not otherwise specified'), and C7 counts a name in the inclusion criteria; several glioma types are eligible. But that mention sits in the DIPG stratum, closed 14 Feb 2025; the open HGG stratum names only 'H3 K27M-wild type HGG', which alone would be high_grade_glioma_unspecified.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1 C7",
+      "reason": "Same issue as coder A's flag: the agreed coding follows the letter of C7 (glioblastoma named in inclusion criteria), but the only mention is an example histology for biopsied pontine tumours in a now-closed stratum of a paediatric/young-adult (12 months-21 years) trial. XL to decide whether the C7 literal reading should stand.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "selinexor",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Screening-critical: if XL rejects the C7 literal reading, the trial becomes high_grade_glioma_unspecified (excluded, not_glioblastoma). any_molecular_selection=true rests on H3 K27M defining strata (enrichment) and BRAF V600/IDH1-wildtype requirements; none candidate-matched to selinexor. D31 check: no convention changes the coding (A4: the 'without BRAF V600' requirement keeps any_molecular_selection true; A5 exempts only the IDH1/H3 K27M definitions; B5 does not settle the C7 question because glioblastoma is named in the inclusion criteria). XL still to decide the C7 literal reading.",
+  "revisions": []
+}

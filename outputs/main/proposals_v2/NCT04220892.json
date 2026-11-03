@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT04220892",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion: 'Participant must have a diagnosis of high grade (WHO Grade III or IV) glioma'. Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named, which is exactly the D30-R7 case (include as historical glioblastoma).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named (uncertain)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Coder A's doubt (whether 'WHO Grade III or IV' glioma names GBM) is resolved by D30-R7.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "historical",
+      "coder_B": "unclear",
+      "proposed": "historical",
+      "ruling_applied": "D30-R7",
+      "reason": "D30-R7 gives cns5_terminology historical for grade III-IV glioma without an IDH requirement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pemetrexed",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "abemaciclib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1: translational subset only (D23), not in the primary estimand. Under D30-R7 it is removed in the GBM-only and CNS5-only sensitivity analyses. The supportive premedications (folic acid, vitamin B12, dexamethasone, ibuprofen) listed only by coder A are priority-3 items and do not affect candidates.",
+  "revisions": []
+}

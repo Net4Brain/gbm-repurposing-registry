@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT04729959",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"] (EGFR amplification / +7/-10 / TERT promoter mutation, role eligibility)",
+      "coder_B": "(not coded as a biomarker)",
+      "proposed": "not a selection biomarker (drop the eligibility row; at most a diagnostic criterion)",
+      "ruling_applied": "manual §5",
+      "reason": "These features are only an alternative route to the GBM diagnosis (\"molecular diagnosis of glioblastoma per ... c-IMPACT-NOW criteria\"; \"this requires presence of amplification of EGFR, whole chromosome 7 gain AND whole chromosome 10 loss, or TERT promoter mutation\"), like IDH-wildtype used only to define GBM; they do not select a subgroup and match no candidate (tocilizumab, atezolizumab).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "MGMT coded exploratory_correlative",
+      "coder_B": "[\"MGMT\", false, \"\"] (role eligibility)",
+      "proposed": "MGMT not an eligibility biomarker (exploratory_correlative); any_molecular_selection=false",
+      "ruling_applied": "manual §5",
+      "reason": "The criterion only requires that a result exist: \"MGMT methylation status must be available from any prior GBM tumor specimen\"; no methylation status is required for entry, so it is not an entry requirement on the biomarker. Not candidate-matched in any case (MGMT never matched unless MGMT-targeting).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "tocilizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "atezolizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "MGMT ('MGMT methylation status must be available', no value required) is testing, not selection, under D31-A8, so the proposed exploratory_correlative coding and any_molecular_selection=false stand. Primary outcome negative either way. IDH (exclusion of IDH-mutant tumours) defines GBM only (D31-A5). Nothing pending for XL.",
+  "revisions": []
+}

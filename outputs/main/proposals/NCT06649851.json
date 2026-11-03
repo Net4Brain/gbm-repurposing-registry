@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT06649851",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag", "coder_A": "has_eligible_candidate false (no_pharmacological_candidate), uncertain", "coder_B": "has_eligible_candidate false (no_pharmacological_candidate)",
+     "proposed": "has_eligible_candidate false; candidate_exclusion_reason no_pharmacological_candidate; filgrastim role supportive",
+     "ruling_applied": "manual §3.1 rule 2",
+     "reason": "Stated purpose is protection of brain health: \"testing whether G-CSF can reduce the negative side effects from radiation and chemotherapy on brain health\"; primary outcomes are AEs and brain volume. No antitumour hypothesis is stated; OS/PFS/TTP are descriptive secondary outcomes. However, rule 2 literally says a stated antitumour outcome makes the drug a candidate, and OS/PFS/TTP are registered and compared between randomised arms.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Screening-relevant: decide whether registered secondary OS/PFS/TTP count as a 'stated antitumour outcome' under rule 2. If yes, filgrastim becomes experimental_monotherapy, has_eligible_candidate true, regimen combination (RT + TMZ backbone). any_molecular_selection is true because MGMT-methylated status is an entry requirement (not candidate-matched)."
+}

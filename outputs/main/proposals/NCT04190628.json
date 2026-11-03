@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04190628",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "not_glioblastoma (uncertain: adjudicator may consider basket_gbm_eligible)",
+      "coder_B": "not_glioblastoma",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 C7/D27B",
+      "reason": "Glioblastoma appears only in keywords ('Melanoma; Colorectal Cancer; Glioblastoma') and in an exclusion criterion ('one week for patients with primary CNS tumor such as GBM'). Conditions are 'Advanced Solid Tumor; BRAF V600 Mutation', and the inclusion and arm labels say only 'primary central nervous system (CNS) tumors'. C7 excludes keyword and exclusion-criterion mentions.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "abm-1310", "role": "experimental_monotherapy", "device_dependent": false},
+      {"active_moiety": "cobimetinib", "role": "experimental_combination", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "BRAF", "matched_agent": "abm-1310"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma), although BRAF V600-mutant glioblastoma patients could enrol through the C-1 'Primary CNS Tumors' cohort. Priority-3 basket disagreement: basket is false because glioblastoma is not eligible by the naming rule (basket flags basket_gbm_eligible trials only). The BRAF match to abm-1310 relies on drug knowledge (BRAF inhibitor) and the BRAF-mutation entry requirement, not on a mechanism stated in the record."
+}

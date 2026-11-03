@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04587830",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "gbm_only",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1",
+      "reason": "Inclusion admits 'glioblastoma, IDH-wildtype and the WHO Grade 4 of astrocytoma, IDH-mutant by WHO 2021 classification'; IDH-mutant grade 4 astrocytoma is not glioblastoma under CNS5 (§1.1 notes), so two glioma types are eligible with glioblastoma named.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "adi-peg 20",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Trial stays included either way; the population value only affects the GBM-only sensitivity analysis. Placebo listed only by coder B (priority 3, not adjudicated here). D31 checked: no convention changes this record.",
+  "revisions": []
+}

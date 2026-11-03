@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04477200",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"mycophenolic acid\"]",
+      "coder_B": "[\"mycophenolate mofetil\"]",
+      "proposed": "[\"mycophenolic acid\"] (registered as mycophenolate mofetil; formulation_flag prodrug)",
+      "ruling_applied": "manual §3",
+      "reason": "Manual §3 maps 'salt or ester to parent'; mycophenolate mofetil is the ester of mycophenolic acid, and the record itself calls 'MPA (the active metabolite of mycophenolate mofetil [MMF])'. Same agent either way, so candidate status is unaffected; the script re-mapping will reconcile the name.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"radiation therapy\", \"temozolomide\"]",
+      "proposed": "[\"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "",
+      "reason": "Wording difference only: both coders list radiation ('Radiation Therapy (other names: RT)') and temozolomide (newly diagnosed arm). regimen combination is agreed.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "mycophenolic acid",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Moiety naming only; tumour MPA concentration (primary outcome) supports tumour_pk yes; tumour GTP (secondary outcome) supports target_engagement yes.",
+  "revisions": []
+}

@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT05473923",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "high_grade_glioma_unspecified (uncertain: WHO grade IV glioma eligible without IDH requirement; mixed_glioma_gbm_named possible)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named (cns5_terminology: historical)",
+      "ruling_applied": "R7",
+      "reason": "Inclusion: 'The resected recurrent gliomas was identified as WHO III~IV Glioma by histologic pathology'. Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named, so R7 applies: include as historical glioblastoma.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "unspecified_approved_panel", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "unclear",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (phase 0/1), so translational subset only. Candidate follows R8/C13: the drugs are chosen per patient by PTC drug screen and tumour board, and the record says 'FDA-approved chemotherapeutic or targeted drugs', so unspecified_approved_panel. Caveat: the arm says 'all the FDA-approved drugs that have been used in treating gliomas', which may in practice be mostly established GBM therapies (temozolomide, lomustine, bevacizumab). R8 does not distinguish this case. The priority-3 cns5 disagreement resolves to historical under R7."
+}

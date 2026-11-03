@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT07457307",
+  "items": [
+    {"type": "disagreement", "item": "candidate_exclusion_reason", "coder_A": "no_pharmacological_candidate", "coder_B": "established_therapy_only",
+     "proposed": "no_pharmacological_candidate",
+     "ruling_applied": "manual §1 S6; §3.1 rule 3",
+     "reason": "The investigational element is dose-intensified hypofractionated MR-Linac RT; temozolomide is the concurrent backbone (\"concurrent Temozolomide (75 mg/m2) will administered daily\") and is coded soc_backbone by both coders, not an established-therapy experiment, so no drug at all is under investigation. 'established_therapy_only' fits trials whose drug question is an established GBM therapy.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: gbm_population_flag", "coder_A": "mixed_glioma_gbm_named", "coder_B": "mixed_glioma_gbm_named (uncertain)",
+     "proposed": "agreed coding stands: mixed_glioma_gbm_named, cns5",
+     "ruling_applied": "manual §1.1 (C7, D27B)",
+     "reason": "Glioblastoma is named in the title (\"Glioblastoma Hypofractionated Treatment\"), which counts under C7; eligibility \"high grade glioma (histologic grade 3 or 4, IDH wildtype)\" includes IDH-wildtype grade 4 (CNS5 glioblastoma) plus grade 3.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S6 either way; the disagreement only changes the Figure 1 exclusion label. A shortened 3-week concurrent TMZ course could be argued as a schedule change (rule 6 -> established_therapy_only), but the record does not frame TMZ as the question."
+}

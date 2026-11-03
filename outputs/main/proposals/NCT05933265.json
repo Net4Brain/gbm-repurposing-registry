@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT05933265",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "DDR alteration required only for 'other solid tumours' in Supplement A (where GBM could enter); link to LP-184 rests on its stated DNA-damaging mechanism and is not stated explicitly.",
+      "coder_B": "",
+      "proposed": "DDR alterations: enrichment (Supplement A), candidate_matched: true (lp-184)",
+      "ruling_applied": "manual §5",
+      "reason": "Supplement A enrols 'other solid tumours with known DDR genomic alterations' (where GBM can enter) and LP-184 is 'a small molecule alkylating agent causing tumor cell death through DNA damage'; DDR deficiency is mechanistically linked to a DNA-damaging agent.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "DDR alteration is linked to the DNA-damaging alkylator LP-184 by implication (keywords: DNA damage repair), but the record does not state the link explicitly.",
+      "coder_B": "",
+      "proposed": "DDR alterations: enrichment (Supplement A), candidate_matched: true (lp-184)",
+      "ruling_applied": "manual §5",
+      "reason": "Same as coder A row: DNA-damage mechanism of LP-184 stated in interventions; DDR-altered cohort.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "Cohort selection marker for the nivolumab+ipilimumab cohort; no stated mechanistic link to a candidate in the record.",
+      "coder_B": "",
+      "proposed": "KEAP1/STK11: enrichment (Supplement D), candidate_matched: false",
+      "ruling_applied": "manual §5",
+      "reason": "'KEAP1 and/or STK11-mutated ... NSCLC' cohort for LP-184 + nivolumab + ipilimumab; the record states no mechanistic link of KEAP1/STK11 to any candidate.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:PD_L1",
+      "coder_A": "PD-L1-low selection for a PD-1/CTLA-4 checkpoint combination; PD-1 pathway link is mechanistic but low expression is not a predictive-positive selection.",
+      "coder_B": "",
+      "proposed": "PD_L1: enrichment (Supplement D), candidate_matched: true (nivolumab)",
+      "ruling_applied": "manual §5",
+      "reason": "'programmed cell death ligand-1 (PD-L1)-low NSCLC' selection is on the target pathway of nivolumab ('By blocking the PD-1 receptor'); low expression is an unusual direction, but the biomarker is mechanistically linked. Primary outcome is already true via the DDR row.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"ipilimumab\", \"nivolumab\", \"olaparib\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual §2 regimen",
+      "reason": "GBM can enter only the Master Protocol and Supplement A, where 'LP-184' is given alone; the combinations (olaparib in TNBC Supplement C; nivolumab + ipilimumab in NSCLC Supplement D) are in cohorts GBM cannot enter. No manual rule covers multi-arm baskets with different regimens.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "\"monotherapy\"",
+      "coder_B": "\"combination\"",
+      "proposed": "monotherapy",
+      "ruling_applied": "manual §2 regimen",
+      "reason": "Same reasoning as combination_partners: the GBM-eligible experimental arms are LP-184 monotherapy; 'combination' would be right if all experimental arms count.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "lp-184",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "olaparib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other (DDR genomic alterations)",
+        "matched_agent": "lp-184"
+      },
+      {
+        "biomarker": "PD_L1",
+        "matched_agent": "nivolumab"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Needs XL convention: regimen for baskets whose arms differ (GBM-eligible arms monotherapy vs all arms combination). Candidate_matched_selection is true via DDR enrichment in Supplement A; the PD-L1-low match is low confidence but does not change the primary outcome. Olaparib, nivolumab and ipilimumab are given only in non-GBM cohorts."
+}

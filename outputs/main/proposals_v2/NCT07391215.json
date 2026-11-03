@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT07391215",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (control_arm_from_other_arms definition)",
+      "reason": "The design is registered as model PARALLEL, NON_RANDOMIZED with two EXPERIMENTAL arms ('Phase 1b', 'Phase 2'), both paxalisib + temozolomide, and neither works as a control. The manual defines 'no' as more than one arm with none working as a control. 'not_applicable' is reserved for single-arm trials.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "paxalisib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "PTEN_PI3K",
+        "matched_agent": "paxalisib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "The 'Phase 1b' and 'Phase 2' arms are effectively stages of one seamless single-regimen trial. If XL treats them as single-arm, the value becomes not_applicable; nothing else depends on it. Matched selection rests on two PTEN_PI3K enrichment cohorts (PIK3CA/PIK3R1 hyperactivating mutations; PTEN two-hit loss), both matched to paxalisib. Priority-3 MGMT role (eligibility vs enrichment): unmethylated MGMT applies to the Phase 1b front-line cohort, which is enrichment ('required for a cohort or arm'). MGMT is not candidate-matched either way. A6 pending XL: the PTEN_PI3K-to-paxalisib candidate_matched values are kept as in the original while XL corrects D31-A6. MGMT has a required value (unmethylated), so it stays a selection row under D31-A8. D31-C4 does not apply (the arms are study stages, not dose cohorts); 'no' is kept.",
+  "revisions": []
+}

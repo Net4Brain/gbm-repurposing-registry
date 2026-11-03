@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05043701",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "agent:unspecified_approved_panel:role",
+      "coder_A": "\"experimental_combination\"",
+      "coder_B": "\"experimental_monotherapy\"",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "R8; manual §3.1 rule 4 (C13)",
+      "reason": "The record states the drugs are approved ('functional profiling of FDA/EMA-approved drugs'), so R8 gives one unspecified_approved_panel row. It is the only investigational agent row in the arm, so rule 4 applies; both roles are candidate roles, so screening and outcomes are unchanged.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"unspecified personalized drug combination\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "No antitumour partner besides the panel itself is registered ('Personalized drug combination' is the candidate row); regimen stays combination because the panel is described as a drug combination.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "unspecified_approved_panel",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (translational subset); C13 panel, listed separately and excluded in sensitivity analysis 12. Role choice between monotherapy and combination does not change any derived variable."
+}

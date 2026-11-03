@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05887882",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Gliosarcoma is named only as one example of eligible malignant brain tumours (mainly paediatric); conditions list only paediatric brain tumour.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Inclusion criteria name gliosarcoma: 'recurrent or progressive malignant brain tumor including, but not limited to, infant-type hemispheric glioma, gliosarcoma'. C7 counts gliosarcoma named in inclusion criteria, so the trial passes S5.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Screening is unaffected: the only intervention is an NK cell therapy, so the trial fails S6 (excluded_intervention_type). Eligible types include non-glioma tumours (intracranial sarcoma, ependymoma), so basket_gbm_eligible is an arguable alternative; both are include categories."
+}

@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT05109728",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:other", "coder_A": "other: SSTR expression by [68Ga]Ga-DOTA-TATE PET uptake; enrichment; candidate_matched true (lutetium (177lu) oxodotreotide)", "coder_B": "other: SSTR expression (68Ga-DOTATATE PET uptake); eligibility; candidate_matched true",
+     "proposed": "biomarker other (SSTR expression by [68Ga]Ga-DOTA-TATE PET); role enrichment (Group 3 only); candidate_matched true, matched agent lutetium (177lu) oxodotreotide; flag imaging_assessed",
+     "ruling_applied": "R2",
+     "reason": "Inclusion for \"Recurrent glioblastoma (Group 3 dose escalation and expansion)\" requires \"[68Ga]Ga-DOTA-TATE uptake by positron emission tomography/computed tomography (PET/CT) or PET/MRI at the tumor region\"; R2 counts imaging-assessed target expression with a matched radioligand as candidate-matched selection. It applies to one arm only, so enrichment.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder B: biomarker:other", "coder_A": "enrichment", "coder_B": "eligibility",
+     "proposed": "enrichment",
+     "ruling_applied": "R2; manual §5",
+     "reason": "The uptake criterion is listed only under Group 3 criteria; Group 1 (newly diagnosed) has no uptake requirement, so it is an arm-level requirement (enrichment), not a whole-trial eligibility criterion. Either role yields candidate_matched_selection true.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "lutetium (177lu) oxodotreotide", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "both", "regimen": "combination",
+    "candidate_matched_selection": true, "imaging_assessed_selection": true,
+    "matched_biomarkers": [{"biomarker": "other: SSTR expression ([68Ga]Ga-DOTA-TATE PET uptake)", "matched_agent": "lutetium (177lu) oxodotreotide"}],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Positive candidate_matched decision: falls under D21 human review and is excluded in the R2 imaging-assessed sensitivity analysis. Radiopharmaceutical; moiety name may be normalised to oxodotreotide by the mapping script."
+}

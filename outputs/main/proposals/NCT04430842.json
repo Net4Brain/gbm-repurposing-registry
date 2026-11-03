@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT04430842",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:other", "coder_A": "LAT1 high expression, enrichment, matched qbs10072s (uncertain)", "coder_B": "",
+     "proposed": "LAT1 high expression: enrichment, candidate_matched true (qbs10072s)", "ruling_applied": "manual §5",
+     "reason": "The official title restricts the solid-tumour cohort to 'Advanced or Metastatic Cancers With High LAT1 Signatures' and the drug 'targets cancers with high LAT1 expression', so LAT1 is a cohort requirement linked to the candidate (enrichment). It is not in the eligibility list and the grade 4 astrocytoma cohort is not stated to require it, so it is not a whole-trial eligibility criterion.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder B: gbm_population_flag", "coder_A": "", "coder_B": "basket_gbm_eligible via grade 4 astrocytoma (uncertain)",
+     "proposed": "basket_gbm_eligible (agreed coding stands)", "ruling_applied": "manual §1.1",
+     "reason": "The title names 'Patients With Relapsed or Refractory Grade 4 Astrocytoma' with no IDH requirement; under D27C (manual §1.1) this is the historical name for glioblastoma, named in the title, in a multi-cancer trial.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: biomarker:other", "coder_A": "", "coder_B": "LAT1 expression, eligibility, matched qbs10072s (uncertain)",
+     "proposed": "LAT1 high expression: enrichment (not whole-trial eligibility), candidate_matched true (qbs10072s)", "ruling_applied": "manual §5",
+     "reason": "Same evidence as coder A's flag: LAT1 applies to the advanced/metastatic cohort only ('cancers with high LAT1 expression'), while 'The MTD of QBS10072S will be confirmed in patients with relapsed or refractory grade 4 astrocytoma' with no LAT1 condition.",
+     "confidence": "low"},
+    {"type": "disagreement", "item": "target_engagement_planned", "coder_A": "unclear", "coder_B": "no",
+     "proposed": "yes", "ruling_applied": "manual §2",
+     "reason": "The study is designed 'to determine the safety, tolerability, pharmacokinetics, pharmacodynamics' of QBS10072S, a PD objective tied to the candidate, but no PD outcome is registered (outcomes are MTD, safety and plasma PK). Neither 'unclear' (W7: biomarker endpoint not linked to the candidate) nor 'no' (nothing planned) fits cleanly.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible", "cns5_terminology": "historical", "basket": true,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "qbs10072s", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "other (LAT1 high expression)", "matched_agent": "qbs10072s"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Primary outcome hinges on LAT1: it comes only from the title/summary, is not in the eligibility criteria, and applies to the non-GBM cohort, not to the grade 4 astrocytoma (GBM) cohort. Counting it makes candidate_matched_selection true for a trial whose GBM patients are not selected; XL may prefer to treat it as not an entry requirement (then candidate_matched_selection = false, any_molecular_selection = false). Glioblastoma is named only through 'Grade 4 Astrocytoma' (D27C) in the title. target_engagement convention as in NCT04982926."
+}

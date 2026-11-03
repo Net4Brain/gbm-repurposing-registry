@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT04013672",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:sargramostim",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "excluded_intervention_type",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "R4 lists GM-CSF/sargramostim given to support a vaccine as part of the excluded therapy. Here it is dosed on the SurVaxM schedule ('100 mcg per dose, dosed every two weeks for 4 doses and then every 3 months', identical to SurVaxM and Montanide) and has no arm or outcome of its own, so the R4 exception does not apply. Agreed coding (excluded_intervention_type; pembrolizumab experimental_monotherapy) stands.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:sargramostim",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "excluded_intervention_type",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "R4 lists GM-CSF/sargramostim given to support a vaccine as part of the excluded therapy. Here it is dosed on the SurVaxM schedule ('100 mcg per dose, dosed every two weeks for 4 doses and then every 3 months', identical to SurVaxM and Montanide) and has no arm or outcome of its own, so the R4 exception does not apply. Agreed coding (excluded_intervention_type; pembrolizumab experimental_monotherapy) stands.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "historical because 'World Health Organization Grade IV glioma (glioblastoma or gliosarcoma)' without IDH (agreed)."
+}

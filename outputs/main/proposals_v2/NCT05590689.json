@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT05590689",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"unclear\"",
+      "coder_B": "\"no\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (tumour_pk_planned, W7); D31-C5",
+      "reason": "The only possible PK item is \"concentration changes of CPI and CPIII\" (porphyrin metabolites), which the record does not describe as pharmacokinetics of 5-ALA; W7 allows unclear only when PK is planned and the sample type is missing. The record does not clearly plan PK, so no; but CPI/CPIII could be read as 5-ALA metabolite measurement with unstated sample, which would give unclear. D31-C5 counts only measurement of the drug itself; CPI/CPIII are coproporphyrin markers, not 5-ALA or its sample in tumour/CSF, so no.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "aminolevulinic acid",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Still needs XL: device_dependent true on 5-ALA (radiodynamic therapy; activation by conventional radiotherapy is not among the manual's C12/R4 examples, and D31-B11 covers only BNCT). If XL extends B11 to RDT, regimen would become monotherapy (radiotherapy as the activating device). tumour_pk_planned no (D31-C5).",
+  "revisions": [
+    {
+      "convention": "D31-C5",
+      "field": "tumour_pk_planned (confidence)",
+      "from": "no (low)",
+      "to": "no (medium)",
+      "reason": "The only candidate PK-like item is \"concentration changes of CPI and CPIII\" with no tumour or CSF sample and not the drug itself; C5 limits tumour PK to measurement of the drug."
+    }
+  ]
+}

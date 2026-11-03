@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT04341311",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Population is paediatric/young-adult DIPG only (not_glioblastoma), but conditions list 'Pediatric Brainstem Gliosarcoma, Recurrent', and gliosarcoma named in conditions could be read as glioblastoma named (mixed_glioma_gbm_named).",
+      "coder_B": "",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1",
+      "reason": "Eligibility requires 'Patients must have DIPG, as defined below'; the manual lists 'paediatric DIPG/DMG only' as not_glioblastoma. 'Pediatric Brainstem Gliosarcoma, Recurrent' in conditions looks like a generic condition term; the enrolled population is pontine DIPG only.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "marizomib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "panobinostat",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Eligibility population is DIPG only ('Patients must have DIPG, as defined below'), which the manual lists as not_glioblastoma; gliosarcoma appears only in the conditions ('Pediatric Brainstem Gliosarcoma, Recurrent'). XL to confirm: manual C7 counts a conditions mention as named, while D31-B5 requires glioblastoma to be named in the eligibility population; the DIPG definition also allows a 'pontine-based lesion that is biopsy proven non-pilocytic, WHO II-IV glioma' (D31-B1/D30-R7 wording question, though grade 2 is included). If excluded, list as near-miss. Treatment setting (priority 3) proposed 'both'.",
+  "revisions": []
+}

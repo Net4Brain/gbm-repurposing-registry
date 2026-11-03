@@ -1,0 +1,137 @@
+{
+  "nct_id": "NCT06258018",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_matched_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-A1",
+      "reason": "Under D31-A1 only the GBM patients' entry requirements count; GBM patients (cohort 1) need IDH-wildtype status, which only defines GBM and is never matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"IDH\", true, \"niraparib\"]",
+      "coder_B": "",
+      "proposed": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "ruling_applied": "D31-A1",
+      "reason": "Inclusion 4 requires \"recurrent/progressive IDH mutant gliomas\" for cohort 2, and the description states the 2HG oncometabolite \"induces a Breast Cncer gene(BRCA)-ness phenotype\" so \"the use of PARP inhibitors seems promising even for these patients\". The manual's never-matched rule covers IDH-wildtype only.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "ruling_applied": "D31-A1",
+      "reason": "IDH-wildtype for cohort 1 only defines GBM (never matched), but the IDH-mutant requirement for cohort 2 is a cohort-level requirement with a stated mechanistic link.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:IDH",
+      "coder_A": "enrichment, matched (flagged)",
+      "coder_B": "",
+      "proposed": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "ruling_applied": "D31-A1",
+      "reason": "Literal manual reading supports the match; doubt remains because cohort 2 is non-GBM (IDH-mutant glioma) and IDH-mutant status also defines the diagnosis.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:IDH",
+      "coder_A": "",
+      "coder_B": "eligibility, not matched (flagged)",
+      "proposed": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "ruling_applied": "D31-A1",
+      "reason": "Same as above; coder B's diagnostic-criterion reading is the main alternative.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "niraparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary-outcome question settled by D31-A1 (applied by its stated principle: only the GBM patients' entry requirements count; this is a mixed-glioma trial with a non-GBM IDH-mutant cohort rather than a solid-tumour basket). The IDH-mutant-as-diagnosis question is moot. Temozolomide established_therapy_experiment agreed (dose-dense schedule and dose levels are part of the question). tumour_pk_planned yes (CSF and tumour tissue drug concentration).",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "items[selection_biomarker_only_in_A].proposed",
+      "from": "IDH enrichment, candidate_matched true (niraparib)",
+      "to": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "reason": "IDH-mutant status is required only for cohort 2 (\"recurrent/progressive IDH mutant gliomas\"), a non-GBM cohort, while GBM patients enter as \"IDH wild-type GBM (WHO 2021, grade 4)\", so A1 makes it exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[selection_biomarker_only_in_B].proposed",
+      "from": "replace with IDH enrichment, matched niraparib",
+      "to": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "reason": "IDH-mutant status is required only for cohort 2 (\"recurrent/progressive IDH mutant gliomas\"), a non-GBM cohort, while GBM patients enter as \"IDH wild-type GBM (WHO 2021, grade 4)\", so A1 makes it exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:IDH].proposed",
+      "from": "enrichment, matched niraparib",
+      "to": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "reason": "IDH-mutant status is required only for cohort 2 (\"recurrent/progressive IDH mutant gliomas\"), a non-GBM cohort, while GBM patients enter as \"IDH wild-type GBM (WHO 2021, grade 4)\", so A1 makes it exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder B: biomarker:IDH].proposed",
+      "from": "enrichment, matched niraparib",
+      "to": "IDH-mutant requirement (cohort 2, non-GBM IDH-mutant gliomas) coded exploratory_correlative, candidate_matched false; IDH-wildtype for cohort 1 only defines GBM (exempt)",
+      "reason": "IDH-mutant status is required only for cohort 2 (\"recurrent/progressive IDH mutant gliomas\"), a non-GBM cohort, while GBM patients enter as \"IDH wild-type GBM (WHO 2021, grade 4)\", so A1 makes it exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[candidate_matched_selection].proposed",
+      "from": "true",
+      "to": "false",
+      "reason": "The IDH-mutant requirement applies only to the non-GBM cohort 2, so no candidate-matched requirement applies to GBM patients."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The only matched selection row (IDH-mutant, cohort 2) is recoded exploratory_correlative under A1."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[{\"biomarker\": \"IDH\", \"matched_agent\": \"niraparib\"}]",
+      "to": "[]",
+      "reason": "No matched eligibility or enrichment row remains after A1."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "Remaining rows do not select: IDH-wildtype only defines GBM (manual §5) and \"Both MGMT methylated and unmethylated patients are allowed\"."
+    }
+  ]
+}

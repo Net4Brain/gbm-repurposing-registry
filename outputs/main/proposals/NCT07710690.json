@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT07710690",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag",
+     "coder_A": "WHO 2021 grade 4 glioma would include glioblastoma, but glioblastoma is never named in conditions, title or inclusion criteria.",
+     "coder_B": "",
+     "proposed": "mixed_glioma_gbm_named (include)",
+     "ruling_applied": "D30-R7",
+     "reason": "Inclusion requires \"WHO Grade 3 or 4 glioma, according to the WHO (2021) classification criteria\" and conditions list \"High Grade Glioma (III or IV)\". Grade 4 is explicitly allowed, there is no IDH requirement and GBM is never named, so D30-R7 includes it. Both coders coded high_grade_glioma_unspecified, which predates R7.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "NRG-103 is not described; it is registered as a drug 'injection' but could be a gene therapy or oncolytic virus (excluded types), which the record does not settle.",
+     "coder_B": "",
+     "proposed": "has_eligible_candidate true; nrg-103 experimental_monotherapy",
+     "ruling_applied": "manual §1.2",
+     "reason": "NRG-103 is registered as \"[DRUG] NRG-103\" with no description at all. The only hint is the exclusion \"history of prior gene therapy or oncolytic virus therapy\", which suggests but does not establish an excluded type. Without evidence of an excluded type, the registered drug is kept as a candidate.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder B: candidate_flag",
+     "coder_A": "", "coder_B": "NRG-103 is registered as a drug but its nature is not described; the exclusion of prior gene or oncolytic virus therapy leaves open that it is an excluded intervention type.",
+     "proposed": "has_eligible_candidate true; nrg-103 experimental_monotherapy",
+     "ruling_applied": "manual §1.2",
+     "reason": "Same as Coder A's flag. The record does not describe the agent, so its type cannot be settled from the registry.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "nrg-103", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "(1) D30-R7 says cns5_terminology 'historical', but this record cites WHO 2021 (CNS5), and manual C8 makes that cns5. I proposed cns5; XL should decide whether R7's 'historical' overrides an explicit WHO 2021 citation. Under WHO 2021, 'grade 4 glioma' also includes IDH-mutant astrocytoma grade 4. (2) NRG-103's nature is unknown from the record; if it is a gene therapy or oncolytic virus, the trial fails S6 (excluded_intervention_type). Please check the sponsor's information (Neuregen Therapeutics) during the [LOOKUP]/Table S2 step."
+}

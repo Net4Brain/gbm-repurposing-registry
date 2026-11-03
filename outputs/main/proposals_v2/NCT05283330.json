@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05283330",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "GRPR (imaging-assessed) eligibility, candidate_matched true (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched true (dotam-grpr1), flag imaging_assessed",
+      "ruling_applied": "D30-R2",
+      "reason": "Inclusion requires 'Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)' with the matched 212Pb radioligand; R2 counts imaging-assessed target expression as candidate-matched selection, flagged imaging_assessed.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "same",
+      "coder_B": "GRPR (imaging-assessed) eligibility, candidate_matched true (uncertain)",
+      "proposed": "eligibility, candidate_matched true (dotam-grpr1), flag imaging_assessed",
+      "ruling_applied": "D30-R2",
+      "reason": "Same as above: title requires 'GRPR-expressing Tumors' and entry requires tracer uptake; R2 settles it.",
+      "confidence": "high"
+    },
+    {
+      "type": "convention",
+      "item": "tumour_pk_planned",
+      "coder_A": "no",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C5; manual §2 (W7)",
+      "reason": "The record plans a radioligand dosimetry sub-study ('A dosimetry sub study will also be conducted in participants part of the dose escalation'; 'Dosimetry' in the official title), which D31-C5 counts as measuring the drug itself, but the record does not say whether tumour dosimetry is included, so by W7 the value is unclear.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "dotam-grpr1",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": true,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: GRPR expression (203Pb-DOTAM-GRPR1 SPECT/CT uptake)",
+        "matched_agent": "dotam-grpr1"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome positive only via D30-R2 imaging-assessed selection (203Pb SPECT/CT uptake is the only route for GBM patients, D31-A7); removed in sensitivity analysis 15. tumour_pk_planned set to unclear under D31-C5: XL may prefer yes if radioligand dosimetry is assumed to include tumour.",
+  "revisions": [
+    {
+      "convention": "D31-C5",
+      "field": "proposed_final.tumour_pk_planned",
+      "from": "no",
+      "to": "unclear",
+      "reason": "The record plans a 212Pb-DOTAM-GRPR1 dosimetry sub-study in dose escalation (where the GBM MAD Q4W cohorts sit) but does not state that tumour dosimetry is measured."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "nct_id": "NCT07583771",
+  "items": [
+    {
+      "type": "convention",
+      "item": "gbm_population",
+      "coder_A": "basket_gbm_eligible",
+      "coder_B": "basket_gbm_eligible",
+      "proposed": "not_glioblastoma (near-miss)",
+      "ruling_applied": "D31-B5; manual §1.1 (C7)",
+      "reason": "Glioblastoma is named only in inclusion criterion 4 (measurability: 'For glioblastoma: at least one measurable intracranial tumor lesion according to the RANO 2.0 criteria') and criterion 5 (KPS), not in the title, conditions, the population criterion 3 or an arm label; D31-B5 says a GBM mention only in the measurability criteria does not qualify.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "MTAP homozygous deletion, eligibility, matched cs08399 (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched false",
+      "ruling_applied": "D31-A6",
+      "reason": "Entry requires 'Homozygous MTAP or CDKN2A deletion', but the record never states CS08399's mechanism or target; the exclusion of prior 'MAT2A or PRMT5 inhibitors' only implies the link, and D31-A6 counts a drug-target match only when the record states it.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:CDKN2A_B",
+      "coder_A": "CDKN2A_B eligibility, matched cs08399 (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched false",
+      "ruling_applied": "D31-A6",
+      "reason": "The record states no mechanism for CS08399, so CDKN2A deletion (an MTAP surrogate at most) is not linked to it under D31-A6.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "same",
+      "coder_B": "MTAP homozygous deletion, eligibility, matched cs08399 (uncertain)",
+      "proposed": "eligibility, candidate_matched false",
+      "ruling_applied": "D31-A6",
+      "reason": "Entry requires 'Homozygous MTAP or CDKN2A deletion', but the record never states CS08399's mechanism or target; the exclusion of prior 'MAT2A or PRMT5 inhibitors' only implies the link, and D31-A6 counts a drug-target match only when the record states it.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:CDKN2A_B",
+      "coder_A": "same",
+      "coder_B": "CDKN2A_B eligibility, matched cs08399 (uncertain)",
+      "proposed": "eligibility, candidate_matched false",
+      "ruling_applied": "D31-A6",
+      "reason": "The record states no mechanism for CS08399, so CDKN2A deletion (an MTAP surrogate at most) is not linked to it under D31-A6.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "unclear",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "PK is planned ('Pharmacokinetic parameters: Maximum Concentration (Cmax)') and the sample type is never stated; W7 says unclear in exactly this case, although parameters such as CL/F imply plasma.",
+      "confidence": "medium"
+    },
+    {
+      "type": "convention",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "true",
+      "proposed": "true",
+      "ruling_applied": "manual §5; D31-A2 (open)",
+      "reason": "Every patient must have 'Homozygous MTAP or CDKN2A deletion'; each alteration alone is an optional route (D31-A2), but the 9p21 deletion as a whole is required with no non-molecular route, so selection is kept. XL to confirm how A2 applies when both routes are molecular.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "cs08399",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Near-miss (D31-B5): excluded at S5 because glioblastoma is named only in the measurability and KPS criteria; list in the supplement near-miss table. Under D31-A6 CS08399 is not candidate-matched (mechanism not stated), so the primary outcome would be false even if XL included the trial. Still needs XL: whether D31-A2 removes 'MTAP or CDKN2A deletion' from any_molecular_selection when both routes are molecular (kept true here, low confidence).",
+  "revisions": [
+    {
+      "convention": "D31-B5",
+      "field": "proposed_final.gbm_population",
+      "from": "basket_gbm_eligible",
+      "to": "not_glioblastoma",
+      "reason": "Glioblastoma appears only in the measurability (criterion 4) and KPS (criterion 5) criteria; the conditions, title, population criterion and arm label name only solid tumours and lymphoma."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "items[coder A/B: biomarker:other].proposed",
+      "from": "eligibility, candidate_matched true (cs08399)",
+      "to": "eligibility, candidate_matched false",
+      "reason": "The record never states CS08399's mechanism; the MTAP link is only inferred from the title and the prior MAT2A/PRMT5 inhibitor exclusion."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "items[coder A/B: biomarker:CDKN2A_B].proposed",
+      "from": "eligibility, candidate_matched true (cs08399)",
+      "to": "eligibility, candidate_matched false",
+      "reason": "No mechanism for CS08399 is stated in the record, so CDKN2A deletion is not linked to it."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "With no stated drug-target link, no eligibility row is candidate-matched."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[MTAP homozygous deletion -> cs08399, CDKN2A_B -> cs08399]",
+      "to": "[]",
+      "reason": "No stated drug-target link in the record."
+    }
+  ]
+}

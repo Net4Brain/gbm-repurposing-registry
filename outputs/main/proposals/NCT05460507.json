@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT05460507",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"rhenium nanoliposome\"]",
+      "coder_B": "[\"186rnl\"]",
+      "proposed": "rhenium nanoliposome (one candidate, experimental_monotherapy; name only differs)",
+      "ruling_applied": "manual §3 (W1 naming)",
+      "reason": "Both coders code the same single candidate, 'Rhenium-186 NanoLiposome (186RNL)'; W1 drops the isotope from radiopharmaceutical names, so 'rhenium nanoliposome' is preferred over '186rnl'. Names are re-mapped by script, so candidate status is unaffected.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"mixed_glioma_gbm_named\"",
+      "coder_B": "\"high_grade_glioma_unspecified\"",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "Inclusion allows 'Grade III and IV gliomas' with grade 4 explicitly allowed, no IDH requirement, and glioblastoma named only in keywords/outcomes (not in conditions, title, inclusion or arm label) - the R7 pattern, which includes it as historical glioblastoma.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma itself is named only in keywords and outcomes; eligibility allows grade III and IV gliomas under WHO 2021, which includes glioblastoma but does not name it, so high_grade_glioma_unspecified is also possible.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "R7 settles the coders' doubt: grade 3-4 glioma with grade 4 explicitly allowed and no IDH requirement is included even though glioblastoma is never named in an eligible field.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma appears only in keywords and in an outcome (bevacizumab naive recurrent glioblastoma), not in conditions, title, inclusion criteria or arm labels; grade III and IV gliomas are eligible.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "As above; the keyword/outcome mentions of glioblastoma do not count under C7, but R7 includes the trial on the grade 4 wording alone.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "rhenium nanoliposome",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "R7 says cns5_terminology 'historical', but this record cites 'the 2021 WHO Classification of Tumors of the Central Nervous System' (C8 -> cns5, which both coders chose). Under CNS5, grade 4 glioma without IDH status also covers IDH-mutant astrocytoma grade 4, so it is not strictly 'historical glioblastoma'. XL to decide whether R7 applies to a CNS5-citing record and which terminology value to use; proposal keeps cns5. device_dependent left false (CED treated as new_route), not a queue item."
+}

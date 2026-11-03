@@ -1,0 +1,23 @@
+{
+  "nct_id": "NCT07416188",
+  "items": [
+    {"type": "disagreement", "item": "tumour_pk_planned",
+     "coder_A": "yes", "coder_B": "no",
+     "proposed": "yes",
+     "ruling_applied": "manual §2",
+     "reason": "The record plans \"the pharmacologic (PK/PD) response ... in pre- versus posttreatment glioblastoma tissue\" and states that \"Tissue, CSF, and plasma will be collected during the post-treatment surgical intervention\", so PK is planned and tumour tissue and CSF are named as samples. But the readout is described as \"molecular (transcriptomic, proteomic and/or metabolomic) tissue level changes\", not LMP744 concentration. W7 reserves 'unclear' for a missing sample type, which leaves yes and no; no ruling covers this.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "lmp744", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "tumour_pk_planned is a judgement call: a 'PK/PD' objective on post-dose tumour tissue and CSF, with no explicit drug-concentration measurement. Target engagement is yes (paired pre/post-treatment tissue pharmacodynamic analysis, W7)."
+}

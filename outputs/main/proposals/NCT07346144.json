@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT07346144",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Only pharmacological agent besides the AAV gene therapy is valaciclovir, a prodrug activated by the gene-therapy-encoded HSV-tk; whether it counts as a candidate or as part of the excluded gene therapy system decides S6.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "R3",
+      "reason": "The record states HSV-tk 'converts the pro-drug valaciclovir into an active drug that can kill tumour cells'; R3 names valaciclovir with HSV-tk explicitly as part of the excluded gene therapy, not a candidate, so the trial is excluded_intervention_type.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:valaciclovir",
+      "coder_A": "Valaciclovir's antitumour effect depends entirely on activation by the excluded gene therapy (suicide gene/prodrug system); candidate status needs adjudication.",
+      "coder_B": "",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R3",
+      "reason": "The record states HSV-tk 'converts the pro-drug valaciclovir into an active drug that can kill tumour cells'; R3 names valaciclovir with HSV-tk explicitly as part of the excluded gene therapy, not a candidate, so the trial is excluded_intervention_type.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "Only drug-type agent is valaciclovir, the prodrug of the HSV-tk gene therapy TGX-007 (excluded type); coded candidate because the record states its conversion to a tumour-killing drug, but it could instead be seen as part of the gene therapy, which would fail S6.",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "R3",
+      "reason": "The record states HSV-tk 'converts the pro-drug valaciclovir into an active drug that can kill tumour cells'; R3 names valaciclovir with HSV-tk explicitly as part of the excluded gene therapy, not a candidate, so the trial is excluded_intervention_type.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:valaciclovir",
+      "coder_A": "",
+      "coder_B": "Candidate status depends on treating the prodrug as a separate antitumour agent rather than part of the gene therapy.",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R3",
+      "reason": "The record states HSV-tk 'converts the pro-drug valaciclovir into an active drug that can kill tumour cells'; R3 names valaciclovir with HSV-tk explicitly as part of the excluded gene therapy, not a candidate, so the trial is excluded_intervention_type.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"standard of care surgery and chemoradiotherapy (newly diagnosed)\", \"tgx-007 (aav-1 hsv-tk/il-12 gene therapy)\"]",
+      "coder_B": "[\"tgx-007 (aav hsv-tk/il-12 gene therapy)\"]",
+      "proposed": "[] (regimen not_applicable)",
+      "ruling_applied": "R3; manual §2 regimen (v1.2 R1)",
+      "reason": "With valaciclovir not a candidate under R3 there is no candidate, so regimen is not_applicable and no combination partners are recorded.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "S6 fails under R3. target_engagement left at the agreed 'unclear' (HSV-tk mRNA expression in tissue is a biomarker endpoint not linked to a candidate, W7); outcome-neutral. Valaciclovir regimen_id disagreement is priority 3."
+}

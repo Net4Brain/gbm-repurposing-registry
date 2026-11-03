@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05429502",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "historical",
+      "coder_B": "cns5",
+      "proposed": "historical",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "The record says 'Glioblastoma, IDH-wildtype or IDH-mutant', which explicitly allows IDH-mutant glioblastoma (historical). It neither requires IDH-wildtype nor cites WHO CNS 2021, so the cns5 criteria are not met and the 'both' tie-break does not apply, despite CNS5-style subtype names.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "ribociclib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Paediatric/young-adult (12 months-21 years) basket; GBM named in HGG inclusion criteria. any_molecular_selection true only via SMARCB1 loss defining the rhabdoid cohort (both coders, enrichment); MYCN status need only be 'available', not a value, so not a selection. Neither concerns GBM; XL may prefer false if diagnostic-definition markers of non-GBM cohorts are not meant to count."
+}

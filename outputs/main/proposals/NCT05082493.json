@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05082493",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "high_grade_glioma_unspecified",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "Eligibility requires 'progressive, refractory, or recurrent HGG (WHO Grade III or IV)': grade 4 explicitly allowed, no IDH requirement, glioblastoma never named. This is exactly the R7 case, so include as historical glioblastoma; the agreed high_grade_glioma_unspecified does not stand.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "berubicin",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "R7 changes screening from excluded to included (removed in GBM-only and CNS5-only sensitivity analyses). cns5_terminology historical per R7 (queue p3: A historical, B unclear). Population is effectively paediatric ('Age >=2 to <18 years') although stdAges lists ADULT, so S4 [CODE] passes it with mixed_age; XL may wish to note this."
+}

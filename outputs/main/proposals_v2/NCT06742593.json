@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT06742593",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"other\", false, \"\"]",
+      "proposed": "No eligibility/enrichment biomarker row; candidate_matched_selection false",
+      "ruling_applied": "manual §5",
+      "reason": "B7-H3 positivity appears only in the detailed description ('whose B7H3 antigen expression was positive'), which describes a high-grade glioma population inconsistent with the registered eligibility; the inclusion criteria contain no B7-H3 requirement, so it is not an entry requirement. Either way it is not candidate-matched, as the only agent is a CAR-T product (excluded type), and the trial fails S5 (CNS metastases, glioblastoma never named).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma: 'brain, meninges, spinal cord metastases'). Priority-3 items: any_molecular_selection false (no B7-H3 entry criterion); tumour_pk/target_engagement no because CSF/blood CAR copy number and cytokines concern the excluded cell therapy, not a candidate; treatment_setting recurrent from 'recurrence or progression after standard treatment' (C10), low stakes.",
+  "revisions": []
+}

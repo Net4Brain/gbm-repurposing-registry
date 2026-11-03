@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT06753617",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "basket_gbm_eligible",
+      "proposed": "basket_gbm_eligible",
+      "ruling_applied": "D31-B15",
+      "reason": "Inclusion admits glioma ('3. Glioblastoma, IDH-wildtype'), 'meningioma (WHO gr. 1 and gr 2), or brain metastasis', so non-glioma tumours and metastases of other cancers are eligible; this is a multi-tumour trial with GBM named in the inclusion criteria, which fits basket_gbm_eligible better than a glioma-only mix.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Outcome-neutral: Phase NA (excluded at S3) and procedure-only cryoablation. D31-C1 sets the S6 reason to excluded_intervention_type (a non-drug intervention is under test); D31-B15 settles basket_gbm_eligible (glioma with meningioma/metastases, GBM named). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The tested intervention is a non-drug procedure ('[PROCEDURE] Cryoablation of brain neoplasm'), so the S6 reason is excluded_intervention_type, not no_pharmacological_candidate."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "items[gbm_population].ruling_applied",
+      "from": "manual §1.1",
+      "to": "D31-B15",
+      "reason": "Eligibility enrols glioma ('3. Glioblastoma, IDH-wildtype') alongside 'meningioma ... or brain metastasis', so basket_gbm_eligible is now settled by convention (value unchanged)."
+    }
+  ]
+}

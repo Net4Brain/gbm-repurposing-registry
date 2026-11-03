@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05313191",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only in the description text of the Cohort 1 arm entry, not in the arm label itself or in conditions/title/eligibility; basket vs not_glioblastoma could change screening.",
+      "coder_B": "",
+      "proposed": "basket_gbm_eligible (agreed coding stands)",
+      "ruling_applied": "",
+      "reason": "Glioblastoma is named only inside the registered arm entry 'Cohort 1: Central Nervous System' ('Glioblastoma (histologic or molecular including IDH wildtype)'), whose text works as cohort inclusion criteria; D27B counts a registered arm/group label, and whether the arm description counts is not settled by the manual or rulings.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "No effect on inclusion: Phase NA (fails S3) and proton radiotherapy is the only intervention (S6 no_pharmacological_candidate). XL decision needed only as a precedent on whether registered arm description text counts as 'arm/group label' under D27B; if not, not_glioblastoma."
+}

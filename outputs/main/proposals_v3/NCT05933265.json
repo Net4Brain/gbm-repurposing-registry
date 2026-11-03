@@ -1,0 +1,178 @@
+{
+  "nct_id": "NCT05933265",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "DDR alteration required only for 'other solid tumours' in Supplement A (where GBM could enter); link to LP-184 rests on its stated DNA-damaging mechanism and is not stated explicitly.",
+      "coder_B": "",
+      "proposed": "DDR alterations: exploratory_correlative (required only for Supplement A, a non-GBM-named cohort; GBM enters the Master Protocol without it), candidate_matched: true (lp-184) confirmed under D31-A6",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Supplement A enrols 'triple negative breast cancer (TNBC), non-small cell lung cancer (NSCLC), pancreatic adenocarcinoma (PDAC) or other solid tumours with known DDR genomic alterations', while GBM patients enter the Master Protocol with no biomarker requirement; under D31-A1 the row is not selection for this trial.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "DDR alteration is linked to the DNA-damaging alkylator LP-184 by implication (keywords: DNA damage repair), but the record does not state the link explicitly.",
+      "coder_B": "",
+      "proposed": "DDR alterations: exploratory_correlative (required only for Supplement A, a non-GBM-named cohort; GBM enters the Master Protocol without it), candidate_matched: true (lp-184) confirmed under D31-A6",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Supplement A enrols 'triple negative breast cancer (TNBC), non-small cell lung cancer (NSCLC), pancreatic adenocarcinoma (PDAC) or other solid tumours with known DDR genomic alterations', while GBM patients enter the Master Protocol with no biomarker requirement; under D31-A1 the row is not selection for this trial.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "Cohort selection marker for the nivolumab+ipilimumab cohort; no stated mechanistic link to a candidate in the record.",
+      "coder_B": "",
+      "proposed": "KEAP1/STK11: exploratory_correlative (NSCLC-only Supplement D), candidate_matched: true (lp-184)",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "'KEAP1 and/or STK11-mutated ... NSCLC' is required only for the NSCLC Supplement D cohort, which GBM patients cannot enter; under corrected D31-A6 KEAP1 loss is linked to LP-184, a prodrug activated by the NRF2 target PTGR1 (adjudicator's drug knowledge).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:PD_L1",
+      "coder_A": "PD-L1-low selection for a PD-1/CTLA-4 checkpoint combination; PD-1 pathway link is mechanistic but low expression is not a predictive-positive selection.",
+      "coder_B": "",
+      "proposed": "PD_L1: exploratory_correlative (NSCLC-only Supplement D), candidate_matched: true (nivolumab) unchanged",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "'PD-L1-low NSCLC' is required only for the NSCLC Supplement D cohort; under D31-A1 it is not selection for this trial, so the low-confidence match question no longer affects outcomes.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"ipilimumab\", \"nivolumab\", \"olaparib\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C3; D31-C2",
+      "reason": "GBM can enter only the Master Protocol and Supplement A, where 'LP-184' is given alone; the combinations (olaparib in TNBC Supplement C; nivolumab + ipilimumab in NSCLC Supplement D) are in cohorts GBM cannot enter. D31-C3 codes the regimen of the GBM arms in baskets.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "\"monotherapy\"",
+      "coder_B": "\"combination\"",
+      "proposed": "monotherapy",
+      "ruling_applied": "D31-C3; D31-C2",
+      "reason": "Same reasoning as combination_partners: the GBM-eligible experimental arms are LP-184 monotherapy D31-C3 codes the regimen of the GBM arms in baskets.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "lp-184",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "olaparib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "D31-A1 applied: all cohort biomarkers (DDR in Supplement A; KEAP1/STK11 and PD-L1-low in NSCLC Supplement D) are coded exploratory_correlative, and GBM enters the Master Protocol without any, so the primary outcome is false. A6 resolved (D31-A6 corrected; adjudicator's drug knowledge): DDR is linked to the DNA-alkylating LP-184 (DDR deficiency sensitises to it), KEAP1 is linked to LP-184 (NRF2-driven PTGR1 activates the prodrug), PD-L1 to nivolumab; these flags do not affect the outcomes. XL attention: Supplement A admits 'other solid tumours with known DDR genomic alterations', so GBM patients could enter it on a DDR requirement; treating it as a non-GBM cohort (A1) rather than a GBM-eligible cohort requirement (enrichment, which would make the primary outcome true) is a judgement call. Regimen monotherapy and empty partners follow D31-C3/C2 (GBM arms). Olaparib, nivolumab and ipilimumab are given only in non-GBM cohorts.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "coder A: biomarker:other (DDR)",
+      "from": "DDR alterations: enrichment (Supplement A), candidate_matched: true (lp-184)",
+      "to": "DDR alterations: exploratory_correlative (required only for Supplement A, a non-GBM-named cohort; GBM enters the Master Protocol without it), candidate_matched: true (lp-184) unchanged",
+      "reason": "DDR alterations are required only for Supplement A ('other solid tumours with known DDR genomic alterations'); GBM patients enter the Master Protocol without any biomarker."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "coder B: biomarker:other (DDR)",
+      "from": "DDR alterations: enrichment (Supplement A), candidate_matched: true (lp-184)",
+      "to": "DDR alterations: exploratory_correlative (required only for Supplement A, a non-GBM-named cohort; GBM enters the Master Protocol without it), candidate_matched: true (lp-184) unchanged",
+      "reason": "DDR alterations are required only for Supplement A ('other solid tumours with known DDR genomic alterations'); GBM patients enter the Master Protocol without any biomarker."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "coder B: biomarker:other (KEAP1/STK11)",
+      "from": "KEAP1/STK11: enrichment (Supplement D), candidate_matched: false",
+      "to": "KEAP1/STK11: exploratory_correlative (NSCLC-only Supplement D), candidate_matched: false",
+      "reason": "KEAP1/STK11 mutation is required only for the NSCLC Supplement D cohort; GBM patients enter without it."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "coder B: biomarker:PD_L1",
+      "from": "PD_L1: enrichment (Supplement D), candidate_matched: true (nivolumab)",
+      "to": "PD_L1: exploratory_correlative (NSCLC-only Supplement D), candidate_matched: true (nivolumab) unchanged",
+      "reason": "PD-L1-low status is required only for the NSCLC Supplement D cohort; GBM patients enter without it."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": true,
+      "to": false,
+      "reason": "With the DDR and PD-L1 rows recoded exploratory under D31-A1, no eligibility or enrichment row applies to GBM patients."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": true,
+      "to": false,
+      "reason": "GBM patients enter the Master Protocol ('advanced solid tumor that has relapsed') with no biomarker requirement."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[{\"biomarker\": \"other (DDR genomic alterations)\", \"matched_agent\": \"lp-184\"}, {\"biomarker\": \"PD_L1\", \"matched_agent\": \"nivolumab\"}]",
+      "to": "[]",
+      "reason": "No remaining eligibility or enrichment rows."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "items[coder A/B: biomarker:other (DDR)].ruling_applied",
+      "from": "D31-A1 (A6 pending XL)",
+      "to": "D31-A1; D31-A6 (candidate_matched true, lp-184, unchanged)",
+      "reason": "LP-184 is a DNA-alkylating acylfulvene prodrug whose activity is increased by DDR deficiency, an established pharmacological link (adjudicator's drug knowledge)."
+    },
+    {
+      "check": "A6",
+      "field": "items[coder B: biomarker:other (KEAP1/STK11)].proposed candidate_matched",
+      "from": "false",
+      "to": "true (lp-184)",
+      "reason": "LP-184 is activated by PTGR1, an NRF2 target raised by KEAP1 loss, so KEAP1 mutation is linked to it by established pharmacology (adjudicator's drug knowledge); the row stays exploratory_correlative with no effect on outcomes."
+    },
+    {
+      "check": "flag",
+      "field": "needs_xl_attention",
+      "from": "false",
+      "to": "true",
+      "reason": "candidate_matched_selection false rests on reading Supplement A, which admits any solid tumour with DDR alterations, as a non-GBM cohort under D31-A1 rather than a GBM-eligible cohort requirement."
+    }
+  ]
+}

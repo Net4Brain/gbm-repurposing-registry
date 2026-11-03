@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04674527",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Elemene is a plant-derived compound; whether it is a licensed medicine (pharmacological) or a herbal product (excluded) is not settled by the record.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate = true (elemene candidate), pending licensing evidence",
+      "ruling_applied": "D30-R5",
+      "reason": "Under D30-R5 a botanical-derived product is a candidate only if licensed as a medicine (any national authorisation). The record describes a pharmaceutical 'Elemene injectable emulsion' given IV at defined doses and cites prior RCTs of it 'against malignant tumors'; elemene injection is understood to hold a Chinese (NMPA) marketing authorisation as an antitumour drug, but the record itself does not state this.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:elemene",
+      "coder_A": "Candidate status depends on whether elemene counts as a licensed medicine rather than a herbal product.",
+      "coder_B": "",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "D30-R5",
+      "reason": "Elemene is the only investigational agent added to TMZ ('elemene injectable emulsion and TMZ-chemotherapy at the same time' vs TMZ alone), so if licensed it is experimental_monotherapy on a TMZ backbone (rule 4); otherwise excluded_intervention_type.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "elemene",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "D30-R5 needs licensing evidence for elemene injectable emulsion (expected: China NMPA authorisation only) to be recorded in Table S2; if confirmed, candidate with other_regulator_only = true and origin by FDA/EMA tree. If no national authorisation can be documented, change to excluded_intervention_type and has_eligible_candidate = false (regimen not_applicable). D31 §D: the R5 licensing check for elemene is still pending, so the proposal stays as drafted (needs_xl_attention true).",
+  "revisions": []
+}

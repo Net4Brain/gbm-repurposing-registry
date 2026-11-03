@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT06519682",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate true (uncertain: both arms typed ACTIVE_COMPARATOR)",
+      "coder_B": "has_eligible_candidate true",
+      "proposed": "has_eligible_candidate true",
+      "ruling_applied": "manual §3.1 rules 1 and 4; D31-B14",
+      "reason": "Rule 1 applies to an agent in a comparator or control arm only, but the record says it is a 'single arm, pilot study of upfront nivolumab' (design SINGLE_GROUP) with no control. The ACTIVE_COMPARATOR arm type is a registration label, and nivolumab is the trial's investigational question.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:nivolumab",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 rule 4",
+      "reason": "Nivolumab is the only drug ('All patients will be administered Nivolumab with or without radiation'). Radiation in Domain 2 is not an investigational agent, so rule 4 applies.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "other: PD1 and CD8 positivity, eligibility, candidate_matched true (nivolumab), uncertain",
+      "coder_B": "other: PD-1 and CD8 positivity, eligibility, candidate_matched true (nivolumab), uncertain",
+      "proposed": "other (PD-1/CD8 tumour immune markers), eligibility, candidate_matched true, matched_agent nivolumab",
+      "ruling_applied": "manual §5",
+      "reason": "'Favorable immune markers: High PD1 and CD8 positivity' is an entry requirement measured on tumour. PD-1 is the direct target of nivolumab, so the mechanistic link is clear even though it is an immune-contexture marker.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:TMB_MMR",
+      "coder_A": "TMB_MMR eligibility, candidate_matched true (nivolumab), not flagged",
+      "coder_B": "TMB_MMR eligibility, candidate_matched true (nivolumab), uncertain",
+      "proposed": "TMB_MMR, eligibility, candidate_matched true, matched_agent nivolumab",
+      "ruling_applied": "manual §5",
+      "reason": "Entry requires 'Proof of RRD: By tumor immunohistochemistry showing functional loss of mismatch repair gene expression'. The summary links this to the drug: 'upfront nivolumab in patients with RRD-glioblastoma with favorable immune/genomic biomarkers'. Mismatch-repair deficiency is the established predictive biomarker for anti-PD-1 therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "(see coder A: biomarker:other)",
+      "coder_B": "other: PD-1 and CD8 positivity, eligibility, candidate_matched true (nivolumab), uncertain",
+      "proposed": "other (PD-1/CD8), eligibility, candidate_matched true, matched_agent nivolumab",
+      "ruling_applied": "manual §5",
+      "reason": "Same decision as coder A's PD-1/CD8 item: it is a tumour entry requirement whose target is nivolumab's target.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual §2 (control_arm_from_other_arms definition)",
+      "reason": "The record describes an 'open label, multicentre, single arm, pilot study' (model SINGLE_GROUP). The two registered 'Domain' arms are sequential stages for the same patients, not parallel arms.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "TMB_MMR",
+        "matched_agent": "nivolumab"
+      },
+      {
+        "biomarker": "other (PD-1/CD8 positivity)",
+        "matched_agent": "nivolumab"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot for the primary estimand: phase is NA, so the trial fails S3. Because both arms are typed ACTIVE_COMPARATOR, the [CODE] control_arm will read 'yes' even though the trial is single-arm; XL may want to override it. RRD can also be shown by germline CMMRD/Lynch testing, but tumour IHC is the main route and the marker is a tumour property, so it is kept. Coder A's extra TMB_MMR exploratory row (TMB analysis on submitted tissue) is priority 3 and harmless. A6 pending XL: candidate_matched for the TMB_MMR and PD-1/CD8 rows (to nivolumab) is kept as in the original while XL corrects D31-A6. D31-C3: Domain 2 gives radiation concurrently with nivolumab, so regimen combination stands.",
+  "revisions": [
+    {
+      "convention": "D31-B14",
+      "field": "items[coder A: candidate_flag].ruling_applied",
+      "from": "manual §3.1 rules 1 and 4",
+      "to": "manual §3.1 rules 1 and 4; D31-B14 (confidence medium -> high)",
+      "reason": "D31-B14: roles follow the record's description ('single arm, pilot study of upfront nivolumab'), not the ACTIVE_COMPARATOR arm type, so nivolumab stays a candidate."
+    }
+  ]
+}

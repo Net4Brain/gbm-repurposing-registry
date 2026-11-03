@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT06855628",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "no_pharmacological_candidate",
+      "coder_B": "none",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "Manual §3/R9 lists only registered interventions plus agents the protocol says every patient receives in this trial. Here the only registered intervention is the tracer; BPM31510 belongs to the separate parent study ('Any participant that consents to entry into the Phase II BPM31510 parent study'), and this record's question is the prognostic value of DMI. The only agent is a diagnostic_agent, so no candidate.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[]",
+      "coder_B": "[\"bpm31510\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "Manual §3/R9 lists only registered interventions plus agents the protocol says every patient receives in this trial. Here the only registered intervention is the tracer; BPM31510 belongs to the separate parent study ('Any participant that consents to entry into the Phase II BPM31510 parent study'), and this record's question is the prognostic value of DMI.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "Manual §3/R9 lists only registered interventions plus agents the protocol says every patient receives in this trial. Here the only registered intervention is the tracer; BPM31510 belongs to the separate parent study ('Any participant that consents to entry into the Phase II BPM31510 parent study'), and this record's question is the prognostic value of DMI. Counting the parent drug here would also double-count it with the parent trial's own record.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "A's own coding (no candidate) stands: BPM31510 is not a registered intervention and the record does not say it is given as part of this study.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "B's inclusion of BPM31510 is not supported: the summary says DMI is evaluated 'in a trial assessing the efficacy of adding BPM31510', i.e. the drug is the parent trial's intervention.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:bpm31510",
+      "coder_A": "(not listed)",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "not listed as an agent of this record",
+      "ruling_applied": "manual §3 (R9)",
+      "reason": "Not a registered intervention and not stated as given within this study; mentioned only as the parent trial's drug.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"standard treatment of glioblastoma\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual §2 (R1)",
+      "reason": "Without a candidate, regimen is not_applicable and there are no combination partners.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "not_applicable",
+      "coder_B": "combination",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual §2 (R1)",
+      "reason": "regimen is not_applicable whenever has_eligible_candidate is false.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Screening-critical (S6) and no ruling covers companion/sub-studies of a parent drug trial. Proposal excludes it as an imaging sub-study; if XL counts BPM31510 (ubidecarenone nanodispersion), the trial is included with bpm31510 experimental_monotherapy, regimen combination. XL may want to check that the parent study BPM31510IV-11 is in the dataset under its own NCT."
+}

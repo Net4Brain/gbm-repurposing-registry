@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07464925",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"unclear\"",
+      "coder_B": "\"no\"",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "PK is a stated objective ('pharmacokinetic profiles and preliminary clinical activity') but the sample type is not given; W7 says unclear only if PK is planned and the sample type is not stated, which is this case. Coder B's 'no' would require that no PK is planned.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "glix1",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": ""
+}

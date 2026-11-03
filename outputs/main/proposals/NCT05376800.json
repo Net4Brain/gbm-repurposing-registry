@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT05376800",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (R8 definitions)",
+      "reason": "Two registered EXPERIMENTAL arms ('Phase 0 Part' and 'Phase Ia Part'), neither of which works as a control; R8: 'no' = more than one arm but none works as a control; 'not_applicable' is reserved for single-arm trials.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "brigimadlin",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: TP53 wild type",
+        "matched_agent": "brigimadlin"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "TP53 wild type (Phase Ia entry requirement) + MDM2 inhibitor brigimadlin is a clear match (both coders agree); eligibility vs enrichment role split is priority 3 and does not change the outcome."
+}

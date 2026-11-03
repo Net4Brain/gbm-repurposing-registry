@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT04856852",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"established_therapy_only\"",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "The investigational question is Iodine-125 brachytherapy (radiotherapy); temozolomide is the same dose/schedule in both arms (75 mg/m2/day x 42 days), so it is soc_backbone. D31-C1: when the tested intervention is radiotherapy, the S6 reason is excluded_intervention_type.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the trial fails S3 first and the S6 reason does not reach Figure 1. D31-C1 settles the S6 reason as excluded_intervention_type. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "items[candidate_exclusion_reason].ruling_applied",
+      "from": "manual §1.2",
+      "to": "D31-C1",
+      "reason": "Value unchanged; C1 settles it: the tested intervention is Iodine-125 brachytherapy (radiotherapy), so excluded_intervention_type, not no_pharmacological_candidate."
+    }
+  ]
+}

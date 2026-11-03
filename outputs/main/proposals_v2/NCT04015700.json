@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT04015700",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"] (tumour-specific candidate neoantigen identified by tumour sequencing, eligibility)",
+      "coder_B": "",
+      "proposed": "include: other (tumour neoantigen identified by sequencing), eligibility, candidate_matched false",
+      "ruling_applied": "manual §5",
+      "reason": "Exclusion \"No candidate neoantigen identified during screening\" works as a tumour-sequencing entry requirement, so it is an eligibility biomarker; it serves the vaccine, not a candidate, so not matched. No effect on outcomes: MGMT-unmethylated is already an eligibility biomarker.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false (excluded_intervention_type), uncertain: plasmid IL-12 registered as Drug",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "The record calls it \"personalized neoantigen DNA vaccine plus plasmid encoded IL-12 as an adjuvant\"; D30-R4 makes IL-12 given to support a vaccine part of the excluded therapy (it is also a gene-based plasmid). Agreed coding stands.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "has_eligible_candidate false (excluded_intervention_type), uncertain: plasmid IL-12 registered as Drug",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "INO-9012 is given only with the vaccine in the single arm \"Vaccine (GNOS-PV01 + INO-9012)\" and has no own arm or outcome; D30-R4 applies.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection true from the MGMT-unmethylated entry requirement (\"MGMT unmethylated glioblastoma multiforme\"), agreed by both coders. target_engagement_planned (priority 3, A no vs B yes): proposed no, since CD8 T-cell immunogenicity belongs to the vaccine and there is no candidate.",
+  "revisions": []
+}

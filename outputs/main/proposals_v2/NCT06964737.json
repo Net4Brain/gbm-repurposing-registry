@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT06964737",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Conditions include 'Recurrent WHO Grade 4 Glioma' and inclusion 'History of high-grade glioma (World Health Organization [WHO] grade III or IV)', grade 4 explicitly allowed, no IDH requirement, glioblastoma never named: R7 includes as historical glioblastoma. Grade II with transformation also allowed, which does not change the R7 reading.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "",
+      "coder_B": "high_grade_glioma_unspecified (uncertain)",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "R7 resolves B's doubt: 'grade III or IV' high-grade glioma with grade 4 stated is included, cns5_terminology historical.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S6 either way (anti-GARP CAR-T only). Priority-3 disagreements on tumour_pk/target_engagement (B: yes, from CAR-T persistence in CSF and GARP pre/post) are not adjudicated here; both variables concern candidates, and there is none, so 'no' is proposed.",
+  "revisions": []
+}

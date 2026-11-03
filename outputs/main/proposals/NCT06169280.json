@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT06169280",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "high_grade_glioma_unspecified (uncertain)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named (cns5_terminology historical)",
+      "ruling_applied": "R7",
+      "reason": "Inclusion: 'Diagnosis of a high-grade glioma (WHO grade 3 or grade 4)' - grade 4 explicitly allowed, no IDH requirement, glioblastoma never named: R7 includes this as historical glioblastoma. The trial still fails S6 (only investigational product is NSC-CRAd-S-pk7, an oncolytic virus/cell therapy).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Agreed agreed coding of gbm_population changed by R7; exclusion reason moves from S5 to S6 (excluded_intervention_type)."
+}

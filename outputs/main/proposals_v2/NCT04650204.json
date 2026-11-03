@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT04650204",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"none\"",
+      "coder_B": "\"no_pharmacological_candidate\"",
+      "proposed": "perampanel supportive (not a candidate); has_eligible_candidate false; exclusion reason no_pharmacological_candidate",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names perampanel for seizures: its stated purpose is seizure reduction ('Perampanel is a drug used to treat seizures') and the record states no antitumour hypothesis; MRI progression and survival are routine outcomes, so it is supportive.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"perampanel\"]",
+      "coder_B": "[]",
+      "proposed": "perampanel supportive (not a candidate); has_eligible_candidate false; exclusion reason no_pharmacological_candidate",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names perampanel for seizures: its stated purpose is seizure reduction ('Perampanel is a drug used to treat seizures') and the record states no antitumour hypothesis; MRI progression and survival are routine outcomes, so it is supportive.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "perampanel supportive (not a candidate); has_eligible_candidate false; exclusion reason no_pharmacological_candidate",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names perampanel for seizures: its stated purpose is seizure reduction ('Perampanel is a drug used to treat seizures') and the record states no antitumour hypothesis; MRI progression and survival are routine outcomes, so it is supportive.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Perampanel's stated purpose is seizure control (supportive), but MRI progression and survival outcomes are stated, which could count as an antitumour outcome under rule 2.",
+      "coder_B": "",
+      "proposed": "perampanel supportive (not a candidate); has_eligible_candidate false; exclusion reason no_pharmacological_candidate",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names perampanel for seizures: its stated purpose is seizure reduction ('Perampanel is a drug used to treat seizures') and the record states no antitumour hypothesis; MRI progression and survival are routine outcomes, so it is supportive.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded on several grounds: registered PHASE4 (S3); S5 high_grade_glioma_unspecified ('high-grade glioma (grade II or above)', grade 4 not explicit, GBM only in an exclusion); and under D31-B9 perampanel is supportive (seizure control, no antitumour hypothesis), so no candidate (no_pharmacological_candidate, D31-C1). IDH is an exploratory correlate only.",
+  "revisions": [
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.has_eligible_candidate",
+      "from": "true",
+      "to": "false",
+      "reason": "Perampanel's stated purpose is 'reducing seizure frequency in patients with high-grade glioma and focal epilepsy' with no antitumour hypothesis, so it is supportive and there is no candidate."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.candidates",
+      "from": "[perampanel experimental_monotherapy]",
+      "to": "[]",
+      "reason": "Perampanel is supportive under D31-B9."
+    },
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "none",
+      "to": "no_pharmacological_candidate",
+      "reason": "No non-drug intervention is under test (only perampanel vs standard anti-seizure drugs plus questionnaires)."
+    },
+    {
+      "convention": "manual R1",
+      "field": "proposed_final.regimen",
+      "from": "monotherapy",
+      "to": "not_applicable",
+      "reason": "Regimen is not_applicable without an eligible candidate."
+    }
+  ]
+}

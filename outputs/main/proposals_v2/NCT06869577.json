@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT06869577",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Participants are caregivers of glioblastoma patients (patients also complete questionnaires); glioblastoma is named in the conditions but the enrolled population is not a patient treatment population.",
+      "coder_B": "",
+      "proposed": "gbm_only (agreed coding stands)",
+      "ruling_applied": "manual §1 (S3, S6)",
+      "reason": "Caregiver behavioural intervention ('Family caregivers (≥18 years) to patients (≥18 years) diagnosed with a GBM grade IV'); phase NA, so it is excluded at S3 (phase_not_applicable) by the script before S5, and it would also fail S6. The S5 value cannot change the outcome.",
+      "confidence": "high"
+    },
+    {
+      "type": "d31_convention",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"no_pharmacological_candidate\"",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "A non-drug intervention is under test ('Project SUGRI: A supportive group intervention for caregivers to patients with a glioblastoma'), so no_pharmacological_candidate does not apply under D31-C1.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S3 (phase NA) before S5/S6 apply. S6 reason changed to excluded_intervention_type under D31-C1 (behavioural caregiver intervention under test); no effect on inclusion.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The record tests a non-drug intervention ('A supportive group intervention' for caregivers), and D31-C1 reserves no_pharmacological_candidate for trials with no non-drug intervention under test."
+    }
+  ]
+}

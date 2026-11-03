@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT05977322",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:other", "coder_A": "integrin αvβ3/αvβ5 expression by [68Ga]Ga-FF58 PET uptake; eligibility; candidate_matched true (ff58)", "coder_B": "",
+     "proposed": "keep: other (integrin αvβ3/αvβ5 expression by 68Ga-FF58 PET), eligibility, candidate_matched true to ff58, flag imaging_assessed",
+     "ruling_applied": "D30-R2",
+     "reason": "Entry to treatment requires 'at least one measurable lesion that shows [68Ga]Ga-FF58 uptake on PET/CT or PET/MRI', the paired tracer for the [177Lu]Lu-FF58 radioligand. R2 counts imaging-assessed target expression with a matched radioligand as candidate-matched selection, flagged imaging_assessed.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder B: biomarker:other", "coder_A": "", "coder_B": "integrin αvβ3/αvβ5 expression (68Ga-FF58 PET uptake); eligibility; candidate_matched true (ff58)",
+     "proposed": "same as coder A row: candidate-matched eligibility biomarker, imaging_assessed",
+     "ruling_applied": "D30-R2",
+     "reason": "Same basis as above; the arm states 'only patients with tumor uptake of 68Ga-FF58 will receive 177Lu-FF58'.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible", "cns5_terminology": "historical", "basket": true,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "ff58", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": true,
+    "matched_biomarkers": [{"biomarker": "other: integrin alpha-v beta-3 / alpha-v beta-5 expression (68Ga-FF58 PET uptake)", "matched_agent": "ff58"}],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Counts toward the primary outcome but is removed in the new sensitivity analysis 15 (imaging-assessed selection, R2). 68ga-ff58 is a diagnostic_agent (not a candidate); candidate is radiopharmaceutical."
+}

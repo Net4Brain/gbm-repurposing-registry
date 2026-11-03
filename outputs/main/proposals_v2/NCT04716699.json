@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT04716699",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=true",
+      "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=no_pharmacological_candidate",
+      "ruling_applied": "D31-B9; D31-C1",
+      "reason": "Lidocaine's only stated purpose is anaesthetic ('Lidocaine is a substance used to relieve pain by blocking signals at the nerve endings in skin'; bolus 'per standard of care'); the OS/PFS comparison with historical controls is a routine outcome, and no antitumour hypothesis for lidocaine is stated, so D31-B9 makes it supportive. With no candidate and no non-drug intervention under test (resection is standard care), the S6 reason is no_pharmacological_candidate (D31-C1).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:lidocaine",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "supportive",
+      "ruling_applied": "D31-B9",
+      "reason": "Lidocaine's only stated purpose is anaesthetic ('Lidocaine is a substance used to relieve pain by blocking signals at the nerve endings in skin'; bolus 'per standard of care'); the OS/PFS comparison with historical controls is a routine outcome, and no antitumour hypothesis for lidocaine is stated, so D31-B9 makes it supportive.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=true",
+      "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=no_pharmacological_candidate",
+      "ruling_applied": "D31-B9; D31-C1",
+      "reason": "Lidocaine's only stated purpose is anaesthetic ('Lidocaine is a substance used to relieve pain by blocking signals at the nerve endings in skin'; bolus 'per standard of care'); the OS/PFS comparison with historical controls is a routine outcome, and no antitumour hypothesis for lidocaine is stated, so D31-B9 makes it supportive. With no candidate and no non-drug intervention under test (resection is standard care), the S6 reason is no_pharmacological_candidate (D31-C1).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:lidocaine",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "supportive",
+      "ruling_applied": "D31-B9",
+      "reason": "Lidocaine's only stated purpose is anaesthetic ('Lidocaine is a substance used to relieve pain by blocking signals at the nerve endings in skin'; bolus 'per standard of care'); the OS/PFS comparison with historical controls is a routine outcome, and no antitumour hypothesis for lidocaine is stated, so D31-B9 makes it supportive.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Inclusion change: under D31-B9 lidocaine (stated purpose pain relief/anaesthesia, routine OS/PFS only, no stated antitumour hypothesis) is supportive, so the trial is excluded at S6 (no_pharmacological_candidate). tumour_pk_planned left as 'yes' (intratumoural lidocaine PK is the primary objective) but is moot once excluded. XL may wish to confirm that 'may help researchers come up with new treatments' is not an antitumour hypothesis.",
+  "revisions": [
+    {
+      "convention": "D31-B9",
+      "field": "agent:lidocaine role",
+      "from": "experimental_monotherapy",
+      "to": "supportive",
+      "reason": "The record describes lidocaine only as an anaesthetic given 'per standard of care' ('used to relieve pain'), with routine OS/PFS vs historical controls and no stated antitumour hypothesis."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "has_eligible_candidate",
+      "from": "true",
+      "to": "false",
+      "reason": "Lidocaine, the only drug, becomes supportive under B9, so the trial has no candidate."
+    },
+    {
+      "convention": "D31-C1",
+      "field": "candidate_exclusion_reason",
+      "from": "none",
+      "to": "no_pharmacological_candidate",
+      "reason": "No non-drug intervention is under test either (resection is 'per standard of care'; biospecimen collection only)."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "candidates",
+      "from": "lidocaine (experimental_monotherapy)",
+      "to": "[]",
+      "reason": "Lidocaine is supportive under B9."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "regimen",
+      "from": "monotherapy",
+      "to": "not_applicable",
+      "reason": "Manual R1: regimen is not_applicable when has_eligible_candidate is false."
+    }
+  ]
+}

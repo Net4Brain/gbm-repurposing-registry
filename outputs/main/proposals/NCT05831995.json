@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT05831995",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only in keywords; conditions, title, inclusion criteria and arm labels refer only to solid tumours / primary CNS tumours (gliomas), which may include GBM.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma (agreed coding stands)",
+      "ruling_applied": "manual §1.1 C7 / D27B",
+      "reason": "Glioblastoma appears only in the keywords; conditions ('Advanced Solid Tumor; RAS Mutation; RAF Mutation; NF1 Mutation'), title, inclusion ('primary CNS tumors, such as gliomas') and arm labels never name it, and C7 says a keyword mention does not make a trial eligible.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma appears only in the keywords; conditions, title, inclusion criteria and arm labels name only solid tumours and 'primary CNS tumors' (gliomas), so the manual's naming rule is not met, but a GBM cohort is plausible.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma (agreed coding stands)",
+      "ruling_applied": "manual §1.1 C7 / D27B",
+      "reason": "Glioblastoma appears only in the keywords; conditions ('Advanced Solid Tumor; RAS Mutation; RAF Mutation; NF1 Mutation'), title, inclusion ('primary CNS tumors, such as gliomas') and arm labels never name it, and C7 says a keyword mention does not make a trial eligible.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "abm-168",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: RAS mutation",
+        "matched_agent": "abm-168"
+      },
+      {
+        "biomarker": "BRAF (RAF mutation)",
+        "matched_agent": "abm-168"
+      },
+      {
+        "biomarker": "other: NF1 mutation",
+        "matched_agent": "abm-168"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma); downstream fields are moot. Candidate match of RAS/RAF/NF1 to ABM-168 is inferred (record does not state its target). tumour_pk_planned 'unclear' per W7 (PK planned in brief summary, sample type not stated). basket true reflects the solid-tumour design; it has no effect since GBM is not eligible."
+}

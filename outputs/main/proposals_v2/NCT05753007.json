@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT05753007",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Custom full-spectrum hemp-derived CBD product (apparently not a licensed medicine) with a stated antitumour hypothesis and tumour-progression outcome; if treated as licensed cannabidiol it would be a candidate (experimental_monotherapy) and the trial would pass S6.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate: false (excluded_intervention_type); agreed coding stands",
+      "ruling_applied": "D30-R5",
+      "reason": "The product is a 'Custom-formulated full-spectrum solution high in cannabidiol' / 'hemp-derived ultra-high CBD product'; despite the stated antitumour hypothesis and tumour-progression comparison, R5 makes it a candidate only if licensed as a medicine, and nothing indicates a marketing authorisation.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "Hemp-derived CBD solution is treated as an unlicensed supplement-type product; record also mentions a tumour progression comparison, but no licensed medicine is stated.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate: false (excluded_intervention_type); agreed coding stands",
+      "ruling_applied": "D30-R5",
+      "reason": "Same as coder A row: unlicensed full-spectrum hemp CBD extract with an antitumour hypothesis is excluded under R5.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Licensing evidence for this custom hemp-derived CBD product should be recorded in Table S2 per D30-R5 (product not on the D31 §D check list).",
+  "revisions": []
+}

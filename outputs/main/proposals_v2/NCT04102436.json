@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT04102436",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false, excluded_intervention_type (aldesleukin soc_backbone, uncertain)",
+      "coder_B": "has_eligible_candidate false, excluded_intervention_type (aldesleukin supportive, uncertain)",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type; aldesleukin = part of the excluded cell therapy (not a candidate)",
+      "ruling_applied": "D30-R4",
+      "reason": "D30-R4: IL-2 given to support a cell therapy is part of the excluded therapy. Aldesleukin is given 'beginning within 24 hours of cell infusion' to every patient in the single arm. It has no arm or outcome of its own, so the exception does not apply.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate false (uncertain)",
+      "coder_B": "has_eligible_candidate false (uncertain)",
+      "proposed": "has_eligible_candidate false; agreed coding stands; aldesleukin, cyclophosphamide and fludarabine = excluded_intervention_type",
+      "ruling_applied": "D31-B8",
+      "reason": "The 'high- or low-dose aldesleukin' wording does not make IL-2 the subject of investigation; the primary outcome is response to the TCR-transposed PBL. Cyclophosphamide and fludarabine are lymphodepleting conditioning for the cell therapy, which D31-B8 makes part of the excluded therapy (role excluded_intervention_type).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Under D30-R4 aldesleukin, and under D31-B8 the lymphodepleting cyclophosphamide and fludarabine, are recorded as excluded_intervention_type (part of the excluded cell therapy). Glioblastoma is named in inclusion as Cohort 4. has_eligible_candidate false unchanged.",
+  "revisions": [
+    {
+      "convention": "D31-B8",
+      "field": "items[coder B: candidate_flag] (roles of cyclophosphamide, fludarabine)",
+      "from": "supportive (manual R6)",
+      "to": "excluded_intervention_type",
+      "reason": "Cyclophosphamide and fludarabine are lymphodepleting conditioning before infusion of the TCR-transposed autologous PBL, i.e. drugs given to support a cell therapy."
+    }
+  ]
+}

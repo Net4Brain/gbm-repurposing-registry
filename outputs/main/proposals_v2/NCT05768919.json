@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT05768919",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "none",
+      "coder_B": "excluded_intervention_type",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R5",
+      "reason": "D30-R5: curcumin with an antitumour hypothesis is a candidate only if licensed as a medicine. The record calls LipoCurc an investigational product ('Receiving any other investigational agent' excluded; dose-escalation to MTD) and gives no marketing authorisation.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"curcumin\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "D30-R5",
+      "reason": "Unlicensed curcumin product, so excluded_intervention_type under D30-R5 even though it is given IV as a liposomal formulation.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D30-R5",
+      "reason": "The only investigational agent is liposomal curcumin; temozolomide is soc_backbone ('standard CRT ... daily oral TMZ'), so no candidate remains once curcumin is excluded.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:curcumin:role",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "excluded_intervention_type",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R5",
+      "reason": "D30-R5 settles curcumin products: candidate only with a national marketing authorisation; none is stated for 'Liposomal Curcumin (LC)'.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate true (uncertain)",
+      "coder_B": "has_eligible_candidate false (uncertain)",
+      "proposed": "has_eligible_candidate false",
+      "ruling_applied": "D30-R5",
+      "reason": "The doubt (IV liposomal investigational product vs supplement) is the case D30-R5 was written for; licensing, not formulation, decides.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:curcumin",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "excluded_intervention_type (uncertain)",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R5",
+      "reason": "As above: no marketing authorisation stated for LipoCurc, so excluded type under D30-R5.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate true",
+      "coder_B": "has_eligible_candidate false (uncertain)",
+      "proposed": "has_eligible_candidate false",
+      "ruling_applied": "D30-R5",
+      "reason": "Coder B's reading matches D30-R5 (sponsor-developed, unlicensed curcumin product = excluded_intervention_type).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:curcumin",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "excluded_intervention_type (uncertain)",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R5",
+      "reason": "Agreed with coder B under D30-R5.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "manual R1",
+      "reason": "With no eligible candidate, regimen is not_applicable (manual R1), so no combination partners are recorded.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "combination",
+      "coder_B": "not_applicable",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual R1",
+      "reason": "Manual R1: regimen is not_applicable whenever has_eligible_candidate is false. If XL finds a licence for LipoCurc, regimen becomes combination (RT + TMZ backbone).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "D31 §D evidence check pending: LipoCurc licensing (R5, Table S2). The proposal stays as drafted until the check is done. If a licence exists, curcumin becomes experimental_combination (added to standard RT + TMZ), has_eligible_candidate true, regimen combination with partners radiotherapy + temozolomide. gbm_population mixed_glioma_gbm_named / historical is consistent with the record ('WHO grade III or IV, including GBM ... IDH WT and mutant'); MGMT: either status eligible, so no selection (D31-A8).",
+  "revisions": []
+}

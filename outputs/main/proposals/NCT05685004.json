@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05685004",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Low-dose IL-2 given only in the experimental arm after T-cell infusion; coded supportive (cell-therapy adjunct), but if treated as an investigational antitumour drug the trial would pass S6.",
+      "coder_B": "",
+      "proposed": "IL-2 is part of the excluded therapy; has_eligible_candidate false (excluded_intervention_type) stands",
+      "ruling_applied": "R4",
+      "reason": "Low-dose IL-2 is given 'Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2', i.e. to support the adoptive T-cell therapy. It is not tested as an antitumour agent in its own arm or outcome, so it is not a candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": ""
+}

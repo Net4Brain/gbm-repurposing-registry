@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT04732065",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only in the conditions list; eligibility is DMG H3K27-altered or generic recurrent primary malignant CNS tumours (Arm D), so GBM eligibility is implicit, and the population is mostly paediatric/young adult.",
+      "coder_B": "",
+      "proposed": "basket_gbm_eligible (include)",
+      "ruling_applied": "D31-B15",
+      "reason": "\"Glioblastoma\" is listed in the conditions, which under C7/D27B is a valid place for glioblastoma to be named. Arm D admits \"recurrent primary malignant CNS tumors, excluding DMGs\", which can include GBM. Both coders agree; the agreed coding stands. Under D31-B15, Arm D enrols \"recurrent primary malignant CNS tumors\" (non-glioma brain tumours, e.g. ependymoma allowed) alongside glioma, so the population is basket_gbm_eligible with GBM named in the conditions.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:H3K27M",
+      "coder_A": "H3K27 alteration is required for Arms A-C; the record does not state a mechanistic link to ONC206 (DRD2/ClpP), but imipridones are developed for H3K27M glioma, so matching could be argued.",
+      "coder_B": "",
+      "proposed": "H3K27M exploratory_correlative (required only for the DMG arms A-C), candidate_matched false (A6 pending XL)",
+      "ruling_applied": "D31-A1",
+      "reason": "H3K27 alteration is required only for the DMG cohorts (\"ARM A/B/C: ... pathology must be consistent with a DMG, H3K27 altered\"); GBM patients can enter only through Arm D (\"recurrent primary malignant CNS tumors, excluding DMGs\") without it, so under D31-A1 the row is exploratory_correlative. candidate_matched kept false as in the original (D31-A6 on hold).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "",
+      "coder_B": "Glioblastoma appears only as a listed condition; eligibility is DMG H3K27-altered or recurrent primary malignant CNS tumours with no explicit glioblastoma criterion.",
+      "proposed": "basket_gbm_eligible (include)",
+      "ruling_applied": "D31-B15",
+      "reason": "Same as Coder A's flag: naming glioblastoma in the conditions satisfies C7/D27B, and Arm D can enrol recurrent GBM. Under D31-B15, Arm D enrols \"recurrent primary malignant CNS tumors\" (non-glioma brain tumours, e.g. ependymoma allowed) alongside glioma, so the population is basket_gbm_eligible with GBM named in the conditions.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "onc206",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Mostly paediatric and young-adult trial (mixed_age at S4 [CODE]). Under D31-B15 the population is basket_gbm_eligible (still included). D31-A1 makes the H3K27M row exploratory_correlative because GBM enters only via Arm D without it, so any_molecular_selection is false and candidate_matched_selection stays false regardless of the imipridone-H3K27M link. A6 pending XL: candidate_matched for H3K27M kept false as in the original; it cannot change the primary outcome here because of A1. combination_partners ['radiotherapy'] is kept (C2: radiotherapy is given with ONC206 in arms B/C), while regimen follows the GBM arm (C3). treatment_setting 'both' is unchanged (no D31 convention covers it), although the GBM-eligible Arm D is recurrent only.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.gbm_population",
+      "from": "mixed_glioma_gbm_named",
+      "to": "basket_gbm_eligible",
+      "reason": "Arm D enrols \"recurrent primary malignant CNS tumors, excluding DMGs\" (ependymoma allowed; conditions include \"CNS Tumor\"), i.e. glioma alongside non-glioma brain tumours, with Glioblastoma named in the conditions."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.basket",
+      "from": "false",
+      "to": "true",
+      "reason": "Follows from basket_gbm_eligible under D31-B15."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "biomarker:H3K27M role",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "H3K27 alteration is required only for the DMG arms A-C, while GBM patients enter via Arm D (\"excluding DMGs\") without it."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "With the H3K27M row exploratory_correlative, the GBM patients' entry (Arm D) has no molecular requirement; the remaining row (ctDNA) is exploratory."
+    },
+    {
+      "convention": "D31-C3",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "The GBM-eligible arm is Arm D, \"Participants receive ONC206 PO ... up to six times per week\" with no radiation; radiotherapy is given only in the DMG arms B and C."
+    },
+    {
+      "convention": "D31-C6",
+      "field": "proposed_final.target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The only PD objective is \"To assess PD changes within tumor tissue after ONC206 administration\", with no measurement described."
+    }
+  ]
+}

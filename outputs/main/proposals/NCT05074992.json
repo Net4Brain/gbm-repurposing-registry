@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT05074992",
+  "items": [
+    {"type": "disagreement", "item": "combination_partners", "coder_A": "[]", "coder_B": "[\"chemoradiotherapy\"]",
+     "proposed": "[]",
+     "ruling_applied": "manual §2 (regimen, C1)",
+     "reason": "The only registered experimental arm is \"Ipilimumab\" (2 cycles); chemoradiotherapy follows only after trial treatment ends (\"before continuing to standard of care treatment of debulking surgery and chemoradiation\"), so it is not given within the experimental arm.",
+     "confidence": "low"},
+    {"type": "disagreement", "item": "regimen", "coder_A": "monotherapy", "coder_B": "combination",
+     "proposed": "monotherapy",
+     "ruling_applied": "manual §2 (regimen, C1)",
+     "reason": "Ipilimumab is given alone as neoadjuvant trial treatment, with no other antitumour drug or radiotherapy during it; the record frames it as \"the addition of ipilimumab prior to the current standard treatment\", which supports reading subsequent chemoradiation as part of the regimen (C1).",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "ipilimumab", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "newly_diagnosed", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Policy question for neoadjuvant designs: does sequential standard chemoradiation after the trial drug count toward regimen under C1? The manual does not settle sequential (non-concurrent) SOC. If yes: regimen combination, partners [\"radiotherapy\", \"temozolomide\" (not named in record)]."
+}

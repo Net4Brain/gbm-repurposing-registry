@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT06215495",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma never named; 'WHO grade IV' glioma (with grade III) eligible without IDH requirement could be read as historical GBM under D27C, but the record cites WHO 2021 where grade 4 also includes IDH-mutant astrocytoma.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (agreed high_grade_glioma_unspecified does not stand)",
+      "ruling_applied": "D30-R7; D31-B4",
+      "reason": "Inclusion is 'High-grade glioma (2021 WHO grade III or IV)': grade 4 explicitly allowed, no IDH requirement, glioblastoma never named, which is the R7 pattern (include as mixed_glioma_gbm_named). The WHO 2021 citation does not restrict grade 4 to IDH-mutant tumours; under CNS5 grade 4 glioma includes glioblastoma, IDH-wildtype.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "cns5_terminology cns5 settled by D31-B4 (inclusion cites '2021 WHO grade III or IV'). Included at S5 under D30-R7 (mixed_glioma_gbm_named); fails S3 (phase NA) and S6 (radiotherapy-volume trial, temozolomide backbone only; reason excluded_intervention_type per D31-C1).",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The tested intervention is radiotherapy target delineation ('reduced target volume' vs 'EORTC target volume'), with temozolomide given to both groups, so D31-C1 gives excluded_intervention_type."
+    }
+  ]
+}

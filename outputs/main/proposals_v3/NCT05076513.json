@@ -1,0 +1,163 @@
+{
+  "nct_id": "NCT05076513",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"IDH\", true, \"niraparib\"]",
+      "coder_B": "",
+      "proposed": "IDH: exploratory_correlative (Arm B non-GBM cohort only, D31-A1); candidate_matched true (niraparib); not selection",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Arm B ('recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss') is a non-GBM (IDH-mutant) cohort; GBM patients enter Arm A ('presumed newly-diagnosed glioblastoma') without this requirement, so under D31-A1 the row is exploratory_correlative and not selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "IDH: exploratory_correlative (Arm B non-GBM cohort only, D31-A1); candidate_matched true (niraparib); not selection",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Arm B ('recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss') is a non-GBM (IDH-mutant) cohort; GBM patients enter Arm A ('presumed newly-diagnosed glioblastoma') without this requirement, so under D31-A1 the row is exploratory_correlative and not selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:IDH",
+      "coder_A": "IDH-mutant cohort for a PARP inhibitor; mechanistic link (IDH-mutation-associated homologous-recombination defect) is not stated in the record.",
+      "coder_B": "",
+      "proposed": "IDH: exploratory_correlative (Arm B non-GBM cohort only, D31-A1); candidate_matched true (niraparib); not selection",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Arm B ('recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss') is a non-GBM (IDH-mutant) cohort; GBM patients enter Arm A ('presumed newly-diagnosed glioblastoma') without this requirement, so under D31-A1 the row is exploratory_correlative and not selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "ATRX loss cohort for a PARP inhibitor; DNA-repair/synthetic-lethality rationale is implied (PD endpoint of chromosomal fusion) but not stated.",
+      "coder_B": "",
+      "proposed": "ATRX loss: exploratory_correlative (Arm B non-GBM cohort only, D31-A1); candidate_matched true (niraparib); not selection",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Arm B ('recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss') is a non-GBM (IDH-mutant) cohort; GBM patients enter Arm A ('presumed newly-diagnosed glioblastoma') without this requirement, so under D31-A1 the row is exploratory_correlative and not selection.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "Record does not state why IDH-mutant/ATRX-loss tumours were chosen for the PARP inhibitor; match coded from the design (Arm B PD outcome is chromosomal fusion in niraparib-treated IDH/ATRX-loss tissue).",
+      "coder_B": "",
+      "proposed": "ATRX loss: exploratory_correlative (Arm B non-GBM cohort only, D31-A1); candidate_matched true (niraparib); not selection",
+      "ruling_applied": "D31-A1; D31-A6",
+      "reason": "Arm B ('recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss') is a non-GBM (IDH-mutant) cohort; GBM patients enter Arm A ('presumed newly-diagnosed glioblastoma') without this requirement, so under D31-A1 the row is exploratory_correlative and not selection.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"historical\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "historical",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "Conditions use 'Glioblastoma Multiforme' and Arm A says 'presumed newly-diagnosed glioblastoma (WHO grade 4)' with no IDH requirement; the manual codes 'glioblastoma multiforme' as historical.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "niraparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (Phase 0) record: translational subset only, not in the primary estimand. D31-A1 applied to the cohort-specific IDH/ATRX requirement of Arm B (IDH-mutant, non-GBM), so candidate_matched_selection changes from the proposed true to false and any_molecular_selection to false; the trial is not a registered basket, but Arm B is a non-GBM cohort. Corrected D31-A6 resolved: IDH and ATRX loss are candidate-matched to niraparib from PARP-inhibitor pharmacology (IDH-mutant + PARP inhibitor is the D31-A6 example; ATRX from own knowledge), but both rows stay exploratory_correlative under A1, so candidate_matched_selection stays false.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "items[selection_biomarker_only_in_A].proposed",
+      "from": "IDH, role enrichment (Arm B), candidate_matched true (niraparib)",
+      "to": "IDH: exploratory_correlative (Arm B non-GBM cohort only); not candidate-matched",
+      "reason": "The IDH-mutant/ATRX-loss requirement applies only to Arm B ('glioma with IDH1 or IDH2 mutation and ATRX loss'), not to the GBM Arm A."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[selection_biomarker_only_in_B].proposed",
+      "from": "not adopted: IDH is an Arm B enrichment requirement, proposed matched to niraparib",
+      "to": "IDH: exploratory_correlative (Arm B non-GBM cohort only); not candidate-matched",
+      "reason": "The IDH-mutant/ATRX-loss requirement applies only to Arm B ('glioma with IDH1 or IDH2 mutation and ATRX loss'), not to the GBM Arm A."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:IDH].proposed",
+      "from": "IDH enrichment, candidate_matched true (niraparib)",
+      "to": "IDH: exploratory_correlative (Arm B non-GBM cohort only); not candidate-matched",
+      "reason": "The IDH-mutant/ATRX-loss requirement applies only to Arm B ('glioma with IDH1 or IDH2 mutation and ATRX loss'), not to the GBM Arm A."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:other].proposed",
+      "from": "ATRX loss, role enrichment (Arm B), candidate_matched true (niraparib)",
+      "to": "ATRX loss: exploratory_correlative (Arm B non-GBM cohort only); not candidate-matched",
+      "reason": "The IDH-mutant/ATRX-loss requirement applies only to Arm B ('glioma with IDH1 or IDH2 mutation and ATRX loss'), not to the GBM Arm A."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder B: biomarker:other].proposed",
+      "from": "ATRX loss, role enrichment (not eligibility), candidate_matched true (niraparib)",
+      "to": "ATRX loss: exploratory_correlative (Arm B non-GBM cohort only); not candidate-matched",
+      "reason": "The IDH-mutant/ATRX-loss requirement applies only to Arm B ('glioma with IDH1 or IDH2 mutation and ATRX loss'), not to the GBM Arm A."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The only matched rows (IDH, ATRX loss to niraparib) are required only for the non-GBM Arm B; Arm A GBM patients enter without them."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[{\"biomarker\": \"IDH\", \"matched_agent\": \"niraparib\"}, {\"biomarker\": \"other (ATRX loss)\", \"matched_agent\": \"niraparib\"}]",
+      "to": "[]",
+      "reason": "Both matched rows are recoded exploratory_correlative under D31-A1."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "Arm A ('presumed newly-diagnosed glioblastoma (WHO grade 4)') has no molecular entry requirement."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "biomarker:IDH candidate_matched",
+      "from": "false (A6 pending XL)",
+      "to": "true (niraparib)",
+      "reason": "Niraparib is a PARP inhibitor, and corrected D31-A6 names IDH-mutant + PARP inhibitor as a pharmacological link (IDH-mutation-associated homologous-recombination defect). The row stays exploratory_correlative under A1."
+    },
+    {
+      "check": "A6",
+      "field": "biomarker:other (ATRX loss) candidate_matched",
+      "from": "false (A6 pending XL)",
+      "to": "true (niraparib)",
+      "reason": "From established PARP-inhibitor pharmacology (own knowledge), ATRX loss causes replication stress and a DNA-repair defect that is the synthetic-lethality rationale for PARP inhibition, so ATRX loss is mechanistically linked to niraparib under corrected D31-A6. The row stays exploratory_correlative under A1."
+    }
+  ]
+}

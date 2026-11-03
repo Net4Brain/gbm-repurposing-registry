@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT03688178",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"MGMT\", false, \"\"]",
+      "proposed": "no selection biomarker; MGMT row role exploratory_correlative (not eligibility)",
+      "ruling_applied": "manual §5",
+      "reason": "Eligibility only requires \"Enough tumor tissue available for determination of MGMT gene promoter status\"; no MGMT status is required for entry, so it is not an entry requirement (status only modifies TMZ cycles).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:tetanus-diphtheria toxoid",
+      "coder_A": "delivery_enabling_agent (uncertain)",
+      "coder_B": "excluded_intervention_type",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-B8",
+      "reason": "R4 names Td toxoid given to support a vaccine as part of the excluded therapy; the record says Td \"may help improve the effectiveness of the DC vaccine\", i.e. a vaccine-site adjuvant, not a delivery-enabling drug. The R4 exception is arguable because Gr1 vs Gr2 compares Td pre-conditioning with OS as primary outcome, but the hypothesis is DC-vaccine enhancement, not an antitumour effect of Td itself. D31-B8 (extension of D30-R4) settles this: Td is given to support the DC vaccine (\"may help improve the effectiveness of the DC vaccine\"), so it is part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §5",
+      "reason": "No tumour biomarker is required for entry or for an arm; MGMT testing tissue availability is not an MGMT status requirement.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"cmv pp65-lamp mrna-pulsed dendritic cell vaccine\", \"temozolomide\", \"tetanus-diphtheria toxoid\"]",
+      "coder_B": "[\"dendritic cell vaccine\", \"radiotherapy\", \"temozolomide\", \"tetanus-diphtheria toxoid\"]",
+      "proposed": "[\"temozolomide\"]",
+      "ruling_applied": "manual §2 (regimen, C1); D31-C2",
+      "reason": "The registered experimental arms contain adjuvant TMZ, DC vaccines and Td; standard RT/TMZ is given before randomisation (\"Following RT, patients will be randomized\"), so radiotherapy is not part of the experimental arms. Regimen is combination either way. Under D31-C2 (clarified) the DC vaccine and the Td toxoid adjuvant (D31-B8) are excluded components and are not listed, leaving temozolomide.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "varlilumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Td toxoid settled by D31-B8 (vaccine-support drug, excluded_intervention_type); varlilumab remains the only candidate. MGMT tissue-availability criterion is testing, not selection (consistent with D31-A8). Nothing pending for XL. Harmonisation: combination_partners reduced to temozolomide (D31-C2 clarified); regimen stays combination.",
+  "revisions": [
+    {
+      "convention": "D31-B8",
+      "field": "items[coder A: agent:tetanus-diphtheria toxoid].confidence; needs_xl_attention",
+      "from": "excluded_intervention_type (medium, pending XL)",
+      "to": "excluded_intervention_type (high, settled)",
+      "reason": "The record states Td pre-conditioning \"may help improve the effectiveness of the DC vaccine\", a drug given to support a vaccine, which D31-B8 assigns to excluded_intervention_type."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"dendritic cell vaccine\", \"temozolomide\", \"tetanus-diphtheria toxoid\"]",
+      "to": "[\"temozolomide\"]",
+      "reason": "The DC vaccine is an excluded product and Td toxoid is a vaccine-support adjuvant (D31-B8), so neither is a pharmacological partner under clarified D31-C2."
+    }
+  ]
+}

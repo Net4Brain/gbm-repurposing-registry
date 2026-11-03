@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT05017610",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"liothyronine\", \"thiamazole\"]",
+      "coder_B": "[\"liothyronine\", \"methimazole\"]",
+      "proposed": "[\"liothyronine\", \"thiamazole\"]",
+      "ruling_applied": "manual §3",
+      "reason": "Same two agents; only the moiety spelling differs. Manual §3 requires INN spelling (C5, W2), and the INN for methimazole (registered as \"Methimazole (other names: Tapazole)\") is thiamazole.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:liothyronine",
+      "coder_A": "experimental_combination (uncertain: in Category 1 liothyronine is given only to correct high TSH, could be supportive)",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination (candidate)",
+      "ruling_applied": "manual §3.1",
+      "reason": "Liothyronine is part of the investigational strategy: in Categories 2 and 3 patients \"receive liothyronine PO BID to maintain lower free T4 below lower limit of normal\", and the summary says giving \"methimazole and liothyronine\" \"could benefit cancer treatment\"; it is not symptom control (rule 2), so it is one of two investigational agents (rule 5). Agreed coding stands.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"lomustine\"]",
+      "coder_B": "[\"liothyronine\", \"lomustine\", \"methimazole\"]",
+      "proposed": "[\"lomustine\", \"liothyronine\", \"thiamazole\"]",
+      "ruling_applied": "manual §2",
+      "reason": "The single arm gives \"methimazole, lomustine, liothyronine\"; with two investigational agents each is a partner of the other, and lomustine is the backbone. Take B's list with the INN thiamazole. Does not change regimen (combination either way).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "thiamazole",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "liothyronine",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (translational subset). Lomustine kept as soc_backbone in every category (standard 6-weekly schedule; one sentence says 'lomustine daily'); it is not a candidate either way. combination_partners convention used here: all other antitumour agents in the experimental arm, including co-candidates (as both coders did in NCT06521567).",
+  "revisions": []
+}

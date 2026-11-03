@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT04319276",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "no",
+      "coder_B": "not_applicable",
+      "proposed": "no",
+      "ruling_applied": "D31-C4",
+      "reason": "The record registers six EXPERIMENTAL arms (five dose-escalation levels and a dose-expansion arm), none a control; manual R8 defines 'no' as more than one arm with none working as a control and 'not_applicable' only for a single-arm trial. D31-C4: dose-escalation cohorts registered as separate arms are coded no.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "gallium maltolate",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Single-agent 3+3 dose escalation registered as multiple arms; control_arm_from_other_arms no per D31-C4. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C4",
+      "field": "items[control_arm_from_other_arms].ruling_applied",
+      "from": "no (manual §2, medium)",
+      "to": "no (D31-C4, high)",
+      "reason": "The record registers five dose-escalation levels and a dose-expansion cohort as separate EXPERIMENTAL arms, which D31-C4 codes as no; value unchanged."
+    }
+  ]
+}

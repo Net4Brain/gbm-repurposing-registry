@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT05313191",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only in the description text of the Cohort 1 arm entry, not in the arm label itself or in conditions/title/eligibility; basket vs not_glioblastoma could change screening.",
+      "coder_B": "",
+      "proposed": "basket_gbm_eligible (agreed coding stands)",
+      "ruling_applied": "",
+      "reason": "Glioblastoma is named only inside the registered arm entry 'Cohort 1: Central Nervous System' ('Glioblastoma (histologic or molecular including IDH wildtype)'), whose text works as cohort inclusion criteria; D27B counts a registered arm/group label, and whether the arm description counts is not settled by the manual or rulings.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "No effect on inclusion: Phase NA (fails S3) and proton radiotherapy is the only intervention (S6 excluded_intervention_type under D31-C1). Still needs XL: glioblastoma is named only in the registered arm description of Cohort 1 (cohort entry list), and neither D27B nor D31-B5/B15 settles whether arm description text counts; if not, not_glioblastoma (near-miss).",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only tested intervention is radiotherapy ('Radiation: Pencil Beam Scanning Proton Therapy')."
+    }
+  ]
+}

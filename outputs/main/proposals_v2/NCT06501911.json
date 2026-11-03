@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT06501911",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "historical",
+      "coder_B": "unclear",
+      "proposed": "historical",
+      "ruling_applied": "manual §1.1 (C8, D27C)",
+      "reason": "Inclusion: 'high-grade glioma (HGG) including glioblastoma or variants (gliosarcoma, giant cell glioblastoma etc), World Health Organization (WHO) grade IV, or anaplastic astrocytoma ... WHO grade III' - WHO 2016 nomenclature (giant cell glioblastoma, anaplastic astrocytoma, roman-numeral grades) with grade IV glioma and no IDH requirement anywhere; secondary HGG from lower-grade glioma is also allowed (likely IDH-mutant).",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\"]",
+      "coder_B": "[\"brain re-irradiation\"]",
+      "proposed": "[\"radiotherapy\"]",
+      "ruling_applied": "manual §2 regimen (C1)",
+      "reason": "Same content, naming only: the arm gives '10 fractions of brain re-irradiation' (IMRT 35 Gy/10 fx) with bicalutamide; regimen 'combination' is agreed.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "bicalutamide",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "cns5_terminology is a judgement: the record does not literally say 'grade IV astrocytoma/glioma', but grades glioblastoma as 'WHO grade IV' in a WHO-2016-style list without any IDH reference; 'unclear' is the alternative.",
+  "revisions": []
+}

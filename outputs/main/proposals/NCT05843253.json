@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT05843253",
+  "items": [
+    {"type": "disagreement_outcome", "item": "selection_biomarker_only_in_A: other (TSC1/TSC2 deletion or mutation) matched to everolimus", "coder_A": "[\"other\", true, \"everolimus\"] (TSC1/TSC2, enrichment, Strata A-D)", "coder_B": "not recorded as a separate row",
+     "proposed": "Keep A's row: other = TSC1/TSC2 deletion or mutation, enrichment (Strata A-D), candidate_matched true, matched_agent everolimus",
+     "ruling_applied": "manual §5 (C6)",
+     "reason": "TarGeT-A entry requires 'at least one relevant actionable somatic alteration', listed under 'Pathogenic alterations presumed to cause activation of the PI3K/mTOR pathway' including 'Deletion or mutation of TSC1 or TSC2'; §5 asks for one row per biomarker, and TSC1/2 is mechanistically linked to the mTOR inhibitor everolimus. B folded it into the pathway requirement without a row.",
+     "confidence": "high"},
+    {"type": "disagreement_outcome", "item": "selection_biomarker_only_in_A: other (RB1 homozygous loss, exclusion) matched to ribociclib", "coder_A": "[\"other\", true, \"ribociclib\"] (RB1 homozygous loss, enrichment, Strata A-D)", "coder_B": "not recorded",
+     "proposed": "Keep A's row: other = RB1 homozygous loss (excluded), enrichment (Strata A-D), candidate_matched true, matched_agent ribociclib",
+     "ruling_applied": "manual §5",
+     "reason": "'Patients with evidence of homozygous (biallelic) RB1 loss by sequencing are excluded from TarGeT-A' makes RB1-intact status an entry condition for the ribociclib strata, and RB1 is the downstream target of CDK4/6 inhibition. The manual does not say explicitly whether a biomarker used as an exclusion counts as selection, so this is a reading, not a rule.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "ribociclib", "role": "experimental_combination", "device_dependent": false},
+      {"active_moiety": "everolimus", "role": "experimental_combination", "device_dependent": false}
+    ],
+    "treatment_setting": "newly_diagnosed", "regimen": "combination",
+    "candidate_matched_selection": true, "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "CDK4_6_pathway", "matched_agent": "ribociclib"},
+      {"biomarker": "CDKN2A_B", "matched_agent": "ribociclib"},
+      {"biomarker": "PTEN_PI3K", "matched_agent": "everolimus"},
+      {"biomarker": "other: TSC1/TSC2 deletion or mutation", "matched_agent": "everolimus"},
+      {"biomarker": "other: RB1 homozygous loss (exclusion)", "matched_agent": "ribociclib"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear", "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome is true on the agreed CDK4_6_pathway, CDKN2A_B and PTEN_PI3K rows regardless of the two A-only rows; it is subject to the D21(a) review of positive matches. Priority-3 role difference (eligibility in B vs enrichment in A for the Strata A-D requirement) does not change the outcome; enrichment fits better because Stratum E does not require these alterations. Ribociclib is the only investigational agent in Stratum E (temozolomide backbone), noted by both coders. Paediatric/young adult trial (mixed_age)."
+}

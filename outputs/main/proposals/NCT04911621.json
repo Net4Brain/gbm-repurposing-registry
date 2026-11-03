@@ -1,0 +1,30 @@
+{
+  "nct_id": "NCT04911621",
+  "items": [
+    {"type": "disagreement", "item": "gbm_population",
+     "coder_A": "\"mixed_glioma_gbm_named\"", "coder_B": "\"high_grade_glioma_unspecified\"",
+     "proposed": "mixed_glioma_gbm_named",
+     "ruling_applied": "D30-R7",
+     "reason": "Inclusion requires \"High grade glioma (WHO grade III or IV), histologically verified\". Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named, which is exactly the D30-R7 case (include as historical glioblastoma).",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder A: gbm_population_flag",
+     "coder_A": "Glioblastoma not named; only 'WHO grade III or IV' high-grade glioma, which may count as historical glioblastoma under D27C, otherwise high_grade_glioma_unspecified.",
+     "coder_B": "",
+     "proposed": "mixed_glioma_gbm_named, cns5_terminology historical",
+     "ruling_applied": "D30-R7",
+     "reason": "D30-R7 settles this: \"WHO grade III or IV\" with grade 4 allowed and no IDH requirement counts as historical glioblastoma.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "This is a paediatric-only trial (\"aged ≥ 12 months and < 18 years\"), so it is expected to fail S4 [CODE] in any case. The only investigational agent is a WT1 mRNA dendritic-cell vaccine (excluded type), so it also fails S6. The cns5_terminology disagreement (priority 3) follows D30-R7: historical."
+}

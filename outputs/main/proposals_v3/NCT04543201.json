@@ -1,0 +1,53 @@
+{
+  "nct_id": "NCT04543201",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion: \"New pathologic diagnosis of WHO grade III or IV glioma\" - grade 4 explicitly allowed, no IDH requirement, glioblastoma never named; R7 includes this as historical glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma only named as 'WHO grade IV glioma'...",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (flag resolved)",
+      "ruling_applied": "D30-R7",
+      "reason": "R7 settles the doubt: grade III-IV glioma without IDH requirement = mixed_glioma_gbm_named with cns5_terminology historical.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Behavioural telehealth study, registered phase NA: excluded at S3 regardless; no drugs. Harmonisation: under clarified D31-C1 a behavioural intervention under test gives excluded_intervention_type (not no_pharmacological_candidate). No WHO 2021 citation, so B4 does not apply and cns5_terminology stays historical.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only intervention under test is behavioural ('Behavioral: Early START visit'), which clarified D31-C1 codes as excluded_intervention_type."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT04521946",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag", "coder_A": "has_eligible_candidate false, excluded_intervention_type (uncertain)", "coder_B": "has_eligible_candidate false, excluded_intervention_type (uncertain)",
+     "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type; thiotepa, etoposide, melphalan, fludarabine = supportive",
+     "ruling_applied": "manual R6",
+     "reason": "The chemotherapy is the HCT conditioning regimen ('Rate of grade III or higher organ toxicity attributable to conditioning'); manual R6 (rule 2) codes conditioning chemotherapy given to prepare for a cell therapy as supportive. The summary's boilerplate that it 'helps kill cancer cells' is the doubt.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: candidate_flag", "coder_A": "has_eligible_candidate false (uncertain)", "coder_B": "has_eligible_candidate false (uncertain)",
+     "proposed": "has_eligible_candidate false; agreed coding stands",
+     "ruling_applied": "manual R6",
+     "reason": "Same issue as coder A: 'Giving chemotherapy before a donor stem cell transplant helps kill cancer cells' describes the conditioning step of allogeneic HCT, which R6 classes as supportive; the trial question is the tolerability of HCT.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "(1) Not queued, but XL should check gbm_population: inclusion lists 'malignant glioma' among many CNS tumours with 'High grade tumors defined as those that are grade III or higher based on World Health Organization (WHO) classification'. If 'grade III or higher' counts as grade 4 explicitly allowed, D30-R7 would give mixed_glioma_gbm_named / historical instead of the agreed high_grade_glioma_unspecified. This changes only the Figure 1 exclusion reason (S5 vs S6), since there is no candidate either way. (2) Whether conditioning for an allogeneic HCT counts as conditioning for a 'cell therapy' under R6 is my reading; if XL treats the high-dose chemotherapy as the antitumour question, thiotepa/etoposide/melphalan/fludarabine become experimental_combination. Mixed age (CHILD, ADULT)."
+}

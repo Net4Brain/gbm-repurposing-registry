@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT07497373",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "The record never calls JL15003 an oncolytic virus; viral shedding, CD155 (poliovirus receptor) expression and poliovirus-immunity criteria imply a replicating virus, which would make it an excluded intervention type.",
+      "coder_B": "",
+      "proposed": "agreed coding stands: has_eligible_candidate = false, excluded_intervention_type",
+      "ruling_applied": "manual §1.2",
+      "reason": "The record measures 'Viral shedding:Copy number of JL15003 in blood, throat swab, and fecal samples', requires CD155 (poliovirus receptor) expression and a prior poliovirus boost with 'neutralizing antibody titer ≥1:8', and excludes prior poliovirus neurological complications: JL15003 is a poliovirus-based oncolytic virus, an excluded type under §1.2.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection true because CD155 IHC (H-score ≥1) is an entry requirement; not candidate-matched because JL15003 is not a candidate. target_engagement (priority 3 disagreement) proposed 'no' since the CD155 outcome concerns a non-candidate.",
+  "revisions": []
+}

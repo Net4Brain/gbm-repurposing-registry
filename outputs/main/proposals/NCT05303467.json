@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT05303467",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag", "coder_A": "no candidate (Y-90 microspheres treated as device/radiotherapy); flagged that they could be a radiopharmaceutical", "coder_B": "",
+     "proposed": "has_eligible_candidate false (agreed coding stands); exclusion reason excluded_intervention_type rather than no_pharmacological_candidate",
+     "ruling_applied": "manual §1.2",
+     "reason": "The only intervention is '[DEVICE] TheraSphere GBM', described as 'yttrium-90 (Y-90) glass microsphere therapy for selective internal radiation therapy (endovascular radiotherapy)'. Manual §1.2 lists devices and radiotherapy alone as excluded intervention types; non-targeted radioembolisation microspheres are not a ligand-targeted radiopharmaceutical. Because the trial fails S6 on an excluded intervention type, excluded_intervention_type fits the Figure 1 reason better than no_pharmacological_candidate.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Exclusion stands either way. The proposed change of exclusion reason (both coders said no_pharmacological_candidate) only affects Figure 1. XL may want one rule for device-only and radiotherapy-only trials across the dataset (compare NCT04417933, where the coders split on the same question)."
+}

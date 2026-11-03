@@ -1,0 +1,84 @@
+{
+  "nct_id": "NCT05539339",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate true (uncertain)",
+      "coder_B": "has_eligible_candidate true",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason no_pharmacological_candidate",
+      "ruling_applied": "D30-R8",
+      "reason": "Intervention is \"Specialized tumor board recommended agents that target the specific recurrence-driving genomic alterations\"; no drug is named and the record never says the agents are approved or licensed, so D30-R8 gives no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:unspecified_approved_panel",
+      "coder_A": "unspecified_approved_panel, experimental_monotherapy (uncertain)",
+      "coder_B": "unspecified_approved_panel, experimental_monotherapy",
+      "proposed": "not unspecified_approved_panel; no candidate agent row (list separately as D30-R8 unspecified non-approved assignment)",
+      "ruling_applied": "D30-R8",
+      "reason": "C13 placeholder applies only when the record says the drugs are approved; here it does not.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "other: TISF ctDNA recurrence-driving alterations; eligibility; candidate_matched true",
+      "coder_B": "",
+      "proposed": "other (ctDNA-level relapse with recurrence-driving alterations in TISF); eligibility; candidate_matched false",
+      "ruling_applied": "D30-R8; manual §5",
+      "reason": "Entry requires \"ctDNA-level-relapse glioblastoma\" (sole arm: \"patients with ctDNA-level-relapse glioblastoma before imaging recurrence\"), so it is a whole-trial entry requirement; with no candidate agent there is nothing to match.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "has_eligible_candidate true (uncertain)",
+      "proposed": "has_eligible_candidate false (no_pharmacological_candidate)",
+      "ruling_applied": "D30-R8",
+      "reason": "Agents are neither named nor stated to be approved drugs.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:unspecified_approved_panel",
+      "coder_A": "",
+      "coder_B": "unspecified_approved_panel (uncertain)",
+      "proposed": "no candidate agent row",
+      "ruling_applied": "D30-R8",
+      "reason": "No approval statement in the record, so C13 does not apply.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "",
+      "coder_B": "other: recurrence-driving alterations in serial TISF ctDNA; enrichment; candidate_matched true (uncertain)",
+      "proposed": "eligibility; candidate_matched false",
+      "ruling_applied": "D30-R8; manual §5",
+      "reason": "The single arm and title restrict the whole trial to ctDNA-level relapse, so the role is eligibility rather than enrichment; candidate_matched cannot be true without a candidate.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered phase is NA, so the trial already fails S3 (phase_not_applicable) at the CODE layer; the S6 coding matters only for the D30-R8 separate listing. any_molecular_selection true rests on treating ctDNA-level relapse as a tumour molecular entry criterion (medium confidence).",
+  "revisions": []
+}

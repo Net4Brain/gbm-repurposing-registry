@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04334863",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "high_grade_glioma_unspecified",
+      "coder_B": "not_glioblastoma",
+      "proposed": "high_grade_glioma_unspecified",
+      "ruling_applied": "manual §1.1",
+      "reason": "Inclusion allows 'progressive medulloblastoma, malignant glioma or any other recurrent/progressive malignant brain tumor'; glioblastoma is never named and no grade 4 is stated. Manual §1.1 assigns 'malignant glioma' with no mention of glioblastoma to high_grade_glioma_unspecified. Both values exclude with reason not_glioblastoma, so S5 is unchanged.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "wp1066",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma). Paediatric-focused (ages >3 to 25; mixed_age). Biomarker rows only in coder A (H3K27M, p-STAT3) are priority 3 and not addressed; neither is a selection biomarker. Also checked against D31-B1/B2/B3: no grade is stated for 'malignant glioma', so D30-R7 does not apply and the trial stays excluded.",
+  "revisions": []
+}

@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT05909618",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (control_arm_from_other_arms, R8 v1.2)",
+      "reason": "Three registered EXPERIMENTAL cohort arms (melanoma brain metastases, recurrent GB, newly diagnosed unmethylated GB), none working as a control; the manual defines not_applicable only for single-arm trials, so the value is no (coder A).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "crizanlizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection true via MGMT-unmethylated requirement for Cohort 3 (enrichment, not candidate-matched). Crizanlizumab is given alone and with nivolumab; both coders coded it experimental_monotherapy with nivolumab experimental_combination (role differs between arms; not queued)."
+}

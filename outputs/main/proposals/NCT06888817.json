@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT06888817",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"established_therapy_only\"",
+      "proposed": "established_therapy_only",
+      "ruling_applied": "manual §3.1 rules 2 and 6",
+      "reason": "Bevacizumab is given for radiation necrosis, but rule 2 (supportive) applies only if the record states no antitumour outcome, and it lists 'Tumour progression free survival' and 'Radiologic response according to the RANO criteria'. Bevacizumab is a D6 established GBM therapy tested in a new setting and as the question ('Bevacizumab Versus Corticosteroids'), so rule 6 -> established_therapy_only.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Either way the trial has no candidate; only the S6 exclusion reason (Figure 1) changes. The trial's purpose is clearly symptom control of radiation necrosis (primary outcomes KPS/NANO/dexamethasone), so 'supportive' -> no_pharmacological_candidate is defensible if XL reads the tumour PFS/RANO secondaries as safety monitoring rather than an antitumour outcome. target_engagement_planned set unclear (blood Olink/platelet RNA response markers not linked to a candidate, per W7 wording); priority 3 only. Population includes brain metastases of any solid tumour; coders agree mixed_glioma_gbm_named (basket arguable)."
+}

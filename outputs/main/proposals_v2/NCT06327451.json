@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT06327451",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:EGFR_EGFRvIII",
+      "coder_A": "eligibility, candidate_matched true (atorvastatin)",
+      "coder_B": "eligibility, candidate_matched true (atorvastatin)",
+      "proposed": "eligibility, candidate_matched true (atorvastatin)",
+      "ruling_applied": "manual §5",
+      "reason": "EGFR IHC 3+ is an entry requirement ('EGFR score was 3') and the record states the mechanistic rationale linking the candidate to it ('statins can block the malignant progression of glioma mediated by EGFR pathway'); the trial is designed for 'EGFR-high expressing GBM'. The manual requires a mechanistic link, not a direct target, and the record supplies one, so the agreed match stands, though atorvastatin is not an EGFR inhibitor.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:EGFR_EGFRvIII",
+      "coder_A": "eligibility, candidate_matched true (atorvastatin)",
+      "coder_B": "eligibility, candidate_matched true (atorvastatin)",
+      "proposed": "eligibility, candidate_matched true (atorvastatin)",
+      "ruling_applied": "manual §5",
+      "reason": "EGFR IHC 3+ is an entry requirement ('EGFR score was 3') and the record states the mechanistic rationale linking the candidate to it ('statins can block the malignant progression of glioma mediated by EGFR pathway'); the trial is designed for 'EGFR-high expressing GBM'. The manual requires a mechanistic link, not a direct target, and the record supplies one, so the agreed match stands, though atorvastatin is not an EGFR inhibitor.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "treatment_setting",
+      "coder_A": "both",
+      "coder_B": "newly_diagnosed",
+      "proposed": "both",
+      "ruling_applied": "manual §2",
+      "reason": "The summary explicitly targets 'primary and recurrent glioblastomas with high EGFR expression' and eligibility does not exclude recurrence, but the arm describes post-surgical atorvastatin 'on the basis of STUPP protocol', a first-line regimen. The record conflicts; 'both' follows the explicit population statement.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atorvastatin",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "EGFR_EGFRvIII",
+        "matched_agent": "atorvastatin"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "EGFR/atorvastatin match is now settled by D31-A6: the record states the link ('statins can block the malignant progression of glioma mediated by EGFR pathway'), so candidate_matched_selection true stands (still in the D21 human-review set). Still needs XL: treatment_setting is low confidence ('both' vs newly_diagnosed) and no convention settles it.",
+  "revisions": []
+}

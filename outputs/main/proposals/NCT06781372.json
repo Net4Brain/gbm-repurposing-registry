@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT06781372",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate=false (not flagged)",
+      "coder_B": "has_eligible_candidate=false (flagged)",
+      "proposed": "has_eligible_candidate=false; no_pharmacological_candidate (agreed coding stands)",
+      "ruling_applied": "manual §1 S6",
+      "reason": "No drug is given to patients: 'Intervention is intended as a laboratory intervention and not as a clinical intervention'; the epigenetic and splicing inhibitors are applied only to organoids and are not named.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the record also fails S3 (phase_not_applicable) before S6."
+}

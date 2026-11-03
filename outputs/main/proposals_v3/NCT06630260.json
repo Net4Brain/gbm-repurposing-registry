@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT06630260",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:temozolomide",
+      "coder_A": "soc_backbone",
+      "coder_B": "soc_backbone (uncertain)",
+      "proposed": "Agreed coding stands: soc_backbone",
+      "ruling_applied": "manual §3.1 rule 3 (C1, C3)",
+      "reason": "Temozolomide is optional in Phase 2 ('Avutometinib and defactinib may be administered in combination with temozolomide (TMZ)') and an outcome describes it as 'combination with TMZ when given as standard of care maintenance therapy'; it is the standard backbone, not a third investigational agent. The 'triplet' label does not make an established GBM drug investigational (rule 6 needs a new dose/schedule/route, not stated).",
+      "confidence": "high"
+    },
+    {
+      "type": "convention",
+      "item": "biomarker:MGMT:role",
+      "coder_A": "enrichment",
+      "coder_B": "enrichment",
+      "proposed": "exploratory_correlative (not selection)",
+      "ruling_applied": "D31-A3; D31-A8",
+      "reason": "'unmethylated GBM' appears only in an outcome ('For front line unmethylated GBM (MRD):'); the eligibility definition of the front-line MRD cohort ('eligible following completion of optimal surgery and Stupp based adjuvant chemoradiotherapy') requires no MGMT value, so under D31-A3 it is not selection.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "avutometinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "defactinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "BRAF",
+        "matched_agent": "avutometinib"
+      },
+      {
+        "biomarker": "other: NF1 loss",
+        "matched_agent": "avutometinib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome (candidate_matched_selection true via BRAF and NF1 cohort definitions matched to avutometinib) is agreed by both coders and will also be reviewed under D21(a); BRAF/NF1 are cohort definitions, so D31-A3 is met and any_molecular_selection stays true. MGMT row re-coded exploratory_correlative under D31-A3 (only in an outcome label); no proposed_final change. A6 resolved (D31-A6 corrected): the BRAF/NF1-avutometinib link comes from avutometinib's established RAF/MEK pharmacology (own knowledge), so candidate_matched true stands.",
+  "revisions": [
+    {
+      "convention": "D31-A3",
+      "field": "biomarker:MGMT:role",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "MGMT 'unmethylated' appears only in the primary-outcome text, not in the eligibility criteria or the MRD cohort definition, so it is not an entry requirement."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "biomarkers BRAF and other (NF1 loss) candidate_matched (\"A6 pending XL\")",
+      "from": "true (pending XL)",
+      "to": "true (settled, D31-A6)",
+      "reason": "Under corrected D31-A6 the link comes from established pharmacology (own knowledge: avutometinib is a RAF/MEK inhibitor and BRAF alteration or NF1 loss activates the RAS-MAPK pathway it blocks), so the pending note is resolved with values unchanged."
+    }
+  ]
+}

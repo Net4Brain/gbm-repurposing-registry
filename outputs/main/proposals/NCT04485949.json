@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT04485949",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "has_eligible_candidate false (excluded_intervention_type), uncertain: IMV-001 antisense oligonucleotide component", "coder_B": "",
+     "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+     "ruling_applied": "manual §1.2",
+     "reason": "IGV-001 is registered as one combination product, \"an autologous cell immunotherapy\" that \"combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers\"; the ASO is a component of the cell product and is never given or tested on its own, so the product is an excluded cell therapy/vaccine. Agreed coding stands.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: candidate_flag",
+     "coder_A": "", "coder_B": "has_eligible_candidate false (excluded_intervention_type), uncertain: oligonucleotide component could be pharmacological",
+     "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+     "ruling_applied": "manual §1.2",
+     "reason": "Same product: the only investigational intervention is \"IGV-001 Cell Immunotherapy\" (vs placebo chambers); temozolomide and RT are SOC in both arms. By analogy with D30-R3/R4 (components that serve an excluded therapy are part of it) the ASO is not a separate candidate.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "No D30 ruling covers a drug component (IGF-1R antisense oligonucleotide IMV-001) built into an autologous cell product; the proposal extends the logic of D30-R3/R4. cns5_terminology (priority 3, A historical vs B unclear): proposed historical because inclusion reads \"WHO GRADE III or Grade IV GBM\" with no IDH requirement (grade IV glioma without IDH, D27C)."
+}

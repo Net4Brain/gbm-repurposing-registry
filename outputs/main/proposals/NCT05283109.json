@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05283109",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=true",
+      "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "Hiltonol is described as 'used as an adjuvant to the vaccine, meaning it is used with the vaccine to stimulate or enhance the activation of your immune system'; it has no own arm or outcome, so under R4 it is part of the excluded vaccine therapy and the trial has no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:poly-iclc",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "Poly-ICLC is a vaccine adjuvant (R4 lists poly-ICLC explicitly); the booster-phase home injections are still part of the vaccine regimen and no outcome tests it in its own right.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=true",
+      "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "As for coder A's flag: the only non-vaccine agent is the poly-ICLC adjuvant, which R4 treats as part of the excluded vaccine.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:poly-iclc",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "Same as coder A: 'used as an adjuvant to the vaccine'; no own arm or outcome.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "unclear",
+      "coder_B": "yes",
+      "proposed": "no",
+      "ruling_applied": "manual §2 target_engagement_planned",
+      "reason": "The only biomarker endpoints are vaccine-specific T-cell responses ('Change in Mean Fold Increase in EphA2- or Survivin- Specific T Cells'), which measure the excluded vaccine, not a candidate; with no candidate left after R4, there is no candidate target-engagement measure.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Trial excluded at S6 under R4. any_molecular_selection=true from the MGMT-unmethylated entry requirement (IDH-wildtype defines GBM only). target_engagement 'no' is moot once excluded; 'unclear' is the alternative if XL reads the T-cell endpoints as candidate-linked."
+}

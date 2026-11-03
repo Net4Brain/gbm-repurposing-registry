@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06413706",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "other (tumours with actionable ALK/BRAF/NTRK mutations excluded) as eligibility, candidate_matched false",
+      "ruling_applied": "manual §5",
+      "reason": "Exclusion: 'Have known pathogenic somatic mutations appropriate for an anaplastic lymphoma kinase (ALK), B-rapidly accelerated fibrosarcoma (BRAF), or neurotrophic tyrosine receptor kinase (NTRK ) inhibitor' is a tumour molecular entry condition (absence required). Not linked to abemaciclib.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"CDKN2A_B\", false, \"\"]",
+      "proposed": "drop CDKN2A_B as eligibility (no row, or exploratory/diagnostic only)",
+      "ruling_applied": "manual §5 (IDH-wildtype analogy)",
+      "reason": "'IDH-mutant astrocytoma with homozygous CDKN2A/B deletion' is one of many alternative WHO 2021 diagnoses, i.e. part of a diagnostic definition, not a trial-wide entry requirement or a cohort/arm requirement, so it is neither eligibility nor enrichment.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:CDKN2A_B",
+      "coder_A": "CDKN2A/B deletion appears only as part of the definition of one of many eligible diagnoses (not a trial-wide requirement); coded not matched, but a CDK4/6 inhibitor with CDKN2A/B deletion could be read as candidate-matched enrichment.",
+      "coder_B": "",
+      "proposed": "not candidate-matched selection; candidate_matched_selection false",
+      "ruling_applied": "manual §5",
+      "reason": "Although CDKN2A loss + CDK4/6 inhibitor is a manual example of a match, here CDKN2A/B deletion only defines one eligible diagnosis among many and no cohort or arm requires it, so it is not an eligibility or enrichment biomarker.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "abemaciclib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Primary outcome is false under either coder's biomarker; only any_molecular_selection depends on XL's view. If XL decides a molecular exclusion (absence of actionable ALK/BRAF/NTRK) is not selection, any_molecular_selection becomes false. Mixed age (CHILD, ADULT)."
+}

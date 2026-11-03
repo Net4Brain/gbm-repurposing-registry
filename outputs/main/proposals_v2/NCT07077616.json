@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT07077616",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Vaccine is an excluded type, but registered intervention adds immune adjuvants (poly-ICLC, GM-CSF, imiquimod, CpG, MPLA); if these were treated as separate immunomodulatory agents rather than vaccine components the trial could have a candidate.",
+      "coder_B": "",
+      "proposed": "adjuvants are part of the excluded vaccine; has_eligible_candidate false (excluded_intervention_type) stands",
+      "ruling_applied": "D30-R4",
+      "reason": "The registered intervention is 'TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)'. These are vaccine adjuvants with no separate arm or outcome, so R4 puts them inside the excluded therapy.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1. treatment_setting (priority 3) proposed unclear: the title says 'Newly Diagnosed Glioma' and dosing is around maintenance TMZ, but the arm label and inclusion say 'recurrent malignant glioma'. TMB >10 is an entry requirement (any_molecular_selection true).",
+  "revisions": []
+}

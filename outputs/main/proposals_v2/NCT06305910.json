@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06305910",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"cd200ar-l\"]",
+      "coder_B": "[\"cd200ar-l\", \"imiquimod\"]",
+      "proposed": "[\"cd200ar-l\"]",
+      "ruling_applied": "D30-R4",
+      "reason": "Imiquimod is a fixed-dose vaccine adjuvant ('Imiquimod cream is applied to the supraclavicular site' before the GBM6-AD vaccine), with no own arm or outcome. R4 names imiquimod given to support a vaccine as part of the excluded therapy, so it is not a candidate (role excluded_intervention_type, not soc_backbone or experimental_combination).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "CD200AR-L described as a vaccine adjuvant; could be part of the excluded vaccine intervention",
+      "coder_B": "",
+      "proposed": "cd200ar-l is a candidate, role experimental_monotherapy",
+      "ruling_applied": "D30-R4",
+      "reason": "CD200AR-L is called 'a new adjuvant', but it is 'the experimental medicine', is dose-escalated, and is the subject of the primary outcome ('Maximum Tolerated Dose (MTD) of CD200AR-L'), with its own stated mechanism (binds CD200-AR to overcome tumour CD200 immunosuppression). That meets the R4 exception ('the subject of an outcome'). With imiquimod and the vaccine excluded, it is the only investigational agent (rule 4). The outcome is safety rather than antitumour activity, so this is not certain.",
+      "confidence": "medium"
+    },
+    {
+      "type": "convention",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "D31-A2",
+      "reason": "Inclusion reads 'newly diagnosed DIPG/DMG with documented H3K27M alteration ... or recurrent HGG'; H3K27M is only one optional route into the trial, so under D31-A2 it is not an entry requirement and does not count.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "cd200ar-l",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (high_grade_glioma_unspecified, agreed: 'GBM6-AD' is only a vaccine name; no grade stated, so D31-B1/B3 do not apply), so the candidate questions do not change inclusion. any_molecular_selection is now false under D31-A2: H3K27M is required only on the DMG/DIPG route, while recurrent HGG enters without it. CD200AR-L is called 'a new adjuvant' to the vaccine, so D31-B8 could make it part of the excluded vaccine therapy; it is kept as a candidate (dose-escalated subject of the primary outcome, R4 exception), which is moot because the trial fails S5. Paediatric/young-adult (2-25; mixed_age). Priority-3 role/regimen_id differences not addressed.",
+  "revisions": [
+    {
+      "convention": "D31-A2",
+      "field": "proposed_final.any_molecular_selection",
+      "from": true,
+      "to": false,
+      "reason": "The record admits 'DIPG/DMG with documented H3K27M alteration ... or recurrent HGG', so H3K27M is one optional route, not an entry requirement."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT06297512",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"H3K27M\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "drop the H3K27M row (alternative eligible diagnosis, not an entry requirement)",
+      "ruling_applied": "D31-A2",
+      "reason": "Inclusion lists several alternative diagnoses ('IDH-wildtype glioblastoma ..., IDH-mutated glioblastoma ..., diffuse astrocytoma ..., diffuse midline glioma H3 K27M mutated'); H3 K27M defines one eligible diagnosis but is not required for entry.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"IDH\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "drop the IDH row (both IDH-wildtype and IDH-mutated eligible)",
+      "ruling_applied": "D31-A2",
+      "reason": "Both 'IDH-wildtype glioblastoma' and 'IDH-mutated glioblastoma' are eligible, so IDH status is not an entry requirement; IDH used only to define diagnoses is excluded from any_molecular_selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-A2",
+      "reason": "No eligibility or enrichment biomarker remains once the IDH and H3K27M diagnostic-definition rows are dropped.",
+      "confidence": "high"
+    },
+    {
+      "type": "d31_convention",
+      "item": "regimen",
+      "coder_A": "\"combination\"",
+      "coder_B": "\"combination\"",
+      "proposed": "monotherapy",
+      "ruling_applied": "D31-C3",
+      "reason": "Doxorubicin is given alone: 'After 3 months ... from the end of RT/TMZ treatment ... Dox 4 cycles', then 'after 4 weeks ± 7 days from the end of Dox treatment ... TMZ adjuvant 12 cycles'; no agent is given concurrently with the candidate.",
+      "confidence": "medium"
+    },
+    {
+      "type": "d31_convention",
+      "item": "combination_partners",
+      "coder_A": "[\"temozolomide\", \"radiotherapy\"]",
+      "coder_B": "[\"temozolomide\", \"radiotherapy\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C2; D31-C3",
+      "reason": "Temozolomide and radiotherapy are given before and after doxorubicin, not with it ('Dox 4 cycles' between RT/TMZ and later adjuvant TMZ).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "doxorubicin",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "mixed_age (ages 3-30) is set by the script. Regimen set to monotherapy and combination_partners to [] under D31-C3/C2 because doxorubicin is sequential to, not concurrent with, RT/TMZ.",
+  "revisions": [
+    {
+      "convention": "D31-A2",
+      "field": "items[selection_biomarker_only_in_A [\"H3K27M\", f].ruling_applied/confidence",
+      "from": "manual §5, medium",
+      "to": "D31-A2, high",
+      "reason": "Inclusion lists alternative diagnoses ('IDH-wildtype glioblastoma ..., IDH-mutated glioblastoma ..., diffuse midline glioma H3 K27M mutated'), so IDH/H3K27M are optional routes under D31-A2; value unchanged."
+    },
+    {
+      "convention": "D31-A2",
+      "field": "items[selection_biomarker_only_in_A [\"IDH\", fals].ruling_applied/confidence",
+      "from": "manual §5, high",
+      "to": "D31-A2, high",
+      "reason": "Inclusion lists alternative diagnoses ('IDH-wildtype glioblastoma ..., IDH-mutated glioblastoma ..., diffuse midline glioma H3 K27M mutated'), so IDH/H3K27M are optional routes under D31-A2; value unchanged."
+    },
+    {
+      "convention": "D31-A2",
+      "field": "items[any_molecular_selection true].ruling_applied/confidence",
+      "from": "manual §5, medium",
+      "to": "D31-A2, high",
+      "reason": "Inclusion lists alternative diagnoses ('IDH-wildtype glioblastoma ..., IDH-mutated glioblastoma ..., diffuse midline glioma H3 K27M mutated'), so IDH/H3K27M are optional routes under D31-A2; value unchanged."
+    },
+    {
+      "convention": "D31-C3",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "Chemoradiation ends 3 months before doxorubicin and adjuvant TMZ restarts 4 weeks after doxorubicin ends, so nothing is concurrent with the candidate."
+    },
+    {
+      "convention": "D31-C2",
+      "field": "combination_partners",
+      "from": "[\"temozolomide\", \"radiotherapy\"]",
+      "to": "[]",
+      "reason": "No drug or radiotherapy is given with doxorubicin; TMZ/RT precede and follow it ('after 4 weeks ± 7 days from the end of Dox treatment ... TMZ adjuvant')."
+    }
+  ]
+}

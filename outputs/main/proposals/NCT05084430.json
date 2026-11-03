@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT05084430",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"m032 (oncolytic hsv-1)\", \"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"m032 (oncolytic hsv-1 expressing il-12)\"]",
+      "proposed": "[\"m032 (oncolytic hsv-1 expressing il-12)\", \"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "manual §2 regimen (C1)",
+      "reason": "Regimen counts all antitumour therapy in the experimental arms including the backbone; the newly diagnosed cohort will 'undergo treatment with standard fractionated radiation, and temozolomide as determined by treating physician', so radiotherapy and temozolomide are partners (newly diagnosed arm only) alongside M032.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "pembrolizumab", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Partners differ by arm: RT and temozolomide only in 'Newly Diagnosed MG'; recurrent arm partner is M032 only. Temozolomide is 'as determined by treating physician' (not a registered intervention)."
+}

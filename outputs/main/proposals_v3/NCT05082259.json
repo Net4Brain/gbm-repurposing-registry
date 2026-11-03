@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT05082259",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"EGFR_EGFRvIII\", false, \"\"] (eligibility)",
+      "proposed": "do not record EGFR as a selection biomarker",
+      "ruling_applied": "D31-A2",
+      "reason": "In cohort B4, EGFR amplification is one of alternative WHO CNS5 diagnostic features of GBM (\"OR one or more of the following molecular features of GBM: ... EGFR gene amplification\"), not a separate entry requirement; like IDH-wildtype used to define GBM it is diagnostic. Not candidate-matched either way, and any_molecular_selection stays true from PD-L1.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:pembrolizumab",
+      "coder_A": "experimental_combination, uncertain (fixed dose in every arm; could be soc_backbone)",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination",
+      "ruling_applied": "manual §3.1",
+      "reason": "Although every arm receives it, the trial's own question is the combination: \"To determine the Maximum Tolerated Dose (MTD) of ASTX660 in combination with Pembrolizumab\" and safety of \"the combination of ASTX660 and Pembrolizumab\"; pembrolizumab is an IMP, not background or pre-existing therapy. C3 says the investigational question decides; both are investigational (cf. the nivolumab + ipilimumab example).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:PD_L1",
+      "coder_A": "PD_L1, enrichment, matched pembrolizumab, uncertain",
+      "coder_B": "PD_L1, enrichment, matched pembrolizumab, uncertain",
+      "proposed": "PD_L1, exploratory_correlative (required only for cervical cohort B2), candidate_matched true (pembrolizumab) kept; not selection",
+      "ruling_applied": "D31-A1",
+      "reason": "PD-L1 positivity is required only for \"Cohort B2: Patients with PD-L1 positive Cervical Cancer\", while GBM patients (Part B4) enter without it; D31-A1 codes such a row exploratory_correlative, so it is not selection for this trial.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:PD_L1",
+      "coder_A": "",
+      "coder_B": "PD_L1, enrichment, matched pembrolizumab, uncertain (enriches only cervical cohort B2, not GBM cohort B4)",
+      "proposed": "PD_L1, exploratory_correlative (required only for cervical cohort B2), candidate_matched true (pembrolizumab) kept; not selection",
+      "ruling_applied": "D31-A1",
+      "reason": "PD-L1 positivity is required only for \"Cohort B2: Patients with PD-L1 positive Cervical Cancer\", while GBM patients (Part B4) enter without it; D31-A1 codes such a row exploratory_correlative, so it is not selection for this trial.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "tolinapant",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-A1 settles the former open point: PD-L1 enrichment applies only to cervical cohort B2, so it is exploratory_correlative and candidate_matched_selection and any_molecular_selection are false for this trial (GBM cohort B4 enters on the CNS5 GBM definition only). Pembrolizumab stays experimental_combination (fixed in every arm but not GBM standard care, D31-B7).",
+  "revisions": [
+    {
+      "convention": "D31-A2",
+      "field": "items[selection_biomarker_only_in_B].ruling_applied",
+      "from": "manual §5",
+      "to": "D31-A2",
+      "reason": "Value unchanged; EGFR amplification is only one optional route (\"OR one or more of the following molecular features of GBM\") into the B4 GBM definition, so A2 says it does not count."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:PD_L1].proposed",
+      "from": "PD_L1, enrichment (arms: Part B-Expansion), candidate_matched true (pembrolizumab)",
+      "to": "PD_L1, exploratory_correlative (required only for cervical cohort B2), candidate_matched true (pembrolizumab) kept; not selection",
+      "reason": "D31-A1: a biomarker required only for a non-GBM basket cohort (cervical B2) while GBM patients (B4) enter without it is not selection."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder B: biomarker:PD_L1].proposed",
+      "from": "PD_L1, enrichment, candidate_matched true (pembrolizumab)",
+      "to": "PD_L1, exploratory_correlative (required only for cervical cohort B2), candidate_matched true (pembrolizumab) kept; not selection",
+      "reason": "D31-A1: a biomarker required only for a non-GBM basket cohort (cervical B2) while GBM patients (B4) enter without it is not selection."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": true,
+      "to": false,
+      "reason": "The only matched row (PD-L1) is exploratory_correlative under A1; GBM cohort B4 has no candidate-matched entry requirement."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": [
+        {
+          "biomarker": "PD_L1",
+          "matched_agent": "pembrolizumab"
+        }
+      ],
+      "to": [],
+      "reason": "No selection row remains for GBM patients."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": true,
+      "to": false,
+      "reason": "GBM patients' entry requirements are only the CNS5 GBM definition (IDH-wildtype, exempt; EGFR/TERT/7+10- as optional routes, A2), so no molecular selection remains."
+    }
+  ],
+  "harmonisation": []
+}

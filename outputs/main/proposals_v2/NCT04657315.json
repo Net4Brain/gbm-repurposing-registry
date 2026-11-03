@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT04657315",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate true (uncertain)",
+      "coder_B": "has_eligible_candidate true (uncertain)",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "5-flucytosine is the 'Concomitant drug: 5-Flucytosine (prodrug)' of 'Mesenchymal stem cells into which the suicide gene, cytosine deaminase (CD)'; R3 makes a prodrug activated by a gene/cell suicide therapy part of the excluded therapy. No other agent.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:flucytosine",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "experimental_monotherapy (uncertain)",
+      "proposed": "excluded_intervention_type (part of MSC11FCD suicide-gene therapy); not a candidate",
+      "ruling_applied": "D30-R3",
+      "reason": "R3 names 5-FC/flucytosine explicitly as part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate true (uncertain)",
+      "coder_B": "has_eligible_candidate true (uncertain)",
+      "proposed": "has_eligible_candidate false; excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "As above: the cytosine deaminase MSC therapy is an excluded cell/gene therapy and flucytosine is its prodrug.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:flucytosine",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "experimental_monotherapy (uncertain)",
+      "proposed": "excluded_intervention_type; not a candidate",
+      "ruling_applied": "D30-R3",
+      "reason": "R3 resolves B's alternative readings (soc_backbone/supportive): it is part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"msc11fcd (cytosine deaminase-expressing mesenchymal stem cells)\"]",
+      "coder_B": "[\"mesenchymal stem cells expressing cytosine deaminase\"]",
+      "proposed": "[]",
+      "ruling_applied": "D30-R3; manual §2 regimen (manual R1, v1.2)",
+      "reason": "With no candidate, regimen is not_applicable, so combination partners are not recorded; the two coders' entries otherwise differ only in naming.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "D30-R3 changes both coders' agreed candidate coding: trial now excluded at S6 (excluded_intervention_type) and listed with D30-R3 trials. DPD deficiency is a germline safety marker, not recorded.",
+  "revisions": []
+}

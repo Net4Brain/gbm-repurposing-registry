@@ -1,0 +1,31 @@
+{
+  "nct_id": "NCT05977738",
+  "items": [
+    {"type": "disagreement", "item": "control_arm_from_other_arms",
+     "coder_A": "no", "coder_B": "not_applicable",
+     "proposed": "no",
+     "ruling_applied": "manual R8",
+     "reason": "Three registered EXPERIMENTAL arms (\"Dose group 1: 16 mg\", \"Dose group 2: 32 mg\", \"Dose group 3: 48 mg\"), none a control; manual R8 gives 'no' for more than one arm without a control and 'not_applicable' only for single-arm trials.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "pitavastatin", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 window trial (translational subset). Same dose-cohort question as NCT05561374 and NCT06521567; apply one convention for all. No analysis impact."
+}

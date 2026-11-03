@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT04417088",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"unclear\"",
+      "coder_B": "\"historical\"",
+      "proposed": "unclear",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "The record says only 'Histologically confirmed glioblastoma' / 'Recurrent Glioblastoma', with no IDH requirement, WHO edition or 'multiforme', which C8 codes unclear.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "carboplatin",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Carboplatin is not on the D6 established-therapy list, so R1 does not apply; it is a device-dependent candidate (C12/R5). Trial drops out in sensitivity analysis 11."
+}

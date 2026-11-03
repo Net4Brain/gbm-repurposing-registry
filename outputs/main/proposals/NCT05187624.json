@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT05187624",
+  "items": [
+    {"type": "disagreement", "item": "control_arm_from_other_arms", "coder_A": "no", "coder_B": "not_applicable",
+     "proposed": "no",
+     "ruling_applied": "manual R8",
+     "reason": "Four registered EXPERIMENTAL arms (Part I, II, III, IV A), none working as a control; manual R8 defines 'no' as more than one arm but none a control, and 'not_applicable' only for single-arm trials.",
+     "confidence": "high"},
+    {"type": "disagreement", "item": "target_engagement_planned", "coder_A": "yes", "coder_B": "unclear",
+     "proposed": "yes",
+     "ruling_applied": "manual §2",
+     "reason": "The official title states the study evaluates 'Pharmacodynamics ... of RO7428731' and the summary lists pharmacodynamics (PD) as an objective, i.e. a PD measurement for the candidate; W7 reserves 'unclear' for a biomarker endpoint not linked to the candidate. No PD outcome or sample type is registered, so some doubt remains.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "ro7428731", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "both", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": false,
+    "matched_biomarkers": [{"biomarker": "EGFR_EGFRvIII", "matched_agent": "ro7428731"}],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EGFRvIII match rests on the design ('Glioblastoma Expressing Mutant Epidermal Growth Factor Receptor Variant III', exclusion of prior anti-EGFRvIII agents); the record never states RO7428731's target, but both coders agree and it is not queued. MGMT role (enrichment vs eligibility) is a priority-3 item: unmethylated status is required for Part II only, so enrichment fits better."
+}

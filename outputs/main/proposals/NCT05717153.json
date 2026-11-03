@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT05717153",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"amxt 1501\", \"eflornithine\"]",
+      "coder_B": "[\"amxt-1501\", \"eflornithine\"]",
+      "proposed": "[\"amxt 1501\", \"eflornithine\"]",
+      "ruling_applied": "manual §3 (active_moiety)",
+      "reason": "Naming difference only. The manual uses the development code exactly as first written; the title reads \"DFMO and AMXT 1501\" (the salt \"dicaprate\" is dropped). Names are remapped by script anyway.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "eflornithine",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "amxt 1501",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (translational subset) and excluded at S5: glioblastoma is not named (\"diffuse high grade glioma (HGG), or a prior diagnosis of a diffuse glioma\"). treatment_setting proposed both (new suspected HGG or prior diffuse glioma); unclear is the alternative."
+}

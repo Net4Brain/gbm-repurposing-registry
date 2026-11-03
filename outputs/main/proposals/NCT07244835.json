@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT07244835",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "not_glioblastoma",
+      "coder_B": "not_glioblastoma (uncertain: glioblastoma only in keywords)",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 C7/D27B",
+      "reason": "Glioblastoma appears only in the keywords list ('Pancreatic cancer; Glioblastoma; Renal cancer'). Conditions are 'Malignant Neoplasms', and inclusion says 'advanced solid tumors' and 'BRAF mutation positive tumors and HCC'. C7 does not count keywords, so the agreed coding stands.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "deg6498", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5. Priority-3 basket disagreement: basket is false because glioblastoma is not eligible by the naming rule (the same treatment as NCT04190628). The BRAF-mutant expansion cohort is enrichment, not candidate-matched: DEG6498 is a HuR degrader with no stated BRAF link."
+}

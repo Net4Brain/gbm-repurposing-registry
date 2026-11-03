@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT04388033",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate true (IL-12), uncertain",
+      "coder_B": "has_eligible_candidate true (IL-12)",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "R4 names IL-12 given to support a vaccine as part of the excluded therapy. Here 'Fusion cells will be administered with IL-12 to enhance the immunity of patients'; IL-12 has no own arm and the only immune outcome assesses 'serial vaccination with DC/Tumor Fusion Cells and IL-12' jointly, so the R4 exception (tested in its own right) does not apply.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:interleukin-12",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "IL-12 is the vaccine's immune enhancer ('Dendritic and Glioma Cells Fusion vaccine given with IL-12'), not a separately tested antitumour agent; the coders' analogy to 'pembrolizumab + vaccine' predates R4, which now governs cytokines given with vaccines.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"dendritic cell/tumour fusion vaccine\", \"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"dendritic cell vaccine\", \"radiotherapy\", \"temozolomide\"]",
+      "proposed": "[] (regimen not_applicable)",
+      "ruling_applied": "D30-R4; manual R1",
+      "reason": "With IL-12 not a candidate the trial has no eligible candidate, so regimen is not_applicable and no partners are recorded. If XL keeps IL-12 as a candidate, use A's list (the vaccine is a DC/tumour fusion vaccine).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Proposal overturns both coders' agreed inclusion at S6 by applying D30-R4 (IL-12 given 'to enhance the immunity' of the DC/tumour fusion vaccine), which D31-B8 confirms as part of the excluded therapy; no remaining open question for XL. target_engagement_planned proposed 'no' (coders: yes) because the immune assays measure vaccine-induced immunity and there is no candidate. If XL instead treats IL-12 as tested in its own right, revert to the coders' coding: IL-12 experimental_monotherapy, regimen combination, target_engagement yes.",
+  "revisions": []
+}

@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT04485949",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false (excluded_intervention_type), uncertain: IMV-001 antisense oligonucleotide component",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D31-B8",
+      "reason": "IGV-001 is registered as one combination product, \"an autologous cell immunotherapy\" that \"combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers\"; the ASO is a component of the cell product and is never given or tested on its own, so the product is an excluded cell therapy/vaccine. Agreed coding stands.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "has_eligible_candidate false (excluded_intervention_type), uncertain: oligonucleotide component could be pharmacological",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D31-B8",
+      "reason": "Same product: the only investigational intervention is \"IGV-001 Cell Immunotherapy\" (vs placebo chambers); temozolomide and RT are SOC in both arms. By analogy with D30-R3/R4 (components that serve an excluded therapy are part of it) the ASO is not a separate candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "IMV-001 built into the IGV-001 cell product is part of the excluded therapy under D31-B8 (settles the former open point). cns5_terminology (priority 3, A historical vs B unclear): proposed historical because inclusion reads \"WHO GRADE III or Grade IV GBM\" with no IDH requirement (grade IV glioma without IDH, D27C).",
+  "revisions": [
+    {
+      "convention": "D31-B8",
+      "field": "items[coder A: candidate_flag].ruling_applied",
+      "from": "manual §1.2",
+      "to": "D31-B8",
+      "reason": "Value unchanged; B8 names this case: IMV-001 is a drug component built into the IGV-001 cell product (\"combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001)\"), so excluded_intervention_type."
+    },
+    {
+      "convention": "D31-B8",
+      "field": "items[coder B: candidate_flag].ruling_applied",
+      "from": "manual §1.2",
+      "to": "D31-B8",
+      "reason": "Value unchanged; B8 names this case: IMV-001 is a drug component built into the IGV-001 cell product (\"combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001)\"), so excluded_intervention_type."
+    },
+    {
+      "convention": "D31-B8",
+      "field": "needs_xl_attention",
+      "from": true,
+      "to": false,
+      "reason": "D31-B8 explicitly covers IMV-001 in IGV-001, so no open question remains."
+    }
+  ]
+}

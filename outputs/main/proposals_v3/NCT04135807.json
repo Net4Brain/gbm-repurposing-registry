@@ -1,0 +1,179 @@
+{
+  "nct_id": "NCT04135807",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Drugs are given only as intratumoral microdoses from an implanted microdevice to assay local drug response; unclear whether such ex situ-style sensitivity testing counts as a pharmacological candidate (coded as device-dependent candidates).",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate true: the microdose drugs (other than temozolomide and lomustine) are candidates, experimental_combination, device_dependent true, formulation new_route",
+      "ruling_applied": "manual §1.2 C12, §3.1 rules 2/5/6",
+      "reason": "C12 makes a drug whose antitumour effect is tested but needs a device for delivery a candidate; the microdevice releases drugs into the tumour 'to allow time for tissue effects of the drugs to be measured' and an outcome is 'Measure Local Intratumor Response to Different Agents'. No rule or ruling addresses non-therapeutic microdose sensitivity testing, so this is a policy call for XL.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:rna-containing lipid nanoparticle",
+      "coder_A": "Unclear whether the RNA-containing lipid nanoparticle is a gene therapy (excluded type) or an oligonucleotide-type pharmacological candidate.",
+      "coder_B": "",
+      "proposed": "rna-containing lipid nanoparticle: keep role excluded_intervention_type (not a candidate)",
+      "ruling_applied": "manual §1.2",
+      "reason": "The record only says 'RNA-containing lipid nanoparticle (including compounds CL3, SCR and CL3_a2)' with no mechanism, so whether it is a gene therapy or an oligonucleotide drug cannot be settled from the record. Both coders coded it excluded; it does not change screening because other candidates exist.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:rna lipid nanoparticle",
+      "coder_A": "RNA lipid nanoparticle could be a pharmacological candidate or a gene therapy; coded as excluded intervention type.",
+      "coder_B": "",
+      "proposed": "rna-containing lipid nanoparticle: keep role excluded_intervention_type (not a candidate)",
+      "ruling_applied": "manual §1.2",
+      "reason": "The record only says 'RNA-containing lipid nanoparticle (including compounds CL3, SCR and CL3_a2)' with no mechanism, so whether it is a gene therapy or an oligonucleotide drug cannot be settled from the record. Both coders coded it excluded; it does not change screening because other candidates exist.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"historical\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "historical",
+      "ruling_applied": "manual §1.1 C8, D27C",
+      "reason": "Conditions list 'Grade IV Glioma' and inclusion says 'WHO grade II-IV glioma (... or Glioblastoma)' with no IDH requirement; C8 codes 'grade 4/IV ... glioma without an IDH requirement' as historical.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"abemaciclib\", \"bumetanide\", \"carboplatin\", \"decitabine\", \"everolimus\", \"gabapentin\", \"ipilimumab\", \"irinotecan\", \"lapatinib\", \"lomustine\", \"meclofenamic acid\", \"niraparib\", \"nivolumab\", \"osimertinib\", \"perampanel\", \"prochlorperazine\", \"ptc596\", \"relatlimab\", \"rna-containing lipid nanoparticle\", \"temozolomide\", \"tocilizumab\", \"vortioxetine\"]",
+      "coder_B": "[\"abemaciclib\", \"carboplatin\", \"decitabine\", \"everolimus\", \"ipilimumab\", \"irinotecan\", \"lapatinib\", \"lomustine\", \"niraparib\", \"nivolumab\", \"osimertinib\", \"ptc596\", \"relatlimab\", \"temozolomide\", \"tocilizumab\"]",
+      "proposed": "[\"abemaciclib\", \"bumetanide\", \"carboplatin\", \"decitabine\", \"everolimus\", \"gabapentin\", \"ipilimumab\", \"irinotecan\", \"lapatinib\", \"lomustine\", \"meclofenamic acid\", \"niraparib\", \"nivolumab\", \"osimertinib\", \"perampanel\", \"prochlorperazine\", \"ptc596\", \"relatlimab\", \"temozolomide\", \"tocilizumab\", \"vortioxetine\"]",
+      "ruling_applied": "manual §2 (regimen, C1); D31-C2",
+      "reason": "Regimen counts all antitumour therapy in the experimental arm; both coders made gabapentin, perampanel, bumetanide, prochlorperazine, vortioxetine and meclofenamic acid candidates (tested for 'Local Intratumor Response'), so they belong in the partner list (coder A). Including the RNA nanoparticle follows the same logic but is minor. Under D31-C2 (clarified) the RNA-containing lipid nanoparticle, coded excluded_intervention_type, is not listed.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "irinotecan",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "carboplatin",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "lapatinib",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "niraparib",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "osimertinib",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "abemaciclib",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "everolimus",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "relatlimab",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "gabapentin",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "perampanel",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "tocilizumab",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "meclofenamic acid",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "bumetanide",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "prochlorperazine",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "decitabine",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "ptc596",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "vortioxetine",
+        "role": "experimental_combination",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "EARLY_PHASE1, so translational subset only (not the primary estimand). Key question for XL: whether in situ microdose drug-sensitivity testing (device dwell ~3 days before resection, no therapeutic intent) should count as pharmacological candidates; if not, the trial has no candidate (no_pharmacological_candidate) and contributes ~19 agents less. Temozolomide and lomustine are established_therapy_experiment (rule 6). Opdualag split into nivolumab + relatlimab; nivolumab listed once in candidates. target_engagement 'yes' (tissue drug effects) agreed by both coders; could equally be read as response. Harmonisation: RNA lipid nanoparticle removed from combination_partners (D31-C2); temozolomide and lomustine remain established_therapy_experiment and are never candidates.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"abemaciclib\", \"bumetanide\", \"carboplatin\", \"decitabine\", \"everolimus\", \"gabapentin\", \"ipilimumab\", \"irinotecan\", \"lapatinib\", \"lomustine\", \"meclofenamic acid\", \"niraparib\", \"nivolumab\", \"osimertinib\", \"perampanel\", \"prochlorperazine\", \"ptc596\", \"relatlimab\", \"rna-containing lipid nanoparticle\", \"temozolomide\", \"tocilizumab\", \"vortioxetine\"]",
+      "to": "[\"abemaciclib\", \"bumetanide\", \"carboplatin\", \"decitabine\", \"everolimus\", \"gabapentin\", \"ipilimumab\", \"irinotecan\", \"lapatinib\", \"lomustine\", \"meclofenamic acid\", \"niraparib\", \"nivolumab\", \"osimertinib\", \"perampanel\", \"prochlorperazine\", \"ptc596\", \"relatlimab\", \"temozolomide\", \"tocilizumab\", \"vortioxetine\"]",
+      "reason": "The RNA lipid nanoparticle is coded as an excluded product (excluded_intervention_type), which clarified D31-C2 removes from combination_partners."
+    }
+  ]
+}

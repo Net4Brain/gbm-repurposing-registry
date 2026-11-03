@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT05503797",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"plixorafenib\"]",
+      "coder_B": "",
+      "proposed": "keep row: other (NF-1 and/or RAS related gene alterations, stated as exclusion), eligibility, candidate_matched true (plixorafenib); matched_biomarkers BRAF + NF1/RAS exclusion row",
+      "ruling_applied": "D31-A4; D31-A6",
+      "reason": "Subprotocol B (and C, D) exclude \"Known or suspected neurofibromatosis-1 (NF-1) and/or RAS related gene alterations\"; under D31-A4 an exclusion-stated biomarker restricts entry and counts as eligibility (A5 does not apply, it does not define CNS5 GBM). Under corrected D31-A6 it is candidate-matched from plixorafenib's established pharmacology (a BRAF inhibitor whose activity depends on BRAF-driven, not RAS/NF1-driven, MAPK signalling; adjudicator's drug knowledge); candidate_matched_selection stays true via the required BRAF V600E / BRAF fusion rows, which every GBM route (Subprotocols A and B) requires, so A1/A2 do not apply.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"cns5\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "cns5",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "Subprotocol B cites \"WHO [2021] Grade 3 or 4 primary CNS tumor\"; historical terms (\"Grade 1-4 glioma\", \"anaplastic astrocytoma\") also appear, and when both cns5 and historical criteria are met C8 says code cns5.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "plixorafenib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "BRAF",
+        "matched_agent": "plixorafenib"
+      },
+      {
+        "biomarker": "other (NF-1 and/or RAS related gene alterations, exclusion)",
+        "matched_agent": "plixorafenib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "A6 resolved (D31-A6 corrected): the NF1/RAS exclusion row is candidate-matched to plixorafenib from its established pharmacology (adjudicator's drug knowledge: RAS/NF1-driven MAPK activation bypasses BRAF-selective inhibition); no effect on candidate_matched_selection or any_molecular_selection, which stay true via BRAF. BRAF role (eligibility vs enrichment) differs between coders (priority 3); every GBM route requires a BRAF alteration. cns5 kept: GBM is named in Subprotocol B, and WHO 2021 is cited in its paediatric clause.",
+  "revisions": [
+    {
+      "convention": "D31-A4",
+      "field": "selection_biomarker_only_in_A (NF1/RAS exclusion row)",
+      "from": "drop row (no selection biomarker for NF1/RAS)",
+      "to": "keep row as eligibility (candidate_matched: A6 pending XL)",
+      "reason": "The record lists \"Known or suspected neurofibromatosis-1 (NF-1) and/or RAS related gene alterations\" as an exclusion criterion, which D31-A4 counts as eligibility."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "items[selection_biomarker_only_in_A].proposed (NF1/RAS exclusion row candidate_matched)",
+      "from": "A6 pending XL (not set)",
+      "to": "candidate_matched true (plixorafenib)",
+      "reason": "Plixorafenib is a BRAF inhibitor and RAS/NF1 alterations are the MAPK-pathway drivers that bypass BRAF inhibition, a link from its established pharmacology (adjudicator's drug knowledge)."
+    },
+    {
+      "check": "A6",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "BRAF/plixorafenib only",
+      "to": "BRAF/plixorafenib + NF1/RAS exclusion row/plixorafenib",
+      "reason": "Follows from the NF1/RAS eligibility (exclusion) row now being candidate-matched; trial-level outcome unchanged (true)."
+    }
+  ]
+}

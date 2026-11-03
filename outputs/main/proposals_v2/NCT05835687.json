@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT05835687",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Paediatric-oriented CNS tumour trial (age up to 21, CHILD and ADULT); glioblastoma only appears in conditions; could alternatively be coded basket_gbm_eligible or not_glioblastoma.",
+      "coder_B": "",
+      "proposed": "basket_gbm_eligible, basket true",
+      "ruling_applied": "D31-B15",
+      "reason": "D31-B15: the trial enrols glioma alongside non-glioma CNS tumours (conditions 'Atypical Teratoid/Rhabdoid Tumor; ... Ependymoma; High Grade Glioma; Glioblastoma; Medulloblastoma') and names glioblastoma in the conditions, so it is basket_gbm_eligible.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot: the only agent is B7-H3 CAR T cells (excluded type), so excluded at S6. Population recoded basket_gbm_eligible (D31-B15). GBM can only enter Cohort A (relapsed/refractory, B7-H3 positive), so B7-H3 keeps any_molecular_selection true; the H3K27M row applies only to the DMG cohort and is exploratory_correlative (D31-A1). No candidate, so nothing is candidate-matched.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.gbm_population",
+      "from": "mixed_glioma_gbm_named",
+      "to": "basket_gbm_eligible",
+      "reason": "Glioma is enrolled alongside non-glioma CNS tumours (ATRT, ependymoma, medulloblastoma) and glioblastoma is named in the conditions."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.basket",
+      "from": "false",
+      "to": "true",
+      "reason": "Follows from basket_gbm_eligible."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "biomarker row H3K27M (role)",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "H3K27M is only one route into Cohort B ('Diffuse midline glioma ... OR H3K27-altered diffuse midline pontine glioma'), a non-GBM cohort; GBM enters only Cohort A (D31-A1/A2)."
+    }
+  ]
+}

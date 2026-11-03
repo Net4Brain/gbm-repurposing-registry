@@ -1,0 +1,24 @@
+{
+  "nct_id": "NCT07365280",
+  "items": [
+    {"type": "disagreement_outcome", "item": "selection_biomarker_only_in_A",
+     "coder_A": "other (tumour neoantigens confirmed for vaccine manufacture), eligibility, candidate_matched false",
+     "coder_B": "(no row)",
+     "proposed": "no biomarker row; any_molecular_selection false",
+     "ruling_applied": "manual §5",
+     "reason": "\"After confirmation of tumor neoantigens and eligibility, patients will be randomized\" describes a manufacturing step for the personalised DC vaccine. The inclusion criterion asks only for tissue availability (\"sufficient tumor tissue and blood samples for neoantigen identification\"), not a molecular marker that defines the population. The trial has no candidate either way.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S6 (dendritic cell vaccine plus temozolomide backbone), so the neoantigen row does not affect any analysed outcome. IDH-wildtype is diagnostic only."
+}

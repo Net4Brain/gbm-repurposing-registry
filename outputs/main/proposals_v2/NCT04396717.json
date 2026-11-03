@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04396717",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"basket_gbm_eligible\"",
+      "coder_B": "\"mixed_glioma_gbm_named\"",
+      "proposed": "basket_gbm_eligible",
+      "ruling_applied": "D31-B15",
+      "reason": "Eligible diagnoses include glioblastoma plus 'brain metastases', 'meningiomas, chordomas, medulloblastoma, craniopharyngiomas, pituitary tumors' and leptomeningeal metastases, so this is a multi-cancer trial, not only several glioma types.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "basket",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "D31-B15",
+      "reason": "Follows from basket_gbm_eligible: non-glioma tumours, including metastases of other cancers, are eligible.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "A pharmacodynamic objective is stated ('To determine pharmacokinetics and pharmacodynamics of Pritumumab') but no PD measurement is described (only 'CSF and tissue samples' with no marker), so D31-C6 gives 'unclear'.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pritumumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-C6 sets target_engagement_planned to 'unclear' (PD objective stated, no measurement described). D31-B15 confirms basket_gbm_eligible. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C6",
+      "field": "items[target_engagement_planned].proposed",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The record states a PD objective ('To determine pharmacokinetics and pharmacodynamics of Pritumumab') but describes no PD measurement; the 'CSF and tissue samples' are not linked to any named marker."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "items[gbm_population].ruling_applied",
+      "from": "manual §1.1",
+      "to": "D31-B15",
+      "reason": "Value unchanged; B15 settles it: glioblastoma is named alongside non-glioma brain tumours ('meningiomas, chordomas, medulloblastoma, craniopharyngiomas, pituitary tumors') and brain metastases, so basket_gbm_eligible."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "items[basket].ruling_applied",
+      "from": "manual §1.1 / §2",
+      "to": "D31-B15",
+      "reason": "Value unchanged; B15 settles it: glioblastoma is named alongside non-glioma brain tumours ('meningiomas, chordomas, medulloblastoma, craniopharyngiomas, pituitary tumors') and brain metastases, so basket_gbm_eligible."
+    },
+    {
+      "convention": "D31-C6",
+      "field": "proposed_final.target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "Follows from the target_engagement_planned item."
+    }
+  ]
+}

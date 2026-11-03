@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT07209241",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "(no IDH row)",
+      "coder_B": "[\"IDH\", false, \"\"] eligibility",
+      "proposed": "IDH-wildtype is not a selection biomarker (may be listed, but does not count toward any_molecular_selection or candidate_matched_selection)",
+      "ruling_applied": "manual §5",
+      "reason": "'glioblastoma, IDH-wildtype (as defined by WHO 2021 Classification of CNS Tumors)' only defines the disease; §5 excludes 'IDH-wildtype used only to define GBM'. No outcome change: EGFR amplification ('Tumor tissue positive for wild-type EGFR amplification') is an eligibility biomarker but is not candidate-matched because the CAR-T is not a candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection is true because of the EGFR amplification entry requirement (both coders), not because of IDH. Lymphodepleting drugs are not named, so not listed.",
+  "revisions": []
+}

@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05496595",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "no",
+      "coder_B": "not_applicable",
+      "proposed": "no",
+      "ruling_applied": "manual §2 control_arm (R8 definition)",
+      "reason": "Two EXPERIMENTAL arms are registered ('Part 1: Dose Escalation', 'Part 2: Dose Expansion') and neither is a control; the manual reserves 'not_applicable' for single-arm trials.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "unclear",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 tumour_pk_planned (W7)",
+      "reason": "PK is planned ('Pharmacokinetic parameters of DCBY02: maximum observed concentration (Cmax)', AUC, CL, Vz, t1/2) but no sample type is stated anywhere in the record; W7 says 'unclear' only when PK is planned and the sample type is not stated, which is the case here. Coder B's plasma reading is likely but not stated.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "dcby02",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Both parts are sequential phases of one single-agent study; if XL treats escalation/expansion as one cohort, control_arm_from_other_arms would be not_applicable. GBM patients are exempt from the paired-biopsy requirement that supports target_engagement yes."
+}

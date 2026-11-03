@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT04689087",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false (uncertain)",
+      "coder_B": "has_eligible_candidate false",
+      "proposed": "Agreed coding stands: no candidate; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "manual §3.1 rule 3; §1.2; D31-C1",
+      "reason": "The investigational question is the device ('Tumor Treating Fields (TTFields) in Combination With Chemotherapy'); the 'second-line chemotherapy' / 'BPC chemotherapy' is unnamed, not a registered drug intervention, and given to every patient as 'Second line conventional treatment', i.e. background. No named drug can be a candidate.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registry phase is NA, so the trial is excluded at S3 (phase_not_applicable) before S6; the S6 reason is moot. S6 reason changed from the coders' agreed no_pharmacological_candidate to excluded_intervention_type under D31-C1, because the tested intervention is the TTFields device. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The record tests a device ('Tumor Treating Fields (TTFields) in Combination With Chemotherapy', registered as combination product TTFields), so D31-C1 assigns excluded_intervention_type."
+    }
+  ]
+}

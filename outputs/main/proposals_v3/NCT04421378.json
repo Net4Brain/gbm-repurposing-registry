@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04421378",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "cns5",
+      "coder_B": "historical",
+      "proposed": "cns5",
+      "ruling_applied": "manual §1.1 (cns5_terminology, C8)",
+      "reason": "Conditions say \"Glioblastoma Multiforme\" (historical), but the record excludes \"Participants with mutated isocitrate dehydrogenase (IDH)\" for Phase 2, an IDH-wildtype requirement; when both apply the manual says code cns5. The IDH requirement covers Phase 2 only, so this is not fully clean.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"bevacizumab\", \"carmustine\", \"lomustine\", \"radiotherapy\", \"temozolomide\", \"ttfields (device)\"]",
+      "coder_B": "[\"bevacizumab\", \"carmustine\", \"lomustine\", \"radiotherapy\", \"temozolomide\", \"tumor treating fields\"]",
+      "proposed": "[\"bevacizumab\", \"carmustine\", \"lomustine\", \"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "D31-C2",
+      "reason": "Same drug content in both coders; under D31-C2 (clarified) the TTFields device (Arm E) is not listed as a partner.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "selinexor",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection true: MGMT status (unmethylated for Arm A, methylated for Arm B) is an arm-level enrichment requirement, not candidate-matched. Harmonisation: TTFields removed from combination_partners (D31-C2). Bevacizumab, carmustine, lomustine and temozolomide remain non-candidates.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"bevacizumab\", \"carmustine\", \"lomustine\", \"radiotherapy\", \"temozolomide\", \"tumour treating fields (device)\"]",
+      "to": "[\"bevacizumab\", \"carmustine\", \"lomustine\", \"radiotherapy\", \"temozolomide\"]",
+      "reason": "TTFields is a device, which clarified D31-C2 excludes from combination_partners."
+    }
+  ]
+}

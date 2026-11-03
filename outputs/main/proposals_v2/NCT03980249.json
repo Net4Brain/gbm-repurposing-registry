@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03980249",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"radiotherapy\", \"temozolomide\", \"tumour treating fields\"]",
+      "proposed": "[\"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "D31-C2",
+      "reason": "D31-C2 lists every other drug and radiotherapy given with the candidate; carvedilol runs \"starting on day 1 of concurrent chemoradiotherapy ... until the end of adjuvant cycle 6 of temozolomide and Tumor Treated Fields\", so the partners are radiotherapy and temozolomide. TTFields is a device, not a drug or radiotherapy, and is not listed. Regimen is combination either way.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"no\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2",
+      "reason": "A biomarker endpoint is planned (\"Quantify CTCs via qRT-PCR assay and to assess how the trend of CTCs correspond to disease status\"), but it is not linked to carvedilol or its target. The manual's wording for that case is unclear, although CTCs work here as a disease-burden marker rather than a pharmacodynamic one.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "carvedilol",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1, so this is the translational subset. TTFields dropped from combination_partners under D31-C2 (device, not drug or radiotherapy); it remains part of the arm's standard care. target_engagement_planned 'unclear' follows the manual for a biomarker endpoint (CTCs) not linked to carvedilol; no PD objective is stated, so D31-C6 does not apply. 'no' is also defensible if XL reads CTC counts as response endpoints; keep consistent across trials.",
+  "revisions": [
+    {
+      "convention": "D31-C2",
+      "field": "combination_partners",
+      "from": "[\"radiotherapy\", \"temozolomide\", \"tumour treating fields\"]",
+      "to": "[\"radiotherapy\", \"temozolomide\"]",
+      "reason": "C2 lists drugs and radiotherapy; TTFields in the arm (\"temozolomide and Tumor Treated Fields\") is a device and is not a combination partner."
+    }
+  ]
+}

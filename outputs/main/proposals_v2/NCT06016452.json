@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT06016452",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "flagged uncertain (chlorophyllin supportive)",
+      "coder_B": "",
+      "proposed": "chlorophyllin supportive; no candidate (agreed coding stands)",
+      "ruling_applied": "manual §3.1 rule 2; D31-B9; D30-R5",
+      "reason": "Chlorophyllin is given 'for the Management of Brain Radionecrosis', a treatment complication, not the tumour; 'anti-cancer' properties are background only and PFS/OS are routine secondary outcomes with progression excluded at entry. Even if an antitumour hypothesis were read in, it is described as 'an over-the-counter drug ... and also as a food colouring agent', so R5 would require evidence of licensing as a medicine. D31-B9: a drug whose stated purpose is supportive ('for the Management of Brain Radionecrosis') stays supportive even though routine PFS/OS outcomes are registered.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Dexamethasone (coder A only, priority 3) is not a registered intervention and not given to every patient ('combination of steroids and CHL' in Stratum A only), so per manual R9 it need not be listed. D31-C1 checked: no non-drug intervention is under test, so no_pharmacological_candidate stands.",
+  "revisions": [
+    {
+      "convention": "D31-B9",
+      "field": "coder A: candidate_flag (ruling_applied, confidence)",
+      "from": "manual §3.1 rule 2; D30-R5, medium",
+      "to": "manual §3.1 rule 2; D31-B9; D30-R5, high (value supportive unchanged)",
+      "reason": "The record states chlorophyllin is for 'the Management of Brain Radionecrosis'; the PFS/OS secondary outcomes are routine, so D31-B9 keeps it supportive."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT06140875",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "manual §1 S6 / §1.2",
+      "reason": "The only registered intervention is a device (\"Radiofrequency electromagnetic field treatment\"); temozolomide is the Stupp backbone. No drug is tested, and no agent row carries an excluded type.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Convention question for XL: when the only tested intervention is radiotherapy or a device and the only drug is a backbone/supportive agent, S6 reason could be no_pharmacological_candidate or excluded_intervention_type (radiotherapy alone and devices are listed as excluded types in manual 1.2). Proposed no_pharmacological_candidate throughout this batch (NCT04574856, NCT06140875, NCT05284643, NCT06929819) for consistency. Registered phase NA, so excluded at S3 regardless. Both coders listed an MGMT eligibility row, but the criterion (\"MGMT-promotor methylated patients must have refused therapy according to the CeTeG/NOA-09 protocol\") requires no MGMT status, so any_molecular_selection is proposed false."
+}

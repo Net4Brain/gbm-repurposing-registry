@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT04978727",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "uncertain: sargramostim (licensed GM-CSF) as vaccine adjuvant; coded non-candidate",
+      "coder_B": "",
+      "proposed": "no candidate; candidate_exclusion_reason excluded_intervention_type (agreed coding stands)",
+      "ruling_applied": "D30-R4",
+      "reason": "Sargramostim is given with every vaccine dose and 'works to stimulate the immune system to help the SurVaxM/Montanide ISA 51 work more effectively'; it has no own arm or own outcome, so under R4 it is part of the excluded vaccine therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "uncertain: sargramostim coded supportive (vaccine adjuvant)",
+      "proposed": "no candidate; sargramostim and Montanide ISA 51 role excluded_intervention_type (not supportive)",
+      "ruling_applied": "D30-R4",
+      "reason": "R4 names GM-CSF/sargramostim and Montanide explicitly as part of the excluded therapy when given to support a vaccine; the record's primary objective is the toxicity of 'SurVaxM in emulsion with Montanide plus sargramostim', i.e. the vaccine regimen, not sargramostim as an antitumour agent.",
+      "confidence": "high"
+    },
+    {
+      "type": "d31_revision",
+      "item": "biomarker:H3K27M role",
+      "coder_A": "enrichment",
+      "coder_B": "enrichment",
+      "proposed": "exploratory_correlative",
+      "ruling_applied": "D31-A1",
+      "reason": "H3 K27M is required only for atypical pontine lesions in the DIPG stratum ('histologic confirmation of diffuse glioma WHO Grade II-IV with H3 K27M mutation'); GBM patients enter the relapsed HGG strata without it, so it is not selection for this trial.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S6 (excluded_intervention_type). Mixed age (1-21 years, CHILD+ADULT). Survivin IHC >=1% required for relapsed strata (vaccine target, not candidate-matched). treatment_setting 'both' because a newly diagnosed DIPG stratum sits beside relapsed strata (GBM patients are relapsed/progressive only). any_molecular_selection stays true because survivin IHC >=1% is still required for relapsed HGG (incl. GBM) patients. The exclusion of H3 K27M-altered DMG outside the pons is exempt under D31-A5.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "biomarker:H3K27M role",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "H3 K27M is required only for atypical pontine lesions in the DIPG stratum ('histologic confirmation of diffuse glioma WHO Grade II-IV with H3 K27M mutation'); GBM patients enter the relapsed HGG strata without it, so it is not selection for this trial."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT06818331",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "gbm_only, uncertain (WHO grade IV glioma per a 2025 Chinese guideline; GBM never named)",
+      "coder_B": "gbm_only",
+      "proposed": "gbm_only (cns5_terminology historical)",
+      "ruling_applied": "manual §1.1",
+      "reason": "Inclusion is \"WHO grade IV glioma as defined in the 'Integrated Diagnosis and Treatment Guidelines for Glioma of the Chinese Anti-Cancer Association'\" with no IDH requirement; manual §1.1 (D27C) counts grade 4 glioma without an IDH requirement as historical glioblastoma (gbm_only). The record cites a national guideline, not WHO CNS5 itself, so CNS5 terminology is not triggered.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "paclitaxel",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Coder A's concern is real: a 2025 guideline likely follows CNS5, under which 'grade 4 glioma' also covers IDH-mutant astrocytoma grade 4 and H3K27M DMG; but the manual rule settles it as historical GBM. Paclitaxel with electroacupuncture BBB opening is device_dependent (C12, manual R4); D30-R1 does not apply because paclitaxel is not an established GBM drug.",
+  "revisions": []
+}

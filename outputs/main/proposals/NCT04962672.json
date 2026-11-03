@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT04962672",
+  "items": [
+    {"type": "disagreement", "item": "gbm_population", "coder_A": "mixed_glioma_gbm_named", "coder_B": "high_grade_glioma_unspecified",
+     "proposed": "mixed_glioma_gbm_named",
+     "ruling_applied": "D30-R7",
+     "reason": "Inclusion requires 'high-grade primary glial brain tumor (WHO grade III and IV)': grade 4 explicitly allowed, no IDH requirement, glioblastoma not named in conditions/title/inclusion/arm labels. D30-R7 includes this as historical glioblastoma.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder A: gbm_population_flag", "coder_A": "mixed_glioma_gbm_named (uncertain)", "coder_B": "high_grade_glioma_unspecified",
+     "proposed": "mixed_glioma_gbm_named",
+     "ruling_applied": "D30-R7",
+     "reason": "Coder A's doubt (GBM named only in the exclusion 'Recurrent GBM' and the description) is resolved by D30-R7: 'WHO grade III and IV' glioma with no IDH requirement is included as historical glioblastoma.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder B: candidate_flag", "coder_A": "has_eligible_candidate true (propofol)", "coder_B": "has_eligible_candidate true (uncertain)",
+     "proposed": "has_eligible_candidate true; agreed coding stands",
+     "ruling_applied": "manual §3.1",
+     "reason": "Rule 2 makes an anaesthetic a candidate when the record states an antitumour hypothesis; here 'propofol based anesthesia may limit the progression of brain cancer progression' and PFS/OS are outcomes.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: agent:propofol", "coder_A": "experimental_monotherapy", "coder_B": "experimental_monotherapy (uncertain)",
+     "proposed": "experimental_monotherapy",
+     "ruling_applied": "manual §3.1",
+     "reason": "Propofol maintenance is the only investigational agent in the 'Propofol group' arm, tested against sevoflurane with a stated antitumour rationale ('propofol seems to inhibit cancer formation steps'); rule 2 exception, then rule 4.",
+     "confidence": "medium"},
+    {"type": "disagreement", "item": "cns5_terminology", "coder_A": "historical", "coder_B": "unclear",
+     "proposed": "historical",
+     "ruling_applied": "D30-R7",
+     "reason": "D30-R7 assigns cns5_terminology historical to 'WHO grade III and IV' glioma without IDH requirement; manual C8 also counts grade IV glioma without IDH as historical.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "propofol", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "newly_diagnosed", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered phase is NA, so the trial fails S3 ([CODE], phase_not_applicable) regardless of these LLM codings. Propofol is also given as an induction bolus in both arms; the candidate row refers to propofol maintenance in the Propofol group (sevoflurane = control_comparator). Rocuronium naming (rocuronium vs rocuronium bromide) is a priority-3 item: INN parent is rocuronium."
+}

@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT04892342",
+  "items": [
+    {"type": "uncertain", "item": "coder B: gbm_population_flag", "coder_A": "gbm_excluded", "coder_B": "gbm_excluded (uncertain)",
+     "proposed": "gbm_excluded (agreed coding stands)",
+     "ruling_applied": "manual §1.1 (C7/D27B)",
+     "reason": "'glioblastoma multiforme' appears only in the brief summary tumour list, which does not count under C7; conditions list only non-CNS cancers, and the exclusion criteria state 'Primary CNS malignancy', so glioblastoma appears in a valid field only as an exclusion.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_excluded", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "esg401", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (gbm_excluded). basket proposed false because GBM is not eligible; control_arm_from_other_arms 'no' (ten dose-level arms, none a control). cns5_terminology moot."
+}

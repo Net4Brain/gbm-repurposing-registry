@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT07331064",
+  "items": [
+    {"type": "disagreement", "item": "gbm_population", "coder_A": "high_grade_glioma_unspecified", "coder_B": "not_glioblastoma",
+     "proposed": "not_glioblastoma",
+     "ruling_applied": "manual §1.1; R7 considered",
+     "reason": "Eligibility requires 'pediatric high-grade glioma (WHO Grade 3 or 4, including DMG/DIPG) or ATRT' and cites the WHO CNS5 classification; under CNS5, paediatric-type high-grade gliomas, DMG/DIPG and ATRT are not glioblastoma, so the D27C/R7 'grade 4 without IDH = historical GBM' logic does not apply. Glioblastoma is never named.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "gallium maltolate", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Outcome-neutral: Ages CHILD only (0-17), so the trial fails S4 (paediatric_only) before S5 and both coder values exclude it. XL to confirm that R7 (WHO grade 3-4 glioma = include) is not meant to cover a CNS5-cited paediatric-type HGG population; if R7 were applied literally the value would be mixed_glioma_gbm_named/historical, which conflicts with the CNS5 citation. Between the two exclusion values, high_grade_glioma_unspecified (coder A) is also defensible."
+}

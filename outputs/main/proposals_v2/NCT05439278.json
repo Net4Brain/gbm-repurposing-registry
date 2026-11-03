@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT05439278",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"established_therapy_only\"",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "The question is radiotherapy fractionation ('compare conventional radiotherapy of 60 Gy (6 weeks) versus hypofractionated radiotherapy of 40 Gy'). Temozolomide is identical in both arms ('concurrent (75 mg/m2/day qd) and adjuvant (6 cycles)'), so it is soc_backbone and not an established-therapy experiment. R1 ties established_therapy_only to an established drug that is itself the subject (rule 6), which is not the case here. The manual does not define the three S6 reasons, so established_therapy_only (the only drug is an established GBM therapy) is also defensible.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-C1 settles the S6 reason: excluded_intervention_type (RT fractionation is the tested intervention; temozolomide is soc_backbone in both arms). D31-A8: the known-MGMT-status requirement is testing, not selection, so MGMT is exploratory_correlative and any_molecular_selection is false (consistent with NCT04552977). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "items[candidate_exclusion_reason].proposed",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The tested intervention is a radiotherapy schedule ('60 Gy in 30 fractions' vs '40.05 Gy in 15 fractions'), with temozolomide identical in both arms."
+    },
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "D31-C1: an RT schedule is under test, so the S6 reason is excluded_intervention_type."
+    },
+    {
+      "convention": "D31-A8",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "'known o6-methylguanine-DNA-methyltransferase promoter methylation status' requires testing with no required value, so MGMT is exploratory_correlative; the only other requirement is the CNS5 glioblastoma definition."
+    }
+  ]
+}

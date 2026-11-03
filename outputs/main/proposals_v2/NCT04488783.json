@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT04488783",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Oral zinc and ascorbate are registered as a dietary supplement; if either is judged a licensed medicine given with an antitumour hypothesis (zinc to potentiate temozolomide), it would be a candidate and the trial would pass S6.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false, excluded_intervention_type (agreed coding stands)",
+      "ruling_applied": "D30-R5",
+      "reason": "Zinc and ascorbate are registered as '[DIETARY_SUPPLEMENT] zinc and ascorbate: oral zinc and ascorbate'. 'category A drug' refers to public use as an essential mineral, not a marketing authorisation, so R5 makes them excluded_intervention_type.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "Zinc and ascorbate are registered as dietary supplements, but the record calls zinc a 'category A drug'; if they count as licensed medicines the trial would have a candidate.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false, excluded_intervention_type (agreed coding stands)",
+      "ruling_applied": "D30-R5",
+      "reason": "Same as coder A: R5 makes a supplement a candidate only if licensed as a medicine, and nothing in the record shows a licensed medicinal product.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the trial fails S3 first; the S6 decision does not reach Figure 1. If XL wants R5 licensing evidence for Table S2, the specific zinc/ascorbate product is not named in the record.",
+  "revisions": []
+}

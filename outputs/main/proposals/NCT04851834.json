@@ -1,0 +1,32 @@
+{
+  "nct_id": "NCT04851834",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag", "coder_A": "basket_gbm_eligible (uncertain)", "coder_B": "basket_gbm_eligible",
+     "proposed": "not_glioblastoma",
+     "ruling_applied": "manual §1.1",
+     "reason": "GBM is named only in the glioma criterion ('High-grade glioma, such as glioblastoma multiforme (GBM)'), and the registered arm labels limit that cohort to 'IDH1 mutated high-grade glioma'. Manual §1.1: a population that is only IDH-mutant is not_glioblastoma even if labelled GBM. The Phase 1a 'all solid tumours' arm never names glioblastoma.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder A: biomarker:IDH", "coder_A": "IDH, enrichment, candidate_matched false (uncertain)", "coder_B": "IDH, enrichment, candidate_matched false (uncertain)",
+     "proposed": "IDH, role enrichment, candidate_matched false",
+     "ruling_applied": "manual §5",
+     "reason": "IDH1 mutation is required for the glioma arms ('IDH1 mutated high-grade glioma'). The record gives no mechanistic link between IDH1 mutation and the DNMT1 inhibitor NTX-301 (only keywords 'DNA Demethylation' and 'IDH1'), and manual §5 lists no such pair, so not matched.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder B: biomarker:IDH", "coder_A": "IDH, enrichment, candidate_matched false (uncertain)", "coder_B": "IDH, enrichment, candidate_matched false (uncertain)",
+     "proposed": "IDH, role enrichment, candidate_matched false; agreed coding stands",
+     "ruling_applied": "manual §5",
+     "reason": "Same row: 'record states no mechanistic link' is correct; a hypermethylation (IDH-mutant) rationale for a hypomethylating agent is plausible but not stated in the record.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma", "cns5_terminology": "historical", "basket": true,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "ntx-301", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "both", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "The main issue is screening. Both coders coded basket_gbm_eligible because inclusion criterion 3.3 names 'glioblastoma multiforme (GBM)'. My proposal of not_glioblastoma rests on the registered arm labels and summary restricting the glioma cohort to IDH1-mutated high-grade glioma (historical IDH-mutant 'GBM' = not glioblastoma under CNS5, manual §1.1). The inclusion criterion text itself does not repeat the IDH1 requirement, and Phase 1a accepts 'all solid tumours' (GBM not named). If XL keeps basket_gbm_eligible, the trial is included with candidate ntx-301 and candidate_matched_selection false (unless XL accepts IDH1-mutation as matched to a DNMT1 inhibitor, which would make it true). basket is kept true to describe the multi-tumour design; set it to false if the trial is excluded at S5. The glioma cohort is optional."
+}

@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT04902586",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "The only tested intervention is 'Device: TTFields' (temozolomide is soc_backbone in both arms); D31-C1 codes a tested device as excluded_intervention_type, not no_pharmacological_candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered phase is NA, so the trial fails S3 ([CODE]) before S6. cns5_terminology (a priority-3 item): 'glioblastoma multiforme' appears only in the brief summary's statement of the FDA approval. By the letter of C8 it is historical; 'unclear' is defensible because eligibility says only 'histologically confirmed glioblastoma'.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "items[candidate_exclusion_reason].ruling_applied",
+      "from": "manual §1.2 (confidence medium)",
+      "to": "D31-C1 (confidence high)",
+      "reason": "The tested intervention is the TTFields device, so D31-C1 settles excluded_intervention_type (value unchanged)."
+    }
+  ]
+}

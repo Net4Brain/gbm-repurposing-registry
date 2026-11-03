@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT04047303",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "no",
+      "proposed": "yes",
+      "ruling_applied": "manual §2 target_engagement_planned (W7)",
+      "reason": "The official title states the study will 'Assess the Pharmacokinetics, Pharmacodynamics and Central Nervous System (CNS) Penetration of CC-90010 in Preoperative Subjects ... Scheduled for Resection' - a pharmacodynamic objective for the candidate in a window-of-opportunity design with intraoperative tumour collection. No PD marker is named in the outcomes and paired pre/post sampling is not explicit, so 'unclear' is the alternative.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "cc-90010", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "tumour_pk_planned yes is agreed ('Intratumoral concentration of CC-90010 in tumor tissue collected intraoperatively'). Target engagement rests on the stated PD objective only; B's 'no' rests on the absence of a named PD endpoint."
+}

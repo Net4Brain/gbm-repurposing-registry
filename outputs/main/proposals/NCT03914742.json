@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT03914742",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_matched_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "manual §5",
+      "reason": "Every patient must have 'IDH1/2-mutant glioma ... associated with neomorphic activity of the encoded proteins'; IDH-mutant (not IDH-wildtype) selection for the PARP inhibitor pamiparib is the design's selection marker, and the manual's never-matched exception covers only IDH-wildtype and MGMT. The record does not spell out the IDH-PARP link, so judgement is needed. Moot for the analysis because the trial fails S5.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"not_glioblastoma\"",
+      "coder_B": "\"mixed_glioma_gbm_named\"",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 note (IDH-mutant only)",
+      "reason": "Inclusion: 'Patients must have IDH1/2-mutant glioma.' The manual says a trial that enrols only IDH-mutant tumours is not_glioblastoma 'even if an arm or cohort is labelled \"GBM\"', which covers the 'GBM Arm' and 'Recurrent Glioblastoma' condition here.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"IDH\", true, \"pamiparib\"]",
+      "coder_B": "",
+      "proposed": "IDH (mutant), role eligibility, candidate_matched true (pamiparib)",
+      "ruling_applied": "manual §5",
+      "reason": "IDH1/2 neomorphic mutation is an entry requirement and is mechanistically linked to PARP inhibition (2HG-driven homologous-recombination defect); not the IDH-wildtype diagnostic exception.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "replace with A's version (candidate_matched true, pamiparib)",
+      "ruling_applied": "manual §5",
+      "reason": "As above; B's own flag notes 'the design is built around it' and declined the match only because the link is not stated in the record.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is named in conditions and an arm label, but every patient must have IDH1/2-mutant glioma; manual says IDH-mutant-only trials are not_glioblastoma even with a GBM-labelled arm.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 note (IDH-mutant only)",
+      "reason": "The manual note applies directly: 'Patients must have IDH1/2-mutant glioma' for all arms.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:IDH",
+      "coder_A": "IDH1/2-mutant (neomorphic, 2HG-producing) selection for a PARP inhibitor implies a synthetic-lethality rationale, but the record does not state the mechanistic link explicitly; IDH-mutant here is a selection marker, not a GBM-defining IDH-wildtype criterion.",
+      "coder_B": "",
+      "proposed": "candidate_matched true (pamiparib)",
+      "ruling_applied": "manual §5",
+      "reason": "The manual's examples (e.g. MTAP deletion + PRMT5 inhibitor) rest on known mechanism, not record wording; the neomorphic-mutation requirement ('IDH1 R132, IDH2 R172 ...') signals the 2HG rationale. Needs D21 human review as a positive match.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:IDH",
+      "coder_A": "",
+      "coder_B": "IDH1/2 mutation is an entry requirement and the design is built around it, but the record states no mechanistic link to the PARP inhibitor.",
+      "proposed": "candidate_matched true (pamiparib)",
+      "ruling_applied": "manual §5",
+      "reason": "Same as coder A's flag.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pamiparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "IDH (IDH1/2 neomorphic mutation)",
+        "matched_agent": "pamiparib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Fails S5 (IDH-mutant-only population), so the IDH-PARP match does not enter the primary analysis; it is proposed true (medium) for consistency in case XL decides otherwise on S5. Temozolomide soc_backbone vs established_therapy_experiment (priority 3) does not affect candidate status."
+}

@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT07496073",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma named only in brief summary; eligibility says WHO 2021 grade 3 or 4 high-grade glioma, which would include GBM but does not name it.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion: 'high-grade glioma, defined as WHO (2021) Central Nervous System Tumor Classification grade 3 or 4 gliomas; or primary central nervous system lymphoma'. Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named in the counted fields, which is R7's case. The trial still fails S6 (CD70 CAR-T), so only the exclusion reason changes (S6 excluded_intervention_type instead of S5 not_glioblastoma).",
+      "confidence": "medium"
+    },
+    {
+      "type": "d31_convention",
+      "item": "cns5_terminology",
+      "coder_A": "\"cns5\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "cns5",
+      "ruling_applied": "D31-B4",
+      "reason": "The R7 inclusion cites 'WHO (2021) Central Nervous System Tumor Classification grade 3 or 4 gliomas', so cns5 applies by the manual's tie-break (D31-B4).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Included under D30-R7 (grade 3 or 4 glioma, no IDH requirement, glioblastoma not named) with cns5_terminology cns5 (D31-B4). PCNSL is also eligible, but D31-B15 needs GBM named, so mixed_glioma_gbm_named stands. Fails S6 (CD70 CAR-T, excluded_intervention_type).",
+  "revisions": [
+    {
+      "convention": "D31-B4",
+      "field": "proposed_final.cns5_terminology",
+      "from": "cns5 (proposed, pending XL confirmation)",
+      "to": "cns5 (settled)",
+      "reason": "The record cites 'WHO (2021) Central Nervous System Tumor Classification grade 3 or 4 gliomas'; D31-B4 confirms cns5 for R7 records citing CNS5."
+    }
+  ]
+}

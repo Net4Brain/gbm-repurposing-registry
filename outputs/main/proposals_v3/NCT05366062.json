@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT05366062",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"cyclophosphamide\", \"pembrolizumab\", \"sargramostim\"]",
+      "coder_B": "[\"pembrolizumab\"]",
+      "proposed": "[\"pembrolizumab\"]",
+      "ruling_applied": "D30-R4; D31-B8",
+      "reason": "GM-CSF and cyclophosphamide are given as adjuncts to the ERC1671 tumour cell/lysate vaccine (\"ERC1671 in combination with GM-CSF and cyclophosphamide\"; cyclophosphamide \"used for immunopotentiation\"), with no own antitumour outcome; pembrolizumab is the only pharmacological agent tested as an antitumour agent.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:cyclophosphamide:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "supportive",
+      "proposed": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "ruling_applied": "D31-B8",
+      "reason": "Cyclophosphamide is given with the ERC1671 vaccine as an immune primer (\"used for immunopotentiation ... to modulate immunity\"; \"ERC1671 in combination with GM-CSF and cyclophosphamide\"); D31-B8 makes such vaccine-supporting drugs part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:pembrolizumab:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 rule 4 (C1)",
+      "reason": "With GM-CSF and cyclophosphamide as vaccine adjuncts, bevacizumab as backbone and the vaccine an excluded type, pembrolizumab is the only investigational pharmacological agent (cf. worked example 'Pembrolizumab + an investigational vaccine').",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:sargramostim:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "supportive",
+      "proposed": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "ruling_applied": "D30-R4",
+      "reason": "GM-CSF/sargramostim given with a cancer vaccine is named in R4 as part of the excluded therapy; the record does not test it in its own right (single arm, outcomes about the regimen).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:sargramostim",
+      "coder_A": "experimental_combination (flagged)",
+      "coder_B": "",
+      "proposed": "not a candidate (part of excluded vaccine therapy)",
+      "ruling_applied": "D30-R4",
+      "reason": "R4 settles coder A's doubt: GM-CSF supporting a vaccine is part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:cyclophosphamide",
+      "coder_A": "experimental_combination (flagged)",
+      "coder_B": "",
+      "proposed": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "ruling_applied": "D31-B8",
+      "reason": "Cyclophosphamide is given with the ERC1671 vaccine as an immune primer (\"used for immunopotentiation ... to modulate immunity\"; \"ERC1671 in combination with GM-CSF and cyclophosphamide\"); D31-B8 makes such vaccine-supporting drugs part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"bevacizumab\", \"cyclophosphamide\", \"erc1671 tumour cell/lysate vaccine\", \"pembrolizumab\", \"sargramostim\"]",
+      "coder_B": "[\"bevacizumab\", \"cyclophosphamide\", \"erc1671 vaccine\", \"sargramostim\"]",
+      "proposed": "[\"bevacizumab\"]",
+      "ruling_applied": "D31-C2",
+      "reason": "Clarified D31-C2: the ERC1671 vaccine, its GM-CSF adjuvant (D30-R4) and immunopotentiating cyclophosphamide (D31-B8) are excluded components, so only bevacizumab is a partner of pembrolizumab.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "S6 passes (pembrolizumab, experimental_monotherapy per manual worked example 'Pembrolizumab + an investigational vaccine'). GM-CSF/sargramostim (D30-R4) and low-dose cyclophosphamide for immunopotentiation (D31-B8) are part of the excluded vaccine therapy (role excluded_intervention_type), not candidates. Bevacizumab is soc_backbone (recurrent disease, D31-B7). combination_partners is bevacizumab only (clarified D31-C2); regimen stays combination. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-B8",
+      "field": "items[agent:cyclophosphamide:role].proposed",
+      "from": "supportive (not a candidate)",
+      "to": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "reason": "The record states cyclophosphamide is \"used for immunopotentiation\" alongside the ERC1671 vaccine, which D31-B8 assigns to the excluded vaccine therapy (excluded_intervention_type)."
+    },
+    {
+      "convention": "D31-B8",
+      "field": "items[coder A: agent:cyclophosphamide].proposed",
+      "from": "supportive (not a candidate)",
+      "to": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "reason": "The record states cyclophosphamide is \"used for immunopotentiation\" alongside the ERC1671 vaccine, which D31-B8 assigns to the excluded vaccine therapy (excluded_intervention_type)."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "combination_partners",
+      "from": "[\"bevacizumab\", \"cyclophosphamide\", \"erc1671 vaccine\", \"sargramostim\"]",
+      "to": "[\"bevacizumab\"]",
+      "reason": "Clarified D31-C2: the ERC1671 vaccine, its GM-CSF adjuvant (D30-R4) and immunopotentiating cyclophosphamide (D31-B8) are excluded components, so only bevacizumab is a partner of pembrolizumab."
+    }
+  ]
+}

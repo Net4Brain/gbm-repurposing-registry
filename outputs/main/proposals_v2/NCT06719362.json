@@ -1,0 +1,117 @@
+{
+  "nct_id": "NCT06719362",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"] (HER2-negative status, enrichment for Part 2B)",
+      "coder_B": "",
+      "proposed": "code coder A row as other (HER2-negative), exploratory_correlative, candidate_matched false, arm Part 2B",
+      "ruling_applied": "D31-A1",
+      "reason": "HER2-negative status is required only for the Part 2B 'esophageal, gastroesophageal (GEJ), or gastric adenocarcinoma' cohort, while glioblastoma patients enter without it; under D31-A1 a biomarker required only for a non-GBM basket cohort is exploratory_correlative, not enrichment.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "unclear",
+      "coder_B": "cns5",
+      "proposed": "cns5",
+      "ruling_applied": "manual §1.1",
+      "reason": "The Part 2A glioblastoma cohort excludes 'Subjects with IDH-1 or IDH-2 mutations or H3 K27M diffuse midline glioma' and 'recurrent or secondary GBM', which is an IDH-wildtype requirement for glioblastoma, so cns5 under §1.1.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[... \"folinic acid\" ...]",
+      "coder_B": "[... \"leucovorin\" ...]",
+      "proposed": "[\"fluorouracil\", \"folinic acid\", \"oxaliplatin\", \"pembrolizumab\", \"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "manual §3",
+      "reason": "Same drug; the record says 'leucovorin 400 mg/m2', but manual §3 requires INN spelling, and the INN is folinic acid (both coders already used folinic acid as the agent moiety).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "unclear",
+      "proposed": "yes",
+      "ruling_applied": "manual §2",
+      "reason": "RP2D 'will be determined based upon available pharmacokinetic, pharmacodynamic, and preliminary clinical efficacy data' (a stated PD objective for M3T01), and the trial requires pre-treatment tumour tissue plus 'a tumor accessible for biopsy while on treatment', i.e. paired tumour sampling. Under W7, a stated PD objective with paired tumour sampling = yes. No specific PD marker is named, and GBM patients 'will not undergo a protocol specified biopsy', so this is not certain.",
+      "confidence": "medium"
+    },
+    {
+      "type": "convention",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "D31-A2",
+      "reason": "Under D31-A1 only GBM patients' entry requirements count. MGMT-unmethylated status is required for the 'Part 2A: Newly diagnosed glioblastoma with unmethylated MGMT promoter' cohort, but recurrent glioblastoma also enters Part 1 without it ('Subjects with glioblastoma: Part 1: must have measurable disease per RANO 2.0'), so MGMT is one optional route for GBM patients (D31-A2). The required value would be eligibility under A8 if it were the only route; whether A2 applies to a cohort-level route rather than an 'or' within one criterion is for XL.",
+      "confidence": "low"
+    },
+    {
+      "type": "convention",
+      "item": "agent role: pembrolizumab",
+      "coder_A": "soc_backbone",
+      "coder_B": "soc_backbone",
+      "proposed": "experimental_combination (candidate)",
+      "ruling_applied": "D31-B13",
+      "reason": "Pembrolizumab 200 mg is fixed in the Part 1B dose-escalation arms ('M3T01 ... in combination with pembrolizumab 200 mg') for advanced solid tumours including glioblastoma, where it is not established standard care (D31-B7); an approved drug fixed in some arms whose dose is not studied is a candidate under D31-B13.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "m3t01",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "XL: any_molecular_selection set false by applying D31-A2 to a cohort-level route (MGMT-unmethylated required only for the newly diagnosed GBM cohort Part 2A, while recurrent GBM enters Part 1 without it); low confidence, please confirm or restore true (A8 eligibility). HER2-negative (Part 2B, non-GBM) is exploratory_correlative under D31-A1; IDH/H3K27M exclusions define GBM and are exempt (D31-A5). Pembrolizumab is now a candidate (experimental_combination, D31-B7/B13): it is fixed in Part 1B for advanced solid tumours, where it is not established standard care, although the record calls it 'standard of care' and it is standard in Part 2B. Regimen of the GBM arms (Part 1A monotherapy, Part 1B and 2A combination) stays combination (D31-C3). candidate_matched_selection stays false. Priority-3 arm-label and regimen_id differences not addressed.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "items[selection_biomarker_only_in_A].proposed (HER2-negative row role)",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "HER2-negative is required only for the Part 2B gastro-oesophageal adenocarcinoma cohort; glioblastoma patients enter without it."
+    },
+    {
+      "convention": "D31-A2",
+      "field": "proposed_final.any_molecular_selection",
+      "from": true,
+      "to": false,
+      "reason": "MGMT-unmethylated is required only for GBM cohort Part 2A while GBM patients also enter Part 1 without it, so it is one optional route; HER2 no longer counts under A1."
+    },
+    {
+      "convention": "D31-B13",
+      "field": "proposed_final.candidates (pembrolizumab)",
+      "from": "soc_backbone (not a candidate)",
+      "to": "experimental_combination",
+      "reason": "Pembrolizumab 200 mg is fixed in Part 1B for advanced solid tumours including GBM, where it is not established standard care (B7), and its dose is not studied (B13)."
+    }
+  ]
+}

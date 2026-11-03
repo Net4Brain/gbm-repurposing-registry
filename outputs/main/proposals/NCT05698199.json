@@ -1,0 +1,30 @@
+{
+  "nct_id": "NCT05698199",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "has_eligible_candidate=false, excluded_intervention_type (flagged: Td toxoid could be read as candidate)",
+     "coder_B": "has_eligible_candidate=false, excluded_intervention_type",
+     "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=excluded_intervention_type (agreed coding stands)",
+     "ruling_applied": "R4",
+     "reason": "Td toxoid is given only as an adjunct to the DNA vaccine (\"ITI-1001 vaccinations will be given in combination with Td toxoid\"); R4 lists Td toxoid as part of the excluded therapy, and it is not tested in its own right. The only investigational product is \"ITI-1001 DNA vaccine\" (excluded type).",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Td toxoid: both coders list it as excluded_intervention_type; under R4 it is part of the excluded vaccine therapy. Not a registered intervention but given to every patient, so listing it is consistent with manual §3."
+}

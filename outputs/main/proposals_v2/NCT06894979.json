@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06894979",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A: BRAF (eligibility, not matched)",
+      "coder_A": "[\"BRAF\", false, \"\"] (eligibility, from exclusion criterion)",
+      "coder_B": "not recorded",
+      "proposed": "Keep A's row: BRAF, eligibility, candidate_matched false",
+      "ruling_applied": "manual §5; D31-A4",
+      "reason": "D31-A4: 'Patients with BRAFV600E mutations are excluded' restricts entry, so it counts as an eligibility row; BRAF V600E is not a CNS5-defining exclusion (A5 does not apply), and it is not linked to the ATM inhibitor AZD1390, so candidate_matched false.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "D31-A4",
+      "reason": "Follows from the BRAF V600E exclusion row, which D31-A4 counts as eligibility ('Patients with BRAFV600E mutations are excluded'); A5 does not exempt it.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiation therapy\"]",
+      "coder_B": "[\"radiotherapy\"]",
+      "proposed": "[\"radiotherapy\"]",
+      "ruling_applied": "manual §2 regimen (C1)",
+      "reason": "Same partner, wording only ('[RADIATION] Radiation Therapy (other names: ... Radiotherapy, RT ...)'); the manual's term 'radiotherapy' is proposed.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "azd1390",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome unaffected (BRAF row not candidate-matched). D31-A4 settles the exclusion-stated BRAF V600E row as eligibility, so any_molecular_selection true. Paediatric/young adult trial (mixed_age); glioblastoma, IDH-wildtype named in inclusion, so cns5. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-A4",
+      "field": "items[selection_biomarker_only_in_A: BRAF (eligibility, not matched)].ruling_applied",
+      "from": "manual §5 (C6)",
+      "to": "manual §5; D31-A4",
+      "reason": "The exclusion 'Patients with BRAFV600E mutations are excluded' counts as eligibility under D31-A4 (values unchanged, now settled)."
+    },
+    {
+      "convention": "D31-A4",
+      "field": "items[any_molecular_selection].ruling_applied",
+      "from": "manual §5 derived outcomes",
+      "to": "D31-A4",
+      "reason": "The exclusion 'Patients with BRAFV600E mutations are excluded' counts as eligibility under D31-A4 (values unchanged, now settled)."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT05096481",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "basket_gbm_eligible",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "basket_gbm_eligible",
+      "ruling_applied": "D31-B15",
+      "reason": "Three strata: recurrent medulloblastoma, newly diagnosed HGG '(such as anaplastic astrocytoma, glioblastoma, H3K27-altered DMG)' and DIPG. Medulloblastoma is a non-glioma cancer, so this is a multi-tumour trial with GBM named in the inclusion criteria (basket), not only a mix of glioma types.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Outcome-neutral: only investigational agent is the PEP-CMV peptide vaccine (excluded type), so S6 fails either way. Td toxoid is part of the vaccine therapy (D30-R4/D31-B8, excluded_intervention_type). Temozolomide stays soc_backbone: the record calls it 'standard chemotherapy' and states no immune-priming purpose, so D31-B8 does not apply. Ages 3-39 (mixed_age). Basket coding now settled by D31-B15. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "items[gbm_population].ruling_applied",
+      "from": "manual §1.1",
+      "to": "D31-B15",
+      "reason": "Strata enrol medulloblastoma and DIPG alongside 'newly-diagnosed HGG (such as anaplastic astrocytoma, glioblastoma ...)', so basket_gbm_eligible is settled by convention (value unchanged)."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "nct_id": "NCT04982926",
+  "items": [
+    {"type": "disagreement", "item": "control_arm_from_other_arms", "coder_A": "no", "coder_B": "not_applicable",
+     "proposed": "no", "ruling_applied": "manual R8",
+     "reason": "Five registered EXPERIMENTAL arms (dose escalation plus four expansion cohorts), none acting as a control; manual R8 reserves not_applicable for single-arm trials and gives 'no' for more than one arm with no control.",
+     "confidence": "high"},
+    {"type": "disagreement", "item": "target_engagement_planned", "coder_A": "yes", "coder_B": "unclear",
+     "proposed": "yes", "ruling_applied": "manual §2",
+     "reason": "The brief summary plans to assess 'pharmacokinetics, pharmacodynamics, and the preliminary antitumor activity of TAS2940', a PD objective tied to the candidate; manual W7 keeps 'unclear' for biomarker endpoints not linked to the candidate. But no PD measure or sample is registered, so this is a judgement call.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible", "cns5_terminology": "unclear", "basket": true,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "tas2940", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "EGFR_EGFRvIII", "matched_agent": "tas2940"},
+      {"biomarker": "other (HER2/ERBB2 aberration)", "matched_agent": "tas2940"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "target_engagement: a PD objective named with no measurement described is not settled by W7; the same question arises in NCT04430842 and NCT04195555 in this batch and should get one convention. Primary outcome: both coders code EGFR/HER2 as candidate-matched eligibility (title: 'Solid Tumors With EGFR and / or HER2 Aberrations'; 'Any solid tumor with EGFR and / or HER2 aberration' for escalation), so candidate_matched_selection = true either way, but the GBM expansion criterion 'Cohort C: Recurrent or refractory glioblastoma' does not restate the EGFR/HER2 requirement; this positive match goes to D21 review anyway."
+}

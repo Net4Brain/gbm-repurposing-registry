@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT07410676",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"il-15\", \"pembrolizumab\"]",
+      "coder_B": "[\"pembrolizumab\"]",
+      "proposed": "[\"pembrolizumab\"]",
+      "ruling_applied": "R4",
+      "reason": "'Low-dose IL-15 is administered after NK-cell infusion(s) to support NK-cell survival' - a cytokine given to support a cell therapy is part of the excluded therapy under R4; it has no own arm or outcome. Pembrolizumab remains the only candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:pembrolizumab:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "R4; manual §3.1 rule 4 and worked example (pembrolizumab + vaccine)",
+      "reason": "With IL-15 part of the excluded NK-cell therapy and CY/FLU supportive conditioning (manual rule 2/R6), pembrolizumab is the only investigational pharmacological agent.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:il-15",
+      "coder_A": "experimental_combination (uncertain)",
+      "coder_B": "supportive",
+      "proposed": "excluded_intervention_type (part of the NK-cell therapy; not a candidate)",
+      "ruling_applied": "R4",
+      "reason": "Stated purpose 'to support NK-cell survival'; R4 lists IL-15 explicitly as part of the excluded therapy. Not a candidate under either A's doubt or B's 'supportive'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"ebnk-001 (allogeneic nk cells)\", \"il-15\", \"pembrolizumab\"]",
+      "coder_B": "[\"ebnk-001 (allogeneic nk cell therapy)\"]",
+      "proposed": "[\"ebnk-001 (allogeneic nk cells, with il-15 support)\"]",
+      "ruling_applied": "R4; manual §2 regimen",
+      "reason": "The partner of the candidate pembrolizumab is the NK-cell therapy, of which IL-15 is a part (R4); pembrolizumab itself is the candidate and should not be its own partner; CY/FLU lymphodepletion is supportive (R6).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "pembrolizumab", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Pembrolizumab is optional per title ('± Pembrolizumab') but only one arm is registered and it includes pembrolizumab. R4 says 'part of the excluded therapy'; role excluded_intervention_type is proposed for IL-15 (B coded supportive) - either way not a candidate."
+}

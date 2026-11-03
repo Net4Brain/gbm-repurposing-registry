@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT06011109",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag", "coder_A": "has_eligible_candidate true (uncertain)", "coder_B": "has_eligible_candidate true",
+     "proposed": "Agreed coding stands provisionally: has_eligible_candidate true (APG-157 candidate), pending the D30-R5 licensing check",
+     "ruling_applied": "D30-R5",
+     "reason": "The record registers APG-157 as '[DRUG] APG-157' given as 'pastilles' with efficacy endpoints and blood PK of 'APG-157 components', but never states what it is. If APG-157 is a botanical (e.g. curcumin-type) product, D30-R5 makes it a candidate only if licensed as a medicine; the record alone cannot settle this.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder A: agent:apg-157", "coder_A": "experimental_monotherapy (uncertain)", "coder_B": "experimental_monotherapy",
+     "proposed": "experimental_monotherapy, provisional (excluded_intervention_type if it is an unlicensed botanical under D30-R5)",
+     "ruling_applied": "D30-R5",
+     "reason": "APG-157 is the only investigational agent on continued standard-of-care bevacizumab ('continue to receive Bevacizumab as standard of care'), so rule 4 applies if it is a medicine; its product type and licensing status are not in the record ('APG-157 components' suggests a multi-component product).",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "apg-157", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "S6 depends on what APG-157 is. The record does not describe it; drug knowledge (not from the record) suggests it is a multi-component botanical containing curcuminoids, which would fall under D30-R5. XL should record its licensing status in Table S2: if it has no national marketing authorisation as a medicine, set has_eligible_candidate false, candidate_exclusion_reason excluded_intervention_type, regimen not_applicable. Bevacizumab is continued standard of care (soc_backbone, not rule 6: no new dose/schedule is the question)."
+}

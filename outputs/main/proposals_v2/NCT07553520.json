@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT07553520",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"excluded_intervention_type\"",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "manual §1.2",
+      "reason": "The only experimental intervention is a 'Cysteine/methionine deprivation (CMD) diet'; manual §1.2 lists diets as excluded intervention types, so excluded_intervention_type fits better than no_pharmacological_candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the trial fails S3 first and the S6 reason does not reach Figure 1.",
+  "revisions": []
+}

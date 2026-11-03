@@ -1,0 +1,164 @@
+{
+  "nct_id": "NCT05686798",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "none",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "The prodrugs are activated by the vector's suicide genes ('oral 5-fluorocytosine (5-FC) and valganciclovir (vGCV) prodrug therapy' combined with the 'oncolytic adenovirus mediated double suicide-gene therapy'); D30-R3 makes them part of the excluded therapy, so no candidate remains.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[]",
+      "coder_B": "[\"flucytosine\", \"valganciclovir\"]",
+      "proposed": "[]",
+      "ruling_applied": "D30-R3",
+      "reason": "D30-R3 names 5-FC/flucytosine and valganciclovir with a suicide gene therapy explicitly as part of the excluded therapy, not candidates.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "D30-R3",
+      "reason": "Only other intervention is the oncolytic/suicide-gene adenovirus (excluded type, manual rule 0a); with the prodrugs excluded under D30-R3 there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:flucytosine:role",
+      "coder_A": "soc_backbone",
+      "coder_B": "experimental_combination",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Neither coder's value: 5-FC is the prodrug of the yeast cytosine deaminase suicide gene carried by 'Ad5-yCD/mutTKSR39rep-ADP adenovirus'; D30-R3 treats it as part of the excluded gene therapy. It is not standard of care, so soc_backbone does not fit.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:valganciclovir:role",
+      "coder_A": "soc_backbone",
+      "coder_B": "experimental_combination",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Valganciclovir is the prodrug activated by the vector's mutant HSV thymidine kinase (mutTKSR39); D30-R3 lists valganciclovir with HSV-tk as part of the excluded therapy.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "prodrugs coded backbone; could be candidates",
+      "coder_B": "",
+      "proposed": "not candidates (part of excluded therapy)",
+      "ruling_applied": "D30-R3",
+      "reason": "D30-R3 settles the doubt: suicide-gene prodrugs are not candidates.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:flucytosine",
+      "coder_A": "candidate status debatable",
+      "coder_B": "",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Settled by D30-R3 (5-FC with a suicide gene therapy).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:valganciclovir",
+      "coder_A": "candidate status debatable",
+      "coder_B": "",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Settled by D30-R3 (valganciclovir with HSV-tk).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "prodrugs may be part of the gene therapy",
+      "proposed": "not candidates (part of excluded therapy)",
+      "ruling_applied": "D30-R3",
+      "reason": "Coder B's alternative reading is the one D30-R3 adopts.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:flucytosine",
+      "coder_A": "",
+      "coder_B": "may be part of the gene therapy",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Settled by D30-R3.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:valganciclovir",
+      "coder_A": "",
+      "coder_B": "may be part of the gene therapy",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R3",
+      "reason": "Settled by D30-R3.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"adenovirus ad5-ycd/muttksr39rep-adp\", \"fractionated stereotactic radiosurgery\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual R1",
+      "reason": "With no candidate, regimen is not_applicable (manual §2, wording fix R1), so no combination partners are recorded.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "not_applicable",
+      "coder_B": "combination",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual R1",
+      "reason": "regimen is not_applicable whenever has_eligible_candidate is false (manual §2, R1).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "no",
+      "coder_B": "unclear",
+      "proposed": "no",
+      "ruling_applied": "manual §2",
+      "reason": "The immune outcomes ('serum levels of interferon-gamma', PBMC counts, CD markers) measure response to the virus therapy; there is no candidate whose target could be engaged, and the manual reserves 'unclear' for biomarker endpoints not linked to a candidate only where a candidate exists.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Role label for the suicide-gene prodrugs is proposed as excluded_intervention_type (D30-R3 says 'part of the excluded therapy' but does not name the role value); XL may prefer another label, which does not change screening. D31 checked: no convention changes this record (B8 treats drugs built into or supporting an excluded therapy as excluded_intervention_type, consistent with the proposed label).",
+  "revisions": []
+}

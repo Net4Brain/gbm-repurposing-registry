@@ -1,0 +1,29 @@
+{
+  "nct_id": "NCT03980249",
+  "items": [
+    {"type": "disagreement", "item": "combination_partners",
+     "coder_A": "[\"radiotherapy\", \"temozolomide\"]", "coder_B": "[\"radiotherapy\", \"temozolomide\", \"tumour treating fields\"]",
+     "proposed": "[\"radiotherapy\", \"temozolomide\", \"tumour treating fields\"]",
+     "ruling_applied": "manual §2",
+     "reason": "The regimen counts all antitumour therapy in the experimental arm, and the arm continues carvedilol \"until the end of adjuvant cycle 6 of temozolomide and Tumor Treated Fields\" (official title: \"Carvedilol With TTFields and Standard of Care\"). TTFields is not an agent, but it is an antitumour partner in the arm. Regimen is combination either way.",
+     "confidence": "medium"},
+    {"type": "disagreement", "item": "target_engagement_planned",
+     "coder_A": "\"no\"", "coder_B": "\"unclear\"",
+     "proposed": "unclear",
+     "ruling_applied": "manual §2",
+     "reason": "A biomarker endpoint is planned (\"Quantify CTCs via qRT-PCR assay and to assess how the trend of CTCs correspond to disease status\"), but it is not linked to carvedilol or its target. The manual's wording for that case is unclear, although CTCs work here as a disease-burden marker rather than a pharmacodynamic one.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "carvedilol", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "newly_diagnosed", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1, so this is the translational subset. For target_engagement_planned, 'no' is also defensible if XL reads disease-burden markers such as CTC counts as response endpoints rather than biomarker endpoints. Keep this consistent across trials."
+}

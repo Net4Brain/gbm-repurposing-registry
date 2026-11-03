@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06814496",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "DLL3 positivity is one alternative entry route, not a strict requirement: DLL3-negative patients with a DLL3-prevalent histology (including GBM) may enrol, so it may not count as an eligibility biomarker.",
+      "coder_B": "",
+      "proposed": "DLL3 is not an entry requirement: not eligibility/enrichment (recode exploratory_correlative); candidate_matched_selection false",
+      "ruling_applied": "manual §5",
+      "reason": "DLL3 IHC is one alternative entry route and is waived for listed histologies: 'If patients are DLL3 negative per IHC but have a DLL3 prevalant tumor type, they will be allowed to enroll'. Glioblastoma multiforme is a listed DLL3-prevalent type, so GBM patients enter without DLL3 testing. §5 counts a biomarker as eligibility only if it is an entry requirement.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "DLL3 positivity is one of several alternative routes to eligibility; DLL3-negative patients with a DLL3-prevalent histology (including GBM) may enrol, so it may not be a true entry requirement.",
+      "coder_B": "",
+      "proposed": "same as coder A's flag: DLL3 not an entry requirement; candidate_matched_selection false",
+      "ruling_applied": "manual §5",
+      "reason": "As above; GBM patients may enrol DLL3-negative by histology alone.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "R8",
+      "reason": "Four registered EXPERIMENTAL cohorts (Concurrent Main, Concurrent Cranial, Sequential RT, Tarlatamab Monotherapy) and none is a control. R8 uses not_applicable for single-arm trials; with more than one registered arm, 'no' applies, even though the description says 'Single Arm'.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "tarlatamab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Primary outcome changes from the coders' agreed true to false. Both coders coded DLL3 as matched eligibility but flagged that it is optional; no ruling covers 'alternative-route' biomarkers, so XL should confirm."
+}

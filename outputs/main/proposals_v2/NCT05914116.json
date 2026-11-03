@@ -1,0 +1,209 @@
+{
+  "nct_id": "NCT05914116",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "GBM is named in the inclusion criteria only indirectly (RANO 2.0 measurable disease for GBM subjects), not as an explicit eligible tumour type or cohort.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma (near-miss)",
+      "ruling_applied": "D31-B5",
+      "reason": "GBM is named only in the measurability clause of inclusion criterion 3 ('measurable disease as defined by RANO 2.0 criteria for GBM subjects'); conditions say only advanced solid tumours and no arm or cohort names GBM. D31-B5: a mention only in measurability criteria does not qualify.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:lopinavir",
+      "coder_A": "Given only to test its effect on DB-1311 pharmacokinetics (DDI sub-study); no antitumour hypothesis. Neither delivery_enabling_agent nor supportive fits exactly; must not be a candidate.",
+      "coder_B": "",
+      "proposed": "delivery_enabling_agent (not a candidate)",
+      "ruling_applied": "manual §3.1 rule 2b (C11)",
+      "reason": "Lopinavir is given only in the DDI cohort as a CYP3A/P-gp perpetrator ('Able to withhold CYP3A/P-gp/OATP1B inhibitors ...' for DDI cohort), with no antitumour hypothesis. Rule 2b (exposure-increasing, PK boosting) is the closest role. Certainly not a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:ritonavir",
+      "coder_A": "Given only to test its effect on DB-1311 pharmacokinetics (DDI sub-study); no antitumour hypothesis. Neither delivery_enabling_agent nor supportive fits exactly; must not be a candidate.",
+      "coder_B": "",
+      "proposed": "delivery_enabling_agent (not a candidate)",
+      "ruling_applied": "manual §3.1 rule 2b (C11)",
+      "reason": "Ritonavir is named in C11 as a pharmacokinetic booster; here it is a DDI perpetrator in Dose Expansion 15 with no antitumour hypothesis. Not a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:itraconazole",
+      "coder_A": "Given only to test its effect on DB-1311 pharmacokinetics (DDI sub-study); no antitumour hypothesis. Neither delivery_enabling_agent nor supportive fits exactly; must not be a candidate.",
+      "coder_B": "",
+      "proposed": "delivery_enabling_agent (not a candidate)",
+      "ruling_applied": "manual §3.1 rule 2b (C11)",
+      "reason": "Itraconazole is a CYP3A/P-gp inhibitor given only in the DDI cohort to modify DB-1311 exposure; no antitumour hypothesis. Not a candidate; role assignment between delivery_enabling_agent and supportive is a convention choice.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "GBM is named only once in the inclusion criteria (RANO 2.0 measurable disease for GBM subjects); conditions say only Advanced Solid Tumors and no GBM cohort or arm is registered.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma (near-miss)",
+      "ruling_applied": "D31-B5",
+      "reason": "GBM is named only in the measurability clause of inclusion criterion 3 ('measurable disease as defined by RANO 2.0 criteria for GBM subjects'); conditions say only advanced solid tumours and no arm or cohort names GBM. D31-B5: a mention only in measurability criteria does not qualify.",
+      "confidence": "high"
+    },
+    {
+      "type": "d31_convention",
+      "item": "regimen",
+      "coder_A": "\"combination\"",
+      "coder_B": "\"combination\"",
+      "proposed": "monotherapy",
+      "ruling_applied": "D31-C3",
+      "reason": "In baskets the regimen is coded for the arms GBM patients could enter (dose escalation and 'Dose Expansion 8: Subjects with other advanced or metastatic solid tumors'), where DB-1311 is given alone; enzalutamide/abiraterone are given only in prostate cohorts 16-18.",
+      "confidence": "medium"
+    },
+    {
+      "type": "d31_convention",
+      "item": "combination_partners",
+      "coder_A": "[\"enzalutamide\", \"abiraterone\"]",
+      "coder_B": "[\"enzalutamide\", \"abiraterone\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C3",
+      "reason": "No other drug is given with DB-1311 in the arms open to GBM patients.",
+      "confidence": "medium"
+    },
+    {
+      "type": "d31_convention",
+      "item": "agent:enzalutamide",
+      "coder_A": "\"soc_backbone\"",
+      "coder_B": "\"soc_backbone\"",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B13; D31-B7",
+      "reason": "Enzalutamide is an approved drug fixed in some arms ('Dose Expansion 16/17 ... combined with enzalutamide 160mg QD / abiraterone 1000mg QD') whose dose is not studied, given to patients 'who have progressed on or after NHT', so it is not established standard care of that population (B7) and is a candidate under B13. In cohort 18 (CSPC already on enzalutamide or abiraterone) it would be a pre-entry drug; the role is given for the experimental arms as a whole.",
+      "confidence": "low"
+    },
+    {
+      "type": "d31_convention",
+      "item": "agent:abiraterone",
+      "coder_A": "\"soc_backbone\"",
+      "coder_B": "\"soc_backbone\"",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B13; D31-B7",
+      "reason": "Abiraterone is an approved drug fixed in some arms ('Dose Expansion 16/17 ... combined with enzalutamide 160mg QD / abiraterone 1000mg QD') whose dose is not studied, given to patients 'who have progressed on or after NHT', so it is not established standard care of that population (B7) and is a candidate under B13. In cohort 18 (CSPC already on enzalutamide or abiraterone) it would be a pre-entry drug; the role is given for the experimental arms as a whole.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "db-1311",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "enzalutamide",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "abiraterone",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "near-miss: D31-B5 excludes the trial at S5 (GBM named only in the measurability clause and outcomes), so it is listed as a near-miss in the supplement; basket left true as a design descriptor. Still needs XL: (1) role convention for drug-drug-interaction perpetrators lopinavir, ritonavir and itraconazole (no ruling or convention settles it; proposed delivery_enabling_agent, alternative supportive); (2) confirm D31-B13 for enzalutamide/abiraterone fixed in prostate-only cohorts (cohort 18 patients were already on them), which adds category-2 candidates. Both are moot for the primary analysis after S5 exclusion.",
+  "revisions": [
+    {
+      "convention": "D31-B5",
+      "field": "items[coder A: gbm_population_flag].proposed",
+      "from": "basket_gbm_eligible (agreed coding stands)",
+      "to": "not_glioblastoma (near-miss)",
+      "reason": "Glioblastoma appears in the inclusion criteria only in the measurability clause ('measurable disease as defined by RANO 2.0 criteria for GBM subjects') and in outcomes; B5 says a measurability-only mention does not name GBM in the eligibility population."
+    },
+    {
+      "convention": "D31-B5",
+      "field": "items[coder B: gbm_population_flag].proposed",
+      "from": "basket_gbm_eligible (agreed coding stands)",
+      "to": "not_glioblastoma (near-miss)",
+      "reason": "Glioblastoma appears in the inclusion criteria only in the measurability clause ('measurable disease as defined by RANO 2.0 criteria for GBM subjects') and in outcomes; B5 says a measurability-only mention does not name GBM in the eligibility population."
+    },
+    {
+      "convention": "D31-B5",
+      "field": "proposed_final.gbm_population",
+      "from": "basket_gbm_eligible",
+      "to": "not_glioblastoma",
+      "reason": "GBM named only in a measurability clause; near-miss under B5."
+    },
+    {
+      "convention": "D31-C3",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "Arms open to GBM patients (dose escalation, Dose Expansion 8) give DB-1311 alone."
+    },
+    {
+      "convention": "D31-C3",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"enzalutamide\", \"abiraterone\"] (agreed coder value)",
+      "to": "[]",
+      "reason": "Enzalutamide and abiraterone are given only in prostate cohorts 16-18, not in arms open to GBM patients."
+    },
+    {
+      "convention": "D31-B13",
+      "field": "items[agent:enzalutamide].proposed",
+      "from": "soc_backbone (agreed coder value)",
+      "to": "experimental_combination",
+      "reason": "Approved drug fixed in Dose Expansion 16/18 at 160 mg QD, dose not studied, in patients who 'progressed on or after NHT'."
+    },
+    {
+      "convention": "D31-B13",
+      "field": "items[agent:abiraterone].proposed",
+      "from": "soc_backbone (agreed coder value)",
+      "to": "experimental_combination",
+      "reason": "Approved drug fixed in Dose Expansion 17/18 at 1000 mg QD, dose not studied, in patients who 'progressed on or after NHT'."
+    },
+    {
+      "convention": "D31-B13",
+      "field": "proposed_final.candidates",
+      "from": [
+        {
+          "active_moiety": "db-1311",
+          "role": "experimental_monotherapy",
+          "device_dependent": false
+        }
+      ],
+      "to": [
+        {
+          "active_moiety": "db-1311",
+          "role": "experimental_monotherapy",
+          "device_dependent": false
+        },
+        {
+          "active_moiety": "enzalutamide",
+          "role": "experimental_combination",
+          "device_dependent": false
+        },
+        {
+          "active_moiety": "abiraterone",
+          "role": "experimental_combination",
+          "device_dependent": false
+        }
+      ],
+      "reason": "Adds enzalutamide and abiraterone as experimental_combination candidates; DB-1311 stays experimental_monotherapy in the arms open to GBM patients."
+    }
+  ]
+}

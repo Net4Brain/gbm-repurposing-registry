@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT04677049",
+  "items": [
+    {"type": "disagreement", "item": "candidate_set",
+     "coder_A": "[\"nicotinic acid\"]", "coder_B": "[\"niacin\"]",
+     "proposed": "[\"nicotinic acid\"]",
+     "ruling_applied": "manual §3 (C5)",
+     "reason": "The moiety must use INN spelling. The record gives \"Niacin CRT (other names: Nicotinic acid, Vitamin B3)\", and the INN is nicotinic acid.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "has_eligible_candidate true (flagged uncertain)", "coder_B": "has_eligible_candidate true",
+     "proposed": "has_eligible_candidate true",
+     "ruling_applied": "D30-R5; manual §1.2",
+     "reason": "Nicotinic acid is a licensed medicine (the record cites its use for \"the management of dyslipidaemias\"), tested for antitumour effect (\"Evaluating if Niacin CRT Improves Glioblastoma Survival Rates\"). A licensed medicine also sold as a supplement is pharmacological (§1.2) and a candidate under D30-R5. Licensing of the specific 'Niacin CRT' product is not stated and must be documented in Table S2.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder A: agent:nicotinic acid",
+     "coder_A": "experimental_monotherapy (flagged uncertain)", "coder_B": "experimental_monotherapy",
+     "proposed": "experimental_monotherapy (candidate)",
+     "ruling_applied": "D30-R5; manual §1.2",
+     "reason": "It is the only investigational agent, added to the Stupp regimen (\"adding Niacin CRT™ to standard first line treatment\"), so rule 4 applies. It is a candidate if licensed as a medicine (D30-R5).",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "nicotinic acid", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "newly_diagnosed", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "The candidate status depends on D30-R5 licensing evidence for the Niacin CRT product (Canadian sponsor), to be recorded in Table S2. If that product is unlicensed and only a supplement, the trial would become excluded_intervention_type. Target engagement is yes from the planned niacin activity in peripheral innate immune cells (blood pharmacodynamics)."
+}

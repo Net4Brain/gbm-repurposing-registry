@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT05533242",
+  "items": [
+    {"type": "disagreement", "item": "candidate_set",
+     "coder_A": "[\"6a10 fab\"]", "coder_B": "[\"6a10 fab-fragment\"]",
+     "proposed": "[\"6a10 fab\"]",
+     "ruling_applied": "manual §3",
+     "reason": "Same agent (\"Lu-177 labeled 6A10-Fab-fragments\", LuCaFab); naming only. W1: radiopharmaceutical with no INN is named by ligand without the isotope; '6a10 fab' is the ligand name, 'fragment(s)' is descriptive. Names are re-mapped by script anyway.",
+     "confidence": "medium"},
+    {"type": "disagreement_outcome", "item": "selection_biomarker_only_in_A",
+     "coder_A": "[\"other\", true, \"6a10 fab\"]", "coder_B": "",
+     "proposed": "other: CA12 expression in tumour cells, eligibility, candidate_matched true (matched_agent 6a10 fab)",
+     "ruling_applied": "manual §5",
+     "reason": "Inclusion \"Histological verification of glioblastoma and CA 12-expression of tumor cells confirmed\" is an entry requirement on the target of the candidate (\"carbonic anhydrase XII-specific antibody Fab fragment\"). Both coders coded this; the difference is only the agent name. Tissue-assessed, so D30-R2 imaging flag does not apply.",
+     "confidence": "high"},
+    {"type": "disagreement_outcome", "item": "selection_biomarker_only_in_B",
+     "coder_A": "", "coder_B": "[\"other\", true, \"6a10 fab-fragment\"]",
+     "proposed": "merge with A's row (same biomarker; matched_agent 6a10 fab)",
+     "ruling_applied": "manual §5",
+     "reason": "Same CA12 eligibility row as coder A, differing only in the matched-agent name string.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "6a10 fab", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "other: carbonic anhydrase XII (CA12) expression in tumour cells", "matched_agent": "6a10 fab"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome positive (candidate-matched CA12 selection) and both coders agree in substance; goes to D21 human review of positive candidate_matched decisions. Radiopharmaceutical (Lu-177, intracavitary new_route). Agreed tumour_pk 'yes' rests on SPECT/CT dosimetry of the cavity margin labelled pharmacokinetics, which is imaging rather than tissue/CSF sampling; XL may wish to check."
+}

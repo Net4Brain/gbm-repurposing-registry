@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04195555",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "not_glioblastoma",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1",
+      "reason": "Glioblastoma is never named in conditions, title, inclusion criteria or the arm label (only 'Recurrent Malignant Glioma' and 'WHO Grade 2 Glioma'), and entry requires an IDH1 mutation ('Patients With Tumors Harboring IDH1 Mutations'), so any glioma enrolled is IDH-mutant; §1.1 lists IDH-mutant glioma only under not_glioblastoma. Both values give the same exclusion reason (not_glioblastoma).",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "unclear",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "D31-C6: the objective 'To provide preliminary estimates of the pharmacokinetics and pharmacodynamics of AG-120 (ivosidenib)' is stated, and the PD outcome is registered with no description of a measurement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "ivosidenib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "IDH",
+        "matched_agent": "ivosidenib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma), so downstream fields are descriptive only. basket proposed true because the record is a multi-cancer paediatric MATCH basket (coders split, priority 3); it has no effect once excluded. IDH1-mutation + ivosidenib is a genuine candidate match (not the IDH-wildtype diagnostic exception). A6 resolved: IDH candidate_matched true under corrected D31-A6 (ivosidenib inhibits mutant IDH1; stated in the record and established pharmacology). target_engagement set by D31-C6 (descriptive only after S5 exclusion).",
+  "revisions": [
+    {
+      "convention": "D31-C6",
+      "field": "target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The registered outcome 'Preliminary Estimates of the Pharmacodynamics (PD) of Ivosidenib' has no measurement described."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "biomarker:IDH candidate_matched; note",
+      "from": "true (A6 pending XL)",
+      "to": "true (settled)",
+      "reason": "Ivosidenib is a mutant-IDH1 inhibitor, a link both stated in the record ('may block ... the IDH pathway') and from established pharmacology, so the IDH1-mutation requirement is candidate-matched under corrected D31-A6."
+    }
+  ]
+}

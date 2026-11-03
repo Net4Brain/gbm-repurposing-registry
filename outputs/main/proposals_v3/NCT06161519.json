@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT06161519",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "flagged uncertain (MYC/MYCN amplification match)",
+      "coder_B": "",
+      "proposed": "MYC or MYCN amplification, enrichment, candidate_matched true (plx038)",
+      "ruling_applied": "manual §5; D31-A6; D31-A2; D31-A4",
+      "reason": "Cohorts IIA-IIC require MYC/MYCN amplification and the record states the mechanism: 'MYC-driven increase in transcription induces the formation of topoisome complexes (MYC-C/N, Topoisomerase 1 (TOP1)...' with PLX038 'the TOP1 inhibitor'. The manual matches on a mechanistic link to the candidate, which the record supplies, but it is not a standard target-drug pair.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (MYC/MYCN amplification match)",
+      "proposed": "MYC or MYCN amplification, enrichment, candidate_matched true (plx038)",
+      "ruling_applied": "manual §5; D31-A6; D31-A2; D31-A4",
+      "reason": "Same reasoning: record-stated rationale links MYC/MYCN amplification to TOP1 dependence. Note the GBM cohort IID requires absence of amplification ('Recurrent glioblastoma that does not contain MYC or MYCN amplifications'), though GBM with amplification could enter Phase I or cohort IIC.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "plx038",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: MYC or MYCN amplification",
+        "matched_agent": "plx038"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "D31-B15: glioma plus medulloblastoma/ependymoma, so basket_gbm_eligible (inclusion unchanged). D31-A1 checked: MYCN in Cohorts IIA/IIB is required only for non-GBM (ependymoma, medulloblastoma) cohorts, but Cohort IIC ('Any other recurrent or progressive primary CNS tumor with MYC or MYCN amplifications') admits GBM with amplification, so the MYC/MYCN enrichment row is not removed by A1; Cohort IID requires GBM 'without MYC or MYCN amplifications' (exclusion-stated, D31-A4). Earlier 'A6 pending' note (candidate_matched MYC/MYCN to plx038 kept as in the original) now resolved. Harmonisation: the A6 pending note is resolved (D31-A6 names this pair as linked) and the IIC question is settled by the clarified D31-A2 (cohort requirement stays enrichment); Cohort IID's 'without MYC or MYCN amplification' is exclusion-stated (D31-A4). needs_xl_attention kept true because the positive primary outcome rests on a judgement call: Cohort IIC ('Any other recurrent or progressive primary CNS tumor with MYC or MYCN amplifications') is a mixed cohort, and whether it counts as a GBM cohort rather than a non-GBM cohort (D31-A1, which XL flagged as possibly applying) is a reading of the record.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.gbm_population",
+      "from": "mixed_glioma_gbm_named",
+      "to": "basket_gbm_eligible",
+      "reason": "The trial enrols glioma alongside non-glioma brain tumours (conditions 'Glioma; Medulloblastoma; Ependymoma; Glioblastoma'; Phase I 'Any recurrent or progressive primary CNS tumor') and names glioblastoma (Cohort Phase IID)."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.basket",
+      "from": false,
+      "to": true,
+      "reason": "Follows gbm_population basket_gbm_eligible under D31-B15."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "items[biomarker:other MYC/MYCN].ruling_applied (\"A6 pending XL\")",
+      "from": "candidate_matched true (pending XL)",
+      "to": "candidate_matched true (settled, D31-A6)",
+      "reason": "Corrected D31-A6 names PLX038 and MYC/MYCN as linked as stated in the record (MYC-driven TOP1 dependence, PLX038 a TOP1 inhibitor), so the pending note is resolved with the value unchanged."
+    },
+    {
+      "check": "A2",
+      "field": "biomarker MYC/MYCN enrichment (Cohort IIC) counts for GBM",
+      "from": "open question",
+      "to": "enrichment stands",
+      "reason": "Under the clarified D31-A2 a requirement for a whole cohort stays enrichment even when GBM patients can enter other cohorts without it, and Cohort IIC admits amplified GBM, so A1 does not remove the row; candidate_matched_selection stays true."
+    }
+  ]
+}

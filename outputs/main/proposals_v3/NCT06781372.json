@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT06781372",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate=false (not flagged)",
+      "coder_B": "has_eligible_candidate=false (flagged)",
+      "proposed": "has_eligible_candidate=false; excluded_intervention_type",
+      "ruling_applied": "manual §1 S6; D31-C1",
+      "reason": "No drug is given to patients: 'Intervention is intended as a laboratory intervention and not as a clinical intervention'; the epigenetic and splicing inhibitors are applied only to organoids and are not named.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the record also fails S3 (phase_not_applicable) before S6. Harmonisation (D31-C1 clarified): the tested interventions are non-drug laboratory procedures ('Intervention is intended as a laboratory intervention and not as a clinical intervention'), so the S6 reason is excluded_intervention_type.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only interventions under test are laboratory (non-drug) procedures on organoids, and no drug is given to patients, so D31-C1 (clarified) gives excluded_intervention_type, not no_pharmacological_candidate."
+    }
+  ]
+}

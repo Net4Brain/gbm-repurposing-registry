@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06388733",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "other (histone H3 mutation; absence required), eligibility, not matched; exempt from any_molecular_selection as a CNS5-defining exclusion",
+      "ruling_applied": "D31-A5",
+      "reason": "The exclusion says only 'Presence of known H3 mutation.', without K27M, so 'other' is more faithful than H3K27M; it only defines CNS5 glioblastoma and is exempt from any_molecular_selection under D31-A5. any_molecular_selection stays true from the required 'Unmethylated MGMT promoter region' (eligibility under D31-A8).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"H3K27M\", false, \"\"]",
+      "proposed": "reject H3K27M label (use other: histone H3 mutation)",
+      "ruling_applied": "manual §5",
+      "reason": "The record does not specify K27M; not candidate-matched either way, and any_molecular_selection is already true from the MGMT-unmethylated requirement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "niraparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "IDH and H3 exclusions define CNS5 glioblastoma and are exempt under D31-A5. any_molecular_selection stays true from the required unmethylated MGMT value (D31-A8: a required value is eligibility). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-A5",
+      "field": "items[selection_biomarker_only_in_A].proposed",
+      "from": "other (histone H3 mutation, unspecified; absence required), eligibility, not matched",
+      "to": "other (histone H3 mutation; absence required), eligibility, not matched; exempt from any_molecular_selection as a CNS5-defining exclusion",
+      "reason": "The exclusion 'Presence of known H3 mutation.' (like 'Presence of known isocitrate dehydrogenase (IDH) mutation.') only defines CNS5 glioblastoma, so A5 exempts it from any_molecular_selection."
+    }
+  ]
+}

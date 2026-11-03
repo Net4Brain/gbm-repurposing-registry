@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT04225039",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"incagn1876\", \"incmga00012\"]",
+      "coder_B": "[\"incagn01876\", \"incmga00012\"]",
+      "proposed": "[\"incagn1876\", \"incmga00012\"]",
+      "ruling_applied": "manual §3",
+      "reason": "Same agent spelled two ways. The record first writes it in the official title ('Anti-GITR Agonist INCAGN1876') and later as 'INCAGN01876'. Manual §3 says to use the development code 'exactly as first written in the record'. The candidate set is the same in substance.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "historical",
+      "coder_B": "unclear",
+      "proposed": "historical",
+      "ruling_applied": "manual §1.1",
+      "reason": "Inclusion accepts 'WHO grade IV glioblastoma' by histology without an IDH requirement and explicitly allows 'secondary GBM' from prior low-grade glioma. IDH-wildtype is required only on the cIMPACT-NOW molecular route, so the record does not require IDH-wildtype for all entrants (not cns5). This fits C8 'historical'.",
+      "confidence": "medium"
+    },
+    {
+      "type": "convention",
+      "item": "biomarker:MGMT",
+      "coder_A": "MGMT, eligibility",
+      "coder_B": "MGMT, eligibility",
+      "proposed": "MGMT, role exploratory_correlative, candidate_matched false",
+      "ruling_applied": "D31-A8",
+      "reason": "Inclusion 5 requires only that 'MGMT methylation status must be available', with no required value; D31-A8 codes this as testing (exploratory_correlative).",
+      "confidence": "high"
+    },
+    {
+      "type": "convention",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "yes",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "Cohort B is for 'evaluation of the effects on the tumor immune microenvironment', but no assay or outcome is described (registered outcomes are ORR, AEs, OS, PFS).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "incagn1876",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "incmga00012",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "(1) The agent dictionary must map incagn1876 and incagn01876 to the same moiety; if XL prefers the registered intervention name, use incagn01876. (2) MGMT 'must be available' is testing under D31-A8, so any_molecular_selection false (as proposed) is now settled. (3) target_engagement_planned set to unclear under D31-C6.",
+  "revisions": [
+    {
+      "convention": "D31-A8",
+      "field": "items[biomarker:MGMT].proposed",
+      "from": "MGMT, eligibility (coders)",
+      "to": "MGMT, exploratory_correlative",
+      "reason": "Inclusion 5: MGMT status 'must be available from any prior GBM tumor specimen', with no required value."
+    },
+    {
+      "convention": "D31-C6",
+      "field": "proposed_final.target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The Cohort B tumour immune-microenvironment objective is stated, but no measurement is described and no PD outcome is registered."
+    }
+  ]
+}

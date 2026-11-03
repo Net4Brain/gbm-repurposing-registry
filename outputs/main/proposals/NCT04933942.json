@@ -1,0 +1,129 @@
+{
+  "nct_id": "NCT04933942",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "none",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "none",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"romiplostim\"]",
+      "coder_B": "[]",
+      "proposed": "[\"romiplostim\"]",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:romiplostim:role",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate. Lomustine is in both arms (soc_backbone), so romiplostim is the only investigational agent.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:romiplostim",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:romiplostim",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 rule 2",
+      "reason": "Rule 2 makes an agent supportive only if the record states no antitumour hypothesis or antitumour outcome. Romiplostim's purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'), but the primary outcome is 'Progression Free Survival (PFS)', an antitumour outcome, so the literal rule makes it a candidate.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"lomustine\"]",
+      "coder_B": "[]",
+      "proposed": "[\"lomustine\"]",
+      "ruling_applied": "manual §2 (C1)",
+      "reason": "If romiplostim is a candidate, lomustine is an antitumour drug in the experimental arm ('Lomustine plus Romiplostim'), so it is the combination partner.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "combination",
+      "coder_B": "not_applicable",
+      "proposed": "combination",
+      "ruling_applied": "manual §2 (C1, R1)",
+      "reason": "Follows the candidate decision: combination with lomustine if romiplostim is a candidate, not_applicable otherwise.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "romiplostim",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Screening-critical (S6). Proposal follows the literal rule-2 wording (PFS primary outcome = antitumour outcome), but the record states no antitumour hypothesis for romiplostim itself; PFS presumably reflects maintained lomustine dose intensity, which is close in spirit to supportive or rule 2b (increasing exposure to another agent). If XL rules supportive: has_eligible_candidate false, no_pharmacological_candidate, regimen not_applicable. No D30 ruling covers supportive drugs with a survival endpoint; a general ruling may be worth adding. MGMT methylation is an eligibility biomarker (any_molecular_selection true, not candidate-matched)."
+}

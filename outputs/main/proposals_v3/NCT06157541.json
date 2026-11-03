@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT06157541",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"allogeneic cmv-specific t cells\"]",
+      "coder_B": "[\"allogeneic cytomegalovirus-specific t cells\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C2",
+      "reason": "Wording difference only; both name the same allogeneic CMV-specific T-cell product. Using the agent-row name 'allogeneic cmv-specific t cells' (as both coders gave it in agents) keeps partners consistent with the agent table. Harmonised under D31-C2 (clarified): the T-cell product is an excluded cell product, not a pharmacological partner, so the list is empty.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-C2 checked: the only other agent is the allogeneic CMV-specific T-cell product. D31-C3 query for XL (not changed): the T cells are given as 'four weekly infusions' and pembrolizumab 'will commence seven days (±3 days) after the final T-cell infusion', i.e. sequentially, yet the record designs them as a combination ('in Combination With Pembrolizumab'); regimen kept combination as both coders coded it. Harmonisation: combination_partners [] and regimen monotherapy, because the T-cell product is not a pharmacological partner (D31-C2 clarified); this also resolves the earlier D31-C3 query.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"allogeneic cmv-specific t cells\"]",
+      "to": "[]",
+      "reason": "The allogeneic CMV-specific T cells are an excluded cell product, which the clarified D31-C2 does not list as a partner."
+    },
+    {
+      "check": "C2",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "With the cell product excluded and no radiotherapy or other drug in any arm, pembrolizumab is the only antitumour drug, which is monotherapy under manual §2 (consistent with D31-C2/C3)."
+    }
+  ]
+}

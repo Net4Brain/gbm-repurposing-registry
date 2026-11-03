@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT05432518",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"olaparib\"]",
+      "coder_B": "",
+      "proposed": "other (TP53 mutation), enrichment, candidate_matched true (olaparib)",
+      "ruling_applied": "D31-A6",
+      "reason": "The record states the drug-biomarker link itself ('Olaparib will be administered ... in patients with TP53 mutation'); under D31-A6 a record-stated link counts, standard or not, so the TP53 row is candidate-matched to olaparib.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"other\", true, \"olaparib\"]",
+      "proposed": "other (TP53 mutation), enrichment, candidate_matched true (olaparib)",
+      "ruling_applied": "D31-A6",
+      "reason": "The record states the drug-biomarker link itself ('Olaparib will be administered ... in patients with TP53 mutation'); under D31-A6 a record-stated link counts, standard or not, so the TP53 row is candidate-matched to olaparib.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "candidate_matched false",
+      "coder_B": "candidate_matched true",
+      "proposed": "candidate_matched true",
+      "ruling_applied": "D31-A6",
+      "reason": "The record states the drug-biomarker link itself ('Olaparib will be administered ... in patients with TP53 mutation'); under D31-A6 a record-stated link counts, standard or not, so the TP53 row is candidate-matched to olaparib.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "afatinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "dasatinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "palbociclib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "everolimus",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "olaparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "EGFR_EGFRvIII",
+        "matched_agent": "afatinib"
+      },
+      {
+        "biomarker": "other (PDGFR amplification)",
+        "matched_agent": "dasatinib"
+      },
+      {
+        "biomarker": "CDK4_6_pathway",
+        "matched_agent": "palbociclib"
+      },
+      {
+        "biomarker": "PTEN_PI3K",
+        "matched_agent": "everolimus"
+      },
+      {
+        "biomarker": "other (TP53 mutation)",
+        "matched_agent": "olaparib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "TP53/olaparib now candidate-matched under D31-A6 (record-stated assignment). Trial-level candidate_matched_selection was already true via the four other agreed matches, so only agent-level match counts change. IDH-wildtype requirement is exempt (D31-A5). EARLY_PHASE1: translational subset only (D23), not the primary estimand.",
+  "revisions": [
+    {
+      "convention": "D31-A6",
+      "field": "items[selection_biomarker_only_in_A/B, coder A: biomarker:other].proposed (TP53 candidate_matched)",
+      "from": "candidate_matched false",
+      "to": "candidate_matched true (olaparib)",
+      "reason": "The interventions state 'Olaparib will be administered orally ... in patients with TP53 mutation', a record-stated drug-biomarker link."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "4 matches (afatinib, dasatinib, palbociclib, everolimus)",
+      "to": "5 matches (+ other (TP53 mutation) / olaparib)",
+      "reason": "The record assigns olaparib to patients with TP53 mutation, so the stated link counts under D31-A6."
+    }
+  ]
+}

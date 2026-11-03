@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT04963413",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "flagged uncertain (GM-CSF as vaccine adjuvant)",
+      "coder_B": "",
+      "proposed": "GM-CSF not a candidate (part of excluded vaccine); no candidate",
+      "ruling_applied": "D30-R4",
+      "reason": "GM-CSF is registered only inside the vaccine intervention ('Autologous DCs ... loaded with RNA ... plus GM-CSF') and has no own arm or outcome, so R4 makes it part of the excluded therapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (GM-CSF as vaccine component)",
+      "proposed": "GM-CSF not a candidate (part of excluded vaccine); no candidate",
+      "ruling_applied": "D30-R4",
+      "reason": "Same as coder A: R4 lists GM-CSF and Td toxoid given to support a vaccine as part of the excluded therapy; the only outcome is feasibility of generating the DC vaccine.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Under D30-R4 the Td booster ('All patients will receive Td booster ... with Vaccine #1') is also part of the excluded therapy, so coder A's excluded_intervention_type for Td is preferred over coder B's supportive (priority-3 row, no effect on screening)."
+}

@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT05759195",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "no IDH selection biomarker (drop B's IDH eligibility row)",
+      "ruling_applied": "manual §5",
+      "reason": "IDH appears only as 'Glioblastoma, IDH-wildtype' in conditions; it defines the disease and is not an inclusion criterion. IDH-wildtype used only to define GBM is excluded from any_molecular_selection and is never candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "uncertain: regorafenib given as SOC and is subject of biomarker question",
+      "proposed": "no candidate; regorafenib soc_backbone; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "D31-C1; manual §3.1 rule 3 (C3)",
+      "reason": "Regorafenib is given 'per standard of care' to every patient ('indication to treatment with regorafenib per standard of care') and the only registered intervention is a diagnostic test ('Biomolecular tumor analysis'); the drug itself is not tested, so it is background (C3), not a candidate. The only tested intervention is a non-drug diagnostic test ('[DIAGNOSTIC_TEST] Biomolecular tumor analysis: NGS analysis, other molecular analyses on FFPE tumor tissue'), so under D31-C1 the S6 reason is excluded_intervention_type, not no_pharmacological_candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered phase is NA, so the trial already fails S3 (phase_not_applicable) before S6; candidate questions are moot for the analysis. D31-C1 applied to a diagnostic-test intervention (a non-drug intervention under test); outcome-neutral.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only tested intervention is a non-drug diagnostic test ('[DIAGNOSTIC_TEST] Biomolecular tumor analysis: NGS analysis, other molecular analyses on FFPE tumor tissue'), so under D31-C1 the S6 reason is excluded_intervention_type, not no_pharmacological_candidate."
+    }
+  ]
+}

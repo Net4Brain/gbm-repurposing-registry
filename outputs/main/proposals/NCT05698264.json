@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT05698264",
+  "items": [
+    {"type": "disagreement", "item": "candidate_exclusion_reason", "coder_A": "excluded_intervention_type", "coder_B": "no_pharmacological_candidate",
+     "proposed": "excluded_intervention_type",
+     "ruling_applied": "manual §1.2",
+     "reason": "The only registered interventions are devices ('[DEVICE] concomitant TTFields treatment device to standard of care EGFR positive NSCLC treatment'); manual §1.2 lists 'devices (TTFields, focused ultrasound alone)' as an excluded intervention type. The background EGFR/PD-1 drugs are unnamed standard of care, not investigational.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot for Figure 1: the trial already fails S3 (phase NA) and S5 (NSCLC; glioblastoma appears only as cell-line background in the brief summary). any_molecular_selection is true only because of the agreed EGFR enrichment row for NSCLC cohort A; it has no analytic effect since the trial is excluded."
+}

@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT06058988",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "HER2 is required for the metastatic cohorts A and B; the recurrent glioblastoma cohort C has no stated HER2 requirement in eligibility, although outcomes mention Her2-expressing glioblastoma.",
+      "coder_B": "",
+      "proposed": "HER2 expression / activating ERBB2 mutation recoded exploratory_correlative (required only for the non-GBM metastasis Cohorts A and B; GBM Cohort C enters without it); not selection; candidate_matched_selection and any_molecular_selection false",
+      "ruling_applied": "D31-A1",
+      "reason": "D31-A1 settles this: HER2 is required only for 'Cohort A/B: Brain parenchymal metastases in patients with Her2-expressing/ERBB2- activating-mutant cancer', while 'Cohort C: Recurrent glioblastoma' has no HER2 requirement, so the row is exploratory_correlative and the GBM patients' entry has no molecular requirement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "trastuzumab deruxtecan",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Basket trial: under D31-A1 the HER2 requirement of the metastasis cohorts does not count, because GBM patients (Cohort C) enter without it; candidate_matched_selection and any_molecular_selection are false. Regimen is the GBM arm's (T-DXd monotherapy, D31-C3). tumour_pk_planned yes ('brain tumor:plasma ratios').",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "coder B: biomarker:other (HER2 row role)",
+      "from": "enrichment, candidate_matched true",
+      "to": "exploratory_correlative",
+      "reason": "HER2 is required only for the brain-metastasis Cohorts A and B; 'Cohort C: Recurrent glioblastoma' has no HER2 requirement."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "GBM patients (Cohort C) enter without any HER2 requirement, so there is no matched selection for this trial."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[{\"biomarker\": \"other: HER2 expression / activating ERBB2 mutation\", \"matched_agent\": \"trastuzumab deruxtecan\"}]",
+      "to": "[]",
+      "reason": "The only matched row (HER2) is now exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "No eligibility or enrichment row applies to the GBM cohort once HER2 is recoded; no other biomarker rows exist."
+    }
+  ]
+}

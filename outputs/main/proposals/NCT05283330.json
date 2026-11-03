@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT05283330",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "GRPR (imaging-assessed) eligibility, candidate_matched true (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched true (dotam-grpr1), flag imaging_assessed",
+      "ruling_applied": "R2",
+      "reason": "Inclusion requires 'Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)' with the matched 212Pb radioligand; R2 counts imaging-assessed target expression as candidate-matched selection, flagged imaging_assessed.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "same",
+      "coder_B": "GRPR (imaging-assessed) eligibility, candidate_matched true (uncertain)",
+      "proposed": "eligibility, candidate_matched true (dotam-grpr1), flag imaging_assessed",
+      "ruling_applied": "R2",
+      "reason": "Same as above: title requires 'GRPR-expressing Tumors' and entry requires tracer uptake; R2 settles it.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "dotam-grpr1",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": true,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: GRPR expression (203Pb-DOTAM-GRPR1 SPECT/CT uptake)",
+        "matched_agent": "dotam-grpr1"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome positive only via R2 imaging-assessed selection; removed in sensitivity analysis 15."
+}

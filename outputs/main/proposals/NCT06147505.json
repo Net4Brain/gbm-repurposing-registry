@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06147505",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "has_eligible_candidate=true (flagged: XS005 could be an excluded type)",
+     "coder_B": "has_eligible_candidate=true",
+     "proposed": "has_eligible_candidate=true (agreed coding stands provisionally)",
+     "ruling_applied": "manual §1.2",
+     "reason": "The record registers XS005 only as \"[BIOLOGICAL] XS005 Injection\" given as \"XS005 infusions over an 16 week period\" with no description of what it is; nothing in the record identifies it as a cell, gene, viral or vaccine product, so on the record alone it is a biological candidate. Its true nature cannot be established from the registry text.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder A: agent:xs005",
+     "coder_A": "experimental_monotherapy (flagged)", "coder_B": "experimental_monotherapy",
+     "proposed": "experimental_monotherapy",
+     "ruling_applied": "manual §3.1 rule 4",
+     "reason": "Only investigational agent, given with the Stupp regimen named in the title (\"XS005 Injection Combined With Stupp Regimen\"); rule 4 applies if it is pharmacological. If XS005 turns out to be a cell/gene/viral/vaccine product, rule 0a (excluded_intervention_type) applies instead.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "xs005", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "S6 depends entirely on what XS005 is, which the record does not say. XL (or the [LOOKUP]/clinical co-author step) should identify the product outside the registry; if it is a cell therapy, gene therapy, oncolytic virus or vaccine, the trial becomes excluded_intervention_type. Glioblastoma is named only in the title (conditions = 'Tumor'), which is an allowed field under C7/D27B, so gbm_only stands."
+}

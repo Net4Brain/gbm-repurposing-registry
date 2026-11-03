@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT05131711",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate=true (flagged: in situ vaccination could be read as a cancer vaccine)",
+      "coder_B": "has_eligible_candidate=true",
+      "proposed": "has_eligible_candidate=true (agreed coding stands)",
+      "ruling_applied": "D30-R4",
+      "reason": "No antigen product, cell therapy or vaccine is given; the adjuvants themselves are the tested antitumour treatment (\"Immune adjuvants will be injected intratumorally and systemically to induce antitumor-specific immunity after radiation induced immunological tumor cell death\"). R4 makes adjuvants part of an excluded therapy only when they support a cell therapy or vaccine; here they are tested in their own right (own arm, PFS/OS outcomes), which is R4's exception.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:manganese chloride",
+      "coder_A": "experimental_combination (flagged: may not be a licensed medicine)",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination, subject to R5 licensing check",
+      "ruling_applied": "D30-R5",
+      "reason": "MnCl2 is registered as one of the \"enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)\"; under R5 a trace-element/supplement-type product is a candidate only if licensed as a medicine somewhere. The record gives no licensing information, so this must be checked and recorded in Table S2.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"gm-csf\", \"manganese chloride\", \"sapylin\", \"stereotactic radiosurgery\"]",
+      "coder_B": "[\"stereotactic radiosurgery\"]",
+      "proposed": "[\"gm-csf\", \"manganese chloride\", \"sapylin\", \"stereotactic radiosurgery\"]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "The experimental arm gives \"combined stereotactic radiosurgery and enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)\"; regimen counts all antitumour therapy in the experimental arm, so all three agents and radiosurgery are recorded, as coder A did.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "gm-csf",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "sapylin",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "manganese chloride",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Two XL decisions: (1) whether an 'in situ vaccination' with adjuvants and radiosurgery, but no antigen product, is a cancer vaccine (excluded) or a pharmacological candidate regimen; proposal treats the adjuvants as candidates under R4's exception. (2) R5 licensing evidence for manganese chloride (and for Sapylin, a Streptococcus-derived preparation with no INN in the record) must be recorded in Table S2; S6 holds as long as at least one of the three (e.g. GM-CSF, a licensed cytokine) is a candidate. GM-CSF moiety not specified in the record (sargramostim vs molgramostim) for the [LOOKUP] step. D31 §D evidence check pending (R5 licensing: manganese chloride / Sapylin); proposal stays as drafted.",
+  "revisions": [],
+  "harmonisation": []
+}

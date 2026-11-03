@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT05627323",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "gbm_only",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1",
+      "reason": "Eligibility admits 'grade 4 GBM (IDH wild type), grade 4 diffuse astrocytoma (IDH mutant)', and prior grade 2 or 3 glioma that has progressed. IDH-mutant grade 4 astrocytoma is not glioblastoma under CNS5 (§1.1 note), so several glioma types are eligible and GBM is named: mixed_glioma_gbm_named.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Only intervention is CHM-1101 CAR-T cells (excluded type), so the trial fails S6 whatever the population code. any_molecular_selection is true because MMP2+ by IHC is an entry requirement; it is not candidate-matched because the CAR-T is not a candidate.",
+  "revisions": []
+}

@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT05632562",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion requires \"newly diagnosed grade III or grade IV glioma\" with grade 4 explicitly allowed, no IDH requirement, and glioblastoma never named; D30-R7 includes this as historical glioblastoma (mixed_glioma_gbm_named, cns5_terminology historical).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named, uncertain (only 'grade IV glioma', could be high_grade_glioma_unspecified)",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "D30-R7 settles exactly this case (\"grade III or grade IV glioma\", no IDH requirement); the DIPG allowance does not change it.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Imaging-only EARLY_PHASE1 study (FET and FMISO PET tracers, both diagnostic_agent); excluded at S6 regardless of S5, reason excluded_intervention_type under D31-C1 (tested intervention is PET/MRI imaging, as in NCT06172595/NCT06499831). cns5_terminology historical follows D30-R7; paediatric patients allowed, which D31-B1 leaves to S4.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The record tests a non-drug imaging procedure (\"a new imaging approach\": simultaneous FET and FMISO PET/MRI, primary outcome \"Detection of viable glioma based on PET\"), with FET and FMISO only diagnostic_agent, so C1 does not allow no_pharmacological_candidate."
+    }
+  ]
+}

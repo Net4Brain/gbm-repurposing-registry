@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05929456",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "gbm_only",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "gbm_only",
+      "ruling_applied": "manual §1.1",
+      "reason": "Inclusion defines the population as 'Established high-grade glioma (glioblastoma, grade 4 according to the WHO (World Health Organization) classification)', so the 'high-grade glioma' in the title and conditions is glossed as glioblastoma and no other glioma type is eligible.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot for inclusion: both coders agree the trial fails S6 (cetuximab-IRDye800CW and 5-ALA are diagnostic_agent for fluorescence-guided surgery). Active-moiety naming of the tracer (cetuximab vs cetuximab-irdye800cw) is priority 3; manual W1 would favour naming the diagnostic conjugate separately from therapeutic cetuximab."
+}

@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05664464",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"gabapentin\", \"memantine\", \"radiotherapy\", \"sulfasalazine\", \"temozolomide\"]",
+      "proposed": "[\"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "",
+      "reason": "The experimental arm adds 'combined daily gabapentin, sulfasalazine and memantine' to 'Radiotherapy 30 x 2 Gy with concomitant temozolomide'. Listing only the non-candidate antitumour partners (backbone) avoids duplicating the three candidates, which are already recorded as experimental_combination; the manual does not say whether co-candidates belong in combination_partners.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "gabapentin",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "sulfasalazine",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "memantine",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Only a convention question (do co-candidates go in combination_partners?); no effect on screening, roles or outcomes. XL may want one rule across all batches. Target engagement yes on 'Tumor glutamate levels: determined by MRI spectroscopy' (both coders)."
+}

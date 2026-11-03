@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT05278208",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_matched_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true (imaging_assessed)",
+      "ruling_applied": "D30-R2",
+      "reason": "Entry requires 'uptake on DOTATATE PET/CT in at least one tumor lesion ... equivalent to a Krenning score ≥2', described as 'functional evidence of SST2A expression', and the candidate is the matched radioligand Lutathera (177Lu-DOTATATE). D30-R2 counts this as candidate-matched selection, flagged imaging_assessed.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"lutetium (177lu) oxodotreotide\"]",
+      "coder_B": "[\"oxodotreotide\"]",
+      "proposed": "[\"lutetium (177lu) oxodotreotide\"]",
+      "ruling_applied": "manual W1",
+      "reason": "Manual W1: radiopharmaceuticals use the INN if one exists, and only otherwise the ligand without the isotope. 'LUTATHERA® (Lutetium Lu 177 dotatate)' has the INN lutetium (177Lu) oxodotreotide; radiopharmaceutical flag true.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"lutetium (177lu) oxodotreotide\"]",
+      "coder_B": "",
+      "proposed": "other (SST2A expression by DOTATATE PET uptake), eligibility, candidate_matched true, matched_agent lutetium (177lu) oxodotreotide, imaging_assessed true",
+      "ruling_applied": "D30-R2",
+      "reason": "Coder B did not record the PET entry requirement as a biomarker; D30-R2 explicitly lists SSTR on PET with a matched radioligand as candidate-matched selection, so Coder A's row stands, with the imaging_assessed flag (excluded in sensitivity analysis 15).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma never named in title, conditions, inclusion or arm label; WHO grade III-IV CNS tumours would include GBM but the manual requires explicit naming.",
+      "coder_B": "",
+      "proposed": "basket_gbm_eligible (include as historical glioblastoma)",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion: 'primary high-grade CNS tumor (any histopathologic diagnosis that is WHO grade III-IV)', with 'High Grade Glioma' and 'Recurrent Malignant Glioma' in conditions, no IDH requirement and glioblastoma never named; grade 4 glioma is therefore explicitly allowed, which D30-R7 includes as historical glioblastoma. Because medulloblastoma, embryonal tumours, ependymoma and meningioma are also eligible, it is a multi-tumour trial, so basket_gbm_eligible rather than R7's default mixed_glioma_gbm_named.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "lutetium (177lu) oxodotreotide", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": true,
+    "matched_biomarkers": [
+      {"biomarker": "other (SST2A expression by DOTATATE PET uptake; eligibility)", "matched_agent": "lutetium (177lu) oxodotreotide"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Screening decision matters here: both coders coded high_grade_glioma_unspecified (excluded), but D30-R7 reads 'WHO grade III-IV' high-grade CNS tumours incl. high-grade glioma as including historical glioblastoma. XL to confirm (a) that R7 extends to 'any ... WHO grade III-IV' CNS tumour wording plus 'High Grade Glioma' in conditions, and (b) basket vs mixed_glioma_gbm_named. Ages 4-39 (mixed_age, stdAges CHILD/ADULT, so passes S4). [68Ga]Ga-DOTATATE PET is screening only, not a registered intervention (not listed, manual R9). SST2A IHC is an exploratory correlative row (matched, not selection)."
+}

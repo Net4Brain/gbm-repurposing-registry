@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT05187624",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "no",
+      "coder_B": "not_applicable",
+      "proposed": "no",
+      "ruling_applied": "manual R8",
+      "reason": "Four registered EXPERIMENTAL arms (Part I, II, III, IV A), none working as a control; manual R8 defines 'no' as more than one arm but none a control, and 'not_applicable' only for single-arm trials.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "unclear",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "The title and summary state a pharmacodynamics (PD) objective for RO7428731, but no PD outcome, sample or assay is registered; D31-C6 codes this 'unclear'.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "ro7428731",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "EGFR_EGFRvIII",
+        "matched_agent": "ro7428731"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "EGFRvIII match rests on the design ('Glioblastoma Expressing Mutant Epidermal Growth Factor Receptor Variant III', exclusion of prior anti-EGFRvIII agents); the record never states RO7428731's target, but both coders agree and it is not queued. MGMT role (enrichment vs eligibility) is a priority-3 item: unmethylated status is required for Part II only, so enrichment fits better. A6 pending XL: candidate_matched for EGFR_EGFRvIII kept as in the original (the record does not state RO7428731's target; D31-A6 is on hold). MGMT is required as unmethylated for Part II only and is not candidate-linked; D31-A8 does not apply (a value is required), so no change to matched_biomarkers. target_engagement_planned set to unclear under D31-C6.",
+  "revisions": [
+    {
+      "convention": "D31-C6",
+      "field": "target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The record lists 'pharmacodynamics (PD)' as an objective, but the outcomes register only AEs, DLTs, serum concentration, ADAs and efficacy, so no PD measurement is described."
+    }
+  ]
+}

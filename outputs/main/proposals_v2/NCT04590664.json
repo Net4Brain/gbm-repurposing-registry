@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04590664",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:EGFR_EGFRvIII",
+      "coder_A": "EGFR mutation/amplification is an entry requirement for verteporfin, but the record states no mechanistic link between verteporfin and EGFR; match status could change the primary outcome.",
+      "coder_B": "",
+      "proposed": "EGFR_EGFRvIII eligibility, candidate_matched false",
+      "ruling_applied": "manual §5",
+      "reason": "\"Eligible participants have tumors that show mutant or amplified EGFR\" is an entry requirement. Verteporfin is not an EGFR inhibitor, though, and the record gives only \"tumor cells which may be sensitive to verteporfin\" with no stated EGFR mechanism. The design deliberately pairs the drug with EGFR+ GBM (title), so a link may be implied.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:EGFR_EGFRvIII",
+      "coder_A": "",
+      "coder_B": "EGFR mutation/amplification is an entry requirement and is in the title, but the record states no mechanistic link between EGFR and verteporfin (not an EGFR inhibitor).",
+      "proposed": "EGFR_EGFRvIII eligibility, candidate_matched false",
+      "ruling_applied": "manual §5",
+      "reason": "Same item as Coder A's flag. The record names EGFR selection (\"Recurrent High Grade EGFR-Mutated Glioblastoma\") but gives no mechanistic link to verteporfin.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "verteporfin",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "This decides the primary outcome. A6 pending XL: candidate_matched (false) and matched_biomarkers ([]) kept as in the original. D31-A6 as drafted names verteporfin-EGFR as not linked, but XL is correcting A6 (manual §5 counts a mechanistic link from established pharmacology), so the EGFR (mutant or amplified, entry requirement) match for verteporfin awaits XL's corrected A6.",
+  "revisions": []
+}

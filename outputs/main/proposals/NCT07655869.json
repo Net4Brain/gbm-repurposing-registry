@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT07655869",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:other",
+     "coder_A": "integrin alphavbeta3 (NOTA-PRGD2 PET uptake), eligibility, candidate_matched true, dota-eb-rgd2 (flagged uncertain)",
+     "coder_B": "integrin avb3 (NOTA-PRGD2 PET uptake), eligibility, candidate_matched true, dota-eb-rgd2 (flagged uncertain)",
+     "proposed": "counts as candidate-matched selection, flagged imaging_assessed",
+     "ruling_applied": "D30-R2",
+     "reason": "Entry requires \"Tumor uptake confirmed by NOTA-PRGD2 PET/CT\", which is integrin αvβ3 imaging matched to the αvβ3-targeted candidate [177Lu]Lu-DOTA-EB-RGD2. D30-R2 names integrin αvβ3 on PET explicitly.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder B: biomarker:other",
+     "coder_A": "integrin alphavbeta3 (NOTA-PRGD2 PET uptake), eligibility, candidate_matched true, dota-eb-rgd2 (flagged uncertain)",
+     "coder_B": "integrin avb3 (NOTA-PRGD2 PET uptake), eligibility, candidate_matched true, dota-eb-rgd2 (flagged uncertain)",
+     "proposed": "counts as candidate-matched selection, flagged imaging_assessed",
+     "ruling_applied": "D30-R2",
+     "reason": "As above: imaging-assessed target expression with a matched radioligand counts under D30-R2 and is removed in sensitivity analysis 15.",
+     "confidence": "high"},
+    {"type": "disagreement", "item": "tumour_pk_planned",
+     "coder_A": "no", "coder_B": "yes",
+     "proposed": "yes",
+     "ruling_applied": "manual §2",
+     "reason": "Formal PK is blood and urine only (\"from blood and urine sampling\"). The record does, however, plan \"time-activity curves and absorbed radiation doses in organs and tumors (based on whole-body planar imaging and SPECT/CT\", which measures the radiolabelled candidate in tumour over time. The manual's examples are all tissue or CSF sampling, and no ruling covers imaging-based quantification in tumour.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "dota-eb-rgd2", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": true,
+    "matched_biomarkers": [{"biomarker": "other: integrin alphavbeta3 expression (NOTA-PRGD2 PET uptake)", "matched_agent": "dota-eb-rgd2"}],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Registered EARLY_PHASE1, so this belongs to the translational subset (D23), not the primary estimand. XL needs to decide whether radioligand SPECT/CT tumour dosimetry counts as tumour PK; whichever way, apply it to NCT05644080 too (both coders said yes there). Both coders kept device_dependent false for locoregional delivery via Ommaya reservoir; manual R4 could be read otherwise, but this was not queued. NOTA-PRGD2 is diagnostic_agent. Target engagement is yes (\"exploratory biomarker of target engagement\")."
+}

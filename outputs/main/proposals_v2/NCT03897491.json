@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT03897491",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"no\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "Planned endpoints include 'Immune status of the patient: Analytical results for immune parameters (PBMC, CD4+, CD8+) in the respective blood samples' and interstitial fluorescence; the blood immune endpoint is a biomarker endpoint not explicitly linked to 5-ALA iPDT or its target, which W7 codes 'unclear'. No stated pharmacodynamic objective with paired tumour sampling, so not 'yes'.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"no\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "No drug or PpIX concentration in tumour tissue or CSF is planned; 'Interstitial fluorescence data recorded: To determine the rate of patients with fluorescence-negative tumors' is an intra-procedural device/optical readout to classify tumours, not a measurement of the candidate's concentration. No PK is planned at all, so 'no'.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "aminolevulinic acid",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Borderline translational variables only (no screening or primary-outcome impact). If XL treats PpIX fluorescence in tumour as a tumour-exposure measure, tumour_pk would be yes. 5-ALA iPDT is device-dependent (both coders agree).",
+  "revisions": []
+}

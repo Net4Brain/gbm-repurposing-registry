@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT06161519",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "flagged uncertain (MYC/MYCN amplification match)",
+      "coder_B": "",
+      "proposed": "MYC or MYCN amplification, enrichment, candidate_matched true (plx038)",
+      "ruling_applied": "manual §5",
+      "reason": "Cohorts IIA-IIC require MYC/MYCN amplification and the record states the mechanism: 'MYC-driven increase in transcription induces the formation of topoisome complexes (MYC-C/N, Topoisomerase 1 (TOP1)...' with PLX038 'the TOP1 inhibitor'. The manual matches on a mechanistic link to the candidate, which the record supplies, but it is not a standard target-drug pair.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (MYC/MYCN amplification match)",
+      "proposed": "MYC or MYCN amplification, enrichment, candidate_matched true (plx038)",
+      "ruling_applied": "manual §5",
+      "reason": "Same reasoning: record-stated rationale links MYC/MYCN amplification to TOP1 dependence. Note the GBM cohort IID requires absence of amplification ('Recurrent glioblastoma that does not contain MYC or MYCN amplifications'), though GBM with amplification could enter Phase I or cohort IIC.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "plx038",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: MYC or MYCN amplification",
+        "matched_agent": "plx038"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Primary outcome hinges on accepting a record-stated (non-canonical) MYC/MYCN-TOP1 link as candidate-matched; no D30 ruling covers indirect pathway matches. Also consider whether a match that applies only to non-GBM cohorts (GBM cohort IID requires non-amplified tumours) should count for this GBM study."
+}

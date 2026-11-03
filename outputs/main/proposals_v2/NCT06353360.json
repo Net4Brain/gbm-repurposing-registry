@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT06353360",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"temozolomide\", \"tumor treating fields\"]",
+      "coder_B": "[\"temozolomide\"]",
+      "proposed": "[\"temozolomide\"]",
+      "ruling_applied": "D31-C2",
+      "reason": "C2 lists only other drugs and radiotherapy given with the candidate; TTFields is a device ('[DEVICE] Tumor Treating Fields'), and no radiotherapy is given in this adjuvant-phase arm, so the only partner is temozolomide. Regimen stays combination.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "tislelizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Partner list revised under D31-C2 (TTFields is a device, not a partner); no effect on screening or outcomes.",
+  "revisions": [
+    {
+      "convention": "D31-C2",
+      "field": "combination_partners",
+      "from": "[\"temozolomide\", \"tumor treating fields\"]",
+      "to": "[\"temozolomide\"]",
+      "reason": "The arm gives 'Device: Tumor Treating Fields' with tislelizumab and TMZ; C2 lists drugs and radiotherapy only, so the TTFields device is dropped."
+    }
+  ]
+}

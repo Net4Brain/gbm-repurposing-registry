@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT07627334",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "none",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "D30-R8",
+      "reason": "Therapy follows 'Based on the results of the PDC-based drug screening, a molecular tumor board will formulate a personalized treatment approach'; no drugs are named and the record never says they are approved or licensed, so R8 gives no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "unspecified_approved_panel",
+      "coder_B": "[]",
+      "proposed": "[] (no candidates)",
+      "ruling_applied": "D30-R8",
+      "reason": "unspecified_approved_panel (C13) applies only when the record says the drugs are approved; it does not. The only registered intervention is a 'Diagnostic Test: CBmed drug screening platform'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D30-R8",
+      "reason": "As above: screen-assigned, unnamed drugs not stated to be approved = no_pharmacological_candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=false",
+      "proposed": "has_eligible_candidate=false",
+      "ruling_applied": "D30-R8",
+      "reason": "Coder A's own note says 'drugs not named and not stated to be approved', which is exactly R8's no-candidate case.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:unspecified_approved_panel",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "(no row)",
+      "proposed": "remove row (no candidate)",
+      "ruling_applied": "D30-R8",
+      "reason": "R8: no panel row unless the record says the drugs are approved; trial listed separately with the R8 screen-guided trials.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate=true",
+      "coder_B": "has_eligible_candidate=false",
+      "proposed": "has_eligible_candidate=false",
+      "ruling_applied": "D30-R8",
+      "reason": "Coder B's coding is confirmed by R8.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "radiotherapy, temozolomide (in some patients)",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "manual §2 regimen (manual R1)",
+      "reason": "With no candidate, regimen is not_applicable and no combination partners are recorded.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "combination",
+      "coder_B": "not_applicable",
+      "proposed": "not_applicable",
+      "ruling_applied": "manual §2 regimen (manual R1)",
+      "reason": "The manual sets regimen to not_applicable whenever has_eligible_candidate is false.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so the record also fails S3 before S6. any_molecular_selection=true from 'Unmethylated MGMT promotor per local assessment' (a required value, eligibility under D31-A8). D31-B12 does not apply because the record never says the screen-chosen drugs are approved, so D30-R8 gives no_pharmacological_candidate (named explicitly by R8; the registered intervention is a diagnostic test, not a therapeutic device, so D31-C1 does not change the reason). D30-R8 says such trials are listed separately. Harmonisation: no change; D30-R8 names no_pharmacological_candidate for screen-guided trials whose drugs are not stated to be approved, and this specific ruling is kept over the general D31-C1 clarification (patients receive drugs; the screen only selects them).",
+  "revisions": [],
+  "harmonisation": []
+}

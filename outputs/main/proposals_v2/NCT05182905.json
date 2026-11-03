@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05182905",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"mixed_glioma_gbm_named\"",
+      "coder_B": "\"gbm_only\"",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1",
+      "reason": "Eligibility is \"glioma (2021 WHO grade IV)\" with no IDH-wildtype requirement; under the cited WHO 2021 classification grade 4 glioma also covers IDH-mutant astrocytoma grade 4, so several glioma types are eligible and glioblastoma is named in conditions. The D27C 'grade 4 glioma = historical GBM' reading (gbm_only) fits WHO 2016 wording, not an explicit 2021 citation. Inclusion is unaffected; only the GBM-only sensitivity analysis changes.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "azd1390",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "EARLY_PHASE1 (Phase 0/1b): translational subset only. Still needs XL: D31 does not settle whether D27C (grade 4 glioma without IDH = GBM, gbm_only) applies when the record cites WHO 2021 (\"glioma (2021 WHO grade IV)\"); proposal reads it as mixed_glioma_gbm_named. cns5 consistent with D31-B4. Inclusion unaffected.",
+  "revisions": []
+}

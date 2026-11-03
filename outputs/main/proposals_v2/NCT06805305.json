@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT06805305",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate=true via pIFN (flagged)",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate=false; candidate_exclusion_reason=excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "pIFN is given only as the vaccine adjuvant (\"DOC1021 administered by injection near deep-cervical lymph nodes + pIFN adjuvant\"; \"weekly pIFN injections ... in parallel with the DOC1021 injections\"), and R4 names pIFN as part of the excluded therapy. It has no arm or outcome of its own (both are 'DOC1021 + pIFN'), so the R4 exception does not apply; the remaining experimental agent is the DOC1021 dendritic cell vaccine (excluded type).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:pifn",
+      "coder_A": "experimental_monotherapy (flagged)",
+      "coder_B": "",
+      "proposed": "part of the excluded vaccine therapy (role excluded_intervention_type); not a candidate",
+      "ruling_applied": "D30-R4",
+      "reason": "Described only as \"pIFN adjuvant\" to the dendritic cell vaccine; R4 explicitly lists pIFN.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "has_eligible_candidate=true via pIFN (flagged)",
+      "proposed": "has_eligible_candidate=false; excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "As above: pIFN as vaccine adjuvant is part of the excluded therapy, leaving no pharmacological candidate (temozolomide is soc_backbone in both arms, filgrastim supportive for leukapheresis).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:pifn",
+      "coder_A": "",
+      "coder_B": "experimental_monotherapy (flagged)",
+      "proposed": "part of the excluded vaccine therapy; not a candidate",
+      "ruling_applied": "D30-R4",
+      "reason": "R4 lists pIFN given to support a vaccine; not tested in its own right.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"doc1021 dendritic cell vaccine\", \"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"doc1021\", \"radiotherapy\", \"temozolomide\"]",
+      "proposed": "[] (regimen not_applicable)",
+      "ruling_applied": "manual §2 (manual R1 wording: regimen not_applicable without a candidate)",
+      "reason": "With no eligible candidate, regimen is not_applicable and no combination partners are recorded; the coders' difference was only the vaccine's naming.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "This proposal reverses both coders' S6 coding (both had pIFN as the sole candidate): applying R4 the trial moves from included to excluded at S6 (excluded_intervention_type). R4 names pIFN explicitly, so the ruling settles it, but XL should be aware the inclusion status changes.",
+  "revisions": []
+}

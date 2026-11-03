@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT04201873",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"autologous tumor lysate-pulsed dendritic cell vaccine (atl-dc)\", \"poly iclc\"]",
+      "coder_B": "[\"atl-dc vaccine\", \"poly iclc\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual §3 (W2); D31-C2; D30-R4",
+      "reason": "Under D31-C2 (clarified) the dendritic cell vaccine and its adjuvant poly ICLC (D30-R4) are excluded components, not pharmacological partners, so no partner is listed.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Both coders coded poly ICLC soc_backbone; under D30-R4 it is a vaccine adjuvant and so part of the excluded therapy (excluded_intervention_type). Not a candidate either way. Harmonisation: under clarified D31-C2 the DC vaccine and poly ICLC are not combination partners, so combination_partners is empty and regimen becomes monotherapy (pembrolizumab the only antitumour drug, no radiotherapy); this does not affect inclusion or the primary outcome.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"dendritic cell vaccine\", \"poly iclc\"]",
+      "to": "[]",
+      "reason": "The DC vaccine is an excluded product and poly ICLC is a vaccine adjuvant under D30-R4, so clarified D31-C2 removes both."
+    },
+    {
+      "check": "C2",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "With no drug or radiotherapy partner left, pembrolizumab is the only antitumour drug in Group A and no radiotherapy is given, which is monotherapy by manual §2."
+    }
+  ]
+}

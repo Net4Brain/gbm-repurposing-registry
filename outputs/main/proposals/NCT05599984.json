@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT05599984",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:carboplatin",
+      "coder_A": "Platinum partner in Part 3b (SCLC/NEC only) could be read as background standard chemotherapy or as a combination candidate; not given in the GBM-eligible parts.",
+      "coder_B": "",
+      "proposed": "soc_backbone (agreed coding stands)",
+      "ruling_applied": "manual §3.1 rule 3 (C1)",
+      "reason": "Part 3b gives ABBV-706 'in combination with carboplatin or cisplatin' to second-line SCLC/NEC patients; platinum is the standard backbone there, like temozolomide in 'Stupp + X', and the investigational question is ABBV-706. Not given in the GBM-eligible parts (1 and 4a).",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:cisplatin",
+      "coder_A": "Platinum partner in Part 3b (SCLC/NEC only) could be read as background standard chemotherapy or as a combination candidate; not given in the GBM-eligible parts.",
+      "coder_B": "",
+      "proposed": "soc_backbone (agreed coding stands)",
+      "ruling_applied": "manual §3.1 rule 3 (C1)",
+      "reason": "Same reasoning as carboplatin: standard platinum backbone in the SCLC/NEC-only Part 3b.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "Part 1 criterion says tumours with 'potential SEZ6 expression'; unclear whether SEZ6 expression is an entry requirement or only retrospective analysis.",
+      "coder_B": "",
+      "proposed": "SEZ6 stays exploratory_correlative (not an entry requirement)",
+      "ruling_applied": "manual §5",
+      "reason": "Tissue is collected 'for retrospective SEZ6 expression analysis'; 'potential SEZ6 expression' describes tumour types, not a test result required for entry. No effect on the primary outcome.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"budigalimab\", \"carboplatin\", \"cisplatin\"]",
+      "proposed": "[]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "Both coders coded regimen 'monotherapy' for the GBM-eligible parts (Part 1 and Part 4a, ABBV-706 alone), so combination_partners should be empty. Budigalimab and platinum are given only in the SCLC/NEC Parts 3a/3b.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "abbv-706",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "budigalimab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Same regimen convention question as NCT06047379 (GBM-eligible arms vs whole trial). Budigalimab is a candidate only in the non-GBM Part 3a; XL may want to decide whether non-GBM-arm candidates count for agent-level analyses."
+}

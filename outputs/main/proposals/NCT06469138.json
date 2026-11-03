@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT06469138",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "not_glioblastoma (uncertain)",
+      "coder_B": "not_glioblastoma (uncertain)",
+      "proposed": "Agreed coding stands: not_glioblastoma",
+      "ruling_applied": "manual §1.1",
+      "reason": "Although 'Glioblastoma' is in conditions, the only eligible participants are 'Males of any race, between 35 and 55 years of age' who are 'In good health'; glioblastoma is not 'explicitly eligible', so it is neither gbm_only nor basket_gbm_eligible but 'anything else'.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "not_glioblastoma (uncertain)",
+      "coder_B": "not_glioblastoma (uncertain)",
+      "proposed": "Agreed coding stands: not_glioblastoma",
+      "ruling_applied": "manual §1.1",
+      "reason": "Healthy-volunteer mass-balance study ('A Study to Investigate 14C-bemcentinib in Healthy Male Subjects'); conditions list the sponsor's development indications only.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate true (bemcentinib experimental_monotherapy)",
+      "coder_B": "has_eligible_candidate true (uncertain)",
+      "proposed": "Agreed coding may stand (bemcentinib experimental_monotherapy); moot because the trial fails S5 first",
+      "ruling_applied": "manual §1 (first failed step gives the exclusion reason)",
+      "reason": "Bemcentinib is the sole investigational agent but is given once for 'Mass Balance Recovery and Metabolic Profile'; with no antitumour intent its candidate status is debatable, but S5 not_glioblastoma excludes the trial before S6.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "bemcentinib", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "unclear",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma); S6 coding has no effect on any analysis."
+}

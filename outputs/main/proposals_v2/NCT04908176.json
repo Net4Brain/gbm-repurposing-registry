@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT04908176",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "KIT mutation is required only for the GIST and non-CNS solid tumour cohorts, not for the CNS/glioblastoma cohort; whether this counts as candidate-matched enrichment for a GBM-eligible trial affects the primary outcome.",
+      "coder_B": "",
+      "proposed": "KIT mutation row recoded role exploratory_correlative, candidate_matched false",
+      "ruling_applied": "D31-A1",
+      "reason": "KIT mutation is required only for the GIST and 'Non-resectable advance solid tumor with KIT mutation' routes, while the CNS route ('glioblastoma ... that has failed prior radiation or systemic SOC therapy') has no KIT requirement; under D31-A1 this is not selection for the trial and the row is exploratory_correlative.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "",
+      "coder_B": "KIT mutation is required only for the GIST and non-CNS solid tumour routes, not for the CNS tumour (glioblastoma) route; whether this counts as selection for the trial's GBM population is doubtful.",
+      "proposed": "KIT mutation row recoded role exploratory_correlative, candidate_matched false",
+      "ruling_applied": "D31-A1",
+      "reason": "KIT mutation is required only for the GIST and 'Non-resectable advance solid tumor with KIT mutation' routes, while the CNS route ('glioblastoma ... that has failed prior radiation or systemic SOC therapy') has no KIT requirement; under D31-A1 this is not selection for the trial and the row is exploratory_correlative.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "avapritinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Settled by D31-A1 (also consistent with NCT05495295): KIT mutation is required only for non-GBM routes, so candidate_matched_selection and any_molecular_selection are false (primary outcome changes from matched to not matched). Midazolam is a CYP3A4 probe (priority-3 role disagreement, not a candidate either way). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "coder A: biomarker:other",
+      "from": "agreed coding stands: KIT mutation, role enrichment, candidate_matched true (avapritinib)",
+      "to": "KIT mutation row recoded role exploratory_correlative, candidate_matched false",
+      "reason": "KIT mutation is required only for the non-GBM (GIST / non-CNS solid tumour) routes, and GBM patients enter without it."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "coder B: biomarker:other",
+      "from": "agreed coding stands: KIT mutation, role enrichment, candidate_matched true (avapritinib)",
+      "to": "KIT mutation row recoded role exploratory_correlative, candidate_matched false",
+      "reason": "KIT mutation is required only for the non-GBM (GIST / non-CNS solid tumour) routes, and GBM patients enter without it."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The only matched row (KIT mutation) applies to non-GBM cohorts only and becomes exploratory_correlative under D31-A1."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "matched_biomarkers",
+      "from": "[{\"biomarker\": \"other: KIT mutation\", \"matched_agent\": \"avapritinib\"}]",
+      "to": "[]",
+      "reason": "KIT mutation row is no longer a selection row under D31-A1."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The CNS/glioblastoma entry route of the inclusion criteria has no molecular requirement, so no eligibility/enrichment row remains."
+    }
+  ]
+}

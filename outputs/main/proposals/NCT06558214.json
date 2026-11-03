@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT06558214",
+  "items": [
+    {"type": "disagreement", "item": "combination_partners", "coder_A": "[]", "coder_B": "[\"mri-guided laser ablation (neuroblate)\", \"optune gio (ttfields)\"]",
+     "proposed": "[]",
+     "ruling_applied": "manual §2",
+     "reason": "Manual §2 defines combination partners as other antitumour drugs or radiotherapy; Optune GIO (TTFields) and NeuroBlate (MLA) are registered as 'Device' interventions, so pembrolizumab is the only antitumour drug and regimen is monotherapy (agreed) with no partners. The devices could be noted in coder_notes.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "pembrolizumab", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Medium only because the manual's monotherapy definition ignores non-drug antitumour devices (TTFields, laser ablation); if XL prefers to record them, list them as partners without changing regimen. IDH-wildtype row is diagnostic, not molecular selection."
+}

@@ -1,0 +1,30 @@
+{
+  "nct_id": "NCT05297864",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:other",
+     "coder_A": "Tissue for the myChoice HRD assay is required before treatment, but no assay result is required for entry; coded exploratory_correlative, though could be read as an eligibility biomarker matched to niraparib (primary outcome).",
+     "coder_B": "",
+     "proposed": "exploratory_correlative (not eligibility); candidate_matched_selection false",
+     "ruling_applied": "manual §5",
+     "reason": "The inclusion criterion requires only that tissue \"must be obtained for molecular assay by myChoice test (Myriad Genetics) prior to study treatment initiation\". No result is an entry requirement, and the manual counts a biomarker as eligibility only if it is an entry requirement. Both coders agree on exploratory_correlative.",
+     "confidence": "high"},
+    {"type": "disagreement", "item": "cns5_terminology",
+     "coder_A": "\"historical\"", "coder_B": "\"unclear\"",
+     "proposed": "historical",
+     "ruling_applied": "manual §1.1",
+     "reason": "Eligibility allows \"high-grade gliomas - GBM, Astrocytoma, or Oligodendroglioma (glioma WHO Grade III or IV)\" with no IDH requirement. Under C8, \"grade 4/IV ... glioma without an IDH requirement\" is historical terminology.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "niraparib", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Coder A marked the myChoice row candidate_matched true and Coder B false (priority 3). Because the role is exploratory_correlative, this does not affect the primary outcome."
+}

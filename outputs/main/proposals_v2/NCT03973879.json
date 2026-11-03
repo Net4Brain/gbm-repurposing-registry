@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT03973879",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma named only in keywords; inclusion relies on 'WHO grade IV malignant glioma' without IDH requirement being read as historical glioblastoma (D27C); otherwise high_grade_glioma_unspecified.",
+      "coder_B": "",
+      "proposed": "gbm_only / historical (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (D27C)",
+      "reason": "Inclusion requires 'a recurrent supratentorial WHO grade IV malignant glioma' with no IDH requirement; manual §1.1 counts grade 4/IV glioma without IDH as historical glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only in keywords; population is WHO grade IV malignant glioma with no IDH requirement, coded as historical glioblastoma per manual 1.1 (grade 4 glioma); could instead be high_grade_glioma_unspecified.",
+      "coder_B": "",
+      "proposed": "gbm_only / historical (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (D27C)",
+      "reason": "Same as coder A: 'WHO grade IV malignant glioma' named in title and inclusion, no IDH requirement, so historical glioblastoma rather than high_grade_glioma_unspecified.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"pvsripo\"]",
+      "coder_B": "[\"pvsripo oncolytic virus\"]",
+      "proposed": "[\"pvsripo\"]",
+      "ruling_applied": "",
+      "reason": "Naming difference only; both denote the oncolytic virus PVSRIPO (excluded intervention type). Regimen 'combination' is unaffected.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atezolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "",
+  "revisions": []
+}

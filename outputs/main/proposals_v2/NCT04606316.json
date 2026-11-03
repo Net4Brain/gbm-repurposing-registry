@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT04606316",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"ipilimumab\", \"nivolumab\"]",
+      "coder_B": "[\"ipilimumab\"]",
+      "proposed": "[\"ipilimumab\", \"nivolumab\"]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "Both antibodies are candidates given together (\"participants receive nivolumab in combination with ipilimumab every 3 weeks\"); regimen counts all antitumour therapy in the experimental arm, so listing both components (as both coders did for two-candidate regimens elsewhere) is the complete record. regimen=combination is agreed and unaffected.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Bookkeeping-only disagreement; no effect on screening, candidates or biomarker outcomes. Priority-3 item: the 89Zr-crefmirlimab berdoxam PET tracer (coder B only) is not a registered intervention and is an optional sub-study tracer, so under manual §3 (R9 wording: do not list agents mentioned only in passing) coder A's omission is preferred. IDH (exclusion of IDH-mutant) defines GBM only.",
+  "revisions": []
+}

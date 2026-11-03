@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT04600817",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag", "coder_A": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)", "coder_B": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+     "proposed": "Agreed coding stands: has_eligible_candidate false, no_pharmacological_candidate (TJ107 supportive)",
+     "ruling_applied": "manual §3.1 rule 2",
+     "reason": "TJ107 is given to patients selected for 'Absolute lymphocyte count (ALC) ≤1×109/L' and the only outcome is 'The percentage of patients with average of ALC at 3w after first TJ107 dose ... ≥1.5X109/L'; no antitumour hypothesis or antitumour outcome is stated, so rule 2 (supportive) applies. 'Efficacy' in the title refers to this ALC endpoint.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: candidate_flag", "coder_A": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)", "coder_B": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+     "proposed": "Agreed coding stands: has_eligible_candidate false, no_pharmacological_candidate (TJ107 supportive)",
+     "ruling_applied": "manual §3.1 rule 2",
+     "reason": "Same as above: the record states only lymphocyte-count recovery for TJ107, not an antitumour hypothesis or outcome. Rule 2's listed purposes (seizures, oedema, nausea, etc.) do not name lymphopenia explicitly, so this is an analogy rather than a direct rule.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "S6 hinges on whether correcting treatment-related lymphopenia with an immune cytokine (TJ107, an IL-7 agent per coder hints; the record does not state its mechanism) is supportive care. The record gives no antitumour hypothesis, so supportive is proposed, but rule 2 does not list lymphopenia; XL should confirm. If TJ107 were a candidate: experimental_monotherapy, regimen combination (adjuvant temozolomide), target_engagement arguably yes (ALC in blood)."
+}

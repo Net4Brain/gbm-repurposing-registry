@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT06869577",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Participants are caregivers of glioblastoma patients (patients also complete questionnaires); glioblastoma is named in the conditions but the enrolled population is not a patient treatment population.",
+      "coder_B": "",
+      "proposed": "gbm_only (agreed coding stands)",
+      "ruling_applied": "manual §1 (S3, S6)",
+      "reason": "Caregiver behavioural intervention ('Family caregivers (≥18 years) to patients (≥18 years) diagnosed with a GBM grade IV'); phase NA, so it is excluded at S3 (phase_not_applicable) by the script before S5, and it would also fail S6. The S5 value cannot change the outcome.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S3 (phase NA) before S5/S6 apply."
+}

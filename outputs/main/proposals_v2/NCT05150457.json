@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT05150457",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2",
+      "reason": "The record registers six EXPERIMENTAL arms (\"Dose Escalation Phase, Dose Level 1\" to \"Dose Level 6\"), so it is not a single-arm trial. Manual R8 defines 'no' as more than one arm with none working as a control.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "bna035",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "near-miss: excluded at S5 under D31-B5 (GBM named only in the measurability criterion, a steroid-limit inclusion criterion and an exclusion criterion, never in the eligibility population, conditions or title); list in the supplement. basket flag and the S6 coding are kept as drafted. control_arm_from_other_arms 'no' is confirmed by D31-C4 (dose levels registered as separate arms).",
+  "revisions": [
+    {
+      "convention": "D31-B5",
+      "field": "proposed_final.gbm_population",
+      "from": "basket_gbm_eligible",
+      "to": "not_glioblastoma",
+      "reason": "Glioblastoma is not named in the conditions (\"Refractory Solid Tumors\"), title or the eligibility population (\"advanced malignant solid tumor\"); it appears only in the measurability criterion (\"RANO criteria for patients with glioblastoma multiforme\"), a steroid-dose limit and the exclusion criteria (\"Patients with GBM are eligible\"), which D31-B5 does not accept."
+    }
+  ]
+}

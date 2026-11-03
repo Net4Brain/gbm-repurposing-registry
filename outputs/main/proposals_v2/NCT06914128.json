@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT06914128",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"unspecified other treatments (nsclc and pdac expansion cohorts)\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C3",
+      "reason": "In baskets the regimen is coded for the GBM arms (D31-C3); the GBM cohort 7 gives \"BAY 3713372 alone\", so no partner is given with the candidate there (D31-C2).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "bay 3713372",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "unclear",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: MTAP homozygous deletion",
+        "matched_agent": "bay 3713372"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Both coders agree on MTAP-deletion eligibility matched to the PRMT5 inhibitor (\"Homozygous MTAP-deletion identified through molecular testing\", required of all participants including the GBM cohort, so D31-A1 does not apply; the record states the link: blocking PRMT5 \"may kill the MTAP-deleted cancer cells\"). Regimen monotherapy and no partners per D31-C3 (GBM window cohort 7 is monotherapy).",
+  "revisions": [
+    {
+      "convention": "D31-C3",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"unspecified other treatments (nsclc and pdac expansion cohorts)\"]",
+      "to": "[]",
+      "reason": "The GBM arm is \"A surgical window-of-opportunity trial of BAY 3713372 alone in participants with MTAP-deleted glioblastoma\"; partners in NSCLC/PDAC cohorts are not given to GBM patients."
+    },
+    {
+      "convention": "D31-C3",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "D31-C3 codes the regimen of the GBM arms in baskets, and Intervention Cohort 7 gives \"BAY 3713372 alone\"."
+    }
+  ]
+}

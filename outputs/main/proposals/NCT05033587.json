@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT05033587",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"anlotinib\", \"penpulimab\", \"radiotherapy\"]",
+      "coder_B": "[\"anlotinib\", \"penpulimab\"]",
+      "proposed": "[\"anlotinib\", \"penpulimab\", \"radiotherapy\"]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "Radiotherapy is part of the experimental arm ('The conventional radiotherapy regimen delivered 2.0Gy ... to a total dose of 60Gy') and, under the manual, radiotherapy in the experimental arm makes it a combination, so list it as a partner (as both coders did for NCT05076513).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "penpulimab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "anlotinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "MGMT-unmethylated is an entry requirement (any_molecular_selection true), never candidate-matched."
+}

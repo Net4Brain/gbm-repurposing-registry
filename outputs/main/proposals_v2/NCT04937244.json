@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT04937244",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"mixed_glioma_gbm_named\"",
+      "coder_B": "\"high_grade_glioma_unspecified\"",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology historical",
+      "ruling_applied": "D30-R7 (by analogy), D27C",
+      "reason": "Inclusion requires 'glioma (World Health Organization grade II or IV)', so grade 4 is explicitly allowed with no IDH requirement; under D27C/R7 a grade IV glioma without IDH is historical glioblastoma, and several glioma grades are eligible. R7 names grade 3–4 wording, but the operative conditions (grade 4 explicit, no IDH, GBM never named) are met.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is not named; only 'glioma (WHO grade II or IV)' without IDH requirement, treated as historical GBM name per D27C, but could be read as not explicitly named (not_glioblastoma / high-grade unspecified).",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology historical",
+      "ruling_applied": "D30-R7 (by analogy), D27C",
+      "reason": "Inclusion requires 'glioma (World Health Organization grade II or IV)', so grade 4 is explicitly allowed with no IDH requirement; under D27C/R7 a grade IV glioma without IDH is historical glioblastoma, and several glioma grades are eligible. R7 names grade 3–4 wording, but the operative conditions (grade 4 explicit, no IDH, GBM never named) are met.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot for inclusion: registered PHASE4 (excluded at S3); 5-ALA is used only for fluorescence-guided resection ('diagnostic_agent') and the tested intervention is the ORBEYE exoscope filter (a device), so the S6 reason is excluded_intervention_type (D31-C1). Population 'glioma (WHO grade II or IV)' kept as historical GBM under D30-R7 by analogy (grade 4 explicit, no IDH, GBM never named).",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The intervention under test is a device (the ORBEYE exoscope blue-light filter, outcomes 'Focal Distance', 'Light Intensity', 'Working Angle'), with 5-ALA only a diagnostic_agent for fluorescence-guided resection."
+    }
+  ]
+}

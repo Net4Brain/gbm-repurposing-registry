@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05835687",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Paediatric-oriented CNS tumour trial (age up to 21, CHILD and ADULT); glioblastoma only appears in conditions; could alternatively be coded basket_gbm_eligible or not_glioblastoma.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (agreed coding stands)",
+      "ruling_applied": "manual §1.1 C7",
+      "reason": "Glioblastoma is named in the conditions ('High Grade Glioma; Glioblastoma; Medulloblastoma'), which C7 accepts, and several glioma types are eligible; the age cap (≤ 21) is handled by the mixed_age flag, not S5. basket_gbm_eligible would also include it, so the choice does not change screening.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "both",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot: the only agent is B7-H3 CAR T cells (excluded type), so excluded at S6. GBM can only enter Cohort A (relapsed/refractory, B7-H3 positive). B7-H3 and H3K27M requirements are not candidate-matched (no candidate)."
+}

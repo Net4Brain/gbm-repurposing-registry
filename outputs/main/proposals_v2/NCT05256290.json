@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT05256290",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "no",
+      "coder_B": "not_applicable",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (R8 of manual v1.2)",
+      "reason": "Four registered EXPERIMENTAL arms (Phase 1 escalation and three Phase 2 cohorts), none acting as a control; the defined value for 'more than one arm but none works as a control' is 'no'. not_applicable is reserved for single-arm trials.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "silevertinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "EGFR_EGFRvIII",
+        "matched_agent": "silevertinib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "GBM eligible only in the closed Phase 1 dose-escalation arm ('Recurrent GBM with confirmed EGFR alterations'); EGFR alteration is required for the GBM patients themselves, so D31-A1 does not apply and EGFR + silevertinib stays candidate-matched (agreed). control_arm_from_other_arms 'no' is consistent with D31-C4.",
+  "revisions": []
+}

@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT06636162",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag",
+     "coder_A": "not_glioblastoma (flagged: Arm B may admit grade IV glioma without IDH requirement)",
+     "coder_B": "not_glioblastoma",
+     "proposed": "not_glioblastoma (agreed coding stands, provisionally)",
+     "ruling_applied": "manual §1.1 (IDH-mutant-only note); R7 considered",
+     "reason": "Glioblastoma is never named; the trial is framed as an IDH-mutant glioma study (conditions \"Glioma, Malignant; IDH Mutation\"; summary \"patients with IDH-mutant glioma\"), and the recurrent route requires \"histologically confirmed IDH-mutant glioma\". R7 requires no IDH requirement, which is not met here. However, the newly diagnosed route admits \"suspected high grade glioma\" before IDH status is known, so IDH-wildtype grade 4 tumours are not formally excluded.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "dsp-0390", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "IDH", "matched_agent": "dsp-0390"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Low practical impact: the record is EARLY_PHASE1, so it can enter only the translational subset (D23), never the primary estimand. The S5 question is whether an IDH-mutant-targeted window study whose newly diagnosed arm admits radiographically suspected high-grade glioma (IDH status unknown at entry) counts as IDH-mutant-only (not_glioblastoma) or as R7 historical grade 3-4 glioma (mixed_glioma_gbm_named). The IDH-mutant requirement on the recurrent route and in conditions argues against R7. If XL includes it, the IDH-mutant match to DSP-0390 (both coders: candidate_matched=true, stated hypothesis 'alterations in cholesterol metabolism driven by mutant IDH will increase susceptibility to DSP-0390') would be a positive primary outcome needing D21 review; its scope is the recurrent route only."
+}

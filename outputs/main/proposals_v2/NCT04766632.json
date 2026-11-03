@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT04766632",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Inclusion: 'Histological diagnosis of WHO grade III or IV glioma, in local recurrence after radiochemotherapy', grade 4 explicitly allowed, no IDH requirement; R7 includes this as historical glioblastoma (conditions only say 'High Grade Glioma', but the inclusion criterion states the grade).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named (uncertain)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "R7 confirms A's D27C reading of 'WHO grade III or IV glioma'.",
+      "confidence": "high"
+    },
+    {
+      "type": "convention",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "no_pharmacological_candidate",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "The intervention under test is a non-drug device ('Device: Brain PET-CT of 18F-DOPA') used for re-irradiation target delineation; D31-C1 reserves no_pharmacological_candidate for trials with no non-drug intervention under test.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA imaging study (18F-DOPA PET for re-irradiation planning): excluded at S3 regardless; 18F-DOPA is a diagnostic_agent only. S6 reason changed to excluded_intervention_type under D31-C1 (a PET-CT device is under test); C1's examples are therapeutic devices, so this is a literal reading, moot because S3 excludes first.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The registered intervention under test is 'Device: Brain PET-CT of 18F-DOPA', a non-drug intervention, so D31-C1 does not allow no_pharmacological_candidate."
+    }
+  ]
+}

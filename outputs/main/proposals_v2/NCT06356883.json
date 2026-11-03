@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT06356883",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"doxorubicin\", \"etoposide\"]",
+      "coder_B": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "proposed": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "ruling_applied": "D31-B7",
+      "reason": "IA carboplatin is given identically in both arms and is described as institutional standard (\"it is nowadays considered a standard of care for relapsing tumours in our institution\"). Rule 3 (C3) makes a drug that every arm receives soc_backbone; the question is Caelyx versus etoposide phosphate added to IA carboplatin. Carboplatin is not a D6 established GBM therapy, and IA catheter delivery is a route, not a device, so neither exception to rule 3 applies. D31-B7: IA carboplatin is a non-standard drug given identically in both arms while the add-on is randomised, so it stays a candidate; it is institutional, not established standard care for recurrent glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:carboplatin:role",
+      "coder_A": "soc_backbone",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B7",
+      "reason": "\"IA carboplatin (400 mg/m^2)\" is the same in both experimental arms and is the institution's standard IA agent (\"carboplatin is the primary chemotherapeutic agent for IA infusions\"), so it is backbone under C3. D31-B7: IA carboplatin is a non-standard drug given identically in both arms while the add-on is randomised, so it stays a candidate; it is institutional, not established standard care for recurrent glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:doxorubicin:role",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B7",
+      "reason": "With carboplatin as backbone, IA Caelyx (pegylated liposomal doxorubicin) is the only investigational agent in \"IA Carboplatin + IA Caelyx\", so rule 4 applies even on a backbone (C1). With carboplatin a candidate (D31-B7), Caelyx is one of two investigational agents in its arm (rule 5).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:etoposide:role",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B7",
+      "reason": "IA etoposide phosphate is the only investigational agent in \"IA Carboplatin + IA Etoposide Phosphate\", the carboplatin being backbone. With carboplatin a candidate (D31-B7), etoposide phosphate is one of two investigational agents in its arm (rule 5).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:carboplatin",
+      "coder_A": "soc_backbone (flagged uncertain)",
+      "coder_B": "experimental_combination",
+      "proposed": "experimental_combination",
+      "ruling_applied": "D31-B7",
+      "reason": "The record calls carboplatin \"At the heart of the present study\", but the randomised comparison is between the two add-on agents. The carboplatin dose, route and schedule are identical across arms, which is the C3 case. D31-B7: IA carboplatin is a non-standard drug given identically in both arms while the add-on is randomised, so it stays a candidate; it is institutional, not established standard care for recurrent glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"carboplatin\"]",
+      "coder_B": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "proposed": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "ruling_applied": "D31-C2; D31-B7",
+      "reason": "The non-candidate antitumour partner in the experimental arms is IA carboplatin (soc_backbone). Doxorubicin and etoposide are the candidates themselves, in separate arms. Under D31-B7 carboplatin is a co-candidate, and D31-C2 lists co-candidates, so coder B's list is adopted.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "carboplatin",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "doxorubicin",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "etoposide",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Under D31-B7 IA carboplatin (institutional standard only) is a candidate, and Caelyx and etoposide phosphate are experimental_combination; S6 is met either way. All three are approved oncology drugs given intra-arterially (formulation_flag new_route; the etoposide prodrug/new_route difference is priority 3 and not adjudicated). 'Glioblastoma multiforme' makes the terminology historical.",
+  "revisions": [
+    {
+      "convention": "D31-B7",
+      "field": "items[candidate_set].proposed",
+      "from": "[\"doxorubicin\", \"etoposide\"]",
+      "to": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "reason": "IA carboplatin is given identically in both arms ('IA carboplatin (400 mg/m^2)') and is standard only 'in our institution', so under D31-B7 it is experimental_combination, not soc_backbone."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "items[agent:carboplatin:role].proposed",
+      "from": "soc_backbone",
+      "to": "experimental_combination",
+      "reason": "IA carboplatin is given identically in both arms ('IA carboplatin (400 mg/m^2)') and is standard only 'in our institution', so under D31-B7 it is experimental_combination, not soc_backbone."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "items[coder A: agent:carboplatin].proposed",
+      "from": "soc_backbone",
+      "to": "experimental_combination",
+      "reason": "IA carboplatin is given identically in both arms ('IA carboplatin (400 mg/m^2)') and is standard only 'in our institution', so under D31-B7 it is experimental_combination, not soc_backbone."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "items[agent:doxorubicin:role].proposed",
+      "from": "experimental_monotherapy",
+      "to": "experimental_combination",
+      "reason": "With IA carboplatin a candidate under D31-B7, IA Caelyx is one of two investigational agents in 'IA Carboplatin + IA Caelyx'."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "items[agent:etoposide:role].proposed",
+      "from": "experimental_monotherapy",
+      "to": "experimental_combination",
+      "reason": "With IA carboplatin a candidate under D31-B7, IA etoposide phosphate is one of two investigational agents in 'IA Carboplatin + IA Etoposide Phosphate'."
+    },
+    {
+      "convention": "D31-C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"carboplatin\"]",
+      "to": "[\"carboplatin\", \"doxorubicin\", \"etoposide\"]",
+      "reason": "Each candidate is given with IA carboplatin, and D31-C2 lists co-candidates; doxorubicin and etoposide are in separate arms but both are trial candidates."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "proposed_final.candidates",
+      "from": "[{\"active_moiety\": \"doxorubicin\", \"role\": \"experimental_monotherapy\", \"device_dependent\": false}, {\"active_moiety\": \"etoposide\", \"role\": \"experimental_monotherapy\", \"device_dependent\": false}]",
+      "to": "[{\"active_moiety\": \"carboplatin\", \"role\": \"experimental_combination\", \"device_dependent\": false}, {\"active_moiety\": \"doxorubicin\", \"role\": \"experimental_combination\", \"device_dependent\": false}, {\"active_moiety\": \"etoposide\", \"role\": \"experimental_combination\", \"device_dependent\": false}]",
+      "reason": "Carboplatin becomes a candidate under D31-B7 and doxorubicin and etoposide become experimental_combination, matching the items."
+    }
+  ]
+}

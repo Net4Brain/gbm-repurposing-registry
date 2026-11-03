@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05106296",
+  "items": [
+    {"type": "disagreement", "item": "candidate_set",
+     "coder_A": "[\"ibrutinib\"]", "coder_B": "[\"ibrutinib\", \"indoximod\"]",
+     "proposed": "[\"ibrutinib\"]",
+     "ruling_applied": "manual §3.1 rule 3 (C3)",
+     "reason": "Indoximod is given in every arm as part of \"previously studied chemo-immunotherapy regimens comprised of the investigational IDO-inhibitor indoximod plus oral palliative chemotherapy\", and patients previously on indoximod may enrol; the trial's question is the dose of the added agent (\"determine the pediatric recommended phase 2 dose (RP2D) of ibrutinib, when combined with indoximod-based chemo-immunotherapy\"). C3: a drug every arm receives is backbone, and the investigational question decides the candidate.",
+     "confidence": "medium"},
+    {"type": "disagreement", "item": "agent:ibrutinib:role",
+     "coder_A": "experimental_monotherapy", "coder_B": "experimental_combination",
+     "proposed": "experimental_monotherapy",
+     "ruling_applied": "manual §3.1 rule 4 (C1, C3)",
+     "reason": "With indoximod as backbone, ibrutinib is the only agent under investigation (\"Repurposing Ibrutinib ... Phase 1b Study of Ibrutinib With Indoximod Plus Metronomic Cyclophosphamide and Etoposide\"), so rule 4 applies even on a backbone.",
+     "confidence": "medium"},
+    {"type": "disagreement", "item": "agent:indoximod:role",
+     "coder_A": "soc_backbone", "coder_B": "experimental_combination",
+     "proposed": "soc_backbone",
+     "ruling_applied": "manual §3.1 rule 3 (C3)",
+     "reason": "Given identically in both regimens (\"Patients will be treated with ibrutinib plus indoximod\" in Regimens A and B) as the previously studied base regimen; C3 applies to drugs every arm receives even when they are not GBM standard of care. The counter-reading is that the stated hypothesis is the ibrutinib + indoximod synergy, with indoximod itself still investigational.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder A: agent:indoximod",
+     "coder_A": "soc_backbone (flagged: could be experimental_combination)", "coder_B": "",
+     "proposed": "soc_backbone",
+     "ruling_applied": "manual §3.1 rule 3 (C3)",
+     "reason": "Same as above: indoximod forms the common base regimen in every arm and the dose-finding question concerns ibrutinib only.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "ibrutinib", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Trial inclusion is unaffected (ibrutinib is a candidate either way), but whether the unapproved IDO inhibitor indoximod enters the candidate/agent counts depends on this decision. C3 supports backbone; the brief summary's 'central clinical hypothesis' of ibrutinib + indoximod synergy supports experimental_combination. Population: paediatric/young-adult multi-histology brain tumour trial (ages 6-25, mixed_age); both coders agree on mixed_glioma_gbm_named."
+}

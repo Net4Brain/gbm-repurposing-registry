@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT04782609",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"no\"",
+      "proposed": "yes",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "The record states a pharmacodynamic objective for the candidate ('evaluate the safety, pharmacokinetics (PK), pharmacodynamics, and MTD of single agent oral icapamespib'). Part 2 requires 'at least 5 subjects clinically requiring reoperation', with 'Tissue samples collected at surgery after icapamespib treatment', so post-treatment tumour is sampled. No PD marker is named, and paired pre/post sampling is not stated explicitly (the pre-treatment tissue would be archival).",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "yes",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "The primary outcome is 'Icapamespib Plasma Concentration at Time of Surgery: Tissue samples collected at surgery after icapamespib treatment.' The outcome description names tissue samples, and the design adds a surgical cohort, which is a window-of-opportunity drug-level measurement in tumour. W7 reserves 'unclear' for an unstated sample type, but here the title ('Plasma') and description ('Tissue') conflict.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "icapamespib", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Both D23 translational variables are borderline. target_engagement could also be argued 'no': the PD objective is stated, but no marker or paired sampling is described. tumour_pk could also be 'unclear' because the outcome text conflicts (plasma in the title, tissue in the description). any_molecular_selection is true through the IDH-mutant requirement for Part 1's astrocytoma option. IDH-wildtype only defines GBM, but IDH-mutant grade 3/4 astrocytoma is a separate eligible group; XL may consider that IDH also only defines the disease here."
+}

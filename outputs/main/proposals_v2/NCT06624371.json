@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT06624371",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "high_grade_glioma_unspecified (uncertain: pHGG 'WHO Grade 3 or 4' could be historical grade 4 glioma)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named (cns5_terminology: historical)",
+      "ruling_applied": "D30-R7; D31-B1",
+      "reason": "Inclusion: 'histologically confirmed pediatric high-grade glioma (pHGG, WHO Grade 3 or 4)'. Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named, which is the R7 pattern. Against this, 'pediatric high-grade glioma' and 'Diffuse Midline Glioma, H3 K27M-Mutant' are CNS5-style entities that WHO 2021 separates from glioblastoma, and R7 does not address paediatric-type HGG.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atovaquone",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-B1 settles the population: paediatric 'WHO Grade 3 or 4' HGG is covered by D30-R7, so mixed_glioma_gbm_named/historical and the trial is included (consistent with NCT05553041). D31-A2: the H3K27-altered DMG route is optional, so the H3K27M row does not count and any_molecular_selection is false. D31-C3: atovaquone is given concurrently with RT in Stratum 1, so regimen combination stands. Priority-3 control_arm_from_other_arms: two parallel non-control strata, so 'no'. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-B1",
+      "field": "items[coder A: gbm_population_flag].ruling_applied",
+      "from": "D30-R7",
+      "to": "D30-R7; D31-B1 (confidence low -> high)",
+      "reason": "D31-B1 applies D30-R7 to 'pediatric high-grade glioma (pHGG, WHO Grade 3 or 4)'; age is handled at S4."
+    },
+    {
+      "convention": "D31-A2",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "H3K27 alteration is only one optional route ('pHGG, WHO Grade 3 or 4) or diffuse midline glioma with altered H3K27'), not an entry requirement."
+    }
+  ]
+}

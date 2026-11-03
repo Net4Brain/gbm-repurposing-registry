@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT05737212",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"borofalan\"]",
+      "coder_B": "[\"boronophenylalanine\"]",
+      "proposed": "borofalan",
+      "ruling_applied": "manual §3 (C5, INN spelling)",
+      "reason": "Same agent: the record names 'boronophenylalanine, DMX-101' (BPA); borofalan (10B) is the INN for this moiety, so the INN form is preferred; moieties are re-mapped by script anyway.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "no biomarker row (IDH not a selection biomarker)",
+      "ruling_applied": "manual §5",
+      "reason": "IDH appears only as WHO 2021 diagnostic categories ('Glioblastoma, IDH wildtype, WHO grade 4' alongside IDH-mutant astrocytoma); IDH-wildtype used to define GBM is excluded from molecular selection and is never candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "flagged uncertain (BPA = device-dependent candidate)",
+      "coder_B": "",
+      "proposed": "candidate (experimental_monotherapy, device_dependent true)",
+      "ruling_applied": "manual §1.2 (C12); manual R4",
+      "reason": "'Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr' is a drug whose antitumour effect needs neutron irradiation (device: 'DM-BNCT'), the drug-device pattern of C12; no D30 ruling covers BNCT, and the radiation-only reading is possible since dose escalation is of radiation.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (BPA = device-dependent candidate)",
+      "proposed": "candidate (experimental_monotherapy, device_dependent true)",
+      "ruling_applied": "manual §1.2 (C12); manual R4",
+      "reason": "As for coder A: BPA is the registered 'Investigational product' activated by neutron capture; coded as drug-device candidate, pending XL view on whether BNCT is treated as radiotherapy only.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §5",
+      "reason": "The only biomarker in question is IDH-wildtype used to define glioblastoma (Phase IIa 'Glioblastoma IDH-wild type, WHO Grade 4'), which is excluded from any_molecular_selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"neutron irradiation (bnct)\"]",
+      "proposed": "[\"neutron irradiation (bnct)\"]",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "Neutron irradiation is registered as a Radiation intervention with dose escalation ('Radiation dose: 9 Gy-Eq'), so it counts as radiotherapy in the experimental arm; the alternative is to treat the beam as the activating device (as light in PDT).",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "\"monotherapy\"",
+      "coder_B": "\"combination\"",
+      "proposed": "combination",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "Monotherapy requires 'no radiotherapy in the experimental arm'; each arm gives BPA 'followed by neutron irradiation to reach maximum brain dose of 9Gy-Eq', registered as [RADIATION]. Low confidence because under C12 the neutron beam could be seen as the activating device.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "borofalan",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "BNCT is not covered by any D30 ruling: decide whether boronophenylalanine (borofalan) with neutron irradiation is a device-dependent drug candidate (C12) or a radiotherapy-only trial (would fail S6). If it stays a candidate, decide whether the neutron beam is radiotherapy (regimen combination) or only the activating device (monotherapy)."
+}

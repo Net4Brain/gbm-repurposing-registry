@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT07130149",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "unclear",
+      "proposed": "yes",
+      "ruling_applied": "manual §2",
+      "reason": "The record plans 'Biomarker correlation (EGFR expression, ROS levels) with SDT response using multiplex IHC and RNA sequencing', and ROS is the candidate's stated mechanism ('activate the sonosensitizer Hiporfin® ... generating cytotoxic reactive oxygen species (ROS)'). Because the biomarker is linked to the candidate's mechanism, 'unclear' (biomarker not linked to the candidate) does not fit; but no pre/post sampling or pharmacodynamic objective is stated, so ROS could be a baseline correlate, which would make it 'no'.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "hematoporphyrin",
+        "role": "experimental_combination",
+        "device_dependent": true
+      },
+      {
+        "active_moiety": "bevacizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "B7 change: bevacizumab (both arms, newly diagnosed) is a candidate (experimental_combination), not soc_backbone; temozolomide and radiotherapy remain soc_backbone; hematoporphyrin (device_dependent) becomes experimental_combination; regimen stays combination. Still needs XL: target_engagement_planned (yes vs no). The record plans an exploratory 'Biomarker correlation (EGFR expression, ROS levels) with SDT response' by IHC/RNA-seq but states no PD objective or pre/post sampling, so D31-C6 (PD objective without measurement) does not settle it.",
+  "revisions": [
+    {
+      "convention": "D31-B7",
+      "field": "proposed_final.candidates[bevacizumab]",
+      "from": "soc_backbone (not listed)",
+      "to": "experimental_combination",
+      "reason": "Bevacizumab 7.5-10 mg/kg q3w is given identically in both arms of a newly diagnosed trial while SDT is randomised; it is not established standard care for newly diagnosed GBM, so it stays a candidate."
+    },
+    {
+      "convention": "D31-B7",
+      "field": "proposed_final.candidates[hematoporphyrin].role",
+      "from": "experimental_monotherapy",
+      "to": "experimental_combination",
+      "reason": "With bevacizumab a co-candidate in the experimental arm, hematoporphyrin is one of two investigational agents (manual rule 5)."
+    }
+  ]
+}

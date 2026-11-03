@@ -1,0 +1,45 @@
+{
+  "nct_id": "NCT07485049",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide (arm b)\"]",
+      "coder_B": "[\"radiotherapy\", \"temozolomide\"]",
+      "proposed": "[\"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "",
+      "reason": "Same content: Arm A gets BGB-58067 'concurrently with standard of care upfront radiotherapy (RT)', Arm B also with 'RT and temozolomide (TMZ)'. The arm qualifier belongs in the agent's arms field, not the partner name.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "bgb-58067",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other (MTAP deletion)",
+        "matched_agent": "bgb-58067"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (Phase 0/2): translational subset only. Both coders agree MTAP deletion is an enrichment biomarker matched to the PRMT5 inhibitor (manual §5 example), and MGMT is enrichment (unmatched); cns5 from '2021 WHO criteria'. The candidate-matched decision goes to D21 human review anyway. D31 check: MGMT value defines Arms A/B (cohort definitions, A3), so it is not the A8 'status known' case; no change. MTAP-PRMT5 link is stated in the record (official title), so no A6 question.",
+  "revisions": []
+}

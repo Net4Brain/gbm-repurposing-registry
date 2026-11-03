@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT06624371",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "high_grade_glioma_unspecified (uncertain: pHGG 'WHO Grade 3 or 4' could be historical grade 4 glioma)",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named (cns5_terminology: historical)",
+      "ruling_applied": "R7",
+      "reason": "Inclusion: 'histologically confirmed pediatric high-grade glioma (pHGG, WHO Grade 3 or 4)'. Grade 4 is explicitly allowed, there is no IDH requirement and glioblastoma is never named, which is the R7 pattern. Against this, 'pediatric high-grade glioma' and 'Diffuse Midline Glioma, H3 K27M-Mutant' are CNS5-style entities that WHO 2021 separates from glioblastoma, and R7 does not address paediatric-type HGG.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "atovaquone", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "XL decision needed: does R7 cover paediatric HGG 'WHO grade 3 or 4' (ages 2-25; stdAges CHILD+ADULT, so it passes S4 with mixed_age)? Applying R7 literally includes this atovaquone repurposing trial (a likely 2a candidate). Excluding it needs an R7 carve-out for paediatric-type HGG. Decide consistently with NCT05553041, which has the same wording but is excluded at S6 anyway. any_molecular_selection is true only through the H3K27-altered DMG entry option, which both coders coded as eligibility. Priority-3 control_arm_from_other_arms: two parallel non-control strata, so 'no'."
+}

@@ -1,0 +1,206 @@
+{
+  "nct_id": "NCT03914742",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_matched_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "true",
+      "ruling_applied": "D31-A6 (corrected)",
+      "reason": "IDH1/2 mutation is mechanistically linked to PARP inhibition (IDH-mutant + PARP inhibitor is the example given in corrected D31-A6; 2-HG impairs homologous recombination), and pamiparib is a PARP inhibitor ('PARP inhibitor BGB-290'), so the IDH-mutant entry requirement is candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"not_glioblastoma\"",
+      "coder_B": "\"mixed_glioma_gbm_named\"",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 note (IDH-mutant only)",
+      "reason": "Inclusion: 'Patients must have IDH1/2-mutant glioma.' The manual says a trial that enrols only IDH-mutant tumours is not_glioblastoma 'even if an arm or cohort is labelled \"GBM\"', which covers the 'GBM Arm' and 'Recurrent Glioblastoma' condition here.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"IDH\", true, \"pamiparib\"]",
+      "coder_B": "",
+      "proposed": "IDH (mutant), role eligibility, candidate_matched true (pamiparib)",
+      "ruling_applied": "D31-A6 (corrected)",
+      "reason": "IDH1/2 mutation is mechanistically linked to PARP inhibition (IDH-mutant + PARP inhibitor is the example given in corrected D31-A6; 2-HG impairs homologous recombination), and pamiparib is a PARP inhibitor ('PARP inhibitor BGB-290'), so the IDH-mutant entry requirement is candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "replace with A's version (IDH, eligibility, candidate_matched true, pamiparib)",
+      "ruling_applied": "D31-A6 (corrected)",
+      "reason": "IDH1/2 mutation is mechanistically linked to PARP inhibition (IDH-mutant + PARP inhibitor is the example given in corrected D31-A6; 2-HG impairs homologous recombination), and pamiparib is a PARP inhibitor ('PARP inhibitor BGB-290'), so the IDH-mutant entry requirement is candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is named in conditions and an arm label, but every patient must have IDH1/2-mutant glioma; manual says IDH-mutant-only trials are not_glioblastoma even with a GBM-labelled arm.",
+      "coder_B": "",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "manual §1.1 note (IDH-mutant only)",
+      "reason": "The manual note applies directly: 'Patients must have IDH1/2-mutant glioma' for all arms.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:IDH",
+      "coder_A": "IDH1/2-mutant (neomorphic, 2HG-producing) selection for a PARP inhibitor implies a synthetic-lethality rationale, but the record does not state the mechanistic link explicitly; IDH-mutant here is a selection marker, not a GBM-defining IDH-wildtype criterion.",
+      "coder_B": "",
+      "proposed": "candidate_matched true (pamiparib)",
+      "ruling_applied": "D31-A6 (corrected)",
+      "reason": "IDH1/2 mutation is mechanistically linked to PARP inhibition (IDH-mutant + PARP inhibitor is the example given in corrected D31-A6; 2-HG impairs homologous recombination), and pamiparib is a PARP inhibitor ('PARP inhibitor BGB-290'), so the IDH-mutant entry requirement is candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:IDH",
+      "coder_A": "",
+      "coder_B": "IDH1/2 mutation is an entry requirement and the design is built around it, but the record states no mechanistic link to the PARP inhibitor.",
+      "proposed": "candidate_matched true (pamiparib)",
+      "ruling_applied": "D31-A6 (corrected)",
+      "reason": "IDH1/2 mutation is mechanistically linked to PARP inhibition (IDH-mutant + PARP inhibitor is the example given in corrected D31-A6; 2-HG impairs homologous recombination), and pamiparib is a PARP inhibitor ('PARP inhibitor BGB-290'), so the IDH-mutant entry requirement is candidate-matched.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pamiparib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "IDH (IDH1/2 neomorphic mutation)",
+        "matched_agent": "pamiparib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Fails S5 (IDH-mutant-only population), so the outcome values are descriptive only. IDH-mutant requirement is an eligibility row (any_molecular_selection true) and is candidate-matched to pamiparib under corrected D31-A6 (IDH-mutant + PARP inhibitor, established pharmacology; the old-wording revision is undone). 'Documented molecular 1p/19q and MGMT testing' with no required value is testing only (D31-A8). Temozolomide soc_backbone vs established_therapy_experiment (priority 3) does not affect candidate status (never a candidate, D31 B7 clarification).",
+  "revisions": [
+    {
+      "convention": "D31-A6",
+      "field": "candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The record states no IDH-PARP mechanistic link, so the IDH-mutant requirement is not candidate-matched under D31-A6."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "selection_biomarker_only_in_A",
+      "from": "IDH (mutant), role eligibility, candidate_matched true (pamiparib)",
+      "to": "IDH (mutant), role eligibility, candidate_matched false",
+      "reason": "The record states no IDH-PARP mechanistic link, so the IDH-mutant requirement is not candidate-matched under D31-A6."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "selection_biomarker_only_in_B",
+      "from": "replace with A's version (candidate_matched true, pamiparib)",
+      "to": "accept B's row (IDH, eligibility, candidate_matched false)",
+      "reason": "The record states no IDH-PARP mechanistic link, so the IDH-mutant requirement is not candidate-matched under D31-A6."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "coder A: biomarker:IDH",
+      "from": "candidate_matched true (pamiparib)",
+      "to": "candidate_matched false",
+      "reason": "The record states no IDH-PARP mechanistic link, so the IDH-mutant requirement is not candidate-matched under D31-A6."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "coder B: biomarker:IDH",
+      "from": "candidate_matched true (pamiparib)",
+      "to": "candidate_matched false",
+      "reason": "The record states no IDH-PARP mechanistic link, so the IDH-mutant requirement is not candidate-matched under D31-A6."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The only matched row (IDH-mutant, pamiparib) is unmatched under D31-A6 because the record does not state the link."
+    },
+    {
+      "convention": "D31-A6",
+      "field": "matched_biomarkers",
+      "from": "[{\"biomarker\": \"IDH (IDH1/2 neomorphic mutation)\", \"matched_agent\": \"pamiparib\"}]",
+      "to": "[]",
+      "reason": "No candidate-matched row remains under D31-A6."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "items[candidate_matched_selection].proposed",
+      "from": "false",
+      "to": "true",
+      "reason": "Undoes the change made under the old A6 wording: IDH-mutant + PARP inhibitor is linked by established pharmacology (corrected D31-A6)."
+    },
+    {
+      "check": "A6",
+      "field": "items[selection_biomarker_only_in_A].proposed",
+      "from": "IDH (mutant), role eligibility, candidate_matched false",
+      "to": "IDH (mutant), role eligibility, candidate_matched true (pamiparib)",
+      "reason": "Undoes the change made under the old A6 wording: IDH-mutant + PARP inhibitor is linked by established pharmacology (corrected D31-A6)."
+    },
+    {
+      "check": "A6",
+      "field": "items[selection_biomarker_only_in_B].proposed",
+      "from": "accept B's row (IDH, eligibility, candidate_matched false)",
+      "to": "replace with A's version (IDH, eligibility, candidate_matched true, pamiparib)",
+      "reason": "Undoes the change made under the old A6 wording: IDH-mutant + PARP inhibitor is linked by established pharmacology (corrected D31-A6)."
+    },
+    {
+      "check": "A6",
+      "field": "items[coder A: biomarker:IDH].proposed",
+      "from": "candidate_matched false",
+      "to": "candidate_matched true (pamiparib)",
+      "reason": "Undoes the change made under the old A6 wording: IDH-mutant + PARP inhibitor is linked by established pharmacology (corrected D31-A6)."
+    },
+    {
+      "check": "A6",
+      "field": "items[coder B: biomarker:IDH].proposed",
+      "from": "candidate_matched false",
+      "to": "candidate_matched true (pamiparib)",
+      "reason": "Undoes the change made under the old A6 wording: IDH-mutant + PARP inhibitor is linked by established pharmacology (corrected D31-A6)."
+    },
+    {
+      "check": "A6",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "false",
+      "to": "true",
+      "reason": "The IDH-mutant eligibility row is candidate-matched to pamiparib under corrected D31-A6."
+    },
+    {
+      "check": "A6",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[]",
+      "to": "[{\"biomarker\": \"IDH (IDH1/2 neomorphic mutation)\", \"matched_agent\": \"pamiparib\"}]",
+      "reason": "Restores the matched row removed under the old A6 wording."
+    }
+  ]
+}

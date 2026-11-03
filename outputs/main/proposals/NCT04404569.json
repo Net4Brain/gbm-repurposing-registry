@@ -1,0 +1,31 @@
+{
+  "nct_id": "NCT04404569",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag",
+     "coder_A": "not_glioblastoma (flagged)", "coder_B": "not_glioblastoma",
+     "proposed": "not_glioblastoma (agreed coding stands)",
+     "ruling_applied": "manual §1.1 note C7 / D27B",
+     "reason": "Conditions are only \"Neoplasms\"; glioblastoma appears only in the keywords (\"High-grade Glioma; Glioblastoma; Solid Tumor\"), and inclusion only requires prior participation in \"a prior Bexion-sponsored BXQ-350 clinical study\". Keywords are not an allowed field under C7/D27B, so glioblastoma is not named.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "bxq-350", "role": "experimental_monotherapy", "device_dependent": false}
+    ],
+    "treatment_setting": "unclear",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S5 (not_glioblastoma). Priority-3 basket disagreement (A true, B false): proposed false, because basket is tied to basket_gbm_eligible (manual §1.1, §2) and glioblastoma is not explicitly eligible here."
+}

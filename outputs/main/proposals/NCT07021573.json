@@ -1,0 +1,25 @@
+{
+  "nct_id": "NCT07021573",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag", "coder_A": "high_grade_glioma_unspecified (uncertain)", "coder_B": "",
+     "proposed": "high_grade_glioma_unspecified (agreed coding stands)", "ruling_applied": "manual §1.1",
+     "reason": "Inclusion requires 'a suspected high-grade glioma'; 'GBM-like' defines an MRI phenotype ('Suspected high-grade glioma with contrast enhancement on MRI (GBM-like)'), not a glioblastoma diagnosis. No grade 4 is stated, so D30-R7 does not apply.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder B: gbm_population_flag", "coder_A": "", "coder_B": "high_grade_glioma_unspecified (uncertain; arm label 'GMB like')",
+     "proposed": "high_grade_glioma_unspecified (agreed coding stands)", "ruling_applied": "manual §1.1",
+     "reason": "The arm label 'GMB like or LGG like' names an imaging-defined group of suspected HGG, not an eligible glioblastoma population; D27B naming in an arm label presumes the label refers to glioblastoma patients, which 'GBM-like' enhancement does not establish.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "high_grade_glioma_unspecified", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot for screening: the record is 'Phase: NA' (fails S3) and the only drug, 5-ALA, is a diagnostic agent for fluorescence guidance."
+}

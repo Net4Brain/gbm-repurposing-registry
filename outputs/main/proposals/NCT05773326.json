@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT05773326",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"other\", true, \"temsirolimus\"]",
+      "proposed": "keep row: other (pS6 IHC positivity), eligibility, candidate_matched true, temsirolimus",
+      "ruling_applied": "manual §5",
+      "reason": "Inclusion requires \"Tissue must demonstrate mTOR+: ... OR pS6 positivity on immunohistochemistry (≥30% for pS6)\"; pS6 is a distinct alternative entry marker of mTOR pathway activation matched to the mTOR inhibitor temsirolimus. Listing it separately (coder B) is consistent with one row per biomarker; the primary outcome is true either way via the PTEN_PI3K row.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "temsirolimus",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "PTEN_PI3K",
+        "matched_agent": "temsirolimus"
+      },
+      {
+        "biomarker": "other (pS6 IHC positivity)",
+        "matched_agent": "temsirolimus"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (Phase 0): translational subset only, not the primary estimand. Intra-arterial delivery coded new_route, not device_dependent (agreed)."
+}

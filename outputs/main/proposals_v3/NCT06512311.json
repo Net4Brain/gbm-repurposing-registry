@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT06512311",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false, no_pharmacological_candidate (flagged uncertain)",
+      "coder_B": "has_eligible_candidate false, no_pharmacological_candidate",
+      "proposed": "agreed coding stands: has_eligible_candidate false, no_pharmacological_candidate",
+      "ruling_applied": "D30-R8",
+      "reason": "The registered intervention is a \"[DIAGNOSTIC_TEST] CBMed Drug Screening Plattform\", and the tumour board's \"personalized treatment recommendation\" names no drugs. Nothing says the drugs are approved or licensed, so under D30-R8 this is not an unspecified_approved_panel.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "The record is Phase NA, so it fails S3 by [CODE] anyway. Under D30-R8 it is listed separately as a drug-screen trial with no named or approved drugs. any_molecular_selection is true from the MGMT-unmethylated entry requirement, but this does not affect the analysis because the trial is excluded. D31-B12 does not apply: the record does not say the screened drugs are clinically approved. MGMT-unmethylated is a required value, so eligibility under D31-A8. Harmonisation (C1 checked, no change): the only intervention is a non-drug diagnostic test, which the clarified D31-C1 would label excluded_intervention_type, but D30-R8 specifically assigns no_pharmacological_candidate to drug-screen trials without approved drugs, so the R8 value is kept; no analysis effect (fails S3).",
+  "revisions": [],
+  "harmonisation": []
+}

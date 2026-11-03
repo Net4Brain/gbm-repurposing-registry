@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT03529448",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"temozolomide\"]",
+      "proposed": "[\"temozolomide\", \"radiotherapy\"]",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "The experimental arm includes 'Radiation: Radiotherapy' with temozolomide ('All the patients will receive the Stupp regimen'); radiotherapy in the experimental arm is a partner.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"no\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 (target_engagement)",
+      "reason": "A biomarker endpoint is planned ('Correlation of expression of midkine in peripheral blood and response to the experimental treatment') but the record does not link midkine to THC/CBD or their target, which is the manual's definition of unclear.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "dronabinol",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "cannabidiol",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Not queued but relevant to S6: TN-TC11G (THC+CBD 1:1, collaborator Tilray) has a stated antitumour hypothesis; under D30-R5 a cannabis product is a candidate only if licensed as a medicine, and the record does not say whether TN-TC11G holds any marketing authorisation. XL should confirm licensing (Table S2) before the candidate status stands."
+}

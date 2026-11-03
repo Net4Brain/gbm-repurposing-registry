@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT04747145",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "established_therapy_only",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "manual §1.2, D31-C1",
+      "reason": "The investigated intervention is radiotherapy ('substituting pulsed reduced dose radiotherapy (pRDR) for standard radiation therapy'), an excluded type ('radiotherapy alone', §1.2). Temozolomide is given at standard Stupp doses in the only arm, so it is soc_backbone, not an established_therapy_experiment; established_therapy_only does not fit.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase 2, so the S6 reason appears in Figure 1. excluded_intervention_type is now settled by D31-C1 (tested intervention is pulsed reduced dose-rate radiotherapy; temozolomide is soc_backbone). MGMT tissue submission is testing only, not a required value (exploratory_correlative, agreed; D31-A8).",
+  "revisions": []
+}

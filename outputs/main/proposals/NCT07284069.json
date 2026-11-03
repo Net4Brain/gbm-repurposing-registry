@@ -1,0 +1,41 @@
+{
+  "nct_id": "NCT07284069",
+  "items": [
+    {"type": "uncertain", "item": "coder A: candidate_flag",
+     "coder_A": "All three arms are registered as ACTIVE_COMPARATOR although each tests investigational senicapoc and/or perampanel; strict rule 1 would make them control_comparator.",
+     "coder_B": "",
+     "proposed": "has_eligible_candidate true",
+     "ruling_applied": "manual §3.1",
+     "reason": "The trial is a \"Phase 0/1 Randomized Clinical Trial of SENIcapoc and PERAmpanel Mono- and Combination Therapy\", and every arm gives investigational senicapoc and/or perampanel on top of Stupp therapy. No arm is a control, so rule 1 (agent in a comparator arm only) does not apply despite the ACTIVE_COMPARATOR labels.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder A: agent:senicapoc",
+     "coder_A": "Arms registered as ACTIVE_COMPARATOR; role also differs by arm (monotherapy in Group 1, combination in Group 3).",
+     "coder_B": "",
+     "proposed": "experimental_combination",
+     "ruling_applied": "manual §3.1",
+     "reason": "Senicapoc is one of two investigational agents given together in \"Senicapoc and perampanel combination therapy (Group 3)\" (rule 5). It is given alone in Group 1, which is noted. Both coders agree.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder A: agent:perampanel",
+     "coder_A": "Arms registered as ACTIVE_COMPARATOR; antiepileptic but antitumour hypothesis stated; role differs by arm (monotherapy in Group 2, combination in Group 3).",
+     "coder_B": "",
+     "proposed": "experimental_combination",
+     "ruling_applied": "manual §3.1",
+     "reason": "The record states an antitumour hypothesis (\"perampanel (used for epilepsy) and senicapoc ... may block these harmful signals\" that help the tumour grow), so rule 2 does not make it supportive. It is combined with senicapoc in Group 3 (rule 5).",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "senicapoc", "role": "experimental_combination", "device_dependent": false},
+      {"active_moiety": "perampanel", "role": "experimental_combination", "device_dependent": false}
+    ],
+    "treatment_setting": "newly_diagnosed", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (Phase 0/1 window-of-opportunity), so this is the translational subset. Each drug's role differs by arm (monotherapy in Group 1 or 2, combination in Group 3); both coders chose experimental_combination."
+}

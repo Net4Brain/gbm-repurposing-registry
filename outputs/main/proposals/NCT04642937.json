@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT04642937",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "hP1A8 is described as a vaccine adjuvant (immune agonist peptide) given with a tumour lysate vaccine; whether it counts as a pharmacological candidate or as part of the excluded vaccine intervention needs adjudication.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate: false (excluded_intervention_type)",
+      "ruling_applied": "R4",
+      "reason": "hP1A8 is described as 'a new adjuvant CD200 activation receptor ligand' given 'in combination with imiquimod and the GBM6-AD vaccine'; R4 treats vaccine adjuvants as part of the excluded therapy. Its own arm and MTD outcome ('MTD of hP1A8 when administered with imiquimod and GBM6-AD') test it as an adjuvant, not as an antitumour agent in its own right.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:hp1a8",
+      "coder_A": "Immune adjuvant given with a cancer vaccine; candidate status vs part of excluded vaccine intervention needs adjudication.",
+      "coder_B": "",
+      "proposed": "hp1a8: excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "Vaccine adjuvant given only with the GBM6-AD tumour lysate vaccine; R4 exception (tested as antitumour agent in its own right) arguably not met because it is always given with the vaccine.",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:imiquimod",
+      "coder_A": "Imiquimod is not a registered intervention; coded as background given to all patients with hP1A8 and vaccine, but could be viewed as an investigational combination partner.",
+      "coder_B": "",
+      "proposed": "imiquimod: excluded_intervention_type (part of the vaccine therapy)",
+      "ruling_applied": "R4",
+      "reason": "Imiquimod is explicitly listed in R4 as an adjuvant that is part of the excluded therapy; it is given with hP1A8 and the vaccine to every patient.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"gbm6-ad allogeneic tumour lysate vaccine\", \"imiquimod\"]",
+      "coder_B": "[\"gbm6-ad vaccine\", \"imiquimod\"]",
+      "proposed": "[] (regimen not_applicable under R4); if hP1A8 is kept as candidate: [\"imiquimod\", \"allogeneic tumour lysate vaccine\"]",
+      "ruling_applied": "R4; manual §2 (R1)",
+      "reason": "With no candidate, regimen is not_applicable and partners are moot; the coders differ only in naming the vaccine.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Decision turns on the R4 exception: the arm is named 'hP1A8' and the primary outcome is its MTD, which could be read as testing it 'in its own right'. If XL keeps hP1A8 as a candidate: experimental_monotherapy, regimen combination, imiquimod still excluded under R4."
+}

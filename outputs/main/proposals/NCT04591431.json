@@ -1,0 +1,330 @@
+{
+  "nct_id": "NCT04591431",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"BRAF\", true, \"vemurafenib, cobimetinib\"]",
+      "coder_B": "[\"BRAF\", true, \"vemurafenib; cobimetinib\"]",
+      "proposed": "BRAF, role enrichment, candidate_matched true, matched_agent vemurafenib; cobimetinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code BRAF as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'VEMURAFENIB, COBIMETINIB (BRAFV600E mutations)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"PTEN_PI3K\", true, \"everolimus, ipatasertib, alpelisib\"]",
+      "coder_B": "[\"PTEN_PI3K\", true, \"ipatasertib; alpelisib; everolimus\"]",
+      "proposed": "PTEN_PI3K, role enrichment, candidate_matched true, matched_agent everolimus; ipatasertib; alpelisib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code PTEN_PI3K as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'IPATASERTIB (PI3K, AKT, PTEN)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"TMB_MMR\", true, \"atezolizumab, nivolumab, ipilimumab\"]",
+      "coder_B": "[\"TMB_MMR\", true, \"atezolizumab; nivolumab; ipilimumab\"]",
+      "proposed": "TMB_MMR, role enrichment, candidate_matched true, matched_agent atezolizumab; nivolumab; ipilimumab",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code TMB_MMR as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'ATEZOLIZUMAB, NIVOLUMAB, IPILIMUMAB (MSI, HIGH TUMOR MUTATIONAL BURDEN, OTHER)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"alectinib, brigatinib, pralsetinib, selpercatinib\"]",
+      "coder_B": "[\"other\", true, \"alectinib; brigatinib; pralsetinib; selpercatinib\"]",
+      "proposed": "other (ALK/RET alterations), role enrichment, candidate_matched true, matched_agent alectinib; brigatinib; pralsetinib; selpercatinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code other (ALK/RET alterations) as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'ALECTINIB, BRIGATINIB (ALK, RET)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"tailored therapy panel (drug chosen by molecular tumour board)\"]",
+      "coder_B": "(no such row)",
+      "proposed": "no separate row; the selection is already captured by the per-drug enrichment rows (if XL keeps it: role eligibility, candidate_matched true, matched to the TT drug list)",
+      "ruling_applied": "manual §5",
+      "reason": "Inclusion 7 ('Molecular target not actionable with approved drugs identified during screening by profiling with FoundationOne CDX') is a profiling requirement; patients are randomised once an alteration 'that can be modulated with target or immunotherapeutic intervention available within the present study' is found. matched_agent must name candidate agents, and 'tailored therapy panel' is not a moiety. candidate_matched_selection is true either way.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"trastuzumab, pertuzumab, trastuzumab emtansine, lapatinib\"]",
+      "coder_B": "[\"other\", true, \"trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib\"]",
+      "proposed": "other (ERBB2/HER2 amplification/mutation), role enrichment, candidate_matched true, matched_agent trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code other (ERBB2/HER2 amplification/mutation) as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'TRASTUZUMAB, PERTUZUMAB, TDM1, LAPATINIB (ERBB2 amplifications/mut)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "[\"BRAF\", true, \"vemurafenib, cobimetinib\"]",
+      "coder_B": "[\"BRAF\", true, \"vemurafenib; cobimetinib\"]",
+      "proposed": "BRAF, role enrichment, candidate_matched true, matched_agent vemurafenib; cobimetinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code BRAF as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'VEMURAFENIB, COBIMETINIB (BRAFV600E mutations)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "[\"PTEN_PI3K\", true, \"everolimus, ipatasertib, alpelisib\"]",
+      "coder_B": "[\"PTEN_PI3K\", true, \"ipatasertib; alpelisib; everolimus\"]",
+      "proposed": "PTEN_PI3K, role enrichment, candidate_matched true, matched_agent everolimus; ipatasertib; alpelisib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code PTEN_PI3K as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'IPATASERTIB (PI3K, AKT, PTEN)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "[\"TMB_MMR\", true, \"atezolizumab, nivolumab, ipilimumab\"]",
+      "coder_B": "[\"TMB_MMR\", true, \"atezolizumab; nivolumab; ipilimumab\"]",
+      "proposed": "TMB_MMR, role enrichment, candidate_matched true, matched_agent atezolizumab; nivolumab; ipilimumab",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code TMB_MMR as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'ATEZOLIZUMAB, NIVOLUMAB, IPILIMUMAB (MSI, HIGH TUMOR MUTATIONAL BURDEN, OTHER)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "[\"other\", true, \"alectinib, brigatinib, pralsetinib, selpercatinib\"]",
+      "coder_B": "[\"other\", true, \"alectinib; brigatinib; pralsetinib; selpercatinib\"]",
+      "proposed": "other (ALK/RET alterations), role enrichment, candidate_matched true, matched_agent alectinib; brigatinib; pralsetinib; selpercatinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code other (ALK/RET alterations) as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'ALECTINIB, BRIGATINIB (ALK, RET)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "[\"other\", true, \"trastuzumab, pertuzumab, trastuzumab emtansine, lapatinib\"]",
+      "coder_B": "[\"other\", true, \"trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib\"]",
+      "proposed": "other (ERBB2/HER2 amplification/mutation), role enrichment, candidate_matched true, matched_agent trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib",
+      "ruling_applied": "manual §5",
+      "reason": "Formatting difference only: both coders code other (ERBB2/HER2 amplification/mutation) as an enrichment (per-drug assignment) marker, candidate_matched true, matched to the same drugs; A separates agents with commas, B with semicolons. Arm text: 'TRASTUZUMAB, PERTUZUMAB, TDM1, LAPATINIB (ERBB2 amplifications/mut)'.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "other: actionable alteration on FoundationOne profiling, eligibility, candidate_matched true (uncertain)",
+      "coder_B": "(not coded; per-drug enrichment rows only)",
+      "proposed": "candidate_matched_selection true; generic profiling row not needed",
+      "ruling_applied": "manual §5",
+      "reason": "Patients enter the TT arm only with an alteration targetable by a listed drug ('Once identified molecular abnormalities ... that can be modulated with target or immunotherapeutic intervention available within the present study, patients will be randomized'), so selection is candidate-matched; both coders' per-drug enrichment rows already give this result.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "erlotinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "trastuzumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "trastuzumab emtansine",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pertuzumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "lapatinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "everolimus",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "vemurafenib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "cobimetinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "alectinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "brigatinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "palbociclib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ponatinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "vismodegib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "itacitinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ipatasertib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "entrectinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "atezolizumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "nivolumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pemigatinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "pralsetinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "selpercatinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "talazoparib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "tepotinib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "alpelisib",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "unclear",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "EGFR_EGFRvIII",
+        "matched_agent": "erlotinib"
+      },
+      {
+        "biomarker": "other (ERBB2/HER2)",
+        "matched_agent": "trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib"
+      },
+      {
+        "biomarker": "PTEN_PI3K",
+        "matched_agent": "everolimus; ipatasertib; alpelisib"
+      },
+      {
+        "biomarker": "BRAF",
+        "matched_agent": "vemurafenib; cobimetinib"
+      },
+      {
+        "biomarker": "other (ALK/RET)",
+        "matched_agent": "alectinib; brigatinib; pralsetinib; selpercatinib"
+      },
+      {
+        "biomarker": "CDK4_6_pathway",
+        "matched_agent": "palbociclib"
+      },
+      {
+        "biomarker": "CDKN2A_B",
+        "matched_agent": "palbociclib"
+      },
+      {
+        "biomarker": "other (BCR-ABL)",
+        "matched_agent": "ponatinib"
+      },
+      {
+        "biomarker": "other (SMO/PTCH1)",
+        "matched_agent": "vismodegib"
+      },
+      {
+        "biomarker": "other (JAK mutation)",
+        "matched_agent": "itacitinib"
+      },
+      {
+        "biomarker": "FGFR",
+        "matched_agent": "pemigatinib"
+      },
+      {
+        "biomarker": "NTRK",
+        "matched_agent": "entrectinib"
+      },
+      {
+        "biomarker": "MET",
+        "matched_agent": "tepotinib"
+      },
+      {
+        "biomarker": "other (BRCA1/2, ATM, HRD)",
+        "matched_agent": "talazoparib"
+      },
+      {
+        "biomarker": "TMB_MMR",
+        "matched_agent": "atezolizumab; nivolumab; ipilimumab"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Pan-cancer tailored-therapy vs SoC trial; glioblastoma is named only in an inclusion criterion ('Patients with glioblastomas and high grade malignant gliomas can be enrolled with the historical tissue samples'), which is enough under C7. All queued selection rows are separator or format differences on rows both coders agree on, plus coder A's extra generic profiling row; the primary outcome is true either way. FGFR drug: the arm text says INCB054828 and the interventions say pemigatinib (same agent); coded pemigatinib. Roles experimental_combination with regimen unclear (patients get 'one or more' listed drugs) are agreed and not queued."
+}

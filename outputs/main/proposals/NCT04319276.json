@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT04319276",
+  "items": [
+    {"type": "disagreement", "item": "control_arm_from_other_arms", "coder_A": "no", "coder_B": "not_applicable",
+     "proposed": "no",
+     "ruling_applied": "manual §2 (control_arm, R8 values)",
+     "reason": "The record registers six EXPERIMENTAL arms (five dose-escalation levels and a dose-expansion arm), none a control; R8 defines 'no' as more than one arm with none working as a control and 'not_applicable' only for a single-arm trial.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "cns5", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "gallium maltolate", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Design is single-agent 3+3 dose escalation registered as multiple arms; 'not_applicable' would be defensible if XL treats dose-level arms as one arm, but the R8 wording counts registered arms."
+}

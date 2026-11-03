@@ -1,0 +1,29 @@
+{
+  "nct_id": "NCT05169944",
+  "items": [
+    {"type": "disagreement", "item": "gbm_population",
+     "coder_A": "high_grade_glioma_unspecified", "coder_B": "not_glioblastoma",
+     "proposed": "not_glioblastoma",
+     "ruling_applied": "manual §1.1",
+     "reason": "Inclusion says \"recurrent or progressive malignant primary brain tumor (WHO grade III or IV), including recurrent ependymoma\". Glioblastoma and glioma are never named in conditions, title, inclusion or arm label; \"high-grade glioma\" appears only in the summary, which C7 does not allow. D27C and D30-R7 cover grade 4 glioma or astrocytoma, not a grade IV brain tumour of any histology. The eligible fields do not say high-grade or malignant glioma, so the residual category not_glioblastoma fits better than high_grade_glioma_unspecified. Both exclude.",
+     "confidence": "medium"},
+    {"type": "uncertain", "item": "coder A: gbm_population_flag",
+     "coder_A": "high_grade_glioma_unspecified (flagged uncertain)", "coder_B": "not_glioblastoma",
+     "proposed": "not_glioblastoma (exclude)",
+     "ruling_applied": "manual §1.1",
+     "reason": "Glioblastoma would be eligible in practice, but it is not named in any eligible field, and the grade range concerns brain tumours in general rather than glioma, so D30-R7 does not apply as written.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "magrolimab", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "This is a screening decision (S5) at the edge of D30-R7: 'malignant primary brain tumor (WHO grade III or IV)' allows grade IV without naming glioma or glioblastoma. Excluded under the rulings as written; XL should decide whether R7 extends to grade III-IV brain tumour wording. Mixed-age trial (children's and adults' strata). CSF PK is planned, so tumour_pk_planned is yes."
+}

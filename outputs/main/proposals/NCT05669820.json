@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT05669820",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Salovum is an FSMP egg-yolk powder (supplement, not a licensed medicine) but is given with an antitumour hypothesis via the protein antisecretory factor; could be argued to be a therapeutic protein candidate.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false; excluded_intervention_type (agreed coding stands)",
+      "ruling_applied": "R5",
+      "reason": "The record states 'Salovum® is classified as food for special medicinal purposes (FSMP)' and registers it as a Dietary Supplement; R5 names Salovum and allows candidacy only with a marketing authorisation as a medicine, which the record does not show.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "Salovum is an egg-yolk powder enriched in antisecretory factor (a protein) classed as a food for special medical purposes / dietary supplement, not a licensed medicine; coded as excluded supplement but adjudicator may view it as a biologic.",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate false; excluded_intervention_type (agreed coding stands)",
+      "ruling_applied": "R5",
+      "reason": "The record states 'Salovum® is classified as food for special medicinal purposes (FSMP)' and registers it as a Dietary Supplement; R5 names Salovum and allows candidacy only with a marketing authorisation as a medicine, which the record does not show.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "R5 covers this exactly (Salovum named). Licensing evidence for Salovum goes to Table S2 per R5; the record itself says FSMP. Moiety naming (antisecretory factor vs salovum egg yolk powder) is priority 3 only."
+}

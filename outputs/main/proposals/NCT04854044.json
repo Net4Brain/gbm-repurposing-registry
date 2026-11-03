@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT04854044",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "yes",
+      "coder_B": "no",
+      "proposed": "yes",
+      "ruling_applied": "manual §2 control_arm (R8)",
+      "reason": "Arm II (EXPERIMENTAL) gets pre-operative radiotherapy without ONC201, and the record compares 'treated brain tumor tissues compared to non-treated brain tumor tissues', so Arm II works as the control for the pre-operative ONC201 question even though it receives ONC201 after surgery.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "onc201",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Both arms receive ONC201 post-operatively; the 'control' is only for the pre-surgical window. Randomised (allocation RANDOMIZED)."
+}

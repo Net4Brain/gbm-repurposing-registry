@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT06001281",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "no_pharmacological_candidate",
+      "coder_B": "established_therapy_only",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "manual §3.1; D31-C1; D31-B7 clarification",
+      "reason": "The only registered intervention is 'Other: plasma collection', a non-drug diagnostic intervention; bevacizumab is the patients' clinical treatment ('Candidate for bevacizumab treatment'), not investigated in a new schedule, dose, route or setting, so it is soc_backbone and never a candidate. Under D31-C1 a non-drug intervention under test gives excluded_intervention_type. Moot: the trial already fails S3 (phase NA).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA: excluded at S3 (phase_not_applicable), which is the reported exclusion reason; the S6 reason only matters for completeness. Priority-3 target_engagement: soluble CD146 is a predictive plasma marker for a non-candidate, so 'no'. D31-C1 clarified: plasma collection is a non-drug diagnostic intervention under test, so the S6 reason is excluded_intervention_type.",
+  "revisions": [],
+  "harmonisation": [
+    {
+      "check": "C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only registered intervention is 'Other: plasma collection', a non-drug diagnostic intervention (bevacizumab is background soc_backbone), so D31-C1 gives excluded_intervention_type."
+    },
+    {
+      "check": "C1",
+      "field": "items[candidate_exclusion_reason].proposed",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "Same basis as the proposed_final change: D31-C1 applies to any non-drug diagnostic intervention under test."
+    }
+  ]
+}

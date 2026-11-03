@@ -1,0 +1,32 @@
+{
+  "nct_id": "NCT05538572",
+  "items": [
+    {"type": "uncertain", "item": "coder A: biomarker:CDKN2A_B", "coder_A": "CDKN2A_B, eligibility, candidate_matched true (prt3645), uncertain", "coder_B": "CDKN2A_B, enrichment, candidate_matched true (prt3645), uncertain",
+     "proposed": "CDKN2A_B, role enrichment, candidate_matched true, matched_agent prt3645",
+     "ruling_applied": "manual §5",
+     "reason": "'CDKN2A/B homozygous deleted IDH-mutant astrocytoma' is required for one disease subgroup, not for all entrants, so enrichment fits better than eligibility; manual §5 lists 'CDKN2A loss + CDK4/6 inhibitor' as matched. But the requirement does not apply to the GBM entrants ('Recurrent GBM (IDH wild type)').",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder A: biomarker:CDK4_6_pathway", "coder_A": "CDK4_6_pathway, eligibility, candidate_matched true (prt3645), uncertain", "coder_B": "CDK4_6_pathway, enrichment, candidate_matched true (prt3645)",
+     "proposed": "CDK4_6_pathway, role enrichment, candidate_matched true, matched_agent prt3645",
+     "ruling_applied": "manual §5",
+     "reason": "'CDK pathway alternation in any of the following tumor types: malignant mesothelioma, HPV-negative HNSCC ... sarcoma, or NSCLC' is a subgroup requirement for a CDK4/6 inhibitor (matched). It does not apply to glioblastoma.",
+     "confidence": "low"},
+    {"type": "uncertain", "item": "coder B: biomarker:CDKN2A_B", "coder_A": "CDKN2A_B, eligibility, matched true, uncertain", "coder_B": "CDKN2A_B, enrichment, matched true, uncertain",
+     "proposed": "CDKN2A_B, role enrichment, candidate_matched true, matched_agent prt3645",
+     "ruling_applied": "manual §5",
+     "reason": "Same row as coder A's flag: matched by manual §5, but it selects IDH-mutant astrocytoma (not GBM under CNS5), not the GBM cohort.",
+     "confidence": "low"}
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible", "cns5_terminology": "cns5", "basket": true,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "prt3645", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "monotherapy",
+    "candidate_matched_selection": true, "imaging_assessed_selection": false,
+    "matched_biomarkers": [{"biomarker": "CDKN2A_B", "matched_agent": "prt3645"}, {"biomarker": "CDK4_6_pathway", "matched_agent": "prt3645"}],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Policy question for XL that the manual and D30 rulings do not settle: in a basket trial, does candidate-matched selection count when it applies only to non-GBM participants? By the letter of manual §5 (any eligibility/enrichment row with candidate_matched true), candidate_matched_selection = true. If XL requires the selection to apply to the GBM entrants, it becomes false: GBM enters on 'Recurrent GBM (IDH wild type)' alone, and IDH-wildtype is never matched. Also, coders coded HR+ breast cancer as not matched; a CDK4/6 inhibitor is arguably matched to HR+ status, but the record states no link. any_molecular_selection stays true either way (HR/HER2, KRAS/SMARCA4, ER/TP53 subgroup requirements)."
+}

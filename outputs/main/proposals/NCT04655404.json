@@ -1,0 +1,64 @@
+{
+  "nct_id": "NCT04655404",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "Glioblastoma is named only as one example of eligible high-grade glioma histology in the inclusion criteria; conditions say only high grade glioma/DIPG. Paediatric-oriented (<=21 y).",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Glioblastoma is named in the inclusion criteria ('histologically verified high-grade glioma such as anaplastic astrocytoma, glioblastoma, or H3 K27-mutant diffuse midline glioma'), which C7 accepts as naming. An example list in inclusion still counts.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"focal radiation therapy\", \"standard backbone chemotherapy (babypog or hit-skk)\"]",
+      "coder_B": "[\"babypog chemotherapy backbone\", \"focal radiation therapy\", \"hit-skk chemotherapy backbone\"]",
+      "proposed": "[\"babypog chemotherapy backbone\", \"hit-skk chemotherapy backbone\", \"focal radiation therapy\"]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "Wording only. The record names two alternative backbones ('standard backbone chemotherapy (BABYPOG or HIT-SKK)') plus focal RT; listing them separately (coder B) is clearer.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "R8",
+      "reason": "Two registered EXPERIMENTAL arms ('Feasibility Cohort', 'Surgical Cohort'), neither a control; R8 keeps not_applicable for single-arm trials only, although the design model is SINGLE_GROUP.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "larotrectinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "NTRK",
+        "matched_agent": "larotrectinib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1: translational subset only. Mixed age (birth to 21 years) is set by the script."
+}

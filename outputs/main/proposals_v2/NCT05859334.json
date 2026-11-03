@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT05859334",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Conditions list 'Recurrent WHO Grade 4 Glioma' and inclusion requires 'IDH-WT gliomas (grade 2-4)', so IDH-wildtype grade 4 glioma is explicitly eligible; C7 counts 'IDH-wildtype grade 4 glioma' as glioblastoma named. Several grades are eligible, so the agreed mixed_glioma_gbm_named stands (not high_grade_glioma_unspecified).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "mixed_glioma_gbm_named",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Conditions list 'Recurrent WHO Grade 4 Glioma' and inclusion requires 'IDH-WT gliomas (grade 2-4)', so IDH-wildtype grade 4 glioma is explicitly eligible; C7 counts 'IDH-wildtype grade 4 glioma' as glioblastoma named. Several grades are eligible, so the agreed mixed_glioma_gbm_named stands (not high_grade_glioma_unspecified).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "erdafitinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "FGFR",
+        "matched_agent": "erdafitinib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "FGFR-TACC fusion + erdafitinib is candidate-matched eligibility (agreed). cns5 because IDH-wildtype is required. Glioblastoma counts as named because the conditions list 'Recurrent WHO Grade 4 Glioma' and inclusion requires IDH-WT glioma (manual C7: IDH-wildtype grade 4 glioma); not a D31-B5 near-miss.",
+  "revisions": []
+}

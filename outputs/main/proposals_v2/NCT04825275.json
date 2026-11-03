@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04825275",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "gbm_only",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "manual §1.1",
+      "reason": "Glioblastoma is named in title/conditions, but the inclusion criterion admits 'primary or recurrent HGG', i.e. several glioma types are eligible; gbm_only requires that only glioblastoma be eligible. Both values include the trial; affects only the GBM-only sensitivity analysis.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "posaconazole",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (translational subset). The title says 'in Glioblastoma' so XL may judge HGG as loose wording for a GBM-only population.",
+  "revisions": []
+}

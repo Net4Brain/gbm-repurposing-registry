@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT07459101",
+  "items": [
+    {"type": "disagreement", "item": "gbm_population", "coder_A": "mixed_glioma_gbm_named", "coder_B": "gbm_only",
+     "proposed": "mixed_glioma_gbm_named",
+     "ruling_applied": "manual §1.1 (IDH-mutant note; D27C)",
+     "reason": "Inclusion admits 'glioblastoma or WHO grade 4 astrocytoma (IDH wild type or mutant)', i.e. IDH-mutant grade 4 astrocytoma is explicitly eligible beside glioblastoma; under CNS5 that is a separate glioma type, so several types are eligible with GBM named. D27C (grade 4 astrocytoma without IDH requirement = gbm_only) is the counter-argument, since no IDH status is required.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": false, "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed", "regimen": "not_applicable",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Outcome-neutral: phase NA radiotherapy-technique study, fails S3 (phase_not_applicable) and S6. XL may want one consistent rule for 'grade 4 astrocytoma (IDH wild type or mutant)' (mixed vs gbm_only under D27C); same issue in NCT06017063. Coder A's IDH exploratory row and temozolomide row (priority 3) are not needed: IDH is not required, and TMZ is only an eligibility expectation."
+}

@@ -1,0 +1,136 @@
+{
+  "nct_id": "NCT05737212",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"borofalan\"]",
+      "coder_B": "[\"boronophenylalanine\"]",
+      "proposed": "borofalan",
+      "ruling_applied": "manual §3 (C5, INN spelling)",
+      "reason": "Same agent: the record names 'boronophenylalanine, DMX-101' (BPA); borofalan (10B) is the INN for this moiety, so the INN form is preferred; moieties are re-mapped by script anyway.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"IDH\", false, \"\"]",
+      "proposed": "no biomarker row (IDH not a selection biomarker)",
+      "ruling_applied": "manual §5",
+      "reason": "IDH appears only as WHO 2021 diagnostic categories ('Glioblastoma, IDH wildtype, WHO grade 4' alongside IDH-mutant astrocytoma); IDH-wildtype used to define GBM is excluded from molecular selection and is never candidate-matched.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "flagged uncertain (BPA = device-dependent candidate)",
+      "coder_B": "",
+      "proposed": "candidate (experimental_monotherapy, device_dependent true)",
+      "ruling_applied": "D31-B11",
+      "reason": "'Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr' is a drug whose antitumour effect needs neutron irradiation (device: 'DM-BNCT'), the drug-device pattern of C12; no D30 ruling covers BNCT, and the radiation-only reading is possible since dose escalation is of radiation. D31-B11 settles BNCT: the boron carrier is a device-dependent candidate (C12).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (BPA = device-dependent candidate)",
+      "proposed": "candidate (experimental_monotherapy, device_dependent true)",
+      "ruling_applied": "D31-B11",
+      "reason": "As for coder A: BPA is the registered 'Investigational product' activated by neutron capture; coded as drug-device candidate, pending XL view on whether BNCT is treated as radiotherapy only. D31-B11 settles BNCT: the boron carrier is a device-dependent candidate (C12).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §5",
+      "reason": "The only biomarker in question is IDH-wildtype used to define glioblastoma (Phase IIa 'Glioblastoma IDH-wild type, WHO Grade 4'), which is excluded from any_molecular_selection.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"neutron irradiation (bnct)\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-B11; D31-C2",
+      "reason": "Under D31-B11 the neutron beam ('Investigational Device, DM-BTPS, DM-BNCT - neutron irradiation') is the activating device, not radiotherapy, and the device itself is not an agent; no other drug or radiotherapy is given with BPA.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "\"monotherapy\"",
+      "coder_B": "\"combination\"",
+      "proposed": "monotherapy",
+      "ruling_applied": "D31-B11",
+      "reason": "D31-B11: in BNCT the regimen is monotherapy because the neutron beam is the activating device; each arm gives only BPA ('500mg/kg/3hr followed by neutron irradiation').",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "borofalan",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-B11 settles BNCT: borofalan (boronophenylalanine, DMX-101) is a device-dependent candidate (C12), regimen monotherapy, no combination partners (the DM-BNCT neutron beam is the activating device). tumour_pk_planned stays unclear (PK of borono-phenylalanine planned, sample type not stated). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-B11",
+      "field": "coder A: candidate_flag.confidence",
+      "from": "medium",
+      "to": "high",
+      "reason": "D31-B11 makes the boron carrier in BNCT ('Investigational product, boronophenylalanine, DMX-101') a device-dependent candidate, settling the coder flag."
+    },
+    {
+      "convention": "D31-B11",
+      "field": "coder B: candidate_flag.confidence",
+      "from": "medium",
+      "to": "high",
+      "reason": "D31-B11 makes the boron carrier in BNCT ('Investigational product, boronophenylalanine, DMX-101') a device-dependent candidate, settling the coder flag."
+    },
+    {
+      "convention": "D31-B11",
+      "field": "combination_partners",
+      "from": "[\"neutron irradiation (bnct)\"]",
+      "to": "[]",
+      "reason": "The neutron irradiation is delivered by the 'Investigational Device, DM-BTPS, DM-BNCT', which D31-B11 treats as the activating device, so it is not a radiotherapy partner."
+    },
+    {
+      "convention": "D31-B11",
+      "field": "regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "Each arm gives only 'boronophenylalanine, DMX-101 500mg/kg/3hr' activated by DM-BNCT neutron irradiation; D31-B11 codes BNCT as monotherapy."
+    },
+    {
+      "convention": "D31-B11",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "Follows the regimen item: under D31-B11 the neutron beam is the activating device, not radiotherapy."
+    }
+  ]
+}

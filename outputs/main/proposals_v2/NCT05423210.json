@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05423210",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"fractionated stereotactic radiotherapy\", \"post-surgical standard care for glioblastoma (unspecified)\"]",
+      "coder_B": "[\"fractionated stereotactic radiotherapy\"]",
+      "proposed": "[\"fractionated stereotactic radiotherapy\"]",
+      "ruling_applied": "manual §2",
+      "reason": "The only named partner is FSRT ('Atezolizumab + FSRT radiation'); post-surgery the record says only 'patients will follow the normal care for glioblastoma' without naming any drug or radiotherapy, so no further partner can be recorded without inference. regimen is 'combination' either way.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atezolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1 (translational subset). Coder A's descriptive 'unspecified standard care' entry is also defensible; the choice does not change any derived variable.",
+  "revisions": []
+}

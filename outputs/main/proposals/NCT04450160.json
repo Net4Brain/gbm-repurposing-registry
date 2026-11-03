@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT04450160",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"anhydrous enol-oxaloacetate\"]",
+      "coder_B": "[\"oxaloacetic acid\"]",
+      "proposed": "[] (no candidate; anhydrous enol-oxaloacetate listed as excluded_intervention_type)",
+      "ruling_applied": "R5",
+      "reason": "Oxaloacetate is named in R5. The record calls it \"Oral supplementation with AEO\" and an \"orally active drug candidate\" but gives no marketing authorisation as a medicine; under R5 it is a candidate only if licensed, so excluded_intervention_type unless licensing evidence is found for Table S2.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Oxaloacetate is marketed as a dietary supplement; record calls AEO a drug candidate (registered as DRUG) but also 'oral supplementation'. Whether it is a pharmacological candidate or a non-licensed supplement (excluded type) needs adjudication.",
+      "coder_B": "",
+      "proposed": "candidate_flag resolved: not a candidate (excluded_intervention_type) unless licensed",
+      "ruling_applied": "R5",
+      "reason": "R5 settles the supplement question: a botanical/supplement/medical-food product with an antitumour hypothesis is a candidate only if licensed as a medicine; the record shows no licence (\"Oral supplementation with AEO\").",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:anhydrous enol-oxaloacetate",
+      "coder_A": "Possible non-licensed supplement (excluded type) versus investigational drug candidate.",
+      "coder_B": "",
+      "proposed": "role excluded_intervention_type; active_moiety anhydrous enol-oxaloacetate",
+      "ruling_applied": "R5; manual §3 (naming)",
+      "reason": "Same R5 ruling. For naming, the record has no INN, so the name is kept as first written (\"Anhydrous Enol-Oxaloacetate\") rather than the invented parent name oxaloacetic acid.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "AEO is described as oral supplementation (possible unlicensed supplement, excluded type) but registered as a Drug and called a drug candidate with an antitumour hypothesis.",
+      "coder_B": "",
+      "proposed": "candidate_flag resolved: not a candidate (excluded_intervention_type) unless licensed",
+      "ruling_applied": "R5",
+      "reason": "Agrees with coder B's doubt; R5 decides: no evidence of marketing authorisation in the record (\"Oral supplementation with AEO along with the Standard of Care\").",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:oxaloacetic acid",
+      "coder_A": "Possible unlicensed supplement (excluded type) vs investigational drug candidate.",
+      "coder_B": "",
+      "proposed": "role excluded_intervention_type; active_moiety anhydrous enol-oxaloacetate",
+      "ruling_applied": "R5; manual §3 (naming)",
+      "reason": "Under R5 an unlicensed supplement is excluded_intervention_type; the moiety name stays as written in the record because there is no INN.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Outcome depends on licensing status for R5: if XL finds any national marketing authorisation for AEO/oxaloacetate as a medicine, AEO becomes experimental_monotherapy, has_eligible_candidate true, regimen combination (temozolomide, radiotherapy). Licensing evidence must be recorded in Table S2."
+}

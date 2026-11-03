@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT04842513",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "XS15 (TLR1/2 ligand) is described as an immunomodulator; coded as vaccine adjuvant (excluded type), but could be argued a pharmacological immune agonist candidate.",
+      "coder_B": "",
+      "proposed": "XS15 is part of the excluded vaccine; no candidate; trial excluded at S6 as excluded_intervention_type",
+      "ruling_applied": "R4",
+      "reason": "R4 lists XS15 explicitly as an adjuvant that is part of the excluded therapy. The record gives XS15 no arm or outcome of its own: it is 'emulsified in Montanide ISA 51 VG' with the peptides in the single arm 'Multipeptide plus XS15', and the primary efficacy endpoint is vaccine immunogenicity.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "IDH1-wildtype and MGMT methylation are entry requirements (MGMT counts for any_molecular_selection; IDH-wildtype only defines GBM). target_engagement_planned set to 'no' because there is no candidate (ELISpot immunogenicity is a vaccine endpoint)."
+}

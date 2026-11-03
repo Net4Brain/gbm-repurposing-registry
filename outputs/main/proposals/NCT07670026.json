@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT07670026",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:sintilimab",
+      "coder_A": "Role depends on whether bevacizumab (established GBM therapy, new setting) counts as a second investigational agent; sintilimab is a candidate either way (monotherapy vs combination).",
+      "coder_B": "",
+      "proposed": "experimental_monotherapy (agreed coding stands)",
+      "ruling_applied": "manual §3.1 rules 4 and 6",
+      "reason": "Bevacizumab is an established GBM therapy (D6) used in a new setting (adjuvant, newly diagnosed), so rule 6 applies and it is not investigational; sintilimab is then the only investigational agent ('adjuvant temozolomide combined with sintilimab and bevacizumab').",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:bevacizumab",
+      "coder_A": "Established GBM therapy given in a new setting (newly diagnosed, with PD-1 antibody); could instead be an experimental_combination candidate.",
+      "coder_B": "",
+      "proposed": "established_therapy_experiment (agreed coding stands)",
+      "ruling_applied": "manual §3.1 rule 6",
+      "reason": "Rule 6 covers an established GBM therapy 'in a new schedule, dose, route or setting'; bevacizumab 10 mg/kg q21d in newly diagnosed adjuvant therapy fits that.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "sintilimab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": ""
+}

@@ -1,0 +1,22 @@
+{
+  "nct_id": "NCT07635173",
+  "items": [
+    {"type": "disagreement", "item": "cns5_terminology", "coder_A": "historical", "coder_B": "unclear",
+     "proposed": "historical",
+     "ruling_applied": "manual §1.1 (C8, D27C); D30-R7",
+     "reason": "Inclusion requires 'recurrent high-grade glioma (including grade III and IV, excluding brainstem tumors)' with no IDH requirement and no WHO 2021 citation; C8 codes grade IV glioma without IDH as historical, and D30-R7 assigns historical to this grade III/IV wording.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "obitazidine", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Glioblastoma is named in conditions ('Glioblastomas (GBM)'), so mixed_glioma_gbm_named (agreed). Moiety spelling differs in the record ('Obitazidine' in the official title, 'Obitrexate' in the brief summary); both coders used obitazidine, to be checked at the lookup step. tumour_pk_planned yes (agreed) rests on 'blood/CSF samples'."
+}

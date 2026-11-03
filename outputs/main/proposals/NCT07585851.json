@@ -1,0 +1,27 @@
+{
+  "nct_id": "NCT07585851",
+  "items": [
+    {"type": "uncertain", "item": "coder A: gbm_population_flag", "coder_A": "mixed_glioma_gbm_named via 'Diffuse Glioma, Grade IV' (D27C)", "coder_B": "",
+     "proposed": "mixed_glioma_gbm_named, cns5_terminology historical (agreed coding stands)",
+     "ruling_applied": "D30-R7",
+     "reason": "Conditions list 'Diffuse Glioma, Grade IV' alongside grades I-III, with no IDH requirement; grade 4 glioma without IDH is historical glioblastoma (D27C), and R7 includes such grade-4-allowed mixed glioma trials even when glioblastoma is not named in eligible fields.",
+     "confidence": "high"},
+    {"type": "uncertain", "item": "coder B: gbm_population_flag", "coder_A": "", "coder_B": "mixed_glioma_gbm_named; glioblastoma only in keywords/description",
+     "proposed": "mixed_glioma_gbm_named, cns5_terminology historical (agreed coding stands)",
+     "ruling_applied": "D30-R7",
+     "reason": "Same basis: 'Diffuse Glioma, Grade IV' in the conditions field is enough under D27C/R7; the keyword/description mentions are not needed.",
+     "confidence": "high"}
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named", "cns5_terminology": "historical", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "ketoconazole", "role": "experimental_monotherapy", "device_dependent": false}],
+    "treatment_setting": "unclear", "regimen": "monotherapy",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1: translational subset only (S3/D23), not in the primary estimand. Removed in GBM-only and CNS5-only sensitivity analyses (R7)."
+}

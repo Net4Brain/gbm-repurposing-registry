@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04430842",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "LAT1 high expression, enrichment, matched qbs10072s (uncertain)",
+      "coder_B": "",
+      "proposed": "LAT1 high expression: exploratory_correlative (not eligibility or enrichment); row candidate_matched flag kept as coded (A6 pending XL)",
+      "ruling_applied": "D31-A1",
+      "reason": "D31-A1/A3: LAT1 appears only in the title/summary ('Advanced or Metastatic Cancers With High LAT1 Signatures'), not in the eligibility criteria, and applies to the non-GBM cohort, while 'The MTD of QBS10072S will be confirmed in patients with relapsed or refractory grade 4 astrocytoma' with no LAT1 condition.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "",
+      "coder_B": "basket_gbm_eligible via grade 4 astrocytoma (uncertain)",
+      "proposed": "basket_gbm_eligible (agreed coding stands)",
+      "ruling_applied": "manual §1.1",
+      "reason": "The title names 'Patients With Relapsed or Refractory Grade 4 Astrocytoma' with no IDH requirement; under D27C (manual §1.1) this is the historical name for glioblastoma, named in the title, in a multi-cancer trial.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "",
+      "coder_B": "LAT1 expression, eligibility, matched qbs10072s (uncertain)",
+      "proposed": "LAT1 high expression: exploratory_correlative (not eligibility or enrichment); row candidate_matched flag kept as coded (A6 pending XL)",
+      "ruling_applied": "D31-A1",
+      "reason": "D31-A1/A3: LAT1 appears only in the title/summary ('Advanced or Metastatic Cancers With High LAT1 Signatures'), not in the eligibility criteria, and applies to the non-GBM cohort, while 'The MTD of QBS10072S will be confirmed in patients with relapsed or refractory grade 4 astrocytoma' with no LAT1 condition.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "unclear",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "D31-C6: a PD objective is stated ('safety, tolerability, pharmacokinetics, pharmacodynamics') but no PD measurement is registered (outcomes are MTD, safety and plasma PK).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "qbs10072s",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-A1/A3 settle the primary outcome: LAT1 is not an entry requirement for the GBM (grade 4 astrocytoma) patients, so candidate_matched_selection and any_molecular_selection are false. A6 pending XL: the row's candidate_matched flag is left as coded and does not affect selection now. Glioblastoma is named only through 'Grade 4 Astrocytoma' (D27C) in the title. target_engagement settled by D31-C6.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "biomarker:other (LAT1) role",
+      "from": "enrichment",
+      "to": "exploratory_correlative",
+      "reason": "LAT1 is named only in the title/summary for the advanced/metastatic cohort and is not required for the grade 4 astrocytoma (GBM) patients or in the eligibility list (A1, A3)."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "With LAT1 no longer a selection row, GBM patients enter without any candidate-linked biomarker requirement."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "matched_biomarkers",
+      "from": "[LAT1 high expression / qbs10072s]",
+      "to": "[]",
+      "reason": "No matched eligibility or enrichment row remains after A1/A3."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "No remaining eligibility or enrichment biomarker row; the eligibility criteria contain no molecular requirement."
+    },
+    {
+      "convention": "D31-C6",
+      "field": "target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "Pharmacodynamics is named as an objective but no PD outcome is registered."
+    }
+  ]
+}

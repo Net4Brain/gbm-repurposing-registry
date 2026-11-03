@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05879120",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate true; pembrolizumab experimental_monotherapy, device_dependent true",
+      "coder_B": "has_eligible_candidate true; pembrolizumab experimental_monotherapy, device_dependent true (flagged uncertain)",
+      "proposed": "agreed coding stands: pembrolizumab is a candidate (experimental_monotherapy, device_dependent true); has_eligible_candidate true",
+      "ruling_applied": "manual R5; manual R4",
+      "reason": "The title is \"Pembrolizumab With and Without Targeted Blood Brain Barrier Opening\", and an objective is \"To determine anti-tumor activity of pembrolizumab\". A drug whose device-enabled delivery is the question is a candidate even if given in every arm (manual R5, C12 overrides C3). Pembrolizumab is not an established GBM drug, so D30-R1 does not apply.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": true
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Perflutren (DEFINITY) is delivery_enabling_agent (C11). Tumour PK is yes (\"drug levels of pembrolizumab in target brain tumor tissue\"). Target engagement is yes (intratumoral effector T-cell infiltration). Only IDH-wildtype is required, so any_molecular_selection is false.",
+  "revisions": []
+}

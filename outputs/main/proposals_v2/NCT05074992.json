@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT05074992",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[]",
+      "coder_B": "[\"chemoradiotherapy\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C2; D31-C3",
+      "reason": "The only registered experimental arm is \"Ipilimumab\" (2 cycles); chemoradiotherapy follows only after trial treatment ends (\"before continuing to standard of care treatment of debulking surgery and chemoradiation\"), so it is not given within the experimental arm. D31-C2/C3: partners are agents given with the candidate; chemoradiation that follows trial treatment is not.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "monotherapy",
+      "coder_B": "combination",
+      "proposed": "monotherapy",
+      "ruling_applied": "D31-C3",
+      "reason": "Ipilimumab is given alone as neoadjuvant trial treatment, with no other antitumour drug or radiotherapy during it; the record frames it as \"the addition of ipilimumab prior to the current standard treatment\", which supports reading subsequent chemoradiation as part of the regimen (C1). D31-C3 settles this: standard chemoradiation that follows trial treatment does not make the regimen a combination.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "ipilimumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Neoadjuvant design: D31-C3 settles regimen as monotherapy and combination_partners as [] (chemoradiation follows trial treatment). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C3",
+      "field": "items[regimen].ruling_applied; proposed_final.regimen",
+      "from": "monotherapy (low, pending XL)",
+      "to": "monotherapy (high, settled)",
+      "reason": "Ipilimumab is given for 2 cycles \"prior to the current standard treatment of surgery and chemoradiotherapy\", so under D31-C3 the sequential chemoradiation does not count; value unchanged."
+    },
+    {
+      "convention": "D31-C2",
+      "field": "items[combination_partners].ruling_applied; proposed_final combination_partners",
+      "from": "[] (low, pending XL)",
+      "to": "[] (high, settled)",
+      "reason": "No other drug or radiotherapy is given with ipilimumab during the neoadjuvant trial treatment; value unchanged."
+    }
+  ]
+}

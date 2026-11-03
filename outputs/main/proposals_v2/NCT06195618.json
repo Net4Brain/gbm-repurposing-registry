@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT06195618",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "other (tumour neoantigen expression), eligibility, candidate_matched false",
+      "ruling_applied": "manual §5",
+      "reason": "Entry requires identified tumour neoantigens ('at least one tumor NEOANTIGEN expressed exclusively by your tumor was successful'), a tumour molecular entry requirement, so A's row is valid; it cannot be candidate-matched because the only agent is an excluded dendritic-cell vaccine.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "near-miss (D31-B5): triple-negative breast cancer vaccine trial; glioblastoma appears only in the brief summary as a future application, so excluded at S5 (not_glioblastoma). The biomarker decision has no effect on any analysed outcome.",
+  "revisions": [
+    {
+      "convention": "D31-B5",
+      "field": "note",
+      "from": "(no near-miss label)",
+      "to": "near-miss",
+      "reason": "Glioblastoma appears only in the brief summary as a future application; the eligibility population is triple-negative breast cancer."
+    }
+  ]
+}

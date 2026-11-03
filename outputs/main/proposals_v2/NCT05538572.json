@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT05538572",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:CDKN2A_B",
+      "coder_A": "CDKN2A_B, eligibility, candidate_matched true (prt3645), uncertain",
+      "coder_B": "CDKN2A_B, enrichment, candidate_matched true (prt3645), uncertain",
+      "proposed": "CDKN2A_B, role exploratory_correlative (required only for the IDH-mutant astrocytoma route), candidate_matched true, matched_agent prt3645",
+      "ruling_applied": "D31-A1",
+      "reason": "'Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma': GBM patients enter without CDKN2A/B deletion, so under D31-A1 (and A2, an optional route) the row is exploratory_correlative; the link to the CDK4/6 inhibitor PRT3645 is stated in the summary.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:CDK4_6_pathway",
+      "coder_A": "CDK4_6_pathway, eligibility, candidate_matched true (prt3645), uncertain",
+      "coder_B": "CDK4_6_pathway, enrichment, candidate_matched true (prt3645)",
+      "proposed": "CDK4_6_pathway, role exploratory_correlative (required only for mesothelioma, HNSCC, sarcoma, NSCLC), candidate_matched true, matched_agent prt3645",
+      "ruling_applied": "D31-A1",
+      "reason": "'CDK pathway alternation in any of the following tumor types: malignant mesothelioma, HPV-negative HNSCC ... sarcoma, or NSCLC' is a non-GBM cohort requirement; GBM enters on 'Recurrent GBM (IDH wild type)' alone, so D31-A1 codes it exploratory_correlative.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:CDKN2A_B",
+      "coder_A": "CDKN2A_B, eligibility, matched true, uncertain",
+      "coder_B": "CDKN2A_B, enrichment, matched true, uncertain",
+      "proposed": "CDKN2A_B, role exploratory_correlative (required only for the IDH-mutant astrocytoma route), candidate_matched true, matched_agent prt3645",
+      "ruling_applied": "D31-A1",
+      "reason": "'Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma': GBM patients enter without CDKN2A/B deletion, so under D31-A1 (and A2, an optional route) the row is exploratory_correlative; the link to the CDK4/6 inhibitor PRT3645 is stated in the summary.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "prt3645",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "The basket policy question is settled by D31-A1: selection rows that apply only to non-GBM routes (CDKN2A/B for IDH-mutant astrocytoma, CDK pathway for mesothelioma/HNSCC/sarcoma/NSCLC, HR/HER2, KRAS/SMARCA4, ER/TP53) are exploratory_correlative, so candidate_matched_selection and any_molecular_selection are false. candidate_matched stays true on the CDKN2A_B and CDK4_6 rows (the record calls PRT3645 a CDK4/6 inhibitor). A6 pending XL: the coders' 'not matched' for HR+ breast cancer is kept as in the original; it is a non-GBM row under A1 either way. target_engagement yes (pRb phosphorylation).",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:CDKN2A_B].proposed",
+      "from": "CDKN2A_B, role enrichment, candidate_matched true, matched_agent prt3645",
+      "to": "CDKN2A_B, role exploratory_correlative (required only for the IDH-mutant astrocytoma route), candidate_matched true, matched_agent prt3645",
+      "reason": "'Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma': GBM patients enter without CDKN2A/B deletion, so under D31-A1 (and A2, an optional route) the row is exploratory_correlative; the link to the CDK4/6 inhibitor PRT3645 is stated in the summary."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder A: biomarker:CDK4_6_pathway].proposed",
+      "from": "CDK4_6_pathway, role enrichment, candidate_matched true, matched_agent prt3645",
+      "to": "CDK4_6_pathway, role exploratory_correlative (required only for mesothelioma, HNSCC, sarcoma, NSCLC), candidate_matched true, matched_agent prt3645",
+      "reason": "'CDK pathway alternation in any of the following tumor types: malignant mesothelioma, HPV-negative HNSCC ... sarcoma, or NSCLC' is a non-GBM cohort requirement; GBM enters on 'Recurrent GBM (IDH wild type)' alone, so D31-A1 codes it exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "items[coder B: biomarker:CDKN2A_B].proposed",
+      "from": "CDKN2A_B, role enrichment, candidate_matched true, matched_agent prt3645",
+      "to": "CDKN2A_B, role exploratory_correlative (required only for the IDH-mutant astrocytoma route), candidate_matched true, matched_agent prt3645",
+      "reason": "'Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma': GBM patients enter without CDKN2A/B deletion, so under D31-A1 (and A2, an optional route) the row is exploratory_correlative; the link to the CDK4/6 inhibitor PRT3645 is stated in the summary."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "Both matched rows (CDKN2A_B, CDK4_6_pathway) apply only to non-GBM routes; GBM patients enter on 'Recurrent GBM (IDH wild type)' alone."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[{\"biomarker\": \"CDKN2A_B\", \"matched_agent\": \"prt3645\"}, {\"biomarker\": \"CDK4_6_pathway\", \"matched_agent\": \"prt3645\"}]",
+      "to": "[]",
+      "reason": "No eligibility or enrichment row remains for GBM patients once both rows are exploratory_correlative."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "The GBM route requires only IDH-wildtype, which defines GBM and is exempt; HR/HER2, KRAS/SMARCA4 and ER/TP53 requirements apply to non-GBM cohorts only."
+    }
+  ]
+}

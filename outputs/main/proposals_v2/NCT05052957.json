@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05052957",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "uncertain: BG chemosensitiser could be enabling rather than candidate",
+      "coder_B": "",
+      "proposed": "has_eligible_candidate true (agreed coding stands)",
+      "ruling_applied": "D30-R6",
+      "reason": "O6-benzylguanine 'selectively and irreversibly inactivates the DNA-repair enzyme, O6- alkylguanine DNA-alkyltransferase' to potentiate temozolomide/carmustine in the tumour; R6 makes such a chemosensitiser a candidate in its own right.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:o6-benzylguanine",
+      "coder_A": "experimental_monotherapy (uncertain)",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "D30-R6",
+      "reason": "BG is the only investigational pharmacological agent; temozolomide/carmustine are established therapies and the P140K-MGMT cells are an excluded gene-modified cell product, so rule 4 applies.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:MGMT",
+      "coder_A": "eligibility, candidate_matched true (o6-benzylguanine), uncertain",
+      "coder_B": "eligibility, candidate_matched true (o6-benzylguanine)",
+      "proposed": "MGMT eligibility, candidate_matched true, matched_agent o6-benzylguanine",
+      "ruling_applied": "D30-R6; manual §5",
+      "reason": "'Participant must have unmethylated MGMT' is an entry requirement, and R6 states the MGMT match counts for an MGMT-targeting candidate such as O6-benzylguanine.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"carmustine\", \"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"carmustine\", \"p140k-mgmt gene-modified hematopoietic cells\", \"radiotherapy\", \"temozolomide\"]",
+      "proposed": "[\"carmustine\", \"radiotherapy\", \"temozolomide\"]",
+      "ruling_applied": "manual §2 (regimen)",
+      "reason": "combination_partners records antitumour therapy in the experimental arm; the P140K-MGMT cells are given to 'protect hematopoiesis', not as antitumour therapy, so they are not a partner (they remain listed as an excluded_intervention_type agent).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "o6-benzylguanine",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "MGMT",
+        "matched_agent": "o6-benzylguanine"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Positive candidate_matched_selection (MGMT + BG via R6), so it goes to D21 human review. Carmustine role (priority 3) differs between coders: established_therapy_experiment (A) vs soc_backbone (B); either way not a candidate. 'O6-benzylguanine' has no INN in the record and is kept as written. D31-A8 checked: 'Participant must have unmethylated MGMT' is a required value, so MGMT stays eligibility. The IDH1/2-mutation exclusion is exempt under D31-A5. Filgrastim stays supportive (D31-B9).",
+  "revisions": []
+}

@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT06271421",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Experimental intervention is NanoTherm magnetic hyperthermia with implanted iron oxide nanoparticles, registered as a device; if the nanoparticles were treated as a device-activated drug (C12) the trial would have a candidate.",
+      "coder_B": "",
+      "proposed": "agreed coding stands: has_eligible_candidate = false",
+      "ruling_applied": "manual §1.2",
+      "reason": "The intervention is '[DEVICE] NanoTherm therapy' using 'NanoTherm ASI ... a sterile suspension of iron oxide nanoparticles' heated by the NanoActivator; the antitumour effect is physical heat ('hyperthermia effect'), not a pharmacological action, and the product is described as a 'therapy system'. Devices are excluded intervention types (§1.2); C12 covers drugs with their own antitumour pharmacology activated by a device.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "NanoTherm iron oxide nanoparticle suspension is registered as a device for magnetic hyperthermia; treated as a device, not a pharmacological agent.",
+      "coder_B": "",
+      "proposed": "agreed coding stands: has_eligible_candidate = false",
+      "ruling_applied": "manual §1.2",
+      "reason": "Agrees with Coder B: registered as a device and described as 'registered in Europe as a method of treating Glioblastoma multiforme', not as a medicine.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Phase NA, so excluded at S3 regardless. candidate_exclusion_reason excluded_intervention_type is confirmed by D31-C1 (the tested intervention is the NanoTherm device; the coders' agreed no_pharmacological_candidate is replaced as originally proposed, no count changes). Temozolomide is control_comparator in the Stupp arm. Nothing pending for XL.",
+  "revisions": []
+}

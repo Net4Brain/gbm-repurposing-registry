@@ -1,0 +1,48 @@
+{
+  "nct_id": "NCT04047303",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "yes",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "The title and summary state a PD objective ('assess the pharmacokinetics (PK), pharmacodynamics (PD) and CNS penetration of CC-90010') but no PD measurement is described in the outcomes (only intratumoral and plasma concentrations), so D31-C6 gives 'unclear'.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "cc-90010",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "tumour_pk_planned yes is agreed ('Intratumoral concentration of CC-90010 in tumor tissue collected intraoperatively'). target_engagement_planned set to unclear under D31-C6 (PD objective stated, no measurement described). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C6",
+      "field": "proposed_final.target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "The record states a pharmacodynamic objective but lists no PD measurement among its outcomes, which are drug concentrations only."
+    }
+  ]
+}

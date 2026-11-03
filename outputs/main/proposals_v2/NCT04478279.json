@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04478279",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"radiotherapy\", \"temozolomide\"]",
+      "coder_B": "[\"temozolomide\"]",
+      "proposed": "[\"temozolomide\", \"radiotherapy\"]",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "The \"Newly Diagnosed Glioblastoma\" experimental arm registers \"Drug: ST101; Drug: Temozolomide; Radiation: Radiation\", so radiotherapy is a partner along with temozolomide (coder A).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "\"combination\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "combination",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "The manual codes combination when any other antitumour drug or radiotherapy is in the experimental arm; one experimental arm has ST101 + temozolomide + radiation, while the others are ST101 alone. 'unclear' is for records that do not settle the regimen; here the record is clear, so combination (consistent with other mixed-arm trials).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "st101",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Mixed-arm basket: per D31-C3 the regimen is coded from the GBM arms; the Newly Diagnosed Glioblastoma arm registers ST101 with temozolomide and radiation and the record does not state that chemoradiation follows ST101, so combination stands. target_engagement yes rests on the stated PD objective with paired pre/on-treatment biopsy (W7).",
+  "revisions": []
+}

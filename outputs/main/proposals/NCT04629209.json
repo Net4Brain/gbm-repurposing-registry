@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04629209",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "1p/19q codeletion: eligibility (exclusion), candidate_matched false; no effect on outcomes",
+      "ruling_applied": "manual §5",
+      "reason": "'known IDH1 or IDH2 mutations or 1p/19q co-deletion' is a diagnostic exclusion of oligodendroglioma, not a candidate-matched selection; any_molecular_selection is true anyway through the EGFR-low entry requirement.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:EGFR_EGFRvIII",
+      "coder_A": "EGFR-low selection is specific to ONC201 in this trial, but the record states no mechanistic link between EGFR and ONC201 (a DRD2 antagonist); could be judged a predictive candidate-matched selection.",
+      "coder_B": "",
+      "proposed": "EGFR_EGFRvIII eligibility, candidate_matched: false",
+      "ruling_applied": "manual §5",
+      "reason": "Entry requires 'absence of EGFR gene amplification... absence of EGFRvIII... low EGFR expression', and the trial is titled 'ONC201 in Adults With EGFR-low Glioblastoma', but the record only describes ONC201 as 'a orally active, small molecule DRD2 antagonist' and states no mechanistic link between EGFR and ONC201.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"cns5\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "cns5",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "Exclusion 'known IDH1 (isocitrate dehydrogenase 1) or IDH2 mutations' plus 'World Health Organization Grade IV glioblastoma'; treated as an IDH-wildtype requirement, consistent with other records, but exclusion covers only known mutations.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "control_arm_from_other_arms",
+      "coder_A": "\"no\"",
+      "coder_B": "\"not_applicable\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (R8)",
+      "reason": "Two EXPERIMENTAL arms (Arm A with surgical resection, Arm B), both ONC201, neither a control; R8 defines 'no' for more than one arm with no control and 'not_applicable' only for single-arm trials.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "onc201",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Key question for XL: whether EGFR-low selection for ONC201 is candidate-matched (it is a drug-specific predictive selection but no mechanism is stated in the record); this decides the primary outcome. cns5 vs unclear is also low confidence."
+}

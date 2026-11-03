@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05284643",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "no_pharmacological_candidate",
+      "coder_B": "established_therapy_only",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D31-C1",
+      "reason": "The tested intervention is sMRI-guided proton radiotherapy; bevacizumab is given \"per standard of care, at treating physician's discretion\" and to \"minimize the possible side effects\", so it is not the question. Under D31-C1 the S6 reason is excluded_intervention_type.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "S6 reason settled by D31-C1: excluded_intervention_type (radiotherapy under test). Registered phase NA, so excluded at S3 regardless. Bevacizumab role: supportive (stated side-effect purpose, manual rule 2 and D31-B9) rather than soc_backbone; not a candidate either way. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "items[candidate_exclusion_reason].proposed",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The tested intervention is radiotherapy (\"Intensity Modulated Proton Therapy (IMPT)\" at 35 or 40 Gy), so C1 gives excluded_intervention_type."
+    },
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "Kept consistent with the item: proton radiotherapy is the tested intervention."
+    }
+  ]
+}

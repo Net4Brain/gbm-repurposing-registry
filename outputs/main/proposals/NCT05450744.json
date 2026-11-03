@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05450744",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"tlx-101\"]",
+      "coder_B": "[\"tlx101\"]",
+      "proposed": "[\"tlx-101\"]",
+      "ruling_applied": "manual §3 active_moiety (W1)",
+      "reason": "Same agent; W1/active_moiety rule uses the development code 'exactly as first written in the record' without isotope. First written in the title as '131I-TLX-101', giving tlx-101. Names are re-mapped by script, so no substantive effect.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "tlx-101",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered intervention name is 131I-IPA; dictionary should map tlx-101/tlx101/131I-IPA to one moiety."
+}

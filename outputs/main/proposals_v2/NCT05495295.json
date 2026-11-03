@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05495295",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", false, \"\"]",
+      "coder_B": "",
+      "proposed": "keep A's TNBC ER/PgR/HER2-negative row, recoded role exploratory_correlative (not eligibility/enrichment), candidate_matched false",
+      "ruling_applied": "D31-A1",
+      "reason": "The receptor-negative definition applies only to 'Expansion cohort 2: Patients with triple-negative breast cancer (TNBC)', a non-GBM cohort, while 'Expansion cohort 1: Patients affected by GBM' has no molecular requirement; D31-A1 codes such a row exploratory_correlative.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-A1",
+      "reason": "Under D31-A1 any_molecular_selection follows the GBM patients' entry requirements only; 'Expansion cohort 1: Patients affected by GBM.' has none, so false.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "phox430",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Settled by D31-A1: the TNBC receptor-status row (non-GBM cohort 2) is exploratory_correlative; any_molecular_selection false and candidate_matched_selection false. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-A1",
+      "field": "selection_biomarker_only_in_A",
+      "from": "no selection biomarker row (drop A's TNBC ER/PgR/HER2-negative enrichment row)",
+      "to": "keep A's TNBC ER/PgR/HER2-negative row, recoded role exploratory_correlative (not eligibility/enrichment), candidate_matched false",
+      "reason": "The TNBC ER/PgR/HER2-negative requirement applies only to non-GBM expansion cohort 2, so under D31-A1 the row is kept as exploratory_correlative rather than dropped."
+    }
+  ]
+}

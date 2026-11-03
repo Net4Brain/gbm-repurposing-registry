@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT06929819",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "basket_gbm_eligible",
+      "proposed": "basket_gbm_eligible",
+      "ruling_applied": "D31-B15",
+      "reason": "Conditions \"Glioblastoma; Brain Tumor, Primary; Brain Tumor - Metastatic\" and summary \"high-grade glioma, metastases, lymphoma\": non-glioma cancers are eligible, so this is a multi-cancer trial with glioblastoma named, not a glioma-only mix.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Registered phase NA and intraoperative radiotherapy only: excluded at S3 regardless; S6 reason excluded_intervention_type (D31-C1). Population basket_gbm_eligible settled by D31-B15.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "items[gbm_population].ruling_applied",
+      "from": "manual §1.1",
+      "to": "D31-B15",
+      "reason": "Glioma is enrolled alongside non-glioma brain tumours (conditions \"Glioblastoma; Brain Tumor, Primary; Brain Tumor - Metastatic\"), so B15 settles basket_gbm_eligible (value unchanged)."
+    },
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The only intervention is \"Intraoperative Radiation Therapy in Malignant Cerebral Tumor\", so C1 gives excluded_intervention_type."
+    }
+  ]
+}

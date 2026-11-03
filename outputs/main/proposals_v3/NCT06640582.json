@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT06640582",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"aldesleukin\", \"pembrolizumab\"]",
+      "coder_B": "[\"pembrolizumab\"]",
+      "proposed": "[\"pembrolizumab\"]",
+      "ruling_applied": "D30-R4",
+      "reason": "IL-2 is given to support the TIL cell therapy ('Following the TIL infusion, Aldesleukin (IL-2) is administered to stimulate the TILs' activity'), with no own arm or outcome; under D30-R4 it is part of the excluded therapy, leaving pembrolizumab as the only candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:aldesleukin:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "supportive",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "D30-R4",
+      "reason": "D30-R4 treats a cytokine given to support a cell therapy as part of the excluded therapy; the record only says IL-2 is given 'to stimulate the TILs' activity'. Neither coder's value matches the ruling exactly (B's non-candidate status is right; the role label follows the excluded therapy).",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:pembrolizumab:role",
+      "coder_A": "experimental_combination",
+      "coder_B": "experimental_monotherapy",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "D30-R4; manual §3.1 rule 4 (C1)",
+      "reason": "With IL-2 not a candidate (D30-R4) and TIL an excluded cell therapy, pembrolizumab is the only investigational pharmacological agent, as in the manual's 'Pembrolizumab + an investigational vaccine' example.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:aldesleukin",
+      "coder_A": "experimental_combination (uncertain)",
+      "coder_B": "supportive (uncertain)",
+      "proposed": "excluded_intervention_type (not a candidate)",
+      "ruling_applied": "D30-R4",
+      "reason": "Settled by D30-R4: IL-2 supports the TIL product ('to stimulate the TILs' activity') and is not tested as an antitumour agent in its own arm or outcome.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:aldesleukin",
+      "coder_A": "experimental_combination (uncertain)",
+      "coder_B": "supportive (uncertain)",
+      "proposed": "excluded_intervention_type (not a candidate)",
+      "ruling_applied": "D30-R4",
+      "reason": "Same as above: D30-R4 makes IL-2 part of the excluded TIL therapy, so pembrolizumab stays experimental_monotherapy.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"aldesleukin\", \"cyclophosphamide\", \"fludarabine\", \"tumour-infiltrating lymphocytes\"]",
+      "coder_B": "[\"interleukin-2\", \"tumour-infiltrating lymphocytes\"]",
+      "proposed": "[]",
+      "ruling_applied": "D31-C2",
+      "reason": "Under D31-C2 as clarified, combination_partners does not list excluded products or their components: the TIL product, its lymphodepleting cyclophosphamide/fludarabine and IL-2 (D30-R4/D31-B8) are all part of the excluded cell therapy, and no radiotherapy is given, so no partner remains.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Harmonisation: the v2 revision adding cyclophosphamide and fludarabine is reversed by the clarified D31-C2, so combination_partners is [] and regimen monotherapy; aldesleukin stays a non-candidate (D30-R4, consistent with D31-B8). Conditions also list brain metastases and meningioma, but inclusion requires brain glioma and Glioblastoma is named in conditions (agreed mixed_glioma_gbm_named). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C2",
+      "field": "combination_partners",
+      "from": "[\"aldesleukin\", \"tumour-infiltrating lymphocytes\"]",
+      "to": "[\"aldesleukin\", \"cyclophosphamide\", \"fludarabine\", \"tumour-infiltrating lymphocytes\"]",
+      "reason": "The arm gives 'cyclophosphamide IV QD on days -7 to -6, fludarabine IV ... on days -5 to -1' with pembrolizumab, and D31-C2 lists every other drug given with the candidate."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "C2",
+      "field": "items[combination_partners].proposed",
+      "from": "[\"aldesleukin\", \"cyclophosphamide\", \"fludarabine\", \"tumour-infiltrating lymphocytes\"]",
+      "to": "[]",
+      "reason": "The clarified D31-C2 excludes the TIL product, its conditioning chemotherapy and its supporting IL-2, so pembrolizumab has no pharmacological partner."
+    },
+    {
+      "check": "C2",
+      "field": "proposed_final.regimen",
+      "from": "combination",
+      "to": "monotherapy",
+      "reason": "With the cell-therapy components excluded and no radiotherapy, pembrolizumab is the only antitumour drug, which is monotherapy under manual §2 (conditioning chemotherapy is supportive under manual R6)."
+    }
+  ]
+}

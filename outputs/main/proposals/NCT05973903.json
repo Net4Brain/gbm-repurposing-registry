@@ -1,0 +1,23 @@
+{
+  "nct_id": "NCT05973903",
+  "items": [
+    {"type": "disagreement", "item": "combination_partners", "coder_A": "[\"lenvatinib\", \"pembrolizumab\"]", "coder_B": "[\"lenvatinib\", \"pembrolizumab\", \"ttfields\"]",
+     "proposed": "[\"lenvatinib\", \"pembrolizumab\"]",
+     "ruling_applied": "manual §2",
+     "reason": "The regimen rule counts antitumour drugs and radiotherapy; TTFields ('Device: Tumor Treating Fields') is a device and 'The device itself is not an agent' (manual §1.2), so it is not listed as a partner. regimen stays 'combination' either way.",
+     "confidence": "medium"}
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only", "cns5_terminology": "unclear", "basket": false,
+    "has_eligible_candidate": true, "candidate_exclusion_reason": "none",
+    "candidates": [{"active_moiety": "lenvatinib", "role": "experimental_combination", "device_dependent": false},
+                   {"active_moiety": "pembrolizumab", "role": "experimental_combination", "device_dependent": false}],
+    "treatment_setting": "recurrent", "regimen": "combination",
+    "candidate_matched_selection": false, "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no", "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Purely descriptive difference; whether devices are recorded in combination_partners is a convention XL may want to fix project-wide. Candidate status is not affected: lenvatinib and pembrolizumab are not paired with device-enabled delivery or activation, so device_dependent is false."
+}

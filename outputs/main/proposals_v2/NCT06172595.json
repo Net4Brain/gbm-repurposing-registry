@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT06172595",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"mixed_glioma_gbm_named\"",
+      "coder_B": "\"high_grade_glioma_unspecified\"",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology cns5",
+      "ruling_applied": "manual §1.1 C7 (IDH-wildtype grade 4 glioma counts as named)",
+      "reason": "Inclusion requires 'malignant glioma (defined as WHO grade III or IV)' and 'Gliomas with Isocitrate dehydrogenase (IDH) wild-type status'; C7 counts an IDH-wildtype grade 4 glioma as named glioblastoma, and grade III IDH-wildtype glioma is also eligible, so it is mixed. This is stronger than the R7 case because IDH-wildtype is required.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma is not named literally; eligibility combines WHO grade III or IV malignant glioma with IDH-wildtype, which includes IDH-wildtype grade 4 glioma (=GBM) but could be read as high_grade_glioma_unspecified.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology cns5",
+      "ruling_applied": "manual §1.1 C7 (IDH-wildtype grade 4 glioma counts as named)",
+      "reason": "Inclusion requires 'malignant glioma (defined as WHO grade III or IV)' and 'Gliomas with Isocitrate dehydrogenase (IDH) wild-type status'; C7 counts an IDH-wildtype grade 4 glioma as named glioblastoma, and grade III IDH-wildtype glioma is also eligible, so it is mixed. This is stronger than the R7 case because IDH-wildtype is required.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "unclear",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Moot: diagnostic 18F-FET PET study with no therapeutic agent, so excluded at S6 regardless; reason set to excluded_intervention_type under D31-C1 (the PET/CT diagnostic test is a non-drug intervention under test). Population kept as mixed_glioma_gbm_named (grade III or IV with IDH-wildtype required, which includes IDH-wildtype grade 4 glioma under C7 and is stronger than D30-R7); if XL reads D31-B5 ('an IDH-wildtype cohort does not qualify') as covering this wording it would be high_grade_glioma_unspecified and a near-miss, with no effect on the S6 exclusion. Treatment setting left unclear (post-RT enlarging lesions that may be pseudoprogression).",
+  "revisions": [
+    {
+      "convention": "D31-C1",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "no_pharmacological_candidate",
+      "to": "excluded_intervention_type",
+      "reason": "The tested intervention is a diagnostic test ('[DIAGNOSTIC_TEST] FET PET', a single 18F-FET PET/CT), a non-drug procedure; 18F-FET itself is a diagnostic_agent."
+    }
+  ]
+}

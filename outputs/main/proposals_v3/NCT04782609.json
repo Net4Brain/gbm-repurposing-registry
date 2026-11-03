@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT04782609",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "target_engagement_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"no\"",
+      "proposed": "unclear",
+      "ruling_applied": "D31-C6",
+      "reason": "The record states a pharmacodynamic objective for the candidate ('evaluate the safety, pharmacokinetics (PK), pharmacodynamics, and MTD of single agent oral icapamespib'). Part 2 requires 'at least 5 subjects clinically requiring reoperation', with 'Tissue samples collected at surgery after icapamespib treatment', so post-treatment tumour is sampled. No PD marker is named, and paired pre/post sampling is not stated explicitly (the pre-treatment tissue would be archival).",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"yes\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "yes",
+      "ruling_applied": "manual §2 (W7); D31-C5",
+      "reason": "The primary outcome is 'Icapamespib Plasma Concentration at Time of Surgery: Tissue samples collected at surgery after icapamespib treatment.' The outcome description names tissue samples, and the design adds a surgical cohort, which is a window-of-opportunity drug-level measurement in tumour. W7 reserves 'unclear' for an unstated sample type, but here the title ('Plasma') and description ('Tissue') conflict.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "icapamespib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "D31-C6: PD objective stated with no measurement described, so target_engagement_planned is unclear. tumour_pk_planned stays yes: the drug is measured in tumour tissue at surgery (D31-C5), although the outcome title says 'Plasma'. D31-A2/A5: the IDH-mutant astrocytoma route is optional and IDH-wildtype only defines GBM, so any_molecular_selection is false. Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-C6",
+      "field": "items[target_engagement_planned].proposed",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "A PD objective is stated ('pharmacokinetics (PK), pharmacodynamics, and MTD') but no PD measurement is described."
+    },
+    {
+      "convention": "D31-C6",
+      "field": "proposed_final.target_engagement_planned",
+      "from": "yes",
+      "to": "unclear",
+      "reason": "D31-C6: PD objective stated, no measurement described."
+    },
+    {
+      "convention": "D31-C5",
+      "field": "items[tumour_pk_planned].ruling_applied",
+      "from": "manual §2 (W7)",
+      "to": "manual §2 (W7); D31-C5",
+      "reason": "The outcome measures icapamespib itself in 'Tissue samples collected at surgery after icapamespib treatment', which is tumour PK under D31-C5; value yes kept."
+    },
+    {
+      "convention": "D31-A2",
+      "field": "proposed_final.any_molecular_selection",
+      "from": "true",
+      "to": "false",
+      "reason": "IDH-mutant astrocytoma is one optional route ('IDH wildtype glioblastoma ... or grade 3 or 4 IDH mutant astrocytoma (Part 1 only)'), and IDH-wildtype only defines glioblastoma (D31-A5)."
+    }
+  ],
+  "harmonisation": []
+}

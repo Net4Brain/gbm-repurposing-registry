@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05236036",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"mycophenolic acid\"]",
+      "coder_B": "[\"mycophenolate mofetil\"]",
+      "proposed": "[\"mycophenolic acid\"]",
+      "ruling_applied": "manual §3 (active_moiety)",
+      "reason": "Manual §3 maps 'salt or ester to parent'; mycophenolate mofetil is the ester prodrug and the record calls 'mycophenolic acid, the MMF's primary active metabolite'. Same agent either way; the moiety script remaps names.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "mycophenolic acid",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "yes",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "any_molecular_selection true from the MGMT-unmethylated requirement for Group 2 (enrichment, unmatched).",
+  "revisions": []
+}

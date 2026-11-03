@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT04600817",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+      "coder_B": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+      "proposed": "Agreed coding stands: has_eligible_candidate false, no_pharmacological_candidate (TJ107 supportive)",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names 'TJ107 for lymphocyte recovery' as supportive; the record states only the ALC endpoint ('average of ALC at 3w after first TJ107 dose ... ≥1.5X109/L') and no antitumour hypothesis, so it is not a candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+      "coder_B": "has_eligible_candidate false, no_pharmacological_candidate (uncertain)",
+      "proposed": "Agreed coding stands: has_eligible_candidate false, no_pharmacological_candidate (TJ107 supportive)",
+      "ruling_applied": "D31-B9",
+      "reason": "D31-B9 names 'TJ107 for lymphocyte recovery' as supportive; the record states only the ALC endpoint ('average of ALC at 3w after first TJ107 dose ... ≥1.5X109/L') and no antitumour hypothesis, so it is not a candidate.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "S6 settled by D31-B9: TJ107 (lymphocyte recovery, no stated antitumour hypothesis) is supportive, so has_eligible_candidate false (no_pharmacological_candidate). Nothing pending for XL.",
+  "revisions": [
+    {
+      "convention": "D31-B9",
+      "field": "items[coder A: candidate_flag].ruling_applied",
+      "from": "manual §3.1 rule 2",
+      "to": "D31-B9",
+      "reason": "The record gives TJ107 only for patients with 'Absolute lymphocyte count (ALC) ≤1×109/L' with an ALC-recovery outcome, which D31-B9 codes as supportive (value unchanged, now settled)."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "items[coder B: candidate_flag].ruling_applied",
+      "from": "manual §3.1 rule 2",
+      "to": "D31-B9",
+      "reason": "The record gives TJ107 only for patients with 'Absolute lymphocyte count (ALC) ≤1×109/L' with an ALC-recovery outcome, which D31-B9 codes as supportive (value unchanged, now settled)."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "needs_xl_attention",
+      "from": "true",
+      "to": "false",
+      "reason": "D31-B9 explicitly settles TJ107 for lymphocyte recovery as supportive, so the S6 question no longer needs XL."
+    }
+  ],
+  "harmonisation": []
+}

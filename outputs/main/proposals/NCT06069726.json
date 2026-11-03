@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT06069726",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:TMB_MMR",
+      "coder_A": "stratification, matched atezolizumab (flagged)",
+      "coder_B": "",
+      "proposed": "stratification, matched atezolizumab (agreed coding stands)",
+      "ruling_applied": "manual §5",
+      "reason": "TMB is not an entry requirement: tissue \"will be analyzed by whole exome sequencing (WES)\" after the pre-surgical dose and \"40 patients with low TMB and 40 with high TMB will be treated\". It defines prospective comparison groups, so candidate_matched_selection stays false.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:TMB_MMR",
+      "coder_A": "",
+      "coder_B": "stratification, matched atezolizumab (flagged)",
+      "proposed": "stratification, matched atezolizumab (agreed coding stands)",
+      "ruling_applied": "manual §5",
+      "reason": "Same as coder A item; the summary's focus on low TMB does not make TMB an entry requirement since both groups are enrolled and treated.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atezolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": false,
+  "note": "Stratification vs exploratory_correlative for TMB is a minor point (affects molecularly_informed_design only); both coders chose stratification."
+}

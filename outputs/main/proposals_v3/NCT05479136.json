@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT05479136",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "mixed_glioma_gbm_named",
+      "coder_B": "high_grade_glioma_unspecified",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "D30-R7",
+      "reason": "Conditions 'Grade III or Grade IV Glioma' and inclusion 'primary WHO grade III or IV glioma' explicitly allow grade 4 with no IDH requirement; R7 includes this as historical glioblastoma even though glioblastoma is named only in the description. Moot for inclusion: the trial fails S6 (diagnostic PET only).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "grade IV glioma without IDH (D27C); could be high_grade_glioma_unspecified",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology historical",
+      "ruling_applied": "D30-R7",
+      "reason": "Exactly the R7 pattern ('WHO grade 3-4 glioma', grade 4 allowed, no IDH, glioblastoma not named in eligible fields).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "",
+      "coder_B": "grade IV eligible but glioblastoma named only in description",
+      "proposed": "mixed_glioma_gbm_named, cns5_terminology historical",
+      "ruling_applied": "D30-R7",
+      "reason": "R7 does not require glioblastoma to be named when grade 4 is explicitly eligible without an IDH requirement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Excluded at S6 either way: the only agent is 18F-fluciclovine for 'PET imaging' (diagnostic_agent; moiety naming per W1 to be settled by script). The S5 change only alters which exclusion step is reported first (now S6 rather than S5).",
+  "revisions": [],
+  "harmonisation": []
+}

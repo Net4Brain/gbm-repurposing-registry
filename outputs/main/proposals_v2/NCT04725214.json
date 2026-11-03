@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04725214",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"temozolomide\"]",
+      "coder_B": "[\"radiotherapy (stupp regimen)\", \"temozolomide\"]",
+      "proposed": "[\"temozolomide\"]",
+      "ruling_applied": "manual §2 (regimen, C1)",
+      "reason": "The experimental arm gives anlotinib 'during temozolomide adjuvant' and the description says 'during adjuvant chemotherapy, concurrent with anti-angiogenesis targeted therapy(Anlotinib capsule,d1-14)'; inclusion requires patients to 'Have received standard STUPP treatment plan', so radiotherapy precedes the experimental phase. Regimen is combination either way.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "anlotinib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "The title says 'Anlotinib Combined With STUPP Protocol', which could support adding radiotherapy as a partner; the arm text points to the adjuvant temozolomide phase only. Does not affect regimen or any screening/outcome variable. MGMT-unmethylated is an entry requirement (any_molecular_selection true, not candidate-matched).",
+  "revisions": []
+}

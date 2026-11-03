@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT04541082",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_B",
+      "coder_A": "",
+      "coder_B": "[\"H3K27M\", false, \"\"]",
+      "proposed": "H3K27M exploratory_correlative (conditional exclusion restricting only H3 K27M-mutant diffuse gliomas), not eligibility",
+      "ruling_applied": "D31-A1",
+      "reason": "The exclusion \"Patients with H3 K27M-mutant diffuse gliomas are excluded unless the primary tumor is located in the pons or spinal cord...\" restricts only the H3 K27M diffuse glioma (non-GBM) group; glioblastoma patients enter without it, so under D31-A1 the row is exploratory_correlative rather than A4 eligibility. Excluding H3K27M-altered tumours also falls under the D31-A5 exemption for GBM.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "any_molecular_selection",
+      "coder_A": "false",
+      "coder_B": "true",
+      "proposed": "false",
+      "ruling_applied": "manual §5",
+      "reason": "No eligibility or enrichment biomarker remains once the H3K27M conditional exclusion is not counted. The record lists a broad set of \"recurrent, primary CNS neoplasm\" types with no molecular entry requirement.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "onc206",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Under D31-B15 the population is basket_gbm_eligible (still included). The H3K27M exclusion is coded exploratory_correlative under D31-A1 (and is A5-exempt), so any_molecular_selection stays false and no A6 question arises.",
+  "revisions": [
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.gbm_population",
+      "from": "mixed_glioma_gbm_named",
+      "to": "basket_gbm_eligible",
+      "reason": "Inclusion lists glioblastoma alongside non-glioma CNS neoplasms (\"medulloblastoma ... atypical teratoid/rhabdoid tumor ... atypical and anaplastic meningiomas, choroid plexus tumors, and pineal region tumors\")."
+    },
+    {
+      "convention": "D31-B15",
+      "field": "proposed_final.basket",
+      "from": "false",
+      "to": "true",
+      "reason": "Follows from basket_gbm_eligible under D31-B15."
+    },
+    {
+      "convention": "D31-A1",
+      "field": "selection_biomarker_only_in_B (H3K27M role)",
+      "from": "no H3K27M eligibility biomarker",
+      "to": "H3K27M exploratory_correlative",
+      "reason": "The H3 K27M exclusion applies only to the diffuse-midline/histone-mutant glioma group, while glioblastoma patients enter without it."
+    }
+  ],
+  "harmonisation": []
+}

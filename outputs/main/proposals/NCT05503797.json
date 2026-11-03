@@ -1,0 +1,54 @@
+{
+  "nct_id": "NCT05503797",
+  "items": [
+    {
+      "type": "disagreement_outcome",
+      "item": "selection_biomarker_only_in_A",
+      "coder_A": "[\"other\", true, \"plixorafenib\"]",
+      "coder_B": "",
+      "proposed": "drop row (no selection biomarker for NF1/RAS)",
+      "ruling_applied": "manual §5 (C6)",
+      "reason": "\"Known or suspected neurofibromatosis-1 (NF-1) and/or RAS related gene alterations\" is an exclusion criterion, not an entry requirement, so it should not be an eligibility row; the trial's candidate-matched selection is carried by the BRAF V600E / BRAF fusion requirements matched to plixorafenib, so the primary outcome is true either way.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "cns5_terminology",
+      "coder_A": "\"cns5\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "cns5",
+      "ruling_applied": "manual §1.1 (C8)",
+      "reason": "Subprotocol B cites \"WHO [2021] Grade 3 or 4 primary CNS tumor\"; historical terms (\"Grade 1-4 glioma\", \"anaplastic astrocytoma\") also appear, and when both cns5 and historical criteria are met C8 says code cns5.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "cns5",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "plixorafenib",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "BRAF",
+        "matched_agent": "plixorafenib"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "BRAF role (eligibility vs enrichment) differs between coders (priority 3); every subprotocol requires a BRAF alteration, so either way candidate_matched_selection = true. WHO 2021 citation is in the paediatric clause of Subprotocol B."
+}

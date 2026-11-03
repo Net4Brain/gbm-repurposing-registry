@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT07583771",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:other",
+      "coder_A": "MTAP homozygous deletion, eligibility, matched cs08399 (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched true (cs08399)",
+      "ruling_applied": "manual §5",
+      "reason": "Entry requires 'Homozygous MTAP or CDKN2A deletion' in a trial titled 'MTAP-deleted Solid Tumors', and it excludes patients who 'Previously received MAT2A or PRMT5 inhibitors', which ties CS08399 to the MTAP-deletion pathway within the record (MTAP + PRMT5/MAT2A is the manual's example). The record never states CS08399's mechanism.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:CDKN2A_B",
+      "coder_A": "CDKN2A_B eligibility, matched cs08399 (uncertain)",
+      "coder_B": "same",
+      "proposed": "eligibility, candidate_matched true (cs08399), as surrogate for MTAP co-deletion",
+      "ruling_applied": "manual §5",
+      "reason": "CDKN2A deletion is accepted as an alternative to MTAP deletion in the same criterion, apparently as a surrogate for the co-deleted MTAP locus; the link to the candidate is through MTAP, not CDKN2A itself. Does not change the primary outcome (MTAP row is already matched).",
+      "confidence": "low"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:other",
+      "coder_A": "same",
+      "coder_B": "MTAP homozygous deletion, eligibility, matched cs08399 (uncertain)",
+      "proposed": "eligibility, candidate_matched true (cs08399)",
+      "ruling_applied": "manual §5",
+      "reason": "As for coder A's flag.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:CDKN2A_B",
+      "coder_A": "same",
+      "coder_B": "CDKN2A_B eligibility, matched cs08399 (uncertain)",
+      "proposed": "eligibility, candidate_matched true (cs08399)",
+      "ruling_applied": "manual §5",
+      "reason": "As for coder A's flag; surrogate link only.",
+      "confidence": "low"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "unclear",
+      "coder_B": "no",
+      "proposed": "unclear",
+      "ruling_applied": "manual §2 (W7)",
+      "reason": "PK is planned ('Pharmacokinetic parameters: Maximum Concentration (Cmax)') and the sample type is never stated; W7 says unclear in exactly this case, although parameters such as CL/F imply plasma.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "basket_gbm_eligible",
+    "cns5_terminology": "unclear",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "cs08399",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "other: MTAP homozygous deletion",
+        "matched_agent": "cs08399"
+      },
+      {
+        "biomarker": "CDKN2A_B",
+        "matched_agent": "cs08399"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "unclear"
+  },
+  "needs_xl_attention": true,
+  "note": "Positive primary outcome rests on inferring CS08399's MTAP-directed mechanism from the record (not stated); XL to confirm under D21 review. CDKN2A match is low confidence (surrogate only). Glioblastoma is named only in inclusion criteria 4-5 (D27B basket)."
+}

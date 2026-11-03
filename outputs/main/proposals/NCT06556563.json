@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT06556563",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"temozolomide\", \"ttfields (optune)\"]",
+      "coder_B": "[\"temozolomide\", \"tumour treating fields\"]",
+      "proposed": "[\"temozolomide\", \"tumour treating fields\"]",
+      "ruling_applied": "manual §3 (C5, generic not brand)",
+      "reason": "Same partners ('Optune® device ... delivering TTFields therapy' plus maintenance temozolomide); the generic name without the brand follows the manual's naming convention.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "pembrolizumab",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": ""
+}

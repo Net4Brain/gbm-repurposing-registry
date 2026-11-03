@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT05120284",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"dichloroacetic acid\"]",
+      "coder_B": "[\"dichloroacetate\"]",
+      "proposed": "[\"dichloroacetic acid\"]",
+      "ruling_applied": "manual §3 (C5 naming); §3.1 rule 4",
+      "reason": "Registered as \"Dichloroacetate (DCA) (other names: Sodium Dichloroacetate)\"; the manual maps salt to parent, giving dichloroacetic acid (coder A); the script will reconcile names. DCA is the only investigational agent (\"Trial of Dichloroacetate (DCA) in Glioblastoma Multiforme\"), so it stays a candidate.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "Both registered arms are ACTIVE_COMPARATOR and both receive DCA (pre- vs post-surgical start); DCA is the investigational agent but rule 1 could be read as control_comparator",
+      "coder_B": "",
+      "proposed": "experimental_monotherapy (candidate; rule 1 does not apply)",
+      "ruling_applied": "manual §3.1 (rules 1, 3, 4; C3)",
+      "reason": "Both arms are registered ACTIVE_COMPARATOR and both receive DCA, differing only in start time (\"randomized to receive DCA (N=20) or no DCA (N=20) for one week prior to surgery\"). Rule 1 is meant for agents in a control arm only; here DCA is the trial's investigational question, which C3 says decides the candidate. The registered arm types make this not fully settled.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:dichloroacetic acid",
+      "coder_A": "All arms are registered as ACTIVE_COMPARATOR and all receive DCA; coded as candidate because pre-surgical DCA is the trial question",
+      "coder_B": "",
+      "proposed": "experimental_monotherapy",
+      "ruling_applied": "manual §3.1 (rules 1, 3, 4; C3)",
+      "reason": "Same reasoning: DCA is the subject of the trial (primary outcome \"Level of phosphorylated PDC protein expressed in surgical tissue\" reflects DCA's effect), so it is a candidate rather than control_comparator.",
+      "confidence": "medium"
+    },
+    {
+      "type": "disagreement",
+      "item": "tumour_pk_planned",
+      "coder_A": "\"no\"",
+      "coder_B": "\"unclear\"",
+      "proposed": "no",
+      "ruling_applied": "manual §2 (tumour_pk_planned, W7)",
+      "reason": "The record plans \"biochemical markers of DCA dynamics\" in blood and tumour and a phospho-PDC primary outcome, which are pharmacodynamic; it never states drug concentrations will be measured. W7 reserves unclear for planned PK with unstated sample type, so no (coder A).",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "dichloroacetic acid",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "recurrent",
+    "regimen": "monotherapy",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": true,
+  "note": "Candidacy rests on reading rule 1 as not applying when every arm is registered ACTIVE_COMPARATOR but the agent itself is the trial question; if XL reads rule 1 literally, DCA becomes control_comparator and the trial is excluded at S6 (no_pharmacological_candidate). GSTZ1 genotyping is germline (not recorded)."
+}

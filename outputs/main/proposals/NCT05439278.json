@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05439278",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "\"no_pharmacological_candidate\"",
+      "coder_B": "\"established_therapy_only\"",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "manual §1 S6 / §3.1 rule 3; R1 by analogy",
+      "reason": "The question is radiotherapy fractionation ('compare conventional radiotherapy of 60 Gy (6 weeks) versus hypofractionated radiotherapy of 40 Gy'). Temozolomide is identical in both arms ('concurrent (75 mg/m2/day qd) and adjuvant (6 cycles)'), so it is soc_backbone and not an established-therapy experiment. R1 ties established_therapy_only to an established drug that is itself the subject (rule 6), which is not the case here. The manual does not define the three S6 reasons, so established_therapy_only (the only drug is an established GBM therapy) is also defensible.",
+      "confidence": "low"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "XL convention needed: which S6 reason applies when the only drug is a soc_backbone established therapy and the experimental variable is radiotherapy? The choice affects only Figure 1 labelling. Separately, both coders coded MGMT as eligibility for 'known o6-methylguanine-DNA-methyltransferase promoter methylation status'. This requires a known status, not a specific one, and other coders have coded the same wording exploratory_correlative (e.g. NCT04552977). If XL decides a known-status requirement is not selection, any_molecular_selection here becomes false."
+}

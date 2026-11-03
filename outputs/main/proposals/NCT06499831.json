@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT06499831",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "gbm_population",
+      "coder_A": "\"mixed_glioma_gbm_named\"",
+      "coder_B": "\"high_grade_glioma_unspecified\"",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "Inclusion is 'High grade brain glioma (Grade 3 and 4)' and the arm is 'post-operative grade III/IV glioma patients', with no IDH requirement; glioblastoma is named only in keywords/summary. R7 includes grade 3-4 glioma with grade 4 explicitly allowed as historical glioblastoma (mixed_glioma_gbm_named, cns5 historical).",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "Glioblastoma named only in keywords/summary; inclusion says grade 3 and 4 glioma without IDH, which may count as historical GBM naming (D27C) or as high_grade_glioma_unspecified.",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named",
+      "ruling_applied": "R7",
+      "reason": "R7 settles exactly this case: grade 4 explicitly allowed ('Grade 3 and 4'), no IDH requirement, GBM never named in an eligible field -> include as historical GBM. Outcome-neutral: phase NA and the only agent is the 18F-FET tracer (diagnostic).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "historical",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Fails S3 (phase NA) and S6 (diagnostic tracer only)."
+}

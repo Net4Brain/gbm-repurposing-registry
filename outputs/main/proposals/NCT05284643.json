@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT05284643",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "no_pharmacological_candidate",
+      "coder_B": "established_therapy_only",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "manual §3.1 rules 2, 3, 6",
+      "reason": "Bevacizumab is not the question: it is given \"per standard of care, at treating physician's discretion\" in both cohorts, and \"Proton radiotherapy and bevacizumab (Avastin) are used to minimize the possible side effects\". The tested intervention is sMRI-guided proton radiotherapy, so established_therapy_only (rule 6) does not apply.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": true,
+  "note": "Convention question for XL: when the only tested intervention is radiotherapy or a device and the only drug is a backbone/supportive agent, S6 reason could be no_pharmacological_candidate or excluded_intervention_type (radiotherapy alone and devices are listed as excluded types in manual 1.2). Proposed no_pharmacological_candidate throughout this batch (NCT04574856, NCT06140875, NCT05284643, NCT06929819) for consistency. Registered phase NA, so excluded at S3 regardless. Bevacizumab role: supportive (rule 2, stated side-effect purpose, comes before rule 3) is preferred over soc_backbone; not a candidate either way."
+}

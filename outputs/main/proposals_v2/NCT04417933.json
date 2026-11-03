@@ -1,0 +1,34 @@
+{
+  "nct_id": "NCT04417933",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "excluded_intervention_type",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "manual §1.2",
+      "reason": "The only intervention is '[DEVICE] Tumor Electric Fields Treatment System (other names: ASCLU-300)'. Manual §1.2 names 'devices (TTFields, ...)' explicitly as an excluded intervention type, so the S6 failure is best recorded as excluded_intervention_type.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "EARLY_PHASE1: translational subset only (S3/D23). Medium confidence only because the manual does not say which S6 reason to use when no drug is registered at all; the trial is excluded either way. Apply the same reason to other device-only trials (e.g. NCT05303467). D31-C1 confirms excluded_intervention_type for this device-only trial.",
+  "revisions": []
+}

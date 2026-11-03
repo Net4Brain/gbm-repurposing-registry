@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT04851834",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "basket_gbm_eligible (uncertain)",
+      "coder_B": "basket_gbm_eligible",
+      "proposed": "not_glioblastoma",
+      "ruling_applied": "D31-B6",
+      "reason": "Inclusion criterion 3 names 'glioblastoma multiforme (GBM)', but the registered arm labels narrow the glioma population to 'IDH1 mutated high-grade glioma'; D31-B6 applies the narrower definition (not_glioblastoma). The Phase 1a 'all solid tumours' route never names glioblastoma.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: biomarker:IDH",
+      "coder_A": "IDH, enrichment, candidate_matched false (uncertain)",
+      "coder_B": "IDH, enrichment, candidate_matched false (uncertain)",
+      "proposed": "IDH, role enrichment (whole IDH1-mutated HGG cohort, D31-A2 scope), candidate_matched true (matched_agent ntx-301)",
+      "ruling_applied": "D31-A6; D31-A2",
+      "reason": "NTX-301 is stated to be 'an oral DNMT1 inhibitor'/'hypomethylating agent', and from established pharmacology (own knowledge) IDH1 mutation drives 2-HG-mediated DNA hypermethylation (G-CIMP), the rationale for hypomethylating agents in IDH-mutant tumours, so IDH is mechanistically linked under corrected D31-A6.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: biomarker:IDH",
+      "coder_A": "IDH, enrichment, candidate_matched false (uncertain)",
+      "coder_B": "IDH, enrichment, candidate_matched false (uncertain)",
+      "proposed": "IDH, role enrichment (whole IDH1-mutated HGG cohort, D31-A2 scope), candidate_matched true (matched_agent ntx-301)",
+      "ruling_applied": "D31-A6; D31-A2",
+      "reason": "NTX-301 is stated to be 'an oral DNMT1 inhibitor'/'hypomethylating agent', and from established pharmacology (own knowledge) IDH1 mutation drives 2-HG-mediated DNA hypermethylation (G-CIMP), the rationale for hypomethylating agents in IDH-mutant tumours, so IDH is mechanistically linked under corrected D31-A6.",
+      "confidence": "medium"
+    },
+    {
+      "type": "d31_harmonisation",
+      "item": "combination_partners",
+      "coder_A": "[\"temozolomide\", \"cisplatin\", \"carboplatin\"]",
+      "coder_B": "[\"temozolomide\", \"cisplatin\", \"carboplatin\"]",
+      "proposed": "[\"temozolomide\"]",
+      "ruling_applied": "D31-C2",
+      "reason": "Cisplatin and carboplatin are given only in the ovarian/bladder arms 1-2; in the glioma arms NTX-301 is combined only with temozolomide, so clarified D31-C2 lists temozolomide only.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "not_glioblastoma",
+    "cns5_terminology": "historical",
+    "basket": true,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "ntx-301",
+        "role": "experimental_monotherapy",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {
+        "biomarker": "IDH",
+        "matched_agent": "ntx-301"
+      }
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "unclear",
+    "target_engagement_planned": "yes"
+  },
+  "needs_xl_attention": false,
+  "note": "Screening settled by D31-B6: not_glioblastoma (excluded at S5), although both coders coded basket_gbm_eligible. basket is kept true to describe the multi-tumour design; set it to false if XL prefers basket false for S5 exclusions. Corrected D31-A6 resolved: IDH1 mutation is candidate-matched to the DNMT1 inhibitor NTX-301 (established hypomethylating-agent rationale in IDH-mutant tumours, own knowledge), so candidate_matched_selection is true; this is moot for the analysis because the trial is excluded at S5. The glioma cohort is optional for the trial, but IDH1 mutation is required for the whole glioma cohort, so it stays enrichment (D31-A2 scope). combination_partners limited to temozolomide (D31-C2).",
+  "revisions": [
+    {
+      "convention": "D31-B6",
+      "field": "items[coder A: gbm_population_flag].ruling_applied",
+      "from": "manual §1.1 (confidence low)",
+      "to": "D31-B6 (confidence high)",
+      "reason": "Inclusion 3 names 'glioblastoma multiforme (GBM)', but both glioma arm labels read 'IDH1 mutated high-grade glioma', so the narrower IDH-mutant definition applies: not_glioblastoma (value unchanged)."
+    }
+  ],
+  "harmonisation": [
+    {
+      "check": "A6",
+      "field": "biomarker:IDH candidate_matched",
+      "from": "false (A6 pending XL)",
+      "to": "true (ntx-301)",
+      "reason": "NTX-301 is stated to be 'an oral DNMT1 inhibitor'/'hypomethylating agent', and from established pharmacology (own knowledge) IDH1 mutation drives 2-HG-mediated DNA hypermethylation (G-CIMP), the rationale for hypomethylating agents in IDH-mutant tumours, so IDH is mechanistically linked under corrected D31-A6."
+    },
+    {
+      "check": "A6",
+      "field": "proposed_final.candidate_matched_selection",
+      "from": "false",
+      "to": "true",
+      "reason": "Consistency rule: the IDH row is an enrichment row (required for the whole glioma cohort, Arms 3-4) and is now candidate-matched."
+    },
+    {
+      "check": "A6",
+      "field": "proposed_final.matched_biomarkers",
+      "from": "[]",
+      "to": "[{\"biomarker\": \"IDH\", \"matched_agent\": \"ntx-301\"}]",
+      "reason": "Follows from the IDH enrichment row now being candidate-matched to NTX-301."
+    },
+    {
+      "check": "C2",
+      "field": "combination_partners",
+      "from": "[\"temozolomide\", \"cisplatin\", \"carboplatin\"]",
+      "to": "[\"temozolomide\"]",
+      "reason": "Cisplatin and carboplatin are given only in the ovarian/bladder arms 1-2; in the glioma arms NTX-301 is combined only with temozolomide, so clarified D31-C2 lists temozolomide only."
+    }
+  ]
+}

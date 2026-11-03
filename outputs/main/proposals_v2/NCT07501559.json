@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT07501559",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "has_eligible_candidate false, excluded_intervention_type (uncertain: oncolytic-virus nature inferred)",
+      "coder_B": "has_eligible_candidate false, excluded_intervention_type",
+      "proposed": "has_eligible_candidate false; candidate_exclusion_reason excluded_intervention_type",
+      "ruling_applied": "manual §3.1 rule 0a",
+      "reason": "The record never names the product type, but every detail fits a live (polio-based) oncolytic virus. It is dosed in infectious units ('Cohort 1 (5×10⁶ CCID₅₀, n=20)'), there are 'Viral shedding' outcomes, and entry requires a 'boost immunization with trivalent inactivated poliovirus vaccine' with neutralising titre. That makes it an oncolytic virus, an excluded intervention type.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "(see coder A: candidate_flag)",
+      "coder_B": "excluded_intervention_type (uncertain: record never states what JL15003 is)",
+      "proposed": "excluded_intervention_type",
+      "ruling_applied": "manual §3.1 rule 0a",
+      "reason": "Same evidence: CCID50 dosing and viral shedding in 'blood', 'throat swab' and 'fecal samples' can only describe a replicating virus. A non-viral pharmacological agent would not be dosed or monitored this way.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "The identity of JL15003 is inferred, not stated. Confirming it from sponsor material (Jecho Biopharmaceuticals) would raise confidence but is outside the record. Priority-3 agent naming: under W2, a short generic name such as 'oncolytic poliovirus' is preferred. Listing the inactivated poliovirus vaccine boost (coder A) as excluded_intervention_type is acceptable, since every patient receives it as a registered prerequisite. Virus copy number in CSF and cyst fluid is shedding of a non-candidate, so tumour_pk_planned is 'no'. D31-B8 supports coding the inactivated poliovirus vaccine boost as excluded_intervention_type (a prerequisite for the virus therapy). No value changes; nothing pending for XL.",
+  "revisions": []
+}

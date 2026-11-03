@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT02887040",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder A: gbm_population_flag",
+      "coder_A": "flagged uncertain (DIPG trial, GBM histology accepted)",
+      "coder_B": "",
+      "proposed": "mixed_glioma_gbm_named (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Inclusion criteria name GBM as an eligible histology ('Confirmation of anaplastic glioma ... or GBM histology if there is less than 50% involvement of the pons'), and C7 counts a GBM named in inclusion criteria; adults are eligible, so it is not 'paediatric DIPG/DMG only'.",
+      "confidence": "medium"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: gbm_population_flag",
+      "coder_A": "",
+      "coder_B": "flagged uncertain (GBM only one acceptable histology)",
+      "proposed": "mixed_glioma_gbm_named (agreed coding stands)",
+      "ruling_applied": "manual §1.1 (C7)",
+      "reason": "Same as coder A: GBM is explicitly eligible in the inclusion criteria alongside anaplastic gliomas, which meets mixed_glioma_gbm_named even though the target population is diffuse intrinsic pontine glioma.",
+      "confidence": "medium"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "unclear",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {
+        "active_moiety": "atengenal",
+        "role": "experimental_combination",
+        "device_dependent": false
+      },
+      {
+        "active_moiety": "astugenal",
+        "role": "experimental_combination",
+        "device_dependent": false
+      }
+    ],
+    "treatment_setting": "newly_diagnosed",
+    "regimen": "combination",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": false,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Mixed age (CHILD, ADULT); start date may fall outside the 2020-2026 window (CODE layer decides S2 first). Radiation-only arm is registered EXPERIMENTAL but serves as control (both coders: control_arm_from_other_arms yes). No D31 convention changes this record (GBM named in the inclusion criteria; radiation-only arm works as control, not a dose cohort, so C4 does not apply).",
+  "revisions": []
+}

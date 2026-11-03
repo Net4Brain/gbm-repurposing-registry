@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT06630260",
+  "items": [
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:temozolomide",
+      "coder_A": "soc_backbone",
+      "coder_B": "soc_backbone (uncertain)",
+      "proposed": "Agreed coding stands: soc_backbone",
+      "ruling_applied": "manual §3.1 rule 3 (C1, C3)",
+      "reason": "Temozolomide is optional in Phase 2 ('Avutometinib and defactinib may be administered in combination with temozolomide (TMZ)') and an outcome describes it as 'combination with TMZ when given as standard of care maintenance therapy'; it is the standard backbone, not a third investigational agent. The 'triplet' label does not make an established GBM drug investigational (rule 6 needs a new dose/schedule/route, not stated).",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidates": [
+      {"active_moiety": "avutometinib", "role": "experimental_combination", "device_dependent": false},
+      {"active_moiety": "defactinib", "role": "experimental_combination", "device_dependent": false}
+    ],
+    "treatment_setting": "both",
+    "regimen": "combination",
+    "candidate_matched_selection": true,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [
+      {"biomarker": "BRAF", "matched_agent": "avutometinib"},
+      {"biomarker": "other: NF1 loss", "matched_agent": "avutometinib"}
+    ],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Primary outcome (candidate_matched_selection true via BRAF and NF1 enrichment cohorts matched to avutometinib) is agreed by both coders and will also be reviewed under D21(a). MGMT enrichment row (agreed by both) is not candidate-matched."
+}

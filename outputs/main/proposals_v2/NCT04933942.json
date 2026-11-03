@@ -1,0 +1,160 @@
+{
+  "nct_id": "NCT04933942",
+  "items": [
+    {
+      "type": "disagreement",
+      "item": "candidate_exclusion_reason",
+      "coder_A": "none",
+      "coder_B": "no_pharmacological_candidate",
+      "proposed": "no_pharmacological_candidate",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "candidate_set",
+      "coder_A": "[\"romiplostim\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "has_eligible_candidate",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "agent:romiplostim:role",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "supportive",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: candidate_flag",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder A: agent:romiplostim",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "supportive",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: candidate_flag",
+      "coder_A": "true",
+      "coder_B": "false",
+      "proposed": "false",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "uncertain",
+      "item": "coder B: agent:romiplostim",
+      "coder_A": "experimental_monotherapy",
+      "coder_B": "supportive",
+      "proposed": "supportive",
+      "ruling_applied": "D31-B9",
+      "reason": "Romiplostim's stated purpose is supportive ('to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment'); D31-B9 names romiplostim as supportive despite the registered PFS outcome, and the record states no antitumour hypothesis for it. Lomustine is soc_backbone in both arms, so there is no candidate.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "combination_partners",
+      "coder_A": "[\"lomustine\"]",
+      "coder_B": "[]",
+      "proposed": "[]",
+      "ruling_applied": "D31-B9, manual §2 (manual R1)",
+      "reason": "Without a candidate, regimen is not_applicable and there are no combination partners.",
+      "confidence": "high"
+    },
+    {
+      "type": "disagreement",
+      "item": "regimen",
+      "coder_A": "combination",
+      "coder_B": "not_applicable",
+      "proposed": "not_applicable",
+      "ruling_applied": "D31-B9, manual §2 (manual R1)",
+      "reason": "Without a candidate, regimen is not_applicable and there are no combination partners.",
+      "confidence": "high"
+    }
+  ],
+  "proposed_final": {
+    "gbm_population": "gbm_only",
+    "cns5_terminology": "cns5",
+    "basket": false,
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidates": [],
+    "treatment_setting": "recurrent",
+    "regimen": "not_applicable",
+    "candidate_matched_selection": false,
+    "imaging_assessed_selection": false,
+    "matched_biomarkers": [],
+    "any_molecular_selection": true,
+    "tumour_pk_planned": "no",
+    "target_engagement_planned": "no"
+  },
+  "needs_xl_attention": false,
+  "note": "Screening-critical (S6): excluded under D31-B9 (romiplostim supportive; record states no antitumour hypothesis), which the original proposal flagged as the alternative. MGMT promoter methylation is a required value, so it stays eligibility (D31-A8): any_molecular_selection true, not candidate-matched.",
+  "revisions": [
+    {
+      "convention": "D31-B9",
+      "field": "agent:romiplostim role / candidate_set",
+      "from": "experimental_monotherapy / [romiplostim]",
+      "to": "supportive / []",
+      "reason": "The record states romiplostim is given 'to restore the platelet count ... during the lomustine treatment', with no antitumour hypothesis."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.has_eligible_candidate",
+      "from": "true",
+      "to": "false",
+      "reason": "Romiplostim is supportive and lomustine is soc_backbone in both arms, so no candidate remains."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.candidate_exclusion_reason",
+      "from": "none",
+      "to": "no_pharmacological_candidate",
+      "reason": "No candidate, and no device or radiotherapy is under test (D31-C1)."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.candidates",
+      "from": "[romiplostim experimental_monotherapy]",
+      "to": "[]",
+      "reason": "Romiplostim is supportive under D31-B9."
+    },
+    {
+      "convention": "D31-B9",
+      "field": "proposed_final.regimen / combination_partners",
+      "from": "combination / [lomustine]",
+      "to": "not_applicable / []",
+      "reason": "regimen is not_applicable when has_eligible_candidate is false (manual R1)."
+    }
+  ]
+}
