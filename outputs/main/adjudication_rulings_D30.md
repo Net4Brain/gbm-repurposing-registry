@@ -1,0 +1,16 @@
+# Adjudication rulings (proposed D30) — XL, 2026-11-03
+
+These are rulings on eight recurring questions raised during the main coding pass (`main_pass_report.md` §4). They interpret coding manual v1.4 for adjudication. They do not change the coders' outputs: the final value of each record is set in the adjudication table, and the AI outputs stay as coded.
+
+| # | Question | Ruling |
+|---|---|---|
+| R1 | Established GBM drug (temozolomide, carmustine, lomustine, bevacizumab) given with focused-ultrasound BBB opening or another device | **Established-therapy experiment** (manual rule 6 takes precedence over C12/R5). Not a candidate. The trial is `established_therapy_only` unless it has another candidate. These trials are listed separately in the supplement. |
+| R2 | Entry requires imaging-assessed target expression (e.g. SSTR, GRPR, PSMA, CA IX, integrin αvβ3 on PET) with a matched radioligand | **Counts as candidate-matched molecular selection**, flagged `imaging_assessed`. A new sensitivity analysis excludes these from the primary outcome. |
+| R3 | Prodrug activated by a gene or cell suicide therapy (5-FC/flucytosine incl. Toca FC and DB107-FC, valganciclovir, valaciclovir with HSV-tk) | **Part of the excluded therapy.** Not a candidate. The trial is `excluded_intervention_type` unless it has another candidate. |
+| R4 | Cytokine or adjuvant given to support a cell therapy or vaccine (IL-2, IL-15, GM-CSF/sargramostim, poly-ICLC, imiquimod, IL-12, Td toxoid, Montanide, XS15, pIFN) | **Part of the excluded therapy.** Not a candidate. Exception: a candidate if the record tests it as an antitumour agent in its own right, e.g. in its own arm or as the subject of an outcome. |
+| R5 | Botanical, supplement or medical-food product with an antitumour hypothesis (e.g. curcumin, Salovum, elemene, oxaloacetate, silibinin, CBD extract, zinc/ascorbate) | **A candidate only if licensed as a medicine** (any national marketing authorisation). Otherwise `excluded_intervention_type`. Licensing evidence for each such product is recorded in Table S2; the origin classification still uses FDA/EMA only (D5). |
+| R6 | Chemosensitiser acting on the tumour to potentiate another drug (e.g. O6-benzylguanine with temozolomide) | **Candidate** in its own right (unlike delivery-enabling agents, it acts on the tumour). The MGMT match counts under manual §5 (an MGMT-targeting candidate). |
+| R7 | "WHO grade 3–4 glioma" or "high-grade glioma (grade III/IV)" with grade 4 explicitly allowed, no IDH requirement, and glioblastoma never named | **Include** under D27C as historical glioblastoma: `mixed_glioma_gbm_named`, with `cns5_terminology: historical`. Removed in the GBM-only and CNS5-only sensitivity analyses. Plain "high-grade glioma" with no grade 4 stated remains `high_grade_glioma_unspecified` (excluded). |
+| R8 | Drugs assigned per patient by a drug screen or genomic test, with no drugs named | **`unspecified_approved_panel` (C13) only when the record says the drugs are approved or licensed.** Otherwise no candidate (`no_pharmacological_candidate`). Both kinds are listed separately. |
+
+New flag and analysis: R2 adds the flag `imaging_assessed` and sensitivity analysis 15, which excludes imaging-assessed selection from the primary outcome. This is a dated amendment after registration and will be reported as such.
