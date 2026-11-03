@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04596930",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "title", "quote": "MR-guided LITT Therapy in Patients With Primary Irresectable Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The Visualase Thermal Therapy System is used to necrotize or coagulate soft tissue through interstitial irradiation under MRI guidance"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "20 patients aged \\>= 18 with radiologically suspected diagnosis of primary glioblastoma and contra-indication for surgical resection."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Procedure-only (laser interstitial thermal therapy) trial, phase NA; no drug or biologic interventions. Originally randomised vs biopsy alone but randomisation stopped; only LITT arm registered. 'Primary' glioblastoma with time to adjuvant therapy outcome read as newly diagnosed."
+}

@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT06512311",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma, IDH wildtype - according to the 2021 WHO classification of Tumors of the Central Nervous System"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] CBMed Drug Screening Plattform"},
+      {"field": "arms", "quote": "The molecular tumor board will formulate a personalized treatment recommendation by incorporating the individual characteristics of the patients including age, co-morbidities, co-medication, and performance status in addition to the results of the PDC-based drug screening."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "The registered intervention is a diagnostic drug-screening test; resulting personalized drugs are unnamed and not registered interventions. Could alternatively be coded as an unspecified_approved_panel candidate (C13)."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma, IDH wildtype - according to the 2021 WHO classification of Tumors of the Central Nervous System"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Scheduled for concomitant radio-chemotherapy with temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PDC-based drug screening", "Standard group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promotor unmethylated per local investigator"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed glioblastoma, IDH wildtype - according to the 2021 WHO classification of Tumors of the Central Nervous System"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA diagnostic-test (ex vivo PDC drug screening) randomised study. No drug is a registered intervention; temozolomide listed because all patients are scheduled for radio-chemotherapy with temozolomide (eligibility). Personalized treatment recommended by the molecular tumor board is unnamed; C13 unspecified_approved_panel was considered but not applied because the drugs are not registered interventions and not stated to be approved drugs. Registered NO_INTERVENTION arm already provides the control."
+}

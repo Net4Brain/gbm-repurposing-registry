@@ -1,0 +1,30 @@
+{
+"nct_id":"NCT05914935","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Recurring Glioblastoma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"excluded_intervention_type",
+"candidate_evidence":[{"field":"interventions","quote":"Recombinant L-IFN adenovirus injection (other names: YSCH-01, Oncolytic adenovirus)"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"unclear"},
+"trial":{
+"treatment_setting":"recurrent",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"After conventional radiation and/or systemic therapy, the disease recurred."}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"unclear",
+"tumour_pk_planned_evidence":[{"field":"title","quote":"Safety、Tolerability、Pharmacokinetics and Initial Efficacy of Recombinant L-IFN Adenovirus Injection"}],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]
+},
+"agents":[
+{"agent_name_registered":"Recombinant L-IFN adenovirus injection","active_moiety":"oncolytic adenovirus","role":"excluded_intervention_type","role_evidence":[{"field":"interventions","quote":"Recombinant L-IFN adenovirus injection (other names: YSCH-01, Oncolytic adenovirus)"}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"recombinant oncolytic adenovirus expressing interferon (L-IFN)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Recombinant L-IFN adenovirus injection and Ommaya reservoir"]}
+],
+"biomarkers":[],
+"coder_notes":"Early Phase 1 (translational subset). Pharmacokinetics appears only in the official title; no PK outcome or sample type is registered."
+}

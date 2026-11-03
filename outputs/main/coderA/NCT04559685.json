@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT04559685",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Arms A-D: Prior resection of histologically diagnosed high-grade gliomas (III and IV) defined as participants who have progressed on or following standard therapy as determined by the investigator."},
+      {"field": "conditions", "quote": "High Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named; eligibility allows grade III and IV high-grade glioma without IDH requirement, which may count as historical glioblastoma (D27C) or as high_grade_glioma_unspecified."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "ascending energy doses of sonodynamic therapy (SDT) utilizing the MRgFUS combined with intravenous ALA to assess safety and efficacy in up to 45 participants with recurrent HGG."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Sonodynamic Therapy in Participants With Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Biological changes associated with the sonodynamic therapy: The percentage (%) of Cleaved Caspase-3 of the surgical tissue will be quantified and compared to intra-patient control specimens."},
+      {"field": "outcomes", "quote": "To identify oxidative stress in tissue exposed to sonodynamic therapy in recurrent high-grade glioma patients."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SONALA-001(ALA) and MR-Guided Focused Ultrasound device (MRgFUS)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "SONALA-001(ALA) given 5-7 hours prior to receiving the MRgFUS."},
+        {"field": "title", "quote": "A Phase 0, First in Human, Open-label Study of Intravenous Aminolevulinic Acid HCl (ALA) and MR-Guided Focused Ultrasound Device (MRgFUS)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor sonosensitiser (SONALA-001, intravenous aminolevulinic acid HCl) for sonodynamic therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Energy Dose-escalation", "Arm B Time-escalation", "Arm C ALA Dose-escalation", "Arm E Optimal energy and ALA dose"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Arm E: Participant at first recurrence with an unmethylated HGG, has completed standard therapy and is not currently scheduled for resection."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm E Optimal energy and ALA dose"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "cleaved caspase-3 in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "The percentage (%) of Cleaved Caspase-3 of the surgical tissue will be quantified and compared to intra-patient control specimens."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tissue oxidative stress markers (protein carbonyl, 4-HNE, MDA, 8-hydroxyguanosine, GSH/GSSG, Cys/CySS)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To quantify markers for oxidative stress (Protein oxidation (Protein Carbonyl Content), Lipid peroxidation (4-hydroxynonenal and MDA), DNA damage (8-hydroxyguanosine),General (GSH, GSSG, Cys, CySS) in the brain tumor tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "MIB-1 (Ki-67) proliferation index in tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "The percentage (%) of MIB-1 level, 4-hydroxynonenal (4-HNE) of the surgical tissue will be quantified and compared to intra-patient control specimens."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0) record: translational subset. Population is 'high-grade gliomas (III and IV)' with no explicit glioblastoma mention; coded mixed_glioma_gbm_named on the basis that grade IV glioma without IDH requirement is historical glioblastoma (D27C), flagged uncertain; alternative is high_grade_glioma_unspecified (exclude). Aminolevulinic acid (SONALA-001, IV) is a sonodynamic sensitiser activated by MRgFUS: candidate with device_dependent true; formulation_flag new_route (IV vs oral). Arm D is MRgFUS alone (device only, no agent). Arm E MGMT requirement is inferred from 'unmethylated HGG' (MGMT not named explicitly). Pharmacodynamic tissue markers (cleaved caspase-3, oxidative stress, MIB-1) reflect SDT effect; candidate_matched set false as these are not selection biomarkers and the manual's matching examples concern target-selection markers."
+}

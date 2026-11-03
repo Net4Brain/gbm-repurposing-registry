@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT06356883",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Relapse"},
+      {"field": "eligibility", "quote": "Histological diagnosis of glioblastoma multiforme."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA liposomal doxorubicin on each cycle (4-6 weeks), for up to 12 cycles."},
+      {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA etoposide phosphate on each cycle (4-6 weeks), for up to 12 cycles."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Intraarterial Carboplatin + Caelyx vs Intraarterial Carboplatin + Etoposide Phosphate for Progressing Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["carboplatin", "doxorubicin", "etoposide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IA Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA liposomal doxorubicin on each cycle (4-6 weeks), for up to 12 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum cytotoxic, intra-arterial",
+      "stated_antitumour_mechanism": "reactive platinum species create inter- and intrastrand DNA crosslinks which prevent cell division by hindering DNA synthesis",
+      "flag": {"uncertain": false},
+      "arms": ["IA Carboplatin + IA Caelyx", "IA Carboplatin + IA Etoposide Phosphate"]
+    },
+    {
+      "agent_name_registered": "IA Caelyx (liposomal doxorubicin)",
+      "active_moiety": "doxorubicin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA liposomal doxorubicin on each cycle (4-6 weeks), for up to 12 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "pegylated liposomal anthracycline, intra-arterial",
+      "stated_antitumour_mechanism": "DNA binding and cross-linking, interference with DNA strand separation, inhibition of topoisomerase II",
+      "flag": {"uncertain": false},
+      "arms": ["IA Carboplatin + IA Caelyx"]
+    },
+    {
+      "agent_name_registered": "IA Etoposide Phosphate",
+      "active_moiety": "etoposide",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA etoposide phosphate on each cycle (4-6 weeks), for up to 12 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "prodrug",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "water-soluble prodrug of etoposide (topoisomerase II inhibitor), intra-arterial",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IA Carboplatin + IA Etoposide Phosphate"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Both arms are labelled EXPERIMENTAL; no designated control. Carboplatin, liposomal doxorubicin and etoposide phosphate are all investigational in the IA combination, hence experimental_combination for each. Candidate formulation flags: intra-arterial route coded new_route for carboplatin and doxorubicin."
+}

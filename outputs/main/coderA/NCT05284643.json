@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05284643",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Pathology diagnosis of glioblastoma, or variants such as gliosarcoma, on initial and/or reresection by 2021 WHO glioblastoma criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Proton radiotherapy and bevacizumab (Avastin) are used to minimize the possible side effects of this approach."},
+      {"field": "arms", "quote": "Participants will also receive Bevacizumab per standard of care, at treating physician's discretion."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Proton radiotherapy and bevacizumab (Avastin) are used to minimize the possible side effects of this approach."},
+        {"field": "arms", "quote": "Participants will also receive Bevacizumab per standard of care, at treating physician's discretion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: sMRI-Guided RT at 35 Gy in 10 fractions", "Cohort B: sMRI-Guided RT at 40 Gy in 10 fractions"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA (fails S3) but coded in full. The investigational question is sMRI-guided dose-escalated proton radiotherapy. Bevacizumab is given per standard of care in both arms with the stated purpose of minimising side effects; coded supportive (rule 2); soc_backbone (rule 3) would be the alternative. Either way no candidate agent. Both arms experimental, neither acts as control. Spectroscopic MRI is imaging, not a molecular biomarker."
+}

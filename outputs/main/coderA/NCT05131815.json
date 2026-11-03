@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05131815",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Colorectal Cancer; Gastrointestinal Cancer; Prostate Cancer; Glioblastoma; Brain Cancer; Head and Neck Cancer"},
+      {"field": "eligibility", "quote": "Cancer (all types) diagnosis between the ages of 15-39"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Participants will engage in two to three virtual physical activity sessions a week through the BurnAlong app for three months with a chosen partner"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "At least 3 months post-active treatment completion"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural virtual physical-activity intervention for AYA cancer survivors after completion of treatment; glioblastoma listed among conditions of a multi-cancer population. No drug or biologic intervention. Phase NA. Treatment setting is survivorship (post-treatment), coded unclear."
+}

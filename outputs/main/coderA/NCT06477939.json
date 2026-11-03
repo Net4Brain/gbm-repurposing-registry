@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT06477939",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of glioblastoma (GBM) (2016 OMS classification) (Louis et al., 2016)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Administration of L-TC on top of Radiotherapy plus Temozolomide"},
+      {"field": "interventions", "quote": "Administration of L-TC (300 mg) as an IV perfusion, before each radiotion session"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Adding or Not Liposomal Transcrocetin (L-TC) With Concomitant HypoFractionated Radiation ThErapy and TEmozolomide in Newly Diagnosed GLioblastoma (GBM) Patients"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Evaluation of hypoxia markers: Hypoxia imaging markers between two groups: comparison of volumetric metrics"},
+      {"field": "keywords", "quote": "Brain tumors; Hypoxia; Liposomal transcrocetin"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Administration of L-TC",
+      "active_moiety": "transcrocetin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Administration of L-TC on top of Radiotherapy plus Temozolomide"},
+        {"field": "brief_summary", "quote": "adding or not intra-venous Liposomal Trasncrocetin (L-TC) to hypofractionated radiotherapy and concomitant Temozolomide followed by adjuvant Temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "liposomal trans-crocetin (carotenoid derivative; investigational oxygen-diffusion enhancer / hypoxia radiosensitiser)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Administration of L-TC on top of Radiotherapy plus Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Radiotherapy plus Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide delivered at a dose of 75 mg per square meter per day, given 7 days per week from the first day of radiotherapy until the last day of radiotherapy, but for no longer than 25 days."},
+        {"field": "brief_summary", "quote": "hypofractionated radiotherapy and concomitant Temozolomide followed by adjuvant Temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Radiotherapy plus Temozolomide", "Administration of L-TC on top of Radiotherapy plus Temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "The registry's arm-to-intervention mapping appears swapped (active comparator arm lists 'Drug: Administration of L-TC'; experimental arm lists 'Other: Radiotherapy plus Temozolomide'); coded by arm titles, so L-TC is in the experimental arm only and temozolomide in both. Active moiety: no INN given in record; 'transcrocetin' used as written (liposomal trans-crocetin), formulation_flag new_formulation for the liposomal form. Hypoxia imaging markers are imaging-only (not molecular), so not listed as a biomarker; used as evidence of an imaging pharmacodynamic endpoint (target_engagement yes), though the link to L-TC is implied only via the 'Hypoxia' keyword. WHO 2016 cited -> historical."
+}

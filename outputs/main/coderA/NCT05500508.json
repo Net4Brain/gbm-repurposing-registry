@@ -1,0 +1,125 @@
+{
+  "nct_id": "NCT05500508",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Grade 4 Gliomas (including both IDH WT and IDH-mutant astrocytoma)"},
+      {"field": "eligibility", "quote": "Patients with brainstem tumors that do not meet radiographic criteria or are not considered to be typical DIPG or DMG will be eligible if the tumors have been biopsied and proven to be high-grade gliomas (such as anaplastic astrocytoma, glioblastoma, H3 K27M-mutant DMG)."},
+      {"field": "conditions", "quote": "Cancer; Solid Tumor; Solid Carcinoma; Advanced Cancer; DIPG Brain Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Escalation: Dose escalation of DFMO with AMXT1501 fixed dose will follow a 3 + 3 dose escalation design."},
+      {"field": "detailed_description", "quote": "The objective of this study is to determine the safety and tolerability of oral AMXT 1501 dicaprate (AMXT1501) in combination with IV DFMO in patients with advanced solid tumors, or DIPG/DMG."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosed with unresectable, locally advanced, or metastatic solid tumor for which no standard therapy is recognized or for which standard therapy has failed."},
+      {"field": "eligibility", "quote": "Patient with refractory or progressive DIPG or DMG, defined as tumors with a pontine epicenter and diffuse involvement of at least 2/3 of the pons, are eligible without histologic confirmation."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["amxt1501", "eflornithine"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Secondary objectives include characterization of plasma pharmacokinetics (PK), pharmacodynamic (PD), and other biomarker efficacy assessments of the impact of AMXT 1501 in combination with IV DFMO on polyamine uptake by circulating lymphocytes (blood cells)."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Will evaluate the effect of AMXT1501 and DFMO on pharmacodynamic (PD) biomarker of polyamine uptake in the blood starting at Cycle 1 through the end of Cycle 2 and again at the beginning of each new cycle."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "AMXT1501",
+      "active_moiety": "amxt1501",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Escalation: Dose escalation of DFMO with AMXT1501 fixed dose will follow a 3 + 3 dose escalation design."},
+        {"field": "interventions", "quote": "AMXT 1501 dicaprate is D-lys(palmitoyl)-spermine dicaprate salt in 200 mg (free base content) enterically-coated capsules"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational polyamine transport inhibitor (AMXT 1501 dicaprate, D-lys(palmitoyl)-spermine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Escalation", "Expansion"]
+    },
+    {
+      "agent_name_registered": "DFMO",
+      "active_moiety": "eflornithine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Dose escalation of DFMO alone will increase per cohort."},
+        {"field": "interventions", "quote": "[DRUG] DFMO (other names: difluoromethyl ornithine monohydrochloride)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ornithine decarboxylase inhibitor (difluoromethylornithine); given as continuous IV infusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Escalation", "Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "polyamine uptake by circulating lymphocytes / polyamine levels",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "amxt1501; eflornithine",
+      "source_quote": {"field": "outcomes", "quote": "Will evaluate the effect of AMXT1501 and DFMO on pharmacodynamic (PD) biomarker of polyamine uptake in the blood starting at Cycle 1 through the end of Cycle 2 and again at the beginning of each new cycle."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "immune-related gene signatures and immune cell phenotype by IHC",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Evaluate the effects of AMXT1501 and IV DFMO on the expression of immune related gene signatures, immune cell phenotype by IHC, AMXT1501 and DFMO drug levels impact on polyamine levels"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Diffuse Midline Glioma, H3 K27M-Mutant"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Grade 4 Gliomas (including both IDH WT and IDH-mutant astrocytoma)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-tumour phase 1b/2a of AMXT1501 + IV DFMO; grade 4 glioma (IDH-WT and IDH-mutant) is a planned tumour type and glioblastoma is named in the DIPG/DMG inclusion -> basket_gbm_eligible, cns5 historical (IDH-mutant grade 4 explicitly allowed). Both drugs are investigational in the combination (DFMO dose escalated) -> experimental_combination each; DFMO mapped to eflornithine, IV continuous infusion flagged new_route (uncertain whether IV is new for this moiety; not candidate-relevant). PK stated as plasma; an outcome mentions 'drug levels' without sample type alongside tumour IHC, coded tumour_pk_planned no based on the explicit plasma PK objective. Target engagement: polyamine uptake PD in blood. H3K27M and IDH are mentioned only as permitted subtypes, not entry requirements; recorded as exploratory_correlative for transparency."
+}

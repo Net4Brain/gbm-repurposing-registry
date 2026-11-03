@@ -1,0 +1,162 @@
+{
+  "nct_id": "NCT05843253",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Diffuse Intrinsic Pontine Glioma; Anaplastic Astrocytoma; Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Diagnosis: patients with newly-diagnosed HGG, including DIPG are eligible."},
+      {"field": "arms", "quote": "with histopathology consistent with diffuse WHO grade 2-4 glioma (e.g., diffuse astrocytoma, anaplastic astrocytoma, glioblastoma, H3K27-altered diffuse midline glioma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this study is to determine the efficacy of the 1) ribociclib and everolimus to treat pediatric and young adult patients newly diagnosed with a high-grade glioma (HGG), including DIPG"},
+      {"field": "detailed_description", "quote": "we are studying the adjuvant combination of ribociclib and temozolomide following upfront RT"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis: patients with newly-diagnosed HGG, including DIPG are eligible."},
+      {"field": "detailed_description", "quote": "Protocol therapy with the maintenance combination of either 1) ribociclib and everolimus or 2) ribociclib and temozolomide must begin no later than 35 calendar days post-completion of RT."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["everolimus", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Stratum E will open with a Phase 1 Run-In to determine the RP2D of ribociclib PfOS formulation in combination with temozolomide in patients newly-diagnosed with DHG, H3G34-mutant post-RT, with PK testing."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "with key longitudinal biomarker correlatives"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ribociclib",
+      "active_moiety": "ribociclib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "(interventions: Drug: Ribociclib; Drug: Everolimus)"},
+        {"field": "interventions", "quote": "Ribociclib (other names: Kisqali): Ribociclib PO qd on days 1-21"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CDK4/6 inhibitor (approved for breast cancer); powder for oral suspension formulation",
+      "stated_antitumour_mechanism": "targets cell cycle pathway alterations (CDK4/6, CDKN2A/B/C, CCND1/2)",
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)", "Stratum E (n=20)"]
+    },
+    {
+      "agent_name_registered": "Everolimus",
+      "active_moiety": "everolimus",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "post-radiotherapy (RT) combination of ribociclib and everolimus to treat pediatric, adolescent, and young adult patients newly diagnosed with HGG and DIPG that harbor alterations of the cell cycle and/or PI3K/mTOR pathways"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mTOR inhibitor (approved oncology and transplant indications)",
+      "stated_antitumour_mechanism": "targets PI3K/mTOR pathway alterations",
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "As most DHG, H3G34-mutant tumors are MGMT promoter methylated and receive temozolomide as part of standard of care, we are studying the adjuvant combination of ribociclib and temozolomide following upfront RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum E (n=20)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "ribociclib",
+      "source_quote": {"field": "eligibility", "quote": "Amplification of CDK4 or CDK6"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "ribociclib",
+      "source_quote": {"field": "eligibility", "quote": "Deletion of CDKN2A, CDKN2B, or CDKN2C"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "everolimus",
+      "source_quote": {"field": "eligibility", "quote": "Pathogenic alterations presumed to cause activation of the PI3K/mTOR pathway:"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TSC1/TSC2 deletion or mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "everolimus",
+      "source_quote": {"field": "eligibility", "quote": "Deletion or mutation of TSC1 or TSC2"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "RB1 homozygous loss (exclusion)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "ribociclib",
+      "source_quote": {"field": "eligibility", "quote": "Patients with evidence of homozygous (biallelic) RB1 loss by sequencing are excluded from TarGeT-A"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (n=40)", "Stratum B (n=40)", "Stratum C (n=6-12)", "Stratum D (n=6-12)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "H3 G34 (R/V) mutation",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For Stratum E: H3G34 (R/V) mutation"},
+      "flag": {"uncertain": false},
+      "arms": ["Stratum E (n=20)"]
+    }
+  ],
+  "coder_notes": "Paediatric and young adult trial (age 12 months to 39 years; stdAges CHILD, ADULT -> mixed_age). Glioblastoma named in conditions and Stratum B label; mixed HGG population. Ribociclib role differs: experimental_combination with everolimus in Strata A-D, but the only investigational agent (experimental_monotherapy) on a temozolomide backbone in Stratum E. Ribociclib formulation_flag new_formulation for the powder for oral suspension (PfOS). Cell-cycle and PI3K/mTOR alterations are required ('at least one') for Strata A-D, coded enrichment; RB1 biallelic loss is an exclusion criterion linked to CDK4/6 inhibition. CCND1/2 amplification is part of the same cell-cycle requirement (covered by CDK4_6_pathway row). H3K27M is mentioned only as an example histology in Stratum B, not a requirement; not listed. PK testing in Stratum E without sample type -> tumour PK unclear; 'longitudinal biomarker correlatives' unspecified -> target engagement unclear. Primary outcomes compare with molecularly matched historical controls (no control arm)."
+}

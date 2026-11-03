@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT07130240",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Cervical Cancers"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Drug: Immunotherapy Ivonescimab, 20mg/kg, q3w, 2-3cycles"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior therapy received by the participant."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["paclitaxel", "cisplatin"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Changes in tumor-related biomarkers:"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ivonescimab",
+      "active_moiety": "ivonescimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PD-1/VEGF bispecific antibody",
+      "stated_antitumour_mechanism": "PD-1 blockade reverses T-cell suppression while VEGF inhibition curbs neovascularization",
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    },
+    {
+      "agent_name_registered": "Neoadjuvant Chemotherapy paclitaxel",
+      "active_moiety": "paclitaxel",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Drug: Neoadjuvant Chemotherapy paclitaxel, 135-175mg/m2, q3w, 2-3 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "taxane chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    },
+    {
+      "agent_name_registered": "Neoadjuvant Chemotherapy cisplatin",
+      "active_moiety": "cisplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Drug: Neoadjuvant Chemotherapy cisplatin, 75-80mg/m2, q3w, 2-3 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Cervical cancer trial, not glioblastoma; glioblastoma is mentioned only in the brief summary as a tumour type where ivonescimab was previously tested. Paclitaxel and cisplatin coded soc_backbone as standard neoadjuvant chemotherapy given alongside the single investigational agent. Outcome 'Changes in tumor-related biomarkers' is not linked to a specific target, so target_engagement_planned is unclear. Hysterectomy is a procedure and is not listed."
+}

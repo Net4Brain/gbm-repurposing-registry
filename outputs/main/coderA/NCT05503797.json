@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT05503797",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Cancer Harboring BRAF Alterations; HGG; LGG; Solid Tumors"},
+      {"field": "eligibility", "quote": "Adults (≥18 years) with Grade 1-4 glioma or glioneuronal tumor (including glioblastoma, anaplastic astrocytoma, high grade astrocytoma with piloid features, pilocytic astrocytoma, gliosarcoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants with recurrent primary CNS tumors harboring BRAF V600E mutations will receive plixorafenib, continuously in 3-week cycles until disease progression, unacceptable toxicity, or other reason for withdrawal."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "or recurrent or progressive primary central nervous system (CNS) tumors"},
+      {"field": "arms", "quote": "Participants with recurrent primary CNS tumors harboring BRAF V600E mutations will receive plixorafenib"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma Concentrations of Plixorafenib"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Plixorafenib",
+      "active_moiety": "plixorafenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Plixorafenib (other names: FORE8394, PLX8394, PLX-8394): Oral tablets"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational BRAF inhibitor (class 1 and class 2 BRAF alterations; paradox breaker)",
+      "stated_antitumour_mechanism": "an Inhibitor of BRAF Class 1 and Class 2 Alterations",
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol A", "Subprotocol B", "Subprotocol C", "Subprotocol D"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "plixorafenib",
+      "source_quote": {"field": "eligibility", "quote": "Documented BRAF V600E mutation in tumor and/or liquid biopsy detected by an analytically validated test at CLIA or CLIA-equivalent laboratory approved by sponsor or sponsor-designated central test."},
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol B", "Subprotocol C", "Subprotocol D"]
+    },
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "plixorafenib",
+      "source_quote": {"field": "eligibility", "quote": "Documentation of BRAF gene fusion in tumor and/or blood detected by an analytically validated test by DNA sequencing or RNA (transcriptome) sequencing."},
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol A"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "absence of NF1 / RAS-related gene alterations (exclusion)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "plixorafenib",
+      "source_quote": {"field": "eligibility", "quote": "Known or suspected neurofibromatosis-1 (NF-1) and/or RAS related gene alterations."},
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol B", "Subprotocol C", "Subprotocol D"]
+    }
+  ],
+  "coder_notes": "Multi-tumour BRAF basket; glioblastoma and gliosarcoma explicitly eligible in Subprotocol B (recurrent primary CNS tumours, BRAF V600E) and primary CNS tumours eligible in Subprotocol A (BRAF fusions). Every subprotocol requires a BRAF alteration, so BRAF could also be coded as a trial-wide eligibility biomarker; coded per-subprotocol enrichment with arms. Both BRAF rows candidate-matched to plixorafenib (BRAF inhibitor). RAS/NF1 exclusion row is negative selection linked to MAPK pathway (Subprotocol A excludes co-occurring activating RAS mutations); may be dropped as an exclusion rather than entry requirement. cns5_terminology cns5 because the record cites WHO 2021, although historical terms (anaplastic astrocytoma) also appear. Subprotocol A exclusion mentions oral cobicistat (apparently a PK booster co-administered in Subprotocol A), but cobicistat is not a registered intervention and the record does not state it is given; not listed. Ages include children >=8 years (mixed_age). PK is plasma only."
+}

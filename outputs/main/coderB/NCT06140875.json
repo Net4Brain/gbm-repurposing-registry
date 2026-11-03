@@ -1,0 +1,33 @@
+{
+"nct_id":"NCT06140875","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma"},{"field":"eligibility","quote":"Pathological evidence of newly diagnosed glioblastoma according to WHO classification criteria"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"Radiofrequency electromagnetic field treatment using a carrier frequency of 13.56 MHz"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"unclear"},
+"trial":{
+"treatment_setting":"newly_diagnosed",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Pathological evidence of newly diagnosed glioblastoma according to WHO classification criteria"}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"temozolomide (Stupp regimen)","active_moiety":"temozolomide","role":"soc_backbone",
+"role_evidence":[{"field":"arms","quote":"followed by RCT (60 Gy over six weeks) with concomitant CT (temozolomide 75mg/m2) on all days, followed by maintenance CT (temozolomide150-200 mg/m2) on d1-5 for six cycles every 28 days."}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,
+"drug_class_hint":"alkylating agent","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Experimental"]}],
+"biomarkers":[
+{"biomarker":"MGMT","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,
+"source_quote":{"field":"eligibility","quote":"MGMT-promotor methylated patients must have refused therapy according to the CeTeG/NOA-09 protocol (+ Lomustin)"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Device trial (radiofrequency hyperthermia) added to Stupp chemoradiation; the only registered intervention is a device, so no pharmacological candidate. Temozolomide is named as received by every patient (Stupp) and listed as backbone. MGMT criterion is a conditional eligibility restriction (methylated patients only if they refused lomustine regimen), coded eligibility; not an entry requirement for a particular MGMT status in a strict sense. Lomustine is only mentioned in this criterion, not listed."
+}

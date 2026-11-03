@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT02756312",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anesthesia, Outcome, High-grade Glioma"},
+      {"field": "eligibility", "quote": "Magnetic radiology imaging diagnosis of supratentorial high-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "current evidence from RCTs is inadequate to show whether the type of anesthetics might influence tumor progression and patient survival."},
+      {"field": "outcomes", "quote": "overall survival in18 months"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Anaesthetic technique compared with a stated antitumour (survival/progression) hypothesis, but no specific drug is named; unclear whether unnamed anaesthetic regimens count as pharmacological candidates."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with recurrence and metastasis of gliomas or with malignant tumors of other organs"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IV Anesthesia",
+      "active_moiety": "unspecified intravenous anaesthetic",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive total intravenous anesthesia undergoing brain tumor resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "total intravenous anaesthesia, agents not named (likely propofol-based)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Anaesthetic with stated antitumour outcome but drug unnamed; candidate vs supportive needs adjudication."},
+      "arms": ["Intravenous anesthesia"]
+    },
+    {
+      "agent_name_registered": "IH anesthesia",
+      "active_moiety": "unspecified volatile anaesthetic",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive volatile inhalational anesthesia undergoing brain tumor resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "volatile inhalational anaesthesia, agents not named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Anaesthetic with stated antitumour outcome but drug unnamed; candidate vs supportive (or comparator) needs adjudication."},
+      "arms": ["Inhalation anesthesia"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA; population is high-grade glioma without glioblastoma named, so fails S5 regardless. Two OTHER-type arms comparing anaesthetic techniques; neither is described as control or standard of care. Specific anaesthetic drugs are not named."
+}

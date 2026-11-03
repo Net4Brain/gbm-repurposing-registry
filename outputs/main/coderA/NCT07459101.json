@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT07459101",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically confirmed, based on biopsy or surgical resection, glioblastoma or WHO grade 4 astrocytoma (IDH wild type or mutant)"},
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Astrocytoma, Grade IV"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Reduced margins using a dose painting approach"},
+      {"field": "eligibility", "quote": "Deemed clinically appropriate for concurrent chemoradiotherapy (with temozolomide) with definitive/radical intent"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Biopsy or surgical resection performed ≤ 12 weeks prior to study entry"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Deemed clinically appropriate for concurrent chemoradiotherapy (with temozolomide) with definitive/radical intent"},
+        {"field": "detailed_description", "quote": "These tumors are typically treated with radiation therapy combined with a chemotherapy agent called temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Adaptive RT (Dose Painting)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histopathologically confirmed, based on biopsy or surgical resection, glioblastoma or WHO grade 4 astrocytoma (IDH wild type or mutant)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Radiotherapy technique study (MR-Linac adaptive dose painting), registered phase NA; no drug is a registered intervention. Temozolomide listed as soc_backbone because eligibility requires suitability for concurrent chemoradiotherapy with temozolomide (not explicitly stated that all receive it). Population explicitly includes IDH-mutant grade 4 astrocytoma alongside glioblastoma, so mixed_glioma_gbm_named; cns5_terminology coded historical because grade 4 astrocytoma is allowed without IDH requirement (record uses CNS5-style wording, could be argued cns5/unclear). IDH listed only for transparency: it is neither required nor an entry restriction (either status allowed); role exploratory_correlative is a best fit. Gadolinium contrast for routine MRI not listed (not a registered intervention)."
+}

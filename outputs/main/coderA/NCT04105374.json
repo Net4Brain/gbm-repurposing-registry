@@ -1,0 +1,138 @@
+{
+  "nct_id": "NCT04105374",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Presumptive diagnosis of glioblastoma based on magnetic resonance imaging (MRI) imaging within 14 days prior to registration."},
+      {"field": "title", "quote": "Testing the Addition of an Anti-cancer Viral Gene Therapy, Toca 511/Toca FC, to the Usual Treatment (Temozolomide and Radiation Therapy) for Newly Diagnosed Glioblastoma"},
+      {"field": "conditions", "quote": "Anaplastic Astrocytoma; Glioblastoma; Oligodendroglioma; Supratentorial Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Extended Release Flucytosine (other names: Extended Release 5-FC, Extended Release 5-Fluorocytosine, Extended-Release 5-FC, Extended-Release 5-Fluorocytosine, Extended-Release Flucytosine, Toca FC): Given PO"},
+      {"field": "brief_summary", "quote": "This gene carries instructions that cause the tumor cells to turn Toca FC, typically used to treat fungal infections, into a drug that may kill the tumor cells."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only pharmacological agent in the experimental arm is extended-release flucytosine, a prodrug whose antitumour effect requires the excluded gene-therapy vector Toca 511; whether it counts as a candidate or only as part of an excluded gene-therapy system is ambiguous."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Testing the Addition of an Anti-cancer Viral Gene Therapy, Toca 511/Toca FC, to the Usual Treatment (Temozolomide and Radiation Therapy) for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiation therapy", "vocimagene amiretrorepvec (Toca 511)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Extended Release Flucytosine",
+      "active_moiety": "flucytosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Beginning on week 5 following surgery, patients receive extended release flucytosine PO TID for 7 consecutive days every 7 weeks."},
+        {"field": "brief_summary", "quote": "This gene carries instructions that cause the tumor cells to turn Toca FC, typically used to treat fungal infections, into a drug that may kill the tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antifungal (extended-release flucytosine, Toca FC); prodrug converted to 5-fluorouracil by vector-encoded cytosine deaminase",
+      "stated_antitumour_mechanism": "cause the tumor cells to turn Toca FC, typically used to treat fungal infections, into a drug that may kill the tumor cells",
+      "flag": {"uncertain": true, "reason": "Antitumour effect depends on the excluded gene therapy Toca 511 (gene-directed prodrug system); candidate status should be adjudicated."},
+      "arms": ["Arm II (Toca 511, Toca FC, radiation therapy, temozolomide)"]
+    },
+    {
+      "agent_name_registered": "Vocimagene Amiretrorepvec",
+      "active_moiety": "vocimagene amiretrorepvec",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Toca 511 is a live virus that has been built to carry a gene into tumor cells."},
+        {"field": "interventions", "quote": "[BIOLOGICAL] Vocimagene Amiretrorepvec (other names: DNA (Synthetic Toca 511-encoding Retroviral Vector AC3-yCD2(V)), Toca 511): Given via intracranial injection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "retroviral replicating vector gene therapy encoding cytosine deaminase",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm II (Toca 511, Toca FC, radiation therapy, temozolomide)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients also undergo radiation therapy and receive temozolomide as in arm I."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (surgery, radiation therapy, temozolomide)", "Arm II (Toca 511, Toca FC, radiation therapy, temozolomide)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "V. To evaluate the effect of IDH mutation status on survival outcomes between arms."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "VII. To evaluate the effect of MGMT methylation status on survival outcomes between arms."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "RNA-sequencing tumour-microenvironment signature",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "IV. To determine if there is a tumor-microenvironment signature based on ribonucleic acid (RNA) sequencing that is associated with a selective increase in benefit from the addition of Toca 511 and Toca FC."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "genome-wide DNA methylation and copy-number profiles",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Genome-wide deoxyribonucleic acid (DNA) methylation and copy number profiles"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Toca 511 (vocimagene amiretrorepvec) is a retroviral gene therapy -> excluded_intervention_type. Extended-release flucytosine (Toca FC) coded as the only pharmacological investigational agent (experimental_monotherapy, new_formulation) but flagged uncertain because it is the prodrug half of a gene-directed enzyme prodrug system; if adjudicated as part of the excluded gene therapy, S6 reason would be excluded_intervention_type. Conditions list anaplastic astrocytoma and oligodendroglioma, but entry requires presumptive glioblastoma; non-GBM final pathology patients are treated but excluded from the primary analysis, so coded gbm_only (alternative: mixed_glioma_gbm_named). Optune (TTFields device) optional in control arm only; not an agent. IDH and MGMT are analysed as correlates; stratification factors are not named in the record. EGFR amplification is mentioned only as an example of what methylation profiling can reveal, not recorded separately. Dexamethasone/corticosteroid use is monitored, not a registered intervention."
+}

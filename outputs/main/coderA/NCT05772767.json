@@ -1,0 +1,51 @@
+{
+  "nct_id": "NCT05772767",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of supratentorial glioblastoma, or"},
+      {"field": "conditions", "quote": "Glioblastoma; Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Modulation of cilium-related genes and administration of cilium-targeted drugs to glioblastoma stem cells in vitro and ex vivo in glioblastoma brain organoids."},
+      {"field": "arms", "quote": "Collection of tumor tissue and PBMC for the generation of glioblastoma stem cell cultures and brain organoids."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of first recurrence of a primary supratentorial glioblastoma"},
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of supratentorial glioblastoma, or"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "cilium-related gene expression signature (prognostic)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "interventions", "quote": "Cilium-related signature will be studied in tumor tissue to evaluate its prognostic role."},
+      "flag": {"uncertain": false},
+      "arms": ["Biological sample collection"]
+    }
+  ],
+  "coder_notes": "Phase NA translational sample-collection study; no drug is given to patients. Cilium-targeted drugs are applied only to patient-derived cells and organoids in vitro/ex vivo, so no agents listed and S6 fails (no_pharmacological_candidate). cns5_terminology historical because the record cites the 2016 WHO classification."
+}

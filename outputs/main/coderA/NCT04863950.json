@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04863950",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "The subject has histologically confirmed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Investigator-Initiated Study of Imipramine Hydrochloride and Lomustine in Recurrent Glioblastoma"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Imipramine Hydrochloride/Lomustine:  (interventions: Drug: Lomustine; Drug: Imipramine Hydrochloride)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The subject has progression following standard combined modality treatment with radiation and temozolomide chemotherapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Imipramine Hydrochloride",
+      "active_moiety": "imipramine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "A Phase II, Investigator-Initiated Study of Imipramine Hydrochloride and Lomustine in Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tricyclic antidepressant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imipramine Hydrochloride/Lomustine"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "For both cohorts, lomustine will be administered as 110 mg/m2 PO once every 6 weeks."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imipramine Hydrochloride/Lomustine"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm trial; lomustine at standard recurrent-GBM dose given to every patient, coded soc_backbone, imipramine is the investigational agent. Surgical cohort exists but no tumour drug-level or pharmacodynamic measurement is registered (only PFS outcome). Ages include CHILD but inclusion requires age >= 18."
+}

@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05063682",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioma, Malignant"},
+      {"field": "title", "quote": "A Phase 1 Study to Evaluate EGFRvIII -Targeted Chimeric Antigen Receptor (CAR) T Cells for Adult Patients With Leptomeningeal Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "EGFRvIII-specific hinge-optimized CD3 ζ-stimulatory/41BB-co-stimulatory Chimeric Antigen Receptor autologous T-lymphocytes: ICV administration"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participant has been treated for leptomeningeal metastases after intrathecal chemotherapy and/or radiation OR refuses to undergo additional radiation and/or intrathecal chemotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "EGFRvIII-specific hinge-optimized CD3 ζ-stimulatory/41BB-co-stimulatory Chimeric Antigen Receptor autologous T-lymphocytes",
+      "active_moiety": "egfrviii car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive EGFRvIII -CAR T cells intracerebroventricular over 15 minutes on day 1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous EGFRvIII-targeted CAR T-cell therapy, intracerebroventricular",
+      "stated_antitumour_mechanism": "EGFRvIII-specific CAR T cells recognise and destroy tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participant has a histologically confirmed EGFRvII+ (epidermal growth factor receptor) tumor expression by immunohistochemistry (IHC) at the initial tumor presentation or recurrent disease (H-score \\>= 50)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "EGFRvII (epidermal growth factor receptor) antigen expression levels in tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is an EGFRvIII CAR T-cell product (excluded intervention type), so EGFRvIII eligibility is target-matched to the CAR-T but not to a pharmacological candidate (candidate_matched false). Population is leptomeningeal dissemination of glioblastoma. CAR-T persistence in CSF/tumour is measured but concerns a non-candidate, so tumour PK and target engagement coded no."
+}

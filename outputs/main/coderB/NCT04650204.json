@@ -1,0 +1,15 @@
+{"nct_id":"NCT04650204","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"high_grade_glioma_unspecified",
+"gbm_population_evidence":[{"field":"conditions","quote":"Intractable Epilepsy; Malignant Glioma; Seizure Disorder; WHO Grade 2 Glioma; WHO Grade 3 Glioma"},{"field":"eligibility","quote":"Subjects with glioblastoma not following Stupp protocol for treatment of glioblastoma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"brief_summary","quote":"This phase IV trial studies the side effects and how well perampanel works in reducing seizure frequency in patients with high-grade glioma and focal epilepsy."}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"unclear","treatment_setting_evidence":[],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"no","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Perampanel","active_moiety":"perampanel","role":"supportive","role_evidence":[{"field":"brief_summary","quote":"Perampanel is a drug used to treat seizures."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"antiseizure medication (AMPA receptor antagonist)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Arm A (perampanel)"]},
+{"agent_name_registered":"Anticonvulsant Agent","active_moiety":"unspecified anti-seizure drugs","role":"control_comparator","role_evidence":[{"field":"arms","quote":"Patients receive ASD per standard of care for 40 weeks in the absence of disease progression or unacceptable toxicity."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"generic anti-seizure drugs per standard of care","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Arm B (ASD)"]}],
+"biomarkers":[{"biomarker":"IDH","biomarker_other":null,"role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"detailed_description","quote":"To identify a biomarker-specific response to seizure-reduction in patients treated with PER in patients with a biopsy-proven high-grade glioma"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Glioblastoma appears only in an exclusion criterion (GBM patients not on Stupp are excluded, implying Stupp-treated GBM may enter); not named in conditions/title/inclusion, so high_grade_glioma_unspecified. Perampanel is symptom control with no antitumour hypothesis (supportive)."}

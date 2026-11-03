@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05667194",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patient with histopathology and/or cytology diagnosed advanced malignant adult diffuse glioma has unequivocal evidence of GBM recurrence/progression following completion of standard treatment."},
+      {"field": "conditions", "quote": "Advanced Solid Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 1 Study to Assess the Safety ,Tolerability, Pharmacokinetics and Preliminary Antitumor Activity of KH617 After SAD and MAD Administration for Patients With Advanced Solid Tumors"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "has unequivocal evidence of GBM recurrence/progression following completion of standard treatment"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "title", "quote": "A Phase 1 Study to Assess the Safety ,Tolerability, Pharmacokinetics and Preliminary Antitumor Activity of KH617"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "KH617",
+      "active_moiety": "kh617",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Three times (on days 1, 2, and 3) weekly for the first three consecutive weeks in a 28-day cycle"},
+        {"field": "interventions", "quote": "KH617 is s freeze-dried powder injection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational injectable anticancer agent (KH617), mechanism not stated",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["KH617 dose 1", "KH617 dose 2", "KH617 dose 3", "KH617 dose 4", "KH617 dose 5"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Basket phase 1 dose escalation in advanced solid tumours, brain metastases and an rGBM cohort; GBM named in the inclusion criteria (rGBM subgroup). Arms are dose levels, none a control. PK is planned per the official title but sample type is not stated: tumour_pk_planned unclear (W7). 'Adult diffuse glioma' wording without IDH or WHO edition: cns5_terminology unclear."
+}

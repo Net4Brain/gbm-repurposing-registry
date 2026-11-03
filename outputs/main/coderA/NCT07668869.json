@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT07668869",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma IDH (Isocitrate Dehydrogenase) Wildtype; Glioblastoma Multiforme, Adult"},
+      {"field": "eligibility", "quote": "Histologically confirmed IDH-wildtype glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] Tumor Treating Fields (TTFields): Tumor Treating Fields (TTFields) therapy delivered using alternating electric fields through transducer arrays placed on the scalp."},
+      {"field": "interventions", "quote": "[RADIATION] FET-PET-Guided Stereotactic Radiosurgery: Stereotactic radiosurgery planned using MRI and FET-PET imaging for treatment of recurrent IDH-wildtype glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First, second, or third recurrence"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed IDH-wildtype glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Associations between molecular tumor characteristics, including MGMT promoter methylation status and other available molecular markers, and treatment outcomes will be evaluated to identify potential predictors of overall survival"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device (TTFields) plus radiosurgery trial (phase NA); no drug interventions. FET used only as a PET tracer for radiosurgery planning within the radiation intervention, not registered as a drug intervention, so not listed (R9). Eligibility requires an available IDH and MGMT profile (not a specific MGMT status), so MGMT is only exploratory_correlative. Registered ACTIVE_COMPARATOR arm (TTFields alone) is the control; no other arm acts as control."
+}

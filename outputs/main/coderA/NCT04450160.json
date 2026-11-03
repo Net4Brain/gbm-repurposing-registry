@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04450160",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histopathologic diagnosis of glioblastoma multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study is testing adjuvant Anhydrous Enol-Oxaloacetate (AEO) in GBM, an orally active drug candidate which in animal studies has demonstrated decreased tumor growth rate and increased survival."},
+      {"field": "interventions", "quote": "Oral supplementation with AEO along with the Standard of Care (Temozolomide)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Oxaloacetate is marketed as a dietary supplement; record calls AEO a drug candidate (registered as DRUG) but also 'oral supplementation'. Whether it is a pharmacological candidate or a non-licensed supplement (excluded type) needs adjudication."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 2, Randomized, Open-Label Study of Anhydrous Enol-Oxaloacetate in Subjects With Newly Diagnosed Glioblastoma Multiforme"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anhydrous Enol-Oxaloacetate (AEO)",
+      "active_moiety": "anhydrous enol-oxaloacetate",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Anhydrous Enol-Oxaloacetate added to the Standard of Care (surgery, radiation and chemotherapy with temozolomide)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oxaloacetate (anhydrous enol form), metabolic agent; also sold as dietary supplement",
+      "stated_antitumour_mechanism": "modifies cancer metabolism, reversing the Warburg effect, reducing glycolysis and lactate production",
+      "flag": {"uncertain": true, "reason": "Possible non-licensed supplement (excluded type) versus investigational drug candidate."},
+      "arms": ["AEO with Standard of Care"]
+    },
+    {
+      "agent_name_registered": "Standard of Care (Chemotherapy with Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Standard of Care Temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard of Care", "AEO with Standard of Care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Control arm is registered as PLACEBO_COMPARATOR but described as standard of care (no placebo described). Secondary outcomes include seizures and fatigue, but the record states an antitumour hypothesis and survival primary outcomes, so AEO is a candidate. Moiety has no INN; name kept as written."
+}

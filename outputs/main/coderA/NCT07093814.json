@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07093814",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosed with recurrent/progressive glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "Distribution and shedding of VRT106 virus: Concentration of VRT106 virus in blood"},
+      {"field": "eligibility", "quote": "Previously received treatment with oncolytic viruses, gene therapy."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "VRT106 is identified as a virus only indirectly (viral shedding outcome, oncolytic-virus exclusion); the record never explicitly calls it an oncolytic virus."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study of VRT106 for Injection in Patients With Recurrent/Progressive Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "VRT106",
+      "active_moiety": "oncolytic virus vrt106",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] VRT106: VRT106 will be administered intravenously (interventions: Drug: VRT106)"},
+        {"field": "outcomes", "quote": "Distribution and shedding of VRT106 virus: Concentration of VRT106 virus in blood"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "apparent intravenous oncolytic virus (VRT106, Guangzhou Virotech)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Role depends on VRT106 being an oncolytic virus, inferred from 'VRT106 virus' shedding outcome and sponsor name."},
+      "arms": ["VRT106"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "VRT106 is registered as a Drug, but the outcome 'Distribution and shedding of VRT106 virus' indicates a viral product (sponsor Guangzhou Virotech); coded as oncolytic virus -> excluded_intervention_type, no pharmacological candidate. Flagged uncertain because this changes S6. Viral concentration in blood is shedding/biodistribution of a non-candidate, so tumour PK no."
+}

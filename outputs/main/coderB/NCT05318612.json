@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05318612",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Glioblastoma"},
+      {"field": "eligibility", "quote": "Suspected glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "LITT is a minimally invasive neurosurgical procedure in which a laser catheter is placed into the tumor and warms the tumor to such an extent that tumor tissue is destroyed."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "patients with a radiologically suspected diagnosis of primary glioblastoma not amenable for surgical resection."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Both registered interventions are procedures (LITT, biopsy). Adjuvant chemoradiation is mentioned only generically ('standard CRT') with no named drug, so no agent is listed. The control arm is registered as OTHER (standard of care) and works as the control."
+}

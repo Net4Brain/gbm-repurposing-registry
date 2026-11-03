@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT07553520",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioma"},
+      {"field": "title", "quote": "Dietary Cysteine and Methionine Deprivation (CMD) in Glioma Patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Cysteine/methionine deprivation (CMD) diet for 2 days: Participants receive cysteine/methionine deprivation (CMD) diet for 2 days."},
+      {"field": "interventions", "quote": "Normal diet: Participants receive normal diet."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The CMD diet will be implemented simultaneously in 2 cohorts of participants with recurrent glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour tissue glutathione metabolites",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Change in tumor tissue glutathione metabolites: Local tumor tissue metabolite levels will be assessed in resected glioma specimens from patients in the surgical cohort following assigned diet"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: Surgery Control", "Cohort A: Surgery Diet Restriction 2 days", "Cohort A: Surgery Diet Restriction 4 days"]
+    }
+  ],
+  "coder_notes": "Dietary intervention only (cysteine/methionine deprivation diet vs normal diet) before standard surgery or radiotherapy; phase NA. Diets are an excluded intervention type and are not drugs, so no agents listed. Glioblastoma multiforme named in conditions alongside recurrent glioma; eligibility does not restrict histology, so coded mixed_glioma_gbm_named. Tumour glutathione metabolite measurement is a pharmacodynamic endpoint of the diet, not of a drug candidate."
+}

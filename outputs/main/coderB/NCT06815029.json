@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT06815029",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Astrocytoma, IDH-Mutant, Grade 3; Recurrent Astrocytoma, IDH-Mutant, Grade 4; Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Given autologous TGF-betaR2KO/IL13R-alpha2-CAR T cells intracranially"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Relapsed disease: radiographic evidence of recurrence/progression of measurable disease after standard therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chimeric Antigen Receptor T-Cell Therapy",
+      "active_moiety": "car t-cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Given autologous TGF-betaR2KO/IL13R-alpha2-CAR T cells intracranially"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous IL13Ralpha2-targeting CAR T cells with TGFbetaR2 knockout",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (TGFβR2KO/IL13Rα2 CAR T-cells)"]
+    },
+    {
+      "agent_name_registered": "Fludeoxyglucose F-18",
+      "active_moiety": "fludeoxyglucose",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Undergo FDG-PET"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (TGFβR2KO/IL13Rα2 CAR T-cells)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 expression (IHC H-score >= 80)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "COH clinical pathology confirms IL13Rα2+ tumor expression by immunohistochemistry (H-score ≥ 80)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participant has a prior histologically-confirmed diagnosis of a grade 3 or 4 IDH-mutant astrocytoma or glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention of interest is CAR T-cell therapy (excluded type), so no candidate. IL13Ralpha2 is the CAR target but the CAR product is not a candidate, so candidate_matched is false. CAR T persistence (CSF, tumour microenvironment) and IL13Ralpha2 expression change pre/post are exploratory objectives for a cell therapy, not for a candidate drug, so tumour_pk_planned and target_engagement_planned are coded no (adjudicator may wish to treat these as yes if cell-therapy measurements are meant to count). Population includes IDH-mutant grade 3/4 astrocytoma and recurrent glioblastoma."
+}

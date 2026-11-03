@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT05773664",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Malignant Glioma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma or radiographic findings consistent with a high grade glioma in patients undergoing surgery for initial diagnosis"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Azeliragon is an oral RAGE inhibitor. Blocking the RAGE pathway at the time of surgery (peri-operatively) may decrease cerebral edema."},
+      {"field": "detailed_description", "quote": "Determine the lowest dose of dexamethasone that needs to be co-administered with azeliragon for treatment of post-resection cerebral edema in patients with glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma or radiographic findings consistent with a high grade glioma in patients undergoing surgery for initial diagnosis"},
+      {"field": "eligibility", "quote": "Less than 3 months since focal brain radiation unless recurrent disease has been confirmed surgically or the area of recurrent tumor is outside of the radiation field"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Azeliragon concentrations: Will assess azeliragon concentrations in tumor samples compared to azeliragon concentrations in blood."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon",
+      "active_moiety": "azeliragon",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Giving dexamethasone with azeliragon may help control post-operative cerebral edema in decreasing doses of concurrently administered dexamethasone."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral RAGE inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (azeliragon, dexamethasone)"]
+    },
+    {
+      "agent_name_registered": "Dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This phase I trial tests the safety, side effects, and best dose of dexamethasone when given with azeliragon in managing cerebral edema after surgery (post-resection) in patients with glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (azeliragon, dexamethasone)", "Arm II (dexamethasone)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Both drugs are given for post-resection cerebral oedema (symptom control); no antitumour hypothesis or antitumour outcome is stated, so azeliragon is supportive (rule 2) and the trial has no candidate. Azeliragon tumour-tissue concentrations are planned (outcome quoted under tumour_pk_planned_evidence) but tumour_pk_planned is coded no because the manual defines it for candidates only; if azeliragon were judged a candidate this would be yes. Cytokine/chemokine and RAGE-ligand measurements are pharmacodynamic but linked to oedema, not antitumour activity. Gadolinium contrast for MRI is not a registered drug intervention (procedure only), not listed."
+}

@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT07609472",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma (WHO III-IV)"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype (CNS WHO Grade 4)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "FG001 is an investigational optical imaging agent administered as a single intravenous dose prior to neurosurgical tumor resection to support intraoperative visualization of malignant tissue under near-infrared fluorescence guidance."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior tumor-specific treatment, including surgery, chemotherapy, radiotherapy, or investigational therapy (i.e., newly diagnosed, treatment-naïve HGG)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Over 48 hours post-operative: PK analysis"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FG001",
+      "active_moiety": "fg001",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "FG001 is an investigational optical imaging agent administered as a single intravenous dose prior to neurosurgical tumor resection to support intraoperative visualization of malignant tissue under near-infrared fluorescence guidance."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational near-infrared fluorescent optical imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["FG001 Intraoperative Imaging"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Day 0 (±12 hours): Laboratory assessments, tumor characterization labs (including IDH and MGMT), and adverse events"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Day 0 (±12 hours): Laboratory assessments, tumor characterization labs (including IDH and MGMT), and adverse events"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic fluorescence imaging trial; the only registered agent is the imaging agent FG001, so no pharmacological candidate. Glioblastoma IDH-wildtype is one of several eligible histologies (also IDH-mutant astrocytoma, oligodendroglioma, ependymoma), named in the inclusion criteria. Gadolinium and temozolomide appear only in passing and are not registered interventions. PK analysis is planned after surgery without a stated sample type; FG001 is not a candidate."
+}

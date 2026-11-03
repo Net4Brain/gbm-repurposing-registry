@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT07223034",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Diffuse Astrocytoma, IDH-Wildtype (Grade 2-4); Glioblastoma, IDH-wildtype; Diffuse Midline Glioma, H3 K27-Altered"},
+      {"field": "eligibility", "quote": "Confirmed histologic diagnosis of a WHO grade 2-4 glioma that is IDH1 R132H-wildtype, including the following:"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The researchers are doing this study to find out whether the radiopharmaceutical therapy (RPT) 177Lu-PSMA-617 is a safe treatment for people with IDH wild type glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 1 Study of Lutetium-177-PSMA-617 Adjuvant Radiotherapy for IDH Wild Type Gliomas Expressing PSMA Following Standard Treatment"},
+      {"field": "eligibility", "quote": "Completion of standard of care therapy including surgery (for resectable tumors) and adjuvant EBRT for glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "177Lu-PSMA-617",
+      "active_moiety": "psma-617",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This agent will be given for 2-6 total doses, spaced 4 weeks (+/-1 week) apart. This will be administered on the 2nd day of the first two cycles of SOC adjuvant temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 PSMA-targeted radioligand therapy (177Lu-PSMA-617; isotope 177Lu)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["177Lu-PSMA-617"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This will be administered on the 2nd day of the first two cycles of SOC adjuvant temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy (standard adjuvant)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["177Lu-PSMA-617"]
+    },
+    {
+      "agent_name_registered": "68Ga-PSMA-PET scan/ MRI",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Approximately 4 weeks after cycle 2 of radiopharmaceutical therapy (RPT), patients will undergo post-treatment imaging with 68Ga- PSMA PET and MRI"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 PSMA PET imaging tracer (68Ga-PSMA-11 named in exclusion criteria)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["177Lu-PSMA-617"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA expression by immunohistochemistry",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "psma-617",
+      "source_quote": {"field": "eligibility", "quote": "PSMA positive pathological stain (by immunohistochemistry) of baseline (pre-radiotherapy) resection or biopsy sample"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Confirmed histologic diagnosis of a WHO grade 2-4 glioma that is IDH1 R132H-wildtype, including the following:"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm phase 1 of 177Lu-PSMA-617 given with standard adjuvant temozolomide after surgery and EBRT (adjuvant setting = newly_diagnosed). Active moiety given as development code psma-617 (no INN stated in record; isotope in drug_class_hint per W1). The 68Ga-PSMA PET is a registered diagnostic test; tracer named 68Ga-PSMA-11 in exclusion criteria, listed as diagnostic_agent with radiopharmaceutical true. Eligible population includes IDH-wildtype glioblastoma plus other IDH-wildtype grade 2-4 and H3-altered gliomas; H3 K27/G34 entities are alternative eligible diagnoses, not entry requirements, so not coded as biomarkers. PSMA IHC positivity is an entry requirement matched to the PSMA-targeted candidate."
+}

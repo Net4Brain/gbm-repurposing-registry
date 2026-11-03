@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT07485049",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Suspected newly diagnosed glioblastoma according to 2021 WHO criteria who have not received any tumor directed intervention other than biopsy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 0/2 Study of BGB-58067, an MTA Cooperative PRMT5 Inhibitor, in Newly Diagnosed Glioblastoma Patients With Methylthioadenosine Phosphorylase (MTAP) Deleted Tumors"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm A: Unmethylated-MGMT GBM-BGB-58067 Monotherapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Suspected newly diagnosed glioblastoma according to 2021 WHO criteria who have not received any tumor directed intervention other than biopsy."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide (Arm B)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0: Mean Total Concentration of BGB-58067 in Gadolinium Enhancing and Non-Enhancing Tumor Tissue"},
+      {"field": "outcomes", "quote": "Phase 0: Mean CSF Concentration of BGB-58067"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "The Phase 0 primary endpoint will be suppression of symmetric dimethylarginine (SDMA) in tumor tissue measured by immunohistochemistry (IHC)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BGB-58067",
+      "active_moiety": "bgb-58067",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm A: Unmethylated-MGMT GBM-BGB-58067 Monotherapy"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm B: Methylated-MGMT GBM-BGB-58067 + TMZ Concurrent Therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational MTA-cooperative PRMT5 inhibitor",
+      "stated_antitumour_mechanism": "an MTA Cooperative PRMT5 Inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Unmethylated-MGMT GBM-BGB-58067 Monotherapy", "Arm B: Methylated-MGMT GBM-BGB-58067 + TMZ Concurrent Therapy"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "ARM B Participants with methylated-MGMT and MTAP-deleted GBM demonstrating a positive PD response will continue BGB-58067 treatment concurrently with standard of care upfront RT and temozolomide (TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm B: Methylated-MGMT GBM-BGB-58067 + TMZ Concurrent Therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP deletion",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "bgb-58067",
+      "source_quote": {"field": "arms", "quote": "Participants with unmethylated-MGMT and MTAP-deleted GBM demonstrating a positive PD response after Phase 0 surgery."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Unmethylated-MGMT GBM-BGB-58067 Monotherapy", "Arm B: Methylated-MGMT GBM-BGB-58067 + TMZ Concurrent Therapy"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Participants with unmethylated tumors will be enrolled into Arm A and participants with methylated tumors will be enrolled into Arm B."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Unmethylated-MGMT GBM-BGB-58067 Monotherapy", "Arm B: Methylated-MGMT GBM-BGB-58067 + TMZ Concurrent Therapy"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "SDMA (symmetric dimethylarginine) in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "bgb-58067",
+      "source_quote": {"field": "brief_summary", "quote": "The Phase 0 primary endpoint will be suppression of symmetric dimethylarginine (SDMA) in tumor tissue measured by immunohistochemistry (IHC)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 0/2 registered as EARLY_PHASE1 (translational subset). MTAP deletion is required for the Phase 2 arms (title also says MTAP-deleted tumors) but is not in the formal inclusion criteria and is determined on resected tissue; coded enrichment for both registered arms; could alternatively be eligibility (same primary outcome). SDMA PD response (>=50% decrease or H-score <=70) also gates entry to Phase 2 arms; coded as pharmacodynamic. Temozolomide is not a registered intervention but Arm B receives standard RT+TMZ per description; listed as soc_backbone in Arm B only. Exploratory liquid biopsy (CTC/cfDNA) not listed as a specific biomarker."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT07143812",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Newly Diagnosed Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients diagnosed with newly diagnosed glioblastoma based on medical imaging after receiving standard therapy for glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "MSC11FCD, an investigational allogeneic bone marrow-derived mesenchymal stem cell therapy expressing a suicide gene"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study to Evaluate the Safety of a Stem Cell-Based Gene and Cell Therapy in Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MSC11FCD",
+      "active_moiety": "mesenchymal stem cell suicide gene therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "Clinical Research of Suicide Gene Expressing Allogenic Bone Marrow Derived Mesenchymal Stem Cells(MSC11FCD) in Patients With Newly Diagnosed Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic bone marrow-derived mesenchymal stem cells genetically modified to express a suicide gene (MSC11FCD); cell/gene therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["The investigational drug into the Intratumoral administration"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Cell/gene therapy only (suicide-gene MSCs, intratumoral). Flucytosine (5-FC) appears only in an exclusion criterion (allergy) and is not a registered intervention, so not listed as an agent. 'Glioblastoma Multiforme' in conditions -> cns5_terminology historical. Single OTHER-type arm."
+}

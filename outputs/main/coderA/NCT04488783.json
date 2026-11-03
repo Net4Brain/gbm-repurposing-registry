@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT04488783",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma Who Underwent at Least Partial Resection of the Tumor Surgically"},
+      {"field": "eligibility", "quote": "newly diagnosed GBM, Karnofsky performance status of ≥ 70,"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIETARY_SUPPLEMENT] zinc and ascorbate: oral zinc and ascorbate"},
+      {"field": "brief_summary", "quote": "Zinc has been consumed by the public as an essential mineral (and thus is category A drug) in concentrations which allows this effect with Temozolomide."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Oral zinc and ascorbate are registered as a dietary supplement; if either is judged a licensed medicine given with an antitumour hypothesis (zinc to potentiate temozolomide), it would be a candidate and the trial would pass S6."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma Who Underwent at Least Partial Resection of the Tumor Surgically"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "[secondaryOutcomes] Tcell count: Blood test"},
+      {"field": "outcomes", "quote": "[secondaryOutcomes] Level of Interleukin 6: Interleukin 6 and Tumor Necrosis Factor quantification"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "zinc and ascorbate",
+      "active_moiety": "zinc",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIETARY_SUPPLEMENT] zinc and ascorbate: oral zinc and ascorbate"},
+        {"field": "detailed_description", "quote": "We hope to demonstrate the anti-tumor activity of zinc that will enhance the activity of temozolomide chemotherapy in adult glioblastoma patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "trace element / mineral dietary supplement (oral zinc)",
+      "stated_antitumour_mechanism": "Zinc (Zn) has a crucial role in the biology of p53, in that p53 binds to DNA through a structurally complex domain stabilized by zinc atom.",
+      "flag": {"uncertain": true, "reason": "Registered as dietary supplement but given with an antitumour hypothesis; if judged a licensed medicine it would be experimental_combination (candidate)."},
+      "arms": ["Glioblastoma patients"]
+    },
+    {
+      "agent_name_registered": "zinc and ascorbate",
+      "active_moiety": "ascorbic acid",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIETARY_SUPPLEMENT] zinc and ascorbate: oral zinc and ascorbate"},
+        {"field": "brief_summary", "quote": "Vitamin C could add to this by priming the immune system for lymphocyte- linked cancer killing."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "vitamin C, oral dietary supplement",
+      "stated_antitumour_mechanism": "The vitamin c increases the number of tumor infiltrating lymphocytes and enhances the activation of the immune system.",
+      "flag": {"uncertain": true, "reason": "Oral vitamin C registered as dietary supplement with a stated antitumour (immune) hypothesis; if judged a licensed medicine it would be a candidate."},
+      "arms": ["Glioblastoma patients"]
+    },
+    {
+      "agent_name_registered": "temozolomide (standard chemo-radiotherapy)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "We propose a single arm phase II clinical trial in 30 newly diagnosed GBM patients who will be treated with the standard chemo-radiotherapy with the addition of zinc and vitamin C."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma patients"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registry phase NA (brief summary calls it a single-arm phase II). Temozolomide is not a registered intervention but every patient receives standard chemoradiotherapy, so it is listed as soc_backbone. Zinc and ascorbate are one registered intervention split into two rows; not clear whether a single combined product (fixed_dose_combination set false). If zinc/vitamin C were accepted as candidates, regimen would be combination with partners temozolomide and radiotherapy, and target_engagement could be 'yes' (blood T-cell count, IL-6, TNF as immune pharmacodynamic markers for vitamin C); coded 'unclear' because outcomes are not explicitly linked to the agents. p53 is mentioned only as rationale in the brief summary, not as a biomarker endpoint or requirement."
+}

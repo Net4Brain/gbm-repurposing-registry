@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT04817254",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants must have newly diagnosed histologically confirmed primary glioblastoma or gliosarcoma"},
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma; Malignant Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Nivolumab + Ipilimumab 1mg/kg + TMZ (interventions: Drug: TMZ; Drug: Nivolumab; Drug: ipilimumab 1mg/kg)"},
+      {"field": "brief_summary", "quote": "To study people with newly diagnosed GBM or gliosarcoma to look at the changes in immune cells in the blood of those who take ipilimumab and nivolumab, along with temozolomide."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participant must have completed chemoradiation (external beam radiation with concurrent temozolomide) a maximum of 5 weeks prior to initiation of study therapy."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["nivolumab", "ipilimumab", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "ELISPOT functional analysis of CD4+/8+ response to common recall antigens will be used to determine systemic response to ICI treatment."},
+      {"field": "outcomes", "quote": "Determine if T cell response to immune checkpoint inhibitors measuring the change in the pre-treatment and post-treatment blood correlates with progression-free survival"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nivolumab",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 2: Nivolumab + Ipilimumab 3mg/kg + TMZ (interventions: Drug: TMZ; Drug: ipilimumab 3mg/kg; Drug: Nivolumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "The immunosuppressive nature of GBM may be reversible with immune checkpoint inhibitor (ICI) treatment",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Nivolumab + Ipilimumab 1mg/kg + TMZ", "Arm 2: Nivolumab + Ipilimumab 3mg/kg + TMZ"]
+    },
+    {
+      "agent_name_registered": "ipilimumab 1mg/kg; ipilimumab 3mg/kg",
+      "active_moiety": "ipilimumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Nivolumab + Ipilimumab 1mg/kg + TMZ (interventions: Drug: TMZ; Drug: Nivolumab; Drug: ipilimumab 1mg/kg)"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 2: Nivolumab + Ipilimumab 3mg/kg + TMZ (interventions: Drug: TMZ; Drug: ipilimumab 3mg/kg; Drug: Nivolumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CTLA-4 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "The immunosuppressive nature of GBM may be reversible with immune checkpoint inhibitor (ICI) treatment",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Nivolumab + Ipilimumab 1mg/kg + TMZ", "Arm 2: Nivolumab + Ipilimumab 3mg/kg + TMZ"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "TMZ (150-200 mg/m2 PO on days 1-5 q28 days for cycles 1-6)"},
+        {"field": "interventions", "quote": "[DRUG] TMZ: 150 mg/m2 on days 1-5 of cycles 1-6"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard adjuvant GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Nivolumab + Ipilimumab 1mg/kg + TMZ", "Arm 2: Nivolumab + Ipilimumab 3mg/kg + TMZ"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Ipilimumab is registered as two interventions (1 mg/kg and 3 mg/kg) that differ only in dose between the two experimental arms; coded as one agent row. Adjuvant TMZ is identical in both arms (soc_backbone). Target engagement coded yes on the basis of planned peripheral-blood T-cell/immune pharmacodynamic measures of ICI response; no tumour molecular biomarkers are registered. Condition list also includes 'Malignant Glioma' but inclusion criteria restrict to glioblastoma or gliosarcoma."
+}

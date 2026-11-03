@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT05768919",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed HGG (WHO grade III or IV, including GBM, astrocytoma, gliosarcoma, H3K27M mutant diffuse midline glioma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The objective of this study is to assess the tolerability, safety, and efficacy of Liposomal Curcumin (LC) in combination with radiotherapy (RT) and Temozolomide (TMZ) in patients with newly diagnosed High-Grade Gliomas (HGG)."},
+      {"field": "detailed_description", "quote": "All patients will be treated with open-label intravenous (IV) LC on a weekly basis for a minimum of 34 infusions"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Curcumin is named in the manual as an example of an excluded supplement, but here it is an IV liposomal investigational drug product (LipoCurc) given at escalating doses; candidate status needs adjudication."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Liposomal Curcumin in Combination With RT and TMZ in Patients With Newly Diagnosed High-Grade Gliomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LipoCurc",
+      "active_moiety": "curcumin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "This study seeks the MTD/RP2D of LC when added to TMZ during concurrent RT and adjuvant TMZ after RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "liposomal curcumin for IV infusion (natural polyphenol; investigational drug product)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Curcumin is usually a supplement (excluded type), but this is an IV liposomal investigational drug product; candidate status needs adjudication."},
+      "arms": ["Tolerability, Safety, and Efficacy of LC in Combination with RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planning standard therapy with TMZ and XRT for 6 weeks and adjuvant TMZ for six 28-day cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tolerability, Safety, and Efficacy of LC in Combination with RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Agent: LipoCurc Premedication/Precautions: Dexamethasone 4 mg IV Diphenhydramine 25 mg IV"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid premedication for infusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tolerability, Safety, and Efficacy of LC in Combination with RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Diphenhydramine",
+      "active_moiety": "diphenhydramine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Agent: LipoCurc Premedication/Precautions: Dexamethasone 4 mg IV Diphenhydramine 25 mg IV"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antihistamine premedication for infusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tolerability, Safety, and Efficacy of LC in Combination with RT and TMZ"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Mixed high-grade glioma population (WHO grade III or IV, incl. GBM, gliosarcoma, H3K27M DMG); IDH-mutant patients explicitly allowed and Roman-numeral WHO grading used, so cns5_terminology coded historical. MGMT, IDH and H3K27M appear in eligibility only as 'eligible either way' / histology examples, not as entry requirements or other biomarker roles, so no biomarker rows. Antiemetics (ondansetron, prochlorperazine) and stool softener are given only as examples ('eg', 'PRN') with TMZ and are not listed. Radiotherapy is part of the backbone."
+}

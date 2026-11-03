@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT06552260",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; Brain Tumor"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed IDH-wildtype glioblastoma, WHO Grade 4, and variants including gliosarcoma as per WHO 2021 criteria (38)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This research study is studying troriluzole as a possible treatment for recurrent glioblastoma."},
+      {"field": "arms", "quote": "Group A: Presurgical Troriluzole"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent or progressive disease with no more than 2 prior relapses."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor Tissue Concentration of Troriluzole by MALDI-MSI"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Protein Levels of Phosphorylated AMPA Receptor Subunits (e.g. GluA2) in Resected Tissue"},
+      {"field": "outcomes", "quote": "Concentrations of Extracellular Glutamate in Resected Tissue by MALDI-MSI"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Troriluzole",
+      "active_moiety": "troriluzole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Tripeptide prodrug of Riluzole, 100 mg capsule, taken orally per protocol."},
+        {"field": "detailed_description", "quote": "Surgical window-of-opportunity clinical trials test how active the investigational drug is on tumors."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "prodrug",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "glutamate modulator, tripeptide prodrug of riluzole",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group A: Presurgical Troriluzole", "Group B: Surgery + Troriluzole"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor is documented as IDH1/2 wildtype by direct DNA sequencing, provided that it is performed in a CLIA/CAP-certified laboratory."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "phosphorylated AMPA receptor subunit GluA2",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "troriluzole",
+      "source_quote": {"field": "outcomes", "quote": "Protein Levels of Phosphorylated AMPA Receptor Subunits (e.g. GluA2) in Resected Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NLGN3 protein",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Protein Levels of NLGN3 in Resected Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 surgical window-of-opportunity trial. Both groups are registered EXPERIMENTAL and both receive troriluzole; Group B gets it only after surgery, so it acts as the no-presurgical-drug comparison (control_arm_from_other_arms coded yes). Pharmacodynamic biomarkers are not eligibility/enrichment, so they do not affect the primary outcome."
+}

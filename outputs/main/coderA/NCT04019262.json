@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04019262",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Pathologically confirmed WHO Grade IV Gliobastoma prior receiving radiotherapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a prospective, randomized, open-label, exploratory trial of temozolomide-based chemo-radiotherapy which compares two widely used established radiation schedules"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Short Course Chemo-Radiation Therapy for Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide Oral Product",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients randomized to 40 Gy in 15 fractions will receive 75 mg/m\\^2 temozolomide per day for 15 days starting the first day of radiotherapy."},
+        {"field": "arms", "quote": "Patients randomized to 25 Gy in 5 fractions will receive 150 mg/m\\^2 temozolomide per day for 5 days starting the first day of radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral alkylating agent (established GBM therapy, D6)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["40 Gy in 15 fractions", "25 Gy in 5 fractions"]
+    },
+    {
+      "agent_name_registered": "Bactrim",
+      "active_moiety": "sulfamethoxazole",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will also receive prophylactic treatment for pneumocystis pneumonia with Bactrim or other alternative antibiotics if allergic."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": "bactrim",
+      "drug_class_hint": "sulfonamide antibiotic (component of co-trimoxazole), PCP prophylaxis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["40 Gy in 15 fractions", "25 Gy in 5 fractions"]
+    },
+    {
+      "agent_name_registered": "Bactrim",
+      "active_moiety": "trimethoprim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will also receive prophylactic treatment for pneumocystis pneumonia with Bactrim or other alternative antibiotics if allergic."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": "bactrim",
+      "drug_class_hint": "dihydrofolate reductase inhibitor antibiotic (component of co-trimoxazole), PCP prophylaxis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["40 Gy in 15 fractions", "25 Gy in 5 fractions"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Trial compares two radiotherapy schedules with temozolomide at different concurrent doses/schedules (75 mg/m2 x15 days vs 150 mg/m2 x5 days) -> temozolomide established_therapy_experiment (R2); no candidate. Both arms are ACTIVE_COMPARATOR. Unnamed anti-nausea premedication not listed (no agent named). Cetuximab mentioned only as optional at the discretion of the team, not given to every patient, so not listed. Bactrim given to all patients for PCP prophylaxis, split into sulfamethoxazole + trimethoprim. Inclusion criteria contain apparent registry errors (prior radiotherapy >=50 Gy; KPS below 60) that conflict with newly diagnosed setting; setting coded from title."
+}

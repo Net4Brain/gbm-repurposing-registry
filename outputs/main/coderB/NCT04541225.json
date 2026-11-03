@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04541225",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "title", "quote": "Study of NUV-422 in Adults With Recurrent or Refractory High-grade Gliomas and Solid Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "NUV-422 is an investigational drug for oral dosing."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of recurrence after treatment (ie, surgery, radiation, or temozolomide) or refractory (or intolerant) to treatment"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NUV-422",
+      "active_moiety": "nuv-422",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Appropriate candidate for NUV-422 monotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small-molecule kinase inhibitor (CDK2/4/6 inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1 Dose Escalation"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Multi-cohort trial (high-grade glioma, breast, prostate). Glioblastoma named in conditions, so coded as basket. The glioma cohort requires only histologically confirmed high-grade glioma."
+}

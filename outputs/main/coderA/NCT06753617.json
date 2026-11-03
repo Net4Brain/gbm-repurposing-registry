@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT06753617",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Tumor suspected as glioma (1. Astrocytoma, IDH mutant 2. Oligodendroglioma, IDH-mutant and 1p/19q-codeleted 3. Glioblastoma, IDH-wildtype), meningioma (WHO gr. 1 and gr 2), or brain metastasis based on preliminary diagnosis for which the patient will undergo surgery"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "All patients enrolled in this study will undergo cryoablation as part of their surgical tumor resection procedure."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Procedure-only (cryoablation) feasibility study, Phase NA; no drug or biologic interventions. Population is mixed brain tumours (gliomas incl. glioblastoma IDH-wildtype, meningioma, brain metastases); coded mixed_glioma_gbm_named, basket_gbm_eligible is a possible alternative. IDH and 1p/19q appear only as WHO diagnostic definitions of eligible tumour types, not as selection requirements, so not listed. Newly diagnosed vs recurrent not stated."
+}

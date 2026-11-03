@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT04716699",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients who are undergoing neurosurgical resection for treatment of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "To assess the differences in overall survival (OS) and progression free survival (PFS) between the patients in the lidocaine therapy group and historical controls taken from the literature (Stupp et al) with comparable post-operative treatment regimen."},
+      {"field": "brief_summary", "quote": "Information gained from this study may help researchers come up with new treatments to help patients with glioblastomas in the future."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Lidocaine is an anaesthetic given partly per standard of care; antitumour intent is implied only by OS/PFS secondary outcomes, so it could be judged supportive (S6 fail)."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Prior treatment for glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess the pharmacokinetic properties of intravenously administered lidocaine inside a glioblastoma tumor by means of mass spectroscopy."},
+      {"field": "outcomes", "quote": "Difference between the concentrations of lidocaine in the tumor tissue and in the blood (baseline level)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lidocaine",
+      "active_moiety": "lidocaine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive bolus lidocaine IV per standard of care. After intubation, patients receive another infusion of lidocaine IV over 4 hours or until the end of surgery."},
+        {"field": "detailed_description", "quote": "To assess the differences in overall survival (OS) and progression free survival (PFS) between the patients in the lidocaine therapy group and historical controls taken from the literature (Stupp et al) with comparable post-operative treatment regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "amide local anaesthetic / class Ib antiarrhythmic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Antitumour hypothesis not explicit; role could be supportive (anaesthesia) rather than candidate."},
+      "arms": ["Health services research (lidocaine, surgery)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Intraoperative IV lidocaine with tumour/blood sampling; primary objective is intratumoral PK. Lidocaine coded as candidate because OS/PFS of the 'lidocaine therapy group' vs historical controls is a stated antitumour outcome (manual 3.1 rule 2), but flagged uncertain. Resection is surgery, not counted for regimen. Arm is labelled 'Health services research'. Patients with prior GBM treatment excluded, so newly_diagnosed."
+}

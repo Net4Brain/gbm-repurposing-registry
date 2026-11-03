@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT05183204",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically-confirmed glioblastoma (WHO Grade IV glioma); tumors situated primarily in the infratentorial compartment will be excluded."},
+      {"field": "eligibility", "quote": "Patients with tumors exhibiting mutated isocitrate dehydrogenase-1 or 2 (IDH-1, 2)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a two stage, two cohort phase 2 trial of a new blood-brain penetrant PI3K/mTOR inhibitor (paxalisib) combined with a ketogenic diet plus metformin"},
+      {"field": "brief_summary", "quote": "Subjects will be given daily paxalisib and metformin while also maintaining a ketogenic diet."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "This study is for patients with newly diagnosed glioblastoma, as well as patients who have recurring glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["paxalisib", "metformin", "ketogenic diet"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in insulin levels: Evaluated by the mean and standard deviation of values over time"},
+      {"field": "outcomes", "quote": "Change in tumor glucose uptake values: Measured by FDG-PET/DCE MRI"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Paxalisib",
+      "active_moiety": "paxalisib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Newly diagnosed MGMT unmethylated glioblastoma:  (interventions: Drug: Paxalisib; Drug: Metformin; Other: Ketogenic Diet)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational brain-penetrant PI3K/mTOR inhibitor (GDC-0084)",
+      "stated_antitumour_mechanism": "PI3K/mTOR inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma", "Arm 2: Recurrent glioblastoma, regardless of methylation status"]
+    },
+    {
+      "agent_name_registered": "Metformin",
+      "active_moiety": "metformin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The purpose of this study is to assess the safety of Paxalisib while maintaining a ketogenic diet (a high fat, low carbohydrate diet) and Metformin (a drug approved by the Food and Drug Administration to treat type 2 diabetes), and to see what effects it has on glioblastoma."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 2: Recurrent glioblastoma, regardless of methylation status:  (interventions: Drug: Paxalisib; Drug: Metformin; Other: Ketogenic Diet)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "biguanide antidiabetic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma", "Arm 2: Recurrent glioblastoma, regardless of methylation status"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Demonstrated unmethylated MGMT promotor status confirmed by validated PCR or alternate genomic analysis; subjects with methylated or indeterminate MGMT status that are unwilling, or otherwise unable, to undergo treatment with temozolomide may be enrolled."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with tumors exhibiting mutated isocitrate dehydrogenase-1 or 2 (IDH-1, 2)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Two experimental cohorts, both receive paxalisib + metformin + ketogenic diet; no control arm. Metformin is an investigational partner (both drugs are under test), so both experimental_combination. Ketogenic diet is a diet (excluded type), not listed as an agent but named as combination partner. MGMT unmethylated required for the newly diagnosed cohort (with an exception for patients unwilling/unable to take temozolomide) -> enrichment, not candidate-matched. IDH-mutant tumours excluded -> IDH eligibility (wildtype), diagnostic, not matched. Target engagement: insulin levels and tumour glucose uptake (FDG-PET) outcomes are pharmacodynamic for the metabolic/PI3K strategy. Interventions with stated mechanism for metformin not given beyond its diabetes approval. Enrolment requires prior Stupp chemoradiation in cohort 1 (maintenance setting)."
+}

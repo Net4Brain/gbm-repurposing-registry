@@ -1,0 +1,132 @@
+{
+  "nct_id": "NCT04978727",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Medulloblastoma; Glioblastoma Multiforme; Anaplastic Astrocytoma; High-grade Astrocytoma NOS; Anaplastic Oligodendroglioma; Anaplastic Ependymoma; Ependymoma; Diffuse Intrinsic Pontine Glioma"},
+      {"field": "eligibility", "quote": "Glioblastoma multiforme (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Patients will receive a vaccine called SurVaxM on this study."},
+      {"field": "brief_summary", "quote": "Sargramostim is given close to the SurVaxM//Montanide ISA 51 injection and works to stimulate the immune system to help the SurVaxM/Montanide ISA 51 work more effectively."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Sargramostim (licensed GM-CSF) is given as an immune adjuvant to the vaccine with no own antitumour hypothesis; coded non-candidate, but could be considered a pharmacological candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Pilot Study of SurVaxM in Children Progressive or Relapsed Medulloblastoma, High Grade Glioma, Ependymoma and Newly Diagnosed Diffuse Intrinsic Pontine Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SurVaxM",
+      "active_moiety": "survivin peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "SurVaxM is designed to tell the body's immune system to look for tumor cells that express a protein called survivin and destroy them."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "survaxm_regimen",
+      "drug_class_hint": "survivin peptide cancer vaccine (SVN53-67/M57-KLH)",
+      "stated_antitumour_mechanism": "immune targeting of survivin-expressing tumour cells",
+      "flag": {"uncertain": false},
+      "arms": [
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥10 and ≤21 years",
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥1 and <10 years",
+        "SurVaxM for patients with non-relapsed DIPG post radiation-therapy ages ≥1 and ≤21 years"
+      ]
+    },
+    {
+      "agent_name_registered": "Montanide ISA 51",
+      "active_moiety": "montanide isa 51",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Montanide ISA 51 is an ingredient that helps create a stronger immune response in people, which helps the vaccine work better."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "survaxm_regimen",
+      "drug_class_hint": "water-in-oil vaccine adjuvant emulsion (component of vaccine product)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥10 and ≤21 years",
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥1 and <10 years",
+        "SurVaxM for patients with non-relapsed DIPG post radiation-therapy ages ≥1 and ≤21 years"
+      ]
+    },
+    {
+      "agent_name_registered": "sargramostim",
+      "active_moiety": "sargramostim",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Sargramostim is given close to the SurVaxM//Montanide ISA 51 injection and works to stimulate the immune system to help the SurVaxM/Montanide ISA 51 work more effectively."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "survaxm_regimen",
+      "drug_class_hint": "recombinant GM-CSF; used as vaccine immune adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Licensed cytokine given only as vaccine adjuvant; no role category fits exactly (not symptom control, not delivery-enabling); coded with the vaccine regimen as non-candidate."},
+      "arms": [
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥10 and ≤21 years",
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥1 and <10 years",
+        "SurVaxM for patients with non-relapsed DIPG post radiation-therapy ages ≥1 and ≤21 years"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "survivin expression >=1% by IHC",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Demonstration of survivin expression of at least 1% on tumor tissue by immunohistochemistry is required and must be performed in the central laboratory at Roswell Park Comprehensive Cancer Center (RPCCC) to confirm eligibility."},
+      "flag": {"uncertain": false},
+      "arms": [
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥10 and ≤21 years",
+        "SurVaxM for patients with relapsed or progressive MB, HGG or ependymoma ages ≥1 and <10 years"
+      ]
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with pontine lesions that do not meet these MR imaging criteria will be eligible if there is histologic confirmation of diffuse glioma WHO Grade II-IV with H3 K27M mutation."},
+      "flag": {"uncertain": false},
+      "arms": [
+        "SurVaxM for patients with non-relapsed DIPG post radiation-therapy ages ≥1 and ≤21 years"
+      ]
+    }
+  ],
+  "coder_notes": "Paediatric/young-adult (1-21 years) vaccine pilot; stdAges CHILD, ADULT (mixed age). GBM named in conditions and inclusion list among other CNS tumours. Only vaccine-related agents (SurVaxM peptide vaccine, Montanide ISA 51 adjuvant, sargramostim as immune adjuvant), so no pharmacological candidate; sargramostim role flagged uncertain. Survivin expression required for relapsed/progressive strata (target of the vaccine, not a candidate, so not candidate-matched); H3K27M required only for atypical pontine lesions in DIPG stratum; H3K27M-altered DMG outside pons is excluded. Treatment setting 'both': relapsed strata plus newly diagnosed DIPG stratum (GBM patients are relapsed/progressive)."
+}

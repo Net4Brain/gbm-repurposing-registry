@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT07569042",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Rollover Study of NBM-BMX in Combination With Temozolomide in Patients With Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to evaluate the long-term safety and efficacy of NBM-BMX administered in combination with TMZ"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Rollover Study of NBM-BMX in Combination With Temozolomide in Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NBM-BMX Capsule",
+      "active_moiety": "nbm-bmx",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Subjects with newly diagnosed glioblastoma who have completed Study NBM-BMX-003 will transition into this study to continue receiving study drugs (NBM-BMX and temozolomide) at the same doses and schedules as in the parent study."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral agent NBM-BMX (development code; mechanism not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Combination therapy in glioblastoma"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temodal will be administered orally at a 75 mg/m2 dose daily during concomitant therapy. In the maintenance period, days 1-5 of each cycle will be administered 150-200 mg/m2."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy (standard GBM backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Combination therapy in glioblastoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Rollover/continued-access study of the parent trial NBM-BMX-003; single arm, NBM-BMX plus standard temozolomide. Temozolomide given at standard Stupp doses (concomitant 75 mg/m2, maintenance 150-200 mg/m2) -> soc_backbone. Radiotherapy is implied by 'concomitant therapy' but not explicitly registered, so not listed as a partner. Conditions field says only 'Malignant Neoplasm of Brain' but title and inclusion name glioblastoma."
+}

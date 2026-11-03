@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT06929819",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Brain Tumor, Primary; Brain Tumor - Metastatic"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Intraoperative Radiation Therapy in Malignant Cerebral Tumor"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Not receive radiotherapy, chemotherapy and other treatment methods for intracranial lesions in the past;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Single-arm intraoperative radiotherapy trial; no drug interventions. Conditions list glioblastoma together with primary and metastatic brain tumours, so coded basket_gbm_eligible. Treatment setting inferred from no prior therapy; description also mentions recurrent tumours."
+}

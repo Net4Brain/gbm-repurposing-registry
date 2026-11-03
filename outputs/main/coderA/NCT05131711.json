@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT05131711",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed rGBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients with rGBMs will receive combined stereotactic radiosurgery and enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)."},
+      {"field": "interventions", "quote": "Patients will be administrated immunal adjuvants intratumorally and systemically with concurrent stereotactic radiosurgery."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Trial is framed as in situ vaccination (inSituVac2); if the adjuvant regimen were treated as a cancer vaccine, S6 would fail as excluded_intervention_type."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["stereotactic radiosurgery", "gm-csf", "sapylin", "manganese chloride"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "GM-CSF",
+      "active_moiety": "gm-csf",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients with rGBMs will receive combined stereotactic radiosurgery and enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "regimen_id": "inSituVac2",
+      "radiopharmaceutical": false,
+      "drug_class_hint": "granulocyte-macrophage colony-stimulating factor (cytokine; product not specified, e.g. sargramostim/molgramostim), used as immune adjuvant",
+      "stated_antitumour_mechanism": "Immune adjuvants promote the presentation of tumor antigens and the priming of antitumor T lymphocytes",
+      "flag": {"uncertain": false},
+      "arms": ["rGBM Group with combined stereotactic radiosurgery and enhanced immunotherapy"]
+    },
+    {
+      "agent_name_registered": "Sapylin",
+      "active_moiety": "sapylin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients with rGBMs will receive combined stereotactic radiosurgery and enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "inSituVac2",
+      "drug_class_hint": "Sapylin: Streptococcus pyogenes (OK-432-like, picibanil-type) bacterial immunopotentiator preparation, used as immune adjuvant",
+      "stated_antitumour_mechanism": "Immune adjuvants promote the presentation of tumor antigens and the priming of antitumor T lymphocytes",
+      "flag": {"uncertain": false},
+      "arms": ["rGBM Group with combined stereotactic radiosurgery and enhanced immunotherapy"]
+    },
+    {
+      "agent_name_registered": "MnCl2",
+      "active_moiety": "manganese chloride",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients with rGBMs will receive combined stereotactic radiosurgery and enhanced immunal adjuvants (GM-CSF, Sapylin, MnCl2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "inSituVac2",
+      "drug_class_hint": "manganese salt (trace element; proposed STING/innate immune agonist adjuvant)",
+      "stated_antitumour_mechanism": "Immune adjuvants promote the presentation of tumor antigens and the priming of antitumor T lymphocytes",
+      "flag": {"uncertain": true, "reason": "Manganese chloride may not be a licensed medicine in this use (trace-element/supplement status); could be excluded as non-pharmacological, changing its candidate status."}
+    ,
+      "arms": ["rGBM Group with combined stereotactic radiosurgery and enhanced immunotherapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Experimental arm: SRS + intratumoral and systemic immune adjuvants GM-CSF, Sapylin and MnCl2, coded as one named regimen (inSituVac2), each experimental_combination; not a defined antigen vaccine but framed as in situ vaccination, hence candidate_flag uncertain. Comparator is a registered NO_INTERVENTION arm (FDA-approved strategies chosen by MDT) with blank-looking label 'rGBM Group with'; control_arm_from_other_arms = no. GM-CSF product/INN not stated (moiety left as gm-csf); Sapylin moiety left as registered name. Exact routes per agent not specified (intratumoral and systemic), formulation_flag new_route assigned for intratumoral use."
+}

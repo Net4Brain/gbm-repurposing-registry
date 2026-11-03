@@ -1,0 +1,84 @@
+{
+  "nct_id": "NCT04391062",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Presumptive glioblastoma according to radiological criteria,"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The phase II study evaluate a light dose escalation in a classical intraoperative PDT regimen mediated by 5-ALA-PpIX, in glioblastoma patients with access to full surgical removal of the contrast enhancement."},
+      {"field": "interventions", "quote": "The patient will receive 5-ALA ( 5-aminolevulinic acid hydrochloride),GLIOLAN drinkable 6h before surgery + lighting of the tumor bed by a red light source (laser with different J/cm²) at the end of resection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "This treatment will be performed in addition to the current reference treatment of glioblastoma: maximum removal surgery followed by radiochemotherapy according to the Stupp protocol."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gliolan",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The phase II study evaluate a light dose escalation in a classical intraoperative PDT regimen mediated by 5-ALA-PpIX, in glioblastoma patients with access to full surgical removal of the contrast enhancement."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitiser prodrug (5-aminolevulinic acid hydrochloride, Gliolan) used for photodynamic therapy",
+      "stated_antitumour_mechanism": "intraoperative photodynamic therapy mediated by 5-ALA-PpIX",
+      "flag": {"uncertain": false},
+      "arms": [
+        "intraoperative PDT 400J/cm²",
+        "intraoperative PDT 600J/cm²",
+        "intraoperative PDT 800J/cm²"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide (Stupp protocol)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This treatment will be performed in addition to the current reference treatment of glioblastoma: maximum removal surgery followed by radiochemotherapy according to the Stupp protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care (Stupp)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "intraoperative PDT 400J/cm²",
+        "intraoperative PDT 600J/cm²",
+        "intraoperative PDT 800J/cm²"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA (Gliolan) used as photosensitiser for intraoperative PDT (light-dose escalation is the question): candidate with device_dependent true (C12); sensitivity analysis 11 applies as it is the only candidate. The 5-ALA dose itself is not varied; the arms differ by light dose. Temozolomide not a registered intervention but all patients receive Stupp chemoradiation; listed as soc_backbone. 11C-MET PET used for routine response assessment, not listed. Arms are three light-dose levels, none a control. Eligibility is 'presumptive glioblastoma' on radiology (pre-surgical)."
+}

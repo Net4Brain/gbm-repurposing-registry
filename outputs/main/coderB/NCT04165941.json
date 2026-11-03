@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04165941",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Novel Gamma-Delta (γδ)T Cell Therapy for Treatment of Patients With Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Must have histologically or cytologically confirmed glioblastoma multiforme prior to administration of the DRI γδ T cell injection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The cell therapy that is being used in this study is called gene-modified gamma delta T cells or Drug Resistant Immunotherapy (DRI)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Novel Gamma-Delta (γδ)T Cell Therapy for Treatment of Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DRI cell therapy",
+      "active_moiety": "gene-modified gamma delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] DRI cell therapy: Drug Resistant Immunotherapy with gamma delta modified T cells to be resistance to temozolomide will be infused into the surgical cavity"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "temozolomide-resistant (MGMT-expressing) gene-modified gamma delta T cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DRI cell therapy"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "The only arm will receive the DRI modified gamma delta T cells following standard therapy with radiation and temozolomide chemotherapy concurrent."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DRI cell therapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Temozolomide is named in the protocol text and in the arm description (given to every patient) but is not a separately registered intervention. Glioblastoma is named in the title and inclusion criteria; conditions field only says Brain Tumor Adult."
+}

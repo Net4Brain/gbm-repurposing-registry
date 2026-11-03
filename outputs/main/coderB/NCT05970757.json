@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05970757",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "diagnosed with IDH-wildtype glioblastoma, as confirmed by pathology including molecular analysis post resection/biopsy;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Extended MRI: Extension of the brain tumor MRI-protocol"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "referred to outpatient clinic of the Department of Radiotherapy to undergo standard treatment with high-dose RT."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "diagnosed with IDH-wildtype glioblastoma, as confirmed by pathology including molecular analysis post resection/biopsy;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-only trial (extended MRI for radiotherapy planning); no drug is a registered intervention. Gadolinium contrast appears only in the exclusion criteria, so it is not listed. Setting inferred as newly diagnosed (post-resection, referred for first standard RT) but not stated in those words."
+}

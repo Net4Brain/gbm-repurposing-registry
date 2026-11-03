@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05168423",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with glioblastoma, IDH-wildtype (as defined by WHO 2021 Classification of CNS Tumors) that has recurred following prior radiotherapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "autologous T cells transduced with a bicistronic lentiviral vector containing a murine scFv targeting EGFR and a humanized scFv targeting IL13Ra2"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with glioblastoma, IDH-wildtype (as defined by WHO 2021 Classification of CNS Tumors) that has recurred following prior radiotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CART-EGFR-IL13Ra2 Cells",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "autologous T cells transduced with a bicistronic lentiviral vector containing a murine scFv targeting EGFR and a humanized scFv targeting IL13Ra2"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous dual-targeting CAR-T cell therapy (EGFR epitope 806 and IL13Ra2), intrathecal",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort -1", "Cohort 2", "Cohort 3", "Cohort 4"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor tissue positive for wild-type EGFR amplification by NeoGenomics Laboratories."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with glioblastoma, IDH-wildtype (as defined by WHO 2021 Classification of CNS Tumors)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR-T cell therapy is an excluded intervention type, so there is no candidate. EGFR amplification is mechanistically linked to the CAR-T (EGFR epitope 806) but candidate_matched is false because that agent is not a candidate. MGMT promoter methylation only changes the required interval since radiotherapy and is not an entry requirement, so not listed."
+}

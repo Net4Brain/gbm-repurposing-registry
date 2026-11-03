@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05802693",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with recurrent glioblastoma confirmed by histology or cytology after surgery and treated with STUPP regimen"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Infusion of Epidermal Growth Factor Receptor Variant III Chimeric antigen receptor T(EGFRvIII CAR-T) with Omaya capsule"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Targeted Epidermal Growth Factor Receptor Variant III(EGFRvIII) autochimeric antigen receptor T cell injection",
+      "active_moiety": "egfrviii car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Infusion of Epidermal Growth Factor Receptor Variant III Chimeric antigen receptor T(EGFRvIII CAR-T) with Omaya capsule"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous EGFRvIII-targeted CAR-T cells (DCTY0801), intracavitary/Ommaya administration; cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["The dose increase phase of this study adopts a 3+3 half-step design"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Clinical pathology (immunohistochemical staining) confirmed the positive expression of EGFRvIII in the tumor;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). Only intervention is an EGFRvIII CAR-T cell product (excluded intervention type), so no candidate; EGFRvIII is the CAR target and an entry requirement, but candidate_matched is false because the agent is not a candidate. Lymphodepletion is mentioned only in an exclusion criterion and is not registered, so not listed."
+}

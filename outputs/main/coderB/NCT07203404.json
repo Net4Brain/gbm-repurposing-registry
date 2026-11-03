@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT07203404",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "anti_gbm_disease",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "SLE; LN; ANCA Associated Vasculitis; ANCA-Associated Glomerulonephritis; Anti-GBM Disease; MN; SSc; IIM; IgA Nephropathy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CAR T-cell therapy administered intravenously after a lymphodepleting therapy regimen consisting of fludarabine and cyclophosphamide"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RD06-05 CART Cell Injection",
+      "active_moiety": "anti-cd19/bcma universal car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CAR T-cell therapy administered intravenously after a lymphodepleting therapy regimen consisting of fludarabine and cyclophosphamide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "universal CAR-T cell therapy (code RD06-05)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["RD06-05"]
+    },
+    {
+      "agent_name_registered": "fludarabine",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CAR T-cell therapy administered intravenously after a lymphodepleting therapy regimen consisting of fludarabine and cyclophosphamide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "lymphodepleting chemotherapy (antimetabolite)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["RD06-05"]
+    },
+    {
+      "agent_name_registered": "cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CAR T-cell therapy administered intravenously after a lymphodepleting therapy regimen consisting of fludarabine and cyclophosphamide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "lymphodepleting chemotherapy (alkylating agent)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["RD06-05"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Autoimmune disease trial; GBM in the conditions is anti-glomerular basement membrane disease. Fludarabine and cyclophosphamide listed as conditioning (supportive) per R6; they are not registered interventions but the intervention text states they are given."
+}

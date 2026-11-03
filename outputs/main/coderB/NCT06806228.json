@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06806228",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Diffuse Midline Glioma, H3 K27M-Mutant; Gliosarcoma; Giant Cell Glioblastoma; GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluate the efficacy of adding S-Gboxin to standard RT/TMZ treatment protocols"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "relapse or disease progression"},
+      {"field": "brief_summary", "quote": "evaluate the efficacy of adding S-Gboxin to standard RT/TMZ treatment protocols"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Brain tumor metabolism as measured by PET and MRI"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "S-Gboxin",
+      "active_moiety": "s-gboxin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "evaluate the efficacy of adding the mitochondrial oxidative phosphorylation inhibitor S-Gboxin (OXPHOS) to standard treatment for glioblastoma multiforme or glioma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral mitochondrial OXPHOS (F0F1 ATP synthase) inhibitor",
+      "stated_antitumour_mechanism": "inhibits mitochondrial oxidative phosphorylation / F0F1 ATP synthase activity in tumor cells",
+      "flag": {"uncertain": false},
+      "arms": ["Patients will be offered 4 courses of Gboxin during (or without) standard treatment."]
+    },
+    {
+      "agent_name_registered": "TMZ (standard RT/TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "evaluate the efficacy of adding S-Gboxin to standard RT/TMZ treatment protocols"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients will be offered 4 courses of Gboxin during (or without) standard treatment."]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "S-Gboxin is registered as Biological but described as a small-molecule OXPHOS inhibitor taken in capsules. Temozolomide is not a registered intervention; listed because the text says S-Gboxin is added to standard RT/TMZ. The arm title says 'during (or without) standard treatment' and inclusion mentions relapse or progression while the rationale is added to RT/TMZ, so treatment setting is unclear. H3 K27M appears in conditions (diffuse midline glioma) but the trial recruits 'regardless of mutation status', so no biomarker is an entry requirement."
+}

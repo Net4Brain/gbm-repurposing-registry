@@ -1,0 +1,127 @@
+{
+  "nct_id": "NCT05326464",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed GBM (MGMT unmethylated, IDH wild type) at first, second, third, or fourth recurrence after concurrent chemoradiotherapy."},
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to examine the effects of Tofacitinib in patients with recurrent Glioblastoma."},
+      {"field": "title", "quote": "Tofacitinib: Suppressing Tumor Invasion in Recurrent GBM Patients"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed GBM (MGMT unmethylated, IDH wild type) at first, second, third, or fourth recurrence after concurrent chemoradiotherapy."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Newly diagnosed or Recurrent off Temozolomide: Participants will take Tofacitinib 10mg BID x 28 days with Temozolomide 150mg/m2 on days 1-5."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tofacitinib 10mg",
+      "active_moiety": "tofacitinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Tofacitinib 10mg: 10 mg given orally twice daily until evidence of progression, intolerance of treatment, withdrawal of consent, or death."},
+        {"field": "outcomes", "quote": "Median progression-free survival from initiation of Tofacitinib until disease progression as defined by the RANO criteria"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "JAK inhibitor; licensed for rheumatoid arthritis and other immune-mediated diseases",
+      "stated_antitumour_mechanism": "Suppressing Tumor Invasion",
+      "flag": {"uncertain": false},
+      "arms": ["Newly diagnosed or Recurrent off Temozolomide", "Recurrent disease on Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Newly diagnosed or Recurrent off Temozolomide: Participants will take Tofacitinib 10mg BID x 28 days with Temozolomide 150mg/m2 on days 1-5."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Newly diagnosed or Recurrent off Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Recurrent disease on Temozolomide: Tofacitinib 10mg BID x 42 days Lomustine 90mg/m2 (interventions: Drug: Tofacitinib 10mg; Drug: Lomustine)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent; standard recurrent GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent disease on Temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "GBMs of the study patients must have EGFR gene amplification, which will be detected by next generation sequencing of tumor tissue from resected sample."},
+      "flag": {"uncertain": true, "reason": "EGFR amplification is an entry requirement for a JAK-inhibitor trial (prior EGFR or JAK inhibitor excluded), but the record states no mechanistic link between EGFR and tofacitinib; a reviewer could judge it matched via EGFR-JAK/STAT signalling."},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed GBM (MGMT unmethylated, IDH wild type) at first, second, third, or fourth recurrence after concurrent chemoradiotherapy."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed GBM (MGMT unmethylated, IDH wild type) at first, second, third, or fourth recurrence after concurrent chemoradiotherapy."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Tofacitinib (JAK inhibitor) is the only investigational agent, given with temozolomide (arm 1) or lomustine (arm 2) as background chemotherapy; TMZ and lomustine coded soc_backbone in their respective arms. Arm 1 label says 'Newly diagnosed or Recurrent off Temozolomide' but inclusion criteria require recurrence after chemoradiotherapy, so treatment_setting coded recurrent. Registered phase is PHASE3 although single-group design. Outcome text mentions tofacitinib 5 mg vs 10 mg in arms (inconsistency). EGFR amplification eligibility flagged uncertain for candidate matching (see biomarker flag)."
+}

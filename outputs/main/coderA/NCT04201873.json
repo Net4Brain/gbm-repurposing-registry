@@ -1,0 +1,129 @@
+{
+  "nct_id": "NCT04201873",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants with histologically confirmed diagnosis of surgically accessible recurrent/progressive glioblastoma will be enrolled in this study"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "GROUP B: Beginning 14 days prior to scheduled surgery, patients receive placebo IV."},
+      {"field": "detailed_description", "quote": "I. To evaluate the influence of pembrolizumab on the cell cycle-related genetic signature within the tumor microenvironment of progressive/recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["autologous tumor lysate-pulsed dendritic cell vaccine (ATL-DC)", "poly ICLC"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "I. To evaluate the influence of pembrolizumab on the cell cycle-related genetic signature within the tumor microenvironment of progressive/recurrent glioblastoma."},
+      {"field": "outcomes", "quote": "The differences of PD-1, PD-L1, CD3, CD4, CD8, Iba-I, Ki-67 protein expression level between the archival tumor (collected pre-treatment) and protocol tumor (collected post-neoadjuvant treatment) will be assessed using paired T-test"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Group A (pembrolizumab, ATL-DC, poly ICLC)"},
+        {"field": "arms", "quote": "Group B (placebo, ATL-DC, poly ICLC)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["Group A (pembrolizumab, ATL-DC, poly ICLC)"]
+    },
+    {
+      "agent_name_registered": "Dendritic Cell Tumor Cell Lysate Vaccine",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Dendritic Cell Tumor Cell Lysate Vaccine (other names: DC tumor cell lysate vaccine, dendritic cell-pulsed tumor cell lysate vaccine): Given ID"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous tumour lysate-pulsed dendritic cell vaccine (ATL-DC)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group A (pembrolizumab, ATL-DC, poly ICLC)", "Group B (placebo, ATL-DC, poly ICLC)"]
+    },
+    {
+      "agent_name_registered": "Poly ICLC",
+      "active_moiety": "poly iclc",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Patients also receive ATL-DC ID with poly ICLC IM every 2 weeks for up to 3 doses in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TLR3 agonist immune adjuvant (polyinosinic-polycytidylic acid stabilised with polylysine and carboxymethylcellulose; Hiltonol)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group A (pembrolizumab, ATL-DC, poly ICLC)", "Group B (placebo, ATL-DC, poly ICLC)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "The differences of PD-1, PD-L1, CD3, CD4, CD8, Iba-I, Ki-67 protein expression level between the archival tumor (collected pre-treatment) and protocol tumor (collected post-neoadjuvant treatment) will be assessed using paired T-test"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "cell cycle-related gene expression signature in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "I. To evaluate the influence of pembrolizumab on the cell cycle-related genetic signature within the tumor microenvironment of progressive/recurrent glioblastoma."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour gene expression signature and somatic mutations (RNA-seq, NanoString IO360); IFN-gamma signature",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "gene expression signature and somatic mutations in the tumor measured by RNA Seq and nano string IO360"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised pembrolizumab vs placebo, both arms receive ATL-DC vaccine + poly ICLC. Pembrolizumab is the only investigational pharmacological agent (experimental_monotherapy); DC vaccine is an excluded type; poly ICLC given in every arm as vaccine adjuvant coded soc_backbone (could alternatively be seen as part of the vaccine regimen/supportive; not a candidate either way). Placebo (registered as Other) not listed as an agent. Group B registered as ACTIVE_COMPARATOR. Neoadjuvant pembrolizumab with pre/post tumour sampling for PD markers -> target_engagement yes. No plasma or tumour PK described."
+}

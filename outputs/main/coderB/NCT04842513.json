@@ -1,0 +1,34 @@
+{
+"nct_id":"NCT04842513","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma Multiforme of Brain"},{"field":"eligibility","quote":"Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"excluded_intervention_type",
+"candidate_evidence":[{"field":"brief_summary","quote":"vaccinated with a Multi peptide vaccination with Pam3Cys-GDPKHPKSF (XS15) as an immunomodulator"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"cns5"},
+"trial":{
+"treatment_setting":"newly_diagnosed",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"yes",
+"target_engagement_planned_evidence":[{"field":"outcomes","quote":"Measurements of the induction of T-cell response after vaccination at 30 days, 60 days and 90 days from first vaccination"}]
+},
+"agents":[
+{"agent_name_registered":"Multipeptide plus XS15","active_moiety":"multipeptide vaccine with xs15 adjuvant","role":"excluded_intervention_type","role_evidence":[{"field":"interventions","quote":"The vaccine will be applied by subcutaneous injection into the abdominal skin of the study patient."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"multi-peptide cancer vaccine with TLR1/2 ligand Pam3Cys-GDPKHPKSF (XS15) emulsified in Montanide ISA 51 VG","stated_antitumour_mechanism":"as an immunomodulator","flag":{"uncertain":false},"arms":["Multipeptide plus XS15"]},
+{"agent_name_registered":"temozolomide (standard chemoradiation and maintenance)","active_moiety":"temozolomide","role":"soc_backbone","role_evidence":[{"field":"title","quote":"in Addition to Standard Postoperative Radiation Therapy and Temozolomide Chemotherapy"}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"alkylating agent","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Multipeptide plus XS15"]}
+],
+"biomarkers":[
+{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"},"flag":{"uncertain":false},"arms":[]},
+{"biomarker":"MGMT","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"MGMT gene promoter methylation"},"flag":{"uncertain":false},"arms":[]}
+],
+"coder_notes":"Vaccine-only experimental agent, excluded at S6. Temozolomide and radiotherapy are stated for every patient. HLA-A*02:01 typing is a germline requirement and is not listed. Montanide ISA 51 VG is an adjuvant in the vaccine emulsion and not listed separately."
+}

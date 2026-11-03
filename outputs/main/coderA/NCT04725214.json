@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04725214",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "MGMT-Unmethylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of glioblastoma (WHO grade IV),"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to test the efficacy and safety of Anlotinib in combination with STUPP regimen for MGMT promoter nonmethylated glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Anlotinib Combined With STUPP Protocol as First-line Regimen for MGMT Nonmethylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent or multiple malignant gliomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anlotinib",
+      "active_moiety": "anlotinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "For MGMT unmethylated glioblastoma, during temozolomide adjuvant, concurrent with anti-angiogenesis targeted therapy(Anlotinib capsule,d1-14)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-target tyrosine kinase inhibitor (anti-angiogenic)",
+      "stated_antitumour_mechanism": "anti-angiogenesis targeted therapy",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: For MGMT unmethylated glioblastoma, during temozolomide adjuvant, concurrent with anti-angiogenesis targeted therapy(Anlotinib capsule,d1-14)"]
+    },
+    {
+      "agent_name_registered": "temozolomide capsule",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Anlotinib With STUPP Regimen"},
+        {"field": "arms", "quote": "during temozolomide adjuvant"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "STUPP",
+      "drug_class_hint": "alkylating agent (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: For MGMT unmethylated glioblastoma, during temozolomide adjuvant, concurrent with anti-angiogenesis targeted therapy(Anlotinib capsule,d1-14)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The pathological tissue specimens are detected as MGMT unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide appears only as an 'other name' of the Anlotinib intervention and in the Stupp regimen every patient receives; listed as soc_backbone. 'glioblastoma (WHO grade IV)' with no IDH or WHO edition reference coded cns5_terminology unclear (Roman-numeral grade could suggest WHO 2016 usage). Arm wording suggests anlotinib is given during adjuvant temozolomide; whether radiotherapy is part of the experimental arm is not explicit, so only temozolomide listed as combination partner (title calls it Stupp protocol, which includes radiotherapy)."
+}

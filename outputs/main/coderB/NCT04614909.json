@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT04614909",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme, Adult"},
+      {"field": "title", "quote": "A Phase 0/2 Clinical Trial of Pamiparib in Newly-Diagnosed and Recurrent Glioblastoma Patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "60mg administered orally BID for 4 days prior to surgical resection"},
+      {"field": "interventions", "quote": "200mg administered orally BID for 4 days prior to surgical resection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "newly diagnosed (N=12) and recurrent glioblastoma (N=18)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total and unbound pamiparib concentration in enhancing and non-enhancing tumor tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamics (PD) of pamiparib: Quantification of PAR concentration in tumor homogenates"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pamiparib",
+      "active_moiety": "pamiparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "60mg administered orally BID for 4 days prior to surgical resection"},
+        {"field": "arms", "quote": "Participants undergoing resection for a presumed newly diagnosed glioblastoma (nGBM) will be treated with pamiparib for 4 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib", "Arm B Recurrent Glioblastoma Participant treated with Pamiparib"]
+    },
+    {
+      "agent_name_registered": "Olaparib",
+      "active_moiety": "olaparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "200mg administered orally BID for 4 days prior to surgical resection"},
+        {"field": "arms", "quote": "Arm C will be an exploratory arm in recurrent glioblastoma patients (rGBM) treated with Olaparib for 4 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C Recurrent Glioblastoma Participant treated with Olaparib"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Arm A and Arm B participants after RT is completed, will receive pamiparib in combination with TMZ (newly diagnosed participants)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib", "Arm B Recurrent Glioblastoma Participant treated with Pamiparib", "Arm C Recurrent Glioblastoma Participant treated with Olaparib"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "pamiparib plus fractionated radiotherapy (for unmethylated MGMT promoter newly-diagnosed cases)"},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PAR (poly-ADP-ribose) concentration in tumour homogenate",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pamiparib",
+      "source_quote": {"field": "outcomes", "quote": "Quantification of PAR concentration in tumor homogenates"},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib", "Arm B Recurrent Glioblastoma Participant treated with Pamiparib"]
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (registered Phase 0/2; translational subset). Each arm has one investigational PARP inhibitor (pamiparib in A and B, olaparib in C), so each is experimental_monotherapy on a radiotherapy plus temozolomide backbone. The Arm C text mentions pamiparib in the maintenance phase, probably a registry typo; not coded. MGMT unmethylated status is stated as the criterion for the phase 2 newly diagnosed pamiparib cohort (enrichment, not candidate-matched). PAR is a pharmacodynamic outcome."
+}

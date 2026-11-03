@@ -1,0 +1,233 @@
+{
+  "nct_id": "NCT06333899",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Diffuse Intrinsic Pontine Glioma; Anaplastic Astrocytoma; Infant Type Hemispheric Glioma; Glioblastoma; Glioblastoma Multiforme; WHO Grade III Glioma; WHO Grade IV Glioma; Diffuse Midline Glioma, H3K27-altered"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma (HGG), including diffuse intrinsic pontine gliomas (DIPG), whose tumors harbor an ALK or ROS-1 fusion alteration are eligible."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Lorlatinib for Newly-Diagnosed High-Grade Glioma With ROS or ALK Fusion"},
+      {"field": "arms", "quote": "Lorlatinib administered as monotherapy by PO (per os) or NG (nasogastric) for two 28-day cycles at 115 mg/m2/day (or maximum 200mg/dose)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Lorlatinib for Newly-Diagnosed High-Grade Glioma With ROS or ALK Fusion"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["vincristine", "cyclophosphamide", "cisplatin", "methotrexate", "carboplatin", "etoposide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lorlatinib",
+      "active_moiety": "lorlatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The goal of this study is to determine the response of the study drug loratinib in treating children who are newly diagnosed high-grade glioma with a fusion in ALK or ROS1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ALK/ROS1 tyrosine kinase inhibitor (approved for ALK+ NSCLC)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Monotherapy", "Lorlatinib Combination with BABY POG chemotherapy", "Lorlatinib Combination with HIT-SKK chemotherapy", "Lorlatinib Maintenance Therapy post RT"]
+    },
+    {
+      "agent_name_registered": "BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)",
+      "active_moiety": "vincristine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BABY-POG",
+      "drug_class_hint": "vinca alkaloid (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with BABY POG chemotherapy"]
+    },
+    {
+      "agent_name_registered": "BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)",
+      "active_moiety": "cyclophosphamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BABY-POG",
+      "drug_class_hint": "alkylating agent (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with BABY POG chemotherapy"]
+    },
+    {
+      "agent_name_registered": "BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)",
+      "active_moiety": "cisplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and BABY-POG chemotherapy backbone (vincristine, cyclophosphamide, cisplatin)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BABY-POG",
+      "drug_class_hint": "platinum agent (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with BABY POG chemotherapy"]
+    },
+    {
+      "agent_name_registered": "HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)",
+      "active_moiety": "cyclophosphamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "HIT-SKK",
+      "drug_class_hint": "alkylating agent (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with HIT-SKK chemotherapy"]
+    },
+    {
+      "agent_name_registered": "HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)",
+      "active_moiety": "vincristine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "HIT-SKK",
+      "drug_class_hint": "vinca alkaloid (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with HIT-SKK chemotherapy"]
+    },
+    {
+      "agent_name_registered": "HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)",
+      "active_moiety": "methotrexate",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "HIT-SKK",
+      "drug_class_hint": "antifolate antimetabolite (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with HIT-SKK chemotherapy"]
+    },
+    {
+      "agent_name_registered": "HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)",
+      "active_moiety": "carboplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "HIT-SKK",
+      "drug_class_hint": "platinum agent (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with HIT-SKK chemotherapy"]
+    },
+    {
+      "agent_name_registered": "HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)",
+      "active_moiety": "etoposide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Lorlatinib monotherapy x2 cycles followed by maintenance therapy with lorlatinib (115 mg/m2/day) and HIT-SKK chemotherapy backbone (cyclophosphamide, vincristine, methotrexate, carboplatin, etposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "HIT-SKK",
+      "drug_class_hint": "topoisomerase II inhibitor (standard paediatric chemotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lorlatinib Combination with HIT-SKK chemotherapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "ALK fusion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "lorlatinib",
+      "source_quote": {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma (HGG), including diffuse intrinsic pontine gliomas (DIPG), whose tumors harbor an ALK or ROS-1 fusion alteration are eligible."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ROS1 fusion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "lorlatinib",
+      "source_quote": {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma (HGG), including diffuse intrinsic pontine gliomas (DIPG), whose tumors harbor an ALK or ROS-1 fusion alteration are eligible."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "genomic, transcriptomic, epigenetic and immunologic tumour alterations (exploratory)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Explore longitudinal associations of genomic, transcriptomic, epigenetic, and/or immunologic alterations of tumor at diagnosis, recurrence, or autopsy with radiographic response and advanced neuro-imaging measures."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset) and mixed age (12 months to 21 years; predominantly paediatric). Lorlatinib registered as four interventions (Lorlatinib; Lorlatinib with chemotherapy1; Lorlatinib with chemotherapy 2; Lorlatinib post Radiation), collapsed to one agent row covering all four arms. Backbone chemotherapy components are not registered interventions but every patient in those arms receives them (R9); listed as soc_backbone, one row per component per regimen (vincristine and cyclophosphamide appear in both). Lorlatinib is the only investigational agent, hence experimental_monotherapy; trial regimen combination because two arms add chemotherapy and one adds radiotherapy (the monotherapy arm alone would be monotherapy). Glioblastoma named in conditions alongside other HGG types. H3K27-altered appears only in conditions, not recorded as a biomarker."
+}

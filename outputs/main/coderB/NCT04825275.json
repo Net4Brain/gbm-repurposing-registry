@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT04825275",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme of Brain; Glioblastoma Multiforme, Adult"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Posaconazole: Participants will be taking 300 mg of the study drug (three 100 mg tablets) by mouth twice a day the first day"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of primary or recurrent HGG that in the opinion of the treating team would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Posaconazole Concentration in Cerebrospinal Fluid Using Microdialysis Catheters: Assessment of the concentration of drug in the dialysate fluid."},
+      {"field": "detailed_description", "quote": "This method allows for continuous measurement of ECF within a tumor or normal tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Posaconazole Effect on Hexokinase 2 Concentration Within Tumor Tissue: Measured using a hexokinase-2 ELISA with a range of 1.56 ng/mL - 100 ng/mL on tumor tissue."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Posaconazole Pill",
+      "active_moiety": "posaconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Posaconazole Pill (other names: Noxafil): 300 mg (three 100 mg tablets) orally"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "inhibition of HK2 activity (glycolysis) reducing tumor cell proliferation",
+      "flag": {"uncertain": false},
+      "arms": ["Posaconazole"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 (phase 0) trial. Eligibility says primary or recurrent HGG, but conditions name glioblastoma. Control arm (no intervention) is a registered NO_INTERVENTION arm, so control_arm_from_other_arms is no."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05753995",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with a new probable diagnosis of glioblastoma based on MRI imaging."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The evaluation of PET imaging using PET ligand [18F]JNJ-64413739 or a [18F] labeled equivalent in vivo in patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "prior to initiation of specific tumor therapy and prior to any surgery (including biopsy)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PET imaging using PET ligand [18F]JNJ-64413739",
+      "active_moiety": "18f-jnj-64413739",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The evaluation of PET imaging using PET ligand [18F]JNJ-64413739 or a [18F] labeled equivalent in vivo in patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[18F]-labelled P2X7 receptor PET tracer (imaging only)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["single arm: for diagnostic"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging-only proof-of-principle study; the only agent is a diagnostic PET tracer. No antitumour treatment is part of the trial. Phase NA in the registry. P2X7 receptor expression is imaged (microglia) but is not a tumour molecular biomarker for selection, so no biomarker row."
+}

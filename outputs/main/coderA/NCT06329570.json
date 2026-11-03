@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06329570",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Safety and Efficacy of Bevacizumab in Combination With NaviFUS System for the Treatment of Recurrent Glioblastoma Multiforme (rGBM)"},
+      {"field": "eligibility", "quote": "Patients diagnosed with glioblastoma must have unequivocal evidence of recurrence, as determined by contrast-enhanced magnetic resonance imaging (CE-MRI), following prior radiotherapy and temozolomide chemotherapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This will be a prospective, open-label, single-arm pilot study to investigate the safety and efficacy of Bevacizumab (BEV) in combination with microbubble (MB)-mediated FUS in patients with recurrent GBM."},
+      {"field": "brief_summary", "quote": "BEV represents the physician's best choice for the standard of care (SoC) in rGBM after previous treatment with surgery (if appropriate), standard radiotherapy with temozolomide chemotherapy, and with adjuvant temozolomide."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only drug tested is bevacizumab (an established GBM therapy, D6) with FUS-enabled BBB opening; rule 6 (established_therapy_experiment) applied, but C12/R5 (device-enabled delivery as the question = candidate) could be argued, which would make the trial eligible."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety and Efficacy of Bevacizumab in Combination With NaviFUS System for the Treatment of Recurrent Glioblastoma Multiforme (rGBM)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "FUS treatment will be administered after BEV infusion to facilitate BBB opening."},
+        {"field": "interventions", "quote": "An anti-angiogenic agent to block tumor growth"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": "An anti-angiogenic agent to block tumor growth",
+      "flag": {"uncertain": true, "reason": "Established GBM therapy tested with focused-ultrasound BBB opening: rule 6 (established_therapy_experiment) vs C12/R5 device-enabled candidate (experimental_monotherapy, device_dependent true)."},
+      "arms": ["FUS-MB+BEV"]
+    },
+    {
+      "agent_name_registered": "Lumason",
+      "active_moiety": "sulfur hexafluoride",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Lumason (other names: SonoVue): Open the BBB using focused ultrasound and microbubble"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "sulfur hexafluoride lipid microbubble ultrasound contrast agent, used for FUS BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["FUS-MB+BEV"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Bevacizumab (D6 established GBM therapy) given IV at standard dose, followed by microbubble (Lumason) plus NaviFUS focused-ultrasound BBB opening. Coded bevacizumab as established_therapy_experiment per rule 6 / exception (i) (new delivery approach of an established therapy), so trial fails S6 as established_therapy_only; flagged uncertain because C12/R5 could make it a device-dependent candidate (if so, set device_dependent true, regimen monotherapy). Lumason = delivery_enabling_agent (moiety sulfur hexafluoride; INN spelling may be 'sulfur hexafluoride'). 'Glioblastoma Multiforme' -> historical. Device not listed as agent."
+}

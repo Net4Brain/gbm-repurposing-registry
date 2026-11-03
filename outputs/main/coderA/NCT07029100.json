@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07029100",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Suspected of having a high-grade glioma based on preoperative multimodal MRI,"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ex-vivo organoid cultures composed of tumor cells within their microenvironment (glioblastoma organoid - GBO) and intra- and peri-tumoral blood vessels (blood vessel organoid - BVO), derived from perioperative samples obtained during complete or partial surgical resection"},
+      {"field": "detailed_description", "quote": "All patients will be planned to receive standard of care for glioblastoma after resection, namely radiotherapy+temozolomide and TTFields."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "derived from perioperative samples obtained during complete or partial surgical resection in patients with newly diagnosed glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (standard of care, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will be planned to receive standard of care for glioblastoma after resection, namely radiotherapy+temozolomide and TTFields."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ex-vivo Organoid culture"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA ex vivo organoid feasibility study; the only registered intervention is an ex vivo laboratory procedure (no drug given as study intervention). Temozolomide listed as soc_backbone because all patients are planned to receive standard radiotherapy + temozolomide. Population: conditions name only glioblastoma and outcome refers to patients with glioblastoma, but inclusion is 'suspected high-grade glioma' on MRI; coded gbm_only (could be argued high_grade_glioma_unspecified; does not change exclusion since no candidate). Experimental treatment of organoids and plasma biomarkers are ex vivo/correlative; no named tumour molecular biomarker."
+}

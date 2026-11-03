@@ -1,0 +1,117 @@
+{
+  "nct_id": "NCT06186401",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "EGFR Gene Mutation; Glioblastoma; MGMT-Unmethylated Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "E-SYNC T Cells (other names: Anti-EGFRvIII synNotch Receptor Induced Anti-EphA2/IL-13R alpha2 CAR T Cells"},
+      {"field": "brief_summary", "quote": "Lymphodepleting chemotherapy with cyclophosphamide and fludarabine before treatment with CAR T cells may make the CAR T cells more effective."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "An estimated 6 to 15 participants with newly diagnosed EGFRvIII+ glioblastoma"},
+      {"field": "conditions", "quote": "EGFR Gene Mutation; Glioblastoma; MGMT-Unmethylated Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The percentage of primed E-SYNC T cells in tumor-infiltrating lymphocytes (TIL) versus Peripheral blood mononuclear cell (PBMC) will be evaluated using single-cell RNA sequencing"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "E-SYNC T Cells",
+      "active_moiety": "e-sync car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "E-SYNC T Cells (other names: Anti-EGFRvIII synNotch Receptor Induced Anti-EphA2/IL-13R alpha2 CAR T Cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous anti-EGFRvIII synNotch-induced anti-EphA2/IL-13Ralpha2 CAR T cells",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1: Starting Dose Level 1 (5 x 10^7 CAR+ cells) (DL1)", "Cohort 1: Dose-escalation Level 2 (1.5 x 10^8 CAR+ cells) (DL2)", "Cohort 2: Tissue analysis cohort"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide (non-investigational)",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Lymphodepleting chemotherapy with cyclophosphamide and fludarabine before treatment with CAR T cells may make the CAR T cells more effective."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used as lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1: Starting Dose Level 1 (5 x 10^7 CAR+ cells) (DL1)", "Cohort 1: Dose-escalation Level 2 (1.5 x 10^8 CAR+ cells) (DL2)", "Cohort 2: Tissue analysis cohort"]
+    },
+    {
+      "agent_name_registered": "Fludarabine (non-investigational)",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Lymphodepleting chemotherapy with cyclophosphamide and fludarabine before treatment with CAR T cells may make the CAR T cells more effective."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "purine analogue used as lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1: Starting Dose Level 1 (5 x 10^7 CAR+ cells) (DL1)", "Cohort 1: Dose-escalation Level 2 (1.5 x 10^8 CAR+ cells) (DL2)", "Cohort 2: Tissue analysis cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Pathological criteria: EGFRvIII+ GBM from most recent surgery, confirmed by a Clinical Laboratory Improvement Amendments (CLIA)-certified lab using a next-generation sequencing panel."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter must be unmethylated or with a methylation index \\< 3."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1: Starting Dose Level 1 (5 x 10^7 CAR+ cells) (DL1)", "Cohort 1: Dose-escalation Level 2 (1.5 x 10^8 CAR+ cells) (DL2)"]
+    }
+  ],
+  "coder_notes": "Only investigational agent is a CAR T cell product (excluded type); cyclophosphamide and fludarabine are lymphodepleting conditioning (supportive, R6). EGFRvIII is mechanistically linked to the CAR T product, but that product is not a candidate, so candidate_matched is false. Setting: cohort 1 newly diagnosed after radiotherapy; conditions also list Recurrent Glioblastoma and cohort 2 setting is not explicit."
+}

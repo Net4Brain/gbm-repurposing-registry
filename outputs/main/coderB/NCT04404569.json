@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT04404569",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neoplasms"},
+      {"field": "keywords", "quote": "High-grade Glioma; Glioblastoma; Solid Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BXQ-350 is a novel anti-neoplastic therapeutic agent"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BXQ-350",
+      "active_moiety": "bxq-350",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "BXQ-350 will be administered intravenously at the same dose level and frequency the subject was receiving at the end of the prior BXQ-350 clinical study."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational nanovesicle of saposin C and dioleoylphosphatidylserine (SapC-DOPS)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Continued Treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Rollover study. Glioblastoma appears only in keywords (not in conditions, title, inclusion criteria or arm label), so per D27B it is not named; conditions is 'Neoplasms' and the record never states which tumour types are eligible, hence not_glioblastoma. Ages include CHILD."
+}

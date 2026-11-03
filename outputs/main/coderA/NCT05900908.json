@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT05900908",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "diffuse astrocytic glioma, IDH-wildtype, with molecular features of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "To compare surgical tumor removal and GammaTile therapy followed by adjuvant systemic therapy (bevacizumab or lomustine) to surgical tumor removal followed by adjuvant systemic therapy (bevacizumab or lomustine) without GammaTile therapy."},
+      {"field": "interventions", "quote": "GammaTiles are a permanently implanted radiation device consisting of Cs-131 seeds positioned within a collagen tile"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Eligible patients must be experiencing a known or suspected first recurrence of a supratentorial GBM following prior first-line concurrent TMZ and RT"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "To compare surgical tumor removal and GammaTile therapy followed by adjuvant systemic therapy (bevacizumab or lomustine) to surgical tumor removal followed by adjuvant systemic therapy (bevacizumab or lomustine) without GammaTile therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["surgical tumor removal and GammaTile therapy followed by adjuvant systemic therapy", "surgical tumor removal followed by adjuvant systemic therapy"]
+    },
+    {
+      "agent_name_registered": "lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patients for which bevacizumab or lomustine are reasonable systemic treatments following surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["surgical tumor removal and GammaTile therapy followed by adjuvant systemic therapy", "surgical tumor removal followed by adjuvant systemic therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Known somatic tumor mutation in IDH1 or IDH2 gene."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor O-6-methylguanine-deoxyribonucleic acid (DNA) methyltransferase (MGMT) methylation status must be available from any prior GBM tumor specimen"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase is PHASE4 (excluded at S3 by script) but coded in full. The investigational intervention is the GammaTile Cs-131 brachytherapy device; bevacizumab or lomustine (physician choice) is adjuvant systemic therapy in both arms, coded soc_backbone; no pharmacological candidate. Neither drug is a registered intervention but the summary states every patient receives one of them. Steroids only permitted, not listed. MGMT: entry requires that methylation status be available (any status), coded eligibility though it does not select by status; adjudicator may prefer exploratory. IDH-wildtype is the diagnostic definition. EGFR amplification / chr7/10 / TERT appear only as alternative diagnostic features of molecular GBM and were not listed as biomarkers. Germline MMR/POLE exclusion not recorded (germline)."
+}

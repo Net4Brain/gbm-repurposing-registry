@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT07488754",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; High-Grade Glioma (WHO III-IV); Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "histologically confirmed diffuse glioma (CNS WHO G3-G4);"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Local, targeted therapy with alpha emitter \\[225Ac\\]Ac-DOTA-SP (TAT) administered to the post-resection cavity or tumour via Rickham reservoir using induced diffusion."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "after standard treatment with biopsy or resection, radiotherapy and/or chemotherapy;"},
+      {"field": "eligibility", "quote": "no sign of progression or radiation necrosis;"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "SPECT/CT imaging will be performed at 4 hours and 24 hours after administration"},
+      {"field": "detailed_description", "quote": "Imaging will follow a quantitative protocol developed at the Nuclear Medicine Department of UCK, based on phantom studies"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[225Ac]Ac-DOTA-SP (TAT)",
+      "active_moiety": "dota-sp",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "To evaluate the efficacy of local targeted therapy with the alpha-emitter-labeled neuropeptide \\[225Ac\\]Ac-DOTA-SP, administered using the forced diffusion method, in patients with newly diagnosed WHO grade G3-G4 glioma after first-line treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "actinium-225 labelled DOTA-substance P (NK-1 receptor-targeted alpha-emitter radiopharmaceutical), isotope 225Ac",
+      "stated_antitumour_mechanism": "NK-1 receptor-targeted alpha-emitter radiation (substance P derivative binding NK-1 receptors overexpressed on glioma cells)",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental : HGG treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT) after standard therapy"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-DOTA-SP",
+      "active_moiety": "68ga-dota-sp",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Immediate brain imaging after administration of \\[225Ac\\]Ac-DOTA-SP with 5-10 MBq of \\[68Ga\\]Ga-DOTA-SP"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled DOTA-substance P PET imaging agent (catheter patency / distribution imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental : HGG treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT) after standard therapy"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-PSMA",
+      "active_moiety": "68ga-psma",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "\\[68Ga\\]Ga-PSMA PET/CT will be performed to determine the site for biopsy and catheter placement."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA ligand PET imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental : HGG treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT) after standard therapy"]
+    },
+    {
+      "agent_name_registered": "15% mannitol",
+      "active_moiety": "mannitol",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "250 ml of 15% mannitol"},
+        {"field": "detailed_description", "quote": "These will be administered 20-30 minutes prior to treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "osmotic diuretic, pre-treatment medication (purpose not stated; presumably intracranial pressure/oedema)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental : HGG treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT) after standard therapy"]
+    },
+    {
+      "agent_name_registered": "dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "8 mg dexamethasone intravenously"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid, pre-treatment medication",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental : HGG treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT) after standard therapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA single-arm study. Population is diffuse glioma CNS WHO G3-G4 with glioblastoma named in conditions; no IDH requirement, 'WHO III-IV' grading in conditions -> historical. Candidate moiety named by ligand without isotope per W1 (dota-sp; substance P derivative). Delivered locally via catheter/Rickham reservoir with forced diffusion: coded formulation new_route; device_dependent false since catheter delivery is a route rather than device activation/FUS-type delivery (adjudicator may differ). Mannitol and dexamethasone are listed as pre-treatment medication without stated purpose; coded supportive (no BBB-opening purpose stated). 0.9% NaCl not listed as a drug. Concurrent chemotherapy at oncologist's discretion is not a protocol agent; regimen coded monotherapy. tumour_pk_planned yes based on quantitative SPECT/CT distribution imaging of the administered radiopharmaceutical; adjudicator may consider this imaging biodistribution rather than tumour PK."
+}

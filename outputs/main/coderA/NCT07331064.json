@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT07331064",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Gliomas; Atypical Teratoid Rhabdoid Tumors (ATRT); Diffuse Midline Glioma; DIPG; Diffuse Intrinsic Pontine Gliomas (DIPG)"},
+      {"field": "eligibility", "quote": "Patients must have a prior histological diagnosis of pediatric high-grade glioma (WHO Grade 3 or 4, including DMG/DIPG) or ATRT (WHO Grade 4)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Gallium Maltolate (GaM) Arm: single-agent GaM study, single arm. (interventions: Drug: Gallium maltolate)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Gallium Maltolate for the Treatment of Pediatric Patients With Relapsed or Refractory Pediatric High-Grade Glioma and Atypical Teratoid Rhabdoid Tumor"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure serum gallium levels at multiple timepoints to calculate pharmacokinetic parameters in pediatric patients"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gallium maltolate",
+      "active_moiety": "gallium maltolate",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Gallium Maltolate (GaM) Arm: single-agent GaM study, single arm. (interventions: Drug: Gallium maltolate)"},
+        {"field": "interventions", "quote": "[DRUG] Gallium maltolate: oral small-molecule iron mimetic"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral gallium compound, iron mimetic (non-radioactive), investigational",
+      "stated_antitumour_mechanism": "oral small-molecule iron mimetic",
+      "flag": {"uncertain": false},
+      "arms": ["Gallium Maltolate (GaM) Arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric-only trial (Ages: CHILD, 0-17 years); will fail S4 on structured fields. Population is paediatric high-grade glioma (WHO grade 3 or 4 incl. DMG/DIPG) and ATRT; glioblastoma is never named, so coded high_grade_glioma_unspecified. Record cites WHO CNS5 classification -> cns5. PK is serum only -> tumour_pk_planned no."
+}

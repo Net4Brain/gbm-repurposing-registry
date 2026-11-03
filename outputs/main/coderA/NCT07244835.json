@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT07244835",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Neoplasms"},
+      {"field": "eligibility", "quote": "Patients with advanced solid tumors, who have failed standard therapies, or for whom no standard therapy exists"},
+      {"field": "keywords", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "DEG6498 is an orally bioavailable molecular glue drug that potently induces the degradation of human antigen R (HuR)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with advanced solid tumors, who have failed standard therapies, or for whom no standard therapy exists"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measurement of plasma concentration over time for exposure to DEG6498"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DEG6498",
+      "active_moiety": "deg6498",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "will test different doses of DEG6498 as a single agent when administered to participants with any type of advanced solid tumor that has no available alternative treatments"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral molecular glue degrader of HuR (ELAVL1)",
+      "stated_antitumour_mechanism": "orally bioavailable molecular glue drug that potently induces the degradation of human antigen R (HuR)",
+      "flag": {"uncertain": false},
+      "arms": ["DEG6498 Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Part 2: Patients with BRAF mutation positive tumors and HCC"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Solid-tumour phase 1. Glioblastoma appears only in keywords, which do not count as naming under C7/D27B; conditions say 'Malignant Neoplasms' and inclusion says 'advanced solid tumors' -> not_glioblastoma. basket coded true descriptively (multi-tumour design). BRAF-mutant expansion cohort is not registered as a separate arm; DEG6498 is a HuR degrader with no stated BRAF link, so not candidate-matched. PK is plasma only."
+}

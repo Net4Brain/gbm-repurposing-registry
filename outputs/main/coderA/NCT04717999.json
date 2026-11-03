@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04717999",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma multiforme (GBM) and are at first or second relapse."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The NKG2D CAR-T will be administrated via intracerebroventricular injection through an Ommaya catheter."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with relapsed and/or refractory glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NKG2D CAR-T",
+      "active_moiety": "nkg2d car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a pilot phase I study to evaluate the safety and efficacy of NKG2D CAR-T cell therapy in patients with relapsed and/or refractory glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous NKG2D chimeric antigen receptor T-cell therapy (UWNKG2D / UWN2D), intracerebroventricular",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["UWN2D CAR-T"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA. Only intervention is an NKG2D CAR-T cell therapy (excluded intervention type). Temozolomide is mentioned only as standard treatment to be stopped during infusion, so not listed."
+}

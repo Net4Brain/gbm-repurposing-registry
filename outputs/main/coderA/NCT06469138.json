@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT06469138",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase 1, Open-label, Nonrandomized Study to Investigate the Mass Balance Recovery and Metabolic Profile of 14C-bemcentinib Following Single Oral Administration in Healthy Male Subjects"},
+      {"field": "conditions", "quote": "Non-Small Cell Lung Cancer; Metastatic Melanoma; Acute Myeloid Leukemia; Myelodysplastic Syndromes; Metastatic Pancreatic Cancer; Glioblastoma; Malignant Mesothelioma; COVID-19"},
+      {"field": "eligibility", "quote": "In good health, determined by no clinically significant findings from medical history, vital signs measurements, and clinical laboratory evaluations"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named in conditions, but only healthy male volunteers are eligible; coded not_glioblastoma."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Bemcentinib (other names: BGB324): Each 200 mg dose contains approximately 32.8 μCi (1.21 MBq) of 14C-bemcentinib and is administered as a single dose on Day 1 of the study."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "This was a Phase 1, open-label, nonrandomized, single oral dose study in up to 8 healthy male subjects (with 6 required to complete the study)."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma samples will be obtained in order to evaluate defined plasma pharmacokinetic parameters for 14C-bemcentinib."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bemcentinib",
+      "active_moiety": "bemcentinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "This is the only treatment arm in this study. Up to 8 participants will receive a single oral dose of 200 mg containing approximately 32.8 μCi (1.21 MBq) of 14C-bemcentinib, 30 minutes after starting a standard high-fat breakfast."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational AXL kinase inhibitor (BGB324); 14C-labelled at tracer level for mass-balance study",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single Dose Cohort - 200 mg containing approximately 32.8 μCi (1.21 MBq) of 14C-bemcentinib"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Healthy-volunteer mass-balance/ADME study; the conditions field lists the sponsor's development indications including glioblastoma, but no patients are enrolled, so not_glioblastoma (flagged). Bemcentinib is the sole investigational agent (coded experimental_monotherapy for completeness), though there is no antitumour intent. The 14C label is a tracer for mass balance, not a radiopharmaceutical therapy, so radiopharmaceutical false. PK is plasma/whole blood/excreta only. Treatment setting not applicable (healthy subjects), coded unclear."
+}

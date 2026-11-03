@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT04775485",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Low-grade Glioma; Advanced Solid Tumor"},
+      {"field": "eligibility", "quote": "Advanced Solid Tumor: locally advanced or metastatic solid tumor with documented known or expected to be activating RAF fusion."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Tovorafenib is an oral Type II RAF kinase inhibitor available in 100 mg immediate-release tablet or 25 mg/milliliter (mL) powder for reconstitution."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Must have received at least one line of prior systemic therapy and have documented evidence of radiographic progression."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Arm 1: Area under the concentration-time curve (AUC) of Tovorafenib"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Arm 1: Changes in molecular analysis of cells obtained from archival tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tovorafenib",
+      "active_moiety": "tovorafenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a Phase 2, multi center, open-label study to evaluate the safety and efficacy of Type II RAF (tovorafenib) in pediatric participants with low-grade glioma or advanced solid tumors."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "type II pan-RAF kinase inhibitor (DAY101)",
+      "stated_antitumour_mechanism": "oral Type II RAF kinase inhibitor",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Low-Grade Glioma",
+        "Arm 2: Low-Grade Glioma Expanded Access",
+        "Arm 3: Advanced Solid Tumor"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "tovorafenib",
+      "source_quote": {"field": "eligibility", "quote": "Low Grade Glioma \\& Low-Grade Glioma Extension: a relapsed or progressive LGG with documented known activating BRAF alteration."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Low-Grade Glioma", "Arm 2: Low-Grade Glioma Expanded Access"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "activating RAF fusion",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "tovorafenib",
+      "source_quote": {"field": "eligibility", "quote": "Advanced Solid Tumor: locally advanced or metastatic solid tumor with documented known or expected to be activating RAF fusion."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 3: Advanced Solid Tumor"]
+    }
+  ],
+  "coder_notes": "FIREFLY-1: paediatric/young adult low-grade glioma plus advanced solid tumour cohort; glioblastoma is not named in conditions, title, inclusion criteria or arm labels, so not_glioblastoma (an advanced solid tumour cohort could in principle include RAF-fusion GBM but it is not named). Basket coded false because GBM not explicitly eligible. Ages CHILD and ADULT (mixed age). PK sample type not stated (AUC, Cmin), hence unclear. Archival-tissue molecular analysis not linked to tovorafenib target, hence target engagement unclear. Each cohort has its own RAF requirement, coded as enrichment."
+}

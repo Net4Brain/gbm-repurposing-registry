@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT04587830",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Newly diagnosed, histologically confirmed glioblastoma, IDH-wildtype"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Weekly ADI-PEG 20 (36 mg/m2) or placebo will be combined with Stupp Protocol (Stupp 2005) radiotherapy and TMZ"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed, histologically confirmed glioblastoma, IDH-wildtype"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "ADI-PEG 20 Plasma Concentrations are measured over time"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Citrulline and Arginine plasma concentrations are measured over time"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ADI-PEG 20",
+      "active_moiety": "adi-peg 20",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] ADI-PEG 20: Investigational Medicine"},
+        {"field": "arms", "quote": "ADI-PEG 20 Dose: 36 mg/m2 given weekly Route of Administration: Intramuscular (IM)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "pegylated arginine deiminase (arginine-depleting enzyme)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ADI-PEG 20 plus Radiotherapy and Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Radiotherapy and TMZ are standard front-line therapy for newly diagnosed GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ADI-PEG 20 plus Radiotherapy and Temozolomide", "Placebo plus Radiotherapy and Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "Placebo Dose: 36 mg/m2 given weekly Route of Administration: Intramuscular (IM)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo matched to ADI-PEG 20",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Placebo plus Radiotherapy and Temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Randomised double-blind placebo-controlled phase 2 of ADI-PEG 20 added to Stupp. The primary outcome mentions 'associated biomarkers' without naming one, and keywords mention argininosuccinate synthetase only as a keyword, so no biomarker rows. Eligibility allows both IDH-wildtype glioblastoma and IDH-mutant grade 4 astrocytoma, so IDH is not an entry requirement. ADI-PEG 20 has no INN in the record; coded with the development name as written. Plasma PK and plasma citrulline/arginine pharmacodynamics are planned (blood), coded target engagement yes."
+}

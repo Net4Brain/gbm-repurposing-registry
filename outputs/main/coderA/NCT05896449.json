@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05896449",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; Glioma Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "primary lesion found in CT/MRI with radiological features of glial neoplasm"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The aim of this study was to analyse usefulness of \\[68Ga\\]Ga-PSMA-11 PET/CT scans in preoperative differentiation between HGG and LGG in patients with suspicion of a tumor of glial origin in previously performed imaging examinations."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "untreated disease, planned surgery"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[68Ga]Ga-PSMA-11 PET/CT",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] [68Ga]Ga-PSMA-11 PET/CT"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA PET imaging tracer (gozetotide); isotope 68Ga",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET/CT before surgery"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA expression (immunohistochemistry, endothelium and tumour cells)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "The PET/CT scan will be compared with postoperative histopathological results and with additional immunohistochemical staining for PSMA expression."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "adult-type diffuse gliomas comprise of three distinct types: Astrocytoma, IDH-mutant, Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, and Glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic PET imaging study (phase NA); the only agent is the 68Ga-PSMA-11 tracer, a diagnostic agent, so no candidate. Glioblastoma named in conditions alongside malignant glioma, eligibility covers any suspected glial neoplasm, so mixed_glioma_gbm_named. cns5_terminology cns5 because outcomes cite WHO CNS 2021 (5th edition), although conditions use 'glioblastoma multiforme'. IDH and 1p/19q appear only as part of the reference histopathological diagnosis (outcomes); recorded IDH as exploratory_correlative."
+}

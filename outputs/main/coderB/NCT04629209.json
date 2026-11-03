@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT04629209",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patient must have histologically confirmed World Health Organization Grade IV glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ONC201 is a orally active, small molecule DRD2 antagonist that kills cancer cells but not normal cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient must have had previous therapy with at least radiotherapy."},
+      {"field": "arms", "quote": "Unequivocal evidence of recurrence (progressive disease) on contrast-enhanced brain CT or MRI as defined by RANO criteria"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Intra-tumoral ONC201 concentrations"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "Arm A will explore the intra-tumoral ONC201 concentrations and pharmacodynamic activity in adult EGFR-low glioblastoma patients."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ONC201",
+      "active_moiety": "onc201",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "ONC201 will be administered orally, twice a week (2 consecutive days on and 5 days off per week) schedule at a dose of 625mg."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small molecule, DRD2 antagonist",
+      "stated_antitumour_mechanism": "orally active, small molecule DRD2 antagonist that kills cancer cells but not normal cells",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: ONC201 with Surgical Resection in Glioblastoma", "Arm B: ONC201 in Glioblastoma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "(1) absence of EGFR gene amplification by FISH, (2) absence of EGFRvIII expression by RT-PCR, and (3) low EGFR expression by IHC."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient has a known IDH1 (isocitrate dehydrogenase 1) or IDH2 mutations or 1p/19q co-deletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient has a known histone H3 K27M mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EGFR-low status is an entry requirement, but the record gives no mechanistic link between EGFR status and ONC201 (a DRD2 antagonist), so candidate_matched is false. IDH and H3K27M appear as exclusions of known mutants (equivalent to requiring wildtype); coded as eligibility rows without matching. cns5_terminology unclear: plain WHO grade IV glioblastoma with IDH-mutant exclusion only for 'known' mutations."
+}

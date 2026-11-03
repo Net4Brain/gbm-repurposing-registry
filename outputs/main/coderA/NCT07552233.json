@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07552233",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Solid Brain Tumors; Glioblastoma (GBM); Glioblastoma Multiforme (GBM); Brain Metastasis; Malignant Meningioma"},
+      {"field": "eligibility", "quote": "At least one evaluable lesion with previous biopsy or pathohistologic confirmation of malignant central nervous system tumor, with imaging suggestive of continued progression or recurrence after comprehensive treatment"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Multi-tumour brain trial (GBM, brain metastases, malignant meningioma); basket_gbm_eligible vs mixed_glioma_gbm_named both include, but category may be disputed."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Intrathecal Administration Combined with Intravenous Infusion of Autologous NK Cells"},
+      {"field": "brief_summary", "quote": "combined intracranial and intravenous administration of ex vivo expanded and activated natural killer (NK) cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "with imaging suggestive of continued progression or recurrence after comprehensive treatment"},
+      {"field": "brief_summary", "quote": "in adult patients with malignant solid brain tumors who have failed standard treatment modalities"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous NK cells",
+      "active_moiety": "nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Autologous NK cells: Intrathecal Administration Combined with Intravenous Infusion of Autologous NK Cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous ex vivo expanded and activated natural killer cell therapy, intracranial/intrathecal plus intravenous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Low dose", "Medium dose", "High dose"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only intervention is autologous NK cell therapy (cell therapy, excluded type) even though registered as 'Drug'; S6 fails. Glioblastoma is named in conditions alongside brain metastasis and malignant meningioma, so coded basket_gbm_eligible with basket true. Registered phase is NA. Immunological effects in tumour microenvironment and blood are mentioned in the summary but relate to the cell therapy, not a candidate."
+}

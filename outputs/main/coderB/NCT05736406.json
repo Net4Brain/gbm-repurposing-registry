@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05736406",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Glioblastoma"},
+      {"field": "eligibility", "quote": "I03. Newly diagnosed GBM, presumed on the basis of clinical and MRI criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "5-ALA HCl, 20 mg/kg, is orally administered 4-6 hours before the surgery. Then after resection of tumor tissue is judged maximal, the intraoperative PDT procedure is initiated at 200 J/cm\\^2."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "male and female patients aged 18 to 75 with newly diagnosed glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA HCl intraoperative Photodynamic Therapy (PDT) (Pentalafen, 5-aminolevulinic acid hydrochloride)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "two doses of light in intraoperative PDT added to standard of care; temozolomide-based chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitiser prodrug (protoporphyrin IX precursor) for photodynamic therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["200 J/cm^2", "400 J/cm^2"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (temozolomide-based chemotherapy, Stupp protocol)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "I07. Planned to receive SOC (i.e., Stupp Protocol) treatment after surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["200 J/cm^2", "400 J/cm^2"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA given orally then activated by intraoperative illumination to kill tumour (PDT, light dose escalation), so candidate with device_dependent true (C12), not a diagnostic agent. Temozolomide/Stupp is not a registered intervention but the summary and I07 say every patient receives it, listed as soc_backbone; radiotherapy is not listed as an agent."
+}

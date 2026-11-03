@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT06742593",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain (Nervous System) Cancers; Brain and Central Nervous System Tumors; Brain Tumors"},
+      {"field": "eligibility", "quote": "or have had previous confirmation of brain, meninges, spinal cord metastases"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MT027: CRISPR/Cas9 edited B7H3-specific allogeneic CAR-T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "and who had recurrence or progression after standard treatment"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Cerebrospinal fluid (CSF) and blood samples were collected to analyze PK and PD indicators such as CAR copy numbers and cytokines in the samples."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Cerebrospinal fluid (CSF) and blood samples were collected to analyze PK and PD indicators such as CAR copy numbers and cytokines in the samples."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT027 cells suspension",
+      "active_moiety": "b7-h3 allogeneic car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "MT027: CRISPR/Cas9 edited B7H3-specific allogeneic CAR-T cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic gene-edited B7-H3 CAR-T cell therapy (intraventricular or intrathecal)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT027"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 (CD276) antigen expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "whose B7H3 antigen expression was positive and had been confirmed by histology or cytology"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Cell therapy (excluded type) in CNS metastatic solid tumours; the inclusion criteria name brain, meningeal and spinal cord metastases, and glioblastoma is not named in conditions, title, eligibility or arms (high-grade glioma appears only in the descriptions). B7-H3 positivity is matched to the CAR-T product, but the product is not a candidate, so candidate_matched is false. PK/PD sampling is in CSF and blood for the CAR-T cells."
+}

@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05278208",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Meningioma; Embryonal Tumor; Medulloblastoma; Anaplastic Ependymoma; Recurrent Diffuse Intrinsic Pontine Glioma; Recurrent Malignant Glioma"},
+      {"field": "eligibility", "quote": "Patient must have a diagnosis of primary high-grade CNS tumor (any histopathologic diagnosis that is WHO grade III-IV) or meningioma (any histologic grade) that is recurrent, progressive, or refractory."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma never named in title, conditions, inclusion or arm label; WHO grade III-IV CNS tumours would include GBM but the manual requires explicit naming."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] LUTATHERA® (Lutetium Lu 177 dotatate) (other names: Lutathera): Lutathera: IV administration maximum dose of 200 mCi once every 8 weeks (one cycle) for total of 4 cycles (8 months)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Lutathera for Treatment of Recurrent or Progressive High-Grade CNS Tumors"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LUTATHERA® (Lutetium Lu 177 dotatate)",
+      "active_moiety": "lutetium (177lu) oxodotreotide",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive Lutathera once every 8 weeks (1 cycle) for a total of 4 doses over 8 months"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "177Lu-labelled somatostatin receptor (SST2A)-targeted radioligand therapy (177Lu-DOTATATE); approved for GEP-NETs",
+      "stated_antitumour_mechanism": "Lutathera (Lutetium \\[Lu\\]177 Dotatate) is a radionuclide therapy which binds type-2A somatostatin receptors (SST2A)",
+      "flag": {"uncertain": false},
+      "arms": ["Phase I-II"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "SST2A (somatostatin receptor 2A) expression shown by DOTATATE PET uptake",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "lutetium (177lu) oxodotreotide",
+      "source_quote": {"field": "eligibility", "quote": "Patients must have uptake on DOTATATE PET/CT in at least one tumor lesion (corresponding to known disease) equivalent to a Krenning score ≥2 (confirmed by central radiology review)."},
+      "flag": {"uncertain": true, "reason": "Entry requirement is imaging (DOTATATE PET) described as functional evidence of SST2A expression; unclear whether an imaging-defined target marker counts as a molecular biomarker."},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "SST2A expression by IHC",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "lutetium (177lu) oxodotreotide",
+      "source_quote": {"field": "outcomes", "quote": "Describe prevalence and heterogeneity of SST2A expression (IHC) in patients with recurrent or progressive High-Grade CNS tumors or meningiomas"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Mixed-age (4-39 y) CNS tumour trial; glioblastoma not named anywhere, only HGG/malignant glioma and WHO grade III-IV CNS tumours, so coded high_grade_glioma_unspecified (exclude). Active moiety given as INN lutetium (177Lu) oxodotreotide; ligand is DOTATATE (oxodotreotide). [68Ga]Ga-DOTATATE PET is used for screening but is not a registered intervention, so not listed as an agent (R9). Stated mechanism quote contains backslash-escaped brackets as in the record."
+}

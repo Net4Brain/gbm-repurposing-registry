@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05399524",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Neuro-oncology Multi-Disciplinary Team (MDT) decision that the imaging shows a primary GB tumour which is maximally resectable"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Additional DTI scan during routine pre-operative tumour MRI scan, additional use of intraoperative ultrasound in addition to normal to standard of care (Neuronavigation and intraoperative 5-ALA)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent GB"},
+      {"field": "eligibility", "quote": "Patient is suitable for concomitant adjuvant radiotherapy and Temozolomide (TMZ) chemotherapy or adjuvant TMZ at the time of MDT decision"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "The comparator is standard care as per current NICE guidelines (i.e. neuronavigation based on preoperative MRI and intraoperative use of 5-ALA)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "5-aminolevulinic acid for fluorescence-guided resection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Additional pre- and intra-operative imaging", "Standard of Care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Surgical imaging trial (DTI + intraoperative ultrasound) with phase NA; no therapeutic drug. 5-ALA is standard fluorescence-guided resection in both arms (diagnostic_agent). Temozolomide/radiotherapy mentioned only as suitability for later adjuvant therapy, not a trial intervention; not listed. Treatment setting newly diagnosed (primary GB; recurrent GB excluded). Control arm is a registered ACTIVE_COMPARATOR, so control_arm_from_other_arms = no."
+}

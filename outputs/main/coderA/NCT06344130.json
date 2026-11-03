@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06344130",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Hypofractionation Trial of Re-irradiation in Good Prognosis Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologic diagnosis of primary glioblastoma or gliosarcoma of the brain, or secondary glioblastoma of the brain due to transformation from a lower grade to a grade 4 tumor."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Radiation Therapy: Radiation therapy will be administered via a linear accelerator using 6 megavoltage (MV) photons or greater."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Hypofractionation Trial of Re-irradiation in Good Prognosis Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-only dose-escalation trial (re-irradiation); no drug or biologic interventions. Conditions also list astrocytoma/glioma, but inclusion restricts to glioblastoma/gliosarcoma including secondary glioblastoma transformed from lower grade; coded gbm_only with historical terminology because secondary (transformed) glioblastoma, likely IDH-mutant, is explicitly allowed. Gadolinium MRI is routine assessment, not a registered intervention. Two sequential arms (escalation, MTD) with no control."
+}

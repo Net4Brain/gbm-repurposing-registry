@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT05734560",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed MGMT Unmethylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The word \"investigational\" means the study drugs are still being tested in research studies"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["2141-V11", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "D2C7-IT",
+      "active_moiety": "d2c7-it",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "investigational compounds called D2C7-immunotoxin (IT) and 2141-V11"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational recombinant immunotoxin, delivered by convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11"]
+    },
+    {
+      "agent_name_registered": "2141-V11",
+      "active_moiety": "2141-v11",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "investigational compounds called D2C7-immunotoxin (IT) and 2141-V11"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational immunostimulatory antibody (CD40 agonist), intratumoral and perilymphatic subcutaneous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both D2C7-IT and 2141-V11 are investigational, so each is experimental_combination. Radiotherapy is part of the experimental arm (regimen combination). Prior standard TMZ is part of entry criteria (completed before enrolment), not a registered intervention, so not listed. Intratumoral infusion is by catheter (convection-enhanced delivery); coded as a new route, not device_dependent."
+}

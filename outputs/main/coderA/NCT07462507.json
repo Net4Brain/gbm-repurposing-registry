@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07462507",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Central Nervous System Cancer; Brain Metastases"},
+      {"field": "eligibility", "quote": "Has a clinical, radiographic, or pathological diagnosis of primary or secondary CNS malignancy that has not been treated with radiotherapy"},
+      {"field": "keywords", "quote": "Primary brain tumor; Glioma; Glioblastoma; Astrocytoma; Oligodendroglioma; Brain metastasis"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The investigational radiotracer \\[C-11\\]-CS1P1 is an S1P1 PET imaging agent."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Has a clinical, radiographic, or pathological diagnosis of primary or secondary CNS malignancy that has not been treated with radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[C-11]-CS1P1",
+      "active_moiety": "11c-cs1p1",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The investigational radiotracer \\[C-11\\]-CS1P1 is an S1P1 PET imaging agent."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "carbon-11 labelled S1P1 receptor PET radiotracer (diagnostic imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[C-11]-CS1P1 PET"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic PET imaging study (registered Phase 2). Glioblastoma appears only in keywords; conditions and inclusion name only primary/secondary CNS malignancy, so not_glioblastoma under C7. If glioblastoma-naming were relaxed it would be a mixed CNS population, but the trial has no candidate anyway. S1P1 PET uptake is an imaging marker, not a molecular tumour biomarker; not listed. Treatment setting: patients not yet irradiated, primary or secondary CNS tumours; not clearly newly diagnosed vs recurrent."
+}

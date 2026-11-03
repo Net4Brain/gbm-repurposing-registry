@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT06575452",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Surgery (tumor resection) scheduled at Montpellier University Hospital for suspected, diffuse glioma, confirmed on tissue sample: IDH mutated grade 2 glioma (excluding tumors with a focus of grade 3 or 4 glioma), IDH mutated grade 3 glioma or GBM, IDH wild-type,"},
+      {"field": "conditions", "quote": "Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Blood, urine and tumoral tissue samples: Blood, urine and tumoral tissue samples"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No history of treatment (surgery, radiotherapy or chemotherapy) for glioma,"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Glioblastoma (GBM), IDH wild-type: 40 patients"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "RNA modified nucleoside (epitranscriptomic) marks, e.g. m6Am, in tissue, blood and urine",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Sensitivity of RNA-modified nucleoside expression marks for glioma diagnosis vs controls in blood for patients in cohort 1."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ATRX protein expression (IHC)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Immunohistochemical detection of the Alpha-thalassemia-X-linked intellectual disability (ATRX) protein"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic biomarker cohort study (phase NA) with no drug intervention; interventions are sample collections. GBM, IDH wild-type named in inclusion criteria alongside IDH-mutant grade 2/3 gliomas; IDH-wildtype requirement gives cns5. IDH status defines cohort strata (coded enrichment; diagnostic, never candidate-matched). Ki-67 and routine IHC grading not listed as molecular biomarkers. Arms are OTHER-type cohorts with healthy-volunteer controls inside Cohort 1; no arm functions as a treatment control."
+}

@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT06011109",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "(anaplastic astrocytoma, anaplastic oligodendroglioma, glioblastoma, gliosarcoma, H3K27M mutant glioma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this interventional study is to evaluate the efficacy of APG-157 in combination with Bevacizumab in subjects with recurrent high-grade glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have pathologically proven diagnosis of high grade (aka grade III or IV) glioma that has progressed on bevacizumab"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure the amount of APG-157 components in the blood in the presence of bevacizumab"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "optionally serum changes in VEGF and HIF-1 alpha, if the study shows preliminary indication of efficacy"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "APG-157",
+      "active_moiety": "apg-157",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The participants will continue to receive Bevacizumab as standard of care."},
+        {"field": "interventions", "quote": "The participants will receive APG-157 daily"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral pastille product; composition not stated in the record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["APG-157"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "The participants will continue to receive Bevacizumab as standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["APG-157"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm pilot, patients progressing on bevacizumab continue it as standard of care; bevacizumab coded soc_backbone since its dose and schedule are not the question. H3K27M appears only as an allowed histology, not an entry requirement. Serum VEGF/HIF-1 alpha are optional and not clearly linked to APG-157, so target engagement is unclear. APG-157 composition is not stated in the record."
+}

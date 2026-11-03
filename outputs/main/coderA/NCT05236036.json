@@ -1,0 +1,145 @@
+{
+  "nct_id": "NCT05236036",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-Wildtype"},
+      {"field": "eligibility", "quote": "GROUPS 1-3: Histologically confirmed glioblastoma (GBM), IDH wild-type (by immunohistochemistry \\[IHC\\] R132H negative \\[neg\\] or sequencing). Astrocytoma with molecular features of GBM are eligible."},
+      {"field": "eligibility", "quote": "Group R: Recurrent glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase I/Ib trial tests the safety, side effects, and best dose of mycophenolate mofetil in combination with temozolomide and/or radiation therapy (standard of care) in treating patients with glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "GROUPS 1-3: Newly diagnosed glioblastoma and:"},
+      {"field": "eligibility", "quote": "Group R: Recurrent glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "III. Phase 0 (Group S; Sub-Group S1 and Sub-Group S2): To evaluate drug uptake and target effect in the brain."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Id. Measure IMPDH activity assay in patients' peripheral blood mononuclear cells (PBMCs) as well as in GBM tissue."},
+      {"field": "outcomes", "quote": "XMP concentration: Will utilize an established clinical protocol and a highly sensitive liquid chromatography-mass spectrometry method in peripheral blood mononuclear cells (PBMCs) isolated from glioblastoma patients receiving MMF in combination with TMZ in order to determine IMPDH activity."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Mycophenolate Mofetil",
+      "active_moiety": "mycophenolic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Mycophenolate Mofetil in Combination With Standard of Care for the Treatment of Glioblastoma"},
+        {"field": "brief_summary", "quote": "However, mycophenolate mofetil may also help chemotherapy with temozolomide work better by making tumor cells more sensitive to the drug."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "prodrug",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "immunosuppressant (IMPDH inhibitor; mycophenolate mofetil is the ester prodrug of mycophenolic acid)",
+      "stated_antitumour_mechanism": "sensitises tumour cells to temozolomide (IMPDH inhibition implied by IMPDH activity endpoints)",
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (TMZ, MMF)", "Group 2 (TMZ, MMF, radiation therapy)", "Group 3 (TMZ, MMF, radiation therapy)", "Group S (pre-surgical MMF, TMZ)", "Group R (TMZ, MMF)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "Mycophenolate Mofetil in Combination With Standard of Care for the Treatment of Glioblastoma"},
+        {"field": "brief_summary", "quote": "mycophenolate mofetil in combination with temozolomide and/or radiation therapy (standard of care)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (TMZ, MMF)", "Group 2 (TMZ, MMF, radiation therapy)", "Group 3 (TMZ, MMF, radiation therapy)", "Group S (pre-surgical MMF, TMZ)", "Group R (TMZ, MMF)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "GROUPS 1-3: Histologically confirmed glioblastoma (GBM), IDH wild-type (by immunohistochemistry \\[IHC\\] R132H negative \\[neg\\] or sequencing)."},
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (TMZ, MMF)", "Group 2 (TMZ, MMF, radiation therapy)", "Group 3 (TMZ, MMF, radiation therapy)"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Group 2: Received surgical resection or biopsy only and have documented unmethylated glioblastoma (may have been done at an outside facility);"},
+      "flag": {"uncertain": false},
+      "arms": ["Group 2 (TMZ, MMF, radiation therapy)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "IMPDH activity / XMP concentration (PBMCs and GBM tissue)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "mycophenolic acid",
+      "source_quote": {"field": "detailed_description", "quote": "Id. Measure IMPDH activity assay in patients' peripheral blood mononuclear cells (PBMCs) as well as in GBM tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour RNA sequencing molecular signature",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Ia. Perform molecular characterization of all GBM tissues by ribonucleic acid sequencing (RNAseq) analysis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour tissue bulk metabolomics",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Ib. Perform bulk metabolomics for GBM tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour NGS gene mutations",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Ie. Analyze relevant gene mutations from standard of care next generation sequencing (NGS) tumor gene mutation data, if available."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Active moiety given as mycophenolic acid (MMF is its ester; record names mycophenolic acid as MMF's primary active metabolite); script mapping may prefer 'mycophenolate mofetil'. formulation_flag 'prodrug' reflects the ester form; could be 'none'. Group S (Phase 0 window, pre-surgical) plans drug uptake in brain = tumour PK yes. Temozolomide is backbone in all groups, including recurrent Group R (re-challenge). IDH-wildtype requirement stated for Groups 1-3 only; Group S/R just say glioblastoma. Phase 1 trial with non-randomized sequential groups; no control arm."
+}

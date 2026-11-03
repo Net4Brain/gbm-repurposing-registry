@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT07077616",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Glioblastoma multiforme (GBM, WHO grade IV)"},
+      {"field": "eligibility", "quote": "Anaplastic astrocytoma (WHO grade III)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"},
+      {"field": "title", "quote": "Clinical Study for the Safety and Therapeutic Efficacy of the AI-QMMM Designed TamavaqTM Personalised Vaccine in Patients With Newly Diagnosed Glioma."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Vaccine is an excluded type, but registered intervention adds immune adjuvants (poly-ICLC, GM-CSF, imiquimod, CpG, MPLA); if these were treated as separate immunomodulatory agents rather than vaccine components the trial could have a candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Clinical Study for the Safety and Therapeutic Efficacy of the AI-QMMM Designed TamavaqTM Personalised Vaccine in Patients With Newly Diagnosed Glioma."},
+      {"field": "eligibility", "quote": "patients with recurrent malignant glioma; have received surgery, radiotherapy, chemotherapy;"},
+      {"field": "interventions", "quote": "TAMAVAQ vaccine will be applied before maintenance TMZ cycles after completion of chemoradiation therapy (CRT)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TAMAVAQ Vaccine",
+      "active_moiety": "personalised neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Each one of our TAMAVAQ VACCINE is consisted of 1-35 (LIMPs, ASPs, and bEPTs) Personalised Synthetic Neoantigenic Peptides mixed with GBM TAAs"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "personalised synthetic neoantigen and tumour-associated antigen peptide cancer vaccine (TAMAVAQ NeoVaccine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "Poly-ICLC",
+      "active_moiety": "poly-iclc",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "TLR3 agonist vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant coded as part of the excluded vaccine; could alternatively be an immunomodulatory candidate."},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "cGAMP",
+      "active_moiety": "cgamp",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "STING agonist vaccine adjuvant (cyclic GMP-AMP)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant coded as part of the excluded vaccine; could alternatively be an immunomodulatory candidate."},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "Granulocyte-macrophage colony stimulating factor (GM-CSF)",
+      "active_moiety": "granulocyte-macrophage colony stimulating factor",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "GM-CSF cytokine used as vaccine adjuvant (product not specified; e.g. sargramostim)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant coded as part of the excluded vaccine; could alternatively be an immunomodulatory candidate."},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "imiquimod",
+      "active_moiety": "imiquimod",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "TLR7 agonist used as vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant coded as part of the excluded vaccine; could alternatively be an immunomodulatory candidate."},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "CpG oligodeoxynucleotides",
+      "active_moiety": "cpg oligodeoxynucleotide",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "TLR9 agonist vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant coded as part of the excluded vaccine; could alternatively be an immunomodulatory candidate."},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "saponins",
+      "active_moiety": "saponins",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "saponin vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "monophosphoryl lipid A (MPLA)",
+      "active_moiety": "monophosphoryl lipid a",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TAMAVAQ Vaccine plus Poly-ICLC, cGAMP, Granulocyte-macrophage colony stimulating factor (GM-CSF), imiquimod, CpG oligodeoxynucleotides, saponins and monophosphoryl lipid A (MPLA)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TAMAVAQ",
+      "drug_class_hint": "TLR4 agonist vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    },
+    {
+      "agent_name_registered": "TMZ (maintenance)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Beginning on day 14 before the first maintenance TMZ cycle, patients will receive 7 vaccinations with TAMAVAC VACCINE"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: personalized vaccine patients with recurrent malignant gliomas enrolled into this arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "patients' tumor tissue should have a high mutation load(\\>10 TMB); be genetically unstable; at least have 10 neoantigens;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Besides IDH, other genes like ATRX, TP53, TERT, PTEN, EGFR, and CIC are frequently mutated in different glioma types and should be assessed."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Besides IDH, other genes like ATRX, TP53, TERT, PTEN, EGFR, and CIC are frequently mutated in different glioma types and should be assessed."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Mutations in the isocitrate dehydrogenase (IDH) genes are critical for glioma classification and prognosis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MGMT (O6-methylguanine-DNA methyltransferase) promoter methylation, H3F3A alterations, and ATRX gene mutations) in blood samples"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA (ctDNA) mutations and copy number variations",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Circulating Tumor DNA (ctDNA): ctDNA, fragments of tumor DNA circulating in the bloodstream, is a key biomarker."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 personalised neoantigen peptide vaccine (excluded intervention type) in mixed glioma (GBM WHO grade IV named in inclusion alongside grade II/III gliomas). Treatment setting internally inconsistent: title says newly diagnosed, arm label and inclusion say recurrent malignant glioma, intervention text says vaccine given before maintenance TMZ after chemoradiation; coded unclear. Temozolomide listed as soc_backbone because the protocol text places vaccinations before maintenance TMZ cycles, though it is not a registered intervention and may not apply to recurrent patients. Adjuvants listed in the registered intervention are coded as vaccine components (excluded_intervention_type) with shared regimen_id; flagged uncertain since several are licensed or immunomodulatory agents. Record lists many exploratory blood/tissue biomarkers (GFAP, YKL-40, miR-210, H3F3A, ATRX, TERT etc.); only the main named classes are listed. No candidate, so no TE/PK coding of a candidate."
+}

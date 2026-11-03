@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06719440",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Radiotherapy Side Effect"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma (Histologically proven glioblastoma per WHO 2021 classification based on biopsy or resection )"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Radiotherapy with reduced irradiation volume CTV=10mm"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma (Histologically proven glioblastoma per WHO 2021 classification based on biopsy or resection )"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy target-volume trial (CTV 10 vs 15 mm), registered phase NA. Patients receive chemoradiotherapy but no chemotherapy drug is named or registered, so no agent rows were added."
+}

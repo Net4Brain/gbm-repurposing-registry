@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT03322813",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Subjects with suspected infiltrating glioma on pre-operative brain imaging scans including non-enhancing MRI tumor components in non-eloquent regions that are within the planned surgical resection volume"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ExAblate 4000 - Type 2 (other names: ExAblate BBBD): Using ExAblate Model 4000 Type-2 to temporarily disrupt the blood brain barrier in non-enhancing suspected infiltrating glioma undergoing resection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Definity",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "patients with a history of drug allergies, asthma or hay fever, and multiple allergies where the benefit/risk of administering Definity® is considered unfavorable by the study physicians in relation to the product labeling for Definity"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles used with focused ultrasound for BBB disruption",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ExAblate 4000 - Type 2"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Device-only feasibility study of focused-ultrasound BBB disruption in suspected infiltrating glioma; glioblastoma appears only in keywords, so not named per C7. Phase NA. Definity (perflutren) microbubbles are not a registered intervention but the exclusion criteria imply they are administered to every patient for the BBBD procedure; listed as delivery_enabling_agent although no therapeutic drug is delivered. Gadolinium used only for MRI assessment of BBB opening, not listed (R9)."
+}

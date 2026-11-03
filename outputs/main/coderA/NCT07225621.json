@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT07225621",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed Histologically proven glioblastoma (WHO criteria 2021), absence of IDH mutation demonstrated by negative IDH1 R132H staining on Immunohistochemistry."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study is evaluating an experimental treatment for glioblastoma that uses an investigational drug (5-ALA) combined with a non-invasive ultrasound device (LIDU) to target tumor cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients With Newly Diagnosed Glioblastoma After Completion of Chemoradiotherapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA HCl",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "5-ALA HCl (5-amino-levulenic acid) for oral solution (20 mg/kg) p.o. 6-8 hours prior to LIDU SDT"},
+        {"field": "interventions", "quote": "standard of care temozolomide + sonosenitizer + sonodynamic therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor photosensitiser/sonosensitiser (5-aminolevulinic acid hydrochloride)",
+      "stated_antitumour_mechanism": "sonosensitizer activated by low intensity diffuse ultrasound sonodynamic therapy",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: (experimental arm)"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Both groups will continue to receive the standard therapy of oral Temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: (experimental arm)", "Arm B: (placebo arm)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "absence of IDH mutation demonstrated by negative IDH1 R132H staining on Immunohistochemistry"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Identify and evaluate prognostic and predictive factors (e.g. MGMT, extent of resection) for PFS"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "5-ALA sonodynamic therapy with LIDU device: candidate with device_dependent true (manual worked example). Placebo oral solution in Arm B is not an active agent and not listed. Control is the registered PLACEBO_COMPARATOR arm, so control_arm_from_other_arms = no. Arm labels copied as 'Arm A: (experimental arm)' / 'Arm B: (placebo arm)'; the registered label may be just 'Arm A' / 'Arm B'. IDH-wildtype is a diagnostic requirement only."
+}

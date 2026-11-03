@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04183101",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "C3 Glomerulopathy; Membranoproliferative Glomerulonephritis; Complement Abnormality; Dense Deposit Disease; C3 Glomerulonephritis"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The aim of this cross-over trial is to assess aliskiren, a direct renin inhibitor, as a novel treatment to block complement activation in the kidneys and thereby attenuate renal disease"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Aliskiren",
+      "active_moiety": "aliskiren",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will be randomized to tablet treatment with aliskiren (target daily dose) 150-300 mg once daily or every other day (depending on weight) for 6 months."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "direct renin inhibitor (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Aliskiren treatment", "Enalapril treatment"]
+    },
+    {
+      "agent_name_registered": "Enalapril",
+      "active_moiety": "enalapril",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Enalapril treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "angiotensin converting enzyme inhibitor (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Enalapril treatment", "Aliskiren treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Non-oncology trial in C3 glomerulopathy (not glioblastoma, not anti-GBM disease); fails S5. No antitumour agent, so has_eligible_candidate false. Aliskiren is the trial's investigational drug and enalapril the active comparator; in the crossover both drugs are given in both arms sequentially. Serum C3 and renal complement deposition are non-tumour pharmacodynamic markers, not recorded as tumour biomarkers. treatment_setting unclear because not a tumour setting."
+}

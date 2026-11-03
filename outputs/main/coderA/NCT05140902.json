@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05140902",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "arms", "quote": "glioblastoma patients with newly or enlarged enhancing lesion within 3 months after completing 6 weeks of adjuvant chemoradiation therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] Point-of-care Portable Perfusion Phantom (P4): P4 is a perfusion phantom developed by Dr. Harrison Kim that can significantly reduce variation in quantitating perfusion of human abdominal tissues across MRI scanners."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients treated with surgery, followed by chemoradiation therapy, and currently under chemotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Imaging-method study (phase NA) of a perfusion phantom device for DCE-MRI; no drug intervention. MRI contrast agent implied by DCE-MRI but not a registered intervention, so not listed (R9). 'PK parameter' in outcomes refers to contrast-agent kinetics (Ktrans), not drug PK. Setting coded newly_diagnosed (patients on adjuvant chemotherapy after chemoradiation with possible pseudoprogression); could be argued unclear."
+}

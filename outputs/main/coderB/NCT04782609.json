@@ -1,0 +1,14 @@
+{"nct_id":"NCT04782609","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"mixed_glioma_gbm_named",
+"gbm_population_evidence":[{"field":"eligibility","quote":"histologically confirmed IDH wildtype glioblastoma (Parts 1 and 2), or grade 3 or 4 IDH mutant astrocytoma (Part 1 only) per WHO criteria"},{"field":"conditions","quote":"Recurrent Glioblastoma Multiforme (GBM)"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"detailed_description","quote":"designed to test the safety, tolerability and pharmacokinetics of single agent oral icapamespib in patients with recurrent brain lesions"}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"cns5"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"eligibility","quote":"Subjects must be at 1st, 2nd, or 3rd recurrence (Part 1) or 1st or 2nd recurrence (Part 2)"}],"regimen":"monotherapy","combination_partners":[],"basket":false,"control_arm_from_other_arms":"no","flag":{"uncertain":false},
+"tumour_pk_planned":"unclear","tumour_pk_planned_evidence":[{"field":"outcomes","quote":"Icapamespib Plasma Concentration at Time of Surgery: Tissue samples collected at surgery after icapamespib treatment."}],
+"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Icapamespib","active_moiety":"icapamespib","role":"experimental_monotherapy","role_evidence":[{"field":"detailed_description","quote":"Icapamespib will be administered orally once daily for each 28-day cycle."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"Hsp90 inhibitor (PU-AD)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["20 mg Icapamespib cohort","dose expansion cohort"]}],
+"biomarkers":[{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"histologically confirmed IDH wildtype glioblastoma (Parts 1 and 2), or grade 3 or 4 IDH mutant astrocytoma (Part 1 only) per WHO criteria"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Part 1 also admits grade 3/4 IDH-mutant astrocytoma, Part 2 only IDH-wildtype GBM. tumour_pk_planned unclear: outcome title says plasma concentration but the description says tissue samples collected at surgery; sample type is ambiguous. Description mentions pharmacodynamics as an objective but no pharmacodynamic measurement is specified, so target_engagement_planned is no."}

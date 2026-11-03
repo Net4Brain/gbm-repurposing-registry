@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06389591",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically proven GBM using the 2021 WHO Classification of Tumors of the CNS (WHO CNS5)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "RNA-Lipid Particle (RNA-LP) Vaccines for Recurrent Adult Glioblastoma (GBM)"},
+      {"field": "detailed_description", "quote": "The first, pp65 RNA-LP, is a messenger RNA (mRNA) pp65 vaccine given for the first 3 vaccines to try to change how the tumor behaves."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Unequivocal evidence of tumor progression as documented by brain MRI scan per RANO criteria."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "pp65 RNA loaded lipid particles, pp65 RNA-LPs (Drug Product 1 or DP1)",
+      "active_moiety": "pp65 mrna vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The first, pp65 RNA-LP, is a messenger RNA (mRNA) pp65 vaccine given for the first 3 vaccines to try to change how the tumor behaves."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mRNA cancer vaccine (CMV pp65 mRNA in lipid particles)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: pp65 RNA-LPs (DP1) before biopsy"]
+    },
+    {
+      "agent_name_registered": "RNA loaded lipid particles, RNA-LPs (Drug Product 2 or DP2)",
+      "active_moiety": "personalized tumor mrna vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "personalized tumor mRNA, pp65 fl LAMP mRNA and DOTAP liposomes or RNA loaded lipid particles, RNA-LPs administered intravenously"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalised tumour mRNA plus pp65 mRNA lipid-particle cancer vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: pp65 RNA-LPs (DP1) before biopsy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only interventions are mRNA lipid-particle cancer vaccines (excluded intervention type). Single arm."
+}

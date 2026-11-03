@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT05187624",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosis of GBM based on World Health Organization (WHO) classification of central nervous system (CNS) tumors, 5th edition"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "preliminary efficacy of RO7428731 administered as a monotherapy in participants with newly diagnosed or recurrent epidermal growth factor receptor variant III (EGFRvIII)-positive glioblastoma (GBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "participants with newly diagnosed or recurrent epidermal growth factor receptor variant III (EGFRvIII)-positive glioblastoma (GBM)."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Serum Concentration of RO7428731"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "An Open-label, Multicenter, Phase I Study Evaluating the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Clinical Activity of RO7428731 in Participants With Glioblastoma Expressing Mutant Epidermal Growth Factor Receptor Variant III"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RO7428731",
+      "active_moiety": "ro7428731",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "preliminary efficacy of RO7428731 administered as a monotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational EGFRvIII-targeting T-cell-engaging bispecific antibody (IV)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part I: Dose Escalation", "Part II: Dose-Expansion(s)", "Part III: Safety Run-in", "Part IV A: Dose-Expansions Cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "ro7428731",
+      "source_quote": {"field": "eligibility", "quote": "Participants must have confirmed EGFRvIII-expression"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants (in Part II): Adult participants with newly diagnosed EGFRvIII-positive GBM with unmethylated MGMT promotor status who have completed standard of care therapy with surgical resection and adjuvant radiotherapy with or without concomitant temozolomide."},
+      "flag": {"uncertain": false},
+      "arms": ["Part II: Dose-Expansion(s)"]
+    }
+  ],
+  "coder_notes": "EGFRvIII expression is an entry requirement for the single investigational agent; the record does not state RO7428731's mechanism, but the trial is built around EGFRvIII-positive GBM and excludes prior anti-EGFRvIII agents, so candidate_matched coded true (drug class from outside drug knowledge in drug_class_hint only). MGMT unmethylated status is required for Part II (Part I accepts either status), coded enrichment for Part II. Pharmacodynamics are a stated objective in title and summary without sample details; coded target_engagement yes. PK in serum only. Temozolomide/radiotherapy are prior therapy, not study treatment. Multiple experimental cohorts, none acting as control."
+}

@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT07544992",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Astrocytoma, IDH-Mutant, Grade 4; Recurrent Glioblastoma, IDH-Wildtype"},
+      {"field": "eligibility", "quote": "Participant has a prior histologically confirmed diagnosis of a glioblastoma (IDH-wildtype) or grade 4 IDH-mutant astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Autologous Anti-EGFR/Anti-IL13Ralpha2 CAR T-cells"},
+      {"field": "brief_summary", "quote": "EGFR/IL13Rα2 pool-CAR T cells are a type of CAR T cell therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Relapsed disease: radiographic evidence of recurrence/progression of measurable disease after standard therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous Anti-EGFR/Anti-IL13Ralpha2 CAR T-cells",
+      "active_moiety": "egfr/il13ra2 car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "EGFR/IL13Rα2 pool-CAR T cells are a type of CAR T cell therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous bispecific-pool CAR T-cell therapy targeting EGFR and IL13Ralpha2, given intracranially (ICT/ICV)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (EGFR/IL13Rα2 pool-CAR T cell therapy)"]
+    },
+    {
+      "agent_name_registered": "FDG-Positron Emission Tomography",
+      "active_moiety": "fludeoxyglucose (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[PROCEDURE] FDG-Positron Emission Tomography (other names: FDG, FDG-PET, FDG-PET Imaging): Undergo FDG-PET"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (EGFR/IL13Rα2 pool-CAR T cell therapy)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 expression by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IL13Rα2+ expression by IHC"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "EGFR gene-altered by NGS or FISH analysis"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only treatment is a CAR T-cell product (excluded intervention type), so no candidate; S6 fails. IL13Ra2 and EGFR eligibility biomarkers are mechanistically linked to the CAR T targets but candidate_matched is false because the CAR T product is not a candidate agent. Exploratory objectives also plan pre/post evaluation of IL13Ra2 and EGFR alterations and CAR T persistence in tumour/CSF; tumour_pk_planned and target_engagement_planned coded no because they concern the non-candidate CAR T product. FDG is registered as a procedure (FDG-PET) and listed as diagnostic agent for transparency. IDH status is not an entry restriction (both IDH-wildtype GBM and IDH-mutant grade 4 astrocytoma eligible), so no IDH biomarker row. Tocilizumab and steroids are mentioned only in eligibility (contraindications), not registered interventions; not listed."
+}

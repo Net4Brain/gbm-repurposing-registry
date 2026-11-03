@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT07297212",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Have a histologically confirmed diagnosis of WHO Grade IV GBM, IDH-wildtype consistent with WHO CNS 2021 criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Pumitamig Monotherapy:  (interventions: Drug: Pumitamig)"},
+      {"field": "title", "quote": "A Clinical Trial Testing the Safety of the Investigational Drug Pumitamig (BNT327) and How Well it Works in Patients With Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have recurrent supratentorial GBM who have received prior treatment with at least radiotherapy and temozolomide."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic (PK) assessment: Maximum concentration (Cmax) of pumitamig: For Treatment Arms 1 and 3 only. As data permits."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pumitamig",
+      "active_moiety": "pumitamig",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Pumitamig Monotherapy:  (interventions: Drug: Pumitamig)"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 3: Pumitamig + temozolomide:  (interventions: Drug: Pumitamig; Drug: Temozolomide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PD-L1 x VEGF-A bispecific antibody (PM8002, BNT327, BMS-986545)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Pumitamig Monotherapy", "Arm 3: Pumitamig + temozolomide"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Arm 2: Bevacizumab Monotherapy:  (interventions: Drug: Bevacizumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 2: Bevacizumab Monotherapy"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm 3: Pumitamig + temozolomide:  (interventions: Drug: Pumitamig; Drug: Temozolomide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 3: Pumitamig + temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Have a histologically confirmed diagnosis of WHO Grade IV GBM, IDH-wildtype consistent with WHO CNS 2021 criteria."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is given only in experimental Arm 3 as the established chemotherapy partner of pumitamig (not investigated in its own dose/schedule); coded soc_backbone. Regimen coded combination because Arm 3 adds temozolomide; Arm 1 is pumitamig monotherapy. Bevacizumab is the registered ACTIVE_COMPARATOR arm; Arm 2 patients may later cross over to pumitamig. PK outcomes (Cmax/Cmin of pumitamig) do not state the sample type, so tumour_pk_planned coded unclear per W7; likely systemic. PD-L1/VEGF-A appear only as keywords describing the drug's targets, not as a tumour biomarker requirement, so not listed as biomarkers."
+}

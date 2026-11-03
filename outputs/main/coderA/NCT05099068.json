@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT05099068",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced / Metastic Solid Tumors; Glioblastoma; Chronic Leukemia Lymphocytic"},
+      {"field": "eligibility", "quote": "Glioblastoma : treatment by Radiochemotherapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Blood and tumor samples: Longitudinal molecular profiling of tumor and liquid biopsies."},
+      {"field": "eligibility", "quote": "Adult male or female patient with confirmed diagnosis of advanced/metastatic cancer to be treated with standard anti-cancer treatment according to :"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Patient will be enrolled before the initiation of standard anti-cancer treatment."},
+      {"field": "eligibility", "quote": "Glioblastoma : treatment by Radiochemotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "TKI pharmacokinetics: Plasma concentrations of TKI"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "BRAF- V600E tumors (lung and thyroid cancer) : treatment by Dabrafenib + trametinib"},
+      "flag": {"uncertain": false},
+      "arms": ["TARGETED THERAPIES COHORTS"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "RET fusion / mutation",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "All solid tumor types with ret fusion / mutation : treatment by Selpercatinib"},
+      "flag": {"uncertain": false},
+      "arms": ["TARGETED THERAPIES COHORTS"]
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For MSI-High, any tumor types : treatment by Immunotherapy"},
+      "flag": {"uncertain": false},
+      "arms": ["IMMUNOTHERAPY COHORTS"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "WES/RNAseq tumour and ctDNA molecular profiling",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Identification of molecular genetic alterations based on molecular characterisation (WES and RNASeq) of tumor at diagnosis, then under standard anti-cancer treatment"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase NA (fails S3 by code). Multi-cohort molecular profiling programme; the only registered intervention is blood/tumour sampling. Patients receive standard-of-care therapies chosen outside the study (e.g. radiochemotherapy for glioblastoma, dabrafenib+trametinib, selpercatinib, imatinib), which are eligibility context, not registered interventions, so no agents are listed. Treatment setting coded for the glioblastoma cohort (enrolled before standard radiochemotherapy); other cohorts include relapsed/recurrent disease. BRAF/RET/MSI biomarkers define non-GBM cohorts only."
+}

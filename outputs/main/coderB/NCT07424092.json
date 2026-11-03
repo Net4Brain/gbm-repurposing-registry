@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07424092",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Ependymoma; Embryonal Tumor of Brain; Recurrence; Refractory; Pediatric; Young Adult"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] DNX-2401: Single intratumoral infusion of 5 × 10\\^10 viral particles of DNX-2401 after tumor biopsy."},
+      {"field": "keywords", "quote": "Oncolytic virus"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with recurrent or refractory high grade malignant brain tumors"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "to characterize viral kinetics and immune responses before and after DNX-2401 administration"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DNX-2401",
+      "active_moiety": "oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "DNX-2401, a genetically modified adenovirus type 5"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic adenovirus (Delta-24-RGD), intratumoral",
+      "stated_antitumour_mechanism": "oncolytic virotherapy that replicates in tumour cells and activates the immune system",
+      "flag": {"uncertain": false},
+      "arms": ["Single intratumoral infusion of DNX-2401"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric/young adult (1-25 y) high-grade glioma, ependymoma and embryonal tumours; glioblastoma is not named in conditions, title, inclusion criteria or arm labels. Only intervention is an oncolytic virus (excluded type). target_engagement coded yes on the basis of planned pre/post immune-response and viral-kinetics sampling, although the only agent is an excluded type."
+}

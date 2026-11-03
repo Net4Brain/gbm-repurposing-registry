@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT04968366",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Newly-diagnosed glioblastoma confirmed by histopathological exams;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Autologous dendritic cells pulsed with multiple neoantigen peptides.: Each dosage of Dendritic Cells (DC) vaccine contains 2-10 million DC cells, loaded with 5-20 tumor neoantigen peptides."},
+      {"field": "interventions", "quote": "Temozolomide is administered as the standard-of-care adjuvant chemotherapy, in combination with the DC vaccines to treat the enrolled patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety & Efficacy of DC Vaccine and TMZ for the Treatment of Newly-diagnosed Glioblastoma After Surgery"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous dendritic cells pulsed with multiple neoantigen peptides.",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "autologous dendritic cells (DCs) loaded with multiple tumor neoantigen peptides administered as a cancer-treatment vaccine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous neoantigen peptide-pulsed dendritic cell vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DC vaccine group"]
+    },
+    {
+      "agent_name_registered": "Temozolomide adjuvant chemotherapy",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide is administered as the standard-of-care adjuvant chemotherapy, in combination with the DC vaccines to treat the enrolled patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DC vaccine group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH1- and IDH2-wild-type gliomas;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "number of predicted tumour neoantigen peptides (at least 5 required)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects with number of the predicted neoantigen peptides less than 5;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only experimental agent is a neoantigen-peptide DC vaccine (excluded type); temozolomide is standard-of-care backbone, so no candidate. Neoantigen requirement is an exclusion criterion (fewer than 5 predicted neoantigens excluded), coded as an eligibility biomarker, not candidate-matched because the vaccine is not a candidate. IFN-gamma ELISPOT immune response is measured for the vaccine (not a candidate), so target_engagement_planned coded no."
+}

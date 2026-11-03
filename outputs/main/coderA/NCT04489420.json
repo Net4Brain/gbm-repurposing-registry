@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT04489420",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Astrocytoma, Grade IV; Giant Cell Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma multiforme (GBM) and are at first or second relapse."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "CYNK-001 which are NK cells derived from human placental CD34+ cells and culture-expanded"},
+      {"field": "keywords", "quote": "cell therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Adults With Recurrent GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CYNK001-IV",
+      "active_moiety": "nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "CYNK-001 which are NK cells derived from human placental CD34+ cells and culture-expanded"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic placental CD34+-derived natural killer cell therapy (CYNK-001), intravenous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intravenous IV ( Recurrent and Surgical ) GBM"]
+    },
+    {
+      "agent_name_registered": "CYNK001-IT",
+      "active_moiety": "nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "CYNK-001 which are NK cells derived from human placental CD34+ cells and culture-expanded"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic placental CD34+-derived natural killer cell therapy (CYNK-001), intratumoral via Ommaya catheter",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intratumoral IT ( Recurrent and Surgical ) GBM)"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "CYNK-001 cells will be given after lymphodepleting chemotherapy for the systemic cohort (IV) (intravenous)."},
+        {"field": "keywords", "quote": "Cyclophosphamide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used as lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intravenous IV ( Recurrent and Surgical ) GBM"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "NK cell therapy (CYNK-001) is an excluded intervention type; no pharmacological candidate. Cyclophosphamide is not a registered intervention; it appears only in conditions/keywords and the summary mentions lymphodepleting chemotherapy for the IV cohort only, so it is listed as supportive conditioning (R6) for transparency; the drug identity of the lymphodepletion is inferred from conditions/keywords. Two experimental arms by route, no control. 'Glioblastoma Multiforme' and 'Astrocytoma, Grade IV' without IDH requirement -> historical terminology."
+}

@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT06595186",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Patients newly diagnosed with glioblastoma either by imaging or pathology testing, Gross total resection equal to or greater than 80%."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study was designed to evaluate the safety, tolerability, efficacy and pharmacokinetics of JK-1201I combined with adjuvant temozolomide in patients with newly diagnosed glioblastoma multiforme after surgery and concomitant radio-chemotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must finish concurrent chemo-radiotherapy (CCRT) no sooner than 4 weeks and no later than 6 weeks."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic Parameter Area Under the Plasma Concentration-Time Curve for JK-1201I, Irinotecan, SN38 and SN38G"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "JK-1201I",
+      "active_moiety": "jk-1201i",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive JK-1201I as an intravenous (IV) infusion at each 14-day cycle (Q2W) until a treatment discontinuation criterion is met as specified in the protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational irinotecan conjugate/formulation (PK measures JK-1201I, irinotecan, SN38, SN38G); topoisomerase I inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation Cohort", "Dose Expansion Cohort"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Temozolomide will be administered per drug label."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation Cohort", "Dose Expansion Cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT unmethylation (only for Dose Expansion Cohort)."},
+      "flag": {"uncertain": false},
+      "arms": ["Dose Expansion Cohort"]
+    }
+  ],
+  "coder_notes": "JK-1201I has no INN in the record; PK of irinotecan, SN38 and SN38G suggests an irinotecan-releasing conjugate/formulation, so formulation_flag new_formulation (prodrug also possible); the moiety mapping step should check. Plasma-only PK. Two registered cohorts (escalation, expansion), neither a control. MGMT unmethylated required only for expansion cohort; not candidate-matched."
+}

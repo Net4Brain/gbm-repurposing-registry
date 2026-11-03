@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT06645808",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Bladder Carcinoma; Glioblastoma; Soft Tissue Sarcoma (STS)"},
+      {"field": "eligibility", "quote": "Anticipated diagnosis of a high-grade glioma (glioblastoma, grade 4 according to the WHO classification) based on imaging modalities such as MRI and/or CT or a biopsy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "VARTUTRACE is a first-in-human PET/CT molecular imaging study in patients with solid tumors."},
+      {"field": "interventions", "quote": "89Zr-DFO-N-Suc-F8scFv: 89-Zirconium labeled short-chain variable fragment F8 targeting oncofetal CS."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Anticipated diagnosis of a high-grade glioma (glioblastoma, grade 4 according to the WHO classification) based on imaging modalities such as MRI and/or CT or a biopsy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The presence of the IMP and the oncofetal CS target in tumor tissue will be determined ex vivo and compared to the tracer signal measured in the tumor tissue in vivo."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor-specific uptake of the IMP is captured using PET/CT imaging and quantified by calculating the tumor-to-background ratio (TBR)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "89Zr-DFO-N-Suc-F8scFv",
+      "active_moiety": "89zr-f8scfv",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "89Zr-DFO-N-Suc-F8scFv: 89-Zirconium labeled short-chain variable fragment F8 targeting oncofetal CS."},
+        {"field": "design", "quote": "Phase: EARLY_PHASE1; allocation: NON_RANDOMIZED; model: SEQUENTIAL"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "zirconium-89 labelled anti-oncofetal chondroitin sulfate scFv PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["89Zr-F8scFv"]
+    },
+    {
+      "agent_name_registered": "89Zr-DFO-N-Suc-C9scFv",
+      "active_moiety": "89zr-c9scfv",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "89Zr-DFO-N-Suc-C9scFv: 89-Zirconium labeled short-chain variable fragment C9 targeting oncofetal CS."},
+        {"field": "brief_summary", "quote": "VARTUTRACE uses two of these as radiolabeled antibody fragments to study biodistribution, tumor accumulation, pharmacodynamics and clearance pathways"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "zirconium-89 labelled anti-oncofetal chondroitin sulfate scFv PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["89Zr-C9scFv"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "oncofetal chondroitin sulfate (tumour tissue expression)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Presence of the IMP and the oncofetal CS target in patient-derived tissue slices will be determined using immunohistochemical stainings."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 0 (EARLY_PHASE1) microdosing PET imaging basket trial; the Zr-89 labelled scFvs are imaging tracers (diagnostic), no antitumour hypothesis, so no candidate. Glioblastoma named in conditions and in a cohort-specific inclusion criterion."
+}

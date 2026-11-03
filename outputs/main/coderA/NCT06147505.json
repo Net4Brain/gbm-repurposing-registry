@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT06147505",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy in Subjects With Primary Glioblastoma(GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] XS005 Injection (other names: XS005)"},
+      {"field": "brief_summary", "quote": "The main objective of this clinical study is to evaluate the safety of XS005 injection; to determine the maximum tolerated dose ."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "XS005 is a registered biological whose nature is not described; it could be an excluded intervention type (e.g. oncolytic virus, cell or gene therapy) rather than a pharmacological agent."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy in Subjects With Primary Glioblastoma(GBM)"},
+      {"field": "eligibility", "quote": "except for patients who received concurrent radiotherapy and chemotherapy for GBM after surgery (TMZ dosage ≤75mg/m2, radiotherapy dose limited to 50-60Gy)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "XS005 Injection",
+      "active_moiety": "xs005",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Experimental: Subjects With Tumor (interventions: Biological: XS005 Injection)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational biological XS005 injection (infusion); nature not stated in record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Type of biological not stated; could be an excluded intervention type."},
+      "arms": ["Experimental: Subjects With Tumor"]
+    },
+    {
+      "agent_name_registered": "Stupp Regimen (temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy in Subjects With Primary Glioblastoma(GBM)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard Stupp adjuvant chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Subjects With Tumor"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Temozolomide is not a registered intervention but the title states XS005 is combined with the Stupp regimen for adjuvant chemotherapy, so it is listed as soc_backbone. Conditions field says only 'Tumor'; glioblastoma is named in the title. Arm label begins with 'Experimental: Subjects With Tumor' as registered."
+}

@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07042620",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor Adult; Low Grade Glioma (LGG), High Grade Glioma (HGG); Glioblastoma"},
+      {"field": "eligibility", "quote": "A diffuse malignant glial tumour (high grade (grade III and IV) or low grade (grade I-II)) is suspected from the diagnostic MRI scan"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] SonoClear(R) System: The SonoClear(R) System is intended to be used as an acoustic coupling fluid during ultrasound imaging in brain surgery of human beings"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "History of brain radiation therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device study (acoustic coupling fluid for intraoperative ultrasound imaging); registered phase NA. No drug or biologic intervention; routine irrigation fluids (saline/Ringer's) are the within-patient comparator and are not listed as agents. Glioma of any grade eligible; glioblastoma named only in conditions. Treatment setting not stated (prior brain radiotherapy is an exclusion, suggesting mostly primary surgery), coded unclear."
+}

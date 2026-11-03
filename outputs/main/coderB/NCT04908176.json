@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04908176",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Gastrointestinal Stromal Tumors; GIST; Non-resectable Advanced Solid Tumors; Recurrent or Unresectable Central Nervous System (CNS) Tumors"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of recurrent or unresectable CNS tumors including :IDH-mutant astrocytoma, IDH-mutant oligodendroglioma, glioblastoma, H3K27-altered diffuse midline glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants with CNS tumors will receive avapritinib 300 mg daily orally, until Day 56."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Non-resectable advance solid tumor with KIT mutation with progression following standard of care treatment."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "maximum plasma concentration (Cmax) of midazolam"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Avapritinib",
+      "active_moiety": "avapritinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive avapritinib 300 mg daily, orally on starting on Day 3."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "KIT/PDGFRA kinase inhibitor (BLU-285)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with metastatic, unresectable GIST, non-CNS solid tumors, or CNS tumors"]
+    },
+    {
+      "agent_name_registered": "midazolam",
+      "active_moiety": "midazolam",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "A Drug-drug Interaction Study of Avapritinib and Midazolam"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "benzodiazepine, CYP3A4 probe substrate for drug-drug interaction assessment",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with metastatic, unresectable GIST, non-CNS solid tumors, or CNS tumors"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "KIT mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "avapritinib",
+      "source_quote": {"field": "eligibility", "quote": "---Non-resectable advance solid tumor with KIT mutation with progression following standard of care treatment."},
+      "flag": {"uncertain": true, "reason": "KIT mutation is required only for the GIST and non-CNS solid tumour routes, not for the CNS tumour (glioblastoma) route; whether this counts as selection for the trial's GBM population is doubtful."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Drug-drug interaction study with a single arm; midazolam is a probe substrate (not antitumour) and coded supportive as the closest role. PK is plasma only. Other CNS tumour types (IDH-mutant, H3K27-altered) are allowed alongside glioblastoma; molecular subtypes are diagnostic categories, not required biomarkers. PDGFRA mutation is an exclusion for GIST only."
+}

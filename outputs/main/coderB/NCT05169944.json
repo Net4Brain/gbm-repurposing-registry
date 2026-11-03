@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05169944",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Cancer; Malignant Brain Tumor; Recurrent Brain Tumor; Progressive Malignant Brain Tumor; Brain Tumor, Pediatric; Brain Tumor Adult"},
+      {"field": "eligibility", "quote": "Diagnosis of recurrent or progressive malignant primary brain tumor (WHO grade III or IV), including recurrent ependymoma (WHO grade II and III)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Each participant will receive magrolimab intravenously (IV) at a priming dose of 1 mg/kg during Cycle 0"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis of recurrent or progressive malignant primary brain tumor (WHO grade III or IV), including recurrent ependymoma (WHO grade II and III)."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the pharmacokinetic (PK) profile of magrolimab in blood and cerebrospinal fluid (CSF) in children and adults with recurrent or progressive malignant brain tumors."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate Ferumoxytol MRI imaging as a biomarker for intratumoral macrophages during treatment with magrolimab in children and adults with recurrent or progressive malignant brain tumors."},
+      {"field": "detailed_description", "quote": "To evaluate the changes in the immune cells in the peripheral blood and CSF and changes in the immune cytokine milieu in the peripheral blood serum and CSF during treatment with magrolimab in children and adults with recurrent or progressive malignant brain tumors."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Magrolimab",
+      "active_moiety": "magrolimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Anti-cancer therapeutic agent targeting the CD47-signal receptor protein-alpha (SIRP-alpha) axis"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CD47 monoclonal antibody",
+      "stated_antitumour_mechanism": "Binding of magrolimab to human CD47 on target malignant cells blocks the \"don't eat me\" signal to macrophages and enhances tumor cell phagocytosis.",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (Magrolimab)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "cell-free tumour DNA in blood and CSF",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To evaluate the changes in the amounts of cell-free tumor DNA in the peripheral blood and CSF during treatment with magrolimab in children and adults with recurrent or progressive malignant brain tumors."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Mixed paediatric and adult malignant brain tumours (grade III/IV, including ependymoma); glioblastoma is not named in conditions, title, inclusion criteria or arm label, so not_glioblastoma (neither is a 'high-grade glioma' wording in those fields). Candidate coding is shown as if the population passed. Ferumoxytol MRI is an exploratory imaging procedure mentioned in the objectives and keywords but is not a registered intervention (R9), so not listed as an agent. Target engagement coded yes from the ferumoxytol macrophage imaging biomarker and immune-cell changes during treatment (CSF PK also planned)."
+}

@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05015543",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[OTHER] Personal Training Program: One training sessions includes an interval training on a bicycle ergometer. The second one is a strength training with exercise machines."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma"},
+      {"field": "brief_summary", "quote": "in a collective of patients with glioblastoma after surgery and concomitant radiation/chemotherapy and during adjuvant cytotoxic therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Exercise/physical training intervention only; no drug or biologic is a registered intervention. Adjuvant cytotoxic therapy is mentioned as background but no agent is named, so none listed. Blood BDNF-1 is a non-tumour exploratory measure and is not recorded as a tumour biomarker. Phase NA."
+}

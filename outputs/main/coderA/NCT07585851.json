@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07585851",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Glioma; Diffuse Glioma, Grade I; Diffuse Glioma, Grade II; Diffuse Glioma, Grade III; Diffuse Glioma, Grade IV"},
+      {"field": "eligibility", "quote": "Radiological confirmation of an intra-axial primary brain tumor (all grades) requiring surgical intervention."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma itself is named only in keywords and description; inclusion rests on 'Diffuse Glioma, Grade IV' in conditions counting as the historical name for glioblastoma (D27C)."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This early phase 1 clinical trial tests whether ketoconazole, an antifungal drug, can penetrate primary glioma brain tumors through the blood-brain barrier at levels sufficient to disrupt tumor growth, based on preclinical studies targeting glucose metabolism."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiological confirmation of an intra-axial primary brain tumor (all grades) requiring surgical intervention."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Mean concentrations of ketoconazole measured in plasma and intratumoral tissue samples collected intraoperatively from patients with primary all-grade gliomas (grade I to IV) after preoperative single or fixed-dose administration."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants receive a single oral dose of ketoconazole 400 mg, administered 4-24 hours prior to scheduled surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "inhibiting hexokinase 2 (HK2), thereby curtailing glycolysis, promoting apoptosis, and curbing angiogenesis",
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole Administration"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 tissue-penetration study (translational subset). Population is all-grade primary gliomas; 'Diffuse Glioma, Grade IV' in conditions treated as historical glioblastoma naming (D27C), hence cns5 historical; flagged. Treatment setting not stated (pre-surgical; newly diagnosed vs recurrent not specified). Dexamethasone mentioned as optional co-medication, not a registered intervention nor given to every patient, so not listed."
+}

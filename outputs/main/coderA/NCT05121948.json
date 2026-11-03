@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT05121948",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Other solid tumors (eg, carcinoma of unknown primary) with the exception of rapidly progressing neoplasms (eg, pancreatic cancer, glioblastoma, hepatocellular carcinoma)."},
+      {"field": "conditions", "quote": "Squamous Cell Carcinoma of Head and Neck; Colo-rectal Cancer; Non Small Cell Lung Cancer; Transitional Cell Carcinoma of the Bladder; Other Solid Tumors; Clear Cell Renal Cell Carcinoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a first in human, multicenter, open label, Phase 1a and 1b dose-escalation and dose-expansion study to establish the maximum tolerated dose, recommended Phase 2 dose, and evaluate the safety and tolerability of QD oral dosing of HC 7366"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Multicenter, Open-label, Phase 1a/b Study of HC-7366 in Subjects With Advanced Solid Tumors"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Peak plasma concentration (Cmax)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "eligibility", "quote": "Two biopsies will be necessary: at baseline (within 15 days prior to study Day 1) and at the time of the first response assessment CT scan at Cycle 3/Day 1 (+7 days)."},
+      {"field": "brief_summary", "quote": "The Phase 1b dose-expansion will be at a single dose level of 75 mg based on the safety, tolerability, PK/PD results from Phase 1a"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "HC-7366",
+      "active_moiety": "hc-7366",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Phase 1a Cohort 1 - 10 mg: 10 mg capsules of HC-7366 administered orally once a day"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational small molecule (HC-7366 potassium salt monohydrate); mechanism not stated in record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1a Cohort 1 - 10 mg", "Phase 1a Cohort 2 - 20 mg", "Phase 1a Cohort 3 - 40 mg", "Phase 1a Cohort 4 - 75 mg", "Phase 1a Cohort 5 - 125 mg", "Phase 1a Cohort 6 - 150 mg", "Phase 1b Cohort 7 - Dose 1 Chosen for Expansion", "Phase 1b Cohort 8 - Dose 2 Chosen for Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour basket in which glioblastoma is explicitly excluded (named only as an exception); coded gbm_excluded and basket false because GBM is not eligible. PK is plasma only. Paired tumour biopsies for unspecified biomarker analysis plus a stated PK/PD objective; coded target_engagement yes per W7, though biomarker is not named. No specific tumour biomarker named."
+}

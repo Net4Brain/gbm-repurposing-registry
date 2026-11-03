@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT04933942",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "First Progression of MGMT Promoter-methylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma isocitrate dehydrogenase (IDH1) R132H wild-type, per cIMPACT NOW recommendations (Brat et al., 2018; Brat et al., 2020)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of the study is to start the treatment with romiplostim once low platelets are diagnosed in order to restore the platelet count and to prevent the platelet count from dropping again during the lomustine treatment."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Romiplostim is coded supportive (thrombocytopenia control), but PFS is the primary outcome, which could be read as an antitumour outcome and make it a candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "First Progression of MGMT Promoter-methylated Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Romiplostim",
+      "active_moiety": "romiplostim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Romiplostim is a drug that stimulates the production of platelets in the bone marrow."},
+        {"field": "title", "quote": "Phase II Trial of Romiplostim for Thrombocytopenia Induced by Lomustine at First Progression of MGMT Promoter-meth Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "thrombopoietin receptor agonist (supportive care for chemotherapy-induced thrombocytopenia)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Supportive vs candidate: the stated purpose is platelet recovery, but the primary outcome is PFS."},
+      "arms": ["Experimental group: Lomustine plus Romiplostim"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Control group: Lomustine alone"},
+        {"field": "arms", "quote": "Experimental group: Lomustine plus Romiplostim"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Control group", "Experimental group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter methylation determined by methylation-specific PCR or pyrosequencing or methylation profiling per local assessment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Glioblastoma isocitrate dehydrogenase (IDH1) R132H wild-type, per cIMPACT NOW recommendations (Brat et al., 2018; Brat et al., 2020)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Romiplostim is given to manage lomustine-induced thrombocytopenia (supportive), so the trial has no antitumour candidate on a literal reading; adjudicator should decide whether the PFS primary outcome makes romiplostim a candidate. Lomustine is in both arms with the same use, so soc_backbone."
+}

@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06747728",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Glioma"},
+      {"field": "eligibility", "quote": "Imaging diagnosis of high-grade glioma."},
+      {"field": "title", "quote": "Bevacizumab Neoadjuvant Therapy for New High-grade Gliomas in the Brain"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients were enrolled and given bevacizumab on days 1 and 15, administered by intravenous infusion at 5 mg/kg."},
+      {"field": "brief_summary", "quote": "The aim of this study is to evaluate the efficacy and safety of bevacizumab in the preoperative adjuvant treatment of patients with new-onset high-grade gliomas."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The aim of this study is to evaluate the efficacy and safety of bevacizumab in the preoperative adjuvant treatment of patients with new-onset high-grade gliomas."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The aim of this study is to evaluate the efficacy and safety of bevacizumab in the preoperative adjuvant treatment of patients with new-onset high-grade gliomas."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF-A monoclonal antibody",
+      "stated_antitumour_mechanism": "binds VEGF-A and blocks VEGFR-mediated signalling, inhibiting tumour angiogenesis",
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Population is 'high-grade glioma' by imaging; glioblastoma is named only in the brief summary and detailed description, which do not count (C7), so high_grade_glioma_unspecified. Bevacizumab is an established GBM therapy (D6) tested in a new neoadjuvant/preoperative setting: established_therapy_experiment, so no eligible candidate. Phase NA."
+}

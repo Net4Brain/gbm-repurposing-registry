@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06126744",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Dose escalation portion: patients with recurrent high-grade glioma, IDH wt or IDH mutated, grade 3 or grade 4 based on imaging."},
+      {"field": "eligibility", "quote": "Dose expansion portion: Recurrent, IDH wt, glioblastoma, WHO grade 4."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MVR-C5252 is a genetically modified next generation oncolytic herpes simplex virus 1 (oHSV1)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent High Grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MVR-C5252",
+      "active_moiety": "oncolytic herpes simplex virus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "MVR-C5252 is a genetically modified next generation oncolytic herpes simplex virus 1 (oHSV1)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic HSV-1 encoding human IL-12 and an anti-PD-1 Fab fragment, given by convection-enhanced delivery",
+      "stated_antitumour_mechanism": "Expresses IL-12 and anti-PD-1 antibody in the tumour microenvironment, increasing T cell infiltration and inducing anti-tumour immunity",
+      "flag": {"uncertain": false},
+      "arms": ["MVR-C5252"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Dose expansion portion: Recurrent, IDH wt, glioblastoma, WHO grade 4."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Oncolytic virus only, so excluded at S6. Conditions say recurrent high grade glioma; glioblastoma is named in the inclusion criteria for the dose-expansion cohort. IDH-wildtype is a diagnostic criterion for that cohort. Gadolinium used with the infusion is mentioned only in the description and not listed."
+}

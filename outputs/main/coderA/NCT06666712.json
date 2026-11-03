@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT06666712",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor, Recurrent; Malignant Glioma (WHO Grade III or IV); IDH1/IDH2 Mutation"},
+      {"field": "eligibility", "quote": "Patients must have recurrent malignant glioma with a history of WHO grade 3-4 IDH-mutant status and evidence of radiographic progression and suspicion of histopathological recurrence."},
+      {"field": "eligibility", "quote": "Patients with recurrent malignant glioma, IDH-mutant, who have failed standard of care treatment are eligible."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Long-term CED of Topotecan: Six patients will be treated with Topotecan by Convection-Enhanced Delivery."},
+      {"field": "brief_summary", "quote": "The primary goal of this study is to establish the safety of chronic Convection Enhanced Delivery (CED) of the chemotherapeutic drug Topotecan for patients with recurrent malignant glioma that harbors the Isocitrate Dehydrogenase mutation (IDH-mut)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with recurrent malignant glioma, IDH-mutant, who have failed standard of care treatment are eligible."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Tumoral and parenchymal distribution of gadolinium (measured by MRI) will be correlated with TPT levels (measured by mass spectrophotometry) in tissue samples obtained upon tumor resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Cytotoxic response to TPT will be investigated by both MRI and direct histologic comparison between tissue samples taken at resection versus initial biopsy and MRI."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Topotecan",
+      "active_moiety": "topotecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Topotecan (TPT) is a chemotherapeutic agent that is a topoisomerase inhibitor. This intervention is uniquely distinguished through its administration using an externalized catheter and external microinfusion pump (Convection-Enhanced Delivery)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topoisomerase I inhibitor chemotherapy, given by convection-enhanced delivery",
+      "stated_antitumour_mechanism": "topoisomerase I inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Long-term CED of Topotecan"]
+    },
+    {
+      "agent_name_registered": "gadolinium",
+      "active_moiety": "gadolinium",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Similar to the previous trial design, patients will undergo implantation of the CED catheters and subcutaneously implanted pumps, after which four cycles of TPT/gadolinium will be administered."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent co-infused to track drug distribution (specific compound not stated)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Long-term CED of Topotecan"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with recurrent malignant glioma, IDH-mutant, who have failed standard of care treatment are eligible."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Enrols only IDH-mutant WHO grade 3-4 glioma, so not_glioblastoma under WHO CNS5 (glioblastoma only mentioned in brief summary/description about the prior trial). Topotecan by CED via implanted pump: device_dependent true, new_route. Gadolinium is not a registered intervention but is co-infused with topotecan in every cycle for distribution imaging; listed as diagnostic_agent (could be dropped under R9 if considered routine imaging). Target engagement coded yes on paired biopsy-vs-resection histologic assessment of cytotoxic response to TPT; this is borderline between a response endpoint and a pharmacodynamic measure."
+}

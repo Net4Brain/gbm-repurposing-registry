@@ -1,0 +1,129 @@
+{
+  "nct_id": "NCT06816927",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "A newly suspected diagnosis of GBM based on MRI"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to investigate the feasibility, safety and tolerability, and establish the biological activity of nivolumab with or without relatlimab in patients with isocitrate dehydrogenase (IDH) wildtype newly diagnosed glioblastoma (ndGBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["nivolumab", "relatlimab", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess the pharmacokinetics (PK) of nivolumab administered with or without relatlimab during the neoadjuvant phase following biopsy, and prior to tumor resection for patients with ndGBM"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Changes in TILs in formalin-fixed paraffin embedded (FFPE) tumor sections from biopsy to resection during concomitant nivolumab, relatlimab, RT and TMZ"},
+      {"field": "detailed_description", "quote": "we will be able to evaluate the biological effect (pharmacodynamics \\[PD\\]) of nivolumab monotherapy and in combination with relatlimab in this setting"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nivolumab",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Arm 1 - nivolumab alone or Arm 2 - nivolumab and relatlimab (combination formulation)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Nivolumab", "Nivolumab and Relatlimab"]
+    },
+    {
+      "agent_name_registered": "Relatlimab",
+      "active_moiety": "relatlimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "For Neoadjuvant treatment, only on Arm 2, 69 patients will receive a single dose of 480 mg of nivolumab and 480 mg of relatimab by IV infusions on Day 1 followed by surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-LAG-3 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Nivolumab", "Nivolumab and Relatlimab"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All patients in safety lead-in, Arm 1 and Arm 2 post resection in Part 1 Adjuvant Treatment setting will receive 75 mg/m2 TMZ from Day 1 to Day 42 orally."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Nivolumab", "Nivolumab and Relatlimab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "nivolumab with or without relatlimab in patients with isocitrate dehydrogenase (IDH) wildtype newly diagnosed glioblastoma (ndGBM)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "receive RT and temozolomide (TMZ) (TMZ will be omitted in MGMT unmethylated patients)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating lymphocytes (TILs) in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "nivolumab; relatlimab",
+      "source_quote": {"field": "outcomes", "quote": "Establish the biological activity of nivolumab with or without relatlimab in patients with ndGBM by demonstrating the presence of Tumor-infiltrating lymphocytes (TILs) in the resected tumor"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised Phase 2 perioperative: neoadjuvant nivolumab alone (Arm 1) vs nivolumab + relatlimab (Arm 2), then all patients receive RT + TMZ (TMZ only if MGMT methylated) with nivolumab + relatlimab. Both antibodies coded experimental_combination; the record calls Arm 2 a 'combination formulation' (possible fixed-dose product) but registers them as separate interventions, so fixed_dose_combination left false. Relatlimab is also given in the adjuvant phase of Arm 1 per arm description. MGMT determines TMZ use and the safety lead-in focus but is not an entry or arm requirement (coded exploratory_correlative; could be seen as stratification of backbone). IDH wildtype stated only in the brief summary, not inclusion criteria. PK of nivolumab planned with sample type not stated (unclear)."
+}

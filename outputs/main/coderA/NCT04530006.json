@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT04530006",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Pathologically confirmed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Thus, the study aims to determine the usefulness of amantadine as a diagnostic biomarker for GBM."},
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Amantadine Hydrochloride"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Under this protocol, patients diagnosed with glioblastoma (newly or recurrent) who are following the standard of care (surgical resection and radiation/chemotherapy) will be enrolled in the study."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Amantadine Hydrochloride",
+      "active_moiety": "amantadine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Thus, the study aims to determine the usefulness of amantadine as a diagnostic biomarker for GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antiviral / antiparkinsonian; used here as SSAT1 probe substrate",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GBM Patients"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planned treatment with radiation and/or chemotherapy with temozolomide or lomustine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GBM Patients"]
+    },
+    {
+      "agent_name_registered": "lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planned treatment with radiation and/or chemotherapy with temozolomide or lomustine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GBM Patients"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "SSAT1 activity measured as blood/urine acetyl-amantadine",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The proposed exploratory pilot project attempts to addresses the problem of accurate tumor progression monitoring in GBM through the development of a drug biomarker that monitors spermidine/spermine N1-acetyltransferase (SSAT1) activity."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA diagnostic-biomarker study: single oral amantadine doses used as an SSAT1 probe (diagnostic_agent), no antitumour hypothesis for amantadine. Temozolomide and lomustine listed as background standard therapy patients are planned to receive (either/or per eligibility); they are not registered interventions and could be omitted under R9."
+}

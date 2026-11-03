@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04225039",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Prior histopathologically proven diagnosis of World Health Organization (WHO) grade IV glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "the combination of the GITR agonist monoclonal antibody INCAGN01876, the anti-PD1 monoclonal antibody INCMGA00012, and stereotactic radiosurgery (SRS)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Anti-GITR/Anti-PD1/Stereotactic Radiosurgery, in Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["incagn01876", "incmga00012", "stereotactic radiosurgery"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "will allow for evaluation of the effects on the tumor immune microenvironment of INCMGA00012, INCAGN01876, and SRS"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "INCMGA00012",
+      "active_moiety": "incmga00012",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the anti-PD1 monoclonal antibody INCMGA00012"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "anti-PD1 monoclonal antibody; stimulate a robust anti-tumor immune response",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A", "Cohort B sub-arm #1", "Cohort B sub-arm #2"]
+    },
+    {
+      "agent_name_registered": "INCAGN01876",
+      "active_moiety": "incagn01876",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the GITR agonist monoclonal antibody INCAGN01876"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-GITR agonist monoclonal antibody",
+      "stated_antitumour_mechanism": "GITR agonist monoclonal antibody; stimulate a robust anti-tumor immune response",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A", "Cohort B sub-arm #1", "Cohort B sub-arm #2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor O-6-methylguanine-deoxyribonucleic acid (DNA) methyltransferase (MGMT) methylation status must be available from any prior GBM tumor specimen"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "MGMT status must only be available (no particular status required), so it is an entry documentation requirement, not a selection; adjudicator may prefer to drop it. SRS is radiotherapy and not listed as an agent. INCMGA00012 and INCAGN01876 are named by development code in the record (no INN stated). Plain glioblastoma with c-IMPACT-NOW molecular criteria but no explicit IDH-wildtype requirement, so cns5_terminology is unclear."
+}

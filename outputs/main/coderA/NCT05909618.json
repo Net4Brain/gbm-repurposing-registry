@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT05909618",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Glioblastoma; Metastatic Melanoma in the Central Nervous System; MGMT-Unmethylated Glioblastoma"},
+      {"field": "title", "quote": "Crizanlizumab Alone or in Combination With Nivolumab for Glioblastoma and Melanoma With Brain Metastases"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to evaluate the efficacy, safety and tolerance of crizanlizumab monotherapy and in combination with nivolumab in patients with advanced glioblastoma (GB) who exhausted standard of care (SOC) therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have with recurrent or persistent GB"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed GB."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["nivolumab"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Archived tissue samples (and optional fresh biopsy), CSF and blood samples will be drawn to assess pharmacokinetics and pharmacodynamics of the combined therapy and for collateral research aiming to define biomarkers for response."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Archived tissue samples (and optional fresh biopsy), CSF and blood samples will be drawn to assess pharmacokinetics and pharmacodynamics of the combined therapy and for collateral research aiming to define biomarkers for response."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Crizanlizumab-Tmca 10 MG/1 ML Intravenous Solution [ADAKVEO]",
+      "active_moiety": "crizanlizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Cohort 3: Patients with newly diagnosed GB: crizanlizumab starting from 4 weeks after completing radiation therapy."},
+        {"field": "title", "quote": "Crizanlizumab Alone or in Combination With Nivolumab for Glioblastoma and Melanoma With Brain Metastases"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-P-selectin monoclonal antibody (approved for sickle cell disease)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 metastatic melanoma with brain metastases who failed immunotherapy", "Cohort 2 - Patients with recurrent or progressing GB following radiation and temozolamide.", "Cohort 3: Patients with newly diagnosed GB"]
+    },
+    {
+      "agent_name_registered": "Nivolumab 10 MG/1 ML Intravenous Solution [OPDIVO]",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The subsequent 8 patients will receive crizanlizumab 5 miligram/kilogram (mg/kg) at C1D1 and C1D15 followed by 5 mg/kg every 4 weeks plus nivolumab 3mg/kg every 2 weeks until disease progression."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "crizanlizumab+nivolumab",
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 metastatic melanoma with brain metastases who failed immunotherapy", "Cohort 2 - Patients with recurrent or progressing GB following radiation and temozolamide."]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor test result shows MGMT unmethylated type."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 3: Patients with newly diagnosed GB"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "unspecified tissue/CSF/blood biomarkers of response",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Archived tissue samples (and optional fresh biopsy), CSF and blood samples will be drawn to assess pharmacokinetics and pharmacodynamics of the combined therapy and for collateral research aiming to define biomarkers for response."}
+    ,
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "GBM (recurrent Cohort 2, newly diagnosed MGMT-unmethylated Cohort 3) plus melanoma brain metastases (Cohort 1): coded basket_gbm_eligible (multi-cancer); could alternatively be read as gbm_only for GBM cohorts. Crizanlizumab role differs: monotherapy in Cohort 3 and first 3 patients of Cohorts 1-2 (coded experimental_monotherapy); experimental_combination with nivolumab for subsequent Cohort 1-2 patients. Regimen coded combination since nivolumab combination arms exist; Cohort 3 is monotherapy (TTFields allowed per local standard). Cohort 1 arm has no linked interventions in registry but description gives crizanlizumab +/- nivolumab. Tumour PK yes: CSF and tissue samples for PK stated in description (registered PK outcome is plasma only). BRAF mentioned only as melanoma treatment history, not listed."
+}

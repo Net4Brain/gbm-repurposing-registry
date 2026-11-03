@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT05383872",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Blood-Brain Barrier Disruption (BBBD) for Liquid Biopsy in Subjects With GlioBlastoma Brain Tumors"},
+      {"field": "eligibility", "quote": "Subjects with stereotactically-targetable suspected new or recurrent glioblastoma tumor on pre-operative brain imaging scans"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] Focused Ultrasound (Exablate Model 4000): BBB opening via Exablate Type 2 system with microbubble resonators and drawing blood before and after opening"},
+      {"field": "brief_summary", "quote": "The purpose of this study is to evaluate the safety and efficacy of targeted blood brain barrier disruption with Exablate Model 4000 Type 2.0/2.1 for liquid biopsy in subjects with suspected Glioblastoma brain tumors"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with stereotactically-targetable suspected new or recurrent glioblastoma tumor on pre-operative brain imaging scans"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "microbubble resonators",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "BBB opening via Exablate Type 2 system with microbubble resonators and drawing blood before and after opening"},
+        {"field": "eligibility", "quote": "Known sensitivity/allergy to gadolinium or DEFINITY/DEFINITY RT"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles (DEFINITY, perflutren lipid microspheres) used with focused ultrasound for BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exablate BBBD"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating free DNA / unspecified tumour biomarker panel (liquid biopsy vs tumour tissue)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To demonstrate there is a correlation between patterns obtained in the panel of biomarkers evaluated in the resected tumor tissue and/or biopsy and blood sample collected post-BBBD"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device-only liquid-biopsy trial (Phase NA). Microbubbles (DEFINITY named only in exclusion criteria) are part of the device intervention and are used to open the BBB to release tumour biomarkers into blood (not to deliver a drug); coded delivery_enabling_agent as the closest role (BBB opening); diagnostic_agent would be an alternative. No pharmacological candidate."
+}

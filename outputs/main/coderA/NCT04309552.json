@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04309552",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Documentation of a suspected HGG diagnosis based on clinical and MRI findings"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a pilot study to assess a novel methodology recently developed to simultaneously image tumor hypoxia and proliferation by means of simultaneous FMISO and FLT PET acquisition."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase-I Trial for Simultaneous Imaging of Tumor Hypoxia and Proliferation in Patients With Treatment- Naïve High-Grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FMISO PET",
+      "active_moiety": "fluoromisonidazole",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "FMISO (18F-Fluoromisonidazole) PET is a non-invasive method for detecting tumor hypoxia in solid tumors."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled hypoxia PET tracer ([18F]fluoromisonidazole)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High Grade Glioma (HGG)"]
+    },
+    {
+      "agent_name_registered": "18F-FLT PET",
+      "active_moiety": "alovudine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "FLT (3'-deoxy-3'\\[(18)F\\]-fluorothymidine) PET is a non-invasive method to image Cell proliferation rate."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled proliferation PET tracer (3'-deoxy-3'-[18F]fluorothymidine, FLT)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High Grade Glioma (HGG)"]
+    }
+  ],
+  "biomarkers": [
+    {"biomarker": "IDH", "biomarker_other": null, "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []},
+    {"biomarker": "EGFR_EGFRvIII", "biomarker_other": null, "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []},
+    {"biomarker": "other", "biomarker_other": "TERT promoter mutation", "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []},
+    {"biomarker": "other", "biomarker_other": "HIF-1alpha (tissue hypoxia marker)", "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []},
+    {"biomarker": "other", "biomarker_other": "VEGF (tissue angiogenesis marker)", "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []},
+    {"biomarker": "other", "biomarker_other": "Ki-67 (tissue proliferation marker)", "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+     "flag": {"uncertain": false}, "arms": []}
+  ],
+  "coder_notes": "Imaging-only PET tracer study; no therapeutic agent. Glioblastoma is not named in conditions, title, eligibility or arm label (only in the collaborator name 'William Rhodes Center for Glioblastoma'). FLT active_moiety given as INN alovudine (3'-fluoro-3'-deoxythymidine); script mapping may prefer fluorothymidine. Pimonidazole is mentioned only as a tissue IHC stain, not a registered intervention, so not listed."
+}

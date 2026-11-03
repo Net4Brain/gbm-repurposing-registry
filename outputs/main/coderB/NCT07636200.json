@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT07636200",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Solid Tumor Cancer; Stage IV Cancer (Solid Tumors Only); Glioblastoma; Stage III Ovarian Cancer; Small Cell Lung Cancer Extensive Stage"},
+      {"field": "eligibility", "quote": "(d) glioblastomas of any staging"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] Written Exposure-Based Coping Intervention (EASE)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural (written exposure) intervention for fear of progression in advanced cancer, glioblastoma named in conditions and inclusion criteria. No drug or biologic intervention. Usual care arm is registered as OTHER and functions as the control."
+}

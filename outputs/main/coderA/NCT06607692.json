@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT06607692",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Diagnosis: relapsed/refractory solid tumours with positive uptake on SSTR-PET (PET-CT or PET-MRI), performed in the previous three months before entering the study."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Study in Children and Adolescents of 177Lu-DOTATATE (Lutathera®) Combined With the PARP Inhibitor Olaparib for the Treatment of Recurrent or Relapsed Solid Tumours Expressing Somatostatin Receptor (SSTR) (LuPARPed)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis: relapsed/refractory solid tumours with positive uptake on SSTR-PET (PET-CT or PET-MRI), performed in the previous three months before entering the study."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["olaparib", "lutetium (177lu) oxodotreotide"],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "177Lu-DOTATATE",
+      "active_moiety": "lutetium (177lu) oxodotreotide",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "To estimate the preliminary activity of the combination of 177LUDOTATATE and olaparib.: ORR"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": "LuPARPed",
+      "drug_class_hint": "177Lu-labelled somatostatin receptor-targeted radioligand (Lutathera), isotope lutetium-177",
+      "stated_antitumour_mechanism": "Because of its beta particle emission, 177Lu-DOTATATE mainly produces DNA single-strand breaks (SSBs)",
+      "flag": {"uncertain": false},
+      "arms": ["Lu-DOTATATE (Lutathera® ) and olaparib"]
+    },
+    {
+      "agent_name_registered": "Olaparib",
+      "active_moiety": "olaparib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "In order to enhance its effect, the investigators propose its combination with PARP inhibitors (iPARP) so that the SSBs could not be repaired and would lead to the formation of DNA double strand breaks (DSBs) and, subsequently, to cell death."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "LuPARPed",
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": "PARP inhibition prevents repair of radioligand-induced single-strand breaks, leading to double-strand breaks and cell death",
+      "flag": {"uncertain": false},
+      "arms": ["Lu-DOTATATE (Lutathera® ) and olaparib"]
+    },
+    {
+      "agent_name_registered": "amino acid solution",
+      "active_moiety": "amino acid solution",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Concomitant to 177Lu-DOTATATE, patients will receive IV fluids and an IV infusion of amino acid solution for renal protection23."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IV amino acid infusion (e.g. lysine/arginine) for renal protection during radioligand therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lu-DOTATATE (Lutathera® ) and olaparib"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "somatostatin receptor (SSTR) expression by SSTR-PET uptake (visual score >= 2)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "lutetium (177lu) oxodotreotide",
+      "source_quote": {"field": "eligibility", "quote": "Diagnosis: relapsed/refractory solid tumours with positive uptake on SSTR-PET (PET-CT or PET-MRI), performed in the previous three months before entering the study."},
+      "flag": {"uncertain": true, "reason": "SSTR expression is assessed by PET imaging only; manual says imaging-only markers are not molecular biomarkers, but this is receptor-target selection for the SSTR-targeted radioligand."}
+    ,
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric/adolescent basket trial of SSTR-positive relapsed solid tumours; glioblastoma is named in the conditions, so basket_gbm_eligible (stdAges include ADULT but inclusion requires age 18 months-18 years at initial diagnosis; S4 is coded by script). Both 177Lu-DOTATATE and olaparib are given together as the investigational combination (both are licensed medicines), coded experimental_combination. Active moiety for 177Lu-DOTATATE given as its INN (lutetium (177Lu) oxodotreotide); radiopharmaceutical true. Amino acid infusion for renal protection listed as supportive. The SSTR-PET eligibility requirement is coded as an 'other' biomarker matched to the SSTR-targeted radioligand, flagged uncertain because it is imaging-defined. Intervention text says olaparib days 2-29 at 187.5 mg/m2 while arm text says days 3-28 with dose escalation; discrepancy noted."
+}

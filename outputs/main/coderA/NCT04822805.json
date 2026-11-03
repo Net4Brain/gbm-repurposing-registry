@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04822805",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"},
+      {"field": "eligibility", "quote": "According to Rano criteria, there are evaluable intracranial lesions, and recurrent high-grade gliomas have been confirmed."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients with recurrent high-grade gliomas are being enrolled , treated with anlotinib 12mg once daily for 14 days every 3 weeks until disease progression or unacceptable toxicity."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients have undergone surgery and relapsed after receiving standard radiotherapy and chemotherapy;"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anlotinib hydrochloride",
+      "active_moiety": "anlotinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a phase II, open-label, single center study, aiming to investigate safety and efficacy of anlotinib in treatment of recurrent high-grade glioma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-target receptor tyrosine kinase inhibitor (VEGFR/FGFR/PDGFR/c-Kit), approved in China only",
+      "stated_antitumour_mechanism": "Anlotinib hydrochloride is a multi-target receptor tyrosine kinase inhibitor that has significant inhibitory activity against angiogenesis related kinases such as VEGFR1/2/3, FGFR1/2/3",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment with Anlotinib"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Glioblastoma/GBM is mentioned only in the detailed description (VEGF rationale); conditions, title, inclusion criteria and arm label say only 'recurrent high-grade glioma' -> high_grade_glioma_unspecified (exclude, not_glioblastoma) per C7/D27B."
+}

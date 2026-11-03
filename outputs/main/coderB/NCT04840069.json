@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT04840069",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Histological diagnosis of primary, newly diagnosed supratentorial, WHO grade IV glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "18F-Fluciclovine is an FDA-approved radioactive diagnostic agent that is injected into the patient and then taken up by cancer cells, which can then be visualized with a PET/CT scan."},
+      {"field": "outcomes", "quote": "To determine the effect fluciclovine PET has on definition of the tumor volume, as compared to traditional MRI-based radiotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "To assess whether incorporating fluciclovine PET into radiotherapy planning significantly changes the in-field and out-of-field radiographic progression rates"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To determine the effect fluciclovine PET has on definition of the tumor volume, as compared to traditional MRI-based radiotherapy."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fluciclovine PET guided Radiotherapy",
+      "active_moiety": "fluciclovine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "18F-Fluciclovine is FDA approved for the detection of recurrent prostate cancer, but is still investigational for the purposes of this study."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET diagnostic radiotracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MRI + Fluciclovine PET-guided radiotherapy"]
+    },
+    {
+      "agent_name_registered": "TMZ (standard therapy, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Plan to undergo standard therapy with XRT 60Gy/30fx with TMZ followed by 6-12 cycles of maintenance TMZ within 6 weeks of surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard-of-care glioblastoma chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MRI-guided radiotherapy", "MRI + Fluciclovine PET-guided radiotherapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Fluciclovine is used as a PET planning/diagnostic tracer, not for antitumour effect, so no candidate. Temozolomide listed because the protocol text says every patient receives it (Stupp); it is not a registered intervention. WHO grade IV glioma without IDH requirement coded historical."
+}

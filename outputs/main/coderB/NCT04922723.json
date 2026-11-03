@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT04922723",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Our study will use Daratumumab, an anti-CD38 monoclonal antibody, in combination with TMZ and RT in newly diagnosed GBM patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "in combination with TMZ and RT in newly diagnosed GBM patients"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Daratumumab",
+      "active_moiety": "daratumumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Our study will use Daratumumab, an anti-CD38 monoclonal antibody, in combination with TMZ and RT in newly diagnosed GBM patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CD38 monoclonal antibody (approved for multiple myeloma)",
+      "stated_antitumour_mechanism": "Daratumumab can collaborate with TMZ to enhance the cytotoxicity against GBM cells; therapeutic targeting of CD38 in GBM and its microenvironment",
+      "flag": {"uncertain": false},
+      "arms": ["Daratumumab"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Current therapeutic strategies include maximal safe surgical resection followed by course of Temozolomide (TMZ) and radiation therapy (RT)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Daratumumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm trial; temozolomide and radiotherapy are the standard backbone given to all patients (not a registered intervention but stated in the intervention description and brief summary). Brief summary mentions daratumumab has 'attained therapeutic CSF levels' as prior literature, not a planned measurement, so tumour_pk_planned = no."
+}

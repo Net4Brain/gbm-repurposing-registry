@@ -1,0 +1,40 @@
+{
+"nct_id":"NCT05278208","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"high_grade_glioma_unspecified",
+"gbm_population_evidence":[{"field":"conditions","quote":"High Grade Glioma; Meningioma; Embryonal Tumor; Medulloblastoma; Anaplastic Ependymoma"},{"field":"conditions","quote":"Recurrent Malignant Glioma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,
+"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"interventions","quote":"LUTATHERA® (Lutetium Lu 177 dotatate) (other names: Lutathera)"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"unclear"},
+"trial":{
+"treatment_setting":"recurrent",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"that is recurrent, progressive, or refractory"}],
+"regimen":"monotherapy",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]},
+"agents":[{
+"agent_name_registered":"LUTATHERA® (Lutetium Lu 177 dotatate)",
+"active_moiety":"oxodotreotide",
+"role":"experimental_monotherapy",
+"role_evidence":[{"field":"interventions","quote":"Lutathera: IV administration maximum dose of 200 mCi once every 8 weeks (one cycle) for total of 4 cycles (8 months)"}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":true,"regimen_id":null,
+"drug_class_hint":"177Lu-labelled somatostatin analogue (177Lu-DOTATATE) radioligand",
+"stated_antitumour_mechanism":"radionuclide therapy which binds type-2A somatostatin receptors (SST2A)",
+"flag":{"uncertain":false},
+"arms":["Phase I-II"]}],
+"biomarkers":[{
+"biomarker":"other","biomarker_other":"SST2A (somatostatin receptor 2A) expression by IHC",
+"role":"exploratory_correlative","candidate_matched":true,"matched_agent":"oxodotreotide",
+"source_quote":{"field":"outcomes","quote":"Describe prevalence and heterogeneity of SST2A expression (IHC) in patients with recurrent or progressive High-Grade CNS tumors or meningiomas"},
+"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"No explicit glioblastoma mention in conditions, title, eligibility or arm label (only high-grade glioma / malignant glioma / DIPG etc.), so high_grade_glioma_unspecified. Entry requires DOTATATE PET uptake (imaging selection, not coded as a molecular biomarker); SST2A IHC is only a correlative outcome. Population includes children 4-<12 and AYA up to 39."
+}

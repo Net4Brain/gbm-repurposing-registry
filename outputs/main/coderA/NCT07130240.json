@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT07130240",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Cervical Cancers"},
+      {"field": "eligibility", "quote": "Histologically confirmed cervical squamous cell carcinoma, cervical adenocarcinoma, or cervical adenosquamous carcinoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "this prospective exploratory study aims to evaluate the efficacy and safety of neoadjuvant Ivonescimab combined with paclitaxel and cisplatin followed by type A hysterectomy for stage IB2/IIA1 cervical cancer"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior therapy received by the participant."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["paclitaxel", "cisplatin"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Changes in tumor-related biomarkers"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ivonescimab",
+      "active_moiety": "ivonescimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Drug: Immunotherapy Ivonescimab, 20mg/kg, q3w, 2-3cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PD-1/VEGF bispecific antibody",
+      "stated_antitumour_mechanism": "Ivonescimab is a novel humanized tetrameric IgG-scFv bispecific antibody targeting PD-1 and VEGF",
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    },
+    {
+      "agent_name_registered": "paclitaxel",
+      "active_moiety": "paclitaxel",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Drug: Neoadjuvant Chemotherapy paclitaxel, 135-175mg/m2, q3w, 2-3 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "taxane cytotoxic chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    },
+    {
+      "agent_name_registered": "cisplatin",
+      "active_moiety": "cisplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Drug: Neoadjuvant Chemotherapy cisplatin, 75-80mg/m2, q3w, 2-3 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum cytotoxic chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoadjuvant Ivonescimab combined with paclitaxel and cisplatin"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Cervical cancer trial; glioblastoma is mentioned only in the brief summary as a prior indication of ivonescimab, so not_glioblastoma. Paclitaxel/cisplatin treated as chemotherapy backbone with ivonescimab as the investigational agent. Outcome 'Changes in tumor-related biomarkers' unspecified; no named tumour molecular biomarker recorded."
+}

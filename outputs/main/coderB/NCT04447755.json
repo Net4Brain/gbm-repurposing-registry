@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04447755",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "arms", "quote": "High Grade Glioma: Participants with high grade glioma will receive lenvatinib 14 mg/m\\^2 QD orally until progressive disease or unacceptable toxicity."},
+      {"field": "conditions", "quote": "Relapsed or Refractory Solid Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Lenvatinib (other names: MK-7902, E7080, LENVIMA): Lenvatinib capsules administered orally at 14 mg/m\\^2 QD"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study of Lenvatinib (MK-7902) in Pediatric Participants With Relapsed or Refractory Solid Malignancies (MK-7902-013/E7080)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lenvatinib",
+      "active_moiety": "lenvatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "High Grade Glioma: Participants with high grade glioma will receive lenvatinib 14 mg/m\\^2 QD orally until progressive disease or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multikinase inhibitor (VEGFR/FGFR)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ewing Sarcoma", "Rhabdomyosarcoma", "High Grade Glioma", "Diffuse Midline Glioma", "Medulloblastoma", "Ependymoma", "Other Solid Tumors Excluding Osteosarcoma, Diffuse Midline Glioma, Medulloblastoma and Ependymoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric and young adult basket of solid tumours (ages CHILD, ADULT). Glioblastoma is never named; the glioma cohorts are high grade glioma and diffuse midline glioma, so coded high_grade_glioma_unspecified. Lenvatinib PK is blood-only (AUCss from blood samples). basket set false because glioblastoma is not explicitly eligible. A suspension formulation is mentioned in outcomes only."
+}

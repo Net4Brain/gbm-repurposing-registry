@@ -1,0 +1,14 @@
+{"nct_id":"NCT06455189","coder_id":"A","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma; Brain Tumor"},{"field":"eligibility","quote":"MR imaging findings suggestive of GB"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"[PROCEDURE] MRF/MRI infiltration guidance for extended resection"}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"newly_diagnosed","treatment_setting_evidence":[{"field":"eligibility","quote":"Prior treatment for glioblastoma"},{"field":"outcomes","quote":"Feasibility as assessed by the performance of MRF/MRI infiltration mapping guidance in surgical resection of new glioblastomas"}],
+"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"yes","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"5-ALA fluorescence guided surgery","active_moiety":"aminolevulinic acid","role":"diagnostic_agent","role_evidence":[{"field":"interventions","quote":"Standard of care neurosurgical resection will include the use of all standard neurosurgical instruments and techniques (eg, microscope, intraoperative ultrasound, 5-ALA fluorescence guided surgery and neuronavigation system)."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"fluorescence-guided resection agent (protoporphyrin IX precursor)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Group 1"]}],
+"biomarkers":[],
+"coder_notes":"Imaging-guided surgery trial (MR fingerprinting); no drug intervention under test. 5-ALA appears only as an example ('eg') of standard surgical tools in the control intervention description; listed as diagnostic_agent for transparency, though it may arguably not need listing under R9. 'Prior treatment for glioblastoma' is an exclusion criterion (supports newly diagnosed). OTHER-type Group 1 is the standard-of-care control."}

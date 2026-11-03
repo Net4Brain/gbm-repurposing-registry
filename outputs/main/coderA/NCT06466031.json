@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06466031",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Single macroscopic tumor focus with the appearance of glioblastoma multiforme on MRI with contrast"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MRI+T1C in fusion with FET-PET will be used for tumor resection and/or radiotherapy planning."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Primary tumor, without neurosurgical, radiotherapy or oncology intervention. Prior tumor biopsy is allowed."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MRI & PET fusion",
+      "active_moiety": "18f-fluoroethyl-l-tyrosine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "MRI+T1C in fusion with FET-PET will be used for tumor resection and/or radiotherapy planning."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "amino acid PET tracer 18F-FET (18F) used for surgical and radiotherapy planning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Resection and radiotherapy according to the MRI & PET fusion", "Radiotherapy according to the MRI & PET fusion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging-guided surgery/radiotherapy planning trial (phase NA); the only drug is the 18F-FET PET tracer embedded in the 'MRI & PET fusion' intervention, coded diagnostic_agent. Stupp temozolomide is mentioned only as background standard of care in the summary, not as a protocol treatment, so not listed. Gadolinium MRI contrast is used in all arms for routine imaging and not listed as a registered drug intervention. Keywords mention methionine but the record describes 18F-FET."
+}

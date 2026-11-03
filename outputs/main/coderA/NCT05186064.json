@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05186064",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically confirmed IDH wild type glioblastoma, first recurrence after standard chemoradiation; suitable for standard-of-care re-resection;"},
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "whole genome sequencing will be performed on tumor material after re-resection per standard of care"},
+      {"field": "detailed_description", "quote": "Study design: Prospective diagnostic multicenter cohort study"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically confirmed IDH wild type glioblastoma, first recurrence after standard chemoradiation; suitable for standard-of-care re-resection;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histopathologically confirmed IDH wild type glioblastoma, first recurrence after standard chemoradiation; suitable for standard-of-care re-resection;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "whole genome sequencing-identified actionable DNA alterations",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Number of targeted treatment options identified (at least one potentially actionable DNA alteration in >75% of patients with a WGS report)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic WGS cohort study (phase NA); the only intervention is a diagnostic test. Targeted treatments chosen from WGS results are given outside the protocol (e.g. via DRUP) and no drugs are registered or named, so no agents listed and no unspecified panel row. Germline blood sample used only to filter somatic variants (not a germline biomarker)."
+}

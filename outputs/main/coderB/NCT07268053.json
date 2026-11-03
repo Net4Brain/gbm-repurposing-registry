@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT07268053",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Brain Metastasases"},
+      {"field": "eligibility", "quote": "Diagnosed with: (a) GBM according to the 2021 WHO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "who will receive the investigational drug risvutatug rezetecan (GSK5764227), a B7-H3-targeted antibody-drug conjugate (ADC)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "who have progressed on or following standard of care therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0: Total, Cleaved, and Unbound GSK5757810 Payload Concentration in Tumor Tissue"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0: pH2AX and B7-H3 Expression Change in Tumor Tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Risvutatug rezetecan",
+      "active_moiety": "risvutatug rezetecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "who will receive the investigational drug risvutatug rezetecan (GSK5764227), a B7-H3-targeted antibody-drug conjugate (ADC)"},
+        {"field": "interventions", "quote": "Risvutatug rezetecan will be administered intravenously."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "B7-H3-targeted antibody-drug conjugate (payload GSK5757810); also HS-20093, GSK5764227",
+      "stated_antitumour_mechanism": "B7-H3-targeted antibody-drug conjugate",
+      "flag": {"uncertain": false},
+      "arms": ["rGBM and Brain Mets"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 expression",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "risvutatug rezetecan",
+      "source_quote": {"field": "outcomes", "quote": "The change in expression of pH2AX and B7-H3 in GSK5764227-treated rGBM and brain metastasis tissue collected during Phase 0 surgery compared to archival tissue (baseline)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pH2AX (DNA damage marker)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "risvutatug rezetecan",
+      "source_quote": {"field": "outcomes", "quote": "The change in expression of pH2AX and B7-H3 in GSK5764227-treated rGBM and brain metastasis tissue collected during Phase 0 surgery compared to archival tissue (baseline)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered as Early Phase 1 (Phase 0/1). Population: recurrent WHO 2021 GBM plus a brain-metastasis group (multi-cancer, so coded basket_gbm_eligible; adjudicator could instead treat as GBM with a separate non-glioma cohort). Expansion to Phase 1 depends on a positive tumour PK response, not on a molecular biomarker. Standard of care for non-responders is mentioned without named drugs."
+}

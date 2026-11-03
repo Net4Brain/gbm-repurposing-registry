@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT07284628",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with histologically confirmed newly diagnosed glioblastoma per CNS WHO 2021 classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Vortioxetine will be added to standard of care temozolomide chemoradiotherapy for patients with newly diagnosed glioblastoma"},
+      {"field": "brief_summary", "quote": "The ReVoGlio trial aims at demonstrating that vortioxetine, a drug selected based on ex vivo drug profiling (pharmacoscopy), is of benefit for patients with newly diagnosed glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Vortioxetine for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Drug exposure: Plasmatic concentration of vortioxetine"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Vortioxetine",
+      "active_moiety": "vortioxetine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Vortioxetine will be added to standard of care temozolomide chemoradiotherapy for patients with newly diagnosed glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antidepressant (multimodal serotonergic agent)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Vortioxetine in addition to the standard of care"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Concomitant chemotherapy with temozolomide (75 mg/m2 daily throughout radiotherapy, including at weekends) followed by six cycles of maintenance temozolomide (150-200 mg/m2, 5 out of 28 days)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Vortioxetine in addition to the standard of care"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "O6-methylguanine DNA methyltransferase (MGMT) promotor methylation status known or tissue available for testing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Repurposing rationale stated (pharmacoscopy ex vivo screen identified vortioxetine) but no specific molecular antitumour mechanism stated, so stated_antitumour_mechanism null. MGMT: entry requires status known or tissue available, not a specific methylation status; coded eligibility because it is an entry requirement, but it does not select by status (could be argued exploratory_correlative). Single arm; OS compared to external control data. PK is plasma only."
+}

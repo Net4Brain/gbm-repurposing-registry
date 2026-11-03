@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04689087",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Recurrence and pathologically confirmed WHO Grade IV glioblastoma (GBM);"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "designed to explore the efficacy and safety of Tumor-Treating Fields (TTFields) combined with second-line chemotherapy treatment in recurrent glioblastoma multiforme (GBM)"},
+      {"field": "interventions", "quote": "For patients with relapsed GBM, before receiving electric field treatment, the patient can be re-operated, and TTFields+BPC chemotherapy is used after surgery"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "The investigational intervention is the TTFields device; the 'BPC' second-line chemotherapy is not specified and is treated as background, but if it contains a non-established drug it could be a candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BPC chemotherapy",
+      "active_moiety": "bpc chemotherapy",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Before receiving TTFields treatment, the patient can receive surgery again, and TTFields+BPC chemotherapy can be used after surgery; TTFields+BPC chemotherapy can also be used directly without surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "unspecified second-line chemotherapy regimen abbreviated 'BPC' (components not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Components of 'BPC' chemotherapy not stated; role as background second-line chemotherapy assumed."},
+      "arms": ["Second line conventional treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA single-arm device study: TTFields (registered as combination product) plus second-line 'BPC' chemotherapy that every patient receives; no drug is a registered intervention and the chemotherapy components are not named. 'WHO Grade IV glioblastoma' and 'Glioblastoma Multiforme' without IDH -> historical."
+}

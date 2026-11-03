@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04218019",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma in Patients ≥70 Years"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The NovoTTF-200 A device used in this trial delivers very low intensity, alternating electric fields to the tumor site through the scalp."},
+      {"field": "arms", "quote": "Chemoradiotherapy with temozolomide and hypofractionated radiotherapy is regarded as standard therapy and not part of the intervention."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed glioblastoma (astrocytoma WHO grade IV)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device-only trial (TTFields timing). Temozolomide is optional ('with or without', per local standard) and explicitly 'not part of the intervention', not a registered intervention and not given to every patient, so it is not listed as an agent (R9). Eligibility text says age >65 while the title says >=70; not relevant to coding."
+}

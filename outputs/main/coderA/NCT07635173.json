@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT07635173",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastomas (GBM); High Grade Gliomas"},
+      {"field": "eligibility", "quote": "Patients with pathologically confirmed recurrent high-grade glioma (including grade III and IV, excluding brainstem tumors) after standard therapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Obitazidine Fumarate Enteric-coated Pellet Capsules (SM-1) in Combination With Temozolomide in Subjects With Refractory or Recurrent Gliomas: Phase I Trial"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "SM-1 Combined With Temozolomide in Subjects With Refractory or Recurrent High-Grade Gliomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic (PK) parameters (including Cmax, Tmax, AUC0-t, AUC0-∞, t1/2, CL/F, Vd/F) and pharmacodynamic (PD) markers (e.g., target engagement, immune cell kinetics, tumor-related biomarkers) will be analyzed using blood/CSF samples collected at pre-specified time points."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "pharmacodynamic (PD) markers (e.g., target engagement, immune cell kinetics, tumor-related biomarkers) will be analyzed using blood/CSF samples collected at pre-specified time points."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SM-1",
+      "active_moiety": "obitazidine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The core focus is to screen the optimal clinical dose regimen of SM-1, fully monitor adverse reactions, and preliminarily observe the anti-tumor efficacy of the combination regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational procaspase-3 agonist/activator (SM-1, obitazidine fumarate enteric-coated pellet capsules), oral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SM-1 + TMZ"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Temozolomide is administered orally once daily at bedtime on an empty stomach at a dose of 150 mg/m² or 200 mg/m², as determined by the investigator, on Days 1 to 5 of each 28-day cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SM-1 + TMZ"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "unspecified tumour-related PD biomarkers in blood/CSF",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "pharmacodynamic (PD) markers (e.g., target engagement, immune cell kinetics, tumor-related biomarkers) will be analyzed using blood/CSF samples collected at pre-specified time points."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered intervention is a single combined entry 'SM-1,TMZ'; split into two rows using the names in the arm label. SM-1 is the only investigational agent, temozolomide 150-200 mg/m2 d1-5 q28 is standard backbone (soc_backbone). Moiety name: official title says 'Obitazidine Fumarate' but the brief summary says 'Obitrexate Fumarate'; obitazidine (from the official title, fumarate salt removed) used; keyword describes it as 'Procaspas-3 agonist' (no mechanism sentence stated, so stated_antitumour_mechanism null). Population: recurrent high-grade glioma grade III and IV with glioblastoma named in conditions -> mixed_glioma_gbm_named; grade IV without IDH -> historical. PK/PD in blood/CSF -> CSF PK counts as tumour_pk yes (blood/CSF combined, sample split unstated); PD 'target engagement' markers planned -> yes. stdAges include CHILD but inclusion requires age >= 18."
+}

@@ -1,0 +1,190 @@
+{
+  "nct_id": "NCT05432518",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Disease; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "pathologically confirmed IDH-wild type glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients will receive one of the 5 study drugs based on their recurrent tumor mutation profile and their recurrent organoid response to these drugs:"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "with first or second progression of the tumor, after initial treatment with radiation therapy and temozolomide."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Afatinib",
+      "active_moiety": "afatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Afatinib will be administered orally at a dose of 40 mg daily in patients with EGFR amplification."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "EGFR tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "Dasatinib",
+      "active_moiety": "dasatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Dasatinib will be administered orally at a dose of 100 mg once daily in patients with PDGFR amplification."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-kinase (BCR-ABL/SRC) inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "Palbociclib",
+      "active_moiety": "palbociclib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Palbociclib will be administered orally at a dose of 125 mg once daily in patients with CDK4 and CDK6 amplification."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CDK4/6 inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "Everolimus",
+      "active_moiety": "everolimus",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Everolimus will be administered orally at a dose of 10 mg daily in patients with PI3K/PTEN/mTOR activated pathways."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mTOR inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "Olaparib",
+      "active_moiety": "olaparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Olaparib will be administered orally at a dose of 300 mg twice daily in patients with TP53 mutation."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "pathologically confirmed IDH-wild type glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "afatinib",
+      "source_quote": {"field": "interventions", "quote": "Afatinib will be administered orally at a dose of 40 mg daily in patients with EGFR amplification."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PDGFR amplification",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "dasatinib",
+      "source_quote": {"field": "interventions", "quote": "Dasatinib will be administered orally at a dose of 100 mg once daily in patients with PDGFR amplification."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "palbociclib",
+      "source_quote": {"field": "interventions", "quote": "Palbociclib will be administered orally at a dose of 125 mg once daily in patients with CDK4 and CDK6 amplification."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "everolimus",
+      "source_quote": {"field": "interventions", "quote": "Everolimus will be administered orally at a dose of 10 mg daily in patients with PI3K/PTEN/mTOR activated pathways."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TP53 mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "olaparib",
+      "source_quote": {"field": "interventions", "quote": "Olaparib will be administered orally at a dose of 300 mg twice daily in patients with TP53 mutation."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 single-arm personalised-therapy pilot: each patient receives one of five approved drugs chosen by tumour mutation profile and organoid response. Biomarker-to-drug assignment is stated in the interventions and coded enrichment (not an entry requirement for the trial itself). The TP53-olaparib link is as registered, mechanistic rationale is weaker than the others; it does not change the primary outcome because other matches are present. Organoid drug response is not coded as target engagement."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04712721",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Brain Neoplasms; Gastroesophageal Adenocarcinoma; Pancreatic Ductal Adenocarcinoma"},
+      {"field": "eligibility", "quote": "Patients with histologically or cytologically confirmed and documented r/r GBM that has progressed after prior radiation therapy and have not received prior bevacizumab"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Phase I, Open-label, Multicenter Study to Evaluate the Imaging Performance, Safety, Biodistribution and Dosimetry of [68Ga]-FF58 in Adult Patients With Selected Solid Tumors Expected to Overexpress αvβ3 and αvβ5 Integrins."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "r/r GBM that has progressed after prior radiation therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "68Ga-FF58",
+      "active_moiety": "68ga-ff58",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to characterize the imaging properties, safety, biodistribution and dosimetry properties of \\[68Ga\\]-FF58"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled alphav-beta3/alphav-beta5 integrin-targeting PET imaging radioligand (FF58)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma Multiforme", "Brain Metastasis from Breast Cancer", "Gastroesophageal adenocarcinoma", "Pancreatic ductal adenocarcinoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 first-in-human PET imaging study; the only agent is a diagnostic radiotracer, so no pharmacological candidate. Basket of GBM, breast cancer brain metastases, GEA and PDAC. Integrin alphav-beta3/alphav-beta5 overexpression is 'expected', not an entry requirement, and is assessed by imaging only, so not recorded as a molecular biomarker. Dosimetry/PK (blood radioactivity, tumour absorbed dose) relates to the diagnostic agent, not a candidate; tumour_pk_planned coded no."
+}

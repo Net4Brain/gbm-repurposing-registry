@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04845919",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Newly diagnosed brain glioblastomas located in a surgically accessible brain region for resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] 5-Aminolevulinic Acid: SDT treatment with 5-ALA using the ExAblate Model 4000 Type-2 \"Neuro-System\"."},
+      {"field": "brief_summary", "quote": "Secondary objective of the trial is to assess the efficacy of the SDT procedure in terms of tumor regression and/or cell apoptosis and necrosis."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with newly diagnosed cerebral glioblastomas using the ExAblate Model 4000 Type-2 \"Neuro-System\"."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-Aminolevulinic Acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] 5-ALA mediated sonodynamic therapy:  (interventions: Drug: 5-Aminolevulinic Acid)"},
+        {"field": "detailed_description", "quote": "The idea of the present study is to investigate the antitumor effects of SDT in patients affected by HGGs attained with low-frequency Focused Ultrasound."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor / sonosensitiser (PpIX precursor) used for sonodynamic therapy with MRI-guided focused ultrasound",
+      "stated_antitumour_mechanism": "5-ALA is a PpIX precursor that accumulates selectively in tumour; low-intensity focused ultrasound activates it, causing cytotoxic events limited to the target tissue (sonodynamic effect)",
+      "flag": {"uncertain": false},
+      "arms": ["5-ALA mediated sonodynamic therapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA sonodynamic therapy with ExAblate focused ultrasound: candidate with device_dependent true (C12). Histology after resection for apoptosis and necrosis is planned as an efficacy outcome; coded as treatment response rather than target engagement (target_engagement_planned = no), adjudicator may consider otherwise. Detailed description refers to HGG but conditions/eligibility restrict to glioblastoma."
+}

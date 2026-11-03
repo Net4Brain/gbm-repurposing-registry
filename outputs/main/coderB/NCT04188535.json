@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04188535",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Esophageal Cancer; Radiotherapy; Magnetic Resonance Imaging; MRI; Prostate Cancer; Vulvar Cancer; Pediatric Glioblastoma Multiforme; Sarcoma"},
+      {"field": "eligibility", "quote": "(Glioblastoma cohort) Patients with a histologically confirmed newly diagnosed intracranial glioblastoma or gliosarcoma who will be undergoing radiation therapy as part of clinical care."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] MRI IMAGING: Imaging with MRI will be performed as per disease site standards."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "(Glioblastoma cohort) Patients with a histologically confirmed newly diagnosed intracranial glioblastoma or gliosarcoma who will be undergoing radiation therapy as part of clinical care."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Multi-cancer serial MRI feasibility study with GBM cohorts; the only intervention is a diagnostic MRI test, so no agents. Gadolinium contrast is mentioned only conditionally in exclusion criteria, not a registered intervention (R9). Prostate cohort genomic testing and 'imaging biomarkers' are not GBM tumour molecular biomarkers for a candidate. Non-GBM cohorts include paediatric glioma; arms are all EXPERIMENTAL cohorts, none a control."
+}

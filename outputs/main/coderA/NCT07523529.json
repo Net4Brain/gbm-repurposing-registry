@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT07523529",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced unresectable, metastatic, or recurrent solid malignancy (including recurrent high-grade glioma for CNSspecific pairs) for which standard curative therapy does not exist, is not tolerated, or has failed."},
+      {"field": "conditions", "quote": "Advanced Unresectable; Metastatic"},
+      {"field": "keywords", "quote": "glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Autologous dual-target CAR-T cells are patient-derived T cells engineered to recognize two tumor-associated antigens selected from a predefined target library."},
+      {"field": "detailed_description", "quote": "All enrolled participants receive lymphodepletion with fludarabine and cyclophosphamide followed by one infusion of the assigned autologous dual-target CAR-T product."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced unresectable, metastatic, or recurrent solid malignancy (including recurrent high-grade glioma for CNSspecific pairs) for which standard curative therapy does not exist, is not tolerated, or has failed."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous dual-target CAR-T cells selected from the predefined target library.",
+      "active_moiety": "dual-target car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Autologous dual-target CAR-T cells are patient-derived T cells engineered to recognize two tumor-associated antigens selected from a predefined target library."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous bispecific/tandem CAR-T cell therapy (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Biomarker-guided dual-target CAR-T therapy"]
+    },
+    {
+      "agent_name_registered": "Fludarabine",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "chemotherapy preconditioning regimen used before cell therapy to reduce the patient's existing lymphocytes and create space for infused cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "purine analogue antimetabolite, lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Biomarker-guided dual-target CAR-T therapy"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Cyclophosphamide lymphodepletion is a chemotherapy preconditioning regimen administered prior to cell therapy to suppress existing immune cells and improve the environment for infused cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "alkylating agent, lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Biomarker-guided dual-target CAR-T therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour antigen co-expression of a predefined CAR-T dual-target pair (library includes B7-H3, EGFR/EGFRvIII, IL13Ralpha2, GD2, HER2, PD-L1 and others)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "At least one predefined dual-target pair qualifies on central biomarker review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Solid-tumour CAR-T master protocol. Glioblastoma appears only in keywords; inclusion criteria name only 'recurrent high-grade glioma', so per C7/D27B glioblastoma is not named in an allowed field -> high_grade_glioma_unspecified. Even if GBM were counted, the only antitumour intervention is a CAR-T cell therapy (excluded type) with lymphodepleting fludarabine/cyclophosphamide (supportive, R6). Antigen-pair eligibility biomarker matches the CAR-T product, which is not a candidate, so candidate_matched false."
+}

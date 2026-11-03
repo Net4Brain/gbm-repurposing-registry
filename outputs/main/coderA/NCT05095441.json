@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05095441",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor; Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Participants must have histopathologically confirmed recurrent supratentorial glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 1 Open-Label Study of Genetically Engineered Oncolytic HSV-1 (C5252) Expressing IL-12 and Anti-PD-1 Antibody in Patients With Recurrent or Progressive Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have histopathologically confirmed recurrent supratentorial glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure anti-PD-1 antibody concentration in blood using Anti-PD-1 antibody ELISA test and IL-12 concentration in blood using IL-12p70 ELISA test."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "C5252",
+      "active_moiety": "oncolytic hsv-1",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "A Phase 1 Open-Label Study of Genetically Engineered Oncolytic HSV-1 (C5252) Expressing IL-12 and Anti-PD-1 Antibody in Patients With Recurrent or Progressive Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "genetically engineered oncolytic HSV-1 (MVR-C5252) expressing IL-12 and anti-PD-1 antibody, intratumoral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part 1: Dose Escalation", "Part 2: Dose Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only intervention is an oncolytic HSV-1 (excluded intervention type) given as a single intratumoral injection -> no pharmacological candidate. Conditions also list 'Solid Tumor' but inclusion requires recurrent glioblastoma -> gbm_only; 'Glioblastoma Multiforme' in conditions -> historical terminology. Two sequential experimental parts (dose escalation, expansion), no control. Blood cytokine and lymphocyte profiling are exploratory outcomes for a non-candidate. Formulation flag new_route reflects intratumoral injection."
+}

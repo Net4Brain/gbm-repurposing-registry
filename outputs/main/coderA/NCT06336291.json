@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT06336291",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with histologically confirmed glioblastoma per 2021 WHO classification progression according to RANO criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Study With L19TNF in Combination With Lomustine in Patients With Glioblastoma at Progression or Recurrence"},
+      {"field": "detailed_description", "quote": "The primary objective of this study is to select the optimal regimen of L19TNF in combination with lomustine, that maximizes effects on clinical parameters and minimizes the probability of moderate to severe adverse events"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "The present study is a randomized, open-label, non-controlled phase II study in patients with glioblastoma at any progression/recurrence (first and later)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum drug concentration [Cmax]: Pharmacokinetics assessment of L19TNF through blood sampling"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "The trial aims to collect safety, efficacy, exposure, dose- response, pharmacokinetic and pharmacodynamic information of the combination of L19TNF and lomustine at different dose levels"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "L19TNF",
+      "active_moiety": "onfekafusp alfa",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] L19TNF (other names: onfekafusp alfa): 7 μg/kg"},
+        {"field": "detailed_description", "quote": "Each arm has a different combination of L19TNF (7 μg/kg or 10 μg/kg or 13 μg/kg) and lomustine at different dose levels (90 or 110 mg/m2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "L19TNF: immunocytokine fusion protein (L19 anti-EDB fibronectin antibody fragment fused to TNF), investigational",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B", "Arm C", "Arm D", "Arm E", "Arm F"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Each arm has a different combination of L19TNF (7 μg/kg or 10 μg/kg or 13 μg/kg) and lomustine at different dose levels (90 or 110 mg/m2)."},
+        {"field": "detailed_description", "quote": "among six (three L19TNF doses x two lomustine doses) combination schedules for the treatment of patient with progressing or recurrent glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B", "Arm C", "Arm D", "Arm E", "Arm F"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "patients will be randomized in accordance with the following strata:"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Lomustine is given in every arm but its dose (90 vs 110 mg/m2) differs between arms and is part of the dose-optimisation question, so coded established_therapy_experiment per rule 3 exception (i) (alternative: soc_backbone); L19TNF (onfekafusp alfa) is the only investigational agent -> experimental_monotherapy. Randomised between six experimental dose arms, no control. MGMT status is a randomisation stratum (listed under the strata line: 'MGMT status'); 'MGMT promotor status known' is required but not a specific status. PK is blood only. Pharmacodynamic information is stated as an aim but no PD measurement is specified in outcomes (HAFA is immunogenicity) -> target_engagement_planned unclear."
+}

@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT05076513",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioma; GBM; Glioma, Malignant; Glioblastoma Multiforme of Brain"},
+      {"field": "arms", "quote": "Arm B: Recurrent Glioma (Grades II-IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "In Phase 0, 300mg administered orally QD for 4 days prior to resection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "newly-diagnosed glioblastoma and up to 18 recurrent glioma participants with IDH mutation and ATRX loss"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor to plasma partition coefficients of niraparib for total (Kp) and unbound (Kp,uu) drug levels"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Quantification of percentage of PAR positive cells with IHC assay or PAR concentration in tumor homogenates with an HT PARP pharmacodynamic assay II."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants who proceed to the Expansion cohort will receive niraparib in 28d cycles after surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Presumed Newly-Diagnosed glioblastoma", "Arm B: Recurrent Glioma (Grades II-IV)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For Arm B, participants undergoing resection who have had a prior resection of histologically diagnosed WHO grade II-IV glioma with IDH1 or IDH2 mutation and ATRX loss."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ATRX loss",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "eligibility", "quote": "For Arm B, participants undergoing resection who have had a prior resection of histologically diagnosed WHO grade II-IV glioma with IDH1 or IDH2 mutation and ATRX loss."},
+      "flag": {"uncertain": true, "reason": "Record does not state why IDH-mutant/ATRX-loss tumours were chosen for the PARP inhibitor; match coded from the design (Arm B PD outcome is chromosomal fusion in niraparib-treated IDH/ATRX-loss tissue)."},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PAR (poly-ADP-ribose) level",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "outcomes", "quote": "Quantification of percentage of PAR positive cells with IHC assay or PAR concentration in tumor homogenates with an HT PARP pharmacodynamic assay II."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Presumed Newly-Diagnosed glioblastoma"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "chromosomal fusion in IDH/ATRX-loss glioma tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "outcomes", "quote": "Presence of chromosomal fusion with the cutoff CT value of 35 in niraparib treated glioma tissue with IDH and ATRX loss."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    }
+  ],
+  "coder_notes": "Early Phase 1 (phase 0) trial. Arm B allows IDH-mutant WHO grade II-IV glioma, so CNS terminology left unclear. Regimen coded combination because Arm A expansion adds standard radiotherapy; Arm B is niraparib monotherapy. Radiotherapy is not listed as an agent."
+}

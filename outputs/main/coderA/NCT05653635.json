@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05653635",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma, World Health Organization (WHO) grade IV, histologically proven"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Simultaneous-integrated boost with IMRT: Simultaneous-integrated boost guided by FDOPA-PET"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "guided by FDOPA-PET in patient with recurrent glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-only trial (FDOPA-PET-guided SIB vs standard IMRT re-irradiation). FDOPA PET tracer is used for target delineation but is not a registered drug intervention, so not listed (R9). Control arm is a registered NO_INTERVENTION arm (captured by [CODE]). cns5_terminology: 'WHO grade IV' in Roman numerals without IDH requirement or explicit WHO edition cited; coded unclear, could be read as historical."
+}

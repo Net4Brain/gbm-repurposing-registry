@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT06850766",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "IDH-Wildtype Glioblastoma; Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Newly diagnosed IDH-wildtype glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Morning administration of TMZ: Administration of TMZ within 2 hours of waking"},
+      {"field": "detailed_description", "quote": "TMZ is a standard of care treatment for GBM, however there is currently no consensus or guideline with respect to the optimal timing of adjuvant TMZ administration."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed IDH-wildtype glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Morning administration of TMZ / Evening administration of TMZ",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "participants are randomly placed in one of two groups: a morning group and an evening group."},
+        {"field": "interventions", "quote": "Evening administration of TMZ: Administration of TMZ within 2 hours of bedtime"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy (dose-timing chronotherapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Morning administration of TMZ", "Evening administration of TMZ"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed IDH-wildtype glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA randomised pilot of morning vs evening temozolomide timing; temozolomide is the established therapy under investigation (rule 6), so no candidate. Both arms are registered ACTIVE_COMPARATOR; no separate control arm. IDH-wildtype is a diagnostic criterion only."
+}

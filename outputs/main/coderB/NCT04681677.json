@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04681677",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Subject has histopathologically proven diagnosis of GBM or variants (gliosarcoma, giant cell glioblastoma etc.)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Single fraction, Intra-operative Radiation Therapy at the time of surgical resection of recurrent GBM followed by Bevacizumab 28-56 days after surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Recurrent GBM Treated With Neurosurgical Resection and IORT Using the Xoft Axxent eBx System and Bevacizumab"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Lastly, using Bevacizumab as a systemic therapy will enable the comparison of the results to the historic control arm, the EBRT arm of RTOG 1205."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": "target radio-resistant and highly tumorigenic cancer stem cells as well as to benefit from its radioprotective effects",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Intra-operative Radiation Therapy - IORT"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Bevacizumab is an established GBM therapy given as the systemic component matching the historical RTOG 1205 comparator; the investigational element is the intra-operative radiation device/technique. I coded it soc_backbone rather than established_therapy_experiment; either way there is no candidate, so S6 outcome is unchanged."
+}

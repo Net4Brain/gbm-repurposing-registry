@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05370508",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent GBM"},
+      {"field": "eligibility", "quote": "Histologically proven GBM (as defined in 2021 WHO Classification of Tumors of the Central Nervous System; Louis, Perry, et al. 2021) that has recurred or progressed, and for which resection is not indicated."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to evaluate preliminary efficacy of sonodynamic therapy (SDT) using SONALA-001 and Exablate Type 2.0 device in subjects with progressive or recurrent GBM."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven GBM (as defined in 2021 WHO Classification of Tumors of the Central Nervous System; Louis, Perry, et al. 2021) that has recurred or progressed, and for which resection is not indicated."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate the pharmacokinetics (PK) of ALA and Protoporphyrin IX (PpIX) following intravenous (IV) dosing with SONALA-001 by calculating Area Under the plasma Concentration (AUC) vs. time from time 0 to the last measurable time point (AUC-t) (Phase 1)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SONALA-001 (ALA)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[COMBINATION_PRODUCT] SONALA-001 (ALA) and MR-Guided Focused Ultrasound device (MRgFUS) (other names: Exablate Type 2.0): SONALA-001(ALA) given 6-12 hours prior to receiving the MRgFUS"},
+        {"field": "keywords", "quote": "Aminolevulinic acid HCI"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "5-aminolevulinic acid hydrochloride (SONALA-001), IV; porphyrin precursor sonosensitiser for sonodynamic therapy with MR-guided focused ultrasound",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3", "Cohort 4", "Cohort 5"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA sonodynamic therapy with Exablate MRgFUS: aminolevulinic acid is the candidate with device_dependent true (C12); the device is not listed. Formulation flagged new_route because SONALA-001 is given intravenously (licensed 5-ALA product for glioma visualisation is oral); may be 'none' on adjudication. Cohorts escalate ultrasound energy level, none is a control arm. PK is plasma only (ALA and PpIX), so tumour_pk_planned no. MGMT methylation appears in inclusion only as a description of prior temozolomide therapy, not an entry requirement, so no biomarker row. Gadolinium mentioned only for MRI (not a registered intervention), not listed."
+}

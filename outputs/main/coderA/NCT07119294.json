@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT07119294",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with a brain lesion suspected of glioblastoma based on neuroimaging data or patients with suspected recurrence of glioblastoma"},
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] FAPI PET/MR: FAPI PET/MR prior surgery or during recurrence suspiscion"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with a brain lesion suspected of glioblastoma based on neuroimaging data or patients with suspected recurrence of glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FAPI PET/MR",
+      "active_moiety": "fapi",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] FAPI PET/MR: FAPI PET/MR prior surgery or during recurrence suspiscion"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "fibroblast activation protein inhibitor PET tracer (isotope not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["patients with a brain lesion suspected of glioblastoma based on imaging with a FAPI PET-MR before s", "patients with suspected glioblastoma recurrence in their follow-up."]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "FAP (fibroblast activation protein) expression by immunohistochemistry",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To compare FAPI tumor uptake (SUVmax, SUVmean) with FAP expression based on anatomopathological analysis (Immunohistochemistry) from targeted brain biopsy samples or material from ablative surgery"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging study (phase NA). Only intervention is the FAPI PET tracer (diagnostic_agent; isotope not stated, so moiety recorded as fapi). FET PET and gadolinium are mentioned only as comparison imaging and are not registered interventions, so not listed. 177Lu-FAPI therapy is mentioned only as a future possibility. Two OTHER arms are diagnostic cohorts (pre-surgery vs suspected recurrence), neither is a control."
+}

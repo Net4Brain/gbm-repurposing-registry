@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06740097",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Gliomas"},
+      {"field": "eligibility", "quote": "Patient admitted to neurosurgery department for surgical resection of a suspected high-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Resection utilizing conventional visual fluorescence-guided surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "In total fifty (n=50) patients referred for resection surgery for suspected high-grade glioma or its recurrence"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "The patients are prescribed oral 5-ALA preoperatively according to the institution's practices."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "5-aminolevulinic acid, fluorescence-guided surgery agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Aspirate tissue monitoring", "Fluorescence-guided surgery"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Device trial. 5-ALA is not a registered intervention but the arm text states patients are prescribed it for fluorescence-guided surgery; listed as diagnostic_agent. High-grade glioma only; glioblastoma not named in conditions, title, eligibility or arm labels."
+}

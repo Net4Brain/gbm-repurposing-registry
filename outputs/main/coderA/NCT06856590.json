@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT06856590",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed solid tumor for which regorafenib is an approved treatment (e.g., metastatic colorectal cancer, gastrointestinal stromal tumor, hepatocellular carcinoma, glioblastoma, or others)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study aims to evaluate whether a combination of oral zinc supplementation and transdermal clobetasol cream is effective in preventing and reducing the severity of hand-foot skin reaction (HFSR) induced by regorafenib treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Initiating regorafenib treatment for the first time"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Zinc Supplementation",
+      "active_moiety": "zinc",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This intervention aims to evaluate the effect of zinc in preventing and reducing the severity of regorafenib-induced hand-foot skin reaction (HFSR)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral zinc gluconate dietary supplement",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Zinc + Clobetasol Group", "Zinc Alone"]
+    },
+    {
+      "agent_name_registered": "Clobetasol Propionate 0.05% Cream",
+      "active_moiety": "clobetasol",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This intervention aims to assess the efficacy of clobetasol in preventing regorafenib-induced HFSR."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "high-potency topical corticosteroid",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Zinc + Clobetasol Group", "Clobetasol Alone Group"]
+    },
+    {
+      "agent_name_registered": "regorafenib",
+      "active_moiety": "regorafenib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Initiating regorafenib treatment for the first time"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multikinase (VEGFR) inhibitor; background anticancer therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Zinc + Clobetasol Group", "Clobetasol Alone Group", "Zinc Alone"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Supportive-care study (prevention of regorafenib-induced hand-foot skin reaction) in a multi-tumour population with glioblastoma named in inclusion. Regorafenib is not a registered intervention but every patient starts it, so listed as soc_backbone (background). Zinc is a dietary supplement and clobetasol a topical steroid, both supportive. Three experimental arms compare prophylaxis strategies; none functions as a control, so control_arm_from_other_arms = no. Treatment setting for GBM not stated."
+}

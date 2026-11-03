@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT03897491",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Biopsy proven, newly diagnosed, supratentorial, unifocal, lobar located IDH wild-type glioblastoma according to the criteria of the 2016 WHO classification."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to assess safety and efficacy of stereotactic interstitial photodynamic therapy (iPDT) with PD L 506 in newly diagnosed supratentorial IDH wild-type glioblastoma"},
+      {"field": "arms", "quote": "20 mg 5-aminolevulinic acid per kg body weight orally four hours (range 3,5-4,5 hours) before the induction of general anaesthesia. (interventions: Drug: 5-aminolevulinic acid)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "PD L 506 for Stereotactic Interstitial Photodynamic Therapy of Newly Diagnosed Supratentorial IDH Wild-type Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Interstitial fluorescence data recorded: To determine the rate of patients with fluorescence-negative tumors"},
+      {"field": "outcomes", "quote": "To determine whether correlations exist between length of OS/PFS and spectral online-monitoring measurement results (transmission and fluorescence measurements)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-aminolevulinic acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "PD L 506 for Stereotactic Interstitial Photodynamic Therapy of Newly Diagnosed Supratentorial IDH Wild-type Glioblastoma"},
+        {"field": "interventions", "quote": "5-aminolevulinic acid powder for oral solution"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitizer prodrug (protoporphyrin IX precursor) for interstitial photodynamic therapy; PD L 506 = 5-ALA product",
+      "stated_antitumour_mechanism": "stereotactic interstitial photodynamic therapy",
+      "flag": {"uncertain": false},
+      "arms": ["Interstitial photodynamic therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Biopsy proven, newly diagnosed, supratentorial, unifocal, lobar located IDH wild-type glioblastoma according to the criteria of the 2016 WHO classification."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Analytical results for MGMT promoter methylation status (methylated/unmethylated) in the respective tumor samples of each patient"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "5-ALA (PD L 506) iPDT: candidate with device_dependent true (laser activation). Registered arm contains only 5-ALA/iPDT; inclusion mentions eligibility for RT+TMZ but the record does not state that all patients receive TMZ within the study, so TMZ not listed and regimen coded monotherapy (adjudicator may consider subsequent Stupp as combination). tumour_pk_planned coded yes because interstitial fluorescence (PpIX derived from the candidate) is measured in tumour; this is borderline (could be considered a technical/device measurement). IDH wild-type requirement plus WHO 2016 citation -> cns5 per tie-break. Blood immune parameters (CD4/CD8) not recorded as tumour biomarkers."
+}

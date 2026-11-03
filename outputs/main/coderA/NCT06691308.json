@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06691308",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent or Progressive Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosed with glioblastoma through histopathological examination;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "WL276 CAR-T cells: This study intends to include 6 subjects, with 3 subjects receiving 5 \\* 10 \\^ 6 CAR-T Cells and 3 subjects receiving 1 \\* 10 \\^ 7 CAR-T Cells at different doses"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with unresectable recurrent or progressive glioblastoma who have failed or are intolerant to standard treatment;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "WL276 CAR-T cells",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "WL276 CAR-T Cell Therapy for CD276 Positive Recurrent or Progressive Glioblastoma Patients"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CD276 (B7-H3)-directed CAR-T cell therapy (WL276), intracranial via Ommaya",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CD276 positive recurrent or progressive glioblastoma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD276 (B7-H3) expression by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "have positive CD276 expression detected by immunohistochemistry;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 CAR-T trial; only intervention is a cell therapy (excluded type). CD276 IHC positivity is an entry requirement and is target-matched to the CAR-T, but the CAR-T is not a candidate, so candidate_matched=false. CAR-T retention in CSF/tumour tissue and cytokine changes are planned (otherOutcomes) but relate to a non-candidate, so tumour_pk_planned and target_engagement_planned coded no."
+}

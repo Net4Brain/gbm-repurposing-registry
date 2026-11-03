@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT04671459",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrence of GBM (WHO grade IV) based on RANO criteria or GBM after subtotal resection of recurrence with macroscopic residual tumor;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "All patients will receive TTFields therapy and additionally Stereotactic Radiosurgery ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-Fluoro-Ethyl-Thyrosine",
+      "active_moiety": "18f-fluoroethyltyrosine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "All subjects will receive TTFields and radiosurgery plus/minus FET PET imaging to define tumor volume."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[18F]FET amino-acid PET tracer (fluorine-18) for radiosurgery target definition",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TTFields and SRS based on MRI or FET-PET"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Overall survival will be stratified by volume, PET-based treatment, SVZ invasion, MGMT methylation status, time to first progression, and TTFields compliance."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The attempt to obtain the Methyl-guanine methyl-transferase (MGMT) gene promoter methylation and IDH1 and IDH2 mutation from primary tumor are made during the study whenever not defined before entering to the study."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device (TTFields) plus stereotactic radiosurgery only; no therapeutic drug, so S6 fails (no_pharmacological_candidate). [18F]FET PET tracer is not a registered intervention but is named in the title and arm label as part of SRS planning; listed as diagnostic_agent for transparency (could be omitted under R9). MGMT 'stratification' refers to post hoc survival analysis in a single-arm trial, not randomisation, so coded exploratory_correlative. Uses 'Glioblastoma Multiforme' and 'WHO grade IV', so historical."
+}

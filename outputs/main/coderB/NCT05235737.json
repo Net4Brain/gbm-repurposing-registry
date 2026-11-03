@@ -1,0 +1,115 @@
+{
+  "nct_id": "NCT05235737",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "neoadjuvant and adjuvant Pembrolizumab on top of standard therapy (Stupp protocol)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Usability assessment of immuno-PET imaging with 89Zr-DFO-Atezolizumab for quantitative analysis of early changes in PD-L1 expression"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "neoadjuvant and adjuvant Pembrolizumab on top of standard therapy (Stupp protocol)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm 1", "Treatment arm 2"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Treatment arm 3 - n=12 evaluable patients - standard chemo-radiotherapy (Stupp protocol"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm 1", "Treatment arm 2", "Treatment arm 3"]
+    },
+    {
+      "agent_name_registered": "89Zr-DFO-Atezolizumab",
+      "active_moiety": "89zr-atezolizumab",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Usability assessment of immuno-PET imaging with 89Zr-DFO-Atezolizumab for quantitative analysis of early changes in PD-L1 expression"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "zirconium-89 labelled anti-PD-L1 antibody PET tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm 1", "Treatment arm 2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "Usability assessment of immuno-PET imaging with 89Zr-DFO-Atezolizumab for quantitative analysis of early changes in PD-L1 expression"},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm 1", "Treatment arm 2"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p19q codeletion",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Presence of 1p19q codeletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase is PHASE4 (screening step S3 handled by script). Arms 1 and 2 are registered as ACTIVE_COMPARATOR but function as experimental arms; arm 3 is the registered NO_INTERVENTION standard-of-care control. Exclusion criterion 22 admits IDH-wildtype glioblastoma but also lists grade 3/4 IDH-mutant astrocytoma only as a post-surgery histology exclusion; no IDH entry requirement is coded. Atezolizumab immuno-PET tracer listed as diagnostic agent because the protocol text says immuno-PET is performed in the pembrolizumab arms (summary says all patients). PD-L1 row coded pharmacodynamic (imaging of PD-L1 change), not an eligibility biomarker."
+}

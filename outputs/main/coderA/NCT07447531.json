@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT07447531",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "New pathologically confirmed diagnosis of WHO grade IV malignant glioma"},
+      {"field": "title", "quote": "Evaluating Iron-Dependent Biomarkers of Malignant Glioma (WHO Grade IV) Progression"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Only 'WHO grade IV malignant glioma' without IDH requirement; coded as historical glioblastoma per D27C, but 'glioblastoma' is never named."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This clinical trial studies whether T2 star (T2\\*) magnetic resonance imaging (MRI) and biomarker blood testing can help predict how World Health Organization (WHO) grade IV gliomas (malignant gliomas) might change or progress over time."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New pathologically confirmed diagnosis of WHO grade IV malignant glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {"biomarker": "other", "biomarker_other": "circulating dimeric transferrin receptor (iron-related cell death marker)", "role": "exploratory_correlative", "candidate_matched": false, "matched_agent": null,
+     "source_quote": {"field": "outcomes", "quote": "Relationship between T2 (observed)-weighted imaging (T2*) magnetic resonance imaging relation time and dimeric transferrin receptor expression"},
+     "flag": {"uncertain": false}, "arms": []}
+  ],
+  "coder_notes": "Diagnostic imaging/blood-biomarker study (Phase NA) with procedures only; no registered drug or biologic. Standard-of-care chemoradiation is mentioned but no drug is named, so no agent listed. The blood dimeric transferrin receptor marker is circulating rather than tumour tissue; listed as exploratory 'other' for transparency."
+}

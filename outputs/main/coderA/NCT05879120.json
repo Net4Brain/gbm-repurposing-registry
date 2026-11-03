@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT05879120",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "histologically confirmed diagnosis of World Health Organization Grade IV glioma (glioblastoma or gliosarcoma) with first recurrence of disease will be enrolled in this study."},
+      {"field": "eligibility", "quote": "Only patients with confirmed IDH wild-type glioma will be enrolled in this study."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Randomized Study of Neo-adjuvant and Adjuvant Pembrolizumab With and Without Targeted Blood Brain Barrier Opening Using Exablate MRI-guided Focused Ultrasound (Exablate MRgFUS) for Recurrent Glioblastoma"},
+      {"field": "detailed_description", "quote": "To determine anti-tumor activity of pembrolizumab in recurrent glioblastoma, by evaluating PFS, median duration of response, overall response rate, and clinical benefit rate (CR+PR+SD), using modified RANO criteria"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess efficacy of BBB opening as measured by drug levels of pembrolizumab in target brain tumor tissue, comparing Exablate MRgFUS BBB opening during neo-adjuvant and adjuvant pembrolizumab compared to neo-adjuvant and adjuvant pembrolizumab alone."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess efficacy of BBB opening with Exablate MRgFUS to enhance intratumoral effector T-cell infiltration during neo-adjuvant and adjuvant pembrolizumab compared to neo-adjuvant and adjuvant pembrolizumab alone."},
+      {"field": "detailed_description", "quote": "To assess the immunological/biomarker changes, including ctDNA, in peripheral blood and tumor tissue in response to pembrolizumab and MRgFUS in patients with recurrent glioblastoma"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Neoadjuvant pembrolizumab:  (interventions: Drug: Pembrolizumab)"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Exablate MRgFUS + neoadjuvant pembolizumab:  (interventions: Device: Exablate MRgFUS + neoadjuvant pembolizumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (Keytruda, MK-3475)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoadjuvant pembrolizumab", "Exablate MRgFUS + neoadjuvant pembolizumab"]
+    },
+    {
+      "agent_name_registered": "DEFINITY ultrasound contrast agent",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "To learn if the Exablate Model 4000 Type 2 (\"Exablate System\") with the DEFINITY® ultrasound contrast agent can temporarily disrupt the blood brain barrier in patients with recurrent (has grown back) glioblastoma who are scheduled to receive pembrolizumab."}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "perflutren lipid microsphere ultrasound contrast agent (microbubbles) for focused-ultrasound BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exablate MRgFUS + neoadjuvant pembolizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Only patients with confirmed IDH wild-type glioma will be enrolled in this study."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "intratumoral effector T-cell infiltration",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To assess efficacy of BBB opening with Exablate MRgFUS to enhance intratumoral effector T-cell infiltration during neo-adjuvant and adjuvant pembrolizumab compared to neo-adjuvant and adjuvant pembrolizumab alone."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ctDNA and immunological biomarker changes in blood and tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To assess the immunological/biomarker changes, including ctDNA, in peripheral blood and tumor tissue in response to pembrolizumab and MRgFUS in patients with recurrent glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both registered arms are EXPERIMENTAL; pembrolizumab alone works as the control for the FUS BBB-opening question, so control_arm_from_other_arms yes. Pembrolizumab is the only investigational drug in both arms (experimental_monotherapy); device_dependent true because the record pairs it with focused-ultrasound-enabled delivery in one arm (R4), though it is also given without the device in the other arm. DEFINITY (perflutren) microbubbles are part of the device intervention (named in brief summary and exclusion criteria), listed as delivery_enabling_agent in the FUS arm. Design lists model SINGLE_GROUP despite randomized allocation with two arms. Neoadjuvant/adjuvant around standard-of-care resection; no other antitumour drug or radiotherapy, so regimen monotherapy."
+}

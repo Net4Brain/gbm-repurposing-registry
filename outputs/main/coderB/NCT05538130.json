@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT05538130",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Melanoma; Glioma; Thyroid Cancer; Non-Small Cell Lung Cancer; Malignant Neoplasms; Brain Neoplasms; Advanced or Metastatic Solid Tumors; HGG; LGG; Low Grade Glioma; High Grade Glioma; Differentiated Thyroid Cancer; NSCLC (Non-small Cell Lung Cancer)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "PF-07799544 in combination with another study medicine called PF-07799933 (Phase 1b)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis of advanced/metastatic solid tumor (excluding colorectal cancer)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["pf-07799933"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PF-07799544",
+      "active_moiety": "pf-07799544",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive PF-07799544 and PF-07799933"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral BRAF inhibitor (ARRY-134)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1a Monotherapy Dose Escalation", "Phase 1b Combination Dose Escalation", "Phase 1b Combination Dose Expansion"]
+    },
+    {
+      "agent_name_registered": "PF-07799933",
+      "active_moiety": "pf-07799933",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive PF-07799544 and PF-07799933"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral targeted agent (ARRY-440)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Combination Dose Escalation", "Phase 1b Combination Dose Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "pf-07799544",
+      "source_quote": {"field": "eligibility", "quote": "Evidence of a BRAF V600 mutation"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Combination Dose Escalation", "Phase 1b Combination Dose Expansion"]
+    }
+  ],
+  "coder_notes": "Basket of solid tumours; glioma and high-grade glioma are named in the conditions but glioblastoma is not named anywhere in conditions, title, eligibility or arm labels, so gbm_population is high_grade_glioma_unspecified. The BRAF V600 requirement is stated under Phase 1b criteria only. Ages include CHILD. Phase 1a arm gives PF-07799544 alone; role coded as in the combination arms. PK is plasma only."
+}

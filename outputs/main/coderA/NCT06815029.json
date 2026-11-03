@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT06815029",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Astrocytoma, IDH-Mutant, Grade 3; Recurrent Astrocytoma, IDH-Mutant, Grade 4; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Participant has a prior histologically-confirmed diagnosis of a grade 3 or 4 IDH-mutant astrocytoma or glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Given autologous TGF-betaR2KO/IL13R-alpha2-CAR T cells intracranially"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Relapsed disease: radiographic evidence of recurrence/progression of measurable disease after standard therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chimeric Antigen Receptor T-Cell Therapy",
+      "active_moiety": "il13ra2 car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Given autologous TGF-betaR2KO/IL13R-alpha2-CAR T cells intracranially"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous IL13Ralpha2-targeting CAR T cells with CRISPR TGFbetaR2 knockout (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (TGFβR2KO/IL13Rα2 CAR T-cells)"]
+    },
+    {
+      "agent_name_registered": "Fludeoxyglucose F-18",
+      "active_moiety": "18f-fludeoxyglucose",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Undergo FDG-PET"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PET imaging tracer (fludeoxyglucose, 18F)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (TGFβR2KO/IL13Rα2 CAR T-cells)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 expression (IHC H-score >= 80)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "COH clinical pathology confirms IL13Rα2+ tumor expression by immunohistochemistry (H-score ≥ 80)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participant has a prior histologically-confirmed diagnosis of a grade 3 or 4 IDH-mutant astrocytoma or glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 antigen expression pre/post treatment",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Evaluate changes in IL13Rα2 antigen expression levels pre and post CAR T cell therapy."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only therapeutic intervention is a CAR T-cell product (excluded intervention type); no pharmacological candidate. IL13Ralpha2 is linked to the CAR T target, not to any pharmacological candidate, so candidate_matched false. IDH row reflects that IDH-mutant astrocytoma grade 3/4 is an eligible histology (IDH-mutant or glioblastoma), not a strict IDH requirement; could be dropped. CAR T persistence in CSF/tumour is planned but relates to the cell therapy, not a candidate drug, so tumour PK and target engagement coded no. cns5_terminology unclear: record separates IDH-mutant astrocytoma from glioblastoma but neither cites WHO 2021 nor requires IDH-wildtype."
+}

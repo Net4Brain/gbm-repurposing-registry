@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT05588141",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase I/II Study of Zotiraciclib for Recurrent Malignant Gliomas With Isocitrate Dehydrogenase 1 or 2 (IDH1 or IDH2) Mutations"},
+      {"field": "eligibility", "quote": "IDH1 or IDH2 mutation status confirmed by TruSight(TM) Oncology 500 performed in LP, NCI or prior documentation of IDH1 or IDH2 mutation status"},
+      {"field": "conditions", "quote": "Brain Tumor; Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] 2: Estimated RP2D of zotiraciclib given in 28 day cycles (interventions: Drug: Zotiraciclib)"},
+      {"field": "detailed_description", "quote": "This is a phase I/II study to evaluate the safety and efficacy of zotiraciclib as a single agent in recurrent IDH-mutant gliomas."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have recurrent disease, proven histologically or by imaging studies"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Zotiraciclib",
+      "active_moiety": "zotiraciclib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "This is a phase I/II study to evaluate the safety and efficacy of zotiraciclib as a single agent in recurrent IDH-mutant gliomas."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational multi-kinase (CDK) inhibitor",
+      "stated_antitumour_mechanism": "Zotiraciclib is a multi-kinase inhibitor that has been shown to have anti-glioma effects through transcriptional suppression, mitochondrial dysfunction, and adenosine 5'-triphosphate (ATP) reduction in glioblastoma in our preclinical studies",
+      "flag": {"uncertain": false},
+      "arms": [
+        "1 (Closed to Enrollment)",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH1 or IDH2 mutation status confirmed by TruSight(TM) Oncology 500 performed in LP, NCI or prior documentation of IDH1 or IDH2 mutation status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Enrols only IDH1/2-mutant diffuse glioma (WHO grades 2-4); glioblastoma is not named in conditions, title, inclusion criteria or arm labels, and IDH-mutant grade 4 astrocytoma is not glioblastoma under CNS5, so not_glioblastoma. IDH mutation is an entry requirement; zotiraciclib (multi-kinase/CDK inhibitor) does not target IDH, though the record cites a preclinical 'selective vulnerability' of IDH-mutant gliomas; coded not candidate-matched. Surgical cohort 3 receives one dose before biopsy/resection, but no tumour drug-level or pharmacodynamic measurement is stated, so tumour PK and target engagement coded no. Arms are all experimental single-agent dose cohorts with no control. Age range includes 15-17 year olds."
+}

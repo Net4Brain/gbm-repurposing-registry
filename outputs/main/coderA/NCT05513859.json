@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05513859",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Astrocytoma; Glioblastoma; Oligodendroglioma"},
+      {"field": "eligibility", "quote": "A newly discovered brain lesion requiring surgery who imaging is consistent with a new glioblastoma, astrocytoma, or oligodendroglioma or with a progressive histologically proven glioblastoma, astrocytoma, or oligodendroglioma whose management required surgery."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Quantitative Oblique Back-Illumination Microscopy (other names: qOBM): Undergo intraoperative microscopy utilizing qOBM"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "A newly discovered brain lesion requiring surgery who imaging is consistent with a new glioblastoma, astrocytoma, or oligodendroglioma or with a progressive histologically proven glioblastoma, astrocytoma, or oligodendroglioma whose management required surgery."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Phase NA device (qOBM intraoperative microscopy) study; interventions are a procedure (craniotomy) and a device only. No drug or biologic interventions, so agents is empty."
+}

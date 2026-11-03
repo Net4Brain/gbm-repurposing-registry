@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05267106",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Adult-type Diffuse Gliomas"},
+      {"field": "eligibility", "quote": "Histological, cytological, or molecular confirmation of recurrent GBM or other glioma, circumscribed astrocytic glioma, or glioneuronalor neuronal tumors that has recurred."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is an open-label, monotherapy study of pemigatinib in participants with recurrent glioblastoma (GBM) or other recurrent gliomas"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "MRI-documented objective progression after prior therapy and must have no therapy available that is likely to provide clinical benefit."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pemigatinib",
+      "active_moiety": "pemigatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Pemigatinib (other names: NCB054828): 13.5mg tablet taken every morning (unless otherwise directed) for 2 weeks and then 1 week off."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "FGFR1-3 tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: IDH-wild-type GBM", "Cohort B: Other gliomas other than GBM"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "FGFR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "pemigatinib",
+      "source_quote": {"field": "eligibility", "quote": "Documentation of an actionable FGFR1-3 gene mutation or fusion/rearrangement from tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants with histopathologically proven, WHO Grade 4, IDH-wild-type GBM OR molecular diagnosis of IDH-wild-type, diffuse astrocytic glioma with molecular features of Grade 4 GBM"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: IDH-wild-type GBM"]
+    }
+  ],
+  "coder_notes": "Two cohorts: A recurrent IDH-wildtype GBM, B other gliomas/glioneuronal tumours; all require activating FGFR1-3 alteration (candidate-matched with pemigatinib, an FGFR inhibitor per drug knowledge; mechanism not explicitly stated in record). IDH-wildtype used only to define the GBM cohort. cns5 from IDH-wild-type requirement for GBM."
+}

@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07364786",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Suspected glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Salovum®, a product based on the egg yolk powder B221®, contains high levels of AF and is classified as a \"food for special medical purposes\" by the European Food Safety Agency."},
+      {"field": "detailed_description", "quote": "Since Salovum® is not classified as a drug, clinical trials have only required ethics approval."},
+      {"field": "interventions", "quote": "[DIETARY_SUPPLEMENT] Salovum (other names: Antisecretory factor): Ingestion of Salovum 11g three times daily during 48 hours"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in participants undergoing diagnostic biopsies for suspected glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Salovum",
+      "active_moiety": "antisecretory factor",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Since Salovum® is not classified as a drug, clinical trials have only required ethics approval."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "egg yolk powder enriched in antisecretory factor; food for special medical purposes (not a licensed medicine)",
+      "stated_antitumour_mechanism": "lower interstitial fluid pressure and enhance the efficacy of both systemic and intratumoral temozolomide treatment",
+      "flag": {"uncertain": false},
+      "arms": ["Salovum"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Salovum is a dietary supplement / food for special medical purposes, explicitly 'not classified as a drug', so excluded intervention type (supplement without marketing authorisation). Single-arm sequential pre/post design in patients undergoing diagnostic biopsy for suspected glioblastoma; treatment setting coded newly_diagnosed. Pharmacodynamic intratumoral measurements are planned for Salovum (intratumoral pressure, pO2, cytokines in microdialysate) but Salovum is not a candidate, so tumour_pk_planned and target_engagement_planned coded no; cytokines are not listed as tumour molecular biomarker rows."
+}

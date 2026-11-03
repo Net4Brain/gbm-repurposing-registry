@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT05083754",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Newly-diagnosed adults with WHO (World Health Organization) Grade IV Glioblastoma or gliosarcoma based on histopathological or molecular criteria who had carmustine wafers placed at resection"},
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm A- Retifanlimab and Radiation Therapy: Participants will receive Retifanlimab and Radiation Therapy."},
+      {"field": "interventions", "quote": "[DRUG] Retifanlimab (other names: INCMGA00012): Anti-PD-1 Therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior treatment for GBM other than surgical resection and carmustine wafer placement (Patients who had a biopsy prior to resection are allowed)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide", "carmustine wafer"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor Response as assessed by immune markers in tumor and blood samples: Analyses may include flow cytometry and immunohistochemistry"},
+      {"field": "outcomes", "quote": "the proportion of memory and effector T cell subsets, and expression levels of PD-1, PD-L1, other B7 family members, ICOS, and Ki67."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Retifanlimab",
+      "active_moiety": "retifanlimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm B- Retifanlimab, Radiation Therapy and Temozolomide: Participants will receive Retifanlimab, Radiation Therapy and Temozolomide."},
+        {"field": "interventions", "quote": "[DRUG] Retifanlimab (other names: INCMGA00012): Anti-PD-1 Therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (INCMGA00012)",
+      "stated_antitumour_mechanism": "Anti-PD-1 Therapy",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A- Retifanlimab and Radiation Therapy", "Arm B- Retifanlimab, Radiation Therapy and Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "title", "quote": "Carmustine Wafer in Combination With Retifanlimab and Radiation With/Without Temozolomide in Subjects With Glioblastoma"},
+        {"field": "arms", "quote": "[OTHER] Arm C- Radiation Therapy and Temozolomide: Participants will receive Radiation Therapy and Temozolomide which is the Standard of Care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm B- Retifanlimab, Radiation Therapy and Temozolomide", "Arm C- Radiation Therapy and Temozolomide"]
+    },
+    {
+      "agent_name_registered": "carmustine wafers",
+      "active_moiety": "carmustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Newly-diagnosed adults with WHO (World Health Organization) Grade IV Glioblastoma or gliosarcoma based on histopathological or molecular criteria who had carmustine wafers placed at resection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent as implanted biodegradable wafer (Gliadel); established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm A- Retifanlimab and Radiation Therapy",
+        "Arm B- Retifanlimab, Radiation Therapy and Temozolomide",
+        "Arm C- Radiation Therapy and Temozolomide"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Proportion of participants who achieve survival with methylated or unmethylated methylguanine-DNA-methyltransferase (MGMT)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "retifanlimab",
+      "source_quote": {"field": "outcomes", "quote": "the proportion of memory and effector T cell subsets, and expression levels of PD-1, PD-L1, other B7 family members, ICOS, and Ki67."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "retifanlimab",
+      "source_quote": {"field": "outcomes", "quote": "Microsatellite instability (MSI) assessment: Assess presence or absence of MSI"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Retifanlimab is the only investigational agent (arms A and B). Temozolomide is given in arm B and the standard-of-care arm C but omitted in arm A; its presence/absence is part of the question ('With/Without Temozolomide'), so coded established_therapy_experiment per R2 (alternative reading: soc_backbone in arm B). Carmustine wafers were placed at resection before entry for all participants (not a registered intervention but received by every patient): soc_backbone per C3. Arm C ([OTHER]) is explicitly standard of care and works as the control arm. Note interventions list describes temozolomide as 'Anti-PD-1 Therapy' (registry error) and an outcome mentions nivolumab and ipilimumab (apparent copy error). MSI matched to the PD-1 antibody as a predictive immunotherapy marker; exploratory only."
+}

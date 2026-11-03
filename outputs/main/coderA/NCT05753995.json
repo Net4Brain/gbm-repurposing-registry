@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05753995",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with a new probable diagnosis of glioblastoma based on MRI imaging."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The evaluation of PET imaging using PET ligand \\[18F\\]JNJ-64413739 or a \\[18F\\] labeled equivalent in vivo in patients."},
+      {"field": "arms", "quote": "single arm: for diagnostic (interventions: Diagnostic Test: PET imaging)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "prior to initiation of specific tumor therapy and prior to any surgery (including biopsy)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[18F]JNJ-64413739",
+      "active_moiety": "18f-jnj-64413739",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The evaluation of PET imaging using PET ligand \\[18F\\]JNJ-64413739 or a \\[18F\\] labeled equivalent in vivo in patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled P2X7 receptor PET tracer (diagnostic imaging of proinflammatory microglia)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["single arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA (excluded at S3 by script). Diagnostic PET imaging study only; the tracer [18F]JNJ-64413739 is a diagnostic agent, no therapeutic agent. P2X7 receptor PET uptake is an imaging-only marker, not a tumour molecular biomarker, so not recorded. Arm label taken as 'single arm'. Quotes in the record contain escaped brackets (\\[18F\\]) copied as written."
+}

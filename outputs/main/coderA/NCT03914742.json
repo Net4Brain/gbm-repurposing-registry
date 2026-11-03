@@ -1,0 +1,156 @@
+{
+  "nct_id": "NCT03914742",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients must have IDH1/2-mutant glioma."},
+      {"field": "conditions", "quote": "IDH1 Mutation; IDH2 Mutation; Recurrent Glioblastoma; Recurrent WHO Grade II Glioma; Recurrent WHO Grade III Glioma"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] GBM Arm: Exploratory grade IV patients only BGB290 at Ph II dose for 7 days pre-surgery Progressed following RT + Chemo"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named in conditions and an arm label, but every patient must have IDH1/2-mutant glioma; manual says IDH-mutant-only trials are not_glioblastoma even with a GBM-labelled arm."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Determine the safety and tolerability of the combination of PARP inhibitor BGB-290 (BGB-290) and temozolomide (TMZ) in patients with recurrent IDH1/2 mutant glioma"},
+      {"field": "interventions", "quote": "[DRUG] PARP Inhibitor BGB-290 (other names: BGB-290, PARP, Inhibitor BGB-290): Given PO"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "BGB-290 and Temozolomide in Treating Patients With Recurrent Gliomas With IDH1/2 Mutations"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Assess tumor tissue BGB-290 levels, 2HG, and PolyADP-ribosylation (PARylation) in a patient subset treated with drug prior to re-resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Assess tumor tissue BGB-290 levels, 2HG, and PolyADP-ribosylation (PARylation) in a patient subset treated with drug prior to re-resection."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PARP Inhibitor BGB-290",
+      "active_moiety": "pamiparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Determine the safety and tolerability of the combination of PARP inhibitor BGB-290 (BGB-290) and temozolomide (TMZ) in patients with recurrent IDH1/2 mutant glioma"},
+        {"field": "outcomes", "quote": "Any DLT must be a toxicity considered at least possibly related to pamiparib (BGB-290) or TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (pamiparib, BGB-290)",
+      "stated_antitumour_mechanism": "BGB-290 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1: Dose Finding",
+        "Phase 2: Arm A Alkylator-resistant",
+        "Phase 2: Arm B NOT Alkylator-resistant",
+        "GBM Arm",
+        "Surgical Arm"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Temozolomide (other names: Temodar, Methazolastone): Given PO"},
+        {"field": "detailed_description", "quote": "PHASE II: Patients receive PARP inhibitor BGB-290 PO BID on days 1-28 and temozolomide PO QD on the schedule established in Phase I."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1: Dose Finding",
+        "Phase 2: Arm A Alkylator-resistant",
+        "Phase 2: Arm B NOT Alkylator-resistant",
+        "GBM Arm",
+        "Surgical Arm"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "pamiparib",
+      "source_quote": {"field": "eligibility", "quote": "IDH1/2 mutations must be associated with neomorphic activity of the encoded proteins (i.e. IDH1 R132, IDH2 R172, IDH2 R140, IDH1 R100, IDH1 G97, IDH1 Y139)."},
+      "flag": {"uncertain": true, "reason": "IDH1/2-mutant (neomorphic, 2HG-producing) selection for a PARP inhibitor implies a synthetic-lethality rationale, but the record does not state the mechanistic link explicitly; IDH-mutant here is a selection marker, not a GBM-defining IDH-wildtype criterion."},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have documented molecular 1p/19q and MGMT testing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q codeletion testing",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have documented molecular 1p/19q and MGMT testing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "2-hydroxyglutarate (2HG) in tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Quantify 2-hydroxyglutarate (2HG) in archival formalin-fixed paraffin-embedded (FFPE) specimens via liquid chromatography mass spectrometry (LC-MS) detection and correlate with treatment response."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PolyADP-ribosylation (PARylation) in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pamiparib",
+      "source_quote": {"field": "detailed_description", "quote": "Assess tumor tissue BGB-290 levels, 2HG, and PolyADP-ribosylation (PARylation) in a patient subset treated with drug prior to re-resection."},
+      "flag": {"uncertain": false},
+      "arms": ["Surgical Arm"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Whole-exome sequencing, RNA sequencing and methylation profiling of tumour",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Correlate response with 2HG levels, somatic alterations, gene expression/methylation patterns in FFPE tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "All patients must have IDH1/2-mutant glioma (WHO grade II-IV); the 'GBM Arm' and 'Recurrent Glioblastoma' condition refer to IDH-mutant grade IV glioma (historical usage), so coded not_glioblastoma per manual 1.1 note, flagged for adjudication. Temozolomide is given in every arm with a de-escalating schedule in Phase 1 to find a tolerable combination dose; coded soc_backbone (dose adaptation is for tolerability, not a TMZ schedule question) - adjudicator may consider established_therapy_experiment. MGMT and 1p/19q testing must be documented at entry but no particular status is required, so coded exploratory_correlative rather than eligibility."
+}

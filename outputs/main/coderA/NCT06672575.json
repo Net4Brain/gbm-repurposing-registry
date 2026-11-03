@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06672575",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosis of Glioblastoma IDH-wildtype, WHO Grade 4 consistent with WHO CNS 2021 criteria. This will include patients with a diagnosis of molecular glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants will be enrolled in either Phase 1 or Phase 2 depending on when they join the study. (interventions: Drug: Ivonescimab)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase I/II Study of IVONESCIMAB in Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ivonescimab",
+      "active_moiety": "ivonescimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The goal of Phase 2 of this clinical research study is to learn if the recommended Phase 2 dose of ivonescimab found in Phase 1 can help to control the disease."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "bispecific anti-PD-1/VEGF monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment with Ivonescimab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Diagnosis of Glioblastoma IDH-wildtype, WHO Grade 4 consistent with WHO CNS 2021 criteria."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm phase I/II of ivonescimab monotherapy in recurrent IDH-wildtype glioblastoma. IDH-wildtype is diagnostic only (never candidate-matched). Prior anti-VEGF or anti-PD-1/PD-L1 therapy is an exclusion (treatment history, not a biomarker). No PK or pharmacodynamic sampling described."
+}

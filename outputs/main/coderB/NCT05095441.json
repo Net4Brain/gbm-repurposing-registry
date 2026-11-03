@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT05095441",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor; Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Participants must have histopathologically confirmed recurrent supratentorial glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 1 Open-Label Study of Genetically Engineered Oncolytic HSV-1 (C5252) Expressing IL-12 and Anti-PD-1 Antibody in Patients With Recurrent or Progressive Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have histopathologically confirmed recurrent supratentorial glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure anti-PD-1 antibody concentration in blood using Anti-PD-1 antibody ELISA test and IL-12 concentration in blood using IL-12p70 ELISA test."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Evaluate blood cytokines: Measure blood cytokines using MSD V-Plex Electrochemiluminescence Immunoassay test."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "C5252",
+      "active_moiety": "oncolytic herpes simplex virus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "A Phase 1 Open-Label Study of Genetically Engineered Oncolytic HSV-1 (C5252) Expressing IL-12 and Anti-PD-1 Antibody in Patients With Recurrent or Progressive Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "genetically engineered oncolytic HSV-1 expressing IL-12 and anti-PD-1 antibody (MVR-C5252)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part 1: Dose Escalation", "Part 2: Dose Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Oncolytic virus (excluded intervention type); the transgene products (IL-12, anti-PD-1 antibody) are payloads, not separately administered agents. Target engagement coded unclear: blood cytokines and lymphocyte profiling are exploratory 'other' outcomes, but there is no candidate agent."
+}

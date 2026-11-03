@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT06613841",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; Glioblastoma Multiforme of Brain"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a non-therapeutic trial in that imaging will not be used to direct treatment decisions."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "metabolic phenotyping of treatment naïve and recurrent GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fluciclovine F18",
+      "active_moiety": "fluciclovine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "interventions: Drug: Fluciclovine F18"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET tracer (isotope 18F)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imaging Cohort"]
+    },
+    {
+      "agent_name_registered": "18F-FDG",
+      "active_moiety": "fludeoxyglucose",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Subsequently, the subjects will undergo injection of up to 10 mCi of 18F-FDG followed by a static 20-minute scan"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled glucose analogue PET tracer (isotope 18F)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imaging Cohort"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 non-therapeutic PET/MRI imaging study; both tracers are diagnostic agents, so no candidate. 18F-FDG is not a registered intervention but the protocol text says every participant receives it, so it is listed. Gene expression/RNA-seq/proteomics of metabolism are correlative laboratory assays, not coded as biomarkers. cns5_terminology historical because the conditions use 'Glioblastoma Multiforme'."
+}

@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT05091866",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Gliosarcoma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients must have pathologic confirmation of a glioblastoma or gliosarcoma diagnosis at initial surgery or second or later surgery"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Progesterone may help control tumor growth and spread in patients with glioblastoma."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Treatment (progesterone): Patients receive progesterone SC QD for up to 24 weeks in the absence of disease progression or unacceptable toxicity."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Natural Progesterone for the Treatment of Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "This analysis will be performed to determine what plasma drug levels can be achieved in recurrent glioblastoma (GBM) patients with subcutaneous administration of natural progesterone"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To determine if the absolute values or changes in the level of serum biomarkers correlates with response to daily subcutaneous natural progesterone."},
+      {"field": "outcomes", "quote": "Original tumor and any recurrent tumor samples will be assessed for progesterone receptor expression levels by immunohistochemistry and these results will be correlated with response assessment to determine whether there is any correlation."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Therapeutic Progesterone",
+      "active_moiety": "progesterone",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Treatment (progesterone): Patients receive progesterone SC QD for up to 24 weeks in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "natural progestogen steroid hormone, given subcutaneously",
+      "stated_antitumour_mechanism": "Progesterone may help control tumor growth and spread",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (progesterone)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "progesterone receptor expression (IHC) in tumour",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "progesterone",
+      "source_quote": {"field": "outcomes", "quote": "Original tumor and any recurrent tumor samples will be assessed for progesterone receptor expression levels by immunohistochemistry and these results will be correlated with response assessment to determine whether there is any correlation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour mutations and genomic losses/gains",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Each of the tumor mutational and genomic loss/gain factors will be scored and these results will be correlated with response assessment to determine whether there is any correlation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "serum biomarkers (YKL-40, MMP-9, GFAP, CRP, soluble CD14, soluble CD23)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To determine if the absolute values or changes in the level of serum biomarkers correlates with response to daily subcutaneous natural progesterone."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase EARLY_PHASE1 (translational subset). PK is plasma only, so tumour_pk_planned no. Target engagement coded unclear: serial serum biomarkers (YKL-40, MMP-9, GFAP, CRP, sCD14, sCD23) are planned but not linked to progesterone or its target; tumour PR expression is a baseline correlative marker, not a pharmacodynamic measurement. Serum markers grouped in one row; CRP and soluble CD14/CD23 are systemic inflammatory rather than strictly tumour markers. formulation_flag new_route for subcutaneous natural progesterone is a judgement (record frames it as subcutaneous aqueous formulation); could be none."
+}

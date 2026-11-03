@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT04854044",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Recurrent Gliosarcoma; Recurrent Supratentorial Glioblastoma; Supratentorial Gliosarcoma"},
+      {"field": "eligibility", "quote": "Participants must have histologically proven glioblastoma or gliosarcoma which is progressive or recurrent following radiation therapy +/- chemotherapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "To determine the safety and tolerability of Akt/ERK Inhibitor ONC201 (ONC201) in combination with radiotherapy before a tumor resection in recurrent glioblastoma (GBM) patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "ONC201 and Radiation Therapy Before Surgery for the Treatment of Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess the ability of ONC201 to inhibit Akt by evaluating progressive disease (PD) markers by immunohistochemistry such as Sox2, Oct3/4, Nanog, Akt and p-Akt, GSK3 and pGSK3alpha."},
+      {"field": "outcomes", "quote": "Changes in markers pre- and post- treatment will be assessed using paired t-tests or Wilcoxon signed rank test."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Akt/ERK Inhibitor ONC201",
+      "active_moiety": "onc201",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This phase I trial studies the effects of ONC201 in combination with standard of care radiation therapy in treating patients with glioblastoma that has come back (recurrent)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational imipridone; registered as Akt/ERK inhibitor ONC201 (TIC10)",
+      "stated_antitumour_mechanism": "Akt/ERK inhibition; may stop tumour growth by blocking enzymes needed for cell growth; decrease glioblastoma-initiating cells",
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (ONC201, radiation therapy, resection)", "Arm II (ONC201, radiation therapy, resection)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Akt/p-Akt and GSK3/pGSK3alpha (immunohistochemistry pharmacodynamic markers)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "onc201",
+      "source_quote": {"field": "detailed_description", "quote": "To assess the ability of ONC201 to inhibit Akt by evaluating progressive disease (PD) markers by immunohistochemistry such as Sox2, Oct3/4, Nanog, Akt and p-Akt, GSK3 and pGSK3alpha."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "glioma stem cell markers (Sox2, Oct3/4, Nanog; RNA-Seq)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To determine the ability of ONC201 to decrease glioblastoma-initiating cells as determined by expression of glioma stem cells using ribonucleic acid-sequencing (RNA-Seq) of treated brain tumor tissues compared to non-treated brain tumor tissues."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "DRD2/DRD5 expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "onc201",
+      "source_quote": {"field": "outcomes", "quote": "Pre-treatment archival tumor tissue and post-treatment tumor tissue will be obtained to evaluate other molecular markers of response to ONC201 + RT, including pharmacodynamic markers such as DRD2 and DRD5."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both registered arms are EXPERIMENTAL and both receive ONC201; Arm II receives no pre-operative ONC201 and its resected tissue serves as the non-treated comparison, so control_arm_from_other_arms is yes. ONC201 role is experimental in both arms (pre-op in Arm I, post-op only in Arm II). The record never states an INN, so active_moiety is the development code onc201. DRD2/DRD5 are coded candidate_matched because the record calls them pharmacodynamic markers of ONC201; the record itself describes ONC201 as an Akt/ERK inhibitor. No biomarker is an entry requirement. Radiotherapy and resection are not agents."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07145112",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed World Health Organization (WHO) 2021 defined glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Lomustine (other names: CCNU, Gleostine): Given orally (PO)"},
+      {"field": "detailed_description", "quote": "Approximately 7 days following LITT, lomustine is administered per standard of care on Day 1 for a total of one cycle."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Lomustine is an established GBM therapy given per standard of care; tested only in the new sequence after LITT (device). Could be read as the tested element or as backbone; either way not a candidate, but adjudicate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Laser Interstitial Thermal Therapy (LITT) and Lomustine (CCNU) for Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "evaluating the safety and feasibility of laser interstitial thermal therapy (LITT) followed by lomustine (CCNU) for recurrent glioblastoma in adults"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Established GBM therapy; coded as being tested in a new setting (after LITT) rather than as plain backbone. Neither makes it a candidate."},
+      "arms": ["Laser interstitial thermal therapy (LITT) + Lomustine (CCNU)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm safety/feasibility of LITT (device) followed by one cycle of standard lomustine. Record gives no sign that LITT enables drug delivery or activation, so device_dependent is false. No candidate under the manual (established therapy only)."
+}

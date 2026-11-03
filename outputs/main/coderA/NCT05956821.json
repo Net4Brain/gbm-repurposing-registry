@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT05956821",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Anaplastic Astrocytoma; Fibrillary Astrocytomas; Oligodendroglioma; Diffuse Intrinsic Brainstem Glioma; Diffuse Intrinsic Pontine Glioma; DIPG Brain Tumor; H3 K27M"},
+      {"field": "eligibility", "quote": "Documented histologic diagnosis of relapsed or refractory glioblastoma multiforme (GBM), anaplastic astrocytoma (AA), fibrillary astrocytomas (FA), pilomyxoid astrocytoma (PXA), oligodendroglioma, or anaplastic mixed oligoastrocytoma (AOA)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study assesses the safety and efficacy of repeat monthly dosing of super-selective intra-arterial cerebral infusion (SIACI) of cetuximab and bevacizumab in patients \\< 22 years of age."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Treatment of Relapsed/Refractory Intracranial Glioma in Patients Under 22 Years of Age"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SIACI of cetuximab and bevacizumab (erbitux)",
+      "active_moiety": "cetuximab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive monthly dosing of bevacizumab (15 mg/kg) and cetuximab (200mg/m2)"},
+        {"field": "arms", "quote": "Participants in this group will receive Cetuximab and Bevacizumab infusion into an artery each month for up to approximately one year."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SIACI_cetuximab_bevacizumab",
+      "drug_class_hint": "anti-EGFR monoclonal antibody, given super-selective intra-arterial",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SIACI of cetuximab and bevacizumab"]
+    },
+    {
+      "agent_name_registered": "SIACI of cetuximab and bevacizumab (avastin)",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "title", "quote": "Phase I/II Trial of Repeat Dosing of Super-Selective Intraarterial Infusion of Erbitux (Cetuximab) and Avastin (Bevacizumab) for Treatment of Relapsed/Refractory Intracranial Glioma in Patients Under 22 Years of Age"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SIACI_cetuximab_bevacizumab",
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy), given super-selective intra-arterial",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Bevacizumab is an established GBM therapy given by a new intra-arterial route (rule 6), but it is co-investigated with cetuximab in a single regimen and could instead be experimental_combination (candidate)."}
+    ,
+      "arms": ["SIACI of cetuximab and bevacizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single registered intervention covers both cetuximab and bevacizumab; split into two agent rows. Intra-arterial route (SIACI) for both agents. Population <22 years (stdAges CHILD, ADULT) with mixed gliomas including GBM and DIPG. 'H3 K27M' appears only in the conditions list, not as an eligibility requirement or in design/outcomes, so no biomarker row was recorded. If bevacizumab is judged experimental_combination, cetuximab role would become experimental_combination too."
+}

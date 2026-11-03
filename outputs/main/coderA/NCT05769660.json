@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05769660",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Diagnosed with GBM according to the World Health Organization(WHO) criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Administer BEY1107 in combination with Temozolomide, 4-weeks as 1 cycle."},
+      {"field": "interventions", "quote": "BEY1107: Administer twice daily, PO, 4-week continuous dose."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with progression or recurrence, with no response to the initial standard of care after being confirmed as GBM on histopathology."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma concentrations at each time point and PK parameters Cmax of BEY1107 will be assessed in the PK sampling cohort"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BEY1107",
+      "active_moiety": "bey1107",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "A Study to Evaluate Safety and Efficacy of BEY1107 in Combination with Temozolomide in Patients with Recurrent or Progressive Glioblastoma Multiforme (GBM)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "BEY1107, investigational oral small molecule (mechanism not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BEY1107 + Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide: Administer once daily, PO, 5-day continuous dose, followed by 23-day rest period."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BEY1107 + Temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm dose-escalation of BEY1107 on a standard 5/28 temozolomide schedule; temozolomide treated as backbone, not the investigational question. PK is plasma only."
+}

@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT04757662",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Grade III Astrocytoma; Grade IV Astrocytoma; Astrocytoma, Grade IV; Astrocytoma, Grade III"},
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of newly diagnosed supratentorial high-grade astrocytoma (WHO grade III-IV), excluding astrocytoma of brainstem and cerebellum."},
+      {"field": "eligibility", "quote": "Gliosarcoma or other subvariants are allowed, including the newly defined \"diffuse astrocytoma, IDH-wildtype, with molecular features of glioblastoma, WHO grade IV\" (Brat et al., 2018)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to investigate the impact of targeting MDSCs in newly diagnosed IDH-wildtype grade III-IV astrocytoma by combining tadalafil with standard of care radiation therapy (RT) and temozolomide (TMZ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of newly diagnosed supratentorial high-grade astrocytoma (WHO grade III-IV), excluding astrocytoma of brainstem and cerebellum."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Relative change of MDSCs in peripheral blood"},
+      {"field": "brief_summary", "quote": "Tadalafil, an FDA-approved drug with inexpensive cost and excellent safety profile, has been shown to effectively reduce MDSCs and restore T-cell activation in the peripheral blood and in the tumor microenvironment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tadalafil",
+      "active_moiety": "tadalafil",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Tadalafil will be given orally once daily for a total of 60 days at a weight-normalized dose as follows:"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PDE5 inhibitor (erectile dysfunction / pulmonary arterial hypertension drug)",
+      "stated_antitumour_mechanism": "Tadalafil, an FDA-approved drug with inexpensive cost and excellent safety profile, has been shown to effectively reduce MDSCs and restore T-cell activation in the peripheral blood and in the tumor microenvironment.",
+      "flag": {"uncertain": false},
+      "arms": ["Tadalafil"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Concurrent temozolomide (TMZ) will be administered as per standard of care"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care for glioblastoma",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tadalafil"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "High-grade glioma with known IDH mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population: newly diagnosed IDH-wildtype WHO grade III-IV astrocytoma; grade IV astrocytoma (conditions) and 'molecular features of glioblastoma' (inclusion) name glioblastoma, while grade III is also eligible, so mixed_glioma_gbm_named. IDH-wildtype required (IDH-mutant excluded) so cns5 terminology, though WHO 2016-era wording (Brat 2018, grade III/IV) is also used. Temozolomide not a registered intervention but given to all per standard of care. Target engagement: primary outcome is change in peripheral-blood MDSCs, the stated tadalafil mechanism. Tumour-treating fields permitted per routine care (device, not listed). Heterogeneity diffusion imaging outcome is imaging only."
+}

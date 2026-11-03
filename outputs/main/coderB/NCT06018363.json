@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT06018363",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Gliomas; High-Grade Gliomas; GBM"},
+      {"field": "eligibility", "quote": "histopathological confirmation of high-grade glioma (WHO grade 3-4)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Allogenic B7-H3 CAR-γδT cell(QH104)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Recurrent/Progressive High Grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetics: copy number of B7-H3 CAR-γδT cells in cerebrospinal fluid(CSF)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamics: Peak level of cytokines in CSF"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Allogenic B7-H3 CAR-γδT cell(QH104)",
+      "active_moiety": "allogeneic b7-h3 car-γδt cell",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Allogenic B7-H3 CAR-γδT cell(QH104)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic CAR-gamma-delta T cell therapy targeting B7-H3 (QH104)",
+      "stated_antitumour_mechanism": "B7-H3 is a potential immunotherapeutic target; gamma-delta T cells recognise tumour cells without MHC restriction",
+      "flag": {"uncertain": false},
+      "arms": ["Patients with R/R HGG"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "the expression of B7-H3 is positive"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Cell therapy only (excluded type), so no candidate; B7-H3 eligibility matches the CAR-T target but the CAR-T is not a candidate, hence candidate_matched false. CSF PK/PD endpoints are for the cell product and are coded yes for completeness. Eligibility is HGG WHO grade 3-4 with GBM named in conditions."
+}

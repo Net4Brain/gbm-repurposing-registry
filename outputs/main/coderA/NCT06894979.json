@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT06894979",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Childhood Astrocytoma; Childhood Diffuse Intrinsic Pontine Glioma; Childhood Diffuse Midline Glioma; Childhood Glioblastoma; Childhood Malignant Glioma"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed HGG (including diffuse hemispheric glioma, H3 G34-mutant; diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype; astrocytoma; IDH-mutant; or glioblastoma, IDH-wildtype)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "AZD1390 is in a class of medications called kinase inhibitors. It works by blocking the signals that cause cancer cells to repair deoxyribonucleic acid damage caused by cancer treatments, such as radiation therapy."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Treatment (AZD1390 and radiation therapy)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed primary high-grade glioma (HGG), diffuse midline glioma (DMG) (excluding primary spinal tumors), or diffuse intrinsic pontine glioma (DIPG) who are eligible to receive 54-59.4 Gray (Gy) fractionated radiation at 1.8 Gy/day."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiation therapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum serum concentration of AZD1390: Median (min, max) of the maximum serum concentration of AZD1390 assessed at time 0, 2, 4, 6, 8, and 24-hours post dose on cycle 1 day 1."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Evaluate cfDNA in plasma and cerebrospinal fluid (CSF) (when obtained) and pharmacodynamic markers of peripheral blood mononuclear cells (PBMCs) prior, during and after therapy to better understand its correlation with treatment response."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ATM Kinase Inhibitor AZD1390",
+      "active_moiety": "azd1390",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "To define the recommended phase 2 dose of ATM Kinase Inhibitor AZD1390 (AZD1390) when given in combination with radiation for pediatric supratentorial high-grade gliomas."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational ATM kinase inhibitor (radiosensitiser)",
+      "stated_antitumour_mechanism": "blocks signals that cause cancer cells to repair DNA damage caused by radiation therapy (ATM kinase inhibition)",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (AZD1390 and radiation therapy)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with BRAFV600E mutations are excluded"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "alternative lengthening of telomeres (ALT) phenotype",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Alternative lengthening of telomeres phenotype: Frequency (%) of patients with alternative lengthening of telomeres (ALT) phenotype."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "homologous recombination deficiency, mutational signatures, TP53/DNA repair gene mutational status",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "azd1390",
+      "source_quote": {"field": "detailed_description", "quote": "including homologous recombination deficiency (HRD) and associated mutational signatures and TP53/related DNA repair gene mutational status, with response to AZD1390 and radiation therapy"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA (plasma and CSF)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Circulating tumor DNA in plasma and CSF (when obtained) and pharmacodynamic markers of peripheral blood mononuclear cells"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Predominantly paediatric trial (Ages CHILD, ADULT; age 12 months to <22 years), so mixed_age. Glioblastoma, IDH-wildtype is named in conditions and inclusion alongside DMG/DIPG/other HGG, so mixed_glioma_gbm_named with cns5 terminology. PK is serum only (tumour_pk_planned no). Target engagement coded yes on the basis of planned pharmacodynamic markers in PBMCs before/during/after therapy, although the markers are not specified. H3 K27/G34 and IDH status appear only as diagnostic categories of eligible tumours, not as entry requirements, so not listed as biomarker rows. BRAF V600E is an exclusion criterion (entry requirement), not matched to the ATM inhibitor."
+}

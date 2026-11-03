@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04937244",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Glioma of Brain"},
+      {"field": "eligibility", "quote": "Must have a suspected or biopsy-proven glioma (World Health Organization grade II or IV), new or recurrent"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Visualization of tumor tissue with 5ALA will be done in the operating room to localize neoplastic tissue."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Patients with new or recurrent malignant gliomas"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5ALA exoscopic fluorescence filter",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Patients (experimental group) will receive 5ALA treatment before operation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "5-ALA fluorescence-guided resection imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with new or recurrent malignant gliomas"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Malignant glioma (WHO grade II or IV) with no explicit glioblastoma mention in conditions, title, inclusion criteria or arm label. 5-ALA is used only for fluorescence visualisation during resection; the registered intervention is a diagnostic test (exoscope filter) and the 5-ALA row is listed for transparency."
+}

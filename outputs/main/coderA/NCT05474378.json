@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05474378",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "B7-H3 Chimeric Antigen Receptor T Cells (B7-H3CART) in Recurrent Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histologically confirmed high grade (WHO Grade IV) glioma including but not limited to glioblastoma, gliosarcoma, glioblastoma with oligodendroglial features, glioblastoma with PNET features, tested as IDH wild-type, as per revised WHO 2021 criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "B7-H3CART (other names: B7H3-CAR T): B7-H3CART will be administered administered locoregionally (either ICV or both ICV and intratumorally (IT)) at one of the following doses:"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must also have evidence of tumor recurrence/progression by MRI (RANO criteria) after standard front-line therapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "B7-H3CART",
+      "active_moiety": "b7-h3 car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is an open label, non-randomized, single site Phase I study to test the manufacturing feasibility and safety of locoregional (LR) administration of B7-H3CART into the central nervous system of adult subjects with recurrent IDH wild-type GBM"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous B7-H3-directed chimeric antigen receptor T-cell therapy, locoregional (ICV/intratumoral)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose escalation", "Dose Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "glioblastoma with PNET features, tested as IDH wild-type, as per revised WHO 2021 criteria."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR-T cell therapy only (excluded intervention type); no pharmacological candidate. Conditions field is generic ('Brain and Nervous System') but glioblastoma is named in title and inclusion. Two sequential cohorts (escalation, expansion), no control. No B7-H3 expression requirement stated."
+}

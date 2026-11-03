@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT07616986",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Glioblastoma - Category"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma, IDH-wildtype, regardless of MGMT status"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] LITT: Patients undergoing MR-guided Laser Interstitial Thermal Therapy (LITT) between pre-RT MRI and RT."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Scheduled for adjuvant radio-chemotherapy at University Hospital of Bern"},
+      {"field": "title", "quote": "Laser Interstitial Thermal Therapy for Ultra-Early, Pre-Radiotherapy Glioblastoma Recurrence"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed glioblastoma, IDH-wildtype, regardless of MGMT status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device-only (LITT) feasibility study, phase NA; no drug interventions registered (adjuvant radio-chemotherapy is unnamed background care). Setting coded newly_diagnosed because patients are in the first-line pre-radiotherapy window after initial resection, although the lesion treated is an 'ultra-early recurrence'; could be argued as recurrent. MGMT explicitly not required, so not recorded as a biomarker. Controls are registered NO_INTERVENTION arms."
+}

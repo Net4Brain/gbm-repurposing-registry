@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06177964",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Supratentorial Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed recurrent supratentorial glioblastoma (WHO grade 4) (high grade glioma with molecular features of glioblastoma will be eligible)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Arm 1 is Lerapolturev and Arm 2 is Lomustine. After the recurrent tumor has been removed by surgery, subjects will be randomly assigned to receive either the FDA-approved chemotherapy (lomustine) or the study drug (lerapolturev)."},
+      {"field": "interventions", "quote": "Lerapolturev (intratumoral) will be dosed at 2x108 TCID50 in 3.0 mL x 2 doses (total dose 4x108 TCID50) by Convection Enhanced Delivery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Supratentorial Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lerapolturev",
+      "active_moiety": "lerapolturev",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Lerapolturev (intratumoral) will be dosed at 2x108 TCID50 in 3.0 mL x 2 doses (total dose 4x108 TCID50) by Convection Enhanced Delivery."},
+        {"field": "eligibility", "quote": "Prior CDC-recommended vaccination series against PV and has received a boost immunization with trivalent Poliovirus Vaccine Inactivated (IPOL®) (Sanofi-Pasteur SA) at least 1 week, but less than 6 weeks, prior to administration of lerapolturev."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic virus (recombinant polio-rhinovirus chimera, PVSRIPO), intratumoral CED and cervical perilymphatic injection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lerapolturev Arm (Stage 1)", "Lerapolturev Arm (Stage 2 - Arm 1)"]
+    },
+    {
+      "agent_name_registered": "Lomustine Pill",
+      "active_moiety": "lomustine",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "Following maximal safe resection of their tumor recurrence subjects will receive Lomustine as a single oral dose of 110 mg/m2 every six weeks for up to 9 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lomustone (Stage 2 Arm 2)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Lerapolturev (PVSRIPO) is an oncolytic virus -> excluded intervention type; lomustine is the active comparator only. No pharmacological candidate. MGMT promoter status appears only in an exclusion criterion about required prior chemotherapy, not as an entry requirement, so not recorded as a biomarker. Inactivated poliovirus vaccine booster is a pre-entry requirement, not a registered or study-administered intervention, so not listed. cns5_terminology: 'molecular features of glioblastoma' hints at WHO CNS5 but no explicit IDH-wildtype requirement or WHO 2021 citation, coded unclear. Arm label 'Lomustone' copied as registered."
+}

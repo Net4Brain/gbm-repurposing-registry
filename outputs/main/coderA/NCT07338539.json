@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT07338539",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with biopsy proven IDH- wild type GBM or imaging defined GBM"},
+      {"field": "title", "quote": "BIO-SHORT: Hypofractionated RT for Poor-Prognosis GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The test arms will comprise of dose escalated hypo-fractionated RT (5 fractions/10 fractions). The usage of TMZ will be standard across both arms."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Unfit for surgery and referred for direct RT"},
+      {"field": "eligibility", "quote": "Prior administration of any systemic therapy directed against glioma (eg.Temozolomide, CCNU, Bevacizumab)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The usage of TMZ will be standard across both arms."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Arm", "Dose-escalated hypofractionated RT"]
+    },
+    {
+      "agent_name_registered": "F-DOPA PET imaging",
+      "active_moiety": "18f-fdopa",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "with the addition of pre-treatment F-DOPA PET imaging performed according to institutional consensus protocols."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-fluorodopa PET tracer used for radiotherapy target delineation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose-escalated hypofractionated RT"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with biopsy proven IDH- wild type GBM or imaging defined GBM"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histone altered glioma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA randomised radiotherapy-fractionation trial; temozolomide is given in both arms (not a registered intervention, but every patient receives it) as soc_backbone, and the only experimental variable is the radiotherapy schedule, so S6 fails with no pharmacological candidate. F-DOPA PET is part of the registered experimental radiation intervention and listed as diagnostic_agent. IDH-mutant and histone-altered gliomas are excluded (exclusion criteria), coded as eligibility rows for IDH (wildtype required where biopsied; imaging-defined GBM also allowed) and H3 alteration (histone alteration not specified as H3K27M). Treatment setting newly_diagnosed: no prior glioma-directed therapy, referred for direct RT."
+}

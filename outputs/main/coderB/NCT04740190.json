@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT04740190",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioma; Recurrent Glioblastoma; Poly ADP Ribose Polymerase (PARP) Inhibitor; PTEN Gene Inactivation; IDH Mutation"},
+      {"field": "eligibility", "quote": "Histopathologically proven diagnosis of WHO grade 3-4 glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "the current study purposes testing of talazoparib in a biomarker-enriched group of glioma. Carboplatin will be added to sensitize the tumor to PARP inhibition"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Combination Talazoparib - Carboplatin for Recurrent High-grade Glioma With DNA Damage Repair Deficiency (DDRd)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["carboplatin", "low-dose whole brain radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Progression free survival in 6 months: Free from disease progression based on RANO criteria"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Objective response rate: The percentage of patients with radiologically complete or partial response as determined by the investigator according to RANO criteria"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Talazoparib",
+      "active_moiety": "talazoparib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the current study purposes testing of talazoparib in a biomarker-enriched group of glioma."},
+        {"field": "arms", "quote": "Single fraction, low dose (2Gy) whole brain radiation therapy, followed by combination talazoparib and carboplatin"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": "In view of the strong biological rationale of employing PARP inhibition in high grade glioma",
+      "flag": {"uncertain": false},
+      "arms": ["interventional arm"]
+    },
+    {
+      "agent_name_registered": "Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Carboplatin will be added to sensitize the tumor to PARP inhibition"},
+        {"field": "interventions", "quote": "low dose whole brain radiation, followed by combination talazoparib and carboplatin"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like cytotoxic chemotherapy",
+      "stated_antitumour_mechanism": "Carboplatin will be added to sensitize the tumor to PARP inhibition",
+      "flag": {"uncertain": false},
+      "arms": ["interventional arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "talazoparib",
+      "source_quote": {"field": "eligibility", "quote": "IDH mutation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "talazoparib",
+      "source_quote": {"field": "eligibility", "quote": "PTEN mutation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "BRCAness / DNA damage repair gene alterations (ATM, ATR, BRCA1, BRCA2, etc.)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "talazoparib",
+      "source_quote": {"field": "eligibility", "quote": "\"BRCAness\" signature (ATM, ATR, BAP1, BRCA1, BRCA2, CDK12, CHEK1, CHEK2, FANCA, FANCC, FANCD2, FANCE, FANCF, PALB2, NGS1, WRN, RAD50, RAD51B, RAD51C, RAD51D, MRE11A, BLM, BRIP1)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligibility requires at least one DNA damage repair deficiency aberration (IDH mutation, PTEN mutation or BRCAness signature); all are matched to the PARP inhibitor talazoparib as the DDR-deficiency rationale. IDH mutation here is an IDH-mutant (not wildtype) marker used as a DDR-deficiency surrogate, so IDH-mutant tumours are explicitly allowed (historical terminology). Low-dose whole brain radiotherapy is given to increase drug penetration and is not an agent. Registry intervention list shows only Talazoparib with carboplatin as an alias."
+}

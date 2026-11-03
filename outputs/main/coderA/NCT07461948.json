@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT07461948",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Documentation of a confirmed or suspected diagnosis of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The participant is scheduled to undergo standard of care surgical tumor resection and/or biopsy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ferumoxytol",
+      "active_moiety": "ferumoxytol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Fe-MRI uses ferumoxytol as a contrast agent with MRI."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "iron oxide nanoparticle used as MRI contrast agent (licensed for iron deficiency anaemia)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic (CEST MRI, DR-CSI, Fe-MRI)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging study (registered as Phase 3) using ferumoxytol only as an MRI contrast agent; no therapeutic agent, so S6 fails. Treatment setting not stated (patients scheduled for surgery/biopsy, glioblastoma confirmed or suspected); coded unclear. Imaging correlations with T-cell and macrophage densities are imaging/immune-cell measures, not tumour molecular biomarkers; none listed."
+}

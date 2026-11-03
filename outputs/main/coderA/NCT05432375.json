@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT05432375",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients must have Grade 4 isocitrate dehydrogenase (IDH) wild type GBM with local pathology confirmed MGMT-promoter unmethylated status."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The study is designed as an open label, multi-center, Phase 1 study of single agent tinostamustine, used as adjuvant treatment in patients with newly diagnosed GBM who are MGMT unmethylated and have completed concomitant treatment with temozolomide and radiation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "as Adjuvant Treatment in Patients With Newly Diagnosed Unmethylated MGMT-promoter Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic assessment: plasma concentrations of tinostamustine"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tinostamustine",
+      "active_moiety": "tinostamustine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Tinostamustine: Infusion delivered over 60 minutes"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational alkylating agent / HDAC inhibitor fusion molecule (bendamustine-vorinostat hybrid, EDO-S101)",
+      "stated_antitumour_mechanism": "a Novel Alkylating and Deacetylase Inhibiting Molecule",
+      "flag": {"uncertain": false},
+      "arms": ["Tinostamustine"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have Grade 4 isocitrate dehydrogenase (IDH) wild type GBM with local pathology confirmed MGMT-promoter unmethylated status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Confirmed IDH wild type. The presence of an IDH mutation will be exclusionary for study enrolment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). Temozolomide + radiotherapy completed before entry and not given on study (single-agent tinostamustine replaces adjuvant TMZ), so temozolomide not listed as an agent; regimen monotherapy. MGMT-unmethylated eligibility not candidate-matched (tinostamustine is not an MGMT-targeting agent), although the rationale for an alkylator in MGMT-unmethylated tumours could be raised by an adjudicator. PK is plasma-only. Valproate is an exclusion (HDAC activity), not an agent."
+}

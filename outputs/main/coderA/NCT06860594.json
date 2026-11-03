@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT06860594",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "GBM or variants, IDH-wildtype, grade 2-4 (standard curative measures available or not)"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant, grade 2-4 (standard curative measures available or not)"},
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Triapine may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth."},
+      {"field": "interventions", "quote": "[DRUG] Triapine (other names: 3-aminopyridine-2-carboxaldehyde thiosemicarbazone, 3-AP, 3-Apct, OCX-0191, OCX-191, OCX191, PAN-811): Given PO"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have histologically, molecularly, or cytologically confirmed recurrent astrocytic tumors including:"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["intensity-modulated radiation therapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Triapine in plasma and peri-tumoral dialysate will be quantified using a validated liquid chromatography-tandem mass spectrometry assay."},
+      {"field": "detailed_description", "quote": "II. To determine the pharmacokinetics of oral triapine in plasma and the central nervous system (CNS)."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The presence of genetic alterations, expression of RRM2, and other molecular gene expression signatures will be descriptive in relation to tumor response and clinical outcomes."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Triapine",
+      "active_moiety": "triapine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Treatment (IMRT, triapine)"},
+        {"field": "detailed_description", "quote": "I. To identify the safety and maximally tolerated dose (MTD) of oral triapine used in combination with radiation therapy for patients with recurrent glioblastoma (GBM) or astrocytoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational ribonucleotide reductase inhibitor (thiosemicarbazone, 3-AP)",
+      "stated_antitumour_mechanism": "ribonucleotide reductase (RNR) inhibitor; blocks enzymes needed for cell growth, combined with radiation",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (IMRT, triapine)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "TP53 (p53) mutation",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The correlation of genetic mutations in select genes (e.g., p53, p16, KRAS, and Pi3k/mTOR/AKT) with tumor response and clinical outcomes."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The correlation of genetic mutations in select genes (e.g., p53, p16, KRAS, and Pi3k/mTOR/AKT) with tumor response and clinical outcomes."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "KRAS mutation",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The correlation of genetic mutations in select genes (e.g., p53, p16, KRAS, and Pi3k/mTOR/AKT) with tumor response and clinical outcomes."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The correlation of genetic mutations in select genes (e.g., p53, p16, KRAS, and Pi3k/mTOR/AKT) with tumor response and clinical outcomes."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "RRM2 expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "triapine",
+      "source_quote": {"field": "outcomes", "quote": "The presence of genetic alterations, expression of RRM2, and other molecular gene expression signatures will be descriptive in relation to tumor response and clinical outcomes."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligible histologies include IDH-wildtype GBM, IDH-mutant astrocytoma grade 2-4 and H3-mutant diffuse midline/hemispheric gliomas; IDH and H3 status define allowed histologies rather than a single entry requirement, so no IDH/H3K27M eligibility row was recorded. G6PD is a germline safety marker and is not recorded. Tumour PK coded yes based on peri-tumoral dialysate (microdialysis) and planned CSF sampling. RRM2 (triapine's target subunit, record calls triapine an RNR inhibitor) is a baseline correlative marker, not a pharmacodynamic measurement, so target_engagement coded no."
+}

@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT05734560",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed MGMT Unmethylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated (high grade glioma with molecular features of GBM will be eligible under WHO 4 malignant glioma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] D2C7-IT + 2141-V11: Single D2C7-IT intratumoral infusion (6920 ng/mL in 36 mL) over 72 hours followed by single 2141-V11 infusion (5 dose levels) over 7 hours"},
+      {"field": "brief_summary", "quote": "The word \"investigational\" means the study drugs are still being tested in research studies and are not approved by the U.S. Food and Drug Administration (FDA)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient must have completed standard of care radiation therapy (typically 59.4-60 Gy over approximately 6 weeks duration if under 65 years old and a minimum of 40 Gy over 3 weeks duration if 65 years or older) in combination with TMZ and 2 cycles of post-radiation, adjuvant TMZ."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "D2C7-IT",
+      "active_moiety": "d2c7-it",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "approximately 50 study participants will receive a single infusion of D2C7-IT in the hospital, which is delivered to the tumor margins over 3 days through a catheter placed in the brain"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "d2c7it_2141v11",
+      "drug_class_hint": "investigational immunotoxin (D2C7 antibody fragment - Pseudomonas exotoxin; EGFR/EGFRvIII-targeted) given by convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11"]
+    },
+    {
+      "agent_name_registered": "2141-V11",
+      "active_moiety": "2141-v11",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "followed by a single infusion of 2141-V11 delivered over 7 hours to the tumor margins through the same catheter."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "d2c7it_2141v11",
+      "drug_class_hint": "investigational Fc-engineered anti-CD40 agonist antibody (immunotherapy); intratumoral CED and perilymphatic subcutaneous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated (high grade glioma with molecular features of GBM will be eligible under WHO 4 malignant glioma)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial GBM, WHO grade 4, IDH wildtype, MGMT unmethylated (high grade glioma with molecular features of GBM will be eligible under WHO 4 malignant glioma)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Two investigational agents (D2C7-IT immunotoxin and 2141-V11) in one experimental arm -> both experimental_combination. Both delivered intratumorally by convection-enhanced delivery via catheter (formulation_flag new_route); device_dependent set false because CED is treated as a route rather than device activation, but adjudicator may consider R4. Radiotherapy given within the experimental schedule (regimen combination). Temozolomide/chemoradiation completed before entry and not given on study, so not listed. Mechanisms/targets of D2C7-IT and 2141-V11 are not stated in the record; drug_class_hint from coder knowledge. MGMT unmethylated and IDH-wildtype required; neither candidate-matched."
+}

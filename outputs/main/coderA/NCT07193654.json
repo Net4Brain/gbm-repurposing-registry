@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT07193654",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "title", "quote": "Stupp Treatment With Intrathecal Injection of Thiotepa for Glioblastoma With Advanced Spread"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Stupp plus intrathecal injection of thiotepa"},
+      {"field": "interventions", "quote": "Intrathecal injection of thiotepa: Administered via lumbar puncture or OMMAYA reservoir according to the study protocol."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed WHO grade 4 brain tumor with at least one evaluable lesion, imaging suggesting ventricular or meningeal invasion."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Intrathecal injection of thiotepa",
+      "active_moiety": "thiotepa",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Does the combined treatment of radical radiotherapy, the Stupp regimen (oral temozolomide), and intrathecal injection of thiotepa improve progression-free survival compared to standard treatment alone?"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (intrathecal)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp plus intrathecal injection of thiotepa"]
+    },
+    {
+      "agent_name_registered": "Stupp regimen (oral temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The standard treatment for GBM, which includes surgery, radiotherapy, and chemotherapy with temozolomide (known as the Stupp regimen)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp plus intrathecal injection of thiotepa"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Inclusion says 'WHO grade 4 brain tumor' but conditions and title restrict to glioblastoma; coded gbm_only. Thiotepa is not on the D6 established-GBM-therapy list, so it is the candidate; intrathecal route flagged new_route. Malignant CSF cytology is a clinical criterion, not a molecular biomarker."
+}

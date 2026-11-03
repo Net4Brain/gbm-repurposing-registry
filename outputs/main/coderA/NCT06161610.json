@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06161610",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High Grade Glioma"},
+      {"field": "eligibility", "quote": "Patients with previous pathological diagnosis of 2021 World Health Organization Classification of Central Nervous System Tumors (WHO CNS5) grade 3 or 4 glioma and received standard treatment;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The patients in the intervention group will receive LITT, other treatments, including systematic therapy and radiology therapy, would be not restricted except the craniotomy of resection before tumor progression or emergency."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent High Grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device RCT (laser interstitial thermal therapy vs best medical management), phase NA. Population is WHO CNS5 grade 3 or 4 glioma; glioblastoma is not named in conditions, title, inclusion or arms -> high_grade_glioma_unspecified. 'Grade 4 glioma' here carries an explicit CNS5 citation, so it is not treated as historical glioblastoma terminology (it may include IDH-mutant grade 4 astrocytoma). No drugs registered; background systemic therapy unrestricted and unspecified. Registered ACTIVE_COMPARATOR control."
+}

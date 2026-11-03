@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05121948",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Other solid tumors (eg, carcinoma of unknown primary) with the exception of rapidly progressing neoplasms (eg, pancreatic cancer, glioblastoma, hepatocellular carcinoma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] HC-7366: HC-7366 drug product is an immediate release capsule formulation of HC-7366 potassium salt monohydrate"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "have received at least 1 and no more than 5 prior lines of therapy for metastatic (stage IV) disease"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "based on the safety, tolerability, PK/PD results from Phase 1a"},
+      {"field": "eligibility", "quote": "Two biopsies will be necessary: at baseline (within 15 days prior to study Day 1) and at the time of the first response assessment CT scan at Cycle 3/Day 1 (+7 days)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "HC-7366",
+      "active_moiety": "hc-7366",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Phase 1a Cohort 1 - 10 mg: 10 mg capsules of HC-7366 administered orally once a day"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "first-in-human investigational oral agent (mechanism not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1a Cohort 1 - 10 mg", "Phase 1a Cohort 2 - 20 mg", "Phase 1a Cohort 3 - 40 mg", "Phase 1a Cohort 4 - 75 mg", "Phase 1a Cohort 5 - 125 mg", "Phase 1a Cohort 6 - 150 mg", "Phase 1b Cohort 7 - Dose 1 Chosen for Expansion", "Phase 1b Cohort 8 - Dose 2 Chosen for Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Advanced solid-tumour first-in-human study; glioblastoma appears only as an excluded example of rapidly progressing neoplasms, so gbm_excluded. No named molecular biomarker; biopsies are for unspecified biomarker analysis. Target engagement coded yes from the stated PK/PD use and paired biopsies, though the PD marker is not named."
+}

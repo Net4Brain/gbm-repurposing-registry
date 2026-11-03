@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06757153",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Patients must have histologically or cytologically confirmed glioblastoma(WHO 2021)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "NRG-103 is an oncolytic virus, which can kill GBM cells via three manners."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients have experienced recurrence (RANO 2.0) after previous anti-tumor treatments"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NRG-103",
+      "active_moiety": "oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "NRG-103 is an oncolytic virus, which can kill GBM cells via three manners."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "genetically modified oncolytic adenovirus (gene therapy) expressing transdifferentiation transcription factors",
+      "stated_antitumour_mechanism": "it can enhance the specific recognition and killing effect of oncolytic virus on GBM tumor cells without being limited by tumor gene phenotype, and regulate the immune microenvironment",
+      "flag": {"uncertain": false},
+      "arms": ["NRG-103"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm oncolytic adenovirus gene therapy; excluded intervention type. Registered phase EARLY_PHASE1."
+}

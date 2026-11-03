@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT06016452",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Glioma; Radionecrosis of Brain; High Grade Glioma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histological diagnosis of diffuse glioma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study is being conducted to investigate the ability of the drug Chlorophyllin in the treatment of radionecrosis."},
+      {"field": "outcomes", "quote": "Response rates: Clinical-radiological"},
+      {"field": "detailed_description", "quote": "Chlorophyllin scavenges RT-induced free radicals and reactive oxygen species. It is used as a food colorant and over-the-counter in the USA, Japan, Australia, and China for many years for a variety of health benefits"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Chlorophyllin is given to treat radiation necrosis (a treatment complication), not the tumour; it is also an OTC/food-colourant product of unclear medicine status, though PFS/OS are secondary outcomes and anti-cancer properties are mentioned."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radionecrosis on imaging with new neurological symptoms/ worsening of prior deficits (Stratum A) or"},
+      {"field": "eligibility", "quote": "Disease progression"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chlorophyllin",
+      "active_moiety": "chlorophyllin",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This study is being conducted to investigate the ability of the drug Chlorophyllin in the treatment of radionecrosis."},
+        {"field": "brief_summary", "quote": "Our primary aim of the study is to assess whether CHL will improve the clinical-radiological response rates."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "sodium copper chlorophyllin; semi-synthetic chlorophyll derivative, antioxidant/radioprotective, OTC product and food colourant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Treats radionecrosis rather than tumour; mentions anti-cancer properties and PFS/OS secondary outcomes; also unclear whether it is a licensed medicine or a supplement."},
+      "arms": ["Stratum A (Symptomatic)", "Stratum B (Asymptomatic)"]
+    },
+    {
+      "agent_name_registered": "steroids",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Response rates at 1 month with a combination of steroids and CHL in this study is expected to be 65% as compared to the standard 50% response with the use of dexamethasone alone."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid, standard treatment of radionecrosis/oedema",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (Symptomatic)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Trial treats brain radionecrosis after RT for diffuse glioma, not the tumour itself; chlorophyllin coded supportive, so no candidate (S6). Steroids are not a registered intervention but the Stratum A description states combination of steroids and CHL; listed as supportive dexamethasone (moiety inferred from text; 'steroids' could be other corticosteroids). Treatment setting is post-radiotherapy radionecrosis with disease progression excluded; neither newly diagnosed nor recurrent clearly. Imaging 'biological response' outcome concerns radionecrosis, not target engagement."
+}

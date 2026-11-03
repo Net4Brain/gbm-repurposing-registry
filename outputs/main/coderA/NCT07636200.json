@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07636200",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Solid Tumor Cancer; Stage IV Cancer (Solid Tumors Only); Glioblastoma; Stage III Ovarian Cancer; Small Cell Lung Cancer Extensive Stage"},
+      {"field": "eligibility", "quote": "Have been diagnosed with either (a) Stage IV metastatic cancer of any solid tumor type, (b) Stage III ovarian cancer that has recurred, (c) 'extensive stage' small cell lung cancer, or (d) glioblastomas of any staging"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The EASE intervention includes 6-sessions of structured writing designed to reduce fear of progression (FoP) and cancer-related trauma symptoms in adults with advanced cancer."},
+      {"field": "arms", "quote": "Usual Care (UC) consists of access to supportive care providers available at treatment sites."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "glioblastomas of any staging"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioral written-exposure intervention versus usual care for fear of progression; no drug or biologic interventions registered. Phase NA. Control arm is OTHER-type usual care."
+}

@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06763965",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"},
+      {"field": "eligibility", "quote": "Patients with high-grade glioma who have recurred/progressed after receiving standard therapy as confirmed by histopathological confirmation meeting the 2021 World Health Organization (WHO) classification criteria for central nervous system tumors;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "recombinant human nsIL12 oncolytic adenovirus injection (BioTTT001)"},
+      {"field": "keywords", "quote": "Oncolytic virus; IL-12; Adenovirus"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BioTTT001 injection",
+      "active_moiety": "oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] BioTTT001 injection: BioTTT001 is administered as a multiple Intratumoral injection."},
+        {"field": "brief_summary", "quote": "recombinant human nsIL12 oncolytic adenovirus injection (BioTTT001)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "BioTTT001, recombinant oncolytic adenovirus expressing non-secreted IL-12 (nsIL12), intratumoral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BioTTT001 injection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "High-grade glioma per WHO 2021 (CNS5) without glioblastoma named anywhere in the record, so high_grade_glioma_unspecified. Sole intervention is an IL-12-armed oncolytic adenovirus (excluded type). Biodistribution is mentioned in the title but relates to the excluded virus."
+}

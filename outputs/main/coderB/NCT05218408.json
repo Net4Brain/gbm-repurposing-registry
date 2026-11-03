@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT05218408",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Astrocytoma, Grade IV; Glioblastoma; Giant Cell Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Have had historical or current histologically confirmed isocitrate dehydrogenase 1(IDH1) wild-type glioblastoma and variants as defined by the World Health Organization"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CYNK-001 administered intravenously and intracavitarily in combination with subcutaneous recombinant human IL-2 following lymphodepleting chemotherapy."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Recombinant IL-2 is given with the NK-cell product CYNK-001 (excluded cell therapy); if IL-2 is judged to be only an adjunct to the cell therapy the trial has no pharmacological candidate (S6)."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiologically confirmed recurrent glioblastoma at first or second recurrence have contrast enhancing measurable disease with a bidimensional diameter greater than or equal to 10 mm x 10 mm according to RANO and be eligible to undergo tumor resection."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["CYNK-001 (NK cell therapy)"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CYNK-001",
+      "active_moiety": "cynk-001",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "keywords", "quote": "Natural Killer; Cellular Therapy; Allogeneic; Allogeneic stem cell"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic natural killer (NK) cell therapy, intravenous and intracavitary",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1Surgical rGBM CYNK-001 infusion ( IV and IC) in combination with IL-2",
+        "Phase IIa Surgical rGBM CYNK-001 at MPD IV and IC"
+      ]
+    },
+    {
+      "agent_name_registered": "recombinant human interleukin-2 (rhIL-2)",
+      "active_moiety": "aldesleukin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "CYNK-001 IV and IC in Combination With IL2 in Surgical Eligible Recurrent GBM With IDH-1 Wild Type"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "recombinant human interleukin-2 (cytokine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "IL-2 may be an adjunct supporting the NK-cell product rather than an investigational antitumour agent; role decides whether the trial has a candidate."},
+      "arms": [
+        "Phase 1Surgical rGBM CYNK-001 infusion ( IV and IC) in combination with IL-2",
+        "Phase IIa Surgical rGBM CYNK-001 at MPD IV and IC"
+      ]
+    },
+    {
+      "agent_name_registered": "cyclophosphamide (lymphodepleting chemotherapy)",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "following lymphodepleting chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used for lymphodepletion before cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1Surgical rGBM CYNK-001 infusion ( IV and IC) in combination with IL-2",
+        "Phase IIa Surgical rGBM CYNK-001 at MPD IV and IC"
+      ]
+    },
+    {
+      "agent_name_registered": "fludarabine (lymphodepleting chemotherapy)",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "following lymphodepleting chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "purine analogue used for lymphodepletion before cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1Surgical rGBM CYNK-001 infusion ( IV and IC) in combination with IL-2",
+        "Phase IIa Surgical rGBM CYNK-001 at MPD IV and IC"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Have had historical or current histologically confirmed isocitrate dehydrogenase 1(IDH1) wild-type glioblastoma and variants as defined by the World Health Organization"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Overall status WITHDRAWN (no participants enrolled). Cyclophosphamide and fludarabine are named only in keywords and in the lymphodepletion wording, and are listed as supportive conditioning. Mesna appears only in an exclusion criterion and is not listed. IL-2 moiety mapped to aldesleukin (recombinant human IL-2); candidate status of IL-2 is the key doubt."
+}

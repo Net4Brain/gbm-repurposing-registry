@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT04715620",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Niraparib 300mg/day (body weight ≥77Kg and baseline platelet count ≥150,000/µL) or 200mg/day (body weight <77Kg or baseline platelet count <150,000/µL)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed WHO classification of recurrent glioblastoma grade IV;"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "combined with radiotherapy (total dose 55Gy)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["niraparib"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "MGMT methylation is mentioned only as not being a requirement ('Regardless of whether ... MGMT promoter is methylated'), so no biomarker row. Regimen is combination because of re-irradiation."
+}

@@ -1,0 +1,133 @@
+{
+  "nct_id": "NCT04099797",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Intrinsic Pontine Glioma; High Grade Glioma; Embryonal Tumor; Ependymal Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[GENETIC] C7R-GD2.CART cells (IV and ICV infusion)"},
+      {"field": "detailed_description", "quote": "These two drugs are standard chemotherapy medicines and may be given before the T cells to make space in the blood for the T cells to grow after receiving them."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed, GD2-expressing newly diagnosed DMG/HGG (including pontine) or confirmation of H3K27 alteration if sufficient tissue for GD2 staining by IHC is not available."},
+      {"field": "eligibility", "quote": "Histologically confirmed, GD2-expressing recurrent, refractory, or progressive DMG/HGG (except pontine) or confirmation of positive H3K27 alteration if sufficient tissue for GD2 staining by IHC is not available."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "C7R-GD2.CART cells (IV and ICV infusion)",
+      "active_moiety": "gd2-c7r car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[GENETIC] C7R-GD2.CART cells (IV and ICV infusion)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous GD2-specific CAR T cells with constitutively active IL-7 receptor (cell/gene therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["C7R-GD2.CAR T cells (Cohort 1)", "C7R-GD2.CAR T cells (Cohort 2)"]
+    },
+    {
+      "agent_name_registered": "cyclophosphamide (lymphodepletion)",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "patients will receive the GD2-C7R cells and also receive cyclophosphamide and fludarabine (or clofarabine in cases of fludarabine shortage)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used as lymphodepleting chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["C7R-GD2.CAR T cells (Cohort 1)", "C7R-GD2.CAR T cells (Cohort 2)"]
+    },
+    {
+      "agent_name_registered": "fludarabine (lymphodepletion)",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "patients will receive the GD2-C7R cells and also receive cyclophosphamide and fludarabine (or clofarabine in cases of fludarabine shortage)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "purine analogue used as lymphodepleting chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["C7R-GD2.CAR T cells (Cohort 1)", "C7R-GD2.CAR T cells (Cohort 2)"]
+    },
+    {
+      "agent_name_registered": "clofarabine (alternative lymphodepletion)",
+      "active_moiety": "clofarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "patients will receive the GD2-C7R cells and also receive cyclophosphamide and fludarabine (or clofarabine in cases of fludarabine shortage)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "purine analogue used as lymphodepleting chemotherapy (substitute for fludarabine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["C7R-GD2.CAR T cells (Cohort 1)", "C7R-GD2.CAR T cells (Cohort 2)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GD2 expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed, GD2-expressing newly diagnosed DMG/HGG (including pontine) or confirmation of H3K27 alteration if sufficient tissue for GD2 staining by IHC is not available."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Recurrent, refractory, or progressive pontine HGG with confirmed GD2-expression or H3K27-altered DMG"},
+      "flag": {"uncertain": false},
+      "arms": ["C7R-GD2.CAR T cells (Cohort 2)"]
+    }
+  ],
+  "coder_notes": "Glioblastoma is not named anywhere in conditions, title, inclusion criteria or arm labels (HGG/DMG/DIPG, paediatric-young adult, age 12 months to 25 years). Only intervention is CAR T cell therapy (excluded type). GD2 biomarker is the CAR-T target; candidate_matched false because the CAR T product is not a candidate. Lymphodepleting chemotherapy coded supportive (R6)."
+}

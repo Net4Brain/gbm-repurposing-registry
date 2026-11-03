@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT04834778",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Renal Cell Carcinoma; Gastric Cancer; Metastatic Breast Cancer; Small-cell Lung Cancer; Other Solid Tumors"},
+      {"field": "eligibility", "quote": "Other solid tumors (e.g., non-small cell lung cancer, colorectal cancer, carcinoma of unknown primary) with the exception of rapidly progressing neoplasms (e.g., pancreatic cancer, glioblastoma, hepatocellular carcinoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "HC 5404-FU (hemi fumarate salt of HC 5404) is a novel, highly selective, and potent PERK inhibitor. Preclinical pharmacological studies demonstrated high specificity of HC 5404-FU to PERK and decreased viability of tumor cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "have received a minimum of 2 (and no more than 5) lines of prior therapy for metastatic (Stage IV) disease:"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Peak plasma concentration (Cmax):"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "eligibility", "quote": "subject as are willing to provide fresh tissue for biomarker analysis, and, based on the adequacy of the tissue sample quality, for assessment of biomarker status. Two biopsies will be necessary: at baseline (within 30 days prior to first dose) and within 7 days after Cycle 3/Day 1."},
+      {"field": "brief_summary", "quote": "Safety, including occurrence of dose-limiting toxicities (DLTs), pharmacokinetics (PK), and biomarker parameters will also be assessed."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "HC-5404-FU",
+      "active_moiety": "hc-5404",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Determination of MTD of HC-5404-FU: When orally administered in a dose escalating fashion in subjects with selected, advanced solid tumors"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PERK inhibitor (HC-5404 hemifumarate salt, HC-5404-FU)",
+      "stated_antitumour_mechanism": "highly selective PERK inhibitor; decreased viability of tumour cells preclinically",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 - 25 mg", "Cohort 2 - 50 mg", "Cohort 3 - 100 mg", "Cohort 4 - 200 mg", "Cohort 5 - 400 mg", "Cohort 6 - 600 mg", "Cohort 7 - 900 mg", "Cohort 8 - 300 mg"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HER2 positive (metastatic breast cancer subgroup)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Human epidermal growth factor receptor positive (HER2+) MBC (metastatic breast cancer)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-tumour solid-tumour phase 1a; glioblastoma is named only as an exclusion (rapidly progressing neoplasms) -> gbm_excluded. basket set false because GBM is not eligible (1.1 basket flag applies to GBM-eligible baskets); design is otherwise multi-tumour. active_moiety given as parent code hc-5404 (record: hemi fumarate salt of HC 5404; first written as HC-5404-FU). Paired baseline/on-treatment biopsies for unspecified biomarker analysis -> target_engagement unclear (not linked to PERK). PK plasma only. HER2+ applies only to the breast cancer tumour-type subgroup (not a registered arm)."
+}

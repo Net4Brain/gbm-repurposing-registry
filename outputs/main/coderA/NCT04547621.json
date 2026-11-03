@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04547621",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "HSRT and IMRT Chemoradiotherapy for Newly Diagnosed GBM"},
+      {"field": "eligibility", "quote": "Histopathologically proved diagnosis glioblastoma multiforme;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study aims to evaluate the safety and effectiveness of the combination of 30Gy/5fx HSRT and 20Gy/10fx IMRT adjuvant therapy."},
+      {"field": "interventions", "quote": "Temozolomide: Temozolomide 75 mg/m2 concurrently administered with RT."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "HSRT and IMRT Chemoradiotherapy for Newly Diagnosed GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Temozolomide once daily (75mg/m2/d) orally administered concurrently with radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["HSRT+IMRT+Temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm radiotherapy fractionation trial (HSRT + IMRT). Temozolomide given at standard concurrent dose as backbone; the investigational question is the radiotherapy schedule, not the drug. Conditions field says 'Glioma, Malignant' but title and inclusion name GBM / glioblastoma multiforme."
+}

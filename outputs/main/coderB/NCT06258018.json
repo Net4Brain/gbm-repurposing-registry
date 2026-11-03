@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT06258018",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Niraparib and Temozolomide in Patients Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with diagnosis of recurrent\\progressive IDH wild-type GBM (WHO 2021, grade 4)."},
+      {"field": "eligibility", "quote": "Patients with diagnosis of recurrent/progressive IDH mutant gliomas (WHO 2021, grade 2-4)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Niraparib + Temodal Level 0: Niraparib 100 mg/die + TMZ 75 mg/m2 both given for 7 consecutive days, followed by 7 days OFF, in a cycle of 28 days (starting dose)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with diagnosis of recurrent\\progressive IDH wild-type GBM (WHO 2021, grade 4)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "tumour tissue drug concentration: To evaluate tissue drug concentration schedule and visualized intra-tumor distribution by mass spectrometry imaging in surgical specimen"},
+      {"field": "outcomes", "quote": "cerebrospinal fluid drug concentration: To evaluate cerebrospinal fluid (CSF) drug concentration of the combination of dd-TMZ and Niraparib"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "preliminary antitumor activity of Niraparib + dd-TMZ \"one week on, one week off\""}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": "PARP inhibition to block base-excision repair and PARylation of MGMT, amplifying temozolomide DNA damage",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Niraparib + Temodal Level 0",
+        "Niraparib + Temodal Level 1",
+        "Niraparib + Temodal Level 2",
+        "Niraparib + Temodal Level 3",
+        "Niraparib + Temodal Level -1",
+        "Niraparib + Temodal Expansion Phase"
+      ]
+    },
+    {
+      "agent_name_registered": "Temodal (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Alternative, intensified schedules of TMZ (dose-dense TMZ, dd-TMZ) can give patients an increased total dose of drugs per each cycle"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Niraparib + Temodal Level 1: Niraparib 100 mg/die + TMZ 100 mg/m2 both given for 7 consecutive days"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (dose-dense schedule)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Niraparib + Temodal Level 0",
+        "Niraparib + Temodal Level 1",
+        "Niraparib + Temodal Level 2",
+        "Niraparib + Temodal Level 3",
+        "Niraparib + Temodal Level -1",
+        "Niraparib + Temodal Expansion Phase"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with diagnosis of recurrent/progressive IDH mutant gliomas (WHO 2021, grade 2-4)."},
+      "flag": {"uncertain": true, "reason": "IDH-mutant cohort is enrolled with a stated PARP-inhibitor rationale (2HG, BRCA-ness) in the description; coded not matched because IDH defines the cohorts and is a diagnostic criterion."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both IDH wild-type GBM and IDH-mutant grade 2-4 gliomas enrolled (Cohort 1 and 2), GBM named in title and eligibility. Temozolomide dose-dense 7d on/7d off schedule and dose differ from approved use and are part of the question, so established_therapy_experiment (rule 6); niraparib is the only investigational agent. MGMT mentioned only as 'Both MGMT methylated and unmethylated patients are allowed', not an entry requirement, so not listed. Detailed description cites a rationale for PARP inhibition in IDH-mutant gliomas (2HG accumulation and BRCA-ness), which an adjudicator may weigh for candidate_matched."
+}

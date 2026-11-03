@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT07731555",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Multimodal Blood Brain Barrier Assessment: A standardised multimodal diagnostic assessment designed to characterize blood brain barrier integrity in patients with newly diagnosed glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "gadolinium contrast",
+      "active_moiety": "gadolinium contrast agent (unspecified)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "High-resolution 3-Tesla MRI with and without gadolinium contrast, including structural and functional imaging sequences."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent, product not named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Blood Brain Barrier Characterisation Cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "BBB-associated protein expression (IHC) and transcriptional signatures in resected tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Expression of blood-brain barrier-associated proteins within resected glioblastoma tissue assessed by immunohistochemical analysis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Observational-style diagnostic study (phase NA) of BBB disruption; no therapeutic agent. 'Glioblastoma multiforme' in brief summary -> cns5_terminology historical. Gadolinium contrast is part of the registered multimodal assessment every participant undergoes, listed as diagnostic_agent (product unnamed); could be omitted under R9 if considered routine imaging. Fluorescein appears only in the title with no stated administration, so not listed. Serum BBB/neuronal-injury markers (S100B, GFAP, UCHL1, amyloid beta, p-tau, NSE) are not tumour molecular biomarkers and are not recorded."
+}

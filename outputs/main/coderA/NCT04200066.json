@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT04200066",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Brain Tumor"},
+      {"field": "eligibility", "quote": "Patients with histologically proven World Health Organization (WHO) grade IV gliomas."},
+      {"field": "title", "quote": "A Study of Maprotiline in Combination With Tamoxifen and Temozolomide for Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The main purpose of this study is to find out the highest possible dose of maprotiline that can be given safely in combination with temozolomide and tamoxifen."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have shown unequivocal radiographic evidence for tumor progression by MRI scan."},
+      {"field": "eligibility", "quote": "Patients with any number of recurrences are eligible."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "tamoxifen"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Blood sampling for pharmacokinetic assessment of study drugs. The mean maprotiline drug level will be reported."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide, Tamoxifen, Maprotiline",
+      "active_moiety": "maprotiline",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "In this study, the investigator will be adding maprotiline to temozolomide and tamoxifen, determining the highest possible dose that is safe, making sure there are no significant drug interactions and studying the safety of this combination."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetracyclic antidepressant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    },
+    {
+      "agent_name_registered": "Temozolomide, Tamoxifen, Maprotiline",
+      "active_moiety": "tamoxifen",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive a combination of temozolomide and tamoxifen for two weeks. After that, they will receive a combination of temozolomide, tamoxifen and maprotiline for the remainder of the study."},
+        {"field": "detailed_description", "quote": "Tamoxifen has been used for many years to treat breast cancer and there have also been studies combining it with temozolomide for the treatment of brain tumors that have shown the combination to be safe."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "selective oestrogen receptor modulator (breast cancer drug)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Tamoxifen is not GBM standard of care; coded as backbone given to all patients with maprotiline as the stated question, but it could be seen as a co-investigational agent."},
+      "arms": ["Experimental Arm"]
+    },
+    {
+      "agent_name_registered": "Temozolomide, Tamoxifen, Maprotiline",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Temozolomide is approved to treat glioblastoma and the investigator wants to understand what doses are safe to use."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm phase 1: TMZ + tamoxifen lead-in for two weeks, then maprotiline added; MTD of maprotiline is the primary outcome, so maprotiline is the candidate. Tamoxifen role flagged (backbone vs co-investigational). Population 'WHO grade IV gliomas' without IDH requirement = historical glioblastoma; secondary GBM from grade II/III allowed. PK is blood-only."
+}

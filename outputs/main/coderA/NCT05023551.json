@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT05023551",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Glioblastoma Multiforme"},
+      {"field": "title", "quote": "A Phase 1 Study of DSP-0390 in Patients With Recurrent High-Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "DSP-0390 by oral administration"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of DSP-0390 in Patients With Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Dose Escalation: Characterize the PK profile for AUC: PK assessed for AUC"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Exploratory: Assess the PD effect of DSP-0390: Biomarker (lathosterol/zymostenol ratio) in blood"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DSP-0390",
+      "active_moiety": "dsp-0390",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "DSP-0390 administered orally"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational emopamil binding protein (EBP, sterol delta8-delta7 isomerase) inhibitor; cholesterol biosynthesis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single arm DSP-0390"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 (translational subset). PK sample type not stated (likely plasma), so tumour_pk_planned coded unclear per W7. Blood lathosterol/zymostenol ratio is a PD marker of EBP inhibition (target engagement) but not a tumour molecular biomarker, so not listed in biomarkers. EBP target is suggested only by keywords."
+}

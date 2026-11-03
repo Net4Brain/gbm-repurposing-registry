@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT07209241",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with glioblastoma, IDH-wildtype (as defined by WHO 2021 Classification of CNS Tumors) that has recurred following prior radiotherapy1."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CART-EGFR-IL13Ra2 cells are autologous T cells co-expressing two CARs targeting the cryptic EGFR epitope 806 and IL13Ra2."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CART-EGFR-IL13Ra2 T cells",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CART-EGFR-IL13Ra2 cells are autologous T cells co-expressing two CARs targeting the cryptic EGFR epitope 806 and IL13Ra2."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous bivalent CAR-T cells targeting EGFR epitope 806 and IL13Ra2 (CART-EGFR-IL13Ra2)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B", "Arm C"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor tissue positive for wild-type EGFR amplification by NeoGenomics Laboratories."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is a CAR-T cell therapy (excluded type). Lymphodepleting chemotherapy is given in Arms A and B but the drugs are not named in the record, so no agent row could be added (would be supportive per R6). EGFR amplification is an entry requirement matched to the CAR-T target, but the CAR-T is not a candidate, so candidate_matched false. Arms are registered as ACTIVE_COMPARATOR but are dosing approaches of the same product; none acts as a control. MGMT is mentioned only for timing after radiotherapy, not as an entry requirement."
+}

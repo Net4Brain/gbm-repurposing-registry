@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT06690216",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Head and Neck Squamous Cell Carcinoma; Non-Small Cell Lung Cancer; Esophageal Cancer"},
+      {"field": "eligibility", "quote": "Pathologically confirmed malignant tumors, including:"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "This intervention involves the use of \\[18F\\]AlF-NOTA-PCP2, a radiopharmaceutical agent specifically designed for PET/CT imaging."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "The study involves at least 20 patients (5 per tumor type) who will undergo a pre-treatment PET/CT scan following an intravenous injection of \\[18F\\]AlF-NOTA-PCP2."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PET/CT （[18F]AlF-NOTA-PCP2）",
+      "active_moiety": "18f-alf-nota-pcp2",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This intervention involves the use of \\[18F\\]AlF-NOTA-PCP2, a radiopharmaceutical agent specifically designed for PET/CT imaging."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PD-L1-targeted PET radiotracer (isotope 18F, Al-18F NOTA-chelated peptide PCP2), diagnostic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[18F]AlF-NOTA-PCP2 PET/CT Imaging for PD-L1 Expression in Malignant Tumors"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Detectable PD-L1 expression in tumor tissue (based on immunohistochemistry or biopsy)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "This exploratory outcome measure will investigate the correlation between circulating PD-L1 levels, exosomal PD-L1, and \\[18F\\]AlF-NOTA-PCP2 PET/CT imaging for assessing PD-L1 expression in tumors."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic PET imaging basket study (GBM, HNSCC, NSCLC, oesophageal cancer); no therapeutic agent. The two registered diagnostic-test interventions are the same tracer, listed as one agent row (diagnostic_agent, radiopharmaceutical). PD-L1 tumour expression is an entry requirement but there is no candidate, so not candidate-matched. Treatment setting not stated (pre-treatment scan)."
+}

@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05868083",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Chimeric Antigen Receptor-modified T cells (CAR-T) SNC-109"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "SNC-109 cell count maximum (Cmax) in peripheral blood (PB) and cerebrospinal fluid (CSF)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Changes of cytokines (such as Interleukin-6, Interleukin-8 etc.) in peripheral blood (PB) and cerebrospinal fluid (CSF) pre-and post- infusion"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SNC-109 CAR-T Cells",
+      "active_moiety": "chimeric antigen receptor t-cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "SNC-109 CAR-T Cells, first dose from 2×104 CAR+ T Cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CAR-T cell therapy (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SNC-109 CAR-T Cells"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Cell therapy, excluded at S6. PK (cell counts in blood and CSF) and cytokine changes are coded at trial level for the excluded product only; neither concerns a candidate agent. The CAR target antigen is not stated in the record."
+}

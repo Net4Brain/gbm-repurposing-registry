@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07413796",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor Adult; Brain Tumor Benign; Meningioma; Glioma; Glioblastoma"},
+      {"field": "eligibility", "quote": "Qualified for a craniotomy due to supratentorial intracranial tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[OTHER] Absorbable running intradermal suture: Absorbable sutures used to perform continuous/running intradermal skin closure."},
+      {"field": "interventions", "quote": "[OTHER] Non-absorbable interrupted transdermal suture: Non-absorbable sutures used to perform interrupted transdermal skin closure."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Revision surgery due to recurrent brain tumor"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical skin-closure technique trial (Phase NA) in craniotomy for any supratentorial intracranial tumour, including benign tumours and meningioma; glioblastoma named only in conditions. Coded mixed_glioma_gbm_named because glioblastoma is named in conditions, although the population is all intracranial tumours. No drug interventions. Revision surgery for recurrent tumour is excluded, so the population is mainly primary surgery, but treatment setting not stated for glioblastoma; coded unclear."
+}

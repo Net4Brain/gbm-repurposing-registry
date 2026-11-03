@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT04614909",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme, Adult"},
+      {"field": "eligibility", "quote": "Participants undergoing resection for a suspected newly diagnosed glioblastoma who are also planned to follow the standard regimen or;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Pamiparib: 60mg administered orally BID for 4 days prior to surgical resection"},
+      {"field": "interventions", "quote": "Olaparib: 200mg administered orally BID for 4 days prior to surgical resection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 0/2 Clinical Trial of Pamiparib in Newly-Diagnosed and Recurrent Glioblastoma Patients"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total and unbound pamiparib concentration in enhancing and non-enhancing tumor tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamics (PD) of pamiparib: Quantification of PAR concentration in tumor homogenates"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pamiparib",
+      "active_moiety": "pamiparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants undergoing resection for a presumed newly diagnosed glioblastoma (nGBM) will be treated with pamiparib for 4 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (investigational/approved in China)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib", "Arm B Recurrent Glioblastoma Participant treated with Pamiparib"]
+    },
+    {
+      "agent_name_registered": "Olaparib",
+      "active_moiety": "olaparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Arm C will be an exploratory arm in recurrent glioblastoma patients (rGBM) treated with Olaparib for 4 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved for ovarian/breast/prostate/pancreatic cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C Recurrent Glioblastoma Participant treated with Olaparib"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Arm A and Arm B participants after RT is completed, will receive pamiparib in combination with TMZ (newly diagnosed participants). Arm C participants will receive olaparib with TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care, maintenance)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib", "Arm B Recurrent Glioblastoma Participant treated with Pamiparib", "Arm C Recurrent Glioblastoma Participant treated with Olaparib"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "pamiparib plus fractionated radiotherapy (for unmethylated MGMT promoter newly-diagnosed cases)"},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Newly-diagnosed Glioblastoma Participant treated with Pamiparib"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PAR (poly-ADP-ribose) concentration in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pamiparib",
+      "source_quote": {"field": "outcomes", "quote": "Pharmacodynamics (PD) of pamiparib: Quantification of PAR concentration in tumor homogenates"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered as EARLY_PHASE1 (Phase 0/2, translational subset). Phase 0 window dosing of pamiparib (Arms A, B) or olaparib (Arm C) before resection, with tumour tissue PK and PAR pharmacodynamics; PK responders proceed to Phase 2 with RT then TMZ maintenance. Arm C label text says 'pamiparib in combination with TMZ in the maintenance phase' whereas the TMZ intervention text says Arm C receives olaparib with TMZ - pamiparib listed for Arms A/B only. MGMT-unmethylated requirement applies to newly diagnosed Phase 2 cases (brief summary only, not in eligibility); coded enrichment for Arm A. Primary outcome title says 'plasma PK' but description specifies tumour tissue concentration."
+}

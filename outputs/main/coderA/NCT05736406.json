@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT05736406",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed GBM, presumed on the basis of clinical and MRI criteria (intra-axial brain tumor with peripheral rim contrast enhancement)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "5-ALA HCl, 20 mg/kg, is orally administered 4-6 hours before the surgery. Then after resection of tumor tissue is judged maximal, the intraoperative PDT procedure is initiated at 200 J/cm\\^2."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The primary objective of this clinical trial is to determine the safety and tolerability of two doses of light in intraoperative PDT added to standard of care; temozolomide-based chemotherapy in male and female patients aged 18 to 75 with newly diagnosed glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA HCl intraoperative Photodynamic Therapy (PDT) (Pentalafen®, 5-aminolevulinic acid hydrochloride)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "A Dose-escalation Clinical Study of Intraoperative Photodynamic Therapy of Glioblastoma"},
+        {"field": "detailed_description", "quote": "related to the intraoperative PDT (i.e., 5-aminolevulinic acid hydrochloride (5-ALA HCl) administration + brain cavity illumination)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitiser prodrug (protoporphyrin IX precursor) for photodynamic therapy with Heliance light device",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["200 J/cm^2", "400 J/cm^2"]
+    },
+    {
+      "agent_name_registered": "temozolomide (Stupp Protocol, standard of care)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planned to receive SOC (i.e., Stupp Protocol) treatment after surgery."},
+        {"field": "brief_summary", "quote": "two doses of light in intraoperative PDT added to standard of care; temozolomide-based chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy (Stupp)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["200 J/cm^2", "400 J/cm^2"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA given for intraoperative photodynamic therapy (light-dose escalation with Heliance device), so candidate with device_dependent true (C12), not a diagnostic use. Arms differ only in light dose. Temozolomide not a registered intervention but every patient is planned to receive the Stupp protocol after surgery, so listed as soc_backbone."
+}

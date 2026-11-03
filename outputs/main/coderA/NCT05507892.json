@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT05507892",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Type 2 Diabetes; Diabetic Kidney Disease"},
+      {"field": "outcomes", "quote": "Glomerular basement membrane (GBM) width and mesangial expansion: measured by morphometric examination of kidney tissue"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The purpose of this protocol is to examine the effects of the sodium-glucose cotransporter 2 (SGLT2) inhibitor canagliflozin on intrarenal transcripts of energy metabolism in adults with type 2 diabetes and early diabetic kidney disease (DKD)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "canagliflozin",
+      "active_moiety": "canagliflozin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants who will receive 100 mg of canagliflozin daily for six (6) months in addition to standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "SGLT2 inhibitor, antidiabetic (tested for diabetic kidney disease, not cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "Aminohippurate Sodium Inj 20%",
+      "active_moiety": "aminohippuric acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Diagnostic aid/agent used to measure renal plasma flow (RPF)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "renal plasma flow diagnostic agent (para-aminohippurate)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    },
+    {
+      "agent_name_registered": "iohexol",
+      "active_moiety": "iohexol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Glomerular Filtration Rate (GFR): Measured by iohexol clearance"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "iodinated contrast agent used as GFR filtration marker",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Not a cancer trial: 'GBM' in outcomes means glomerular basement membrane (not anti-GBM disease), population is type 2 diabetes with diabetic kidney disease, so not_glioblastoma. Canagliflozin is the only investigational agent in the experimental arm (role experimental_monotherapy) but has no antitumour purpose, so has_eligible_candidate coded false (no pharmacological antitumour agent). Iohexol is not a registered intervention but is given to all participants for GFR measurement; listed as diagnostic for transparency."
+}

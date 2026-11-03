@@ -1,0 +1,51 @@
+{
+  "nct_id": "NCT06781372",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "adult patients undergoing resective neurosurgery for glioblastoma, IDH-wildtype"},
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme (GBM); Glioblastoma Multiforme, Adult"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Intervention is intended as a laboratory intervention and not as a clinical intervention."},
+      {"field": "interventions", "quote": "PDOs and GSCs representing different GBM molecular subtypes will be treated with epigenetic modulators , with spliceosome inhibitors or with drugs that indirectly target the splicing machinery, such as PRMT5 inhibitors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Previous neoadjuvant chemotherapy or radiotherapy"},
+      {"field": "outcomes", "quote": "Histological resemblance of PDOs generated from primary and recurrent tumor will be rated semiquantitatively (0-10)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "adult patients undergoing resective neurosurgery for glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Laboratory study (phase NA): patient tumour tissue is used to grow organoids/GSCs that are treated ex vivo with unnamed epigenetic modulators, splicing inhibitors and PRMT5 inhibitors. No drug is administered to patients, so no agents listed and S6 fails (no_pharmacological_candidate). IDH-wildtype is used only to define glioblastoma. Treatment setting unclear: no treatment given; tissue from surgery without prior chemo/RT, but primary and recurrent PDOs are mentioned. Ex vivo TE transcript and splice-variant profiling are not patient biomarkers and were not recorded."
+}

@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04765098",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histologically proven GBM with progression after previous first line chemoradiotherapy with temozolomide."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Tamoxifen:  (interventions: Drug: Tamoxifen)"},
+      {"field": "interventions", "quote": "[DRUG] Tamoxifen: Tamoxifen 20 mg daily for 3 days then 20 mg BID for 3 days then increase by 20 mg daily every 3 days until 100 mg BID continuously"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Tamoxifen Versus Etoposide After First Recurrence in GBM Patients"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tamoxifen",
+      "active_moiety": "tamoxifen",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Tamoxifen:  (interventions: Drug: Tamoxifen)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "selective estrogen receptor modulator (high-dose, PKC inhibition context)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tamoxifen"]
+    },
+    {
+      "agent_name_registered": "Etoposide",
+      "active_moiety": "etoposide",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Etoposide:  (interventions: Drug: Etoposide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topoisomerase II inhibitor, cytotoxic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Etoposide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Dose-escalated tamoxifen (to 100 mg BID) versus etoposide comparator; tamoxifen's formulation_flag left none because dose is the only difference. The drug_class_hint is a coder belief, not from the record."
+}

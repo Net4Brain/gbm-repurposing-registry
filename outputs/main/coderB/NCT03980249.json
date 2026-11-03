@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT03980249",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Subjects must have histologically or cytologically confirmed WHO Grade IV Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluate the addition of carvedilol with standard of care treatment to determine if it will improve progression-free survival"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in the front line setting in patients with glioblastoma multiforme (GBM)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "tumour treating fields"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Quantify CTCs via qRT-PCR assay and to assess how the trend of CTCs correspond to disease status as measured by RANO criteria on neuro-imaging."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Carvedilol",
+      "active_moiety": "carvedilol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Carvedilol + Standard Treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "non-selective beta-blocker (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Carvedilol + Standard Treatment"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "continue daily until the end of adjuvant cycle 6 of temozolomide and Tumor Treated Fields"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Carvedilol + Standard Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour cells (qRT-PCR, TeloMeScan)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Quantify CTCs via qRT-PCR assay and to assess how the trend of CTCs correspond to disease status as measured by RANO criteria on neuro-imaging."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase is EARLY_PHASE1 (translational subset). Temozolomide, radiotherapy and TTFields are standard backbone given to all; temozolomide not registered as an intervention but stated in the arm text. Carvedilol is a licensed antihypertensive tested for antitumour effect. target_engagement coded unclear: a CTC biomarker endpoint is planned but the record does not link it to carvedilol's target; it is tracked against disease response."
+}

@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT03958240",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain Stem"},
+      {"field": "eligibility", "quote": "Patient with histologically documented local or metastatic solid malignant tumor (head and neck, ovarian, cervical, and other tumor types including, but not limited to glioblastoma, NSCLC and anal cancer)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Blood samples, tumor biopsy specimens and ascites samples will be collected."},
+      {"field": "arms", "quote": "Patient receiving an anticancer treatment in the context of their standard care."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient followed within a standard of care procedure or clinical trial"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PD-1 expression on CD4/CD8 T cells",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Percentage of CD4 and CD8 T cells expressing PD-1"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tissue-resident memory T-cell (Trm) infiltrate in tumour",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Rate of patients presenting a high Trm (Tissue resident memory) infiltrate in tumor samples"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Translational specimen-collection cohort study (phase NA); the only intervention is biological sampling, with patients receiving standard-of-care treatment outside the protocol, so no drug agents are listed. Glioblastoma is named in conditions and inclusion criteria within a multi-tumour cohort design -> basket_gbm_eligible; 'Glioblastoma Multiforme' -> historical terminology. PD-1/Trm are immune-cell markers recorded as exploratory correlative 'other'."
+}

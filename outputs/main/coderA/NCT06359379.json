@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT06359379",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "Histologically confirmed supratentorial glioblastoma isocitrate dehydrogenase (IDH) wild-type classification (2021 World Health Organization Classification of Tumours, 5th Edition, Volume 6)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a randomized, open-label, phase 2 study evaluating the safety and efficacy of oral ropidoxuridine as a radiation-sensitizing agent"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Ropidoxuridine as a Radiosensitizer in Newly Diagnosed IDH-Wildtype Glioblastoma With Unmethylated MGMT Promoter"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum plasma concentration for orally administered ropidoxuridine, at dose levels of 960 and 1200 mg once daily."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ropidoxuridine",
+      "active_moiety": "ropidoxuridine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Ropidoxuridine is administered daily, 5 days a week, for 7 weeks, starting one week prior to radiotherapy, and then concurrently with a standard 60 Gy radiotherapy, followed by a 4-week rest period."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral halogenated pyrimidine nucleoside radiosensitizer (5-iodo-2-pyrimidinone-2'-deoxyribose)",
+      "stated_antitumour_mechanism": "radiation sensitizing agent",
+      "flag": {"uncertain": false},
+      "arms": ["Ropidoxuridine 960 mg", "Ropidoxuridine 1200 mg"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "with unmethylated O6-methylguanine-DNA-methyltransferase (MGMT) promoter (defined as MGMT methylation status ≤20% by pyrosequencing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Two randomised experimental dose arms (960 vs 1200 mg) plus an efficacy cohort compared to historical controls; no control arm. PK is plasma only. Temozolomide is only an optional post-study maintenance at investigator discretion, not a protocol agent, so not listed. Ropidoxuridine is not described as a prodrug in the record; formulation_flag none."
+}

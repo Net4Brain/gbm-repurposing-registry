@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT07130149",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Newly diagnosed postoperative glioblastoma patients pathologically confirmed as glioblastoma;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This Phase II trial tests if sonodynamic therapy (SDT)-a non-invasive treatment using ultrasound to activate a cancer-killing drug-improves outcomes for newly diagnosed glioblastoma patients."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] SDT + Standard Therapy: Hematoporphyrin 5 mg/kg.Sonodynamic therapy is administered 40 hours later"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed postoperative glioblastoma patients pathologically confirmed as glioblastoma;"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "bevacizumab", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Exploratory Analysis: Biomarker correlation (EGFR expression, ROS levels) with SDT response using multiplex IHC and RNA sequencing."},
+      {"field": "detailed_description", "quote": "to activate the sonosensitizer Hiporfin® (5 mg/kg), generating cytotoxic reactive oxygen species (ROS) selectively within tumor cells."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Hematoporphyrin (Hiporfin®)",
+      "active_moiety": "hematoporphyrin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[PROCEDURE] Sonodynamic Therapy (SDT): SDT: Hematoporphyrin 5 mg/kg.Sonodynamic therapy is administered 40 hours later, twice a day with an interval of 10-12 hours, for 5 consecutive days."},
+        {"field": "detailed_description", "quote": "Localized Delivery: Adults receive Hiporfin® via intra-arterial infusion (maximizing tumor uptake); children receive intravenous dosing (safety precaution)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin photosensitiser/sonosensitiser (hematoporphyrin derivative)",
+      "stated_antitumour_mechanism": "ultrasound-activated generation of cytotoxic reactive oxygen species in tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["SDT + Standard Therapy"]
+    },
+    {
+      "agent_name_registered": "Standard Treatment (temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "When temozolomide is administered concurrently with radiotherapy, the dose is 75 mg/m² per day, taken daily until the end of radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "standard treatment",
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SDT + Standard Therapy", "Standard Therapy"]
+    },
+    {
+      "agent_name_registered": "Standard Treatment (bevacizumab)",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Targeted Therapy: Bevacizumab 7.5-10 mg/kg, once every 3 weeks, for a total of 4-6 courses"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "standard treatment",
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SDT + Standard Therapy", "Standard Therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Exploratory Analysis: Biomarker correlation (EGFR expression, ROS levels) with SDT response using multiplex IHC and RNA sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "reactive oxygen species (ROS) levels",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "hematoporphyrin",
+      "source_quote": {"field": "detailed_description", "quote": "Exploratory Analysis: Biomarker correlation (EGFR expression, ROS levels) with SDT response using multiplex IHC and RNA sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Hematoporphyrin sonodynamic therapy (focused ultrasound activation) added to standard RT + temozolomide + bevacizumab, so candidate with device_dependent true; intra-arterial route in adults coded new_route. Temozolomide and bevacizumab given in both arms as standard therapy (soc_backbone). Stratification factors are clinical (location, size, residual volume), not molecular. ROS levels coded as pharmacodynamic/target engagement because ROS generation is the stated mechanism of SDT, though timing (pre/post) is not stated; EGFR expression is exploratory correlative only. Ages include CHILD (detailed description mentions children receive IV dosing) though inclusion says age <75."
+}

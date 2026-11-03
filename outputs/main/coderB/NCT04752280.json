@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT04752280",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "title", "quote": "Glioblastoma Radiotherapy Using IMRT or Proton Beams"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Arm A: Proton irradiation: Irradiation applied with protons"},
+      {"field": "arms", "quote": "Arm B: Photon IMRT: Photon irradiation applied as intensity-modulated radiotherapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Radiation therapy is an integral part of the multimodal primary therapy of glioblastomas."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-only trial (proton vs photon); no drug interventions. Phase is NA in the registry."
+}

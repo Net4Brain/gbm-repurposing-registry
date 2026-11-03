@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07331064",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Gliomas; Atypical Teratoid Rhabdoid Tumors (ATRT); Diffuse Midline Glioma; DIPG; Diffuse Intrinsic Pontine Gliomas (DIPG)"},
+      {"field": "eligibility", "quote": "Male or female subjects must be 0-17 years of age."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Gallium maltolate: oral small-molecule iron mimetic"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Relapsed or Refractory Pediatric High-Grade Glioma and Atypical Teratoid Rhabdoid Tumor"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure serum gallium levels at multiple timepoints to calculate pharmacokinetic parameters in pediatric patients"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gallium maltolate",
+      "active_moiety": "gallium maltolate",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "single-agent GaM study, single arm."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral iron mimetic (gallium salt)",
+      "stated_antitumour_mechanism": "iron mimetic",
+      "flag": {"uncertain": false},
+      "arms": ["Gallium Maltolate (GaM) Arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric (0-17) high-grade glioma/DMG/DIPG/ATRT only; glioblastoma not named. PK is serum only (plasma-only = no)."
+}

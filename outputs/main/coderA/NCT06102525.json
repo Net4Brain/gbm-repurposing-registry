@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT06102525",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically-confirmed grade 4 astrocytoma, GBM, per The 2021 WHO Classification of CNS Tumors."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "VGCV, used in a subject after RZ-001 administration, is a nucleoside analog that is metabolized by HSV-tk and other cellular kinases to form the cytotoxic nucleotide analog ganciclovir triphosphate."},
+      {"field": "interventions", "quote": "Recombinant adenovirus harboring the modified ribozyme construct with HSV-tk as a therapeutic transgene"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Valganciclovir is the prodrug half of an HSV-tk suicide gene therapy; whether it counts as a pharmacological candidate or as part of the excluded gene therapy is a judgement call."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in subjects with hTERT-positive GBM"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["RZ-001 (HSV-tk adenoviral gene therapy)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Concentration of biomarker in fresh tumor biopsy tissue: Tumor-related RNA and T cell infiltration and activation"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RZ-001",
+      "active_moiety": "rz-001",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Recombinant adenovirus harboring the modified ribozyme construct with HSV-tk as a therapeutic transgene"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "recombinant adenoviral gene therapy (Ad-ECRT-122T) carrying ribozyme construct with HSV-tk transgene, intratumoral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part 1 Cohort 1", "Part 1 Cohort 2", "Part 1 Cohort 3", "Part 1 Cohort 4", "Part 1 Cohort 5", "Part 2"]
+    },
+    {
+      "agent_name_registered": "VGCV",
+      "active_moiety": "valganciclovir",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "VGCV, used in a subject after RZ-001 administration, is a nucleoside analog that is metabolized by HSV-tk and other cellular kinases to form the cytotoxic nucleotide analog ganciclovir triphosphate."},
+        {"field": "arms", "quote": "Part 1 Cohort 1: RZ-001 Dose 1 and VGCV"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antiviral nucleoside analogue (ganciclovir valyl ester prodrug), approved oral product",
+      "stated_antitumour_mechanism": "metabolized by HSV-tk and cellular kinases to the cytotoxic nucleotide analog ganciclovir triphosphate",
+      "flag": {"uncertain": true, "reason": "Prodrug activated by the gene-therapy transgene; candidate status vs part of excluded gene therapy needs adjudication."},
+      "arms": ["Part 1 Cohort 1", "Part 1 Cohort 2", "Part 1 Cohort 3", "Part 1 Cohort 4", "Part 1 Cohort 5", "Part 2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hTERT tumour expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "hTERT positive expression confirmed during the screening period"},
+      "flag": {"uncertain": true, "reason": "hTERT positivity likely selects for the RZ-001 vector that activates valganciclovir; the record does not state the link, so matched coded false."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "RZ-001 is an adenoviral HSV-tk gene therapy (excluded type). Valganciclovir (registered as combination product, 'approved oral VGCV') is coded as the only pharmacological investigational agent with a stated cytotoxic mechanism via HSV-tk; flagged for adjudication because it is the prodrug component of a suicide gene therapy system. If valganciclovir is not a candidate, S6 -> excluded_intervention_type. Moiety kept as valganciclovir (own INN; ester prodrug of ganciclovir). hTERT-positive expression is an entry requirement; link to RZ-001 not stated in the record. Treatment setting (newly diagnosed vs recurrent) not stated. Tumour biopsy biomarker (RNA, T-cell infiltration) planned but not linked specifically to valganciclovir -> target_engagement unclear; serum VEGF and cytokines also measured."
+}

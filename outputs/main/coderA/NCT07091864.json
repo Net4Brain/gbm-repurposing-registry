@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07091864",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-Wildtype; WHO Grade 4 Glioma"},
+      {"field": "eligibility", "quote": "Presumed newly diagnosed GBM based on imaging findings consistent with GBM on brain MRI"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This clinical trial studies whether continuous glucose monitoring (CGM) can be used to help patients with glioblastoma manage their blood sugar (glucose) levels and improve survival."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Presumed newly diagnosed GBM based on imaging findings consistent with GBM on brain MRI"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device/behavioural trial (continuous glucose monitoring, dietary counselling, endocrinology-guided interventions), registered Phase NA. No specific drug or biologic is a registered intervention; SOC treatment and endocrinology-guided glucose-lowering interventions are not named, so no agents listed. Control arm is a registered ACTIVE_COMPARATOR. cns5 from the 'Glioblastoma, IDH-Wildtype' condition."
+}

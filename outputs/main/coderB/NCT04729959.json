@@ -1,0 +1,110 @@
+{
+  "nct_id": "NCT04729959",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Astrocytoma, IDH-Wildtype; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically proven diagnosis of glioblastoma, OR molecular diagnosis of glioblastoma per Consortium to Inform Molecular and Practical Approaches to Central Nervous System Tumor Taxonomy (c-IMPACT-NOW) criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Testing the Addition of the Immune Therapy Drugs, Tocilizumab and Atezolizumab, to Radiation Therapy for Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Tumor that is in first recurrence following prior first-line radiation therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["tocilizumab", "atezolizumab", "fractionated stereotactic radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the pharmacodynamic impact of the combination of tocilizumab (anti-IL6R), atezolizumab (anti-PD-L1), and FSRT on peripheral blood immune cell populations."},
+      {"field": "outcomes", "quote": "Tumor samples from patients in the window-of-opportunity surgical cohort will be obtained by surgical resection following pre-operative doses of atezolizumab and SRS with or without tocilizumab."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tocilizumab",
+      "active_moiety": "tocilizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This phase II trial studies the best dose and effect of tocilizumab in combination with atezolizumab and stereotactic radiation therapy in treating glioblastoma patients whose tumor has come back after initial treatment (recurrent)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-IL-6 receptor monoclonal antibody",
+      "stated_antitumour_mechanism": "Therapy with fractionated stereotactic radiotherapy in combination with tocilizumab may suppress the inhibitory effect of immune cells surrounding the tumor",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Non Surgical Cohort: Arm 1 - Level 1 (tocilizumab)",
+        "Non Surgical Cohort: Arm 2 - Level 2 (tocilizumab)",
+        "Non Surgical Cohort: Arm 4 (tocilizumab, atezolizumab)",
+        "Non Surgical Cohort:Arm 3- Level 3 (tocilizumab, atezolizumab)",
+        "Surgical Cohort: Arm A - Neoadjuvant Tocilizumab+Atezolizumab"
+      ]
+    },
+    {
+      "agent_name_registered": "Atezolizumab",
+      "active_moiety": "atezolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-L1 monoclonal antibody",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Non Surgical Cohort: Arm 4 (tocilizumab, atezolizumab)",
+        "Non Surgical Cohort:Arm 3- Level 3 (tocilizumab, atezolizumab)",
+        "Surgical Cohort: Arm A - Neoadjuvant Tocilizumab+Atezolizumab",
+        "Surgical Cohort: Arm B - Neoadjuvant Atezolizumab Alone"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Known somatic tumor mutation in IDH1 or IDH2 gene."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor O-6-methylguanine-deoxyribonucleic acid (DNA) methyltransferase (MGMT) methylation status must be available from any prior GBM tumor specimen"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both antibodies are investigational in the combination arms, so both experimental_combination (rule 5). Safety run-in arms 1-2 give tocilizumab alone with FSRT and surgical Arm B gives atezolizumab alone with FSRT; role coded from the combination experimental arms. Surgical Arm B (atezolizumab + FSRT without tocilizumab) is the comparator for the exploratory 'with versus without tocilizumab' question, so control_arm_from_other_arms = yes (arm is labelled EXPERIMENTAL). Registered intervention list for Arm A omits atezolizumab but the arm description says patients receive it. MGMT is an availability requirement only (not used for selection); IDH is an exclusion of mutant tumours; the EGFR/chr7/chr10/TERT features are only an alternative molecular route to GBM diagnosis, not recorded as biomarkers. FSRT and surgery are not agents."
+}

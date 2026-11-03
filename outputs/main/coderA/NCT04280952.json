@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04280952",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor; Surgery; Convivo System; Laser Endomicroscopy"},
+      {"field": "eligibility", "quote": "The patient is undergoing neurosurgery for a suspected brain tumor and amenable to surgical resection by fluorescent guided technique"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] CONVIVO: tumor tissue with the CONVIVO system"},
+      {"field": "eligibility", "quote": "Macroscopic tumor visualization using sodium fluorescein is planned, concentration 5-10mg/kg"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "The patient has an indication for tumor resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "fluorescein sodium",
+      "active_moiety": "fluorescein",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Intravenous injection dose of fluorescein sodium."},
+        {"field": "eligibility", "quote": "Macroscopic tumor visualization using sodium fluorescein is planned, concentration 5-10mg/kg"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescent dye for intraoperative visualization",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CONVIVO"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Device (confocal laser endomicroscopy) study in suspected brain tumours; glioblastoma mentioned only in the brief summary/description, not in conditions, title, inclusion criteria or arm labels. Phase NA. Fluorescein is not a registered intervention but every patient receives it for visualization; listed as diagnostic_agent."
+}

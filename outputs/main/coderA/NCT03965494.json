@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT03965494",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "AXL Inhibitor BGB324 in Treating Participants With Recurrent Glioblastoma Undergoing Surgery"},
+      {"field": "eligibility", "quote": "Must have histologically confirmed glioblastoma (GBM) that is progressive or recurrent following radiation therapy +/- chemotherapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "AXL inhibitor BGB324 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Must have histologically confirmed glioblastoma (GBM) that is progressive or recurrent following radiation therapy +/- chemotherapy."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Proportion of patients who achieve a drug concentration at >= 1.0 uM level in contrast enhancing tumor tissue"},
+      {"field": "detailed_description", "quote": "II. Determine the BGB324 concentration in tissue resected from a contrast non-enhancing region of the tumor."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "I. Determine AXL expression, phosphorylation state (AXL phosphospecific antibody if AXL is inhibited), and circulating soluble AXL levels."},
+      {"field": "outcomes", "quote": "Change in AXL expression level (ng/mL) from baseline (before intervention) to post-intervention."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BGB 324 (before surgery)",
+      "active_moiety": "bemcentinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] BGB 324 (before surgery) (other names: AXL Inhibitor BGB324, Bemcentinib): Given by mouth either BEFORE therapeutic conventional surgery"},
+        {"field": "interventions", "quote": "[DRUG] BGB 324 (after surgery) (other names: AXL Inhibitor BGB324, Bemcentinib): Given by mouth either AFTER therapeutic conventional surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational AXL kinase inhibitor (BGB324)",
+      "stated_antitumour_mechanism": "AXL inhibitor BGB324 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "flag": {"uncertain": false},
+      "arms": ["AXL inhibitor BGB324 then surgery", "Surgery then AXL inhibitor BGB324"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "AXL expression / phosphorylation / soluble AXL",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "bemcentinib",
+      "source_quote": {"field": "detailed_description", "quote": "I. Determine AXL expression, phosphorylation state (AXL phosphospecific antibody if AXL is inhibited), and circulating soluble AXL levels."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase EARLY_PHASE1 (translational subset). Bemcentinib is registered as two interventions (before / after surgery) differing only in timing relative to surgery; coded as one agent row covering both arms. Gliosarcoma also eligible; still gbm_only. Plain 'glioblastoma' without IDH/WHO reference, so cns5_terminology unclear."
+}

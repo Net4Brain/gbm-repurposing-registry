@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07512154",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologic confirmation of glioblastoma or grade 4 astrocytoma"},
+      {"field": "conditions", "quote": "Brain Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Amide proton transfer radiotherapy (other names: APT-RT): New APT-RT regimen"},
+      {"field": "interventions", "quote": "[RADIATION] Standard radiotherapy (other names: RT): Standard two-phase RT"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients may not have previously been treated with an overlapping course of radiotherapy to the brain."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-planning trial (APT-MRI-guided RT vs standard RT); registered phase NA; no drug or biologic intervention. Temozolomide is mentioned only as general standard of care in the description, not as a protocol treatment, so not listed (R9). 'Glioblastoma or grade 4 astrocytoma' without IDH requirement coded gbm_only/historical per D27C. Setting likely newly diagnosed (primary RT planning) but not stated explicitly. APTw MRI signal is an imaging marker, not a molecular biomarker."
+}

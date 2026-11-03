@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT05139056",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Currently Only Enrolling Glioblastoma Patients at First Recurrence"},
+      {"field": "eligibility", "quote": "When determining the maximum tolerated number of treatment cycles (MTC): patient has a histologically confirmed diagnosis of a grade 3 or 4 glioma (eg., glioblastoma, grade 4 astrocytoma, grade 3 astrocytoma, grade 3 oligodendroglioma)."},
+      {"field": "eligibility", "quote": "When enrolling to Treatment Schedules 4 and 4a: patient has glioblastoma at first recurrence."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "NSC-CRAd-S-pk7 consists of neural stem cells that can target glioblastoma cells and carry a virus, which can kill cancer cells."},
+      {"field": "interventions", "quote": "[BIOLOGICAL] Neural Stem Cells-expressing CRAd-S-pk7"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for the Treatment of Recurrent High-Grade Gliomas"},
+      {"field": "eligibility", "quote": "Patient's high-grade glioma has recurred or progressed after prior treatment with brain radiation and temozolomide"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Neural Stem Cells-expressing CRAd-S-pk7",
+      "active_moiety": "neural stem cell-delivered oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "NSC-CRAd-S-pk7 consists of neural stem cells that can target glioblastoma cells and carry a virus, which can kill cancer cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "neural stem cell carrier loaded with conditionally replicating oncolytic adenovirus CRAd-S-pk7 (cell therapy + oncolytic virus)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (NSC-CRAd-S-pk7)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "survivin and HSPG expression (IHC, pre/post treatment)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Changes in survivin expression by immunohistochemistry IHC in pre- and post-treatment tissue to see if there is a relationship with disease response."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "molecular signature of vulnerability (unspecified)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Identify a molecular signature of vulnerability for predicting which glioma patients will benefit most from treatment with NSC-CRAd-S-pk7."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is neural stem cell-delivered oncolytic adenovirus (cell therapy + oncolytic virus) -> excluded_intervention_type; no pharmacological candidate. Glioblastoma named in conditions and inclusion; earlier MTC part enrolled grade 3/4 glioma -> mixed_glioma_gbm_named. Grade 4 astrocytoma listed separately from glioblastoma but no IDH-wildtype requirement or WHO 2021 citation -> cns5_terminology unclear. Pharmacodynamic tissue sampling (survivin IHC, immune cell populations, CSF cytokines) is planned for the excluded agent, not a candidate, so tumour_pk/target_engagement coded no. Immune cell population/cytokine changes not recorded as molecular biomarkers. Temozolomide/bevacizumab mentioned only as prior therapy, not listed."
+}

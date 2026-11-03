@@ -1,0 +1,9 @@
+{"nct_id":"NCT05186064","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only","gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma"},{"field":"eligibility","quote":"Histopathologically confirmed IDH wild type glioblastoma, first recurrence after standard chemoradiation"}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"whole genome sequencing will be performed on tumor material after re-resection per standard of care"}],"candidate_flag":{"uncertain":false},"cns5_terminology":"cns5"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"eligibility","quote":"Histopathologically confirmed IDH wild type glioblastoma, first recurrence after standard chemoradiation"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"Histopathologically confirmed IDH wild type glioblastoma"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Diagnostic WGS cohort study with no drug intervention. WGS-guided targeted treatment options are mentioned generically (DRUP) with no named drug or specific alteration, so no further biomarker rows."}

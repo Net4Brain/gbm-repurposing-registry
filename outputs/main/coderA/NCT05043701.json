@@ -1,0 +1,14 @@
+{"nct_id":"NCT05043701","coder_id":"A","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Recurrent Glioblastoma"},{"field":"eligibility","quote":"Recurrence of histologically verified glioblastoma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"brief_summary","quote":"A study to determine the feasibility and safety of individualized cancer stem cell targeted therapy based on high-throughput functional profiling of FDA/EMA-approved drugs in patients with GBM that has recurred or progressed following standards-of-care (RT, TMZ)."}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"conditions","quote":"Recurrent Glioblastoma"}],
+"regimen":"combination","combination_partners":["unspecified personalized drug combination"],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Personalized drug combination","active_moiety":"unspecified_approved_panel","role":"experimental_combination","role_evidence":[{"field":"interventions","quote":"A personalized drug combination will be prescribed to each patient based on the functional drug screen"}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"personalized combination of FDA/EMA-approved drugs selected by high-throughput ex vivo drug sensitivity screening of autologous cancer stem cells; no drugs named","stated_antitumour_mechanism":"targeting cancer stem cells","flag":{"uncertain":false},"arms":["Treatment"]}],
+"biomarkers":[],
+"coder_notes":"EARLY_PHASE1 (translational subset). No specific drugs named; coded per C13 as unspecified_approved_panel. Functional ex vivo drug screen is not a molecular biomarker, so no biomarker rows. Regimen coded combination because the intervention is a personalized drug combination."}

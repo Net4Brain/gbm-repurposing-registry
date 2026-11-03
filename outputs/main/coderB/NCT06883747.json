@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT06883747",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma WHO Grade IV"},
+      {"field": "eligibility", "quote": "Participants with the diagnosis of glioblastoma by the 2021 WHO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BMS-986504 (other names: MRTX1719): MTA cooperative PRMT5 inhibitor"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "who have progressed on or following previous tumor-directed therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total and unbound BMS-986504 concentration will be quantified in Gd-enhancing and Gd-non-enhancing tumor tissue collected during Phase 0 surgery."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Tumor PK and PD analyses will be performed at IVY."},
+      {"field": "detailed_description", "quote": "blood, CSF and brain tumor tissue (Gd-enhancing and Gd-non-enhancing tumor tissue will be collected and analyzed separately) will be collected intraoperatively."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BMS-986504",
+      "active_moiety": "bms-986504",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Recurrent WHO Grade 4 Glioblastoma MTAP loss/deletion:  (interventions: Drug: BMS-986504)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational MTA-cooperative PRMT5 inhibitor (also MRTX1719)",
+      "stated_antitumour_mechanism": "MTA cooperative PRMT5 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent WHO Grade 4 Glioblastoma MTAP loss/deletion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP loss/deletion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "bms-986504",
+      "source_quote": {"field": "eligibility", "quote": "Patients with archival tissue demonstrating MTAP loss/deletion confirmed through NGS will be qualified for Phase 0 portion of the study."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase EARLY_PHASE1 (Phase 0/1): translational subset. PD endpoints are not individually listed but tumour PD analysis in intraoperatively collected tumour tissue is stated. MTAP loss + MTA-cooperative PRMT5 inhibitor treated as candidate-matched (manual section 5 example)."
+}

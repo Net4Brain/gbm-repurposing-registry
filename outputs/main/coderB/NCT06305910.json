@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT06305910",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Midline Glioma, H3 K27M-Mutant; Recurrent High Grade Glioma"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed DIPG/DMG with documented H3K27M alteration (based on IHC or DNA sequencing performed in a CLIA-certified laboratory) or recurrent HGG."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "CD200AR-L is a newly developed agent that binds to CD200-AR."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Study treatment will begin approximately 14 days after the completion of standard of care radiation therapy for patients with newly diagnosed DMG/DIPG and at the time of recurrence for patients with HGG."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["imiquimod", "radiotherapy", "allogeneic tumor lysate vaccine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "blood work for immune characterization"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CD200AR-L",
+      "active_moiety": "cd200ar-l",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "in combination with imiquimod and GBM6-AD vaccine to treat malignant glioma in children and young adults"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "CD200AR-L_GBM6-AD_imiquimod",
+      "drug_class_hint": "investigational CD200 activation receptor ligand (immune adjuvant)",
+      "stated_antitumour_mechanism": "binds to the CD200 activation receptor on immune cells, activating immune cells and overcoming CD200-mediated inhibition",
+      "flag": {"uncertain": false},
+      "arms": ["CD200AR-L"]
+    },
+    {
+      "agent_name_registered": "Imiquimod",
+      "active_moiety": "imiquimod",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Each patient will also be given topical imiquimod and a single dose of 300cGy re-irradiation."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "CD200AR-L_GBM6-AD_imiquimod",
+      "drug_class_hint": "topical TLR7 agonist used as vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Imiquimod is a vaccine adjuvant in the experimental regimen with no separate antitumour hypothesis; could be viewed as supportive rather than a second investigational agent."},
+      "arms": ["CD200AR-L"]
+    },
+    {
+      "agent_name_registered": "GBM6-AD vaccine",
+      "active_moiety": "allogeneic tumor lysate vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "On the second day, following application of Imiquimod cream and CD200AR-L injection, 2 supraclavicular injections of GBM6-AD vaccine will be given."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "CD200AR-L_GBM6-AD_imiquimod",
+      "drug_class_hint": "allogeneic tumour lysate cancer vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CD200AR-L"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed DIPG/DMG with documented H3K27M alteration"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric/young adult (ages 2-25; stdAges CHILD and ADULT) phase 1; glioblastoma is not named in conditions, title, inclusion criteria or arm label (the vaccine name GBM6-AD is not a population statement), so S5 is high_grade_glioma_unspecified. The single registered intervention bundles CD200AR-L, imiquimod, GBM6-AD vaccine and a single 300 cGy radiation dose; agents split by the text. H3K27M required for the newly diagnosed DMG/DIPG stratum only, not for recurrent HGG."
+}

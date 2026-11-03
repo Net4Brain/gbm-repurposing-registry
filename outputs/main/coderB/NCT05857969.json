@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05857969",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Childhood Gliosarcoma"},
+      {"field": "arms", "quote": "We intend to enroll chemorefractory or relapsed pediatric patients with all types of cancers"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Pediatric multi-cancer basket; gliosarcoma appears only as one entry in the conditions list, glioblastoma itself is not named."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Functional Precision Medicine: Ex Vivo Drug Sensitivity Testing + Genomic Tumor Profiling"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Registered intervention is a test (device); drugs are chosen later by the treating physician from assay results and are not named, so possibly an unspecified approved-drug panel."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with suspected or confirmed diagnosis of recurrent or refractory cancer"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Pediatric (age 21 or younger, stdAges CHILD and ADULT) functional precision medicine feasibility study; single registered intervention is a Device (ex vivo drug sensitivity testing plus genomic profiling). No specific drugs are registered; the brief summary mentions 'clinically approved drugs' tested ex vivo. Coded no candidate; if an adjudicator treats the FPM-guided therapy as an unspecified approved-drug panel (C13), candidate status would change. No specific tumour biomarker is required."
+}

@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT06161974",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with a newly-diagnosed IDH1-mutant HGG including DIPG are eligible."},
+      {"field": "arms", "quote": "Stratum B: Patients with localized, intracranial, non-pontine, and non-thalamic IDH 1 mutant Astrocytoma, CNS WHO Grade 4."},
+      {"field": "conditions", "quote": "High Grade Glioma; Astrocytoma; Astrocytoma, Grade III; Astrocytoma, Grade IV; Diffuse Intrinsic Pontine Glioma; WHO Grade III Glioma; WHO Grade IV Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this study is to determine the efficacy of the study drug olutasidenib to treat newly diagnosed pediatric and young adult patients with a high-grade glioma (HGG) harboring an IDH1 mutation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "This is a multicenter, international, phase II study of post-radiotherapy (RT) administration of olutasidenib to treat pediatric and young adult patients newly diagnosed with an IDH1-mutant HGG."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "To characterize the plasma pharmacokinetic (PK) properties of olutasidenib in pediatric patients"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Objective radiographic response rates, agent-specific toxicities as well as the pharmacokinetic and pharmacodynamic properties of olutasidenib will also be assessed."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Olutasidenib + TMZ",
+      "active_moiety": "olutasidenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Olutasidenib 150 mg PO BID + Temozolomide 200 mg/m2 PO QD"},
+        {"field": "brief_summary", "quote": "The goal of this study is to determine the efficacy of the study drug olutasidenib"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mutant IDH1 inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A", "Stratum B", "Stratum C"]
+    },
+    {
+      "agent_name_registered": "Olutasidenib + TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Olutasidenib 150 mg PO BID + Temozolomide 200 mg/m2 PO QD"},
+        {"field": "detailed_description", "quote": "The trial will include a feasibility cohort to identify the dose of olutasidenib that is feasible when given in combination with temozolomide as maintenance therapy after completion of focal radiotherapy in this patient population."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard maintenance chemotherapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A", "Stratum B", "Stratum C"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "olutasidenib",
+      "source_quote": {"field": "eligibility", "quote": "2.1 Presence of at Least One Relevant Actionable Somatic Mutation in IDH1 Gene, Detailed Here:"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q codeletion (exclusion of IDH-mutant 1p/19q-codeleted oligodendroglioma)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with oligodendroglioma, IDH-mutant and 1p/19q-codeleted are not eligible."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population is IDH1-mutant high-grade glioma only (IDH-mutant astrocytoma grade 3/4, DIPG, thalamic/spinal HGG); glioblastoma is not named and IDH-mutant grade 4 astrocytoma is not glioblastoma under CNS5, so not_glioblastoma. Paediatric and young adult population (12-39 years). Olutasidenib + TMZ registered as one intervention; split into two rows. Temozolomide given with olutasidenib in all strata for 13 cycles as maintenance backbone (soc_backbone); olutasidenib then continues as single agent. PK is plasma only; pharmacodynamic properties of olutasidenib stated as assessed (sample type not stated), coded target_engagement yes. IDH2 mutation is an exclusion (part of IDH row). H3K27M appears only in conditions, not recorded."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04391062",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "patient will receive 5-ALA 4 to 6 hours before surgery"},
+      {"field": "brief_summary", "quote": "light dose escalation in a classical intraoperative PDT regimen mediated by 5-ALA-PpIX"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "maximum removal surgery followed by radiochemotherapy according to the Stupp protocol"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gliolan",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The patient will receive 5-ALA ( 5-aminolevulinic acid hydrochloride),GLIOLAN drinkable 6h before surgery + lighting of the tumor bed by a red light source"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitizer prodrug (5-ALA, PpIX) for photodynamic therapy",
+      "stated_antitumour_mechanism": "intraoperative photodynamic therapy mediated by 5-ALA-PpIX",
+      "flag": {"uncertain": false},
+      "arms": ["intraoperative PDT 400J/cm²", "intraoperative PDT 600J/cm²", "intraoperative PDT 800J/cm²"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (Stupp protocol radiochemotherapy)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "maximum removal surgery followed by radiochemotherapy according to the Stupp protocol"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care (Stupp)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["intraoperative PDT 400J/cm²", "intraoperative PDT 600J/cm²", "intraoperative PDT 800J/cm²"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA is given for photodynamic therapy (antitumour), not just fluorescence guidance, so it is a candidate with device_dependent true. Temozolomide is not named in the record; it is inferred from the named Stupp protocol."
+}

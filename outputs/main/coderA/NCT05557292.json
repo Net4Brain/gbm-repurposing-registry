@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05557292",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "RMC-5552 Monotherapy in Adult Subjects With Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants must have histologically or cytologically confirmed 1st, 2nd or 3rd recurrence GBM that has recurred or progressed (per standard RANO criteria) after standard treatment regimen"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "RMC-5552 is a type of medicine called an mechanistic target of rapamycin (mTOR) inhibitor."},
+      {"field": "interventions", "quote": "[DRUG] RMC-5552 (other names: mTORC1/4EBP1): Given IV"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "RMC-5552 Monotherapy in Adult Subjects With Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Median drug levels of RMC-5552 in tumor tissue of participants in Cohort B will be measured at time of tumor issue removal/surgical resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess pharmacodynamic (PD) markers of drug activity, including biochemical markers of mTORC1 pathway inhibition in tumor tissue. (Cohort B)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RMC-5552",
+      "active_moiety": "rmc-5552",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "RMC-5552 Monotherapy in Adult Subjects With Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational bi-steric mTORC1-selective kinase inhibitor (RMC-5552)",
+      "stated_antitumour_mechanism": "This protein controls cancer cell growth, and the study doctors believe stopping mTOR from forming may help to kill tumor cells.",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Cohort A 1(Dose Escalation, Recurrent Non-surgical GBM)",
+        "Cohort A2 (Dose Escalation, Recurrent Non-surgical GBM)",
+        "Cohort B (Dose Expansion, Recurrent Surgical GBM)",
+        "Cohort C (Dose Expansion, Recurrent Non-surgical GBM)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "mTORC1 pathway phospho-markers in tumour tissue (pS6RP, p4EBP1, pAKT/total AKT, p-PRAS40/total PRAS40)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "rmc-5552",
+      "source_quote": {"field": "outcomes", "quote": "To assess pharmacodynamic (PD) markers of drug activity, including biochemical markers of mTORC1 pathway inhibition in fresh tumor tissue and in archival tissue, levels of pS6RP will be measured."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Dose Expansion, Recurrent Surgical GBM)"]
+    }
+  ],
+  "coder_notes": "Non-randomised multi-cohort single-agent study; all arms experimental with RMC-5552, so control_arm_from_other_arms = no. Tumour PK and pharmacodynamic tissue markers planned only in Cohort B (surgical), which per the description closed before enrolment. cns5_terminology coded historical because the detailed description uses 'glioblastoma multiforme'; no IDH requirement. Additional Cohort B tissue markers (cleaved caspase 3, MIB-1) are proliferation/apoptosis readouts, not recorded as separate molecular biomarkers. No eligibility or enrichment biomarker."
+}

@@ -1,0 +1,9 @@
+{"nct_id":"NCT06835803","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only","gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma (GBM)"},{"field":"eligibility","quote":"Histological confirmation of WHO grade 4 glioblastoma (IDH wild-type by immunohistochemistry or sequencing)."}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"Dose-escalated radiation therapy involves higher doses of radiation therapy each day of treatment over the three week course of radiation therapy"}],"candidate_flag":{"uncertain":false},"cns5_terminology":"cns5"},
+"trial":{"treatment_setting":"newly_diagnosed","treatment_setting_evidence":[{"field":"eligibility","quote":"Newly diagnosed disease"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"no","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"IDH wild-type by immunohistochemistry or sequencing"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Radiotherapy-only trial (dose-escalated vs standard hypofractionation); no drug listed. Candidate exclusion reason could also be read as excluded_intervention_type (radiotherapy alone); no_pharmacological_candidate chosen because no agent exists."}

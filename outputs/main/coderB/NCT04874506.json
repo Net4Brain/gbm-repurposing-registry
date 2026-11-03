@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04874506",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Be newly diagnosed with glioblastoma multiforme within 4 weeks of open biopsy/resection;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "MBM-02 (Tempol) is an HIF-1 and HIF-2 inhibitor that is being tested as an addition to standard of care treatment that includes radiotherapy and TMZ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Be newly diagnosed with glioblastoma multiforme within 4 weeks of open biopsy/resection;"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MBM-02",
+      "active_moiety": "tempol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "MBM-02 (Tempol) is an HIF-1 and HIF-2 inhibitor that is being tested as an addition to standard of care treatment that includes radiotherapy and TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitroxide antioxidant / HIF-1 and HIF-2 inhibitor",
+      "stated_antitumour_mechanism": "HIF-1 and HIF-2 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3", "Cohort 4"]
+    },
+    {
+      "agent_name_registered": "temozolomide (standard of care, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "6 weeks of radiotherapy and concomitant temozolomide;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3", "Cohort 4"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only one registered intervention (MBM-02); temozolomide listed as backbone because the arms state all patients receive it. H3K27M appears only as an exclusion criterion and is not recorded as an eligibility biomarker. Cohorts differ by MBM-02 dose (1000/1200/1400 mg/day); all arms labelled EXPERIMENTAL, no control."
+}

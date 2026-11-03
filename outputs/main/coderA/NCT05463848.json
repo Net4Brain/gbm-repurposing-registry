@@ -1,0 +1,149 @@
+{
+  "nct_id": "NCT05463848",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants must have histologically World Health Organization Grade IV IDH wildtype glioblastoma by IDHR132H immunohistochemistry or variants including gliosarcoma or IDH wildtype diffuse glioma with molecularly features of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Merck Sharp \\& Dohme Corp., a subsidiary of Merck \\& Co., Inc., is supporting this research study by providing funding for the research study and both investigational study drugs, pembrolizumab and olaparib."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must be at first or second relapse of GBM."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "eligibility", "quote": "For the first 10 patients in Arm A who will have tumor resected for analysis of olaparib levels, both enhancing and non-enhancing tumor should be available for resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "TIL density quantifies anti-tumor immune response. It is measured in tumor tissue from protocol surgery, analyzed by immunohistochemistry and by next generation sequencing."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "This is an open label, multi-center, phase II trial evaluating the safety and efficacy of olaparib, temozolomide and pembrolizumab in participants with recurrent glioblastoma at their first or second relapse."},
+        {"field": "detailed_description", "quote": "The U.S. Food and Drug Administration (FDA) has not approved pembrolizumab or olaparib for recurrent glioblastoma, but both have been approved for other uses."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Pembrolizumab is an antibody designed to block the action of the receptor, PD-1.",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 (Safety Lead In): pembrolizumab plus olaparib and temozolomide", "Cohort 2 (Surgical Cohort): Arm A - Pembrolizumab plus olaparib and temozolomide", "Cohort 2 (Surgical Cohort): Arm B - Pembrolizumab monotherapy"]
+    },
+    {
+      "agent_name_registered": "Olaparib",
+      "active_moiety": "olaparib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The U.S. Food and Drug Administration (FDA) has not approved pembrolizumab or olaparib for recurrent glioblastoma, but both have been approved for other uses."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": "Olaparib helps kill cancer cells by preventing PARP from repairing their DNA.",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 (Safety Lead In): pembrolizumab plus olaparib and temozolomide", "Cohort 2 (Surgical Cohort): Arm A - Pembrolizumab plus olaparib and temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The U.S. FDA has approved temozolomide as a treatment option for glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": "Temozolomide is a chemotherapy drug that can enter the brain and prevent tumor cells from growing by causing DNA damage.",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1 (Safety Lead In): pembrolizumab plus olaparib and temozolomide", "Cohort 2 (Surgical Cohort): Arm A - Pembrolizumab plus olaparib and temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH mutation by immunohistochemistry or by sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q co-deletion (exclusion)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Prior evidence of 1p/19q co-deletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "molecular features of glioblastoma (EGFR amplification, TERT promoter mutation, or +7/-10) as alternative diagnostic definition",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wildtype diffuse glioma with molecularly features of glioblastoma (EGFR amplification, TERT promoter mutation, or concurrent gain of Chromosome 7 and loss of Chromosome 10)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "gene expression profiling (GEP) cell-cycle signature score in tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "GEP score uses surgery tumor tissue to measure cell-cycle related gene signatures in the tumor microenvironment per established methods."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating lymphocyte density (IHC and NGS) after treatment",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "TIL density quantifies anti-tumor immune response. It is measured in tumor tissue from protocol surgery, analyzed by immunohistochemistry and by next generation sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Pembrolizumab and olaparib are both called investigational study drugs; coded experimental_combination. In Cohort 2 Arm B pembrolizumab is given alone (role there would be experimental_monotherapy). Temozolomide (established GBM therapy) is a partner in Cohort 1 and Arm A only, at a 7-day/21-day schedule with olaparib; coded soc_backbone as background chemotherapy, though it is not in all arms (alternative: established_therapy_experiment); not a candidate either way. Arm B (pembrolizumab alone, labelled experimental) is the randomised reference for Arm A but is not standard of care, so control_arm_from_other_arms coded no. Tumour olaparib levels planned in resected tissue (tumour PK yes); window-of-opportunity surgery with TIL density and GEP in tumour tissue (target engagement yes for pembrolizumab). IDH-wildtype and 1p/19q/molecular GBM features are diagnostic definitions, not candidate-matched."
+}

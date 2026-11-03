@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05911230",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Patients with histopathologically proven glioblastoma or brain metastasis and suspected tumor progress on standard MRI after first line therapy and who are candidates for elective surgical resection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "An advanced diffusion weighted MRI-sequence will be performed in addition to the routine MRI-diagnostics."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "suspected tumor progress on standard MRI after first line therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study (ADW-MRI), registered Phase NA; no drug or biologic intervention. Population is glioblastoma or brain metastasis; coded basket_gbm_eligible because brain metastases (multiple primary cancers) are also eligible; mixed_glioma_gbm_named would be the alternative, both include. Fails S3 (phase NA) and S6 regardless."
+}

@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT07346144",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); High Grade Gliomas; Recurrent Glioblastoma; Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed patients: Unifocal, unilateral high-grade glioma based on MRI"},
+      {"field": "eligibility", "quote": "Patients must have a prior confirmed histological/molecular diagnosis of GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "One is herpes simplex virus thymidine kinase (HSV-tk), which converts the pro-drug valaciclovir into an active drug that can kill tumour cells"},
+      {"field": "interventions", "quote": "[DRUG] Valaciclovir: Oral valaciclovir administered 3 times daily for 14 - 21 days"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only pharmacological agent besides the AAV gene therapy is valaciclovir, a prodrug activated by the gene-therapy-encoded HSV-tk; whether it counts as a candidate or as part of the excluded gene therapy system decides S6."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "further investigate the safety and efficacy in patients with newly diagnosed or recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["TGX-007 (AAV-1 HSV-tk/IL-12 gene therapy)", "standard of care surgery and chemoradiotherapy (newly diagnosed)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "incidence of HSV-tk mRNA expression, or equivalent, in tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TGX-007",
+      "active_moiety": "aav-1 hsv-tk/il-12 gene therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "TGX-007 is a gene therapy drug delivered by a harmless adeno-associated virus (AAV) vector which delivers two combined therapeutic payloads"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TGX-007_valaciclovir",
+      "drug_class_hint": "TGX-007, AAV-1 vector gene therapy encoding HSV thymidine kinase and interleukin-12, intratumoural injection",
+      "stated_antitumour_mechanism": "delivers two combined therapeutic payloads to enable killing of proliferative cells and activation of an anti-tumour immune response",
+      "flag": {"uncertain": false},
+      "arms": ["Dose Finding", "Newly Diagnosed Expansion", "Recurrent Glioblastoma Expansion"]
+    },
+    {
+      "agent_name_registered": "Valaciclovir",
+      "active_moiety": "valaciclovir",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Patients will receive TGX-007 by a direct intratumoural injection and will then take the pro-drug valacyclovir orally for up to 21 days before proceeding to standard of care surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TGX-007_valaciclovir",
+      "drug_class_hint": "antiviral nucleoside prodrug (aciclovir prodrug), used as HSV-tk-activated suicide-gene prodrug",
+      "stated_antitumour_mechanism": "herpes simplex virus thymidine kinase (HSV-tk), which converts the pro-drug valaciclovir into an active drug that can kill tumour cells",
+      "flag": {"uncertain": true, "reason": "Valaciclovir's antitumour effect depends entirely on activation by the excluded gene therapy (suicide gene/prodrug system); candidate status needs adjudication."},
+      "arms": ["Dose Finding", "Newly Diagnosed Expansion", "Recurrent Glioblastoma Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "AAV gene therapy (TGX-007, excluded type) plus oral valaciclovir as the HSV-tk-activated prodrug. Valaciclovir coded experimental_monotherapy (only pharmacological investigational agent, with a stated antitumour mechanism) but flagged uncertain because its activity requires the gene therapy; if judged part of the gene therapy system, S6 fails with excluded_intervention_type. Newly diagnosed cohort is 'high-grade glioma' on MRI; recurrent cohort requires GBM; GBM named in conditions, so mixed_glioma_gbm_named. Newly diagnosed patients proceed to Stupp chemoradiotherapy after surgery, but temozolomide is not a registered intervention and recurrent patients do not receive it, so it is not listed. HSV-tk mRNA in tissue is transgene expression (the prodrug-activating enzyme), coded target_engagement unclear; it is not a tumour biomarker. Three EXPERIMENTAL cohorts, none a control."
+}

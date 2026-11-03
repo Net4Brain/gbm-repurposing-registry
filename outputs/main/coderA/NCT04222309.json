@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04222309",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subject has a histologically confirmed (frozen section) diagnosis of recurrent WHO Grade IV glioblastoma multiforme (GBM)."},
+      {"field": "title", "quote": "Laparoscopically Harvested Omental Free Tissue Autograft to Bypass the Blood Brain Barrier (BBB) in Human Recurrent Glioblastoma Multiforme (rGBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Laparoscopically harvested omental free flap into the resection cavity of recurrent glioblastoma multiforme (GBM) patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "All participants included in the study will undergo standard surgical resection for diagnosed recurrent GBM."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical procedure only (omental free flap autograft lining the resection cavity); no drug or biologic intervention registered. Conditions also list glioma/malignant glioma, but inclusion requires recurrent WHO grade IV glioblastoma multiforme, so gbm_only; 'glioblastoma multiforme' gives historical terminology."
+}

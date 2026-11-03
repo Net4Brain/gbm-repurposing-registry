@@ -1,0 +1,136 @@
+{
+  "nct_id": "NCT04309552",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "title", "quote": "Tumor Hypoxia and Proliferation in Patients With High-Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "FMISO PET (Fluoromisonidazole-PET) allows researchers to study whether tumor cells lack oxygen (hypoxia)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Thirty newly diagnosed treatment-naïve subjects with suspected HGG based on clinical presentation and MRI findings"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FMISO PET",
+      "active_moiety": "18f-fluoromisonidazole",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Suspected HGG subjects will undergo combined FMISO/FLT dyn-PET at baseline as part of surgical planning."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[18F] hypoxia PET tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High Grade Glioma (HGG)"]
+    },
+    {
+      "agent_name_registered": "18F-FLT PET",
+      "active_moiety": "18f-fluorothymidine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Suspected HGG subjects will undergo combined FMISO/FLT dyn-PET at baseline as part of surgical planning."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[18F] proliferation PET tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High Grade Glioma (HGG)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HIF-1alpha",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Ki-67",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "VEGF",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TERT promoter mutation",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "PET metrics will be correlated with immuno-histochemistry (IHC) analyses for HIF-1α, Ki-67, VEGF, EGFR, IDH1, and pimonidazole, as well as molecular analyses of TERT promoter mutation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-only pilot with two PET tracers (diagnostic agents). Glioblastoma not named; only 'high-grade glioma'. Tissue biomarkers are exploratory correlates of PET metrics; pimonidazole (hypoxia adduct) not listed as a separate biomarker."
+}

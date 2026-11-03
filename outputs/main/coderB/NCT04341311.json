@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT04341311",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients must have DIPG, as defined below, to be eligible for this protocol."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluating the safety, tolerability and preliminary efficacy of the drugs marizomib and panobinostat"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "patients may enroll at any point in their disease course provided they have received standard radiation therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["marizomib", "panobinostat"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Marizomib",
+      "active_moiety": "marizomib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "If tolerated,combination of Marizomib: and panobinostat on subsequent cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "proteasome inhibitor (investigational)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Marizomib", "Marizomib + Panobinostat"]
+    },
+    {
+      "agent_name_registered": "Panobinostat",
+      "active_moiety": "panobinostat",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "If tolerated,combination of Marizomib: and panobinostat on subsequent cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HDAC inhibitor (approved for other uses)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Marizomib + Panobinostat"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "H3K27M status will be assessed in patients when tissue is available"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric DIPG trial (ages CHILD, ADULT; under 22); fails S5 as not_glioblastoma. Marizomib has a single-agent first arm, role in that arm would be monotherapy; coded combination for the combination arm. PK is plasma only."
+}

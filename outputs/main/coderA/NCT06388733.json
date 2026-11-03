@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT06388733",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; GBM; Brain Neoplasms, Adult, Malignant; Brain Tumor"},
+      {"field": "eligibility", "quote": "Histologic documentation of a newly-diagnosed intracranial GBM, per 2021 WHO classification guidelines through local pathology review."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm A: Niraparib:  (interventions: Drug: Niraparib)"},
+      {"field": "brief_summary", "quote": "Does niraparib improve overall survival (OS) compared to TMZ?"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study Comparing Niraparib With Temozolomide in Adult Participants With Newly-diagnosed, MGMT Unmethylated Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will receive niraparib 200 mg orally once daily starting on Day 1 of RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved for ovarian cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Niraparib"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants randomized to the comparator arm (Arm B) will receive SOC TMZ 75 mg/m2 orally once daily with RT starting on Day 1 of RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm B: Temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Unmethylated MGMT promoter region determined locally by a validated PSQ or qMS-PCR assay compliant to local regulations."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Presence of known isocitrate dehydrogenase (IDH) mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "histone H3 mutation (excluded)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Presence of known H3 mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Niraparib replaces temozolomide with standard RT in the experimental arm; RT is the only partner, so regimen combination with radiotherapy. MGMT unmethylated status is an entry requirement but not candidate-matched (manual: MGMT never matched unless the candidate targets MGMT). IDH mutation and H3 mutation are exclusion criteria defining GBM per WHO 2021 (coded as eligibility biomarkers). H3 mutation coded as 'other' because the record says 'H3 mutation' without specifying K27M."
+}

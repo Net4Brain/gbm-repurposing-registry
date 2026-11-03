@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT04385173",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Refractory Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent or refractory glioblastoma with measurable disease at enrollment."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BP102 is an autologous B7-H3 CAR-T cell product manufactured from the participant's peripheral blood mononuclear cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent or refractory glioblastoma with measurable disease at enrollment."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BP102 (B7-H3 CAR-T)",
+      "active_moiety": "b7-h3 car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "BP102 is an investigational autologous B7-H3 CAR-T cell therapy manufactured from each patient's peripheral blood mononuclear cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous B7-H3-directed CAR-T cell therapy (BP102), intracranial via Ommaya reservoir",
+      "stated_antitumour_mechanism": "B7-H3 CAR-T cells are designed to recognize B7-H3 expressed on glioblastoma cells.",
+      "flag": {"uncertain": false},
+      "arms": ["BP102 (B7-H3 CAR-T)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 (CD276) expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Available tumor tissue must be submitted for central laboratory analysis of B7-H3 expression."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is a CAR-T cell therapy (registered as DRUG) -> excluded intervention type at S6. B7-H3 tissue must be submitted for analysis but positivity is not stated as an entry requirement, so coded exploratory_correlative; B7-H3 is the CAR-T target, but CAR-T is not a candidate, so not candidate_matched. CSF PK (Cmax/AUC of CAR-T in CSF) and CSF cytokine PD are planned, but for the excluded cell therapy, not a pharmacological candidate; tumour_pk_planned and target_engagement_planned coded no on that basis."
+}

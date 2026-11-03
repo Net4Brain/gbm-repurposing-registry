@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT07042620",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor Adult; Low Grade Glioma (LGG), High Grade Glioma (HGG); Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The SonoClear(R) System is intended to be used as an acoustic coupling fluid during ultrasound imaging in brain surgery of human beings"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "The only registered intervention is a device (acoustic coupling fluid for intraoperative ultrasound imaging, a non-antitumour device); routine irrigation fluids are not registered interventions. No agents listed. Population includes low- and high-grade glioma with glioblastoma named in the conditions."
+}

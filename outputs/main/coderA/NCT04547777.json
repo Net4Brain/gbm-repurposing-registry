@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT04547777",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subgroup #2: Histopathologically confirmed recurrent supratentorial WHO grade 3 or 4 malignant glioma (high grade glioma with molecular features of glioblastoma will be eligible under WHO grade 4 malignant glioma)"},
+      {"field": "conditions", "quote": "Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Phase 1 Trial of D2C7-IT in Combination With 2141-V11 for Recurrent Malignant Glioma"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] D2C7-IT + 2141-V11: Single D2C7-IT intratumoral infusion (4613.2 ng/mL in 36 mL) over 72 hours followed by single 2141-V11 (3.0 mg, RP2D established prior to V5.0) infusion (5 dose levels) over 7 hours."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for Recurrent Malignant Glioma"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed recurrent supratentorial WHO grade 4 malignant glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["d2c7-it", "2141-v11"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Repeated tumor/fluid sampling via the TMD will occur before every perilymphatic injection of 2141-V11, i.e., approximately 2 weeks (+ 1 week) after D2C7-IT, which will be repeated again 2 weeks later and then every 3 weeks for 1 year."},
+      {"field": "detailed_description", "quote": "The TMD sampling time can be adjusted from every 3 weeks to every 6 weeks (i.e., every other 2141-V11 infusion) if not enough cellular and genomic material is sampled in the first cohort."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "D2C7-IT",
+      "active_moiety": "d2c7-it",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] D2C7-IT + 2141-V11: Single D2C7-IT intratumoral infusion (4613.2 ng/mL in 36 mL) over 72 hours"},
+        {"field": "detailed_description", "quote": "D2C7-IT and 2141-V11 will be delivered sequentially directly into the tumor by Convection Enhanced Delivery (CED) using an intracerebral catheter placed within the enhancing portion of the tumor."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational EGFR/EGFRvIII-targeted recombinant immunotoxin (D2C7 antibody fragment fused to Pseudomonas exotoxin), given intratumorally by CED",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11", "D2C7-IT + 2141-V11 and Tumor Monorail Device (TMD) Placement"]
+    },
+    {
+      "agent_name_registered": "2141-V11",
+      "active_moiety": "2141-v11",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a phase 1 study of an anti-CD40 monoclonal antibody (2141-V11) in combination with D2C7-IT for patients with recurrent World Health Organization (WHO) grade III or IV malignant glioma"},
+        {"field": "detailed_description", "quote": "2141-V11 will be dose escalated during the study to determine the maximum tolerated dose (MTD) when used in combination with D2C7-IT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational Fc-engineered agonist anti-CD40 monoclonal antibody, intratumoral (CED) and perilymphatic subcutaneous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT + 2141-V11", "D2C7-IT + 2141-V11 and Tumor Monorail Device (TMD) Placement"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Conditions say only 'Glioma, Malignant'; glioblastoma is named in the inclusion criteria ('high grade glioma with molecular features of glioblastoma will be eligible under WHO grade 4 malignant glioma'), and grade 3 tumours are also eligible -> mixed_glioma_gbm_named. No IDH-wildtype requirement or WHO 2021 citation; 'WHO grade 4 malignant glioma' without IDH -> historical. Both D2C7-IT and 2141-V11 are investigational -> experimental_combination. Both given intratumorally by convection-enhanced delivery via catheter (new_route); device_dependent set false because CED is treated as a route rather than device activation, adjudicator may differ. The Tumor Monorail Device is a device, not an agent. MGMT promoter status appears only in an exclusion criterion about prior chemotherapy (not an entry requirement), so not recorded as a biomarker. EGFR appears only in keywords. Repeated tumour/fluid sampling via the TMD is planned for cellular and genomic material but not explicitly linked to a pharmacodynamic endpoint of the candidates -> target_engagement_planned unclear. Bevacizumab mentioned only as prior/allowed therapy, not a registered intervention; not listed."
+}

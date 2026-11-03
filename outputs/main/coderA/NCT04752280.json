@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04752280",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "histologically confirmed gliomblastoma WHO IV (operated or after biopsy)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Proton irradiation: proton irradiation applied as follows: 30 x 2 Gy(RBE) 33 x 1,8 Gy (RBE), or 15 x 2,67 Gy (RBE)"},
+      {"field": "interventions", "quote": "[RADIATION] Photon irradiation: proton irradiation applied as follows: 30 x 2 Gy 33 x 1,8 Gy, or 15 x 2,67 Gy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Radiation therapy is an integral part of the multimodal primary therapy of glioblastomas."},
+      {"field": "eligibility", "quote": "Previous radiotherapy in the brain or skull base"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-only comparison (proton vs photon IMRT); no drug or biologic is a registered intervention. Concomitant chemotherapy ('radiochemotherapy') is mentioned only as an indication, with no named drug, so no agent listed. 'Gliomblastoma WHO IV' uses Roman-numeral (pre-CNS5 style) grading but neither cites a WHO edition nor states IDH status; coded cns5_terminology unclear (could be argued historical). Phase NA."
+}

@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT07520214",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma IDH (Isocitrate Dehydrogenase) Wildtype; Glioblastom WHO Grade 4"},
+      {"field": "eligibility", "quote": "Supratentorial IDH-wildtype glioblastoma located in the frontal, temporal, or occipital lobe with EGFR gene mutation"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "mRNA vaccine: GV-907、GV-108: Eligible patients will receive intradermal injections of cancer vaccines"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "complete tumor resection confirmed by imaging within 10 days after initial surgery, followed by standard radiotherapy and/or chemotherapy; no tumor recurrence observed on MRI at 4 months postoperatively."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "GV-108",
+      "active_moiety": "mrna cancer vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This study evaluates the safety and specific antitumor immune responses of mRNA vaccines GV-108 and GV-907 in IDH-wildtype glioblastoma patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "GV-108 + GV-907",
+      "drug_class_hint": "mRNA cancer vaccine GV-108 (intradermal)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GV-108 and GV-907 (100 µg/dose)", "GV-108 and GV-907 (150 µg/dose)", "GV-108 and GV-907 (200 µg/dose)"]
+    },
+    {
+      "agent_name_registered": "GV-907",
+      "active_moiety": "mrna cancer vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This study evaluates the safety and specific antitumor immune responses of mRNA vaccines GV-108 and GV-907 in IDH-wildtype glioblastoma patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "GV-108 + GV-907",
+      "drug_class_hint": "mRNA cancer vaccine GV-907 (intradermal)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GV-108 and GV-907 (100 µg/dose)", "GV-108 and GV-907 (150 µg/dose)", "GV-108 and GV-907 (200 µg/dose)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Glioblastoma IDH (Isocitrate Dehydrogenase) Wildtype; Glioblastom WHO Grade 4"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Supratentorial IDH-wildtype glioblastoma located in the frontal, temporal, or occipital lobe with EGFR gene mutation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Only interventions are two mRNA cancer vaccines (excluded type), so S6 fails. EGFR mutation is an entry requirement and is probably the vaccine antigen target, but vaccines are not candidates, so candidate_matched false. Three sequential dose-level arms; no control arm. Antigen-specific T-cell response is a vaccine immunogenicity endpoint, not candidate target engagement."
+}

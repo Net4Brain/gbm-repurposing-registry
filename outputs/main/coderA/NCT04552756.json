@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04552756",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven grade III or IV glioma"},
+      {"field": "arms", "quote": "Participants who receive radiotherapy or radiochemotherapy for glioblastoma (grade IV), anaplastic astrocytoma (grade III) or anaplastic oligodendroglioma (grade III)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Seizure Diary: The patients keep a seizure diary during the period of radiotherapy and up to 6 weeks following radiotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Indication for normo-fractionated radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Observational-style seizure-diary study during radiotherapy (phase NA); only intervention is a diagnostic test. Glioblastoma named via 'grade IV glioma' in inclusion criteria (historical WHO grading, D27C) and in the arm description (arm label itself says high-grade glioma); WHO grade III/IV terminology -> historical. Anti-epileptic drugs and chemotherapy are mentioned but not registered interventions nor given to every patient, so not listed. Treatment setting not stated (likely primary radiotherapy)."
+}

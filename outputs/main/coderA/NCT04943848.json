@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT04943848",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Intrinsic Pontine Glioma; Diffuse Midline Glioma, H3 K27M-Mutant"},
+      {"field": "eligibility", "quote": "Subjects with newly diagnosed typical or non-typical, biopsy-proven DIPG or DMG are eligible for study enrollment."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BALSTILIMAB is a human monoclonal antibody that targets programmed cell death 1 (PD1)"},
+      {"field": "brief_summary", "quote": "evaluating the safety and tolerability of rHSC-DIPGVax in combination with BALSTILIMAB and ZALIFRELIMAB"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Newly diagnosed patients with DIPG and DMG who have completed radiation six to ten weeks prior to enrollment are eligible."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["rHSC-DIPGVax", "zalifrelimab"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "peak plasma concentration (Cmax) of BALSTILIMAB AND ZALIFRELIMAB in the blood"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate biologic correlates for immune response in order to assess neo-antigen specific T cell responses: PBMC immune subsets measured via flow cytometry from peripheral blood samples"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "rHSC-DIPGVax",
+      "active_moiety": "neoantigen heat shock protein vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [{"field": "interventions", "quote": "Off-the-shelf, neoantigen heat shock protein vaccine"}],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "neoantigen heat shock protein peptide cancer vaccine (rHSC-DIPGVax)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["\"Lead In\": rHSC-DIPGVax Monotherapy", "Part A: rHSC-DIPGVax in Combination with BALSTILIMAB (Anti-PD1)", "Part B: Dose Escalation of ZALIFRELIMAB (Anti-CTLA4)", "Part C: Dose Expansion"]
+    },
+    {
+      "agent_name_registered": "Balstilimab",
+      "active_moiety": "balstilimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "rHSC-DIPGVax (8 total doses) + BALSTILIMAB + ZALIFRELIMAB (1 year of therapy or 9 cycles, whichever comes first)"},
+        {"field": "arms", "quote": "rHSC-DIPGVax (8 total doses) + BALSTILIMAB (1 year of therapy or 27 cycles, whichever comes first)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "inhibition of negative co-regulatory pathways, such as, PD1/PDL1",
+      "flag": {"uncertain": false},
+      "arms": ["Part A: rHSC-DIPGVax in Combination with BALSTILIMAB (Anti-PD1)", "Part B: Dose Escalation of ZALIFRELIMAB (Anti-CTLA4)", "Part C: Dose Expansion"]
+    },
+    {
+      "agent_name_registered": "Zalifrelimab",
+      "active_moiety": "zalifrelimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "rHSC-DIPGVax (8 total doses) + BALSTILIMAB + ZALIFRELIMAB (1 year of therapy or 9 cycles, whichever comes first)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CTLA-4 monoclonal antibody",
+      "stated_antitumour_mechanism": "anti-CTLA4 therapy to induce T cell priming to promote T memory formation",
+      "flag": {"uncertain": false},
+      "arms": ["Part B: Dose Escalation of ZALIFRELIMAB (Anti-CTLA4)", "Part C: Dose Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histone mutation must be confirmed by pathology report."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric DIPG/DMG trial (ages 12 months to 18 years in inclusion); glioblastoma not named anywhere, so not_glioblastoma. Balstilimab is the only investigational drug in Part A (experimental_monotherapy there) but combined with zalifrelimab in Parts B and C; coded experimental_combination. Histone (H3K27M) mutation required for entry (with radiographically typical DIPG exempt from biopsy); not candidate-matched. Immune-response correlates (neo-antigen T cell responses) relate mainly to the vaccine, so target engagement for the candidates coded unclear. Arm labels copied up to the colon of each registered arm."
+}

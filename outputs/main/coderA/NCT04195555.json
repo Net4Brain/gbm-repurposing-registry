@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT04195555",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma"},
+      {"field": "title", "quote": "Phase 2 Subprotocol of AG-120 (Ivosidenib) in Patients With Tumors Harboring IDH1 Mutations"},
+      {"field": "eligibility", "quote": "Patient must have enrolled onto APEC1621SC (NCT03155620) and must have been given a treatment assignment to MATCH to APEC1621K based on the presence of an actionable mutation as defined in APEC1621SC"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive ivosidenib PO QD. Cycles repeat every 28 days for up to 2 years in the absence of disease progression or unacceptable toxicity."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "that have not responded to (refractory) or have come back after (recurrent) prior treatment that have IDH (isocitrate dehydrogenase) 1 genetic alterations (mutations)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "A descriptive analysis of PK parameters will be performed to define systemic exposure, drug clearance, and other pharmacokinetic parameters."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To provide preliminary estimates of the pharmacokinetics and pharmacodynamics of AG-120 (ivosidenib) in children and adolescents with relapsed or refractory cancer."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ivosidenib",
+      "active_moiety": "ivosidenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive ivosidenib PO QD. Cycles repeat every 28 days for up to 2 years in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mutant IDH1 inhibitor (AG-120, Tibsovo)",
+      "stated_antitumour_mechanism": "may block the growth of cancer cells that have specific genetic changes in the IDH pathway",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (ivosidenib)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "ivosidenib",
+      "source_quote": {"field": "title", "quote": "Phase 2 Subprotocol of AG-120 (Ivosidenib) in Patients With Tumors Harboring IDH1 Mutations"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA genomic profiling",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Will explore approaches to the profiling changes in tumor genomics over time through evaluation of circulating tumor deoxyribonucleic acid."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric MATCH basket (ages 12 months to 21 years; stdAges CHILD, ADULT). Glioblastoma is never named in conditions, title, inclusion criteria or arm labels; only 'Recurrent/Refractory Malignant Glioma' and 'WHO Grade 2 Glioma' appear, and entry requires an IDH1 mutation, so any glioma enrolled would be IDH-mutant (not glioblastoma under CNS5). Coded not_glioblastoma; high_grade_glioma_unspecified would be the alternative value, with the same exclusion. Pharmacodynamics of ivosidenib are a stated secondary objective but sample type and markers are not specified."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05611645",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Randomized Phase II Trial of Concurrent Low-dose Bevacizumab and HSRT Versus Bevacizumab Alone for Glioblastoma at First Recurrence: HSCK-005"},
+      {"field": "eligibility", "quote": "Original histopathologically proven diagnosis World Health Organization (WHO) Grade 3/4 glioma;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "IV 5mg/kg (experimental group) or 10mg/kg (comparison group) every two weeks until disease progression."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Low-dose Bevacizumab With HSRT vs BVZ Alone for GBM at First Recurrence"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "IV 5mg/kg (experimental group) or 10mg/kg (comparison group) every two weeks until disease progression."},
+        {"field": "detailed_description", "quote": "To establish an improvement in 6-month pfs in recurrent glioblastoma patients receiving low-dose bevacizumab and re-irradiation compared with patients receiving bevacizumab alone."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["HSRT+Low-dose Bevacizumab", "Bevacizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Bevacizumab (established GBM therapy, D6) at a lower dose (5 mg/kg) with re-irradiation (HSRT) vs standard-dose bevacizumab (10 mg/kg) alone; dose differs between arms, so rule 6 (established_therapy_experiment) in the experimental arm; in the 'Bevacizumab' active comparator arm its role is control_comparator. No pharmacological candidate. Eligibility allows WHO grade 3/4 glioma while title specifies glioblastoma; coded mixed_glioma_gbm_named. Conditions list only 'Glioma; Recurrent Glioma'."
+}

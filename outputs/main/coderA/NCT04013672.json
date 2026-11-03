@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT04013672",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of World Health Organization Grade IV glioma (glioblastoma or gliosarcoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Pembrolizumab: 200 mg IV every 3 weeks"},
+      {"field": "detailed_description", "quote": "All patients will receive the study drug combination consisting of SurVaxM and pembrolizumab (PEM) with no randomization, stratification or dose escalation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Pembrolizumab Plus SurVaxM for Glioblastoma at First Recurrence"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["SurVaxM", "sargramostim", "Montanide ISA 51"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Pembrolizumab: 200 mg IV every 3 weeks"},
+        {"field": "brief_summary", "quote": "The main purpose of this study is to assess the clinical activity of Pembrolizumab and SurVaxM in participants with recurrent glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A - Have not received immunotherapy", "Arm B - Have failed prior anti-PD1 therapy"]
+    },
+    {
+      "agent_name_registered": "SurVaxM",
+      "active_moiety": "survivin peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] SurVaxM (other names: SVN53-67, M57-KLH): 500 mcg per dose, dosed every two weeks for 4 doses and then every 3 months"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SurVaxM vaccine regimen",
+      "drug_class_hint": "survivin peptide cancer vaccine (SVN53-67/M57-KLH)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A - Have not received immunotherapy", "Arm B - Have failed prior anti-PD1 therapy"]
+    },
+    {
+      "agent_name_registered": "Sargramostim",
+      "active_moiety": "sargramostim",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Sargramostim (other names: GM-CSF): 100 mcg per dose, dosed every two weeks for 4 doses and then every 3 months"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SurVaxM vaccine regimen",
+      "drug_class_hint": "recombinant GM-CSF; used here as vaccine adjuvant on the same schedule as SurVaxM",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Licensed immunomodulatory protein given as a vaccine adjuvant on the SurVaxM schedule; could be treated as an investigational candidate (which would make pembrolizumab experimental_combination) rather than part of the excluded vaccine regimen."},
+      "arms": ["Arm A - Have not received immunotherapy", "Arm B - Have failed prior anti-PD1 therapy"]
+    },
+    {
+      "agent_name_registered": "Montanide ISA 51",
+      "active_moiety": "montanide isa 51",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Montanide ISA 51: 1 ml per dose dosed every two weeks for 4 doses and then every 3 months"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SurVaxM vaccine regimen",
+      "drug_class_hint": "oil-based vaccine adjuvant (emulsifier), given with SurVaxM",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A - Have not received immunotherapy", "Arm B - Have failed prior anti-PD1 therapy"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "SurVaxM is a peptide cancer vaccine -> excluded_intervention_type; sargramostim (GM-CSF) and Montanide ISA 51 are given on the identical vaccine schedule and treated as components of the vaccine regimen (same regimen_id). Pembrolizumab is the only pharmacological investigational candidate. Sargramostim flagged because a licensed protein could alternatively be counted as a second candidate. Two non-randomised experimental arms defined by prior anti-PD-1 exposure; no control arm. 'WHO Grade IV glioma (glioblastoma or gliosarcoma)' without IDH requirement -> historical terminology."
+}

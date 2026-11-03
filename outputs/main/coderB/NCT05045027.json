@@ -1,0 +1,13 @@
+{"nct_id":"NCT05045027","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"high_grade_glioma_unspecified","gbm_population_evidence":[{"field":"conditions","quote":"Glioma; Malignant Glioma; Recurrent Glioma; Recurrent Malignant Glioma"}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"Undergo multinuclear metabolic imaging"}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"both","treatment_setting_evidence":[{"field":"eligibility","quote":"AIM 2: Newly diagnosed or recurrent suspected or confirmed glioma (low or high grade)"}],
+"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[
+{"biomarker":"IDH","biomarker_other":null,"role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"AIM 2: 10 IDH mutant and 10 IDH wild type gliomas"},"flag":{"uncertain":false},"arms":[]},
+{"biomarker":"other","biomarker_other":"NHE1 expression","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"outcomes","quote":"NHE1 expression: Will create a comprehensive map of genes/pathways and unique cell subsets associated with NHE1 expression."},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Imaging/biospecimen procedures only. Glioblastoma is mentioned only in the detailed description (anti-PD-1 aim in recurrent GBM), not in conditions, title, eligibility or arm label; conditions say glioma/malignant glioma, so high_grade_glioma_unspecified. Anti-PD-1 immunotherapy is not a registered intervention (patients are enrolled in another immunotherapy trial or clinically treated), so it is not listed. IDH 10/10 is a sampling quota, not a requirement of a specific status; coded exploratory_correlative. Registered as EARLY_PHASE1."}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04937413",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Glioma; Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed or recurrent high grade glioma (HGG) or glioblastoma (GBM) (if recurrent, prior pathology report indicating HGG or GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Single dose of evolocumab: 420 mg of evolocumab subcutaneous injection 7-14 days before scheduled surgery for malignant glioma"},
+      {"field": "brief_summary", "quote": "evaluate whether a clinically licensed PCSK9i called evolocumab (also known as Repatha) can be repurposed as a potential immunotherapeutic for high grade glioma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed or recurrent high grade glioma (HGG) or glioblastoma (GBM) (if recurrent, prior pathology report indicating HGG or GBM)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Presence of evolocumab in surgical tumor tissue and tissue from a matched control group: Determined by mass spectrometry"},
+      {"field": "detailed_description", "quote": "leftover tissue not required for histological analysis will be collected, and the level of evolocumab will be quantified."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Major histocompatibility complex-1 (MHC-I) expression within the surgical tumor tissue and tissue from a matched control group: Determined by FACS"},
+      {"field": "brief_summary", "quote": "seeks to evaluate the pharmacokinetic (PK) and pharmacodynamic (PD) properties of an FDA-approved proprotein convertase/ kexin type 9 serine protease inhibitor (PCSK9i)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Evolocumab",
+      "active_moiety": "evolocumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Single dose of evolocumab: 420 mg of evolocumab subcutaneous injection 7-14 days before scheduled surgery for malignant glioma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PCSK9 inhibitor monoclonal antibody (lipid-lowering)",
+      "stated_antitumour_mechanism": "potential immunotherapeutic for high grade glioma",
+      "flag": {"uncertain": false},
+      "arms": ["Single dose of evolocumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MHC-I expression on tumour cells",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Major histocompatibility complex-1 (MHC-I) expression within the surgical tumor tissue and tissue from a matched control group: Determined by FACS"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (Phase 0) window-of-opportunity study. Comparison is with archived specimens from untreated patients (not a registered arm), so single-arm. Lipid metabolism secondary outcome not listed as a molecular biomarker row."
+}

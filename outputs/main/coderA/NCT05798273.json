@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT05798273",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Brain Tumors"},
+      {"field": "eligibility", "quote": "glioma (grade II-IV) showing enhancement on post-contrast MRI"},
+      {"field": "eligibility", "quote": "brain metastases"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only in summary/description; eligibility says 'glioma (grade II-IV)' (grade IV glioma = historical glioblastoma name per D27C) plus brain metastases. Could be high_grade_glioma_unspecified/not_glioblastoma if 'grade IV' within a grade range does not count as naming GBM."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[OTHER] Radiopharmacon Contrast agent: Type: \\[68Ga\\]Ga-PSMA-11 dosage: 1.5 MBq/kg"},
+      {"field": "detailed_description", "quote": "Eligible for this non-treatment study are patient, aged \\>18 years old, with enhancing glioma or brain metastases scheduled for (re-)resection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Planned for (re-)resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Radiopharmacon Contrast agent",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[OTHER] Radiopharmacon Contrast agent: Type: \\[68Ga\\]Ga-PSMA-11 dosage: 1.5 MBq/kg"},
+        {"field": "brief_summary", "quote": "The primary aim of this study is to confirm PSMA as suitable diagnostic and potential theranostic target in patients with intra-axial brain tumors by means of \\[68Ga\\]Ga-PSMA-HBEC-CC (\\[68Ga\\]Ga-PSMA-11) PET."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA ligand PET tracer ([68Ga]Ga-PSMA-11, PSMA-HBED-CC; gozetotide); given IV and intra-arterially for imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["intra-arterial injection of [68Ga]Ga-PSMA-11"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA expression (IHC)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "correlation between SUV and the degree of immunohistochemical PSMA staining"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA diagnostic imaging study (non-treatment) with glioma grade II-IV and brain metastases; only agent is the 68Ga-PSMA-11 PET tracer (diagnostic_agent), so no candidate. Intra-arterial vs IV route of the tracer is compared (formulation_flag new_route). Treatment setting unclear: patients scheduled for resection or re-resection (newly diagnosed or recurrent). Quotes contain the record's escaped brackets (\\[ and \\]) as written in the input file."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06855628",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; GBM"},
+      {"field": "title", "quote": "Assessment Of A Novel Metabolic Imaging Modalities As A Predictor Of Therapeutic Efficacy In Glioblastoma (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluate the prognostic capacity of DMI in a trial assessing the efficacy of adding BPM31510, a lipid nano dispersion of CoQ10 to standard treatment of Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Any participant that consents to entry into the Phase II BPM31510 parent study (BPM31510IV-11)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "BPM31510 is not a registered intervention of this imaging study; it is the investigational drug of the parent study every participant enters. Candidate status of the trial depends on whether it is counted."}
+  ,
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "combination",
+    "combination_partners": ["standard treatment of glioblastoma"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BPM31510",
+      "active_moiety": "bpm31510",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "efficacy of adding BPM31510, a lipid nano dispersion of CoQ10 to standard treatment of Glioblastoma (GBM)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "lipid nano-dispersion of coenzyme Q10",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Not a registered intervention of this record; included because the record says all participants are in the BPM31510 parent trial."},
+      "arms": []
+    },
+    {
+      "agent_name_registered": "[6,6-²H₂]-Glucose",
+      "active_moiety": "glucose",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "stable isotope-labeled glucose used as a metabolic tracer. It is administered orally to assess glucose metabolism using Deuterium Metabolic Imaging (DMI)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "deuterium-labelled glucose metabolic imaging tracer (6,6-2H2)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Deuterated Glucose + MRI"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging sub-study (deuterium metabolic imaging) attached to a Phase II BPM31510 parent study. The only registered intervention is the deuterated glucose tracer (diagnostic). BPM31510 is listed because the summary and eligibility tie every participant to the parent drug trial; if adjudication decides it is not an agent of this record, S6 fails (no_pharmacological_candidate). Setting and standard treatment not described."
+}

@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06355908",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subjects with WHO grade 4 gliomas who have relapsed or progressed during or after standard treatments such as surgery, radiotherapy, and chemotherapy."},
+      {"field": "title", "quote": "Safety, Tolerability and Efficacy of Enhanced IL-13Rα2 Targeted Chimeric Antigen Receptor T Cell Immunotherapy Against Recurrent/Refractory Grade 4 Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] IL13Rα2 CAR-T: The IL13Rα2 CAR-T cells will be administered via intraventricular infusion every 2 weekly via an Ommaya reservoir."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with WHO grade 4 gliomas who have relapsed or progressed during or after standard treatments such as surgery, radiotherapy, and chemotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IL13Rα2 CAR-T",
+      "active_moiety": "il13ra2 car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] IL13Rα2 CAR-T: The IL13Rα2 CAR-T cells will be administered via intraventricular infusion every 2 weekly via an Ommaya reservoir."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IL13Ra2-targeted CAR-T cell therapy, intraventricular via Ommaya",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 CAR-T"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ra2 expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor with IL13Rα2 positive expression."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population is 'WHO grade 4 glioma' without an IDH requirement; per D27C coded gbm_only with historical terminology (condition field says only 'Glioma'; glioblastoma not literally named). CAR-T is an excluded intervention type, so no candidate; IL13Ra2 eligibility is linked to the CAR-T but not to a candidate, so candidate_matched false. CSF CAR-T levels and pre/post tumour infiltration analyses concern the cell therapy, not a candidate. Bevacizumab appears only in exclusion criteria."
+}

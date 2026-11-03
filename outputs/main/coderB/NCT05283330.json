@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT05283330",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Cervical Cancer; Breast Cancer; Colon Cancer; NSCLC; mCRPC (Metastatic Castration-resistant Prostate Cancer); Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent glioblastoma (only enrolled in MAD Q4W cohorts)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "²¹²Pb-DOTAM-GRPR1 is a radioimmunoconjugate comprised of ²¹²Pb"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Having first or second glioblastoma recurrence, after standard therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "212Pb-DOTAM-GRPR1 radioactivity concentration as a function of time in whole blood, plasma and urine"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "²¹²Pb-DOTAM-GRPR1",
+      "active_moiety": "dotam-grpr1",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "²¹²Pb-DOTAM-GRPR1"},
+        {"field": "interventions", "quote": "a GRPR-targeted antagonist"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lead-212 (alpha-emitting) radioimmunoconjugate; DOTAM chelator with GRPR-targeted antagonist",
+      "stated_antitumour_mechanism": "targeted alpha therapy: radioligand directed at gastrin-releasing peptide receptor (GRPR)",
+      "flag": {"uncertain": false},
+      "arms": ["²¹²Pb-DOTAM-GRPR1"]
+    },
+    {
+      "agent_name_registered": "203Pb-DOTAM-GRPR1",
+      "active_moiety": "203pb-dotam-grpr1",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lead-203 SPECT imaging counterpart of the lead-212 radioligand",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GRPR expression, demonstrated by 203Pb-DOTAM-GRPR1 uptake on SPECT/CT",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "dotam-grpr1",
+      "source_quote": {"field": "eligibility", "quote": "Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)."},
+      "flag": {"uncertain": true, "reason": "GRPR targeting is selected by imaging uptake of the paired tracer rather than a molecular assay; manual section 5 says imaging-only markers are not molecular biomarkers, but the trial title and criteria require GRPR-expressing tumours."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-tumour basket (prostate, breast, colorectal, cervical, NSCLC, recurrent GBM in MAD Q4W cohorts). The diagnostic 203Pb tracer is not a registered intervention but is given to determine eligibility (uptake required) and has its own safety outcome, so it is listed as a diagnostic_agent row with no arm. Dosimetry sub-study is mentioned but PK sample types are stated as whole blood, plasma and urine only, so tumour PK is coded no. Whether GRPR-uptake imaging counts as a molecular biomarker for the primary outcome (candidate_matched_selection) needs adjudication."
+}

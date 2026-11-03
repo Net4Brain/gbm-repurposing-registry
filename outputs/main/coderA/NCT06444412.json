@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT06444412",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "WHO Grade 3 Glioma; WHO Grade 4 Glioma"},
+      {"field": "eligibility", "quote": "History of World Health Organization (WHO) grade III or IV infiltrating glioma previously treated with first-line chemoradiotherapy."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma not named literally; included only via the D27C rule that grade 4/IV glioma without IDH requirement is historical glioblastoma, alongside grade III glioma."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Ga 68 PSMA-11"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Diagnostic (Ga-68 PSMA-11, PET/CT): Patients receive Ga-68 PSMA-11 IV and then undergo PET/CT over 1 hour, 50-100 minutes after injection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "MRI findings compatible with contrast-enhancing recurrent infiltrating glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ga 68 PSMA-11",
+      "active_moiety": "gozetotide",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This clinical trial evaluates whether gallium-68 (Ga-68) prostate specific membrane antigen (PSMA)-11 positron emission tomography (PET)/computed tomography (CT) imaging is useful in differentiating between disease that has come back after a period of improvement (recurrence)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "68Ga-labelled PSMA PET imaging tracer (gallium Ga 68 gozetotide)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic (Ga-68 PSMA-11, PET/CT)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA immunohistochemistry in tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To perform a radiology-pathology correlation of PSMA uptake at PET with tumor PSMA immunohistochemistry (IHC) immunostaining, tumor pathology features, and signal and enhancement characteristics at magnetic resonance imaging (MRI)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging trial: Ga-68 PSMA-11 (gozetotide) PET/CT to distinguish recurrence from treatment effect; no therapeutic agent, so no candidate. Population is WHO grade III or IV glioma with no IDH requirement; grade IV glioma treated as historical glioblastoma per D27C, hence mixed_glioma_gbm_named and historical terminology."
+}

@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT07218367",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma presenting as an intra-axial"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "This will require a chemical exchange saturation transfer MRI followed by surgical resection based on this MRI."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma presenting as an intra-axial"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma presenting as an intra-axial"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Surgical/imaging trial (pH-weighted CEST-EPI MRI-guided resection); no drug or biologic is a registered intervention. Gadolinium and post-operative adjuvant therapy per guidelines are mentioned only in passing and not listed (R9). The title's 'pH Modulation Through Bicarbonate Transporter SLC4A4' names no drug. IDH-wildtype listed as eligibility (diagnostic definition), not candidate-matched."
+}

@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT05159531",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "HIV Infections"},
+      {"field": "brief_summary", "quote": "Gay, bisexual and other men who have sex with men (GBM) account for over half of new HIV infections in Canada each year"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Participants will receive Descovy® 200/25mg 1 tablet once daily for 72 weeks."},
+      {"field": "brief_summary", "quote": "HIV pre-exposure prophylaxis (PrEP) using regular oral tenofovir disoproxil fumarate/emtricitabine (TDF/FTC) or tenofovir alafenamide/emtricitabine (TAF/FTC) is an effective and safe HIV prevention option."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PrEP (other names: Descovy® 200/25mg (DIN= 02454424), TAF/FTC, tenofovir alafenamide/emtricitabine)",
+      "active_moiety": "tenofovir alafenamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Standard model of care: Delivery of PrEP care through the local standard of care. (interventions: Drug: PrEP; Other: Standard of Care)"},
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] mHealth model of care: Delivery of PrEP care through the Freddie® mobile Health (mHealth) platform. (interventions: Drug: PrEP; Other: mHealth Model of Care)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nucleotide reverse transcriptase inhibitor (antiretroviral, HIV PrEP)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard model of care", "mHealth model of care"]
+    },
+    {
+      "agent_name_registered": "PrEP (other names: Descovy® 200/25mg (DIN= 02454424), TAF/FTC, tenofovir alafenamide/emtricitabine)",
+      "active_moiety": "emtricitabine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Standard model of care: Delivery of PrEP care through the local standard of care. (interventions: Drug: PrEP; Other: Standard of Care)"},
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] mHealth model of care: Delivery of PrEP care through the Freddie® mobile Health (mHealth) platform. (interventions: Drug: PrEP; Other: mHealth Model of Care)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nucleoside reverse transcriptase inhibitor (antiretroviral, HIV PrEP)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard model of care", "mHealth model of care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Off-topic record: 'GBM' here means gay, bisexual and other men who have sex with men; HIV PrEP care-delivery trial (PHASE4). Not glioblastoma (not anti-GBM disease either). TAF/FTC fixed-dose combination split into two rows, given in both arms -> soc_backbone; no antitumour agent. Treatment setting not applicable to this population, coded unclear. The EXPERIMENTAL-labelled arm is the standard-of-care delivery model, hence control_arm_from_other_arms yes. Drug levels in dried blood spots/hair are adherence measures, not tumour PK."
+}

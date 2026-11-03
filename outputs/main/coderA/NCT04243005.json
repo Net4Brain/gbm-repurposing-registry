@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04243005",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "A suspected diagnosis of supratentorial glioblastoma by MRI.(A)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Supramarginal resection: Aim of supramarginal resection, where a margin of at least 10 mm is considered feasible prior to surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "A suspected diagnosis of supratentorial glioblastoma by MRI.(A)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical RCT (supramarginal vs conventional resection), phase NA; no drug or biologic registered interventions. Standard radiotherapy/temozolomide is mentioned only as background in the brief summary, not as a protocol treatment, so not listed. cns5_terminology historical because the summary equates glioblastoma with 'WHO grade IV astrocytoma'. Control arm is a registered ACTIVE_COMPARATOR, so control_arm_from_other_arms = no."
+}

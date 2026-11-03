@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT04118036",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants must have histologically confirmed diagnosis of glioblastoma or variants."},
+      {"field": "eligibility", "quote": "IDH1/2 mutation in any prior biopsy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This research study involves a combination of two drugs:"},
+      {"field": "interventions", "quote": "Abemaciclib (other names: Verzenio): Oral 2 times a day"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 2 Study of Abemaciclib and Pembrolizumab in Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["pembrolizumab", "abemaciclib"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Effects of abemaciclib and pembrolizumab on tumor cell proliferation and tumor cell death will be measured using immunohistochemistry for pRB1, Ki-67 and Cleaved Caspase 3"},
+      {"field": "outcomes", "quote": "TIL density in tumor tissue (surgery): One-sided Wilcoxon test"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Pembrolizumab intravenous once in 21 day cycle (3 weeks) (interventions: Drug: Pembrolizumab; Drug: Abemaciclib)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "humanized monoclonal antibody that is designed to block the action of the receptor, PD-1",
+      "flag": {"uncertain": false},
+      "arms": ["Surgery Arm", "Non Surgery Arm"]
+    },
+    {
+      "agent_name_registered": "Abemaciclib",
+      "active_moiety": "abemaciclib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Abemaciclib, twice daily oral at specified dose for 21 day cycle"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CDK4/6 inhibitor (approved for breast cancer)",
+      "stated_antitumour_mechanism": "In laboratory studies, abemaciclib was able to enter the brain, stop CDK 4 and CDK 6 from making cells, and slow growth of glioblastoma in mice.",
+      "flag": {"uncertain": false},
+      "arms": ["Surgery Arm", "Non Surgery Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "eligibility", "quote": "Inactivation of CDKN2A/B or C in the tumor by homozygous deletion"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": "RB1 wild-type (intact RB)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "eligibility", "quote": "Validation of wild-type RB status (no deletion/losses more than single copy by copy number or sequencing data; and/or no inactivating mutations or rearrangement by sequencing)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH1/2 mutation in any prior biopsy."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q co-deletion (exclusion)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Prior evidence of 1p/19q co-deletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": "pRB1 immunohistochemistry (with Ki-67, cleaved caspase 3) in resected tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "outcomes", "quote": "Effects of abemaciclib and pembrolizumab on tumor cell proliferation and tumor cell death will be measured using immunohistochemistry for pRB1, Ki-67 and Cleaved Caspase 3"},
+      "flag": {"uncertain": false},
+      "arms": ["Surgery Arm"]
+    }
+  ],
+  "coder_notes": "Two non-randomised experimental cohorts (surgery / non-surgery), both pembrolizumab + abemaciclib; no control. CDKN2A/B/C homozygous deletion and intact RB are listed under general inclusion criteria (applies to all cohorts), coded eligibility and matched to abemaciclib (CDK4/6 inhibitor). The CDKN2C component of the requirement is not separately coded. IDH1/2-mutant excluded, so cns5. RB1 status coded as CDK4_6_pathway (could alternatively be 'other'). TIL density in resected tumour is an immune-cell pharmacodynamic endpoint (pembrolizumab), cited as target-engagement evidence rather than a molecular biomarker row. stdAges includes CHILD but inclusion requires age >=18."
+}

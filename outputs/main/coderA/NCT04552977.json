@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04552977",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Supratentorial space occupying lesions were diagnosed as glioblastoma by pathology;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] fluzoparil: a PARP1 inhibitor"},
+      {"field": "brief_summary", "quote": "The main purpose of this study was to evaluate the efficacy and safety of fluzoparil combined with temozolomide in patients with recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Trail of Fluzoparil in Combination With Temozolomide in Patients With Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "fluzoparil",
+      "active_moiety": "fluzoparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] fluzoparil+temozolomide: Participants receive fluzoparil and temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP1 inhibitor (fluzoparib)",
+      "stated_antitumour_mechanism": "a PARP1 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["fluzoparil+temozolomide"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] temozolomide: an alkylating chemotherapeutic agent"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] fluzoparil+temozolomide: Participants receive fluzoparil and temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": "an alkylating chemotherapeutic agent",
+      "flag": {"uncertain": false},
+      "arms": ["fluzoparil+temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The methylation status of MGMT promoter had been detected or was willing to be detected before enrollment;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered name 'fluzoparil' (also 'fluzoparide' in exclusions); INN fluzoparib used as active moiety. Temozolomide given in the only arm as rechallenge backbone in recurrent disease; coded soc_backbone (every arm receives it; question is fluzoparib). MGMT: entry requires testing of status, not a specific status, so coded exploratory_correlative rather than eligibility."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT07605364",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed primary glioblastoma by World Health Organization (WHO) 2021 criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Mycophenolate mofetil blocks enzyme activity which can disrupt tumor activity and may make the tumor more sensitive to radiation and/or temozolomide."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed primary glioblastoma by World Health Organization (WHO) 2021 criteria"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Mycophenolate Mofetil",
+      "active_moiety": "mycophenolic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "PRIMARY OBJECTIVE:\n\nI. To compare the overall survival (OS) (phase III) and progression-free survival (PFS) (phase II) between the experimental arm (mycophenolate mofetil \\[MMF\\] + standard of care \\[SOC\\]) and the control arm (SOC)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "prodrug",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "immunosuppressant, IMPDH inhibitor (mycophenolate mofetil is the morpholinoethyl ester prodrug of mycophenolic acid)",
+      "stated_antitumour_mechanism": "blocks enzyme activity which can disrupt tumor activity and may make the tumor more sensitive to radiation and/or temozolomide",
+      "flag": {"uncertain": false},
+      "arms": ["Arm II (radiation, temozolomide, mycophenolate mofetil)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This phase II/III trial tests how well adding mycophenolate mofetil, to the usual treatment with intensity-modulated radiation therapy and temozolomide works for the treatment of glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (radiation, temozolomide)", "Arm II (radiation, temozolomide, mycophenolate mofetil)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Both arms are registered as EXPERIMENTAL, but Arm I (radiotherapy + temozolomide) works as the control, so control_arm_from_other_arms is yes. mycophenolate mofetil is mapped to the parent moiety mycophenolic acid per the ester-to-parent rule."
+}

@@ -1,0 +1,6 @@
+{"nct_id":"NCT05969860","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"basket_gbm_eligible","gbm_population_evidence":[{"field":"conditions","quote":"Advanced Glioblastoma"},{"field":"eligibility","quote":"Central Nervous System malignancy including glioblastoma"}],"gbm_population_flag":{"uncertain":false},"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"interventions","quote":"[OTHER] Home Health Encounter (other names: HH, Home, Home Care Visit, Home Health): Receive at-home treatment"}],"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"conditions","quote":"Advanced Glioblastoma"}],"regimen":"not_applicable","combination_partners":[],"basket":true,"control_arm_from_other_arms":"no","flag":{"uncertain":false},"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[],
+"coder_notes":"Care-delivery trial (home vs clinic administration of standard-of-care regimens); no drug is a registered intervention and regimens vary by patient, so no agents listed. Both arms are labelled EXPERIMENTAL and receive the same SOC, differing only in location/timing."}

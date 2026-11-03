@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT04915404",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "A diagnosis of GBM (WHO Grade IV) confirmed by:"},
+      {"field": "eligibility", "quote": "The presence of IDH mutation prior to enrollment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Berubicin intravenously infused will be administered at a dose of 7.1 mg/m2 as free base (equivalent to 7.5 mg/m2 Berubicin HCl)"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] pK Assessment of Berubicin and its active metabolite"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Berubicin in Adult Patients With Recurrent Glioblastoma Multiforme (WHO Grade IV)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma samples will be collected from the first approximately 18 patients enrolled, and concentrations of Berubicin and its metabolite, berubicinol, will be measured"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Berubicin Hydrochloride",
+      "active_moiety": "berubicin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to confirm the efficacy (or futility) of a single arm of Berubicin treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anthracycline (topoisomerase II inhibitor), IV",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["pK Assessment of Berubicin and its active metabolite"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The presence of IDH mutation prior to enrollment"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "O\\[6\\] methylguanine-DNA methyltransferase (MGMT) methylation status must be available, or able to be determined from existing tumor tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "IDH mutation is an exclusion criterion, i.e. IDH-wildtype required (used only to define GBM); this plus 'Glioblastoma Multiforme (WHO Grade IV)' meets both cns5 and historical, coded cns5 per manual. MGMT status must be known but no specific status is required for entry and no stratification is stated; coded exploratory_correlative. PK is plasma only, so tumour_pk_planned no."
+}

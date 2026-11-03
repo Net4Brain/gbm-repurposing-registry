@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT04752813",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "assess the effects of adding BPM31510 onto a conventional treatment framework of RT and concurrent TMZ chemotherapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with newly diagnosed pathologically verified GB."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BPM31510",
+      "active_moiety": "bpm31510",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Subjects will receive a BPM31510 96hr infusion once weekly for 8 wk."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational agent given by 96-h infusion; exclusion criteria mention CoQ10 allergy, suggesting a CoQ10-based formulation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Vitamin K1",
+      "active_moiety": "phytomenadione",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive prophylactic Vitamin K1 at a recommended dose of 10 mg subcutaneously prior to the beginning of each week of BPM31510 therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "vitamin K, prophylactic against bleeding",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive the standard TMZ treatment for up to 12 cycles post BPM31510 treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm BPM31510 added to RT/TMZ. Vitamin K1 is prophylactic (bleeding), no antitumour hypothesis stated, so supportive."
+}

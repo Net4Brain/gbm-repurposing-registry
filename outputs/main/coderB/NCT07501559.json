@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT07501559",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme(GBM)"},
+      {"field": "eligibility", "quote": "Histopathology consistent with the 2021 World Health Organization (WHO) glioblastoma classification;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "Viral shedding:Copy number of JL15003 in blood"},
+      {"field": "detailed_description", "quote": "Cohort 1 (5×10⁶ CCID₅₀, n=20) and Cohort 2 (8×10⁷ CCID₅₀, n=20)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Record never states what JL15003 is; coded as a live virus therapy (excluded type) from CCID50 dosing, viral shedding outcomes and poliovirus vaccine boost requirement."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Refractory or relapsed following standard-of-care therapy or intolerance to standard therapy (surgical resection followed by radiotherapy and concurrent/adjuvant temozolomide);"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Copy number of JL15003 in cerebrospinal fluid (CSF) samples"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "JL15003Injection",
+      "active_moiety": "oncolytic virus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Intratumoral or intracavitary administration of JL15003 Injection as needed"},
+        {"field": "eligibility", "quote": "Patients should have received a boost immunization with trivalent inactivated poliovirus vaccine between 1 week to 6 months prior to administration of the study drug"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "live virus biologic (CCID50-titred, likely oncolytic poliovirus-based; identity not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Virus nature inferred, not stated; if it were not a viral/oncolytic product it would be a candidate."},
+      "arms": ["administration of JL15003 Injection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "JL15003 is a biological given intratumorally/intracavitarily by Ommaya reservoir, dosed in CCID50, with viral shedding outcomes and a poliovirus neutralising antibody requirement: consistent with an oncolytic virus, though the record does not say so. CSF copy number is viral shedding, not drug PK, so tumour_pk_planned coded no. On-demand bevacizumab for oedema is mentioned only in passing and not listed."
+}

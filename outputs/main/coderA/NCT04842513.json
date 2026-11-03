@@ -1,0 +1,133 @@
+{
+  "nct_id": "NCT04842513",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Multi Peptide Vaccination with XS15 in Addition to Standard Postoperative Radiation Therapy and Temozolomide Chemotherapy in Newly Diagnosed Glioblastoma"},
+      {"field": "brief_summary", "quote": "to assess immunogenicity, efficacy, safety of the combination of multipeptide vaccination and the immune modulator XS15 emulsified in Montanide ISA 51 VG"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "XS15 (TLR1/2 ligand) is described as an immunomodulator; coded as vaccine adjuvant (excluded type), but could be argued a pharmacological immune agonist candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Multipeptide plus XS15",
+      "active_moiety": "multipeptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Peptide vaccines should be injected into the skin at the lower part of the abdomen of the patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "multipeptide_xs15_vaccine",
+      "drug_class_hint": "cancer multi-peptide vaccine (HLA-A2 restricted peptides)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Multipeptide plus XS15"]
+    },
+    {
+      "agent_name_registered": "Pam3Cys-GDPKHPKSF (XS15)",
+      "active_moiety": "xs15",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "Multi Peptide Vaccination with Pam3Cys-GDPKHPKSF (XS15) As an Immunomodulator in Addition to Standard Postoperative Radiation Therapy and Temozolomide Chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "multipeptide_xs15_vaccine",
+      "drug_class_hint": "TLR1/2 ligand lipopeptide (Pam3Cys-GDPKHPKSF) used as vaccine adjuvant/immunomodulator",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant described as immunomodulator; candidate status depends on whether it is treated as part of the vaccine (excluded) or as an immune agonist candidate."},
+      "arms": ["Multipeptide plus XS15"]
+    },
+    {
+      "agent_name_registered": "Montanide ISA 51 VG",
+      "active_moiety": "montanide isa 51 vg",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the immune modulator XS15 emulsified in Montanide ISA 51 VG"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "multipeptide_xs15_vaccine",
+      "drug_class_hint": "water-in-oil emulsion vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Multipeptide plus XS15"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient is a candidate for and willing to receive standard radiation therapy with TMZ followed by maintenance TMZ cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Multipeptide plus XS15"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed IDH1-wildtype glioblastoma (astrocytoma WHO grade IV)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT gene promoter methylation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 1 single-arm multi-peptide vaccine with XS15 adjuvant in Montanide, on top of standard RT/TMZ. Vaccine, XS15 and Montanide coded as components of one vaccine product (excluded intervention type, shared regimen_id). XS15 flagged uncertain because the record calls it an immunomodulator. HLA-A*02:01 requirement is germline HLA typing and not recorded as a tumour biomarker. Immunogenicity (ELISpot T-cell response) is a vaccine endpoint; no candidate, so target_engagement_planned coded no. cns5_terminology: IDH1-wildtype required (also 'Glioblastoma Multiforme' in conditions), so cns5."
+}

@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT06154291",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "All tumor types except glioblastoma, could be included."},
+      {"field": "conditions", "quote": "Advanced Solid Tumor; Metastatic Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The trial intervention (XON7) is a glyco-humanized polyclonal antibody drug which is formulated for intravenous (IV) administration"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "must have a histologically or cytologically confirmed advanced or metastatic solid tumors for which no effective standard therapy is available"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "XON7 peak plasma concentration (Cmax) in plasma"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "eligibility", "quote": "For phase II, participant in pharmacodynamics cohort must provide biopsy of a tumor lesion not previously irradiated during the screening period and must agree to provide at least one additional on-treatment biopsy between day 36 and 42 after trial intervention administration."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "XON7",
+      "active_moiety": "xon7",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Dose Escalation part: Six dose levels are planned: 1.5; 3; 6; 12; 16 and 20mg/kg"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational glyco-humanized polyclonal antibody (target not stated)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation part then Expansion part"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour first-in-human trial that explicitly excludes glioblastoma (phase I: all tumour types except glioblastoma; phase II cohorts are non-CNS tumours), so gbm_excluded at S5. Target engagement coded yes because a pharmacodynamics cohort with paired pre/on-treatment tumour biopsies is planned (W7), although no specific PD marker is named. PK is plasma only."
+}

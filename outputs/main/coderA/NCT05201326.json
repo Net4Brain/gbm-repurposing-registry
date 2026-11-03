@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05201326",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "The initial diagnosis confirmed by histopathology is World Health Organization WHO grade 4 glioma;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a phase I study to observe the safety and efficacy of irinotecan and bevacizumab combined with re-radiotherapy in the treatment of recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Irinotecan And Bevacizumab Combined With Re-radiotherapy in Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab", "re-radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab，Irinotecan and Re-radiotherapy",
+      "active_moiety": "irinotecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All patients with recurrent glioblastoma will accept irinotecan and bevacizumab combined with re-radiotherapy ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topoisomerase I inhibitor (cytotoxic, approved for colorectal cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab，Irinotecan and Re-radiotherapy",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a phase I study to observe the safety and efficacy of irinotecan and bevacizumab combined with re-radiotherapy in the treatment of recurrent glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "One registered intervention bundles bevacizumab, irinotecan and re-radiotherapy; split into drug rows. Bevacizumab is an established GBM therapy (D6) tested here in a new setting (with re-irradiation), coded established_therapy_experiment (could alternatively be soc_backbone; not a candidate either way). Irinotecan is not on the D6 established list, so it is the only investigational agent -> experimental_monotherapy. 'WHO grade 4 glioma' without IDH requirement = historical glioblastoma (D27C); conditions name recurrent glioblastoma."
+}

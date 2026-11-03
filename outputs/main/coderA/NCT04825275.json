@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT04825275",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme of Brain; Glioblastoma Multiforme, Adult"},
+      {"field": "title", "quote": "Neuro-pharmacological Properties of Repurposed Posaconazole in Glioblastoma: A Phase 0 Clinical Trial"},
+      {"field": "eligibility", "quote": "Evidence of primary or recurrent HGG that in the opinion of the treating team would require surgical resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Posaconazole: Participants will be taking 300 mg of the study drug (three 100 mg tablets) by mouth twice a day the first day and then 300 mg once a day until the day of biopsy or surgery."},
+      {"field": "brief_summary", "quote": "This research is being done to find out if the study drug (posaconazole) can enter brain tumors at a high enough amount to stop the tumor cells from dividing."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of primary or recurrent HGG that in the opinion of the treating team would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Posaconazole Concentration in Cerebrospinal Fluid Using Microdialysis Catheters: Assessment of the concentration of drug in the dialysate fluid."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Posaconazole Effect on Hexokinase 2 Concentration Within Tumor Tissue: Measured using a hexokinase-2 ELISA with a range of 1.56 ng/mL - 100 ng/mL on tumor tissue."},
+      {"field": "detailed_description", "quote": "demonstration of adequate penetrance of study drug in brain and tumor tissue (pharmacokinetics) and biological effect (inhibition of glycolysis and subsequent tumor cell death) is necessary prior to large scale clinical studies"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Posaconazole Pill",
+      "active_moiety": "posaconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Posaconazole Pill (other names: Noxafil): 300 mg (three 100 mg tablets) orally"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "triazole antifungal",
+      "stated_antitumour_mechanism": "efficacy, mediated at least in part through inhibition of HK2 activity",
+      "flag": {"uncertain": false},
+      "arms": ["Posaconazole"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hexokinase 2 (HK2) in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Posaconazole Effect on Hexokinase 2 Concentration Within Tumor Tissue: Measured using a hexokinase-2 ELISA with a range of 1.56 ng/mL - 100 ng/mL on tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Ki-67 proliferation index in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Posaconazole Effect on Tumor Proliferation in Tumor Tissue: Measured using Ki-67 proliferation index"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "BCL-2 in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Posaconazole Effect on Cell Death in Tumor Tissue: Measured using a BCL-2 ELISA with a range of 0.156 ng/mL to 10 ng/mL."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD31 in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Posaconazole Effect on Angiogenesis in Tumor Tissue: Measured using a CD31 ELISA with a range of 31.2 pg/mL to 2000 pg/mL."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0) record: translational subset. Glioblastoma named in title and conditions, but inclusion criteria admit 'primary or recurrent HGG', so coded mixed_glioma_gbm_named (gbm_only would also include). 'Glioblastoma Multiforme' in conditions -> historical terminology. Registered NO_INTERVENTION control arm exists. Tumour PK by intratumoral/brain microdialysis (outcome labelled CSF/dialysate). Lactate and pyruvate in dialysate correlated with drug PK are additional metabolic pharmacodynamic readouts, not listed as separate biomarker rows. Biomarker rows are pharmacodynamic; candidate_matched false as none is a selection biomarker."
+}

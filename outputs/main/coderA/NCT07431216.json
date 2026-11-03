@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT07431216",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Histopathology confirmed supratentorial GBM at first recurrence including both IDHwt GBM and IDHm Grade 4 astrocytoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The current study treatment will use STAR-001 in combination with the oral diuretic spironolactone."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histopathology confirmed supratentorial GBM at first recurrence including both IDHwt GBM and IDHm Grade 4 astrocytoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["star-001", "spironolactone"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "title", "quote": "A Phase 1b/2a Study to Evaluate the Safety, Pharmacokinetics, and Objective Response of STAR-001 (LP-184) in Combination With Spironolactone in Supratentorial Glioblastoma at First Progression"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "at screening for retrospective exploratory biomarker analysis and determination of intertumoral PTGR1 levels."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "STAR-001 (LP-184) will be administered via IV infusion over 30 (± 5) minutes on Day 1 and Day 8 of each 21-day cycle.",
+      "active_moiety": "star-001",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The current study treatment will use STAR-001 in combination with the oral diuretic spironolactone."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "STAR-001 = LP-184, investigational acylfulvene-class DNA-alkylating prodrug",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["10 subjects in the IDHwt arm", "10 subjects in the IDHm Grade 4 astrocytoma arm"]
+    },
+    {
+      "agent_name_registered": "Spironolactone (drug)",
+      "active_moiety": "spironolactone",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "In preclinical tumor models, co-treatment with spironolactone (SP), a transcription-coupled nucleotide excision repair (TC-NER) inhibitor, sensitized GBM cells and xenografts to STAR-001(LP-184)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "potassium-sparing diuretic / mineralocorticoid receptor antagonist",
+      "stated_antitumour_mechanism": "transcription-coupled nucleotide excision repair (TC-NER) inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["10 subjects in the IDHwt arm", "10 subjects in the IDHm Grade 4 astrocytoma arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "If, among the first 10 enrolled participants in the IDHwt arm, at least 1 subject achieves an objective response, an additional 19 subjects will be enrolled in that arm."},
+      "flag": {"uncertain": false},
+      "arms": ["10 subjects in the IDHwt arm", "10 subjects in the IDHm Grade 4 astrocytoma arm"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PTGR1 tumour levels",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "at screening for retrospective exploratory biomarker analysis and determination of intertumoral PTGR1 levels."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population includes recurrent IDHwt GBM and IDHm grade 4 astrocytoma in separate arms (mixed). Spironolactone is coded as a co-candidate (experimental_combination) because the record states an antitumour sensitisation hypothesis (TC-NER inhibition sensitizing GBM to STAR-001), not a delivery/exposure purpose. Moiety for STAR-001 uses the code first written in the record (LP-184 alias). IDH status defines the two cohorts (enrichment, not candidate-matched). PTGR1 is an exploratory tissue biomarker; the record does not state its link to STAR-001, so candidate_matched false (drug knowledge suggests PTGR1 activates LP-184). PK planned per title with sample type not stated (unclear); PTGR1 biomarker not explicitly linked to the candidate (target engagement unclear)."
+}

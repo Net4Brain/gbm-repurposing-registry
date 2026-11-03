@@ -1,0 +1,178 @@
+{
+  "nct_id": "NCT05785754",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Note: Patients with glioblastoma (GBM) or other central nervous system(CNS) tumors may participate if they are on stable or decreasing corticosteroid levels not exceeding 2 mg/day dexamethasone"},
+      {"field": "eligibility", "quote": "Patients with GBM must meet the RANO criteria of measurable disease for the post-gadolinium primary T1WI."},
+      {"field": "conditions", "quote": "Advanced or Metastatic Solid Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] DCSZ11: A monoclonal antibody that binds to CD93, DCSZ11 will be administered as a single intravenous (IV) infusion on Day 1 in each 21-day cycle."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Phase 1a Dose Escalation Monotherapy: Dose escalation to investigate the safety and tolerability of DCSZ11. (interventions: Drug: DCSZ11)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients in Phase 1a must have a histologically or cytologically documented, advanced (metastatic and/or unresectable) solid tumor that has progressed on or after standard therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["pembrolizumab"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 1 and b: Pharmacokinetic parameters of DCSZ11:"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "A Phase 1, Multicenter, Open-Label, Dose Escalation and Expansion Study to Assess Safety, Tolerability, Pharmacokinetics, Pharmacodynamics of DCSZ11 as a Monotherapy and in Combination in Patients With Advanced or Metastatic Solid Tumors"},
+      {"field": "eligibility", "quote": "Patients must have a lesion not previously irradiated that can be biopsied with acceptable clinical risk and agree to have a fresh biopsy at Screening and on treatment; except patients with GBM or other CNS tumors."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DCSZ11",
+      "active_moiety": "dcsz11",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Phase 1a Dose Escalation Combination: Dose escalation to investigate safety and tolerability, and determine DCSZ11 Phase 1b doses in combination with pembrolizumab. (interventions: Drug: DCSZ11; Drug: Pembrolizumab)"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Phase 1a Dose Escalation Monotherapy: Dose escalation to investigate the safety and tolerability of DCSZ11. (interventions: Drug: DCSZ11)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-CD93 monoclonal antibody",
+      "stated_antitumour_mechanism": "monoclonal antibody that binds to CD93",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase 1a Dose Escalation Monotherapy",
+        "Phase 1a Dose Escalation Combination",
+        "Phase 1b Dose Expansions",
+        "Phase 1b Standard of Care"
+      ]
+    },
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Phase 1a - Dose Escalation Phase 1a is a dose escalation study of DCSZ11 as monotherapy in Part 1 and in combination with pembrolizumab in Part 2."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Approved partner in a DCSZ11 + pembrolizumab investigational combination (incl. post-PD-1 NSCLC and MSS-CRC); could be read as a fixed backbone rather than an investigational agent."},
+      "arms": [
+        "Phase 1a Dose Escalation Combination",
+        "Phase 1b Dose Expansions"
+      ]
+    },
+    {
+      "agent_name_registered": "Doxorubicin",
+      "active_moiety": "doxorubicin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Histologically confirmed, anthracycline naïve, metastatic or locally advanced, unresectable soft-tissue sarcoma for which doxorubicin monotherapy is indicated."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anthracycline cytotoxic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Standard of Care"]
+    },
+    {
+      "agent_name_registered": "Tebentafusp",
+      "active_moiety": "tebentafusp",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Histologically confirmed, metastatic or advanced, unresectable uveal melanoma that are eligible for treatment with tebentafusp monotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gp100xCD3 bispecific T-cell engager",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Standard of Care"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Immunotherapy-naïve microsatellite stable-CRC (MSS-CRC) that failed or was intolerant to ≥ 2 lines of therapy and that progressed on/after no more than 4 lines of therapy."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Dose Expansions"]
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: Patients with known driver mutations/genomic aberrations (i.e., EGFR, B-Raf proto-oncogene mutation V600E \\[BRAF V600E\\], and ROS proto-oncogene 1 \\[ROS1\\] sensitizing mutations, neurotrophic receptor tyrosine kinase \\[NRTK\\] gene fusions, and ALK rearrangements) are not eligible."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Dose Expansions"]
+    },
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: Patients with known driver mutations/genomic aberrations (i.e., EGFR, B-Raf proto-oncogene mutation V600E \\[BRAF V600E\\], and ROS proto-oncogene 1 \\[ROS1\\] sensitizing mutations, neurotrophic receptor tyrosine kinase \\[NRTK\\] gene fusions, and ALK rearrangements) are not eligible."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Dose Expansions"]
+    },
+    {
+      "biomarker": "NTRK",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: Patients with known driver mutations/genomic aberrations (i.e., EGFR, B-Raf proto-oncogene mutation V600E \\[BRAF V600E\\], and ROS proto-oncogene 1 \\[ROS1\\] sensitizing mutations, neurotrophic receptor tyrosine kinase \\[NRTK\\] gene fusions, and ALK rearrangements) are not eligible."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Dose Expansions"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ROS1 and ALK alterations (absence required, NSCLC cohort)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: Patients with known driver mutations/genomic aberrations (i.e., EGFR, B-Raf proto-oncogene mutation V600E \\[BRAF V600E\\], and ROS proto-oncogene 1 \\[ROS1\\] sensitizing mutations, neurotrophic receptor tyrosine kinase \\[NRTK\\] gene fusions, and ALK rearrangements) are not eligible."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b Dose Expansions"]
+    }
+  ],
+  "coder_notes": "GBM named only in Phase 1a inclusion notes (not in conditions/title); basket per D27B. GBM patients can enter Phase 1a only (monotherapy Part 1 or pembrolizumab combination Part 2); Phase 1b cohorts are NSCLC, MSS-CRC, sarcoma, uveal melanoma. DCSZ11 is monotherapy in 'Phase 1a Dose Escalation Monotherapy' and combination elsewhere; coded experimental_combination overall. Trial regimen coded combination because most experimental arms combine; GBM patients may be in either Phase 1a part. Phase 1b SOC arm lists only doxorubicin/tebentafusp as interventions but text says DCSZ11 is given; DCSZ11 arms include it. Paired fresh biopsies (screening + on treatment) with a stated PD objective -> target engagement yes, but GBM/CNS patients are exempt from biopsy. PK sample type not stated. Biomarker rows for the NSCLC/CRC cohorts are absence/cohort requirements, not candidate-matched. An unnamed 'imaging agent' is mentioned in exclusion only; not listed. Quotes with \\[ reproduce the record's escaped brackets."
+}

@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT05941507",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Solid Tumors"},
+      {"field": "eligibility", "quote": "Phase 1 Dose Escalation: histologically or cytologically confirmed advanced solid tumors refractory to standard of care treatment."},
+      {"field": "keywords", "quote": "NSCLC; Lung Cancer; Glioblastoma; Endometrial Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a first-in-human, Phase 1/2 study to evaluate LCB84, a TROP2-directed antibody-drug conjugate, alone and in combination with an anti-PD-1 Ab, in dose escalation (Phase 1) followed by dose expansion (Phase 2)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "histologically or cytologically confirmed advanced solid tumors refractory to standard of care treatment."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["anti-PD-1 monoclonal antibody"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma Concentrations of LCB84 (Phase 1 and 2): Pharmacokinetic parameters will be determined from observed concentrations of LCB84"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "eligibility", "quote": "Mandatory pre- and on-treatment biopsies for enrichment cohorts in Phase 1 dose escalation and Phase 2 expansion cohorts if deemed medically feasible and safe."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LCB84",
+      "active_moiety": "lcb84",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "LCB84 monotherapy: IV infusion Q3W"},
+        {"field": "interventions", "quote": "TROP2-directed human monoclonal antibody (Ab) linked to a monomethyl auristatin E (MMAE) prodrug"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "LCB84, investigational TROP2-directed antibody-drug conjugate with MMAE prodrug payload",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["LCB84 monotherapy", "LCB84 + anti-PD-1"]
+    },
+    {
+      "agent_name_registered": "Anti-PD-1 monoclonal antibody",
+      "active_moiety": "anti-pd-1 monoclonal antibody",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "LCB84 + anti-PD-1: IV infusion Q3W"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "unnamed anti-PD-1 checkpoint inhibitor monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["LCB84 + anti-PD-1"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Advanced solid tumour basket; glioblastoma appears only in keywords, not in conditions, title, inclusion criteria or arm labels (C7/D27B), so not_glioblastoma (fails S5); basket set false because GBM is not explicitly eligible. RANO-BM refers to brain metastases. LCB84 role differs by arm: experimental_monotherapy in 'LCB84 monotherapy', experimental_combination with anti-PD-1 in 'LCB84 + anti-PD-1'. Anti-PD-1 antibody is unnamed. Enrichment cohorts are mentioned but no enrichment biomarker (e.g. TROP2 expression) is stated, so no biomarker rows. PK is plasma only. Paired pre/on-treatment biopsies planned but no stated PD endpoint, so target engagement unclear."
+}

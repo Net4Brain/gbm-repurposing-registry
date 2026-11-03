@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT04937413",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Glioma; Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed or recurrent high grade glioma (HGG) or glioblastoma (GBM) (if recurrent, prior pathology report indicating HGG or GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The investigators intend to evaluate whether a clinically licensed PCSK9i called evolocumab (also known as Repatha) can be repurposed as a potential immunotherapeutic for high grade glioma by testing its ability to access the intracranial space."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed or recurrent high grade glioma (HGG) or glioblastoma (GBM) (if recurrent, prior pathology report indicating HGG or GBM)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Presence of evolocumab in surgical tumor tissue and tissue from a matched control group: Determined by mass spectrometry"},
+      {"field": "outcomes", "quote": "Correlation between serum and surgical tumor tissue levels of evolocumab"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Major histocompatibility complex-1 (MHC-I) expression within the surgical tumor tissue and tissue from a matched control group: Determined by FACS"},
+      {"field": "outcomes", "quote": "Level of lipid metabolism within the surgical tumor tissue and tissue from a matched control group: Determined by fluorescence-activated cell sorting (FACS)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Evolocumab",
+      "active_moiety": "evolocumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Single dose of evolocumab: 420 mg of evolocumab subcutaneous injection 7-14 days before scheduled surgery for malignant glioma (interventions: Drug: Evolocumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PCSK9 monoclonal antibody (lipid-lowering)",
+      "stated_antitumour_mechanism": "PCSK9 inhibition repurposed as a potential immunotherapeutic (MHC-I expression, lipid metabolism)",
+      "flag": {"uncertain": false},
+      "arms": ["Single dose of evolocumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MHC-I expression in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "evolocumab",
+      "source_quote": {"field": "outcomes", "quote": "Major histocompatibility complex-1 (MHC-I) expression within the surgical tumor tissue and tissue from a matched control group: Determined by FACS"},
+      "flag": {"uncertain": false},
+      "arms": ["Single dose of evolocumab"]
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0 window-of-opportunity): translational subset. cns5_terminology historical based on 'WHO grade IV malignant glioma' in brief summary without IDH requirement. Matched biorepository control tissue is not a registered arm. MHC-I pharmacodynamic biomarker coded candidate_matched true on the stated immunotherapeutic rationale; it is not a selection biomarker. Lipid metabolism is not a molecular biomarker and is not listed."
+}

@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT07285044",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with histologically confirmed malignancy who are currently receiving treatment with one of the eligible treatment regimens."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive in-home standard of care cancer-treatment through CCBW according to standard clinical practice"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Cancer Therapeutic Procedure",
+      "active_moiety": "unspecified_standard_of_care_anticancer_therapy",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Receive in-home standard of care cancer-treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "generic placeholder for patients' existing standard-of-care anticancer regimens (mostly antibodies, hormonal agents, bone-targeting agents); no specific drug is the study question",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Health services research (CCBW in-home cancer treatment)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Health-services study of in-home delivery of existing standard-of-care regimens across many tumour types; glioblastoma is in the conditions and the eligible-disease list. The registered drug intervention is a generic placeholder, not a named agent; the eligible-regimen list names drugs but none is a trial question, so they are not listed individually. Bevacizumab appears in that list."
+}

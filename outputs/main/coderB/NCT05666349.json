@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05666349",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "title", "quote": "Reirradiation and Niraparib in Patients With Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "100 mg, 200 mg, or 300mg oral niraparib once daily."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Local recurrence of GBM which can be resected or which is not amenable for surgical resection."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["re-irradiation"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will take niraparib daily from the first day of re-RT until documented progression or discontinuation due to unacceptable treatment-related toxicity or any other cause (whichever occurs sooner)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Niraparib and re-irradiation (re-RT)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Niraparib is the only drug; re-irradiation is radiotherapy and is not listed as an agent, so regimen is combination."
+}

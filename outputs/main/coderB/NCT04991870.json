@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT04991870",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Gliosarcoma; Recurrent Supratentorial Glioblastoma; Supratentorial Gliosarcoma"},
+      {"field": "eligibility", "quote": "recurrent astrocytoma to include recurrent IDH WT glioblastoma or gliosarcoma and recurrent IDHmutant grade 4 astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Cord Blood-derived Expanded Allogeneic Natural Killer Cells"},
+      {"field": "title", "quote": "Official: A Phase I Clinical Trial With a Window-of-Opportunity Component of Engineered NK Cells Containing Deleted TGF-ßR2 and NR3C1 in Recurrent Grade 4 Astrocytoma (Glioblastoma)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Gliosarcoma; Recurrent Supratentorial Glioblastoma; Supratentorial Gliosarcoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Persistency of the NK cells in the tissue will be assessed by flow cytometry."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the immunological phenotype and anti-tumor function of NK cells in resected tumor tissue after treatment with"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Cord Blood-derived Expanded Allogeneic Natural Killer Cells",
+      "active_moiety": "engineered allogeneic nk cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Cord Blood-derived Expanded Allogeneic Natural Killer Cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gene-edited cord blood NK cell therapy (TGF-betaR2 and NR3C1 deleted)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (CB-NK-TGF-betaR2-/NR3C1- )", "Group 2 (CB-NK-TGF-betaR2-/NR3C1-, resection)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Cell therapy only; no pharmacological candidate. Eligibility allows IDH WT glioblastoma/gliosarcoma and IDH-mutant grade 4 astrocytoma, so IDH is not an entry requirement and is not listed as a biomarker. Ages include CHILD (>=12 years). PK/target engagement coded for the NK cell product itself (tissue persistence and phenotype), which is not a candidate."
+}

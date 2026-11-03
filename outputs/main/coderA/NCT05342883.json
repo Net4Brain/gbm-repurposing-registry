@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT05342883",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Note: In patients without prior biopsy, diagnosis will be suspected preoperatively, but must be confirmed by molecular testing (i.e., must be IDH wild type)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "GT, a novel brain brachytherapy device utilizing Cs-131 embedded in bioresorbable collagen tiles"},
+      {"field": "interventions", "quote": "[DEVICE] Surgical tumor resection, GammaTile radiation therapy implantation, Stupp protocol (EBRT and Temozolamide)"},
+      {"field": "brief_summary", "quote": "along with the backbone of the current standard of care approach, concomitant and adjuvant temozolomide +/- TTF"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histopathological and molecular confirmation of newly diagnosed GBM using IDH mutation testing"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolamide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "along with the backbone of the current standard of care approach, concomitant and adjuvant temozolomide +/- TTF"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "Stupp",
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Resection, GammaTile and Stupp Protocol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: In patients without prior biopsy, diagnosis will be suspected preoperatively, but must be confirmed by molecular testing (i.e., must be IDH wild type)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with either methylated or unmethylated MGMT promoter status are included, and this status must be confirmed by central pathology review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase is PHASE4 (excluded at S3 by script). Only investigational intervention is GammaTile, a Cs-131 brachytherapy device (radiotherapy, not a drug), so no pharmacological candidate. Temozolomide is the Stupp backbone. 5-ALA/fluorescein for fluorescence-guided resection mentioned only in eligibility as institutional standard, not a registered intervention, so not listed. MGMT status must be tested but either status is eligible (coded exploratory_correlative, not eligibility); indeterminate MGMT is excluded from the PP population only."
+}

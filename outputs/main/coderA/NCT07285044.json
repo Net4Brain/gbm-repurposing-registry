@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT07285044",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Gastroesophageal Junction Carcinoma; Glioblastoma; Head and Neck Carcinoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Cancer Therapeutic Procedure (other names: anticancer therapy, Cancer Therapy, Cancer Treatment, Malignant Neoplasm Therapy, Malignant Neoplasm Treatment): Receive in-home standard of care cancer-treatment"},
+      {"field": "eligibility", "quote": "Participant must be receiving a standard-of-care treatment regimen listed in this protocol that is being used in accordance with standard medical practice."},
+      {"field": "eligibility", "quote": "Receiving any investigational agent which would be considered as a treatment for the primary neoplasm."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Cancer Therapeutic Procedure",
+      "active_moiety": "unspecified standard-of-care anticancer therapy",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive in-home standard of care cancer-treatment through CCBW according to standard clinical practice for up to 12 weeks in the absence of disease progression or unacceptable toxicity."},
+        {"field": "eligibility", "quote": "Patients who, according to documentation from their treating provider, plan to continue the eligible treatment regimen they are currently prescribed for \\>= 12 weeks from the time of registration"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "patient's ongoing standard-of-care regimen from a protocol list (e.g. checkpoint inhibitors, bevacizumab, bortezomib, hormonal agents); the trial tests in-home vs clinic delivery location",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Health services research (CCBW in-home cancer treatment)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Health-services research trial of in-home vs clinic administration of patients' existing standard-of-care cancer therapy; glioblastoma is one of many eligible conditions (basket). No drug is investigational; the question is location of delivery, so no pharmacological candidate. The registered intervention is a generic 'Cancer Therapeutic Procedure'; the protocol lists ~23 eligible regimens (individual drugs not every patient receives), so one aggregate soc_backbone row is given rather than one row per listed drug. Treatment setting (newly diagnosed vs recurrent) not stated."
+}

@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT04915404",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "The presence of IDH mutation prior to enrollment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Berubicin intravenously infused will be administered at a dose of 7.1 mg/m2 as free base (equivalent to 7.5 mg/m2 Berubicin HCl)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Plasma samples will be collected from the first approximately 18 patients enrolled, and concentrations of Berubicin and its metabolite, berubicinol, will be measured"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Berubicin Hydrochloride",
+      "active_moiety": "berubicin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The first 18 patients will undergo a pK assessment of Berubicin and it's active metabolite Berubicinol during the dosing days of the first two cycles."},
+        {"field": "interventions", "quote": "[DRUG] Berubicin Hydrochloride"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anthracycline (doxorubicin analogue) intended to cross the blood-brain barrier",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["pK Assessment of Berubicin and its active metabolite"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The presence of IDH mutation prior to enrollment"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "results of routinely used methods for MGMT methylation testing (e.g., methylation-specific polymerase chain reaction \\[MSPCR\\] or quantitative polymerase chain reaction \\[PCR\\]) are acceptable."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "IDH mutation is an exclusion (i.e. IDH-wildtype required); not candidate-matched. MGMT methylation status must be available but no particular status is required; coded as eligibility only because availability of the result is an entry requirement (a weak case, adjudicator may downgrade to exploratory). PK is plasma-only (tumour_pk_planned = no)."
+}

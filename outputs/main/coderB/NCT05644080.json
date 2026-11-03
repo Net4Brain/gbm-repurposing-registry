@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05644080",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "title", "quote": "68Ga/177Lu-PSMA Theranostics in Recurrent Grade 3 and Grade 4 Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Grade 3 and grade 4 glioma without any IDH requirement; glioblastoma is never named in conditions, title, inclusion criteria or arm label, so coded high-grade glioma unspecified."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "177Lu-PSMA I&T"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "68Ga/177Lu-PSMA Theranostics in Recurrent Grade 3 and Grade 4 Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "SPECT/CT will be performed after each cycle of treatment for dosimetry calculations"},
+      {"field": "outcomes", "quote": "Calculation of absorbed doses to the tumor and kidneys"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "177Lu-PSMA I&T",
+      "active_moiety": "psma-i&t",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "of 177Lu-PSMA radionuclide therapy sessions"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 labelled PSMA-targeting ligand (radioligand therapy); isotope 177Lu",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["68Ga/177Lu-PSMA theranostics in recurrent grade 3 and grade 4 glioma"]
+    },
+    {
+      "agent_name_registered": "68Ga-PSMA",
+      "active_moiety": "68ga-psma",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "high tumor uptake of 68Ga-PSMA on the diagnostic PET/MRI examination"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA PET imaging tracer used for patient selection and monitoring",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["68Ga/177Lu-PSMA theranostics in recurrent grade 3 and grade 4 glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "68Ga-PSMA is not a registered intervention but every patient receives it as the screening/selection diagnostic per the description, so it is listed as a diagnostic agent. PSMA uptake on PET is an imaging-based selection criterion and is not recorded as a molecular biomarker. Tumour PK coded yes because SPECT/CT dosimetry quantifies the absorbed dose to the tumour; this is imaging dosimetry rather than tissue concentration, so an adjudicator may prefer no. Registry phase is NA."
+}

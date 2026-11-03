@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06929819",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Brain Tumor, Primary; Brain Tumor - Metastatic"},
+      {"field": "eligibility", "quote": "MRI and CT of the brain with contrast should be considered for diagnosis of high-grade glioma or other malignant brain tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Intraoperative Radiation Therapy in Malignant Cerebral Tumor"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Not receive radiotherapy, chemotherapy and other treatment methods for intracranial lesions in the past;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Phase NA intraoperative radiotherapy trial; the only intervention is radiation, no drug named (postoperative chemoradiotherapy is generic). Population is malignant brain tumours (high-grade glioma, metastases, lymphoma) with glioblastoma named in conditions; coded mixed_glioma_gbm_named, though basket_gbm_eligible could be argued given metastases are eligible. Fails S6 regardless."
+}

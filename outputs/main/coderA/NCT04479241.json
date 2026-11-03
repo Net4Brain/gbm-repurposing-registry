@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04479241",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; Supratentorial Glioblastoma; Brain Tumor"},
+      {"field": "eligibility", "quote": "Recurrent supratentorial glioblastoma (GBM) confirmed via prior histology by the site's neuropathologist or designate."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Lerapolturev delivered once intratumorally via convection enhanced delivery. Pembrolizumab given intravenously every 3 weeks."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First or second relapse supported by MRI or CT scan; relapse is defined as progression following initial/prior therapy(ies)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lerapolturev"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "lerapolturev",
+      "active_moiety": "lerapolturev",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Lerapolturev (5x10\\^7 TCID50) delivered intratumorally via convection enhanced delivery (CED)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic poliovirus-rhinovirus chimera (PVSRIPO), intratumoral convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["lerapolturev + pembrolizumab"]
+    },
+    {
+      "agent_name_registered": "pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Pembrolizumab (200 mg IV) given every 3 weeks."},
+        {"field": "title", "quote": "A Phase 2, Open-label, Single-arm Study Evaluating the Efficacy, Safety and Tolerability of Lerapolturev (PVSRIPO) and the Immune Checkpoint Inhibitor Pembrolizumab in the Treatment of Patients With Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["lerapolturev + pembrolizumab"]
+    },
+    {
+      "agent_name_registered": "trivalent inactivated poliovirus vaccine (IPOL®)",
+      "active_moiety": "poliovirus vaccine (inactivated)",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Undergone prior vaccination against PV and received a boost immunization with trivalent inactivated poliovirus vaccine (IPOL®) at least 1 week, but less than 6 weeks, prior to administration of Lerapolturev."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "prophylactic inactivated poliovirus vaccine booster (safety precaution before oncolytic poliovirus)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["lerapolturev + pembrolizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Pembrolizumab is the only pharmacological investigational agent (oncolytic virus lerapolturev is an excluded type) -> experimental_monotherapy, as in the manual's pembrolizumab + vaccine example; regimen combination with lerapolturev. Lerapolturev formulation_flag new_route (CED) is descriptive only. IPOL polio booster is required before lerapolturev for every patient (eligibility), not a registered intervention; listed as supportive (non-cancer prophylactic vaccine) for transparency, could be omitted. Conditional Tdap booster and acetaminophen/diphenhydramine premedication not listed. MGMT mentioned only in description of prior therapy, not a biomarker."
+}

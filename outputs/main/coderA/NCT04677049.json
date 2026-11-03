@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT04677049",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma IDH (Isocitrate Dehydrogenase) Wildtype"},
+      {"field": "eligibility", "quote": "New diagnoses of glioblastoma IDH wild type."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "efficacy (Phase II) of adding Niacin CRT™ to standard first line treatment (concurrent Radiation Therapy (RT) and Temozolomide (TMZ) following by monthly TMZ - AKA Stupp protocol)"},
+      {"field": "interventions", "quote": "Niacin CRT (other names: Nicotinic acid, Vitamin B3): A controlled release technology (CRT) tablet of Niacin"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Niacin (vitamin B3) is a licensed medicine (dyslipidaemia) but also sold as a supplement; manual 1.2 requires uncertain flag; registration status of the 'Niacin CRT' product itself not stated."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New diagnoses of glioblastoma IDH wild type."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "will be sent to a lab to evaluate the peripheral activity of Niacin CRT™ in innate immune system cells."},
+      {"field": "outcomes", "quote": "To evaluate the effect of Niacin CRT in peripheral monocytes by comparing control monocytoid cells to those that have been treated with Niacin."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niacin CRT",
+      "active_moiety": "nicotinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Niacin CRT™ is to be started 7 days before concurrent Radiation Therapy (RT)- Temozolomide (TMZ) treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "niacin (vitamin B3), lipid-lowering agent; controlled-release tablet",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Licensed medicine also sold as a supplement (vitamin B3); per manual 1.2 flagged for adjudication of candidate status."},
+      "arms": ["Niacin"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "For all patients, regardless of the phase of the study, concurrent RT and TMZ for 6 weeks followed by 6-12 cycles of monthly TMZ will be given."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Niacin"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New diagnoses of glioblastoma IDH wild type."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "INN for niacin is nicotinic acid (used as active moiety). Formulation flag new_formulation because the record specifies a controlled-release technology (CRT) tablet; extended-release niacin already exists, so this may be 'none' on adjudication. Temozolomide is not a registered intervention but every patient receives Stupp RT/TMZ, so soc_backbone. Target engagement: planned pharmacodynamic assessment of niacin activity in peripheral blood monocytes/innate immune cells (blood PD), no tumour PD. No antitumour mechanism stated explicitly (only implied immune effect on innate cells). IDH-wildtype is diagnostic, not candidate-matched."
+}

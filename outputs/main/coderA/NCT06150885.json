@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT06150885",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "For phase IIa part, subjects with histologically confirmed diagnosis of unresectable local advanced or metastatic BC, NSCLC, CRC or GBM with expression of both PD-L1 and HLA-G positive"},
+      {"field": "conditions", "quote": "Solid Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] HLA-G-CAR.BiTE allogeneic γδ T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Safety And Efficacy Study Of Allogeneic CAR Gamma-Delta T Cells in Subjects With Relapsed/Refractory Solid Tumors"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "HLA-G-CAR.BiTE allogeneic γδ T cells",
+      "active_moiety": "car gamma-delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "CAR001 cells mixed with normal saline will be administered to patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic HLA-G-targeted CAR gamma-delta T cells secreting BiTE (CAR001); cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CAR001"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For phase IIa part, subjects with histologically confirmed diagnosis of unresectable local advanced or metastatic BC, NSCLC, CRC or GBM with expression of both PD-L1 and HLA-G positive"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "HLA-G tumour expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For phase IIa part, subjects with histologically confirmed diagnosis of unresectable local advanced or metastatic BC, NSCLC, CRC or GBM with expression of both PD-L1 and HLA-G positive"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "GBM named only for the phase IIa expansion in inclusion criteria; phase I is any solid tumour. Only intervention is an allogeneic CAR gamma-delta T-cell product (cell therapy) -> excluded at S6. HLA-G and PD-L1 are tumour-expression entry requirements; HLA-G is the CAR target but the agent is not a candidate, so candidate_matched false. 'Glioblastoma multiforme' used in brief summary only; cns5 coded historical from GBM wording is weak (eligibility says just GBM) - could be unclear."
+}

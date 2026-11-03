@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04209790",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Surgery; High Grade Glioma"},
+      {"field": "eligibility", "quote": "Newly diagnosed GBM with histopathological confirmation."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Temozolomide will be administered continuously from day 1 of radiotherapy to the last day of radiation at a daily oral dose of 75 mg/m2 for a maximum of 49 days."},
+      {"field": "arms", "quote": "The experimental part of the study would be this selection of resectable patients and sequencing neoadjuvant chemoradiation prior to surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed GBM with histopathological confirmation."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Drug Therapy with Temozolomide (benzolamide) (Standard of Care)",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "The experimental part of the study would be this selection of resectable patients and sequencing neoadjuvant chemoradiation prior to surgery."},
+        {"field": "interventions", "quote": "Surgical resection of GBM will be done after radiation and Temozolomide treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (registry mislabels as benzolamide)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoadjuvant chemoradiation and surgical resection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm phase II testing the sequence of standard chemoradiation (radiotherapy plus temozolomide, standard doses) given before surgery (neoadjuvant) instead of after. Temozolomide is an established GBM therapy whose setting/sequence is the question, so rule 6 (established_therapy_experiment), not a candidate. The registry calls it 'benzolamide' in places; the dose and context are temozolomide."
+}

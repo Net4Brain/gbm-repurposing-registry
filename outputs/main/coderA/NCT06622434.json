@@ -1,0 +1,157 @@
+{
+  "nct_id": "NCT06622434",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma"},
+      {"field": "eligibility", "quote": "Grade 4 astrocytoma IDH mutant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Therapeutic cancer vaccines consisting of 1 or 2 antigenic peptidic formulations combined with an immune adjuvant:"},
+      {"field": "detailed_description", "quote": "Litenimod, a TLR9 agonist, as an adjuvant"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Litenimod (TLR9 agonist) is a pharmacological immune agonist but is given only as the vaccine adjuvant; coded as part of the excluded vaccine intervention, which leaves no candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "anti-TERT specific T cell responses by using IFN-gamma ELISPOT"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "A52-Mel",
+      "active_moiety": "tert peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "A52-Mel: a TERT peptidic epitope adsorbed on synthetic melanin"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "navig_vaccine",
+      "drug_class_hint": "peptide cancer vaccine (TERT epitope adsorbed on synthetic melanin)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["A52-Mel; A49-Mel (for Phase1 only) and Litenimod, as an adjuvant"]
+    },
+    {
+      "agent_name_registered": "A49-Mel",
+      "active_moiety": "ptprz1 peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "A49-Mel: a PTPRZ1 peptidic epitope adsorbed on synthetic melanin (Phase 1 only)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "navig_vaccine",
+      "drug_class_hint": "peptide cancer vaccine (PTPRZ1 epitope adsorbed on synthetic melanin); Phase 1 only",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["A52-Mel; A49-Mel (for Phase1 only) and Litenimod, as an adjuvant"]
+    },
+    {
+      "agent_name_registered": "Litenimod",
+      "active_moiety": "litenimod",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Litenimod, a TLR9 agonist, as an adjuvant"},
+        {"field": "interventions", "quote": "[BIOLOGICAL] immunization"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "navig_vaccine",
+      "drug_class_hint": "TLR9 agonist oligonucleotide used as vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "TLR9 agonist is a pharmacological immune agonist; coded as vaccine adjuvant component (excluded type) because its only stated purpose is as adjuvant to the peptide vaccine. If treated as a candidate, the trial would pass S6."},
+      "arms": ["A52-Mel; A49-Mel (for Phase1 only) and Litenimod, as an adjuvant"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "patients will be immunized during the adjuvant phase of monthly temozolomide (5 days per month for 6 months)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard adjuvant GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["A52-Mel; A49-Mel (for Phase1 only) and Litenimod, as an adjuvant"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PTPRZ1 tumour expression",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Phase 1 only: PTPRZ1 expression in the tumor"},
+      "flag": {"uncertain": false},
+      "arms": ["A52-Mel; A49-Mel (for Phase1 only) and Litenimod, as an adjuvant"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Grade 4 astrocytoma IDH mutant"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TERT promoter mutation",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Available tumor tissue for post hoc (retrospective) assessment of TERT promoter mutations and MGMT promoter methylation status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Available tumor tissue for post hoc (retrospective) assessment of TERT promoter mutations and MGMT promoter methylation status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Peptide cancer vaccine trial (TERT and PTPRZ1 epitopes on synthetic melanin) with litenimod TLR9 agonist adjuvant, on standard adjuvant temozolomide. Only one registered intervention ('Biological: immunization'); agents split per description. IDH row: IDH-mutant grade 4 astrocytoma is an exclusion criterion (IDH-wildtype used to define GBM), hence cns5. PTPRZ1 expression is an entry requirement for Phase 1 only (enrichment); it matches the A49-Mel vaccine target but the vaccine is not a candidate. HLA-A2 positivity (Phase 1) not recorded as germline/immune marker. Ancillary study mentions checkpoint expression on relapse tumour cells; not recorded as a defined biomarker. T-cell response endpoints are vaccine immunogenicity, not target engagement of a candidate."
+}

@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT06831526",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of IDH-wildtype GBM (WHO grade 4) according to the 2021 WHO classification (including subtypes such as gliosarcoma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Neoadjuvant Chemoradiotherapy With or Without Concurrent Azeliragon in Patients With Newly Diagnosed Glioblastoma"},
+      {"field": "brief_summary", "quote": "The purpose of this window-of-opportunity study is to validate that the combination of azeliragon with RT and TMZ would modulate immune-suppressive myeloid and T cells in the tumor microenvironment in patients with GBM."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Neoadjuvant Chemoradiotherapy With or Without Concurrent Azeliragon in Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Percentage of immune-suppressive myeloid cells in the tumor tissue"},
+      {"field": "brief_summary", "quote": "The purpose of this window-of-opportunity study is to validate that the combination of azeliragon with RT and TMZ would modulate immune-suppressive myeloid and T cells in the tumor microenvironment in patients with GBM."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon",
+      "active_moiety": "azeliragon",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Neoadjuvant RT, Temozolomide (TMZ) & Azeliragon + Surgery or LITT + Adjuvant TMZ & Azeliragon"},
+        {"field": "interventions", "quote": "Provided by Cantex Pharmaceuticals"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "RAGE inhibitor (investigational, originally developed for Alzheimer disease)",
+      "stated_antitumour_mechanism": "RAGE inhibitor; reduces immune-suppressive myeloid cells and restores T-cell activation in combination with radiation",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Neoadjuvant RT and Temozolomide (TMZ) + Surgery or LITT + Adjuvant TMZ & Azeliragon",
+        "Arm 2: Neoadjuvant RT, Temozolomide (TMZ) & Azeliragon + Surgery or LITT + Adjuvant TMZ & Azeliragon"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide (other names: TMZ): Standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard chemoradiotherapy backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Neoadjuvant RT and Temozolomide (TMZ) + Surgery or LITT + Adjuvant TMZ & Azeliragon",
+        "Arm 2: Neoadjuvant RT, Temozolomide (TMZ) & Azeliragon + Surgery or LITT + Adjuvant TMZ & Azeliragon"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically proven diagnosis of IDH-wildtype GBM (WHO grade 4) according to the 2021 WHO classification (including subtypes such as gliosarcoma)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Azeliragon is given in both arms: in the ACTIVE_COMPARATOR Arm 1 only in the adjuvant phase, in the experimental Arm 2 also concurrently with neoadjuvant chemoradiotherapy; the trial question is the addition of concurrent azeliragon, so coded experimental_monotherapy with both arms listed. Target engagement: primary outcomes are immune-suppressive myeloid and T cells in post-chemoradiotherapy tumour tissue (surgery/LITT sampling), linked to azeliragon's stated mechanism. IDH-wildtype is a diagnostic entry criterion only."
+}

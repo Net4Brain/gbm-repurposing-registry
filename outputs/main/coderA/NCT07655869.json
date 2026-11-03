@@ -1,0 +1,101 @@
+{
+  "nct_id": "NCT07655869",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (WHO classification) after surgical resection or biopsy."},
+      {"field": "conditions", "quote": "Recurrent High-Grade Gliomas; Recurrent Glioblastoma IDH Wildtype"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "A long-circulating radiolabeled peptide targeting integrin αvβ3."},
+      {"field": "detailed_description", "quote": "The primary objective is to determine the maximum tolerated dose (MTD) of \\[177Lu\\]Lu-DOTA-EB-RGD2 for each route using a standard \"3+3\" design."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-Grade Gliomas; Recurrent Glioblastoma IDH Wildtype"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "pharmacokinetic parameters (AUC, Cmax, Tmax, clearance \\[CL\\], volume of distribution \\[Vz\\], terminal half-life) from blood and urine sampling"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Changes in tumor SUVmax, SUVmean, and tumor-to-background ratio (TBR) from baseline to post-treatment PET/CT scans, as an exploratory biomarker of target engagement."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-DOTA-EB-RGD2",
+      "active_moiety": "dota-eb-rgd2",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The radiopharmaceutical consists of an RGD2 peptide conjugated to a DOTA chelator and an albumin-binding (EB) motif, labeled with Lutetium-177 (half-life 6.7 days)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 labelled albumin-binding (Evans blue) dimeric RGD peptide; integrin alphavbeta3-targeted radioligand therapy",
+      "stated_antitumour_mechanism": "A long-circulating radiolabeled peptide targeting integrin αvβ3.",
+      "flag": {"uncertain": false},
+      "arms": ["Intravenous Administration of [177Lu]Lu-DOTA-EB-RGD2", "Locoregional Administration of [177Lu]Lu-DOTA-EB-RGD2"]
+    },
+    {
+      "agent_name_registered": "NOTA-PRGD2",
+      "active_moiety": "nota-prgd2",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Tumor uptake confirmed by NOTA-PRGD2 PET/CT after diagnosis of recurrence and before radionuclide therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "integrin alphavbeta3 PET imaging tracer (NOTA-chelated RGD dimer; isotope not stated)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intravenous Administration of [177Lu]Lu-DOTA-EB-RGD2", "Locoregional Administration of [177Lu]Lu-DOTA-EB-RGD2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "integrin alphavbeta3 expression by NOTA-PRGD2 PET uptake",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "dota-eb-rgd2",
+      "source_quote": {"field": "eligibility", "quote": "Tumor uptake confirmed by NOTA-PRGD2 PET/CT after diagnosis of recurrence and before radionuclide therapy."},
+      "flag": {"uncertain": true, "reason": "Entry requires integrin αvβ3 target uptake on PET (target of the candidate), but it is imaging-based; whether it counts as a molecular biomarker could change the primary outcome."},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "integrin alphavbeta3 expression by NOTA-PRGD2 PET uptake",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "dota-eb-rgd2",
+      "source_quote": {"field": "detailed_description", "quote": "Exploratory endpoints: Change in tumor αvβ3 integrin expression by NOTA-PRGD2 PET/CT; correlation between baseline NOTA-PRGD2 PET uptake and treatment response."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered EARLY_PHASE1 (translational subset). Radiopharmaceutical named per W1 without isotope (dota-eb-rgd2). formulation_flag new_route reflects the locoregional (intracavitary via Ommaya) arm; the IV arm is standard route. device_dependent kept false: the Ommaya reservoir is an implanted access port, not a device that activates the drug or opens the BBB; R4 could be read to make it true for the locoregional arm. tumour_pk_planned coded no: PK is blood/urine; tumour absorbed dose is from SPECT/CT dosimetry imaging, not tissue/CSF sampling. NOTA-PRGD2 PET is required for every patient at entry, so listed as diagnostic_agent. Integrin αvβ3 PET-uptake selection is explicitly described as a biomarker (target engagement) in the record, so recorded as 'other'; eligibility row marked uncertain for adjudication. cns5 coded from the 'Glioblastoma IDH Wildtype' condition; inclusion itself says only 'WHO classification', so 'unclear' is the alternative."
+}

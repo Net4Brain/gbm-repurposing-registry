@@ -1,0 +1,140 @@
+{
+  "nct_id": "NCT06630260",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme (GBM); Glioblastoma Multiform (Grade IV Astrocytoma); Diffuse Hemispheric Glioma, H3 G34-Mutant; Malignant Primary Gliomas"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype Grade 4"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant, Grade 4 (lower Grade 2/3 are not included)"},
+      {"field": "eligibility", "quote": "Diffuse hemispheric glioma, H3 G34 mutant Grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "The Phase 1b will evaluate the safety and tolerability of combination of avutometinib and defactinib and determine its preliminary antitumour activity when administered at the recommended Phase 2 dose (RP2D) in patients with molecularly defined malignant brain tumours."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients for the relapsed cohorts will be eligible at first relapse following completion of optimal surgery, and Stupp based adjuvant chemo-radiotherapy (or equivalent)."},
+      {"field": "eligibility", "quote": "Patients for the front line minimal residual disease (mrd) cohort will be eligible following completion of optimal surgery and Stupp based adjuvant chemoradiotherapy as long as they meet all other inclusion/exclusion criteria."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["avutometinib", "defactinib", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Avutometinib",
+      "active_moiety": "avutometinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Avutometinib (other names: VS-6766): Supplied as 0.8mg capsules."},
+        {"field": "arms", "quote": "The Phase 1b will evaluate the safety and tolerability of combination of avutometinib and defactinib"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "RAF/MEK clamp inhibitor (VS-6766)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b", "Phase 2"]
+    },
+    {
+      "agent_name_registered": "Defactinib",
+      "active_moiety": "defactinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Defactinib: Supplied as 200mg tablets."},
+        {"field": "arms", "quote": "The Phase 1b will evaluate the safety and tolerability of combination of avutometinib and defactinib"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "FAK inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b", "Phase 2"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Avutometinib and defactinib may be administered in combination with temozolomide (TMZ)."},
+        {"field": "outcomes", "quote": "To assess safety and tolerability of combination with TMZ when given as standard of care maintenance therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "avutometinib",
+      "source_quote": {"field": "detailed_description", "quote": "Hyperactivating BRAF mutations or fusions predicted to be pathogenic by COSMIC"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b", "Phase 2"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NF1 loss",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "avutometinib",
+      "source_quote": {"field": "detailed_description", "quote": "NF1 loss"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1b", "Phase 2"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "For front line unmethylated GBM (MRD):"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "genomic, transcriptomic or immunological response signatures",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Determine biomarkers of response, including but not limited to genomic, transcriptomic or immunological signatures from responders and non-responders."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Platform sub-study with two molecularly defined biomarker cohorts (BRAF hyperactivating mutation/fusion; NF1 loss) defined in the detailed description; registered arms are labelled by phase only, so biomarker arms are given as both 'Phase 1b' and 'Phase 2'. The biomarker cohorts are coded as enrichment (required per cohort); since all patients must belong to one, an adjudicator could treat them as eligibility. Both are MAPK-pathway markers matched to avutometinib (RAF/MEK inhibitor); defactinib (FAK) is the combination partner. MGMT unmethylated status is mentioned only in an outcome for the front-line MRD cohort; assigned to 'Phase 2' because the description places front-line MRD testing in Phase 2, though the outcome text lists it under Phase 1b. Eligibility also includes IDH-mutant grade 4 astrocytoma and H3 G34-mutant glioma (mixed glioma). Temozolomide only in Phase 2 arm as standard-of-care maintenance (soc_backbone); regimen combination. Ages include 16+ (CHILD in stdAges)."
+}

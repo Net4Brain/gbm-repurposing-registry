@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT06160492",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma (WHO III-IV)"},
+      {"field": "eligibility", "quote": "Suspected or confirmed malignant high-grade glioma (WHO grade 3 or 4)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "will evaluate the ability of 5-aminolevulinic acid hydrochloride (5-ALA HCl) powder for oral solution to visualize malignant tissue during surgery"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Suspected or confirmed malignant high-grade glioma (WHO grade 3 or 4)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The percentage of biopsy specimens from strongly and weakly fluorescent regions that are positive for tumor cells on blinded central histopathological assessment."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Strong and weak fluorescence correspond to red and pink fluorescence, respectively, observed under blue-light excitation."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-Aminolevulinic Acid Hydrochloride Powder for Oral Solution",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "title", "quote": "5-Aminolevulinic Acid for Photodynamic Diagnosis of Malignant Glioma"},
+        {"field": "brief_summary", "quote": "will evaluate the ability of 5-aminolevulinic acid hydrochloride (5-ALA HCl) powder for oral solution to visualize malignant tissue during surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence-guided resection imaging agent (protoporphyrin IX precursor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["5-ALA HCl fluorescence visualization"]
+    },
+    {
+      "agent_name_registered": "dexamethasone (single IV infusion before 5-ALA, not a registered intervention)",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "A single 5-mg intravenous infusion of dexamethasone will be given before oral 5-ALA HCl on the day of surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid, premedication",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["5-ALA HCl fluorescence visualization"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA is used only for fluorescence-guided resection (diagnostic). Glioblastoma is not named anywhere in the record (high-grade glioma WHO 3-4), so gbm_population is high_grade_glioma_unspecified. Dexamethasone listed because the protocol gives it to every participant."
+}

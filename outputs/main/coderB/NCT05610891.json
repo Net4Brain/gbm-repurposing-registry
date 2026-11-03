@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05610891",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma"},
+      {"field": "eligibility", "quote": "Previously confirmed (histologically or cytologically) high grade glioma that is clinically or radiographically suspected to be relapsed, refractory, or recurrent"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CLR 131 will be administered IV (intravenously) at a dose based on patients' BSA"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Previously confirmed (histologically or cytologically) high grade glioma that is clinically or radiographically suspected to be relapsed, refractory, or recurrent"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CLR 131",
+      "active_moiety": "iopofosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Two dosing cohorts will be explored; patients in the first arm will receive two doses, 20 mCi/m2 each, separated by 14 days for two cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "iodine-131 labelled phospholipid ether radiopharmaceutical (iopofosine I 131)",
+      "stated_antitumour_mechanism": "targeted radiotherapy",
+      "flag": {"uncertain": false},
+      "arms": ["Pediatric High-Grade Glioma Patients"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric/young adult (10-25 y) high-grade glioma with no glioblastoma named, so S5 fails (high_grade_glioma_unspecified). stdAges include ADULT. Tumour uptake by SPECT/dosimetry is imaging of the radiopharmaceutical itself, not coded as tumour PK or target engagement."
+}

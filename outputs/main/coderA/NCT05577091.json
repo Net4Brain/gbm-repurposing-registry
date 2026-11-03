@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05577091",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with history of glioblastoma are diagnosed with recurrent glioblastoma and residual tumor after intracranial tumor resection/biopsy performed in Beijing Tiantan Hospital."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Inverse correlated dual-target, truncated IL7Ra modified CAR -expressing autologous T-lymphocytes."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Tris-CAR-T Cell Therapy for Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Inverse correlated dual-target, truncated IL7Ra modified CAR -expressing autologous T-lymphocytes.",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The autologous Tris-CAR-T cell, targeting both CD44 and CD133, the two inverse correlated targets, introduced truncated IL7Ra to the intracellular domain of the CAR molecule"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous CD44/CD133 dual-target CAR-T cells (Tris-CAR-T), locoregional via Ommaya reservoir",
+      "stated_antitumour_mechanism": "CAR-T cells targeting CD44 and CD133",
+      "flag": {"uncertain": false},
+      "arms": ["Autologous Tris-CAR-T cell"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD44/CD133 target expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "if tissue samples from multiple time points are available, also evaluate the degree of target expression, biological characteristics of samples at diagnosis versus at recurrence or progression."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Sole intervention is a CAR-T cell therapy (excluded type). CSF/blood CAR-T kinetics (qPCR) and CSF cytokine pharmacodynamics are planned but relate to the non-candidate cell therapy, so tumour_pk_planned and target_engagement_planned coded no. Supportive care (glucocorticoids, antibiotics, cytokine antagonists) mentioned only generically, not registered interventions, so not listed."
+}

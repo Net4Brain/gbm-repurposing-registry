@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT06831526",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of IDH-wildtype GBM (WHO grade 4) according to the 2021 WHO classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "azeliragon, a RAGE inhibitor"},
+      {"field": "interventions", "quote": "Azeliragon: Provided by Cantex Pharmaceuticals"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "validate that the combination of azeliragon with RT and TMZ would modulate immune-suppressive myeloid and T cells in the tumor microenvironment"},
+      {"field": "outcomes", "quote": "Percentage of immune-suppressive myeloid cells in the tumor tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon",
+      "active_moiety": "azeliragon",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive azeliragon as well."},
+        {"field": "keywords", "quote": "RAGE inhibitor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "RAGE (receptor for advanced glycation end products) inhibitor",
+      "stated_antitumour_mechanism": "RAGE inhibitor; reduces immune-suppressive myeloid cells and restores T-cell activation",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Neoadjuvant RT and Temozolomide (TMZ) + Surgery or LITT + Adjuvant TMZ & Azeliragon",
+        "Arm 2: Neoadjuvant RT, Temozolomide (TMZ) & Azeliragon + Surgery or LITT + Adjuvant TMZ & Azeliragon"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide (other names: TMZ): Standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Neoadjuvant RT and Temozolomide (TMZ) + Surgery or LITT + Adjuvant TMZ & Azeliragon",
+        "Arm 2: Neoadjuvant RT, Temozolomide (TMZ) & Azeliragon + Surgery or LITT + Adjuvant TMZ & Azeliragon"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically proven diagnosis of IDH-wildtype GBM (WHO grade 4)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). Azeliragon is given in both arms (Arm 1: adjuvant phase only; Arm 2: neoadjuvant and adjuvant); Arm 1 is registered ACTIVE_COMPARATOR but still receives azeliragon, so azeliragon is coded experimental_monotherapy (the only investigational agent) rather than control_comparator. Role of azeliragon in the registered-comparator arm differs in timing only. Radiotherapy, surgery and LITT are not agents."
+}

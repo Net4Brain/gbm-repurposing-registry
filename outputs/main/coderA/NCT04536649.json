@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT04536649",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Pathologically confirmed newly-diagnosed GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Multimodal brain imaging-guided radiotherapy using different beams"},
+      {"field": "detailed_description", "quote": "All patients will receive concurrent and adjuvant temozolomide according to the Stupp protocol."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Pathologically confirmed newly-diagnosed GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will receive concurrent and adjuvant temozolomide according to the Stupp protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Standard-dose Photon Radiotherapy",
+        "Standard-dose Proton Radiotherapy",
+        "Standard-dose Proton Radiotherapy plus Carbon-Ion Boost"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-modality trial (photon vs proton vs proton + carbon-ion boost); temozolomide is not a registered intervention but every patient receives it per the Stupp protocol (soc_backbone). The photon arm is registered as EXPERIMENTAL but described as the Control Group in the summary, so control_arm_from_other_arms yes."
+}

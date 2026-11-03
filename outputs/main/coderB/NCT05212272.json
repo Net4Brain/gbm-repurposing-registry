@@ -1,0 +1,9 @@
+{"nct_id":"NCT05212272","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"mixed_glioma_gbm_named","gbm_population_evidence":[{"field":"eligibility","quote":"Pathologically confirmed diagnosis of high-grade glioma (grade III or IV) or WHO grade II glioma, IDH wildtype (molecular glioblastoma multiforme \\[GBM\\])."}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"arms","quote":"PET scan and MRI scan of the brain, blood draw, and 1-hour of memory testing."}],"candidate_flag":{"uncertain":false},"cns5_terminology":"cns5"},
+"trial":{"treatment_setting":"unclear","treatment_setting_evidence":[{"field":"eligibility","quote":"Anticipated to receive 6 weeks of chemoradiation"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[{"biomarker":"IDH","biomarker_other":null,"role":"eligibility","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"WHO grade II glioma, IDH wildtype (molecular glioblastoma multiforme \\[GBM\\])"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Imaging/cognitive feasibility study (PET-MRI, blood draw, memory testing, optional LP); no drug interventions. Phase NA. Unspecified serum/CSF biomarkers for cognitive decline not coded as molecular tumour biomarkers. cns5 coded because IDH wildtype defines molecular GBM for the grade II entry route."}

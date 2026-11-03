@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT04600817",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "The percentage of patients with average of ALC at 3w after first TJ107 dose and at pre-dose 3rd TMZ ≥1.5X109/L:"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Record states no antitumour hypothesis or antitumour outcome for TJ107 (only lymphocyte count recovery in lymphopenic patients), so coded supportive; title says efficacy, so it could be a candidate."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TJ107",
+      "active_moiety": "tj107",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "A Study to Evaluate the Efficacy and Safety of TJ107 in Lympopenic Patients With Newly Diagnosed Glioblastoma Who Completed Standard Concurrent Chemoradiotherapy (CCRT)"},
+        {"field": "outcomes", "quote": "The percentage of patients with average of ALC at 3w after first TJ107 dose and at pre-dose 3rd TMZ ≥1.5X109/L:"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational agent (development code) given to restore lymphocyte count in lymphopenic patients; likely a biologic (record mentions chimeric/humanised antibodies or fusion proteins)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Could be a candidate if the efficacy aim is antitumour; the record only gives an absolute lymphocyte count outcome."},
+      "arms": ["TJ107"]
+    },
+    {
+      "agent_name_registered": "TJ107 placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "TJ107Placebo"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo matching TJ107",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TJ107Placebo"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (adjuvant, planned for all patients)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "completed concurrent chemo-radiotherapy (CCRT) with plan to receive adjuvant temozolomide therapy with curative intent"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy, standard adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TJ107", "TJ107Placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Not a registered intervention: temozolomide listed because every patient is planned to receive adjuvant temozolomide. The TJ107 role is the main doubt (supportive vs experimental_monotherapy); if candidate, regimen would be combination with the temozolomide backbone."
+}

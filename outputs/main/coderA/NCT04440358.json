@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT04440358",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Carboplatin: Carboplatin infusion on the day of Exablate BBBD procedure to treat cancerous cells in the brain"},
+      {"field": "interventions", "quote": "[DEVICE] Exablate BBBD (other names: Exablate Neuro): BBB opening via Exablate Neuro Type 2 system to deliver carboplatin"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Tumor progression after first line therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "On the day of planned carboplatin therapy, subjects will undergo Exablate procedure to open the blood-brain-barrier in the targeted cancerous brain areas prior to carboplatin administration."},
+        {"field": "interventions", "quote": "[DRUG] Carboplatin: Carboplatin infusion on the day of Exablate BBBD procedure to treat cancerous cells in the brain"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like cytotoxic chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exablate BBBD with carboplatin"]
+    },
+    {
+      "agent_name_registered": "Microbubbles",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "title", "quote": "Assessment of Safety and Feasibility of Exablate Blood-Brain Barrier Disruption (BBBD) With Microbubbles for the Treatment of Recurrent Glioblastoma (rGBM) in Subjects Undergoing Carboplatin Monotherapy"},
+        {"field": "eligibility", "quote": "Known sensitivity or contraindications to ultrasound contrast agent or perflutren"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles (perflutren implied by exclusion criterion) for focused-ultrasound BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exablate BBBD with carboplatin"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Carboplatin is the candidate with focused-ultrasound BBB-opening delivery (C12/R5): device_dependent true even though patients were already planned for carboplatin. Microbubbles are not a registered intervention but the official title states BBBD with microbubbles for every procedure; moiety perflutren inferred from the exclusion criterion (record does not name the microbubble product explicitly). Gadolinium contrast is used to assess BBB opening on MRI (device outcome), not listed as an agent. Primary outcomes are safety and BBB opening; no tumour PK or candidate pharmacodynamic measurement."
+}

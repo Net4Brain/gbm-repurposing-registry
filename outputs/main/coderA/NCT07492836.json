@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT07492836",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Initial histological diagnosis of glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Hypofractionated Radiation Therapy: 60 Gy in 20 fractions of 3 Gy"},
+      {"field": "title", "quote": "Hypofractionated Radiotherapy Plus Temozolamide in Patients Younger Than 70 Years With Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Initial histological diagnosis of glioblastoma"},
+      {"field": "eligibility", "quote": "Patients submitted to any type of previous radiotherapy in the cranial region;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolamide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "Prospective, Pilot Study to Evaluate Hypofractionated Radiotherapy Associated With Temozolomide in Patients Aged 18 to 70 Years With Glioblastoma (HypoGBM)"},
+        {"field": "eligibility", "quote": "Contraindication to chemotherapy with temozolomide;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour cells (blood, before and after radiotherapy)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Correlative science: Evaluation of circulating tumor cells in the blood"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Radiotherapy-fractionation trial (registered phase NA). Temozolomide is not a registered intervention but title and exclusion criteria indicate all patients receive it with hypofractionated RT; listed as soc_backbone (its schedule is not stated to be under investigation). No pharmacological candidate. Registered name in title is misspelt 'Temozolamide'."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07141732",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "The subject has been newly diagnosed with glioblastoma (GB) based on preoperative neuroimaging (contrast-enhanced brain MRI ± amino acid-based PET/CT) and confirmed by intraoperative histopathological examination of the tumor."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The Elekta Xoft® Axxent® Electronic Brachytherapy (eBx®) System is a device that delivers high-dose-rate radiation."},
+      {"field": "brief_summary", "quote": "Subsequently, patients will receive standard chemoradiotherapy according to the Stupp protocol (2005):"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Fifteen patients (male and female) with newly diagnosed glioblastoma who meet the inclusion/exclusion criteria"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Chemotherapy: Daily oral temozolomide (75 mg/m²) during EBRT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (Stupp standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Investigational intervention is intraoperative balloon electronic brachytherapy (device/radiotherapy), registered as BIOLOGICAL but not a drug. Temozolomide is not a registered intervention but the protocol text says all patients receive Stupp chemoradiotherapy, so listed as soc_backbone. No pharmacological candidate."
+}

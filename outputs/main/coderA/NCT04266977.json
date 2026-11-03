@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04266977",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Dexamethasone; Steroids"},
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial contrast enhancing lesion suspicious of glioblastoma without major mass effect, amenable to surgical resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The primary purpose is to reduce tumor-associated vasogenic edema and to prevent or treat increased intracranial pressure."},
+      {"field": "brief_summary", "quote": "The purpose of this study is to assess whether selected GBM patients can be treated safely with a restrictive DEX regimen from referral to the neurosurgical center until discharge."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial contrast enhancing lesion suspicious of glioblastoma without major mass effect, amenable to surgical resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "restrictive use of DEX, based on standardized clinical and radiological criteria."},
+        {"field": "brief_summary", "quote": "The primary purpose is to reduce tumor-associated vasogenic edema and to prevent or treat increased intracranial pressure."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid for cerebral oedema",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment Dexamethasone"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA, single-arm steroid-sparing strategy study; dexamethasone is withheld and given only as rescue for oedema/mass effect, i.e. symptom control with no antitumour hypothesis for dexamethasone itself -> supportive; no pharmacological candidate. Population is lesions suspicious of glioblastoma (newly diagnosed), coded gbm_only."
+}

@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT05664243",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Subjects with histologically or cytologically confirmed history of IDH-wild type glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This multicenter, Phase 1b/2 study is being conducted to determine if the experimental cell therapy is safe, tolerable and can delay the return of cancer"},
+      {"field": "detailed_description", "quote": "This is a Phase 1b and 2 open-label cellular therapy trial using genetically modified gamma-delta (γδ) T cells or DeltEx Drug Resistant Immunotherapy (DRI)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Combination With Maintenance Temozolomide in Subjects With Recurrent or Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous genetically modified gamma-delta T cells",
+      "active_moiety": "gene-modified gamma-delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "This is a Phase 1b and 2 open-label cellular therapy trial using genetically modified gamma-delta (γδ) T cells or DeltEx Drug Resistant Immunotherapy (DRI)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous chemoresistant gene-modified gamma-delta T cells (DeltEx DRI), intracavitary via Rickham catheter",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1) Autologous Newly Diagnosed Disease"]
+    },
+    {
+      "agent_name_registered": "Allogeneic genetically modified gamma-delta T cells",
+      "active_moiety": "gene-modified gamma-delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "Phase 1b subjects with relapsed disease will have allogeneic derived, genetically modified gamma-delta T cells administered with temozolomide (interventions: Biological: Allogeneic genetically modified gamma-delta T cells)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic chemoresistant gene-modified gamma-delta T cells (DeltEx DRI), intracavitary via Rickham catheter",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["2) Allogeneic Relapsed Disease", "3) Allogeneic Newly Diagnosed Disease"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The chemotherapy that is being used in this study is called temozolomide (TMZ) which is the standard-of-care used to treat glioblastoma patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard backbone, all arms)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1) Autologous Newly Diagnosed Disease", "2) Allogeneic Relapsed Disease", "3) Allogeneic Newly Diagnosed Disease"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects with histologically or cytologically confirmed history of IDH-wild type glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only investigational therapy is a gene-modified gamma-delta T cell product (excluded type). Temozolomide is given in all arms (maintenance in newly diagnosed arms; single D1 dose per cycle in relapsed arm) as standard backbone; not a registered intervention but every patient receives it. Arm labels copied without the 'Phase 2 Arm A'/'Phase 1b and Phase 2' descriptors that follow the colon. Amino-bisphosphonate allergy exclusion suggests zoledronate may be used but no bisphosphonate is stated as given; not listed."
+}

@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04181684",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Brain Tumor; Glioma; Neoplasms"},
+      {"field": "eligibility", "quote": "Patients with history of a WHO Grade II-IV glioma with radiographic evidence of recurrent or progressive tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Laser interstitial thermal therapy (LITT) followed by hypo-fractionated radiation therapy, 35Gy/10 fractions. (interventions: Device: Procedure: LITT; Radiation: Hypo-Fractionated Radiation Therapy)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with history of a WHO Grade II-IV glioma with radiographic evidence of recurrent or progressive tumor"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device (LITT) plus hypofractionated radiotherapy only; no drug or biologic interventions. Registered phase NA (S3 handled by CODE layer). Grade II-IV glioma without IDH requirement; glioblastoma named in conditions. cns5_terminology coded historical (WHO grade II-IV glioma without IDH)."
+}

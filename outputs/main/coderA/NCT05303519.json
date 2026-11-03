@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT05303519",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase 3, Multicenter, Clinical Study to Evaluate the Efficacy and Safety of Safusidenib Erbumine in Participants With Isocitrate Dehydrogenase 1 (IDH1)-Mutant Glioma"},
+      {"field": "eligibility", "quote": "Diagnosis of histologically confirmed IDH1-mutant Grade 2, Grade 3 with high risk features or Grade 4 astrocytoma, per WHO 2021 classification and Investigator Assessment."},
+      {"field": "eligibility", "quote": "Patient must have histologically confirmed recurrent or progressive WHO Grade 2 glioma or Grade 3 glioma with IDH1 R132H or R132C mutation confirmed by immunohistochemistry or molecular genetic testing."},
+      {"field": "conditions", "quote": "Astrocytoma, Grade IV"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] safusidenib 250mg bid (Part 2): safusidenib administered continuously as dosed single agent orally on Days 1 to 28 of a 28-day cycle."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of Part 1 of the study is to evaluate the efficacy, safety, and pharmacokinetic (PK) characteristics of safusidenib in participants with recurrent/progressive IDH1-mutant World Health Organization (WHO) Grade 2 or Grade 3 glioma."},
+      {"field": "brief_summary", "quote": "The purpose of Part 2 will be to evaluate the efficacy of maintenance safusidenib treatment versus placebo in IDH1-mutant Grade 2 or Grade 3 astrocytoma with high-risk features or IDH1-mutant Grade 4 astrocytoma, following standard-of-care radiation or chemoradiation and adjuvant temozolomide."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Part2: Safusidenib PK Profile: Defined as safusidenib concentrations and PK parameters."},
+      {"field": "outcomes", "quote": "Part 1: Cmax of safusidenib: Peak Plasma Concentration (Cmax)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "safusidenib",
+      "active_moiety": "safusidenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] safusidenib 250mg bid (Part 2): safusidenib administered continuously as dosed single agent orally on Days 1 to 28 of a 28-day cycle."},
+        {"field": "interventions", "quote": "[DRUG] safusidenib (other names: DS-1001b, AB-218)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational mutant IDH1 inhibitor (safusidenib erbumine, DS-1001b, AB-218)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "safusidenib 125mg bid (part 1)",
+        "safusidenib 250mg bid (part 1)",
+        "safusidenib 500mg qd (part 1)",
+        "safusidenib 375mg bid (part 1)",
+        "safusidenib 500mg bid (part 1)",
+        "safusidenib 250mg bid (Part 2)",
+        "safusidenib 250mg bid (Part 3)"
+      ]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[PLACEBO_COMPARATOR] placebo (Part 2): Placebo administered continuously as dosed single agent orally on Days 1 to 28 of a 28-day cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["placebo (Part 2)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "safusidenib",
+      "source_quote": {"field": "eligibility", "quote": "Have an IDH1 mutation (R132H/C/G/S/L) based on IHC (R132H only), polymerase chain reaction (PCR), or next-generation sequencing (NGS)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "CDKN2A/B status and at least 1 of the following must be confirmed: absence of 1p19q co-deletion by fluorescence in situ hybridization, array comparative genomic hybridization, or NGS; presence of an ATRX loss of function mutation by NGS; or loss of normal ATRX expression by IHC."},
+      "flag": {"uncertain": false},
+      "arms": ["safusidenib 250mg bid (Part 2)", "placebo (Part 2)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q codeletion (absence required for Part 2; presence required for Part 3)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Have an IDH1 mutation (R132H/C/G/S/L). The presence of 1p19q co-deletion must also be confirmed."},
+      "flag": {"uncertain": false},
+      "arms": ["safusidenib 250mg bid (Part 2)", "placebo (Part 2)", "safusidenib 250mg bid (Part 3)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ATRX loss (alternative to absent 1p/19q codeletion for Part 2 entry)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "presence of an ATRX loss of function mutation by NGS; or loss of normal ATRX expression by IHC."},
+      "flag": {"uncertain": false},
+      "arms": ["safusidenib 250mg bid (Part 2)", "placebo (Part 2)"]
+    }
+  ],
+  "coder_notes": "Population is IDH1-mutant glioma only (grade 2-4 astrocytoma, oligodendroglioma); IDH-mutant grade 4 astrocytoma is not glioblastoma under WHO CNS5, so not_glioblastoma even though the conditions list 'Astrocytoma, Grade IV' (the eligibility requires IDH1 mutation throughout). IDH1 mutation is an entry requirement in all parts and matches the mutant-IDH1 inhibitor safusidenib. Part 1 PK is plasma; Parts 2/3 'safusidenib concentrations' without sample type, coded tumour_pk_planned unclear. Treatment setting: Part 1 recurrent, Part 2 maintenance after first-line therapy, Part 3 residual/recurrent after surgery only -> both. CDKN2A/B is a required documented status for Part 2 rather than a specified value; coded enrichment, not matched. Placebo listed as control comparator."
+}

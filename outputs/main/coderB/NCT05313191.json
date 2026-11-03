@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05313191",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "CNS Cancer; Head and Neck Cancer; GI Cancer; Gynecologic Cancer; Prostate Cancer; Thoracic Cancer; Breast Cancer"},
+      {"field": "arms", "quote": "Glioblastoma (histologic or molecular including IDH wildtype)"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only in the description text of the Cohort 1 arm entry, not in the arm label itself or in conditions/title/eligibility; basket vs not_glioblastoma could change screening."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Pencil Beam Scanning Proton Therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Patients for whom a repeat course of RT to the CNS is indicated for recurrent disease or secondary primary"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Proton reirradiation trial across many cancers; only intervention is radiation, no drug listed (concurrent systemic therapy is permitted in some cohorts but not specified). Cohort 8 registry is a NO_INTERVENTION cohort. IDH mentions are diagnostic definitions of cohort histology, not entry biomarkers. cns5 chosen because the record writes 'including IDH wildtype' for glioblastoma."
+}

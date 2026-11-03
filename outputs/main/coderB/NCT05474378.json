@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05474378",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "B7-H3 Chimeric Antigen Receptor T Cells (B7-H3CART) in Recurrent Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "tested as IDH wild-type, as per revised WHO 2021 criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "B7-H3 Chimeric Antigen Receptor T Cells (B7-H3CART) in Recurrent Glioblastoma Multiforme"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "B7-H3 Chimeric Antigen Receptor T Cells (B7-H3CART) in Recurrent Glioblastoma Multiforme"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "B7-H3CART",
+      "active_moiety": "b7-h3 car t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "B7-H3CART (other names: B7H3-CAR T): B7-H3CART will be administered administered locoregionally"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous B7-H3 chimeric antigen receptor T cell therapy, locoregional (intracerebroventricular and intratumoral)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose escalation", "Dose Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "tested as IDH wild-type, as per revised WHO 2021 criteria"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is a CAR T cell therapy (excluded intervention type); no drug agents registered. Conditions field is 'Brain and Nervous System' but the title and inclusion criteria name glioblastoma."
+}

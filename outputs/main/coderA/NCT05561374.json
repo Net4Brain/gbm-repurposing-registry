@@ -1,0 +1,64 @@
+{
+  "nct_id": "NCT05561374",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-grade Glioma; Oligodendroglioma; Astrocytoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Confirmed recurrent gliomas that were originally diagnosed as high-grade glioma (World Health Organization \\[WHO\\] Grade 3 or 4; astrocytoma, oligodendroglioma, or glioblastoma) by histopathology or molecular studies."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a phase 1 open-label, multicenter study to investigate tolerability, safety and PK properties of oral OKN-007 in patients with recurrent high-grade glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Safety and Pharmacokinetic Properties of Oral OKN-007 in Patients with Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic profile: Maximum plasma concentration (Cmax): Maximum plasma concentration (Cmax) will be calculated using the actual sample collection times."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "OKN-007",
+      "active_moiety": "okn-007",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Eligible participants will be enrolled each of the cohorts with escalated dose levels and administered the study drug OKN-007 orally daily in 28-day cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "OKN-007, investigational small molecule (nitrone compound), oral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Low-dose OKN-007, two times a day (BID)",
+        "Low-dose OKN-007, three times a day (TID)",
+        "Mid-dose OKN-007, three times a day (TID)",
+        "High-dose OKN-007, three times a day (TID)"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Four dose-escalation cohorts of the same agent; one agent row covers all arms. PK is plasma only. cns5_terminology historical because conditions use 'Glioblastoma Multiforme' and eligibility uses WHO grade without IDH requirement. Tissue requested 'for correlative research' but no biomarker named."
+}

@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT04869449",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme of Brain; Glioblastoma Multiforme, Adult"},
+      {"field": "title", "quote": "Neuro-pharmacological Properties of Repurposed Ketoconazole in Glioblastomas"},
+      {"field": "eligibility", "quote": "Evidence of primary or recurrent high-grade gliomas (HGG) that in the opinion of the treating team would require surgical resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This research is being done to find out if the study drug (ketoconazole) can enter brain tumors at a high enough amount to stop the tumor cells from dividing."},
+      {"field": "arms", "quote": "Participants will be taking 400 mg of the study drug (two 200 mg tablets) by mouth twice a day until the day of biopsy or surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of primary or recurrent high-grade gliomas (HGG) that in the opinion of the treating team would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Assessment of the concentration versus time curves of drug in the dialysate fluid"},
+      {"field": "detailed_description", "quote": "demonstration of adequate penetrance of study drug in brain and tumor tissue (pharmacokinetics)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Hexokinase activity assay- measured as a proportion of hexokinase enzyme activity in relation to positive control: Measured using a hexokinase assay on tumor tissue"},
+      {"field": "outcomes", "quote": "Concentration of lactate measured using mass spectrometry in resected tumor tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Ketoconazole (other names: Nizoral): 400 mg (two 200 mg tablets) orally"},
+        {"field": "brief_summary", "quote": "Ketoconazole is a drug which doctors already use for fungal infections and is thought to be able to effect tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "inhibition of hexokinase 2 (HK2) activity and glycolysis",
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hexokinase (HK2) activity / glycolytic metabolites (lactate, pyruvate) in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ketoconazole",
+      "source_quote": {"field": "outcomes", "quote": "Hexokinase activity assay- measured as a proportion of hexokinase enzyme activity in relation to positive control: Measured using a hexokinase assay on tumor tissue"},
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "VEGF expression in tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Evaluate ketoconazole's effect on angiogenesis in tumor tissue: Based on expression of vascular endothelial growth factor (VEGF)"},
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole"]
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0) -> translational subset. Conditions/title name only glioblastoma, but inclusion admits primary or recurrent high-grade gliomas, so coded mixed_glioma_gbm_named (gbm_only also defensible; both include). Detailed description inconsistently says the trial will focus on posaconazole exclusively and mentions 5 control participants, while the registered arm, intervention and outcomes are ketoconazole only (single group); coded per registered intervention. Ki-67 and TUNEL tissue endpoints not recorded as molecular biomarkers."
+}

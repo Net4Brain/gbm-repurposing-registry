@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04765514",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Newly-diagnosed, histologically proven, intracranial glioblastoma with maximal safe resection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The hypothesis of this trial is that in elderly GBM patients with poor performance status (age ≥ 65 years and KPS 60-70), a chemotherapy alone (TMZ monotherapy) approach to therapy results in non-inferior overall survival compared to combined TMZ/RT."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Randomized Controlled Trial of Chemo-Radiotherapy Versus Chemotherapy for Elderly and Frail Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide monotherapy",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide (TMZ) daily for 21 days, followed by up to 6 cycles of adjuvant TMZ, as tolerated. If tolerated, additional cycles of adjuvant TMZ may be administered."},
+        {"field": "brief_summary", "quote": "To compare overall survival of standard therapy vs chemotherapy in elderly and frail patients with newly diagnosed GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Temozolomide monotherapy", "Standard Arm: TMZ with concurrent RT (combined modality arm)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter methylation status must be tested and the results positive (defined as all non-negative MGMT status, including intermediate or indeterminate status (i.e., with cutoff higher than the MGMT negative threshold)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised TMZ alone (experimental) vs TMZ/RT (active comparator, registered as combination product) in elderly frail MGMT-methylated newly diagnosed GBM. Temozolomide is an established GBM therapy tested in a new setting (without RT), so established_therapy_experiment; it is also the backbone in the comparator arm (role there would be control/soc). Registered as one TMZ row covering both arms. No candidate agent."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05366179",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Diagnosis or recurrent supratentorial- or infra-tentorial glioblastoma multiforme (GBM) (World Health Organization 2016 or 2021)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The Chimeric Antigen Receptors (CAR).B7-H3T cells will be administered via intraventricular infusion up to 3 weekly infusions."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Autologous CAR-T Cells Targeting B7-H3 in Recurrent or Refractory GBM CAR.B7-H3Tc"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CAR.B7-H3T cells infusion",
+      "active_moiety": "b7-h3 car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The purpose of this study is to test the safety of using T lymphocyte chimeric antigen receptor cells against the B7-H3 antigen (CAR.B7-H3T cells) in patients with glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous B7-H3-directed CAR-T cell therapy, intraventricular",
+      "stated_antitumour_mechanism": "T lymphocyte chimeric antigen receptor cells against the B7-H3 antigen",
+      "flag": {"uncertain": false},
+      "arms": ["Single Arm: CAR.B7-H3 T cells"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "cns5_terminology coded cns5 because the record cites WHO 2021 (also cites WHO 2016 and uses 'glioblastoma multiforme'; tie rule gives cns5). B7-H3 is the CAR target but is not stated as an entry requirement or measured biomarker, so no biomarker row. Prior temozolomide with RT is a prior-therapy requirement, not a study agent."
+}

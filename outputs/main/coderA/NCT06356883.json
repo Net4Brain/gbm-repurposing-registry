@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT06356883",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Relapse"},
+      {"field": "eligibility", "quote": "Histological diagnosis of glioblastoma multiforme."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "intraarterial administration of carboplatin (400 mg/m2) combined with Caelyx (30 mg/m2) will be compared with intraarterial administration of carboplatin (400 mg/m2) combined with etoposide phosphate (400 mg/m2)"},
+      {"field": "detailed_description", "quote": "At the heart of the present study, carboplatin, which will be combined with either one of two agents found to be ideally suited in this setting: Caelyx (liposomal doxorubicin) or etoposide phosphate."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for Progressing Glioblastoma at First or Second Relapse"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["carboplatin"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IA Carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "So much so, that it is nowadays considered a standard of care for relapsing tumours in our institution."},
+        {"field": "detailed_description", "quote": "At our institution, carboplatin is the primary chemotherapeutic agent for IA infusions and yields positive tumour responses in 70% of patients for a median PFS of 5 months."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like cytotoxic, given intra-arterially",
+      "stated_antitumour_mechanism": "These reactive complexes react with DNA bases to create inter- and intrastrand crosslinks which prevent cell division by hindering DNA synthesis.",
+      "flag": {"uncertain": true, "reason": "IA carboplatin is given identically in both experimental arms and described as institutional standard of care, so coded soc_backbone; but it is part of the investigated IA combination and could be viewed as a candidate."},
+      "arms": ["IA Carboplatin + IA Caelyx", "IA Carboplatin + IA Etoposide Phosphate"]
+    },
+    {
+      "agent_name_registered": "IA Caelyx",
+      "active_moiety": "doxorubicin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA liposomal doxorubicin on each cycle (4-6 weeks), for up to 12 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anthracycline cytotoxic; pegylated liposomal doxorubicin (Caelyx), given intra-arterially",
+      "stated_antitumour_mechanism": "DNA binding and cross-linking, interference with DNA strand separation, inhibition of RNA polymerase, inhibition of topoisomerase II, formation of free radicals and membrane peroxidation have all been suggested.",
+      "flag": {"uncertain": false},
+      "arms": ["IA Carboplatin + IA Caelyx"]
+    },
+    {
+      "agent_name_registered": "IA Etoposide Phosphate",
+      "active_moiety": "etoposide",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be treated with IA carboplatin + IA etoposide phosphate on each cycle (4-6 weeks), for up to 12 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topoisomerase II inhibitor cytotoxic; etoposide phosphate (water-soluble prodrug/ester of etoposide), given intra-arterially",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IA Carboplatin + IA Etoposide Phosphate"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Two experimental arms, no control arm; randomised comparison of IA carboplatin + IA pegylated liposomal doxorubicin vs IA carboplatin + IA etoposide phosphate. Registered interventions are combined entries ('IA Carboplatin + IA Caelyx', 'IA Carboplatin + IA Etoposide Phosphate'); agent names split accordingly. Intra-arterial catheter delivery is not treated as device-dependent (no BBB-opening device or activation). Doxorubicin is pegylated liposomal (could also be new_formulation); etoposide phosphate is a prodrug of etoposide (could also be prodrug); new_route chosen for intra-arterial administration. Surgery for cytoreduction before treatment not coded."
+}

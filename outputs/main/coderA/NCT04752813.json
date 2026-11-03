@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT04752813",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Subjects with newly diagnosed pathologically verified GB."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "will assess the effects of adding BPM31510 onto a conventional treatment framework of RT and concurrent TMZ chemotherapy for subjects with newly diagnosed glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with newly diagnosed pathologically verified GB."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BPM31510",
+      "active_moiety": "bpm31510",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive a weekly, 96-h infusion of BPM31510 for a duration of 8 weeks."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational intravenous coenzyme Q10 (ubidecarenone) formulation (BPM31510); CoQ10 implied by allergy exclusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Vitamin K1",
+      "active_moiety": "phytomenadione",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive prophylactic Vitamin K1 at a recommended dose of 10 mg subcutaneously prior to the beginning of each week of BPM31510 therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "vitamin K1, prophylaxis against bleeding/coagulopathy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will receive the standard TMZ treatment for up to 12 cycles post BPM31510 treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["BPM31510, Vitamin K1, RT and TMZ"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "BPM31510 is the only investigational agent; record does not give its INN (exclusion 'Known allergy to CoQ10' suggests a coenzyme Q10 formulation; if mapped to ubidecarenone, formulation_flag new_formulation may apply). Vitamin K1 is prophylactic (no antitumour hypothesis stated) and registered as 'Other'; coded supportive. 'Glioblastoma Multiforme' in conditions gives historical terminology."
+}

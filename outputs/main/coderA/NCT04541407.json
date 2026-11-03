@@ -1,0 +1,115 @@
+{
+  "nct_id": "NCT04541407",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Non Small Cell Lung Cancer; CNS Progression"},
+      {"field": "eligibility", "quote": "Stage IV NSCLC with progression of disease in the CNS on osimertinib 80 mg daily for patients with EGFR activating mutations"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "it is hypothesized that adding temozolomide to osimertinib or temozolomide to lorlatinib may provide improvement in CNS disease control in patients with CNS progression on either of these latter two TKIs"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Temozolomide (established GBM therapy) is the added investigational agent in a new setting (NSCLC CNS progression); rule 6 vs rule 4 could change candidate status."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Stage IV NSCLC with progression of disease in the CNS on osimertinib 80 mg daily for patients with EGFR activating mutations"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide plus Osimertinib; Temozolomide plus Lorlatinib",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "it is hypothesized that adding temozolomide to osimertinib or temozolomide to lorlatinib may provide improvement in CNS disease control in patients with CNS progression on either of these latter two TKIs"},
+        {"field": "eligibility", "quote": "Prior therapy with temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral alkylating chemotherapy (established GBM therapy)",
+      "stated_antitumour_mechanism": "Temozolomide is an oral alkylating chemotherapy which has good CNS penetration",
+      "flag": {"uncertain": true, "reason": "Only investigational agent added to ongoing TKI; established GBM therapy in a new (NSCLC) setting coded rule 6, rule 4 (experimental_monotherapy) is the alternative."},
+      "arms": ["Exon 19 deletions or L858R point mutations in exon 21", "Patients with anaplastic lymphoma kinase (ALK) fusions"]
+    },
+    {
+      "agent_name_registered": "Temozolomide plus Osimertinib",
+      "active_moiety": "osimertinib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Stage IV NSCLC with progression of disease in the CNS on osimertinib 80 mg daily for patients with EGFR activating mutations"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "third-generation EGFR tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exon 19 deletions or L858R point mutations in exon 21"]
+    },
+    {
+      "agent_name_registered": "Temozolomide plus Lorlatinib",
+      "active_moiety": "lorlatinib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Stage IV NSCLC with progression of disease in the CNS on lorlatinib 100 mg daily for patients with ALK fusions"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ALK/ROS1 tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with anaplastic lymphoma kinase (ALK) fusions"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Will include patients with exon 19 deletions or L858R point mutations in exon 21 of the epidermal growth factor receptor (EGFR) gene."},
+      "flag": {"uncertain": false},
+      "arms": ["Exon 19 deletions or L858R point mutations in exon 21"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ALK fusion",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Will include patients with anaplastic lymphoma kinase (ALK) fusions."},
+      "flag": {"uncertain": false},
+      "arms": ["Patients with anaplastic lymphoma kinase (ALK) fusions"]
+    }
+  ],
+  "coder_notes": "NSCLC with CNS progression; glioblastoma mentioned only in the intervention rationale, so not_glioblastoma. Osimertinib and lorlatinib are drugs patients were already receiving at entry (C3) -> soc_backbone, even though osimertinib may be dose-escalated to 160 mg. EGFR and ALK arm biomarkers are matched to the backbone TKIs, not to a candidate, so candidate_matched false. Temozolomide coded established_therapy_experiment (rule 6, new setting); if adjudicated as experimental_monotherapy, has_eligible_candidate would become true (trial still fails S5)."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06724926",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor; High-grade Glioma; Leptomeningeal Metastasis"},
+      {"field": "eligibility", "quote": "Patient with solid tumor malignancy or high grade glioma with leptomeningeal metastasis established radiographically and/or through cerebrospinal fluid (CSF) cytology"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Single institution study to assess the safety of concurrent Azeliragon with craniospinal irradiation (CSI) in patients with leptomeningeal metastasis from solid tumor malignancies and high-grade gliomas."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients who are candidates for radiation therapy for the treatment of leptomeningeal metastasis"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["craniospinal irradiation"],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon",
+      "active_moiety": "azeliragon",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Once the recommended dose is identified, additional patients will be treated with Azeliragon at recommended dose in combination with craniospinal irradiation (Dose Expansion)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral small-molecule RAGE (receptor for advanced glycation end products) antagonist, previously developed for Alzheimer disease",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Determination followed by Dose Expansion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Glioblastoma is not named in conditions, title, eligibility or arm labels; only 'high-grade glioma' and solid tumours with leptomeningeal metastasis, so high_grade_glioma_unspecified (excluded at S5). basket set true because the design is a multi-cancer (solid tumour + HGG) trial, although GBM is not explicitly eligible. Azeliragon is the only investigational drug, given with craniospinal irradiation. Treatment setting (leptomeningeal spread) not stated as recurrent/newly diagnosed. No rationale or mechanism stated in the record."
+}

@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT04444427",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Non-small Cell Lung Cancer; Glioblastoma Multiforme"},
+      {"field": "arms", "quote": "Participants experiencing their first recurrence glioblastoma multiforme (GBM) will be dosed the maximal tolerated dose of GLR2007 as determined in Part 1 until lack of tolerance or disease progression."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Administered orally, once daily for 21 days followed by a 7-day treatment holiday."},
+      {"field": "title", "quote": "Evaluation of GLR2007 for Advanced Solid Tumors"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First recurrence of GBM."},
+      {"field": "eligibility", "quote": "Participants with advanced solid tumors who are refractory or intolerant to therapies known to provide clinical benefit."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Dose Escalation And Expansion: Maximum Observed Plasma Concentration After Single And Multiple Oral Dose Administrations"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "GLR2007",
+      "active_moiety": "glr2007",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants experiencing their first recurrence glioblastoma multiforme (GBM) will be dosed the maximal tolerated dose of GLR2007 as determined in Part 1 until lack of tolerance or disease progression."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral anticancer agent (class not stated in record; also named GLR2007-237FA)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part 1: Dose Escalation", "Part 2: Dose Expansion - Cohort A", "Part 2: Dose Expansion - Cohort B", "Part 2: Dose Expansion - Cohort C"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Basket: advanced solid tumours; GBM named in conditions and as Cohort C. Cohort A/B inclusion criteria mention ALK/EGFR/ROS1/BRAF/NTRK aberrations only as prior-therapy requirements (must have received directed therapy), so not coded as eligibility biomarkers. Only plasma PK listed."
+}

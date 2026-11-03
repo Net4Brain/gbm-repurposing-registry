@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT04446416",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with histologically confirmed glioblastoma, recurrent after prior radiotherapy and temozolomide chemotherapy."},
+      {"field": "title", "quote": "Patients With Recurrent Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Efficacy and Safety of NaviFUS System add-on Bevacizumab (BEV) in Recurrent GBM Patients"},
+      {"field": "brief_summary", "quote": "The BEV is the best physician's choice of standard of care for rGBM after prior radiotherapy and temozolomide chemotherapy in the LinKou Chang Gung Memorial Hospital."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Bevacizumab is an established GBM therapy (rule 6) but its FUS-enabled delivery is the question (C12/R5 could make it a device-dependent candidate)."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with histologically confirmed glioblastoma, recurrent after prior radiotherapy and temozolomide chemotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to investigate the efficacy and safety of FUS add-on bevacizumab (BEV) in rGBM patients"},
+        {"field": "interventions", "quote": "[DRUG] Bevacizumab (other names: Avastin): An anti-angiogenic agent to block tumor growth"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": "An anti-angiogenic agent to block tumor growth",
+      "flag": {"uncertain": true, "reason": "Established GBM therapy given with FUS-mediated BBB opening; if C12/R5 overrides rule 6 it would be a candidate (experimental_monotherapy, device_dependent true)."},
+      "arms": ["Bevacizumab plus NaviFUS System"]
+    },
+    {
+      "agent_name_registered": "Microbubbles (MB) (SonoVue®)",
+      "active_moiety": "sulfur hexafluoride",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "patients will receive microbubbles (MB) (SonoVue®) 0.1 mL/kg and optimal ultrasound exposure doses (based on the acoustic emission feedback FUS power control algorithm) generated from the NaviFUS System single exposure unit for up to two minutes every 2 weeks to transiently open the BBB."}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast agent microbubbles (sulfur hexafluoride) used with focused ultrasound for BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab plus NaviFUS System"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA (device pilot). Only drug is bevacizumab (standard of care, established GBM therapy per D6) given with NaviFUS focused-ultrasound BBB opening using SonoVue microbubbles. Coded bevacizumab as established_therapy_experiment (rule 6 exception (i)) rather than a device-dependent candidate; flagged uncertain for adjudication. If treated as candidate: role experimental_monotherapy, device_dependent true, regimen monotherapy, has_eligible_candidate true. SonoVue is not a separate registered intervention but is described in the arm and in the NaviFUS device intervention. Degree of BBB opening on DCE-MRI is a device endpoint, not candidate target engagement."
+}

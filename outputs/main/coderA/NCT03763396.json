@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT03763396",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor, Recurrent; Cancer, Advanced; Glioma of Brain"},
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"},
+      {"field": "title", "quote": "A Phase 0 Clinical Trial of Two Candidate Azoles (Ketoconazole and Posaconazole) for Patients With Recurrent High Grade Glioma"},
+      {"field": "detailed_description", "quote": "High grade gliomas (WHO grade III and IV)(HGG) are the most common malignant, and aggressive brain tumour in humans."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "From a preclinical standpoint, targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs has been shown to display favourable anti-tumour effects in both in vitro and in vivo HGG models."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Ketoconazole (KCZ) Single Dose Group: Single dose 400mg oral tablets 4-24 hours prior to surgery (interventions: Drug: Ketoconazole (KCZ))"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Intratumoral concentrations of KCZ or PCZ:"},
+      {"field": "brief_summary", "quote": "During the surgery, doctors will measure how much of the drug is present in the brain."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Assess Hexokinase 2 activity: enzyme activity measured using optical absorbance with a spectrophotometer"},
+      {"field": "detailed_description", "quote": "Downstream biological effects of drug on tumour tissue, including HK2 activity, will also be assessed."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole (KCZ)",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Ketoconazole (KCZ) Repeated Dose Group: 400mg oral tablets twice a day (BID) for 2-5 days prior to surgery (interventions: Drug: Ketoconazole (KCZ))"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism",
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole (KCZ) Single Dose Group", "Ketoconazole (KCZ) Repeated Dose Group"]
+    },
+    {
+      "agent_name_registered": "Posaconazole (PCZ)",
+      "active_moiety": "posaconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Posaconazole (PCZ) Single Dose group: Single dose 300 mg delayed release oral tablets 4-24 hours prior to surgery (interventions: Drug: Posaconazole (PCZ))"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "triazole antifungal",
+      "stated_antitumour_mechanism": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism",
+      "flag": {"uncertain": false},
+      "arms": ["Posaconazole (PCZ) Single Dose group", "Posaconazole (PCZ) Repeated Dose group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hexokinase 2 (HK2) activity in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ketoconazole; posaconazole",
+      "source_quote": {"field": "outcomes", "quote": "Assess Hexokinase 2 activity: enzyme activity measured using optical absorbance with a spectrophotometer"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "glycolytic pathway metabolites in tumour (mass spectrometry)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ketoconazole; posaconazole",
+      "source_quote": {"field": "outcomes", "quote": "Assess the biological effects of KCZ or PCZ on metabolites within the glycolytic pathway: quantify presence/absence of metabolites using mass spectrometry"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Glioblastoma is not named in conditions, title, inclusion criteria or arm labels; only 'WHO grade III and IV' high-grade glioma in the detailed description, so coded high_grade_glioma_unspecified (excluded) per C7/D27B. cns5_terminology coded historical because of WHO grade III/IV wording. Each azole is the sole agent in its own arms, hence experimental_monotherapy for both. Other tissue endpoints (Ki-67, TUNEL, VEGF/CD31 IHC) are downstream effect readouts, not listed as molecular biomarkers."
+}

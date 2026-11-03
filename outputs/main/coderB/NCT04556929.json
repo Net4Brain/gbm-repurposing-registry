@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT04556929",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Patient has consented to craniotomy for suspected glioma of any type with 5-ALA infusion."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants will undergo 5-ALA guided tumour resection via craniotomy with the aim of achieving maximal safe tumour resection without significant neurological deficit."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will undergo 5-ALA guided tumour resection via craniotomy with the aim of achieving maximal safe tumour resection without significant neurological deficit."},
+        {"field": "eligibility", "quote": "Patient has consented to craniotomy for suspected glioma of any type with 5-ALA infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence-guided surgery imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intraoperative imaging of 5-ALA during tumour resection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging study of 5-ALA fluorescence with a high-sensitivity camera; 5-ALA is not a registered intervention (interventions are diagnostic tests) but is given to every patient, so listed as diagnostic_agent. Population is glioma of any type with no glioblastoma named."
+}

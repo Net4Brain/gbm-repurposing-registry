@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT03776071",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven, newly diagnosed supratentorial glioblastoma (IDH mutant is excluded)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Randomized, Double-Blind, Placebo-Controlled Phase 3 Study of Enzastaurin Added to Temozolomide During and Following Radiation Therapy"},
+      {"field": "arms", "quote": "Radiotherapy (RT) plus temozolomide (TMZ) and enzastaurin (ENZ) (Concurrent Phase) followed by enzastaurin alone (Single-Agent Phase), then temozolomide and enzastaurin (Adjuvant Phase)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven, newly diagnosed supratentorial glioblastoma (IDH mutant is excluded)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Enzastaurin Hydrochloride",
+      "active_moiety": "enzastaurin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Radiotherapy (RT) plus temozolomide (TMZ) and enzastaurin (ENZ) (Concurrent Phase) followed by enzastaurin alone (Single-Agent Phase), then temozolomide and enzastaurin (Adjuvant Phase)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral PKC-beta / serine-threonine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["RT plus TMZ and ENZ; ENZ alone; TMZ and ENZ"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Radiotherapy (RT) plus temozolomide (TMZ) and placebo followed placebo then by temozolomide and placebo"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["RT plus TMZ and ENZ; ENZ alone; TMZ and ENZ", "RT plus TMZ and placebo; placebo; TMZ and placebo"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "DGM1 (novel genomic biomarker)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "enzastaurin",
+      "source_quote": {"field": "title", "quote": "Newly Diagnosed Glioblastoma Patients Who Possess the Novel Genomic Biomarker DGM1"},
+      "flag": {"uncertain": true, "reason": "Official title says patients who possess DGM1, but eligibility only requires DGM1 status (positive or negative) to be available and the short title says with or without DGM1; role may be stratification/exploratory, and its mechanistic link to enzastaurin is not stated."},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically proven, newly diagnosed supratentorial glioblastoma (IDH mutant is excluded)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Availability of tumor tissue representative of glioblastoma from surgery, and MGMT promoter methylation status is determined prior to study randomization"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Enzastaurin arm is registered ACTIVE_COMPARATOR but is the investigational arm; placebo arm is the comparator. Placebo and radiotherapy not listed as agents. DGM1 coding is contradictory in the record (official title: patients who possess DGM1; short title: with or without DGM1; eligibility: status available, positive or negative), so enrichment plus candidate_matched true is a best guess and flagged. MGMT status is determined before randomisation, possibly as a stratification factor, but the record does not say so; coded exploratory_correlative. Eligibility cites WHO 2016 and excludes IDH mutant, so cns5 chosen per the both-criteria rule."
+}

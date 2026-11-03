@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT05082259",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Cancer; Cervical Cancer; Triple Negative Breast Cancer"},
+      {"field": "eligibility", "quote": "PART B4 (no longer recruiting): Patients with histologically confirmed relapsed glioblastoma (GBM)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Increasing doses of ASTX660 in combination with a fixed dose of pembrolizumab to establish the maximum tolerated dose (MTD)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "refractory to conventional treatment, or for which no conventional therapy exists or is declined by the patient"},
+      {"field": "eligibility", "quote": "PART B4 (no longer recruiting): Patients with histologically confirmed relapsed glioblastoma (GBM)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["tolinapant", "pembrolizumab"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Determination of the plasma levels of ASTX660 in Part A of the study, using validated assays"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate the effect of ASTX660 on the tumour microenvironment including the evaluation of inflammatory cytokines downstream of NF-kB in paired tumour biopsies."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ASTX660",
+      "active_moiety": "tolinapant",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Increasing doses of ASTX660 in combination with a fixed dose of pembrolizumab to establish the maximum tolerated dose (MTD)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral IAP antagonist (Smac mimetic; cIAP1/2 and XIAP)",
+      "stated_antitumour_mechanism": "triple cIAP1/2 and XIAP blockade by ASTX660 as a strategy to maximise immunogenic cell death",
+      "flag": {"uncertain": false},
+      "arms": ["Part A-Escalation", "Part B-Expansion"]
+    },
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Increasing doses of ASTX660 in combination with a fixed dose of pembrolizumab to establish the maximum tolerated dose (MTD)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Part A-Escalation", "Part B-Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "arms", "quote": "Cohort B2: Patients with PD-L1 positive Cervical Cancer"},
+      "flag": {"uncertain": true, "reason": "PD-L1 positivity enriches only the cervical cohort B2, not the glioblastoma cohort B4; matching to pembrolizumab at trial level is arguable."},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild type diffuse astrocytic glioma with microvascular proliferation, OR necrosis, OR one or more of the following molecular features of GBM:"},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "EGFR gene amplification,"},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TERT promoter mutation",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "TERT promoter mutation,"},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    }
+  ],
+  "coder_notes": "Basket phase I trial; glioblastoma is explicitly eligible in inclusion criteria (Part B4, no longer recruiting) although the registered arm labels do not name it. Tolinapant (ASTX660) and pembrolizumab are both investigational in the combination. EGFR amplification and TERT mutation appear as alternative molecular features defining GBM per WHO 2021 (diagnostic, not candidate-matched). Plasma-only PK for ASTX660 so tumour_pk_planned no; paired tumour biopsy pharmacodynamics planned (target engagement yes)."
+}

@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT04741984",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma, Malignant"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The investigational vaccine (MT-201-GBM) in this study is made from a type of immune cell called monocytes, which have been engineered to express a cytomegalovirus (CMV) protein."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma patient with definitive resection prior to enrollment"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT-201-GBM monocyte vaccine",
+      "active_moiety": "pp65 mrna-loaded monocyte vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "monocytes isolated from patient's leukapheresis loaded with CMV pp65-LAMP (Lysosomal-associated Membrane Protein) mRNA (Messenger Ribonucleic Acid)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous monocyte cell vaccine loaded with CMV pp65-LAMP mRNA",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT-201-GBM monocyte vaccine"]
+    },
+    {
+      "agent_name_registered": "temozolomide (standard radiation plus temozolomide and dose-intensified cycle; not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "After leukapheresis, patients receive standard radiation therapy combined with temozolomide for about 6 weeks, followed by one cycle of temozolomide for 21 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT-201-GBM monocyte vaccine"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter unmethylated (Determined by Caris Life Science pyrosequencing);"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only investigational intervention is an autologous mRNA-loaded monocyte vaccine (cell therapy / vaccine), an excluded type. Temozolomide listed as backbone because the description states all patients receive it. Primary outcome includes pp65 T-cell immune response (immunogenicity of the vaccine), which is not a candidate drug."
+}

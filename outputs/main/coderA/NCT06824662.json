@@ -1,0 +1,122 @@
+{
+  "nct_id": "NCT06824662",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma WHO Grade IV"},
+      {"field": "eligibility", "quote": "For Arm A: Participants who have had a prior resection of diagnosed glioblastoma, IDH wildtype (2021 WHO grade 4)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Quisinostat: a highly potent and orally active HDAC inhibitor"},
+      {"field": "brief_summary", "quote": "Patients with tumors demonstrating a positive pharmacokinetic (PK) response in the Phase 0 component of the study will graduate to an Expansion Phase that combines therapeutic dosing of quisinostat plus standard-of-care fractionated radiotherapy (RT)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Phase 0 With Expansion Phase Clinical Trial of Quisinostat Plus Radiotherapy in Newly-diagnosed and Recurrent Grade 4 IDH-Wildtype Glioblastomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total and unbound quisinostat concentration will be quantified in Gd-enhancing and Gd-non-enhancing tumor tissue collected during Phase 0 surgery."},
+      {"field": "outcomes", "quote": "Quisinostat concentration will be quantified in cerebrospinal fluid collected during Phase 0 surgery"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor tissue collected during surgery will be compared to baseline tissue to assess fold induction change of AcH3K9/14, pH2AX, ClCas-3, and MIB-1."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Quisinostat",
+      "active_moiety": "quisinostat",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Participants with tumors demonstrating PK response will continue with therapeutic dosing of quisinostat treatment on Monday, Wednesday, Friday of 5-day cycles after surgery concurrently with their standard of care (SOC) fractionated RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational pan-HDAC inhibitor (JNJ-26481585)",
+      "stated_antitumour_mechanism": "a highly potent and orally active HDAC inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent WHO Grade 4 Glioblastoma IDH-WT", "Newly-Diagnosed WHO Grade 4 Glioblastoma IDH-WT"]
+    },
+    {
+      "agent_name_registered": "levetiracetam",
+      "active_moiety": "levetiracetam",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Participants must be willing to receive prophylaxis with levetiracetam for the duration of study drug administration (or alternative anti-epileptic if agreed with Medical Monitor)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antiepileptic, seizure prophylaxis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent WHO Grade 4 Glioblastoma IDH-WT", "Newly-Diagnosed WHO Grade 4 Glioblastoma IDH-WT"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants undergoing resection for a suspected newly diagnosed WHO Grade 4 glioblastoma, IDH wildtype."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "histone H3 acetylation (AcH3K9/14) in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "quisinostat",
+      "source_quote": {"field": "outcomes", "quote": "Tumor tissue collected during surgery will be compared to baseline tissue to assess fold induction change of AcH3K9/14, pH2AX, ClCas-3, and MIB-1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pH2AX, cleaved caspase-3, MIB-1 in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Tumor tissue collected during surgery will be compared to baseline tissue to assess fold induction change of AcH3K9/14, pH2AX, ClCas-3, and MIB-1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "CSF tumour DNA / cell-free DNA genomic changes and CSF tumour RNA transcriptome",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Genomic changes will be assessed by sequencing DNA from tumor cells and/or cell-free DNA in CSF collected during Phase 0 surgery"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (Phase 0/1b, translational subset). Quisinostat is the only investigational drug; expansion adds SOC fractionated radiotherapy (no temozolomide stated), so regimen combination with radiotherapy. Two experimental arms by setting (recurrent / newly diagnosed); neither is a control. Entry to expansion depends on tumour 'PK response' (unbound concentration >=0.5 nM), a drug-level criterion, not a molecular biomarker. Levetiracetam prophylaxis required for all patients (supportive)."
+}

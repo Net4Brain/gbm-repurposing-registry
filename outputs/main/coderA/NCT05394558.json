@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05394558",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"},
+      {"field": "eligibility", "quote": "Recurrent high-grade glioma (HGG), including diffuse midline glioma (DMG) and non-DMG, based on RAPNO criteria confirmed by central radiological review, with or without histology if biopsy performed prior to inclusion;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients will receive the IMP which is the AsiDNA (etidaligide). AsiDNA will be administered intravenously as a 1-hour infusion."},
+      {"field": "brief_summary", "quote": "AsiDNA™ is a DNA repair inhibitor that increases the vulnerability of tumour cells to irradiation without increasing toxicity in healthy tissues."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy (re-irradiation)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters of AsiDNA.: Maximal observed drug concentration (Cmax);"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "AsiDNA",
+      "active_moiety": "etidaligide",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Radiotherapy + AsiDNA: Patients will receive the IMP which is the AsiDNA (etidaligide)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational DNA repair inhibitor (DNA-damage signalling decoy oligonucleotide, AsiDNA/etidaligide)",
+      "stated_antitumour_mechanism": "AsiDNA™ is a DNA repair inhibitor that increases the vulnerability of tumour cells to irradiation without increasing toxicity in healthy tissues.",
+      "flag": {"uncertain": false},
+      "arms": ["Radiotherapy + AsiDNA"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Population is paediatric/AYA (12 months to <25 years) recurrent high-grade glioma including DMG/DIPG; glioblastoma is not named anywhere, so S5 = high_grade_glioma_unspecified (exclusion). The ACTIVE_COMPARATOR arm 'Radiotherapy' lists 'Drug: AsiDNA' as its intervention in the registry, but its description is radiotherapy only; AsiDNA was therefore linked only to the experimental arm. PK sample type not stated, so tumour_pk_planned = unclear (W7). Histone mutations mentioned in the summary only as disease description, not coded as biomarkers."
+}

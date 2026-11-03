@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT05376800",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma definition according to 2021 World Health Organization (WHO) Classification of Central Nervous System (CNS) tumors, i.e. IDH- wild type only."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "BI 907828 (Brigimadlin) is a socalled MDM2 inhibitor that is being developed to treat cancer."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measured total concentration of BI 907828 (Brigimadlin) in brain tissue homogenate from noncontrast enhancing and contrast enhancing brain tumor regions"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Dose-dependent changes of expression levels of Tumor suppressor protein p53 (TP53) target genes in contrast enhancing brain regions and non-contrast enhancing brain regions"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BI 907828 (Brigimadlin)",
+      "active_moiety": "brigimadlin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Phase Ia Part: BI 907828 (Brigimadlin):  (interventions: Drug: BI 907828 (Brigimadlin))"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational MDM2 inhibitor",
+      "stated_antitumour_mechanism": "MDM2 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Phase 0 Part: BI 907828 (Brigimadlin)", "Phase Ia Part: BI 907828 (Brigimadlin)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "TP53 wild type",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "brigimadlin",
+      "source_quote": {"field": "eligibility", "quote": "Histologically demonstrated diagnosis of TP53 wild type glioblastoma harboring unmethylated O6-methylguanine-DNA-methyltransferase (MGMT) promoters."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase Ia Part: BI 907828 (Brigimadlin)"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically demonstrated diagnosis of TP53 wild type glioblastoma harboring unmethylated O6-methylguanine-DNA-methyltransferase (MGMT) promoters."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase Ia Part: BI 907828 (Brigimadlin)"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Glioblastoma definition according to 2021 World Health Organization (WHO) Classification of Central Nervous System (CNS) tumors, i.e. IDH- wild type only."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase Ia Part: BI 907828 (Brigimadlin)"]
+    }
+  ],
+  "coder_notes": "Phase 0 part has no molecular requirement; TP53 wild type, unmethylated MGMT and IDH-wildtype apply to the Phase Ia part. Radiotherapy is the backbone in Phase Ia (not an agent)."
+}

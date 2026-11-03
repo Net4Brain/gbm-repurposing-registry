@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT05977322",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Pancreatic Ductal Adenocarcinoma; Gastroesophageal Adenocarcinoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients with locally advanced unresectable or metastatic PDAC, locally advanced unresectable or metastatic GEA, or recurrent GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of the study is to test the safety and dosing of \\[177Lu\\]Lu-FF58, a radioligand therapy for patients with advanced or metastatic tumors that express proteins known as integrins: alpha-v beta-3 integrin (αvβ3) and alpha-v beta-5 integrin (αvβ5)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with locally advanced unresectable or metastatic PDAC, locally advanced unresectable or metastatic GEA, or recurrent GBM"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Time-activity curves (TACs) for the various organs and tumor lesions will be produced as fraction of injected activity per gram of tissue (%IA/g) as a function of time."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "177Lu-FF58",
+      "active_moiety": "ff58",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive 68Ga-FF58 and only patients with tumor uptake of 68Ga-FF58 will receive 177Lu-FF58."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational lutetium-177 integrin alpha-v beta-3/beta-5 targeted radioligand therapy ([177Lu]Lu-FF58; isotope 177Lu)",
+      "stated_antitumour_mechanism": "radioligand therapy for patients with advanced or metastatic tumors that express proteins known as integrins: alpha-v beta-3 integrin (αvβ3) and alpha-v beta-5 integrin (αvβ5)",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1"]
+    },
+    {
+      "agent_name_registered": "68Ga-FF58",
+      "active_moiety": "68ga-ff58",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "In both parts of the study, patients will be screened with a \\[68Ga\\]Ga-FF58 positron emission tomography (PET)/computed tomography (CT) or PET/magnetic resonance imaging (MRI) scan to assess eligibility for treatment with \\[177Lu\\]Lu-FF58."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 integrin-targeted PET imaging agent (diagnostic counterpart of FF58)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "integrin alpha-v beta-3 / alpha-v beta-5 expression assessed by [68Ga]Ga-FF58 PET uptake",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "ff58",
+      "source_quote": {"field": "eligibility", "quote": "To be treated with \\[177Lu\\]Lu-FF58, patients must have at least one measurable lesion that shows \\[68Ga\\]Ga-FF58 uptake on PET/CT or PET/MRI"},
+      "flag": {"uncertain": true, "reason": "Target-expression selection is imaging-based (68Ga-FF58 PET uptake); manual says imaging-only markers are not molecular biomarkers, but this is a theranostic target-expression requirement directly matched to the candidate."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket phase 1 radioligand trial (PDAC, GEA, recurrent GBM); GBM named in conditions ('Glioblastoma Multiforme', historical term) and inclusion criteria. Candidate is [177Lu]Lu-FF58 coded by ligand code ff58 per W1; [68Ga]Ga-FF58 listed separately as diagnostic_agent. Tumour PK coded yes because tumour-lesion uptake of 177Lu-FF58 (%IA/g over time, dosimetry) is planned; blood PK also planned. The 68Ga-FF58 uptake requirement for treatment is recorded as a candidate-matched eligibility biomarker but flagged because it is imaging-based."
+}

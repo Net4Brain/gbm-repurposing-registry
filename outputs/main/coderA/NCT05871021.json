@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT05871021",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Dose escalation to 75 Gy with concomitant radioprotectant bevacizumab"},
+      {"field": "brief_summary", "quote": "the multicentric PRIDE trial employs two cycles of bevacizumab to achieve dose escalation isotoxically"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in the Treatment of Patients With First Diagnosis of IDH Wild-type, MGMT Unmethylated Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Dose escalation to 75 Gy with concomitant radioprotectant bevacizumab"},
+        {"field": "arms", "quote": "75 Gy with two cycles of bevacizumab"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (Aybintio biosimilar named in exclusion criteria)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["75 Gy with two cycles of bevacizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "prognostic 4-miRNA signature",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Validation of prognostic 4-miRNA signature-based risk score"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Bevacizumab (established GBM therapy, D6) is used as a radioprotectant in a new setting to permit isotoxic radiation dose escalation; coded established_therapy_experiment (rule 6 / R2 exception). Alternative reading is supportive (radioprotection); either way not a candidate. 'Radiochemotherapy' is mentioned in the official title but no chemotherapy agent is named or registered, so none listed. Sample source of the 4-miRNA signature is not stated."
+}

@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07628647",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Cancer"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of a malignant brain tumor including diffuse gliomas, World Health Organization (WHO) grades II, III, and IV"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only in keywords; eligibility allows WHO grade IV diffuse glioma without IDH requirement, which D27C treats as historical glioblastoma, so coded mixed; could instead be not_glioblastoma."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] Group Self-Management Sessions (other names: Self-management intervention)"},
+      {"field": "interventions", "quote": "[OTHER] Educational Materials Only (other names: Content only)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "<1 month since initial diagnosis and/or \\<1 month since surgical resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural self-management trial (phase NA) in adults with diffuse glioma WHO grades II-IV; no drug or biologic interventions. Comparator is a registered ACTIVE_COMPARATOR education-only arm. Treatment setting not specified."
+}

@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT05342883",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathological and molecular confirmation of newly diagnosed GBM using IDH mutation testing"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Experimental: Resection, GammaTile and Stupp Protocol"},
+      {"field": "interventions", "quote": "Surgical tumor resection, GammaTile radiation therapy implantation, Stupp protocol (EBRT and Temozolamide)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "GammaTile and Stupp in Newly Diagnosed GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Stupp protocol (EBRT and Temozolamide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "receive daily temozolomide (TMZ, 75mg/m2) and 20 fractions external beam radiation (EBRT)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Resection, GammaTile and Stupp Protocol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Known to be IDH mutated glioma by prior biopsy."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with either methylated or unmethylated MGMT promoter status are included"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm device trial (GammaTile Cs-131 brachytherapy, a device) added to the Stupp protocol; only drug is temozolomide as backbone, so no pharmacological candidate. 5-ALA/fluorescein is only mentioned in eligibility as pre-surgery guidance, not a registered intervention, so not listed. MGMT: both statuses are included, so coded as non-selecting (exploratory_correlative); tissue adequacy for MGMT testing is an entry requirement, adjudicator may prefer eligibility."
+}

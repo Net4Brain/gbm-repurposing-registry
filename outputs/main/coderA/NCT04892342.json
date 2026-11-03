@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT04892342",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Primary CNS malignancy; Or a second primary tumor other than the confirmed solid tumor within the previous 3 years"},
+      {"field": "conditions", "quote": "Neoplasms, Breast; Neoplasms, Lung; Neoplasms,Colorectal; Neoplasms, Bladder; Neoplasm of Stomach; Neoplasms,Ovarian"},
+      {"field": "brief_summary", "quote": "glioblastoma multiforme, head and neck cancers- squamous cell, hepatocellular, prostate, non-small-cell lung cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The primary objective in Phase I is to evaluate the safety and tolerability of ESG401 as a single agent administered in 21-day treatment cycles in previously treated participants with advanced epithelial cancer."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects must have a histologically or cytologically confirmed advanced or metastatic solid tumor(s) for which no effective standard therapy is available or tolerable."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Cmax: Maximum observed plasma concentration"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ESG401",
+      "active_moiety": "esg401",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] ESG401 dose level 1:  (interventions: Drug: ESG401)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational antibody-drug conjugate (likely Trop-2-directed with topoisomerase I inhibitor payload; record references irinotecan/camptothecin hypersensitivity)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ESG401 dose level 1", "ESG401 dose level 2", "ESG401 dose level 3", "ESG401 dose level 4", "ESG401 dose level 5", "ESG401 dose level 6", "ESG401 dose level 7", "ESG401 dose level 8", "ESG401 dose level 9", "ESG401 dose level 10"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour basket. Glioblastoma multiforme is listed among tumour types only in the brief summary (does not count per C7), while eligibility excludes any primary CNS malignancy -> gbm_excluded. cns5_terminology coded historical because the only GBM mention uses 'glioblastoma multiforme'. Arms are dose levels (no control). PK plasma only."
+}

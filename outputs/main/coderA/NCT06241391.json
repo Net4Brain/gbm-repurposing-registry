@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT06241391",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Astrocytoma; Anaplastic Astrocytoma; Oligodendroglioma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients having past history of histologically proven glioma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] PSMA PET-CT: Prostate Specific Membrane Antigen PET-CT"},
+      {"field": "brief_summary", "quote": "Investigators, therefore, aim to identify whether Ga-68 PSMA PET-CT has better diagnostic accuracy in the detection of recurrent gliomas than conventional imaging modalities."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Clinically suspected cases of recurrence."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PSMA PET-CT",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Detection of sensitivity and specificity of 68Ga PSMA-11 PET-CT to diagnose disease recurrence in gliomas"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "Ga-68 labelled PSMA-11 PET imaging tracer (diagnostic radiopharmaceutical)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Efficiency of 68 Ga-PSMA-11 PET-CT in detection of recurrent gliomas"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA expression by immunohistochemistry",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Correlation between PSMA expression in histopathology specimen (using IHC) and SUVmax of recurrent lesion on 68Ga- PSMA PET-CT scan."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA diagnostic imaging study; no therapeutic agent. 18F-FDG PET is used as a comparator imaging in a secondary outcome but is not a registered intervention, so not listed (R9). Exclusion 'Any brain primary other than high grade glioma' suggests high-grade only, but conditions list several glioma types including Glioblastoma Multiforme."
+}

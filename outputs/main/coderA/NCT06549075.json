@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06549075",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Life-limiting Illness; Breast Cancer; Glioblastoma; Prostate Cancer"},
+      {"field": "eligibility", "quote": "Suffering from a life-limiting serious illness (≤ 18 months)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The modular intervention consists of three modules, including Dignity Therapy, CALM Therapy and Mindfulness-based training."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Suffering from a life-limiting serious illness (≤ 18 months)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Psychological/palliative care intervention trial (Phase NA) in patients with any life-limiting illness; glioblastoma is listed in conditions alongside breast and prostate cancer, so coded as multi-disease basket with GBM named. No drug or biologic interventions. Control is the registered ACTIVE_COMPARATOR arm."
+}

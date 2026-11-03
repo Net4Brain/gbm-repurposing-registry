@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT05610891",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma"},
+      {"field": "eligibility", "quote": "Previously confirmed (histologically or cytologically) high grade glioma that is clinically or radiographically suspected to be relapsed, refractory, or recurrent"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CLR 131 (other names: iopofosine I 131): CLR 131 will be administered IV (intravenously) at a dose based on patients' BSA"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Novel Targeted Radiotherapy in Pediatric Patients With Inoperable Relapsed or Refractory HGG"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Determine the tumor uptake of CLR 131 and utility of SPECT/CT as a potential diagnostic for response."},
+      {"field": "outcomes", "quote": "Image data will be converted to activity per cubic centimeters using a sensitivity measurement made using a point source in air."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CLR 131",
+      "active_moiety": "iopofosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Pediatric High-Grade Glioma Patients"},
+        {"field": "interventions", "quote": "CLR 131 (other names: iopofosine I 131)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "iodine-131 phospholipid ether radioconjugate (iopofosine I-131, CLR 131); targeted radiotherapeutic, isotope 131I",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Pediatric High-Grade Glioma Patients"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "High-grade glioma only; glioblastoma is not named anywhere in the record, so S5 = high_grade_glioma_unspecified (exclusion). Ages 10-25 (CHILD, ADULT). tumour_pk_planned coded yes because SPECT/CT quantifies tumour uptake of the radiopharmaceutical (activity per cubic centimetre); adjudicator may consider imaging uptake not equivalent to tissue PK."
+}

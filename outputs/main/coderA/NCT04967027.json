@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04967027",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Metastases"},
+      {"field": "eligibility", "quote": "patients are diagnosed as brain metastases by Xiangya Hospital multidisciplinary team;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] ASCLU-300 TTF: BM treated by continuous TTFields treatment (ASCLU-300, approved by Chinese FDA)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "patients have been progressed from standard therapy (drug/radiation resistance)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device-only (TTFields) trial in brain metastases; GBM mentioned only in the brief summary as background. No drug or biologic interventions. EARLY_PHASE1."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT07274397",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Brain Tumors; Brain Imaging"},
+      {"field": "eligibility", "quote": "First resection for a suspected glioblastoma in the past 72h"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "No medicinal product with therapeutic intent are administered in this study, only imaging agents usually used in clinical practice for diagnostic purposes are employed."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First resection for a suspected glioblastoma in the past 72h"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-DOPA",
+      "active_moiety": "18f-fluorodopa",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The PET scan uses 18F-DOPA as the radiotracer, administered intravenously at a dose of 2 MBq/kg, with static brain acquisition starting immediately post-injection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "PET radiotracer (fluorine-18 fluorodopa)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Early post-operative PET-MRI group"]
+    },
+    {
+      "agent_name_registered": "Gadolinium",
+      "active_moiety": "gadolinium-based contrast agent",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Gadolinium-based contrast agents will be used for MRI sequences requiring enhancement."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MRI contrast agent (specific gadolinium chelate not named)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Early post-operative PET-MRI group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study (Phase NA) of early post-operative 18F-DOPA PET-MRI after resection of suspected glioblastoma; no therapeutic agent. Glioblastoma named in conditions, title and inclusion criteria. Specific gadolinium chelate is not named in the record."
+}

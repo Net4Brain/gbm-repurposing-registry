@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04681677",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subject has histopathologically proven diagnosis of GBM or variants (gliosarcoma, giant cell glioblastoma etc.)."},
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; GBM; Recurrent GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this trial is to assess the overall survival of patients treated with the Xoft Axxent eBx System and post-radiation adjuvant Bevacizumab for single-fraction IORT following maximal neurosurgical resection of recurrent glioblastoma."},
+      {"field": "detailed_description", "quote": "Lastly, using Bevacizumab as a systemic therapy will enable the comparison of the results to the historic control arm, the EBRT arm of RTOG 1205."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; GBM; Recurrent GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Lastly, using Bevacizumab as a systemic therapy will enable the comparison of the results to the historic control arm, the EBRT arm of RTOG 1205."},
+        {"field": "interventions", "quote": "Single fraction, Intra-operative Radiation Therapy at the time of surgical resection of recurrent GBM followed by Bevacizumab 28-56 days after surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody, established GBM therapy",
+      "stated_antitumour_mechanism": "target radio-resistant and highly tumorigenic cancer stem cells; radioprotective (reduces radiation necrosis)",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Intra-operative Radiation Therapy - IORT"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "The investigational question is the IORT device (Xoft Axxent electronic brachytherapy), which is radiotherapy/device and not an agent. Bevacizumab is an established GBM therapy (D6) given as background systemic therapy matching the historical RTOG 1205 comparator arm, so coded soc_backbone; one could argue rule 6 (established_therapy_experiment, new post-IORT setting), but either way the trial has no candidate. Exclusion reason chosen as established_therapy_only because the only drug is an established GBM therapy."
+}

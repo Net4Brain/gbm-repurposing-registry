@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT06632236",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Primary Gliomas; Glioblastoma Multiform (Grade IV Astrocytoma); Diffuse Hemispheric Glioma, H3 G34-Mutant; Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype Grade 4"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant, Grade 4 (lower Grade 2/3 are not included)"},
+      {"field": "eligibility", "quote": "Diffuse hemispheric glioma, H3 G34 mutant Grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Amivantamab (other names: JNJ-61186372)"},
+      {"field": "brief_summary", "quote": "These patients will be treated with amivantamab monotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients for the relapsed cohorts will be eligible at first relapse following completion of optimal surgery, and Stupp based adjuvant chemo-radiotherapy (or equivalent)."},
+      {"field": "eligibility", "quote": "Patients for the front line minimal residual disease (MRD) cohort will be eligible following completion of optimal surgery and Stupp based adjuvant chemoradiotherapy as long as they meet all other inclusion/exclusion criteria."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Determination of biomarkers of response, including but not limited to changes in genomic, transcriptomic or immunological signatures from responders and non-responders using tumour sequencing analysis."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Amivantamab",
+      "active_moiety": "amivantamab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The Phase 1b will evaluate the safety and tolerability of amivantamab and determine its preliminary antitumour activity when administered at the recommended Phase 2 dose (RP2D) in patients with molecularly defined malignant brain tumours."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "EGFR-MET bispecific monoclonal antibody (JNJ-61186372)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Phase 1b"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "amivantamab",
+      "source_quote": {"field": "detailed_description", "quote": "5G-EMERALD will recruit patients with glioblastoma (GBM) into one molecularly-defined biomarker arm of patients who have tumours that harbour:"},
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Phase 1b"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "For front line unmethylated GBM (MRD): • Progression-free survival (PFS)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "genomic, transcriptomic and immunological signatures of response/resistance",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Determination of biomarkers of response, including but not limited to changes in genomic, transcriptomic or immunological signatures from responders and non-responders using tumour sequencing analysis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EGFR amplification requirement: the detailed description says the single biomarker arm enrols tumours harbouring 'EGFR amplification (high copy number)' (that phrase is on the next line, quoted separately here: 'EGFR amplification (high copy number)'); not listed in the formal eligibility criteria, so coded enrichment for the only registered arm (effectively an entry requirement). Amivantamab is an EGFR/MET bispecific, so matched. MGMT unmethylated status appears only in the outcome text for a front-line MRD cohort (not a registered arm); coded enrichment with low confidence. Eligible entities include GBM IDH-wildtype, IDH-mutant grade 4 astrocytoma and H3 G34 diffuse hemispheric glioma (mixed glioma); record cites both WHO 2016 and WHO 2021, coded cns5 per the both-met rule. Minimum age 16 (mixed_age). Whole genome/transcriptome data availability required (Minderoo programme), not a specific biomarker."
+}

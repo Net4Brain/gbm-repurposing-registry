@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT04629209",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patient must have histologically confirmed World Health Organization Grade IV glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ONC201 is a orally active, small molecule DRD2 antagonist that kills cancer cells but not normal cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Patients must be eligible for salvage surgical resection as deemed by the site Investigator."},
+      {"field": "brief_summary", "quote": "Arm B will determine the radiographic efficacy of ONC201 in adult recurrent EGFR-low glioblastoma patients."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "intra-tumoral ONC201 concentrations in adult EGFR-low glioblastoma patients."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "Arm A will explore the intra-tumoral ONC201 concentrations and pharmacodynamic activity in adult EGFR-low glioblastoma patients."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ONC201",
+      "active_moiety": "onc201",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "All patients will be treated with oral ONC201 (625 mg) twice weekly, 2 consecutive days on and 5 days off per week schedule."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "imipridone, DRD2 antagonist / ClpP agonist (dordaviprone)",
+      "stated_antitumour_mechanism": "small molecule DRD2 antagonist",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: ONC201 with Surgical Resection in Glioblastoma", "Arm B: ONC201 in Glioblastoma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient must have all of the following in their most recently resected archival tumor tissue: (1) absence of EGFR gene amplification by FISH, (2) absence of EGFRvIII expression by RT-PCR, and (3) low EGFR expression by IHC."},
+      "flag": {"uncertain": true, "reason": "EGFR-low selection is specific to ONC201 in this trial, but the record states no mechanistic link between EGFR and ONC201 (a DRD2 antagonist); could be judged a predictive candidate-matched selection."},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient has a known histone H3 K27M mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient has a known IDH1 (isocitrate dehydrogenase 1) or IDH2 mutations or 1p/19q co-deletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q codeletion (exclusion)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient has a known IDH1 (isocitrate dehydrogenase 1) or IDH2 mutations or 1p/19q co-deletion."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "H3K27M, IDH and 1p/19q appear as exclusion criteria (known mutation excludes), coded as eligibility restrictions; H3K27M-mutant tumours (the population usually linked to ONC201) are excluded, so not candidate-matched. cns5 coded because IDH-mutant tumours are excluded (effectively IDH-wildtype required), though the inclusion text says only 'WHO Grade IV glioblastoma'; could alternatively be unclear. ONC201: no INN stated in record, kept as development code. Two experimental arms, no control."
+}

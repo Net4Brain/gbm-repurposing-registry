@@ -1,0 +1,129 @@
+{
+  "nct_id": "NCT04656535",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Grade IV glioma (glioblastoma and its variants according to the World Health Organization 2021), confirmed in tissue at time of initial diagnosis. Tumors with an IDH 1 or 2 mutation are excluded."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Eligible patients will be sequentially enrolled to receive intravenous domvanalimab (AB 154) combined with zimberelimab (AB 122) (N=6)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First or second recurrence after treatment. Prior treatment must include at least radiation therapy."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["domvanalimab", "zimberelimab"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamic effects of each pre-surgery treatment will be evaluated with single-cell RNA sequencing of tumor and blood to determine effects of each intervention on the immune response."},
+      {"field": "outcomes", "quote": "Resected tumors in cohorts B1 to 4 will be analyzed utilizing immunofluorescence for the ratio between Tregs and CD8 T cells, calculated by counting cells that are positive for a FoxP3 or a CD8 staining."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Domvanalimab",
+      "active_moiety": "domvanalimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Domvanalimab (AB 154) is a humanized immunoglobulin G1 (IgG1) monoclonal antibody that targets TIGIT."},
+        {"field": "arms", "quote": "Following surgery, all patients will initiate treatment with the combination of domvanalimab (AB 154) and zimberelimab (AB 122)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-TIGIT monoclonal antibody (AB154)",
+      "stated_antitumour_mechanism": "monoclonal antibody that targets TIGIT",
+      "flag": {"uncertain": false},
+      "arms": ["Zimberelimab (AB 122) + Domvanalimab (AB 154) Safety Cohort (Cohort A)", "Domvanalimab (AB 154) Surgical Cohort (Cohort B1)", "Zimberelimab (AB 122) Surgical Cohort (Cohort B2)", "Domvanalimab (AB 154) + Zimberelimab (AB 122) Surgical Cohort (Cohort B3)", "Placebo Surgical Cohort (Cohort B4)"]
+    },
+    {
+      "agent_name_registered": "Zimberelimab",
+      "active_moiety": "zimberelimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Zimberelimab (AB122) is a fully human immunoglobulin G4 (hIgG4) monoclonal antibody (mAb) that targets PD-1."},
+        {"field": "arms", "quote": "Following surgery, all patients will initiate treatment with the combination of domvanalimab (AB 154) and zimberelimab (AB 122)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-PD-1 monoclonal antibody (AB122)",
+      "stated_antitumour_mechanism": "monoclonal antibody that targets PD-1",
+      "flag": {"uncertain": false},
+      "arms": ["Zimberelimab (AB 122) + Domvanalimab (AB 154) Safety Cohort (Cohort A)", "Domvanalimab (AB 154) Surgical Cohort (Cohort B1)", "Zimberelimab (AB 122) Surgical Cohort (Cohort B2)", "Domvanalimab (AB 154) + Zimberelimab (AB 122) Surgical Cohort (Cohort B3)", "Placebo Surgical Cohort (Cohort B4)"]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Saline placebo comparator for pre-surgery treatment in cohort B4"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "saline placebo",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Domvanalimab (AB 154) Surgical Cohort (Cohort B1)", "Zimberelimab (AB 122) Surgical Cohort (Cohort B2)", "Placebo Surgical Cohort (Cohort B4)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Sequencing of IDH 1 and 2 is not required but, at a minimum, a negative result for the presence of IDH-1 R132H mutation on IHC is required for eligibility."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Treg (FoxP3) to CD8 T-cell ratio in resected tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "domvanalimab; zimberelimab",
+      "source_quote": {"field": "outcomes", "quote": "Resected tumors in cohorts B1 to 4 will be analyzed utilizing immunofluorescence for the ratio between Tregs and CD8 T cells, calculated by counting cells that are positive for a FoxP3 or a CD8 staining."},
+      "flag": {"uncertain": false},
+      "arms": ["Domvanalimab (AB 154) Surgical Cohort (Cohort B1)", "Zimberelimab (AB 122) Surgical Cohort (Cohort B2)", "Domvanalimab (AB 154) + Zimberelimab (AB 122) Surgical Cohort (Cohort B3)", "Placebo Surgical Cohort (Cohort B4)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "single-cell RNA sequencing immune response profile (tumour and blood)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Single cell RNA sequencing of tumor and blood after exposure to AB154 with and without AB122"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 0/I (EARLY_PHASE1) window trial. All arms (including placebo cohort B4) receive domvanalimab + zimberelimab after surgery; pre-surgical randomisation includes single agents and placebo. Cohort B4 (EXPERIMENTAL-labelled) functions as placebo control for the pre-surgical PD comparison, so control_arm_from_other_arms = yes. Placebo listed as control_comparator for completeness. IDH-wildtype is a diagnostic eligibility criterion, never candidate-matched."
+}

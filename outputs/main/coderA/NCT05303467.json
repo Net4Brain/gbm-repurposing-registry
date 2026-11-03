@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT05303467",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "History of a histologically confirmed diagnosis of glioblastoma per 2021 WHO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] TheraSphere GBM (other names: TheraSphere™ GBM Y-90 Glass Microspheres (TheraSphere GBM)): Single treatment of TheraSphere GBM device"},
+      {"field": "detailed_description", "quote": "The TheraSphere GBM device utilized in the FRONTIER trial is an yttrium-90 (Y-90) glass microsphere therapy for selective internal radiation therapy (endovascular radiotherapy) in recurrent GBM patients."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Y-90 glass microspheres are registered as a device delivering selective internal radiotherapy; coded as device/radiotherapy, but an adjudicator could treat them as a radiopharmaceutical candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Have radiographic evidence of tumor progression/recurrence with measurable disease"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Only intervention is the TheraSphere GBM Y-90 glass microsphere device (intra-arterial selective internal radiotherapy); devices and radiotherapy are not listed as agents. Four experimental groups differ only by perfused brain region, none is a control. Conditions say 'Glioblastoma Multiforme' but eligibility cites 2021 WHO criteria, so cns5."
+}

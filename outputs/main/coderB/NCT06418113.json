@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT06418113",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioblastoma, IDH-wildtype; Radiotherapy; Complications; Cancer Brain"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Conformal hypofractionated stereotactic radiotherapy with concurrent temozolomide."},
+      {"field": "interventions", "quote": "temozolomide (TMZ) will be administered for 6 months according to the Stupp protocol."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Researchers will compare the group receiving neoadjuvant radiochemotherapy to the control group following the standard Stupp protocol to assess safety and efficacy outcomes."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chemotherapy",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Conformal hypofractionated stereotactic radiotherapy with concurrent temozolomide."},
+        {"field": "arms", "quote": "Starting from 4 weeks post-surgery, TMZ will be administered for 6 months according to the Stupp protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental"]
+    },
+    {
+      "agent_name_registered": "Chemotherapy Stupp Protocol",
+      "active_moiety": "temozolomide",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "temozolomide (TMZ) will be administered for 6 months according to the Stupp protocol."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp Protocol"]
+    },
+    {
+      "agent_name_registered": "5-ALA",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Supramarginal resection guided by 5-ALA under intraoperative neurophysiological monitoring."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence-guided resection agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "If the histopathological diagnosis is not wildtype IDH non-mutated glioblastoma, the patient will be withdrawn from the study and receive conventional treatment."},
+      "flag": {"uncertain": false},
+      "arms": ["Experimental"]
+    }
+  ],
+  "coder_notes": "Trial tests the timing (neoadjuvant, before resection) of radiotherapy with concurrent temozolomide versus the Stupp protocol, so temozolomide is coded established_therapy_experiment in the experimental arm and control_comparator in the Stupp arm (OTHER-type arm works as control). 5-ALA is for fluorescence-guided resection only (diagnostic_agent); it is mentioned only in the experimental arm text. Entry text requires 'high-grade glioma' clinically, with IDH-wildtype GBM confirmed at biopsy."
+}

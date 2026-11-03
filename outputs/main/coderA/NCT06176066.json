@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT06176066",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Individuals with suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[PROCEDURE] CEST PH MRI based resection of glioblastoma"},
+      {"field": "arms", "quote": "CEST MRI Based Resection of glioblastoma with standard of care adjuvant therpay (temozolomide + radiation therapy)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Individuals with suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "CEST MRI Based Resection of glioblastoma with standard of care adjuvant therpay (temozolomide + radiation therapy)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard adjuvant chemoradiation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CEST Resection"]
+    },
+    {
+      "agent_name_registered": "5-aminolevulinic acid (5-ALA)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "5-aminolevulinic acid (5-ALA), a safe FDA approved fluorescence molecule used to increase extent of resection in glioma surgery will be administered for comparision with CEST imaging in surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence agent for fluorescence-guided resection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CEST Resection"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Individuals with suspected, newly diagnosed or recurrent IDH wild type WHO IV glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "This will be measured through immunohistochemical staning of tumor (via H\\&E, anti-EGFR for EGFR amplified tumors), and proliferative tumor (anti-Ki67) which will be reviewed by blinded neuro-pathologist."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Surgical/imaging trial (CEST-EPI MRI-guided resection); no pharmacological candidate. 5-ALA given for fluorescence comparison only (diagnostic_agent; not a registered intervention but stated as administered). Temozolomide is SOC adjuvant therapy in the single arm. Gadolinium contrast for routine MRI not listed (R9). IDH-wildtype is diagnostic (never matched); EGFR IHC is exploratory tissue characterisation; Ki67 treated as routine histology and not recorded."
+}

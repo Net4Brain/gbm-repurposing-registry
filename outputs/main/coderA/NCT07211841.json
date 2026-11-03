@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07211841",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; MRI Spectroscopy; Tumor Microenvironment; Biomarkers / Blood"},
+      {"field": "eligibility", "quote": "Patients consecutively identified in the multidisciplinary consultation meeting of neurooncology with a new diagnosis of GBM / a probable diagnosis of GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The study will be conducted without any major modification of the standard management of GBM."},
+      {"field": "brief_summary", "quote": "The investigators propose to address the link between the MRS profile of GBM and basic clinical and biological parameters"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The investigators plan to recruit 30 newly diagnosed GBM patients for which surgery / radiochemotherapy will be proposed in the Medical oncology unit of Amiens University Hospital."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Observational-style correlative MRS / blood metabolomics study registered as interventional, phase NA; interventions are an MRS device and blood sampling, no drug. Standard surgery/radiochemotherapy is not a registered intervention and no drug is named, so no agents listed. MRS metabolite ratios (imaging) and plasma metabolites (non-tumour, blood) not recorded as tumour molecular biomarkers. cns5 'historical' because the record uses 'glioblastoma multiforme'."
+}

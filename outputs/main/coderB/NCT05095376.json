@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT05095376",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Testing the Addition of the Chemotherapy Drug Lomustine (Gleostine) to the Usual Treatment (Temozolomide and Radiation Therapy) for Newly Diagnosed MGMT Methylated Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "for Newly Diagnosed MGMT Methylated Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients also receive lomustine PO on day 1 of each cycle and temozolomide PO QD on days 2-6 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent",
+      "stated_antitumour_mechanism": "It damages the cell's DNA and may kill tumor cells.",
+      "flag": {"uncertain": false},
+      "arms": ["ARM II (radiation therapy, temozolomide, lomustine)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients then receive temozolomide PO QD on days 1-5 of each cycle. Treatment repeats every 28 days for 6 cycles"},
+        {"field": "arms", "quote": "Patients also receive lomustine PO on day 1 of each cycle and temozolomide PO QD on days 2-6 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (radiation therapy, temozolomide)", "ARM II (radiation therapy, temozolomide, lomustine)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter with methylation confirmed by central pathology review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH mutation testing by at least one method (such as immunohistochemistry for IDH1 R132H) must be performed as part of standard of care and no mutation must be found (i.e IDH wildtype)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Lomustine (established GBM therapy, D6) added to temozolomide chemoradiation in newly diagnosed MGMT-methylated GBM is a new setting/schedule, so rule 6 applies and there is no candidate (S6 established_therapy_only). Temozolomide schedule differs between arms (days 1-5 q28 vs days 2-6 q42), so it is coded established_therapy_experiment per exception (i); soc_backbone would also be non-candidate."
+}

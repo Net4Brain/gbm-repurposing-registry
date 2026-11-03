@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT07553520",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Participants receive cysteine/methionine deprivation (CMD) diet for 2 days."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The CMD diet will be implemented simultaneously in 2 cohorts of participants with recurrent glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Dietary intervention only (excluded intervention type, not a drug), so no agents listed. Glutathione metabolite levels (blood, urine, MR spectroscopy, resected tumour) are metabolic endpoints of a diet and are not linked to a candidate agent, so target engagement is no and no molecular biomarkers recorded. Cohort B receives radiotherapy only as standard of care."
+}

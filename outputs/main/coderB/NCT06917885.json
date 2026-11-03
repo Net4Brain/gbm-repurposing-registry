@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06917885",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Have histologically confirmed World Health Organization (WHO) Grade 4 glioblastoma, other WHO grade 4 malignant glioma or molecular GBM (based on the 2021 WHO Classification) at first recurrence."},
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Glioblastoma; Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "evaluating the safety and tolerability of CUE-102 monotherapy in adult participants with Glioblastoma (GBM) at first recurrence"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "other WHO grade 4 malignant glioma or molecular GBM (based on the 2021 WHO Classification) at first recurrence."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CUE-102",
+      "active_moiety": "cue-102",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "evaluating the safety and tolerability of CUE-102 monotherapy in adult participants with Glioblastoma (GBM) at first recurrence"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "WT1-pHLA-IL2-Fc fusion protein (T-cell activating immunotherapeutic)",
+      "stated_antitumour_mechanism": "designed to target tumor cells by activating T cells",
+      "flag": {"uncertain": false},
+      "arms": ["CUE-102"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "HLA-A*0201 genotype is a required germline HLA type for the drug's restriction; per manual section 5 HLA type is not recorded as a tumour biomarker. Eligibility allows other WHO grade 4 malignant glioma, hence mixed_glioma_gbm_named."
+}

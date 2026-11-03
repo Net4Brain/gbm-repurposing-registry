@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06092255",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma confirmed by pathology."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Postoperative radiotherapy for SVZ"},
+      {"field": "brief_summary", "quote": "This phase I/II clinical trial is intended to investigate the efficacy and safety of SVZ irradiation with postoperative radiotherapy in patients with GBM."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma confirmed by pathology."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Concurrent chemotherapy with temozolomide and six cycles of adjuvant temozolomide chemotherapy were performed at the same time as radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Preventive radiotherapy irradiation SVZ group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-field trial (SVZ irradiation); temozolomide is standard concurrent/adjuvant backbone given to every patient at standard schedule, not the investigational question. No pharmacological candidate. Registry phase is NA though title says phase I/II. SVZ involvement on MRI is an imaging criterion, not a molecular biomarker."
+}

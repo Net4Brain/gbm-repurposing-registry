@@ -1,0 +1,135 @@
+{
+  "nct_id": "NCT06934889",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "All Patients must have WHO Grade IV Glioblastoma/Gliosarcoma using WHO 2021 criteria and include the diagnosis of molecular GBM"},
+      {"field": "eligibility", "quote": "Patients must be IDH wild type by CLIA-certified laboratory assay available at time of consent."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Phase Ib Trial of ABBV-637 or ABBV-155 in Combination With ERAS-801 for Glioblastoma With Amplification of the Epidermal Growth Factor Receptor"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "patients will be randomized to either Cohort A or B if recurrent GBM, and Cohort C or D if newly diagnosed."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["eras-801", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ABBV-637",
+      "active_moiety": "abbv-637",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-637 before standard surgery, followed by ABBV-637 and ERAS-801 after standard surgery."},
+        {"field": "arms", "quote": "will receive ABBV-637 in combination with standard radiation and chemotherapy drug temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ABBV-637, investigational intravenous antibody-drug conjugate (believed EGFR-directed)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Recurrent)", "Cohort C (Newly Diagnosed)"]
+    },
+    {
+      "agent_name_registered": "ABBV-155",
+      "active_moiety": "abbv-155",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-155 before standard surgery, followed by ABBV-155 and ERAS-801 after standard surgery"},
+        {"field": "arms", "quote": "will receive ABBV-155 in combination with standard radiation and chemotherapy drug temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ABBV-155, investigational intravenous antibody-drug conjugate (believed B7-H3-directed)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Recurrent)", "Cohort D (Newly Diagnosed)"]
+    },
+    {
+      "agent_name_registered": "ERAS-801",
+      "active_moiety": "eras-801",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "title", "quote": "Phase Ib Trial of ABBV-637 or ABBV-155 in Combination With ERAS-801 for Glioblastoma With Amplification of the Epidermal Growth Factor Receptor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ERAS-801, investigational oral brain-penetrant EGFR inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Recurrent)", "Cohort B (Recurrent)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-637 in combination with standard radiation and chemotherapy drug temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort C (Newly Diagnosed)", "Cohort D (Newly Diagnosed)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "eras-801",
+      "source_quote": {"field": "eligibility", "quote": "Patients must have evidence of EGFR gene amplification by CLIA-certified laboratory assay at time of consent."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must be IDH wild type by CLIA-certified laboratory assay available at time of consent."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Roles differ by arm: in Cohorts A/B, ABBV-637 or ABBV-155 is given with ERAS-801 (two investigational agents, experimental_combination); in Cohorts C/D, ABBV-637 or ABBV-155 is the only investigational agent on a temozolomide/radiotherapy backbone (would be experimental_monotherapy there). EGFR amplification is an entry requirement; matched to ERAS-801 (EGFR inhibitor) and likely also ABBV-637 if EGFR-directed; the record itself links EGFR-targeted therapy to 'the investigational regimen' in the exclusion criteria. Window-of-opportunity design (pre-surgical dosing in recurrent cohorts) but no tissue PK or PD outcome is registered, so tumour_pk_planned and target_engagement_planned coded no. Eligibility mentions Cohorts E and F that are not registered arms."
+}

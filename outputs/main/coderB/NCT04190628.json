@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04190628",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Solid Tumor; BRAF V600 Mutation"},
+      {"field": "eligibility", "quote": "C-1: Patients with primary central nervous system (CNS) tumors and documentation of positive BRAF V600 mutation"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Monotherapy Dose Escalation: A classic \"3+3\" design will be used to determine MTD and RP2D."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "progressed on at least one line of prior standard systemic therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["cobimetinib"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum plasma concentration (Cmax): Pharmacokinetic (PK) profile of ABM-1310 as a single agent and in combination therapy"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ABM-1310",
+      "active_moiety": "abm-1310",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Monotherapy Therapy Dose Expansion-1: \\- In C-1(Monotherapy - Primary CNS Tumors), continuous twice daily oral doses of ABM-1310"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational BRAF inhibitor (BRAF V600 mutation-directed)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Monotherapy Dose Escalation", "Combination Therapy Dose Escalation", "Monotherapy Therapy Dose Expansion-1", "Monotherapy Therapy Dose Expansion-2", "Combination Therapy Dose Expansion-1", "Combination Therapy Dose Expansion-2"]
+    },
+    {
+      "agent_name_registered": "Cobimetinib",
+      "active_moiety": "cobimetinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "At each dose level, ABM-1310 will be administered in combination with cobimetinib (Cotellic ®) once daily (qd) for the first 21 days of each 28-day treatment cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MEK inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Combination Therapy Dose Escalation", "Combination Therapy Dose Expansion-1", "Combination Therapy Dose Expansion-2"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abm-1310",
+      "source_quote": {"field": "eligibility", "quote": "Part A: Patients with advanced or metastatic solid tumors with documentation of positive BRAF V600E mutation, or any other BRAF V600 mutation is required for enrollment"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket trial of advanced solid tumours with BRAF mutation. Glioblastoma appears only in keywords and in an exclusion criterion (GBM as example of primary CNS tumour), not in conditions, title, inclusion criteria or arm labels, so coded not_glioblastoma per C7/D27B; primary CNS tumours (C-1) are eligible but GBM is not named in a qualifying field. ABM-1310 is investigational in monotherapy arms (experimental_monotherapy) and also in combination arms with cobimetinib (approved MEK inhibitor, here tested as the partner: experimental_combination). Regimen is mixed (monotherapy and combination parts); coded combination. BRAF requirement applies to all parts (Part B any BRAF mutation; Part A/C-1/C-2 V600)."
+}

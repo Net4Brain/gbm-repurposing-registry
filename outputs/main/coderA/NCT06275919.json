@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06275919",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Meningioma, Malignant"},
+      {"field": "eligibility", "quote": "Histological diagnosis of meningioma according to the WHO 2021 classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Arm A (interventional arm): REGORAFENIB 40 mg tablets once daily (160 mg/die), 3 weeks on, 1 week off, until disease progression or unacceptable toxicity"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The focus of this study will be to investigate whether Regorafenib demonstrates antitumor activity against recurrent meningiomas."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Regorafenib 40 MG Oral Tablet",
+      "active_moiety": "regorafenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Arm A (interventional arm): REGORAFENIB 40 mg tablets once daily (160 mg/die), 3 weeks on, 1 week off, until disease progression or unacceptable toxicity"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multikinase (VEGFR) inhibitor approved for colorectal cancer, GIST, HCC",
+      "stated_antitumour_mechanism": "Regorafenib inhibits angiogenic receptor tyrosine kinases (RTKs) and is highly selective for VEGFR1/2/3; moreover Regorafenib inhibits PDGFRB, FGFR1 and oncogenic intracellular signalling cascades involving c-RAF/RAF1 and BRAF highly expressed in meningiomas.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A (interventional arm)"]
+    },
+    {
+      "agent_name_registered": "Local Standard of Care",
+      "active_moiety": "unspecified_local_standard_of_care",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Local Standard of Care: In this setting there are not drugs with indication. Every site will treat patients as per their experience."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigator's choice local standard of care, no drug named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm B (control arm)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Meningioma trial; glioblastoma mentioned only as background (REGOMA) in the brief summary, so not_glioblastoma. VEGF/VEGFR overexpression is background rationale, not a planned biomarker. Control arm is a registered ACTIVE_COMPARATOR with unspecified local standard of care."
+}

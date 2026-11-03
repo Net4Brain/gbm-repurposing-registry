@@ -1,0 +1,14 @@
+{"nct_id":"NCT05577091","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Recurrent Glioblastoma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"excluded_intervention_type",
+"candidate_evidence":[{"field":"brief_summary","quote":"autologous peripheral blood T cells lentivirally transduced to express a dual-target, truncated IL7Ra modified chimeric antigen receptor (CAR)"}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"eligibility","quote":"Patients with history of glioblastoma are diagnosed with recurrent glioblastoma and residual tumor after intracranial tumor resection/biopsy performed in Beijing Tiantan Hospital."}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Inverse correlated dual-target, truncated IL7Ra modified CAR -expressing autologous T-lymphocytes.","active_moiety":"autologous tris-car-t cells","role":"excluded_intervention_type","role_evidence":[{"field":"interventions","quote":"Intratumoral or intraventricular administration via Ommaya reservoir."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"CD44/CD133 dual-target CAR-T cell therapy","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Autologous Tris-CAR-T cell"]}],
+"biomarkers":[{"biomarker":"other","biomarker_other":"CD44/CD133 target expression","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"brief_summary","quote":"also evaluate the degree of target expression, biological characteristics of samples at diagnosis versus at recurrence or progression"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"CAR-T cell therapy is an excluded intervention type, so no candidate. The record plans CSF/blood CAR-T pharmacokinetics (qPCR) and cytokine pharmacodynamics, but because there is no candidate agent tumour_pk_planned and target_engagement_planned are coded no under the manual wording; adjudicator may wish to note the CSF PK plan."}

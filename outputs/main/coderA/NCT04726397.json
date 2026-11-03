@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT04726397",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed malignant glioma of the brain, Grade 4 (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Reduced margin adaptive radiotherapy: Reduced (5 mm) clinical target volume margin with weekly contrast-enhanced adaptive radiation on the MR-Linac treatment machine"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Glioblastoma (GBM) is a high grade glioma (brain tumor) that is treated with surgery or biopsy followed by radiotherapy (RT) given daily over 3 or 6 weeks with or without an oral chemotherapy."},
+      {"field": "eligibility", "quote": "Previous cranial irradiation"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Phase NA single-arm radiotherapy technique trial (MR-Linac adaptive RT); only registered intervention is radiation. Temozolomide is optional ('with or without chemotherapy (temozolamide)'), not given to every patient and not a registered intervention, so not listed; gadolinium contrast for adaptive MRI is not a registered intervention, so not listed. Treatment setting inferred as newly diagnosed from primary RT after surgery/biopsy and exclusion of prior cranial irradiation."
+}

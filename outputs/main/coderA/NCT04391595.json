@@ -1,0 +1,132 @@
+{
+  "nct_id": "NCT04391595",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "LY3214996 Plus Abemaciclib in Recurrent Glioblastoma Patients"},
+      {"field": "conditions", "quote": "Glioblastoma; GBM; Glioma"},
+      {"field": "eligibility", "quote": "Prior resection of histologically diagnosed WHO Grade IV glioma defined as glioma participants who have progressed on or following standard (Stupp regimen) therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 0/2 Study of LY3214996 (ERK Inhibitor) in Combination With Abemaciclib (CDK4 and 6 Inhibitor) in Recurrent Glioblastoma Participants Scheduled for Resection to Evaluate Central Nervous System (CNS) Penetration"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "LY3214996 Plus Abemaciclib in Recurrent Glioblastoma Patients"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["ly3214996", "abemaciclib"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total and Unbound LY3214996 and Abemaciclib (and related M2 and M20 metabolites) concentration in enhancing and non-enhancing tumor tissue"},
+      {"field": "outcomes", "quote": "Total and Unbound LY3214996 and Abemaciclib (and related M2 and M20 metabolites) concentration in CSF"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0: percentage of pRSK+, pERK+, pRB+, pFOXM1, MIB-1+ and Cleaved Caspase 3+ cells from the surgical tissue will be quantified and compared to baseline archival tissue."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LY3214996",
+      "active_moiety": "ly3214996",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "400 mg of LY3214996 QD for 6 doses and 100 mg of Abemaciclib BID for 11 doses over 5.5 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational ERK1/2 inhibitor (LY3214996)",
+      "stated_antitumour_mechanism": "ERK Inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1"]
+    },
+    {
+      "agent_name_registered": "Abemaciclib",
+      "active_moiety": "abemaciclib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "400 mg of LY3214996 QD for 6 doses and 100 mg of Abemaciclib BID for 11 doses over 5.5 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CDK4/6 inhibitor (approved for breast cancer)",
+      "stated_antitumour_mechanism": "CDK4 and 6 Inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "RB protein positivity (IHC) / absence of RB mutation (NGS)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "eligibility", "quote": "(a) RB positivity (≥20%) on immunohistochemistry (IHC); or, no RB mutations on next-generation sequencing (NGS)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "eligibility", "quote": "(b) Chromosomal loss of CDKN2A/B/C; or, CDK4/6 amplification on array CGH or NGS"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abemaciclib",
+      "source_quote": {"field": "eligibility", "quote": "(b) Chromosomal loss of CDKN2A/B/C; or, CDK4/6 amplification on array CGH or NGS"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pERK positivity (IHC)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "ly3214996",
+      "source_quote": {"field": "eligibility", "quote": "(c) pERK positivity (\\>30%) on IHC."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pRSK, pERK, pRB, pFOXM1, MIB-1, cleaved caspase 3 in tumour tissue (pharmacodynamic)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ly3214996; abemaciclib",
+      "source_quote": {"field": "outcomes", "quote": "Phase 0: percentage of pRSK+, pERK+, pRB+, pFOXM1, MIB-1+ and Cleaved Caspase 3+ cells from the surgical tissue will be quantified and compared to baseline archival tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered as EARLY_PHASE1 (Phase 0/2) - translational subset. 'WHO Grade IV glioma' without IDH requirement with glioblastoma in title/conditions -> gbm_only, historical terminology. Eligibility requires all of (a) RB intact, (b) CDKN2A/B/C loss or CDK4/6 amplification, (c) pERK positivity; (b) coded as two rows (CDKN2A_B and CDK4_6_pathway) because either alternative qualifies. The pERK eligibility quote contains a backslash-escaped '>' as in the record text ('\\>30%')."
+}

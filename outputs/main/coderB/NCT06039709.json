@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06039709",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Glioblastoma Multiforme; GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "this investigational therapy is being tested for its ability to cause damage to GBM cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Glioblastoma Multiforme; GBM"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA (Gleolan)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "SDT is an investigational therapy that will be administered 1-3 weeks before surgery for recurrent GBM."},
+        {"field": "interventions", "quote": "5-ALA (20mg/kg orally)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photo/sonosensitiser prodrug of protoporphyrin IX (sonodynamic therapy)",
+      "stated_antitumour_mechanism": "sonodynamic therapy: 5-ALA combined with low-intensity focused ultrasound to cause damage to GBM cells",
+      "flag": {"uncertain": false},
+      "arms": ["Sonodynamic Therapy (5-ALA + LIFU)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "5-ALA is the drug in sonodynamic therapy with focused ultrasound (device_dependent true), not used for fluorescence-guided resection. Histologic devitalization is an efficacy endpoint, not target engagement."
+}

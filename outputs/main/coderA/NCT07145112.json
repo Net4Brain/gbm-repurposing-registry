@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07145112",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed World Health Organization (WHO) 2021 defined glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Approximately 7 days following LITT, lomustine is administered per standard of care on Day 1 for a total of one cycle."},
+      {"field": "brief_summary", "quote": "The primary aim is to evaluate the safety of the combination of LITT plus lomustine based on the assessment of treatment-related adverse events and the feasibility of completing LITT + lomustine in the proposed timeframe."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Laser Interstitial Thermal Therapy (LITT) and Lomustine (CCNU) for Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Approximately 7 days following LITT, lomustine is administered per standard of care on Day 1 for a total of one cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Laser interstitial thermal therapy (LITT) + Lomustine (CCNU)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only drug is lomustine (D6 established GBM therapy) tested in a new setting/timing after LITT -> established_therapy_experiment; S6 fails as established_therapy_only. Record does not state that LITT enables lomustine delivery (no BBB-opening rationale), so C12 device-dependent exception not applied. Anaesthesia for LITT not listed."
+}

@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT03869554",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Renal Disease"},
+      {"field": "title", "quote": "Evaluation of a Screening Strategy of Fabry Disease in Patient With Renal Biopsy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Systematic detection of Fabry disease"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Off-topic record: Fabry disease screening (dried blood spot diagnostic test) in adults with idiopathic nephropathy after renal biopsy. Not a glioblastoma trial; 'glomerular basement membrane' appears only in disease background, not anti-GBM disease as a population. No drug interventions."
+}

@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04678648",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Malignant Solid Neoplasm; RAS Mutation; Lung Cancer; Colon Cancer; Glioblastoma; Pancreatic Cancer"},
+      {"field": "eligibility", "quote": "Has either tissue agnostic tumors and documented RAS mutations or with glioblastoma with or without mutation in RAS"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] RSC-1255 Treatment: Single Arm Study. All study participants receive RSC-1255."},
+      {"field": "detailed_description", "quote": "RSC-1255 is an orally bioavailable, small-molecule direct pan-mutant and wild-type RAS inhibitor."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Malignancy has progressed on standard therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["hydroxychloroquine"],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RSC-1255 Dose Escalation; RSC-1255 Dose Expansion",
+      "active_moiety": "rsc-1255",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All participants receive oral RSC-1255, twice daily as monotherapy."},
+        {"field": "interventions", "quote": "RSC-1255 is administered orally twice daily alone or in combination with continuous hydroxychloroquine, with food."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small-molecule pan-RAS inhibitor (development code RSC-1255)",
+      "stated_antitumour_mechanism": "small-molecule direct pan-mutant and wild-type RAS inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["RSC-1255 Treatment"]
+    },
+    {
+      "agent_name_registered": "hydroxychloroquine",
+      "active_moiety": "hydroxychloroquine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "further characterize the safety, pharmacology, and the clinical efficacy of RSC-1255 as monotherapy and in combination with the autophagy inhibitor hydroxychloroquine (HCQ)."},
+        {"field": "title", "quote": "Dose Escalation and Dose Expansion Study of RSC-1255 Alone or in Combination With Hydroxychloroquine in Patients With Advanced Solid Tumor Malignancies"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial / autophagy inhibitor",
+      "stated_antitumour_mechanism": "autophagy inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["RSC-1255 Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "RAS mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "rsc-1255",
+      "source_quote": {"field": "eligibility", "quote": "Has either tissue agnostic tumors and documented RAS mutations or with glioblastoma with or without mutation in RAS"},
+      "flag": {"uncertain": true, "reason": "RAS mutation is required only for non-GBM tissue-agnostic tumours; glioblastoma patients enter with or without RAS mutation, so whether this counts as enrichment for the GBM population is doubtful."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket trial; glioblastoma named in conditions and inclusion criteria. Hydroxychloroquine is not a separately registered intervention but is given with RSC-1255 in the Phase 1b expansion per intervention text and title; listed as experimental_combination (stated autophagy-inhibitor rationale). RSC-1255 is the sole investigational agent in escalation/monotherapy expansion, coded experimental_monotherapy; in the HCQ combination portion it would be experimental_combination. Regimen coded combination because the expansion includes HCQ; escalation is monotherapy. 'Pharmacology' is characterised in Phase 1b but no PK sampling or tissue is specified, so tumour_pk_planned coded no. RAS mutation is a cohort-level requirement for non-GBM tumours only (GBM with or without RAS mutation)."
+}

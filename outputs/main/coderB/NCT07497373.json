@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT07497373",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme(GBM)"},
+      {"field": "eligibility", "quote": "Prior histopathology consistent with the 2021 World Health Organization (WHO) glioblastoma classification."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "Viral shedding:Copy number of JL15003 in blood, throat swab, and fecal samples"},
+      {"field": "eligibility", "quote": "CD155 expression confirmed by immunohistochemistry (H-Score ≥1)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "The record never calls JL15003 an oncolytic virus; viral shedding, CD155 (poliovirus receptor) expression and poliovirus-immunity criteria imply a replicating virus, which would make it an excluded intervention type."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Refractory or relapsed following standard-of-care therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Expression of CD155"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "JL15003 Injection",
+      "active_moiety": "oncolytic virus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Viral shedding:Copy number of JL15003 in blood, throat swab, and fecal samples"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "presumed oncolytic virus (poliovirus-based, inferred from CD155 and poliovirus-immunity criteria); intratumoral biological",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Virus nature inferred from viral shedding and poliovirus-related criteria, not stated explicitly."},
+      "arms": ["Single intratumoral administration of JL15003 Injection"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD155 (poliovirus receptor) expression",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "CD155 expression confirmed by immunohistochemistry (H-Score ≥1)"},
+      "flag": {"uncertain": true, "reason": "Coded not matched because JL15003 is treated as an excluded intervention type; if it were a candidate the receptor requirement would be matched."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Poliovirus vaccine boost is an entry prerequisite (prior immunisation), not a registered intervention, so it is not listed. Target engagement coded unclear: CD155 expression is a secondary outcome but is not explicitly linked to a treatment effect."
+}

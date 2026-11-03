@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05737368",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Epitentorial glioblastoma confirmed by pathology; Diagnosis of recurrence through clinical imaging evidence."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] cadonilimab: Cardunizumab (10mg/kg, Q3W, d1)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "cadonilimab",
+      "active_moiety": "cadonilimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "within 14 days after receiving radiotherapy, Cardunizumab (10mg/kg, Q3W, d1)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PD-1/CTLA-4 bispecific antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients will receive the treatment of fractionated radiotherapy and Cadonilimab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm trial of fractionated radiotherapy plus cadonilimab; cadonilimab is the only investigational drug (radiotherapy is not an agent), so experimental_monotherapy with regimen combination. The record also spells the drug 'Cardunizumab' in the arm and intervention text. Prior standard Stupp treatment is required but is not part of this trial's treatment."
+}

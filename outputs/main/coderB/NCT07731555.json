@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT07731555",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Multimodal Blood Brain Barrier Assessment: A standardised multimodal diagnostic assessment designed to characterize blood brain barrier integrity"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "blood-brain barrier-associated protein expression and transcriptional signatures in resected tumour",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Expression of blood-brain barrier-associated proteins within resected glioblastoma tissue assessed by immunohistochemical analysis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Observational-style diagnostic assessment registered as interventional; no drug is administered. Gadolinium contrast is mentioned only in passing as part of the MRI, so no agent is listed. The serum markers (S100B, GFAP etc.) are blood injury markers, not tumour molecular biomarkers. cns5_terminology coded historical because the record uses 'glioblastoma multiforme'."
+}

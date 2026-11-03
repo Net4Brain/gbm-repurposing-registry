@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT03980249",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Subjects must have histologically or cytologically confirmed WHO Grade IV Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this pilot study is to evaluate the addition of carvedilol with standard of care treatment to determine if it will improve progression-free survival in the front line setting in patients with glioblastoma multiforme (GBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects must have not received previous chemotherapy or radiation therapy for GBM"},
+      {"field": "detailed_description", "quote": "This is a pilot study to assess efficacy of the addition of a non-selective beta-blocker to standard of care treatment in the front-line setting of glioblastoma multiforme."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Carvedilol",
+      "active_moiety": "carvedilol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Subjects will receive carvedilol starting at 6.25 mg orally (PO) twice daily for 1-2 weeks and if tolerated will then be increased to 12.5 mg PO twice daily starting on day 1 of concurrent chemoradiotherapy"},
+        {"field": "title", "quote": "Anti-Cancer Effects of Carvedilol With Standard Treatment in Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "non-selective beta-blocker (antihypertensive / heart failure drug)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Carvedilol + Standard Treatment"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "continue daily until the end of adjuvant cycle 6 of temozolomide and Tumor Treated Fields"},
+        {"field": "detailed_description", "quote": "Patients will be monitored with neuroimaging prior before chemoradiotherapy, before adjuvant temozolomide and every 2 months on adjuvant temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard-of-care chemoradiotherapy backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Carvedilol + Standard Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "peripheral glioma circulating tumour cells (qRT-PCR / TelomeScan assay)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Quantify CTCs via qRT-PCR assay and to assess how the trend of CTCs correspond to disease status as measured by RANO criteria on neuro-imaging."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered EARLY_PHASE1 (translational subset). Temozolomide is not a registered intervention but the single arm receives standard chemoradiotherapy and adjuvant temozolomide, so it is listed as soc_backbone. TTFields (device) are part of the standard treatment and are not listed as an agent. CTC monitoring is a disease-response correlate, not linked to carvedilol's target, so target engagement coded no."
+}

@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT04145115",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Astrocytoma, IDH-Mutant, Grade 4; Diffuse Glioma; Glioblastoma, IDH-Wildtype; Secondary Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma IDH-wildtype central nervous system (CNS) WHO grade 4"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant CNS WHO grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "To determine whether the combination of ipilimumab and nivolumab increases the tumor response rate assessed by modified Response Assessment in Neuro-Oncology (RANO) Criteria in patients with hypermutated recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (World Health Organization \\[WHO\\] grade IV) presenting at first or second recurrence including secondary glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["ipilimumab", "nivolumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Test whether PD-L1 or immunologic infiltrate in the tumor microenvironment are associated with objective tumor response, overall survival, progression-free survival, tumor mutational burden, or rates of grade 3 or higher adverse events."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ipilimumab",
+      "active_moiety": "ipilimumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive nivolumab IV over 30 minutes and ipilimumab IV over 30 minutes on day 1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "ipi_nivo",
+      "drug_class_hint": "anti-CTLA-4 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies such as ipilimumab and nivolumab may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (nivolumab, ipilimumab)"]
+    },
+    {
+      "agent_name_registered": "Nivolumab",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive nivolumab IV over 30 minutes and ipilimumab IV over 30 minutes on day 1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "ipi_nivo",
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies such as ipilimumab and nivolumab may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (nivolumab, ipilimumab)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "ipilimumab; nivolumab",
+      "source_quote": {"field": "eligibility", "quote": "REGISTRATION ELIGIBILITY CRITERIA: Tissue obtained from biopsy or resection at first or second recurrence exhibits TMB \\>= 10 on FoundationOne CDx testing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Test whether PD-L1 or immunologic infiltrate in the tumor microenvironment are associated with objective tumor response, overall survival, progression-free survival, tumor mutational burden, or rates of grade 3 or higher adverse events."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Test whether MGMT status, microsatellite instability (MSI) status, mutational signatures, or amount of tumor mutational burden (TMB) including germline analysis are associated with objective tumor response"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Test whether MGMT status, microsatellite instability (MSI) status, mutational signatures, or amount of tumor mutational burden (TMB) including germline analysis are associated with objective tumor response"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligible population includes both glioblastoma IDH-wildtype and astrocytoma IDH-mutant grade 4 (WHO 2021 cited) -> mixed_glioma_gbm_named, cns5. IDH status is a diagnostic definition (either allowed), not recorded as a selection biomarker. TMB >= 10 is a registration (entry) requirement and is matched to the checkpoint inhibitors on the record's stated rationale that hypermutated tumours may respond to immunotherapy. Exploratory PD-L1/immune infiltrate analysis is a correlative association with outcome rather than a target-modulation measurement -> target_engagement unclear. MRI is a procedure, not listed as an agent. Note: quotes containing escaped brackets/inequalities copy the record text literally (e.g. '\\>=')."
+}

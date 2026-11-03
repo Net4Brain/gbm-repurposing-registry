@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04469699",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme, Adult"},
+      {"field": "eligibility", "quote": "Radiologically suspected diagnosis (according to RANO criteria) of the first recurrence of a glioblastoma located in the cerebral hemisphere including insular and diencephalon."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "5-ALA HCl orally (20 mg/kg bw) 3,5-4,5 hours prior to induction of anaesthesia for stereotactic biopsy followed by stereotactical photodynamic therapy."},
+      {"field": "title", "quote": "Stereotactical Photodynamic Therapy With 5-aminolevulinic Acid (Gliolan®) in Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "will be investigated in 106 patients with recurrent glioblastoma."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Stereotactic biopsy followed by stereotactical photodynamic therapy with 5-aminolevulinic acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Treatment arm: Stereotactic biopsy followed by stereotactical photodynamic therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor photosensitiser (5-ALA HCl, Gliolan) used for interstitial photodynamic therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Control arm is OTHER-type (stereotactic biopsy only); both arms receive further treatment at investigator's discretion (best possible care), which is not specified and not listed as agents. 5-ALA is given for stereotactic (interstitial) photodynamic therapy, so device_dependent true. Regimen coded monotherapy as no other antitumour drug or radiotherapy is specified in the experimental arm."
+}

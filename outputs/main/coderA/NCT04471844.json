@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04471844",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of GBM according to WHO 2016 classification criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The purpose of the current study is to test if the earlier introduction of Optune®, at the time of radiation therapy (which is given together with temozolomide), improves clinical outcomes compared to the standard of care."},
+      {"field": "detailed_description", "quote": "All patients are to receive standard RT and TMZ treatment followed by maintenance TMZ chemotherapy and Optune® according to the current standard of care regimen."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Pivotal, Randomized, Open-label Study of Optune® (Tumor Treating Fields) Concomitant With RT & TMZ for the Treatment of Newly Diagnosed GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients are to receive standard RT and TMZ treatment followed by maintenance TMZ chemotherapy and Optune® according to the current standard of care regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Optune® + RT + TMZ for 6 weeks", "RT +TMZ for 6 weeks"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "unspecified tumour sample laboratory test used for randomisation",
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "After surgery or biopsy, subjects that would like to participate will be required to submit samples of their tumor to a lab for testing. The results of this test will be used for randomization into the trial."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device trial (TTFields timing); phase NA. Temozolomide is not a registered intervention but every patient receives it (standard RT/TMZ); listed as soc_backbone. The tumour test used for randomisation is not named in the record (likely MGMT, but not stated), coded as other/stratification."
+}

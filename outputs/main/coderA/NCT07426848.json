@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07426848",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Brain Tumour; Glioblastoma; Brain Neoplasms"},
+      {"field": "eligibility", "quote": "Diagnosis of primary brain tumour"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] OT SMILE Occupational Therapy Group Programme: A structured six-week group-based occupational therapy programme delivered by registered occupational therapists."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Currently receiving systemic anti-cancer treatment (SACT)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural occupational-therapy supportive-care RCT, phase NA; no drug or biologic intervention. Population is primary brain tumours with glioblastoma named in conditions (coded mixed_glioma_gbm_named). Control arm is registered ACTIVE_COMPARATOR (written literature)."
+}

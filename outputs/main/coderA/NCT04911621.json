@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT04911621",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "High grade glioma (WHO grade III or IV), histologically verified"},
+      {"field": "conditions", "quote": "High Grade Glioma; Diffuse Intrinsic Pontine Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma not named; only 'WHO grade III or IV' high-grade glioma, which may count as historical glioblastoma under D27C, otherwise high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "intradermal vaccination with autologous Wilms' tumor-1 (WT1) mRNA-loaded DCs weekly (-1 day, +2 days) for 3 weeks"},
+      {"field": "detailed_description", "quote": "Chemoradiation with subsequent maintenance temozolomide is considered best available treatment and therefore not considered investigational."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Stratum A (newly diagnosed)"},
+      {"field": "arms", "quote": "Stratum B (prior treatment)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dendritic cell vaccination",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The investigational treatment, i.e. adjuvant DC vaccination, is administered in 2 phases:"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous WT1 mRNA-loaded monocyte-derived dendritic cell vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (newly diagnosed)", "Stratum B (prior treatment)"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Chemoradiation with subsequent maintenance temozolomide is considered best available treatment and therefore not considered investigational."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard chemoradiation backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stratum A (newly diagnosed)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric-only trial (ages CHILD; 12 months to <18 years) - expected to fail S4 at CODE layer. Glioblastoma never named; 'WHO grade III or IV' high-grade glioma coded as mixed_glioma_gbm_named/historical per D27C reading of grade IV glioma, flagged uncertain (alternative: high_grade_glioma_unspecified). Only investigational agent is a WT1 mRNA DC vaccine (excluded type). Temozolomide is standard backbone in stratum A; stratum B conventional treatment is optional and unnamed. WT1 is the vaccine antigen, not a tumour entry requirement, so no biomarker row."
+}

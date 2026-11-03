@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04406272",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed World Health Organization Grade IV malignant glioma (glioblastoma or gliosarcoma)."},
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Intravenously administered type of gene therapy that works by blocking the process of blood-vessel creation."},
+      {"field": "arms", "quote": "Participants evidencing disease progression may initiate bevacizumab at a pre-determined dose as needed for supportive care"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First or second progression of glioblastoma/gliosarcoma (according to RANO criteria) following standard of care treatment upon initial diagnosis with radiation."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor infiltrating T cell (TIL) density is defined as the number of T lymphocytes per nucleated cell, and calculated by detailed sequencing of recombined T cell receptor sequences obtained from the tumor specimen gDNA."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "VB11",
+      "active_moiety": "ofranergene obadenovec",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Intravenously administered type of gene therapy that works by blocking the process of blood-vessel creation."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "non-replicating adenovirus-vector anti-angiogenic gene therapy (VB-111)",
+      "stated_antitumour_mechanism": "VB-111 works by targeting and damaging the blood vessels that grow and nourish cancerous tumors leading to tumor starvation.",
+      "flag": {"uncertain": false},
+      "arms": ["Before and After Surgery", "After Surgery"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants evidencing disease progression may initiate bevacizumab at a pre-determined dose as needed for supportive care"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Before and After Surgery", "After Surgery"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating T cell density / TCR clonality by T-cell receptor sequencing of tumour gDNA",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Tumor infiltrating T cell (TIL) density is defined as the number of T lymphocytes per nucleated cell, and calculated by detailed sequencing of recombined T cell receptor sequences obtained from the tumor specimen gDNA."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only investigational agent is VB-111 (ofranergene obadenovec), described as gene therapy -> excluded_intervention_type; S6 fails. Bevacizumab may be started at progression 'as needed for supportive care' -> supportive (an established GBM therapy, but not the question). Tumour TIL-density PD endpoint exists (and per outcome text was never performed) but relates to the excluded gene therapy, not a candidate, so target_engagement_planned coded no. Arm 'After Surgery Standard of Care' is labelled EXPERIMENTAL but serves as the placebo/standard-of-care control -> control_arm_from_other_arms yes. 'Grade IV malignant glioma (glioblastoma or gliosarcoma)' without IDH -> historical."
+}

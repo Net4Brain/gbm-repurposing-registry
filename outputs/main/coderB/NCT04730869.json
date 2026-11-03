@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04730869",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly-diagnosed histologically-confirmed GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Standard Treatment Plus Metabolic Therapy Program: See description under \"Arms.\""},
+      {"field": "arms", "quote": "Two 5-day fasts (allowing water, salt, tea, coffee, and a magnesium supplement)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly-diagnosed histologically-confirmed GBM."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "daily oral temozolomide (standard chemoradiation and adjuvant chemotherapy)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Concurrent chemoradiation - Radiation (60-Gy in 30 fractions over 6 weeks) with daily oral temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard treatment in conjunction with MTP"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm trial of fasting plus ketogenic diet (metabolic therapy program) on top of standard Stupp treatment. Diet and fasting are excluded intervention types. Temozolomide is listed because the arm text states every patient receives it; it is not a registered intervention. Magnesium supplement and multivitamin allowed during fasts not listed (supplements, not interventions). Registry phase is NA."
+}

@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05023551",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "DSP-0390 by oral administration"},
+      {"field": "interventions", "quote": "DSP-0390 administered orally"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 1 Study of DSP-0390 in Patients With Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Dose Escalation: Characterize the PK profile for AUC"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Exploratory: Assess the PD effect of DSP-0390"},
+      {"field": "outcomes", "quote": "Biomarker (lathosterol/zymostenol ratio) in blood"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DSP-0390",
+      "active_moiety": "dsp-0390",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "DSP-0390 by oral administration"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small molecule; keywords suggest emopamil binding protein (EBP, sterol isomerase) inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single arm DSP-0390"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "blood lathosterol/zymostenol ratio (sterol pathway PD marker)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "dsp-0390",
+      "source_quote": {"field": "outcomes", "quote": "Biomarker (lathosterol/zymostenol ratio) in blood"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase registered as EARLY_PHASE1 (translational subset). Conditions name both high grade glioma and glioblastoma multiforme, so mixed_glioma_gbm_named. PK sample type not stated in the record (tumour_pk_planned unclear per W7). The pharmacodynamic sterol biomarker is a pathway marker for the drug's keyword-stated target (EBP), pharmacodynamic only, not an eligibility or enrichment biomarker."
+}

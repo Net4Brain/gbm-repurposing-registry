@@ -1,0 +1,111 @@
+{
+  "nct_id": "NCT04963413",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of de novo Glioblastoma (WHO Grade IV glioma) by histopathology or molecular studies."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "GM-CSF is registered as part of the dendritic cell vaccine product; treated as a vaccine component, but if it were an independent investigational agent the trial would have a candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "adult patients with newly diagnosed WHO Grade IV glioma (GBM)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous CMV pp65-flLAMP RNA-pulsed dendritic cell vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "GM-CSF",
+      "active_moiety": "gm-csf",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "granulocyte-macrophage colony-stimulating factor, vaccine adjuvant/component",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Registered only as part of the vaccine intervention name; could be read as a separate investigational cytokine."},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "Td booster",
+      "active_moiety": "tetanus and diphtheria toxoids vaccine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will receive Td booster (5 Lf) with Vaccine #1 regardless of booster history."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetanus-diphtheria vaccine given with the first DC vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient must be receiving adjuvant therapy with Temozolomide at time of enrollment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Dendritic cell vaccine is an excluded intervention type; no candidate. The Td booster is not a cancer vaccine and its purpose is not stated; coded supportive (non-candidate) as the nearest fit. GM-CSF is registered only inside the vaccine intervention name. Temozolomide is background (patients must already be on adjuvant TMZ), not a registered intervention but received by every patient. The pp65 (CMV antigen) is not a tumour molecular biomarker."
+}

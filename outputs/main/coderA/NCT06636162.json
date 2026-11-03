@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT06636162",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; IDH Mutation"},
+      {"field": "eligibility", "quote": "Patients must have either newly diagnosed and suspected glioma per radiographic features, or radiographic recurrence of a histologically confirmed IDH-mutant glioma with the following grade requirements:"},
+      {"field": "eligibility", "quote": "ARM B: suspected high grade glioma, or histologically confirmed grade III or IV glioma."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Trial targets IDH-mutant glioma (conditions, summary), but Arm B admits newly diagnosed suspected high-grade or grade IV glioma without an explicit IDH requirement; under D27C 'grade IV glioma' without IDH could count as historical glioblastoma (mixed_glioma_gbm_named)."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "alterations in cholesterol metabolism driven by mutant IDH will increase susceptibility to DSP-0390 and lead to tumor cell death"},
+      {"field": "interventions", "quote": "[DRUG] DSP-0390: DSP-0390 will be administered orally"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have either newly diagnosed and suspected glioma per radiographic features, or radiographic recurrence of a histologically confirmed IDH-mutant glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Unbound DSP-0390 concentration in non-enhancing tumor tissue will be quantified using tissue removed during resection after treatment."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Lathosterol levels in non-enhancing tumor tissue will be quantified using tissue removed during resection after treatment."},
+      {"field": "brief_summary", "quote": "This study focuses on determining the pharmacokinetic and pharmacodynamic effect of DSP-0390 in brain and blood"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DSP-0390",
+      "active_moiety": "dsp-0390",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will be assigned to DSP-0390 120 mg once daily by mouth for approximately 2 weeks and up to 17 days prior to surgical resection"},
+        {"field": "arms", "quote": "Patients will be assigned to DSP-0390 180 mg once daily by mouth for approximately 1 week prior to surgical resection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral cholesterol biosynthesis (emopamil-binding protein) inhibitor, DSP-0390",
+      "stated_antitumour_mechanism": "alterations in cholesterol metabolism driven by mutant IDH will increase susceptibility to DSP-0390 and lead to tumor cell death",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Low Grade Gliomas: DSP-0390 120 mg", "Arm B High Grade Gliomas: DSP-0390 180 mg"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "dsp-0390",
+      "source_quote": {"field": "eligibility", "quote": "radiographic recurrence of a histologically confirmed IDH-mutant glioma"},
+      "flag": {"uncertain": true, "reason": "IDH-mutant status is required for recurrent patients only (newly diagnosed suspected gliomas enrolled before confirmation); the record links mutant IDH to DSP-0390 susceptibility, so matched, but scope of the requirement is ambiguous."},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Tumour and blood sterol intermediates (lathosterol, zymostenol, lathosterol/zymostenol ratio)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "dsp-0390",
+      "source_quote": {"field": "outcomes", "quote": "L/Z ratio in non-enhancing tumor tissue will be quantified using tissue removed during resection after treatment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 window-of-opportunity trial (translational subset). Glioblastoma is never named; conditions and summary define an IDH-mutant glioma population. Arm B allows newly diagnosed suspected HGG/grade IV glioma, so flagged uncertain for S5. Arm labels contain a colon; full label before the description was copied ('Arm A Low Grade Gliomas: DSP-0390 120 mg'). Registered arms list no linked interventions, but both arms give DSP-0390. Two non-control experimental arms differing by grade/dose, so control_arm_from_other_arms = no. DSP-0390 described in drug_class_hint from general knowledge (EBP inhibitor); record only states cholesterol metabolism."
+}

@@ -1,0 +1,101 @@
+{
+  "nct_id": "NCT04221061",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants will have a diagnosis of glioblastoma and be enrolled in the companion treatment trial, IRB 832694."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "18F-FluorThanatrace is a novel radiopharmaceutical which measure PARP-1 expression using a Positron Emission Tomography (PET/CT) scan."},
+      {"field": "brief_summary", "quote": "The subject will be a candidate for this imaging study because they have agreed to participate in a treatment study involving TTFields (Optune device), a device that uses low intensity, wave like electrical fields, and a PARP inhibitor drug (niraparib)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "can be used to image sites of recurrent brain cancer before or after new treatment or surgery"},
+      {"field": "outcomes", "quote": "Evaluate uptake of [18F]FTT in recurrent glioblastoma after initiation of TTFields therapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To determine pre-/post-treatment changes in \\[18F\\]FTT uptake after initiation of PARP inhibitor."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FluorThanatrace",
+      "active_moiety": "18f-fluorthanatrace",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "18F-FluorThanatrace is a novel radiopharmaceutical which measure PARP-1 expression using a Positron Emission Tomography (PET/CT) scan."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled PARP-1 PET imaging tracer (FTT, fluorthanatrace); diagnostic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Non-surgical candidates", "Surgical candidates"]
+    },
+    {
+      "agent_name_registered": "niraparib",
+      "active_moiety": "niraparib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "In this arm, subjects that do not have a clinical indication for surgical resection of the recurrent tumor will start TTFields therapy 5-7 days prior to starting oral niraparib (a PARP inhibitor)."},
+        {"field": "eligibility", "quote": "Participants will have a diagnosis of glioblastoma and be enrolled in the companion treatment trial, IRB 832694."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved for ovarian cancer)",
+      "stated_antitumour_mechanism": "PARP inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Non-surgical candidates", "Surgical candidates"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PARP-1 expression (by [18F]FTT PET and pathology)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To correlate PARP expression by pathology testing with uptake of \\[18F\\]FTT in surgical subjects."},
+      "flag": {"uncertain": false},
+      "arms": ["Surgical candidates"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Homologous recombination deficiency (HRD) / BRCAness",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Correlate [18F]FTT uptake measures with Homologous recombination deficiency (HRD) status or other markers of \"BRCAness\"."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-only companion study (Early Phase 1). Only registered intervention is the PET tracer 18F-FluorThanatrace (diagnostic). Niraparib (and TTFields) are given in the companion treatment trial IRB 832694, not as an intervention of this record; niraparib listed as soc_backbone (received by all participants via the companion trial) for transparency. No candidate here. Pre/post-PARPi FTT uptake could be read as PARP target engagement of niraparib, but niraparib is not a candidate in this record, so target_engagement_planned coded no. Niraparib: Surgical cohort initiates it post-operatively; optional post-PARPi scan in Cohort A only."
+}

@@ -1,0 +1,169 @@
+{
+  "nct_id": "NCT06975332",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; High-Grade Gliomas; Grade III Astrocytoma; Grade III Glioma"},
+      {"field": "eligibility", "quote": "histologically confirmed diffuse glioma (CNS WHO G3-G4);"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Local, targeted therapy with alpha emitter \\[225Ac\\]Ac-DOTA-SP (TAT) administered to the post-resection cavity or tumour via Rickham reservoir using induced diffusion."},
+      {"field": "brief_summary", "quote": "The aim of this study is to assess the efficacy and safety of local targeted therapy with \\[225Ac\\]Ac-DOTA-SP in recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Patients included are aged 18-80 with recurrent WHO G3-G4 glioma post-first-line treatment"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "SPECT/CT imaging will follow a quantitative protocol developed at the Nuclear Medicine Department (UCK) based on phantom studies"},
+      {"field": "detailed_description", "quote": "performed to locate the accumulation of the radiopharmaceutical and correct for radiation attenuation"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Local, targeted therapy with alpha emitter [225Ac]Ac-DOTA-SP (TAT)",
+      "active_moiety": "dota-sp",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients with high-grade gliomas (WHO G3-G4) recurrence who are treated with local, targeted therapy with alpha emitter \\[225Ac\\]Ac-DOTA-SP (TAT)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "actinium-225 labelled DOTA-substance P (NK-1 receptor ligand) targeted alpha therapy, intracavitary/intratumoral",
+      "stated_antitumour_mechanism": "binds NK-1 receptors overexpressed on glioma cells; alpha radiation from attached radioisotope",
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-DOTA-SP",
+      "active_moiety": "68ga-dota-sp",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Immediately after administering the therapeutic dose of \\[225Ac\\]Ac-DOTA-SP along with 5-10 MBq of \\[68Ga\\]Ga-DOTA-SP, brain imaging will be performed; acquisition time 1-2 minutes."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled DOTA-substance P PET imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-PSMA",
+      "active_moiety": "68ga-psma",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "PET/CT scan using \\[68Ga\\]Ga-PSMA to indicate the site for biopsy and catheter placement."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 PSMA ligand PET tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "68Ga",
+      "active_moiety": "68ga",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Local administration of 5 MBq of 68Ga in a volume of 1-3 ml."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "unbound gallium-68 for catheter patency imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "mannitol",
+      "active_moiety": "mannitol",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "20-30 minutes before administering \\[225Ac\\]Ac-DOTA-SP, 250 ml of 15% mannitol, 500 ml of 0.9% NaCl, and 8 mg of dexamethasone will be administered intravenously."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "osmotic diuretic (premedication, intracranial pressure/oedema)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "20-30 minutes before administering \\[225Ac\\]Ac-DOTA-SP, 250 ml of 15% mannitol, 500 ml of 0.9% NaCl, and 8 mg of dexamethasone will be administered intravenously."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid premedication",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    },
+    {
+      "agent_name_registered": "saline",
+      "active_moiety": "sodium chloride",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "It seems that enhanced diffusion could be achieved by employing forced diffusion via a slow infusion of 0.5 ml/hour of saline into the cavity immediately after administering the radiopharmaceutical."}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "0.9% saline intracavitary infusion for forced diffusion of the radiopharmaceutical",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High-grade glioma recurrence treated with alpha emitter [225Ac]Ac-DOTA-SP (TAT)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA (excluded at S3 by script) but coded fully. Radiopharmaceutical registered as Radiation; moiety per W1 is the ligand without isotope (dota-sp, a DOTA-conjugated substance P derivative), isotope 225Ac in drug_class_hint. Delivered intracavitary via Rickham reservoir catheter: coded new_route; device_dependent false since the catheter is a route rather than device activation (adjudicator may differ). Chemotherapy 'may be continued' per oncologist (optional, not listed); regimen coded monotherapy. Diagnostic 68Ga agents, mannitol/dexamethasone premedication and intracavitary saline (stated purpose: forced diffusion) listed for transparency; IV NaCl premedication not listed separately. Quantitative SPECT/CT of radiopharmaceutical distribution in the cavity/brain coded as tumour PK yes. NK-1 receptor expression appears only as rationale, not a requirement or planned measurement; no biomarkers. Primary endpoint per outcomes is clinical progression, though description says OS."
+}

@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT04094610",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Locally Advanced Solid Tumors; Metastatic Solid Tumors; Lymphoma; Primary CNS Tumors"},
+      {"field": "eligibility", "quote": "Cohort 1: Subjects with NTRK fusion gene positive (NTRK+) advanced solid tumors (including primary CNS tumors), that are tropomyosin receptor kinase (TRK) TKI naïve;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Oral repotrectinib (TPX-0005)"},
+      {"field": "title", "quote": "A Study of Repotrectinib in Pediatric and Young Adult Subjects Harboring ALK, ROS1, OR NTRK1-3 Alterations"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "with disease progression or who are non-responsive or intolerant to available therapies and for which no standard or available curative therapy exists."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum concentration of repotrectinib in plasma (Cmax): To determine the Cmax"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Oral repotrectinib (TPX-0005)",
+      "active_moiety": "repotrectinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Repotrectinib (TPX-0005): Phase 1"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational ROS1/TRK/ALK tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Repotrectinib (TPX-0005)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "NTRK",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "repotrectinib",
+      "source_quote": {"field": "eligibility", "quote": "Documented genetic ROS1 point mutation, fusion, or amplification or NTRK1-3 fusion as identified by local testing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ROS1",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "repotrectinib",
+      "source_quote": {"field": "eligibility", "quote": "Documented genetic ROS1 point mutation, fusion, or amplification or NTRK1-3 fusion as identified by local testing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ALK",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "repotrectinib",
+      "source_quote": {"field": "brief_summary", "quote": "Phase 1 will evaluate the safety and tolerability at different dose levels of repotrectinib in pediatric and young adult subjects with advanced or metastatic malignancies harboring anaplastic lymphoma kinase (ALK)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Pan-cancer paediatric/young adult (<12 y Phase 1, 12-25 y Phase 2) trial. Glioblastoma appears only in the keywords; the conditions, title, inclusion criteria and arm label name only 'primary CNS tumors', so under C7/D27B glioblastoma is not named and the population is coded not_glioblastoma. If an adjudicator accepts keywords, it would be basket_gbm_eligible. ALK is named in the title/summary but the eligibility criteria list ROS1 and NTRK (current amendment ROS1 only for cohort 3)."
+}

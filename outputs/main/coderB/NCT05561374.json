@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT05561374",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-grade Glioma; Oligodendroglioma; Astrocytoma; Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "investigate tolerability, safety and PK properties of oral OKN-007 in patients with recurrent high-grade glioma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Confirmed recurrent gliomas that were originally diagnosed as high-grade glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic profile: Maximum plasma concentration (Cmax)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "OKN-007",
+      "active_moiety": "okn-007",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "administered the study drug OKN-007 orally daily in 28-day cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral agent (OKN-007)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Low-dose OKN-007, two times a day (BID)",
+        "Low-dose OKN-007, three times a day (TID)",
+        "Mid-dose OKN-007, three times a day (TID)",
+        "High-dose OKN-007, three times a day (TID)"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Dose-escalation cohorts of one drug; the four registered intervention entries are collapsed into one agent row. PK is plasma only (Cmax, Tmax, AUC, t1/2). Eligibility refers to histology 'or molecular studies' without naming a specific biomarker, so none coded. No IDH requirement and grade 3/4 astrocytoma and oligodendroglioma allowed, so historical terminology."
+}

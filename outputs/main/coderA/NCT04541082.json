@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT04541082",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Central Nervous System Neoplasms; Glioblastoma; Gliosarcoma, Adult; Anaplastic Oligodendroglioma; Anaplastic Astrocytoma"},
+      {"field": "eligibility", "quote": "Primary CNS neoplasms in this study include, but are not limited to, the following: glioblastoma and glioblastoma histologic subtypes, gliosarcoma, primary CNS sarcomas"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ONC206 is a member of the imipridone class of anti-cancer small molecules that share a unique tri-heterocyclic core chemical structure and target G protein-coupled receptors."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] ONC206:  (interventions: Drug: ONC206)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients aged ≥18 years with a recurrent, primary CNS neoplasm."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "After Protocol Amendment 6, all available PK data will also be considered for dose escalation decisions."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ONC206",
+      "active_moiety": "onc206",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] ONC206:  (interventions: Drug: ONC206)"},
+        {"field": "brief_summary", "quote": "single-agent, oral ONC206 in patients with recurrent, primary central nervous system (CNS) neoplasms"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational imipridone small molecule (ONC206), GPCR-targeting, related to ONC201",
+      "stated_antitumour_mechanism": "imipridone class anti-cancer small molecule targeting G protein-coupled receptors",
+      "flag": {"uncertain": false},
+      "arms": ["ONC206"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Mixed primary CNS neoplasm trial; glioblastoma named in conditions and inclusion. PK is planned (PK data used for dose escalation) but sample type not stated, so tumour_pk_planned = unclear. Archival tumour specimen required for unspecified 'biomarker assays' (no linked endpoint) -> target engagement coded no. H3 K27M-mutant diffuse gliomas are conditionally excluded (not an entry requirement), so not recorded as a biomarker."
+}

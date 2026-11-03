@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT05590689",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrence of supratentorial glioblastoma after initial resection and adjuvant therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "the drug is being tested outside of its actual approval as a radiosensitizer in combination with conventional radiotherapy for first-time recurrence (relapse) of malignant glioma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrence of supratentorial glioblastoma after initial resection and adjuvant therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "concentration changes of immunhistochemistry marker (e.g. Caspase-3, IBA1, H&E, EvG, P53, Ki 67, gammaH2AX): analytic results of pharma-radio-dynamic tissue changes."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gliolan (5-Aminolevulinic acid)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A repetitive dose of Gliolan will be administrated in combination with radiotherapy (radiodynamic therapy)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "photosensitiser prodrug (protoporphyrin IX precursor), used here as radiosensitiser",
+      "stated_antitumour_mechanism": "radiosensitizer in combination with conventional radiotherapy (radiodynamic therapy)",
+      "flag": {"uncertain": false},
+      "arms": ["Radiodynamic therapy (RDT)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tissue immunohistochemistry markers (Caspase-3, IBA1, P53, Ki 67, gammaH2AX)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "concentration changes of immunhistochemistry marker (e.g. Caspase-3, IBA1, H&E, EvG, P53, Ki 67, gammaH2AX)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "5-ALA is used repeatedly as a radiosensitiser with re-irradiation (radiodynamic therapy), not for fluorescence-guided resection, so it is a candidate. device_dependent coded false because the activation is by radiotherapy rather than a light/ultrasound device (manual lists photodynamic/sonodynamic/laser); adjudicator may disagree. Single registered arm covers all dose-escalation cohorts. MGMT is mentioned only as not required."
+}

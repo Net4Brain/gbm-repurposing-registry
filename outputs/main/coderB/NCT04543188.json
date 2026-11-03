@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04543188",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Melanoma; Carcinoma, Non-Small-Cell Lung; Brain Neoplasms, Primary; Brain Neoplasms; Malignant Neoplasms"},
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of advanced/metastatic solid tumor including primary brain tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named in conditions, title, inclusion criteria or arm labels, but outcomes refer to glioblastoma participants (RANO response), so a GBM cohort is implied."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "First-in-human study to assess safety, tolerability, PK, and preliminary activity of PF-07284890 as a single agent and in combination with binimetinib"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Disease progression despite prior treatment and no acceptable alternative treatment options available unless specified below"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["binimetinib"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Area Under the Plasma Concentration Time Curve From Time Zero to the Last Time Point of Quantifiable Concentration (AUClast) of PF-07284890 and Binimetinib for Single Dose"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PF-07284890 (other names: ARRY-461)",
+      "active_moiety": "pf-07284890",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "PF-07284890 as a single agent and in combination with binimetinib"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational brain-penetrant BRAF V600 inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PF-07284890 (Part A monotherapy)", "PF-07284890+binimetinib (Part A combo-therapy)", "Expansion Phase (Part B, Cohort 1)", "Expansion Phase (Part B, Cohort 2)", "Expansion Phase (Part B, Cohort 3)", "Expansion Phase (Part B, Cohort 4)", "Expansion Phase (Part B Cohort 5)", "Expansion Phase Drug-Drug Interaction Substudy (Part B Optional Cohort 6)", "Expansion Phase (Part B Optional Cohort 7)"]
+    },
+    {
+      "agent_name_registered": "Binimetinib (other names: Mektovi)",
+      "active_moiety": "binimetinib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Binimetinib will be administered together with PF-07284890 orally, 45mg twice daily"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MEK inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PF-07284890+binimetinib (Part A combo-therapy)", "Expansion Phase (Part B, Cohort 1)", "Expansion Phase (Part B, Cohort 2)", "Expansion Phase (Part B, Cohort 3)", "Expansion Phase (Part B, Cohort 4)", "Expansion Phase (Part B Cohort 5)", "Expansion Phase Drug-Drug Interaction Substudy (Part B Optional Cohort 6)", "Expansion Phase (Part B Optional Cohort 7)"]
+    },
+    {
+      "agent_name_registered": "Midazolam",
+      "active_moiety": "midazolam",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "PF-07284890 (at recommended dose from Part A) plus binimetinib plus midazolam in participants with BRAF V600 solid tumor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "benzodiazepine used as CYP3A probe substrate in the drug-drug interaction substudy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Expansion Phase Drug-Drug Interaction Substudy (Part B Optional Cohort 6)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "pf-07284890",
+      "source_quote": {"field": "eligibility", "quote": "Documented evidence of a BRAF V600 mutation in tumor tissue or blood"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket phase 1a/b in BRAF V600 solid tumours (melanoma, NSCLC, primary brain tumours). Glioblastoma is not named in the permitted fields (conditions list Brain Neoplasms, Primary; cohort 5 allows primary brain tumors); the only GBM mention is the RANO outcome text ('glioblastoma participants'), so coded not_glioblastoma and flagged uncertain. Binimetinib is a licensed MEK inhibitor but is a dose-escalated partner in the investigational combination, so both agents are experimental_combination (PF-07284890 is also given alone in Part A). Midazolam is a DDI probe drug, coded supportive."
+}

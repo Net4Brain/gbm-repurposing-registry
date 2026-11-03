@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT06780592",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed GBM (WHO grade 4) patients with maximal surgical resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Vebreltinib + Temozolomide: Participants received Vebreltinib (300 mg Bid) in combination with Temozolomide (150 mg/m2) treatment, every 4 weeks for up to 6 cycles (Induction)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed GBM (WHO grade 4) patients with maximal surgical resection"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Vebreltinib",
+      "active_moiety": "vebreltinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Vebreltinib + Temozolomide: Vebreltinib is a capsule in the form of 25 mg and 100mg, twice daily."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MET tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": "MET-TKI",
+      "flag": {"uncertain": false},
+      "arms": ["Vebreltinib + Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Temozolomide: Participants received Temozolomide (150 mg/m2) treatment, every 4 weeks for up to 6 cycles (Induction)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard-of-care glioblastoma chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Vebreltinib + Temozolomide", "Temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MET",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "vebreltinib",
+      "source_quote": {"field": "eligibility", "quote": "c-MET overexpression diagnosed by IHC"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is given equally in both arms (backbone). Vebreltinib described as MET-TKI in brief summary."
+}

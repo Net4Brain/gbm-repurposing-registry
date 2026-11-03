@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT04577157",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Medication Adherence; Adherence, Treatment"},
+      {"field": "brief_summary", "quote": "Graphic based Messages(GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] mHealth using\"WhatsApp\" multifaceted educational and reminder module intervention to improve adherence"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural mHealth adherence trial in essential hypertension (Pakistan). 'GBM' here means Graphic based Messages, not glioblastoma. No drug interventions; background antihypertensive medication is unspecified and not a registered intervention."
+}

@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04450160",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histopathologic diagnosis of glioblastoma multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "an orally active drug candidate which in animal studies has demonstrated decreased tumor growth rate and increased survival"},
+      {"field": "interventions", "quote": "Oral supplementation with AEO along with the Standard of Care (Temozolomide)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "AEO is described as oral supplementation (possible unlicensed supplement, excluded type) but registered as a Drug and called a drug candidate with an antitumour hypothesis."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 2, Randomized, Open-Label Study of Anhydrous Enol-Oxaloacetate in Subjects With Newly Diagnosed Glioblastoma Multiforme"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anhydrous Enol-Oxaloacetate (AEO)",
+      "active_moiety": "oxaloacetic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Anhydrous Enol-Oxaloacetate added to the Standard of Care (surgery, radiation and chemotherapy with temozolomide)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral oxaloacetate (metabolite, supplement-like) candidate",
+      "stated_antitumour_mechanism": "reversing the Warburg Effect, reducing glycolysis and lactate production",
+      "flag": {"uncertain": true, "reason": "Possible unlicensed supplement (excluded type) vs investigational drug candidate."},
+      "arms": ["AEO with Standard of Care"]
+    },
+    {
+      "agent_name_registered": "Standard of Care (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Standard of Care Temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard of Care", "AEO with Standard of Care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "AEO status is the main doubt: record says 'Oral supplementation' but registers it as Drug and calls it an orally active drug candidate with a stated antitumour (metabolic) rationale; coded as candidate, flagged uncertain. Anti-epileptic drugs are mentioned only as permitted concomitant medication and are not listed. Control arm is the registered PLACEBO_COMPARATOR (standard of care alone, no placebo described)."
+}

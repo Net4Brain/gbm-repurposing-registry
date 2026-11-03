@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04943913",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Histologically diagnosed as primary/relapsed/metastasized brain glioma;"},
+      {"field": "brief_summary", "quote": "This study is to investigate the safety and efficacy of tumor infiltrating lymphocyte (TIL) therapy in patients with malignant glioma ."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Tumor Infiltrating Lymphocytes (TIL): Adoptive transfer of 1x10\\^9-5x10\\^10 autologous TILs to patients i.v. in 30-120 minutes."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Test subjects have failed standard treatment regimens, or there are no standard treatment regimens available."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tumor Infiltrating Lymphocytes (TIL)",
+      "active_moiety": "tumour-infiltrating lymphocytes",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "1x10\\^9-5x10\\^10 in vitro expanded autologous TILs will be infused i.v. to patients with brain glioma after NMA lymphodepletion treatment with hydroxychloroquine(600mg,single-dose) and cyclophosphamide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "GC101 TIL, autologous tumour-infiltrating lymphocyte cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    },
+    {
+      "agent_name_registered": "hydroxychloroquine",
+      "active_moiety": "hydroxychloroquine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Autologous TILs are expanded from tumor resections and infused i.v. into the patient after NMA lymphodepletion treatment with hydroxychloroquine(600mg,single-dose) and cyclophosphamide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "NMA lymphodepletion",
+      "drug_class_hint": "antimalarial (aminoquinoline), part of lymphodepletion regimen",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    },
+    {
+      "agent_name_registered": "cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Autologous TILs are expanded from tumor resections and infused i.v. into the patient after NMA lymphodepletion treatment with hydroxychloroquine(600mg,single-dose) and cyclophosphamide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "NMA lymphodepletion",
+      "drug_class_hint": "alkylating agent used for lymphodepletion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "EARLY_PHASE1 record. Glioblastoma is not named anywhere (conditions 'Glioma'; 'malignant glioma'/'brain glioma'), so high_grade_glioma_unspecified -> not_glioblastoma. Intervention is TIL cell therapy (excluded type). Hydroxychloroquine and cyclophosphamide are given as non-myeloablative lymphodepletion before TIL, coded supportive (R6); hydroxychloroquine as a lymphodepleting agent is unusual but that is what the record states. Inclusion allows primary/relapsed disease but requires failure of standard treatment, so coded recurrent."
+}

@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT06665724",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anaplastic Astrocytoma (AA); Anaplastic Oligodendroglioma (AO); Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Patients with cranial MRI displaying typical features of high-grade glioma on imaging or histologically proven high-grade glioma including GBM, anaplastic astrocytoma (AA), anaplastic oligodendroglioma (AO)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients will receive sonodynamic therapy (5 ALA combined with CV01-delivered sonication) 2 to 5 days prior to standard resection."},
+      {"field": "brief_summary", "quote": "This trial is designed to evaluate safety and explore possible efficacy of 5-aminolevulinic acid hydrochloride (5-ALA HCl, Gliolan®) with CV01 delivery of ultrasound for sonodynamic therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Patients With Newly Diagnosed High-Grade Glioma (HGG) Prior to Resection and Standard Adjuvant Therapy"},
+      {"field": "eligibility", "quote": "No previous tumor specific treatment such as surgery (apart from biopsy), radio- or chemotherapy, antiangiogenic or immunotherapy."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Histopathological efficacy: Anti-tumor activity assessed by Number of cells / mm³ with antibodies against IBA1 and Number of cells / mm³ with antibodies against Caspase III"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-Aminolevulinic acid Hydrochloride (Gliolan®)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Sonodynamic Therapy (SDT): Patients will receive sonodynamic therapy (5 ALA combined with CV01-delivered sonication) 2 to 5 days prior to standard resection."},
+        {"field": "interventions", "quote": "Patients will receive 5-Aminolevulinic acid hydrochloride via oral administration (20 mg/kg) 6-8 hours before CV01 treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor / photosensitiser prodrug (protoporphyrin IX), used here as sonosensitiser for sonodynamic therapy",
+      "stated_antitumour_mechanism": "sonodynamic therapy (5-ALA combined with ultrasound sonication)",
+      "flag": {"uncertain": false},
+      "arms": ["Sonodynamic Therapy (SDT)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IBA1 and cleaved caspase III immunohistochemistry in resected tumour (histopathological response to SDT)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Histopathological efficacy: Anti-tumor activity assessed by Number of cells / mm³ with antibodies against IBA1 and Number of cells / mm³ with antibodies against Caspase III"},
+      "flag": {"uncertain": false},
+      "arms": ["Sonodynamic Therapy (SDT)"]
+    }
+  ],
+  "coder_notes": "5-ALA sonodynamic therapy with CV01 ultrasound device -> candidate, device_dependent true (device not listed as agent). SDT given before resection; standard radio-/chemotherapy follows resection but no drug is named and the experimental arm describes SDT only, so regimen coded monotherapy; an adjudicator may consider 'combination' because standard adjuvant radio-/chemotherapy follows. Temozolomide not named, so not listed. Target engagement coded yes on post-SDT tumour histopathology (IBA1, caspase III) in the resected specimen."
+}

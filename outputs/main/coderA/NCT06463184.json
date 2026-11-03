@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT06463184",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patient must have histologically confirmed diagnosis of: WHO grade III or IV glioma or glioblastoma or gliosarcoma. This definition also includes anaplastic astrocytoma, anaplastic oligodendroglioma, and anaplastic mixed glioma."},
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Xevinapant is an investigational medication, taken orally, that promotes cancer cell death via apoptosis."},
+      {"field": "brief_summary", "quote": "Researchers will investigate the ability of Xevinapant to cross the blood-brain barrier and exert anti-tumor effects on rHGG through activation of apoptosis."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiographic evidence of tumor recurrence."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Concentration of unbound Xevinapant in brain tumor tissue in an exploratory manner (within contrast enhancing tumor as well as non-enhancing tumor, wherever possible) at the time of planned salvage resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "Researchers hypothesize that oral administration of Xevinapant has acceptable safety and tolerability in patients with recurrent HGG and demonstrate pharmacokinetic and pharmacodynamic effects in HGG tumors."},
+      {"field": "eligibility", "quote": "We will enroll at least 4-6 subjects with archival tissue for biomarker/PD studies."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Xevinapant",
+      "active_moiety": "xevinapant",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will be given a course of orally administered Xevinapant at 400 mg once daily for 4 consecutive days, prior to undergoing clinically indicated tumor resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral IAP antagonist / SMAC mimetic (Debio 1143)",
+      "stated_antitumour_mechanism": "promotes cancer cell death via apoptosis (activation of apoptosis)",
+      "flag": {"uncertain": false},
+      "arms": ["Xevinapant Treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Window-of-opportunity phase 1 with tumour tissue PK (unbound drug in resected tumour) and stated pharmacodynamic objective in tumour with archival paired tissue -> target engagement yes. No specific tumour molecular biomarker named. Eligibility uses WHO grade III/IV terminology and lists glioblastoma/gliosarcoma explicitly -> historical."
+}

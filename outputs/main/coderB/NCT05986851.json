@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05986851",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically proven diagnosis of IDH-wildtype glioblastoma (GBM, WHO grade 4) according to the 2021 WHO classification (including subtypes such as gliosarcoma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Azeliragon to be administered once daily for several days before, during, and after radiation therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "The study to be conducted is a phase 2 study in newly diagnosed \"unmethylated\" glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon",
+      "active_moiety": "azeliragon",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "this study will combine daily oral azeliragon with radiation treatment, followed by continued administration of azeliragon after completion of radiation therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "RAGE (receptor for advanced glycation end products) antagonist, previously developed for Alzheimer's disease",
+      "stated_antitumour_mechanism": "may enhance the effectiveness of radiation, as well as have a delaying effect on disease progression",
+      "flag": {"uncertain": false},
+      "arms": ["Daily oral azeliragon"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter methylation is negative based on local CLIA-certified commercial laboratory tests."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histopathologically proven diagnosis of IDH-wildtype glioblastoma (GBM, WHO grade 4) according to the 2021 WHO classification (including subtypes such as gliosarcoma)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Radiotherapy is not listed as an agent. Single-arm trial; unmethylated MGMT is an entry requirement but not linked to azeliragon mechanism, so not candidate-matched."
+}

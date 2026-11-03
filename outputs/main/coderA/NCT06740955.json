@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT06740955",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma confirmed by histopathology or molecular pathology;"},
+      {"field": "conditions", "quote": "Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to evaluate the efficacy and safety of hypofractionated concurrent radiotherapy followed by sequential temozolomide after surgery in patients with newly diagnosed glioblastoma."},
+      {"field": "arms", "quote": "The experimental group received hypofractionated radiotherapy with a total dose of 52.5Gy, 3.5 Gy/ fraction, 15 fractions, 5 fractions per week, and temozolomide was given for 21 days."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma confirmed by histopathology or molecular pathology;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "The experimental group received hypofractionated radiotherapy with a total dose of 52.5Gy, 3.5 Gy/ fraction, 15 fractions, 5 fractions per week, and temozolomide was given for 21 days."},
+        {"field": "arms", "quote": "The control group received conventional fractionated radiotherapy with a dose of 60Gy, 2Gy per fraction, 30 fractions, 5 fractions per week, and temozolomide was given for a total of 42 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental group", "Control group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "MGMT promoter methylation expression (positive or negative)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Radiotherapy fractionation trial (Phase NA); temozolomide is not a registered intervention but is given in both arms. Its concurrent schedule differs between arms (21 vs 42 days, following the RT course), so per R2 coded established_therapy_experiment; soc_backbone would also be defensible. Either way no candidate (S6 fails). Control group arm is type OTHER and receives existing standard treatment -> control_arm_from_other_arms yes. Arm labels taken as 'Experimental group' and 'Control group' (text before the colon)."
+}

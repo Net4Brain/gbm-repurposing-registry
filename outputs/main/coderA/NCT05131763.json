@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT05131763",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Hepatocellular Carcinoma; Glioblastoma; Medulloblastoma; Colon Cancer"},
+      {"field": "title", "quote": "NKG2D-based CAR T-cells Immunotherapy for Patient With r/r NKG2DL+ Solid Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] NKG2D-based CAR T-cells: Autologous genetically modified anti-NKG2DLs CAR transduced T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in the treatment of relapsed/refractory NKG2DL+ solid tumors"},
+      {"field": "eligibility", "quote": "Fail or unwilling to receive first-line treatment"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NKG2D-based CAR T-cells",
+      "active_moiety": "nkg2d car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] NKG2D-based CAR T-cells: Autologous genetically modified anti-NKG2DLs CAR transduced T cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous NKG2D-based CAR-T cell therapy (cell therapy, excluded type)",
+      "stated_antitumour_mechanism": "NKG2D-based CAR-T cells showed strong cytotoxicity against NKG2DL+ cell lines",
+      "flag": {"uncertain": false},
+      "arms": ["KD-025"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "NKG2D ligand (NKG2DL) positivity",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient with NKG2DL+ cell tumors confirmed by pathology and histology"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Glioblastoma named in conditions of a multi-tumour CAR-T basket. The only intervention is a CAR-T cell therapy (excluded type), so no pharmacological candidate. NKG2DL+ selection matches the CAR-T but the CAR-T is not a candidate, so candidate_matched false. Arm label taken as 'KD-025'. Mixed age not applicable (adult only)."
+}

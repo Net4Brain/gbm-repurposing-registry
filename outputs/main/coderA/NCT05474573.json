@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05474573",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; Metastases to Brain"},
+      {"field": "eligibility", "quote": "single high-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The objective of the study is to determine whether the combined use of intraoperative fluorescence with 5-aminolevulinic acid (5-ALA) and sonography can achieve a higher rate of gross total resection"},
+      {"field": "interventions", "quote": "Surgeon intraoperatively assesses extent of tumor resection observing it's fluorescence in microscope and performing sonography"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "newly diagnosed"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-aminolevulinic acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "intraoperative use of 5-aminolevulinic acid induced fluorescence."},
+        {"field": "arms", "quote": "Extent of tumor resection will be intraoperatively assessed using fluorescence with 5-aminolevulinic acid"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence agent for fluorescence-guided resection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Fluorescence and Ultrasound", "Fluorescence"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA surgical/imaging-guidance trial; registered interventions are devices only. Glioblastoma is not named anywhere (only 'high-grade glioma' and 'Glioma, Malignant'), plus brain metastases. 5-ALA is not a registered intervention but every patient receives it for fluorescence-guided resection, so listed as diagnostic_agent."
+}

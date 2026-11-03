@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT07604285",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wildtype and MGMT methylated GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "MT-125 is a potent, selective, and central nervous system (CNS) permeable dual small molecule inhibitor of the non-muscle myosin II (NMII) paralogs, IIA and IIB."},
+      {"field": "interventions", "quote": "This is an investigational new drug under IND 170975."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wildtype and MGMT methylated GBM."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Area under the plasma concentration-time curve over the last 24 hour dosing interval."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT-125",
+      "active_moiety": "mt-125",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Here we will evaluate MT-125 as a monotherapy in a Phase 1/2 trial (NOVA-GBM) in newly diagnosed IDH wildtype / MGMT methylated GBM with standard of care RT and TMZ, following the standard chemoradiation treatment regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational small-molecule dual non-muscle myosin IIA/IIB inhibitor (MT-125)",
+      "stated_antitumour_mechanism": "dual inhibition of non-muscle myosin II paralogs IIA and IIB, interfering with tumour cell proliferation and invasion and generating reactive oxygen species",
+      "flag": {"uncertain": false},
+      "arms": ["MT-125 at 25 mg", "MT-125 at 50 mg", "MT-125 at 83.5 mg", "MT-125 at 100 mg", "MT-125 at MTD and one dose lower than MTD"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Up to 6 participants will receive 25 mg of MT-125 for 5 days then off for 2 days for a total of 6 weeks in combination of RT plus TMZ"},
+        {"field": "detailed_description", "quote": "The current well-known standard of care for newly diagnosed GBM is maximal safe surgical resection followed by concurrent RT with temozolomide (TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care for glioblastoma",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT-125 at 25 mg", "MT-125 at 50 mg", "MT-125 at 83.5 mg", "MT-125 at 100 mg", "MT-125 at MTD and one dose lower than MTD"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wildtype and MGMT methylated GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wildtype and MGMT methylated GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is not a registered intervention but every arm receives RT plus TMZ (standard chemoradiation), so listed as soc_backbone. Randomised expansion compares two MT-125 dose levels; no control arm. Only plasma PK planned. MGMT methylation required (linked to TMZ backbone, not candidate-matched)."
+}

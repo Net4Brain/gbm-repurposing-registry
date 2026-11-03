@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT04967690",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Suspected primary, newly diagnosed supratentorial GBM (Grade IV glioma per WHO guidelines)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "SI-053 is a novel powder formulation containing temozolomide (TMZ), an alkylating chemotherapy agent, in an excipient which forms a viscous gel upon reconstitution in water."},
+      {"field": "interventions", "quote": "SI-053 will be applied intracranially (i.c.) into the cavity that is formed after tumor resection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Determination of plasma concentration of TMZ and its metabolite 5-amino-1H-imidazole-4-carboxamide (AIC) and PK parameters"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SI-053",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "SI-053 is a novel powder formulation containing temozolomide (TMZ), an alkylating chemotherapy agent, in an excipient which forms a viscous gel upon reconstitution in water."},
+        {"field": "arms", "quote": "Subjects will receive a single i.c. dose of room-tempered SI-053 gel, which will be applied onto the walls of the cavity formed after tumor resection using a sterile spatula."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "intracavitary gel formulation of temozolomide (SI-053), alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SI-053"]
+    },
+    {
+      "agent_name_registered": "TMZ (standard of care chemoradiotherapy)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "SoC consists of maximal safe resection followed by radiation therapy (RT) with concomitant TMZ and adjuvant chemotherapy with TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SI-053"]
+    },
+    {
+      "agent_name_registered": "lomustine (CeTeG protocol)",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "For MGMT promoter methylated GBM, lomustine and TMZ may be administered plus radiation therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SI-053"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "SI-053 is a temozolomide gel applied into the resection cavity; temozolomide is an established GBM therapy (D6) tested in a new formulation/route, so rule 6 (established_therapy_experiment) applies and the trial has no candidate. Formulation is both new formulation and new route (intracavitary); coded new_route. Background SoC TMZ/RT (or CeTeG lomustine+TMZ at investigator choice for MGMT-methylated tumours) follows SI-053; lomustine is optional, not given to every patient. MGMT appears only in the choice of SoC backbone, not as an entry, cohort or stratification requirement, so no biomarker row. PK is plasma only."
+}

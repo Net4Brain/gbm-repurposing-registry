@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04809805",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants with histologically confirmed diagnosis of melanoma, glioblastoma/anaplastic astrocytoma, sarcoma or epithelial ovarian cancer/fallopian tube/primary peritoneal cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BAY2666605: One oral solution strength of BAY2666605 will be used."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Documented radiological disease progression after treatment with all available standard of care therapies for advanced/metastatic disease and at least one measurable lesion"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "Pharmacokinetics, Pharmacodynamics and Tumor Response Profile of Schlafen12 Complex Inducer (SLFN12 ci) BAY 2666605"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BAY2666605",
+      "active_moiety": "bay2666605",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive BAY 2666605 at the dose and regimen declared safe in the dose escalation part."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational SLFN12-PDE3A complex inducer (molecular glue)",
+      "stated_antitumour_mechanism": "BAY2666605 triggers the formation of a complex of two proteins called SLFN12 and PDE3A. This complex drive cancer cells into cell death by a mechanism called apoptosis.",
+      "flag": {"uncertain": false},
+      "arms": ["Dose escalation of BAY2666605", "Dose expansion of BAY2666605"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "SLFN12/PDE3A expression",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "bay2666605",
+      "source_quote": {"field": "eligibility", "quote": "Positive SLFN12/PDE3A expression in archival tumour"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket trial (melanoma, glioblastoma/anaplastic astrocytoma, sarcoma, ovarian cancer) with glioblastoma named in inclusion criteria. Pharmacodynamics is named in the official title but no PD endpoint or sample type is listed in the outcomes, so target engagement unclear."
+}

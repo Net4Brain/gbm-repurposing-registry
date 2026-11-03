@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05333588",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme, Adult"},
+      {"field": "title", "quote": "The Safety Study of Autologous TILs Therapy for Patients With Glioblastoma Multiforme."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Tumor Infiltrating Lymphocytes (TIL) (other names: TILs): The autologous TILs will be intravenous infused into patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients With Advanced Stage of Glioblastoma Multiforme."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tumor Infiltrating Lymphocytes (TIL)",
+      "active_moiety": "tumour-infiltrating lymphocytes",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "1x10\\^9-5x10\\^10 of autologous TILs will be adoptive transfer to patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous adoptive cell therapy (TIL)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor infiltrating lymphocyte"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Official title mentions 'Combined With Conventional Chemotherapy' and the summary mentions 5 days of lymphodepletion, but no chemotherapy drug is named or registered, so no agent row was added; any lymphodepleting chemotherapy would be supportive (R6). 'Advanced stage' coded recurrent per C10, though eligibility does not state prior therapy."
+}

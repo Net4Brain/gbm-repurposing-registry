@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT07609472",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma (WHO III-IV)"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype (CNS WHO Grade 4)"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant (CNS WHO Grade 3 or 4)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "FG001 is an investigational optical imaging agent administered as a single intravenous dose prior to neurosurgical tumor resection to support intraoperative visualization of malignant tissue under near-infrared fluorescence guidance."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior tumor-specific treatment, including surgery, chemotherapy, radiotherapy, or investigational therapy (i.e., newly diagnosed, treatment-naïve HGG)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FG001",
+      "active_moiety": "fg001",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "FG001 is an investigational optical imaging agent administered as a single dose prior to neurosurgery to support intraoperative visualization of malignant tissue under near-infrared fluorescence guidance."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational near-infrared fluorescent optical imaging agent (FG001) for fluorescence-guided resection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["FG001 Intraoperative Imaging"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Day 0 (±12 hours): Laboratory assessments, tumor characterization labs (including IDH and MGMT), and adverse events"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Day 0 (±12 hours): Laboratory assessments, tumor characterization labs (including IDH and MGMT), and adverse events"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic-only trial: FG001 is an optical imaging agent for NIR fluorescence-guided resection, so no candidate (S6 = no_pharmacological_candidate). Population mixes WHO CNS5 grade 3/4 gliomas including glioblastoma, IDH-wildtype. Note internal inconsistency: inclusion lists IDH-mutant astrocytoma/oligodendroglioma as eligible but exclusion 19a lists IDH-mutant tumours as screen failures. IDH not coded as an eligibility requirement because IDH-mutant histologies are listed as eligible in inclusion. Temozolomide is mentioned only as follow-up compliance (not a registered or protocol-given intervention) and is not listed (R9). 'PK analysis' concerns the diagnostic agent, not a candidate."
+}

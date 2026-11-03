@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05082493",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "eligibility", "quote": "Patients must have progressive, refractory, or recurrent HGG (WHO Grade III or IV)."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "'HGG (WHO Grade III or IV)' without IDH requirement: grade IV glioma could be read as historical glioblastoma (D27C), which would make this mixed_glioma_gbm_named"},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a Phase 1, multicenter, open-label, dose escalation study of intravenous Berubicin in pediatric patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have progressive, refractory, or recurrent HGG (WHO Grade III or IV)."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this first-in-pediatrics study is to examine the safety, tolerability, and PK of Berubicin"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Berubicin Hydrochloride",
+      "active_moiety": "berubicin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "To estimate the maximum tolerated dose (MTD) and/or the recommended Phase 2 dose (RP2D) of single-agent Berubicin administered after at least 1 prior line of therapy in pediatric patients with progressive, refractory, or recurrent HGG."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anthracycline (topoisomerase II inhibitor), BBB-penetrant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Berubicin HCL - MTD phase"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric trial: inclusion requires age >=2 to <18 years, although registry stdAges lists CHILD and ADULT (S4 is coded by script; the population is effectively paediatric only). Glioblastoma is never named; only 'HGG (WHO Grade III or IV)'. cns5_terminology historical because of WHO grade III/IV glioma without IDH reference. PK is planned but the sample type is not stated (population PK model), so tumour_pk_planned unclear."
+}

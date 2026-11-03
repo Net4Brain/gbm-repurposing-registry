@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT04218019",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma in Patients ≥70 Years"},
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed glioblastoma (astrocytoma WHO grade IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] TTFields: The NovoTTF-200 A device used in this trial delivers very low intensity, alternating electric fields to the tumor site through the scalp."},
+      {"field": "arms", "quote": "Chemoradiotherapy with temozolomide and hypofractionated radiotherapy is regarded as standard therapy and not part of the intervention."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma in Patients ≥70 Years"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Chemoradiotherapy with temozolomide and hypofractionated radiotherapy is regarded as standard therapy and not part of the intervention."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Early Tumor Treating Fields (TTFields, Optune®) treatment",
+        "Late TTF treatment"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Device-only trial (TTFields timing); registered phase NA. Temozolomide is not a registered intervention and is given optionally per physician decision (\"with or without Temozolomide\"); listed as soc_backbone for transparency only. Antiemetics/infection prophylaxis mentioned at investigator discretion, not listed. Age >65 in eligibility vs >=70 in conditions."
+}

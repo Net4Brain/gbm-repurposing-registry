@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT07416188",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Tissue-based diagnosis of recurrent glioblastoma, IDH-wildtype by a neuropathologist"},
+      {"field": "title", "quote": "Novel Indenoisoquinolone CMYC/TOPOISOMERASE 1 Inhibitor (LMP744) in Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "All patients will receive LMP744 as the interventional drug along with surgery for a biopsy and a second surgery for either resection or an additional biopsy to compare the tissue pre vs. post-drug treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Tissue-based diagnosis of recurrent glioblastoma, IDH-wildtype by a neuropathologist"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Tissue, CSF, and plasma will be collected during the post-treatment surgical intervention for molecular analysis."},
+      {"field": "detailed_description", "quote": "To assess the pharmacologic (PK/PD) response by exploring molecular and metabolic changes in pre- versus posttreatment glioblastoma tissue following administration of LMP744."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "A comparative pharmacodynamic analysis will be conducted on the pre- and post-treatment tissue to evaluate the biological response to LMP744 and correlate pharmacodynamic changes with clinical outcomes."},
+      {"field": "outcomes", "quote": "Evaluating changes in these markers will provide insight into the pharmacodynamic effects of LMP744 at the molecular level."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LMP744",
+      "active_moiety": "lmp744",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "All patients will receive LMP744 as the interventional drug"},
+        {"field": "interventions", "quote": "Indenoisoquinolone C-MYC/TOPOISOMERASE 1 Inhibitor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational indenoisoquinoline topoisomerase 1 / C-MYC inhibitor (LMP744)",
+      "stated_antitumour_mechanism": "Indenoisoquinolone C-MYC/TOPOISOMERASE 1 Inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tissue-based diagnosis of recurrent glioblastoma, IDH-wildtype by a neuropathologist"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "tumour_pk_planned coded yes: record plans 'pharmacologic (PK/PD)' assessment in pre/post glioblastoma tissue, with tissue and CSF collected after dosing; however, it does not explicitly state measurement of LMP744 concentration (described as molecular/metabolic changes), so 'no' or 'unclear' are defensible alternatives. Pharmacodynamic transcriptomic/proteomic markers (DNA damage response, cell cycle) are unspecified and not listed as biomarkers. IDH-wildtype is a diagnostic criterion only."
+}

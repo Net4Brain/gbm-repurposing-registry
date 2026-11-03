@@ -1,0 +1,130 @@
+{
+  "nct_id": "NCT05004116",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Phase 1: Pediatric patients with relapsed/refractory solid tumors (including primary CNS tumors)."},
+      {"field": "eligibility", "quote": "are eligible if the tumors are biopsied and proven to be high-grade gliomas (such as anaplastic astrocytoma, glioblastoma, high-grade glioma NOS, and/or H3 K27M-mutant by immunohistochemistry or next generation sequencing CLIA certified) by institutional diagnosis."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named in the inclusion criteria only as an acceptable histology for atypical pontine tumours in the DIPG cohort; otherwise primary CNS tumours are eligible without naming GBM. Could be read as DIPG-only (not_glioblastoma) for the GBM component."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study will test the safety of the study drug, repotrectinib, in combination with chemotherapy (irinotecan and temozolomide) in children and young adults who have advanced or metastatic solid tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have relapsed or refractory disease despite standard therapy."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["irinotecan", "temozolomide"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "Another purpose of the study is to look at the way the body absorbs, distributes, and gets rid of repotrectinib."},
+      {"field": "detailed_description", "quote": "Part B (PK expansion cohort for patients \\<12 years old)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Repotrectinib",
+      "active_moiety": "repotrectinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Repotrectinib (other names: TPX-0005)"},
+        {"field": "arms", "quote": "Patients with DIPG will enroll in cohort 4 and receive TPX-0005 (Repotrectinib) monotherapy at the pediatric recommended phase 2 dose"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ROS1/TRK/ALK tyrosine kinase inhibitor (TPX-0005)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase I portion", "Phase II, ALK-mutated neuroblastoma Cohort (THIS IS CLOSED)", "Phase II, Molecularly defined DSRCT Cohort", "Phase II, Exploratory Cohort", "Phase II, DIPG Cohort"]
+    },
+    {
+      "agent_name_registered": "Irinotecan and temozolomide",
+      "active_moiety": "irinotecan",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Irinotecan and temozolomide: Irinotecan and temozolomide will be given as per institutional standard."},
+        {"field": "arms", "quote": "concurrently administered with chemotherapy backbone described below"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "irinotecan_temozolomide",
+      "drug_class_hint": "topoisomerase I inhibitor chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase I portion", "Phase II, ALK-mutated neuroblastoma Cohort (THIS IS CLOSED)", "Phase II, Molecularly defined DSRCT Cohort", "Phase II, Exploratory Cohort"]
+    },
+    {
+      "agent_name_registered": "Irinotecan and temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Irinotecan and temozolomide: Irinotecan and temozolomide will be given as per institutional standard."},
+        {"field": "arms", "quote": "concurrently administered with chemotherapy backbone described below"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "irinotecan_temozolomide",
+      "drug_class_hint": "alkylating agent chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase I portion", "Phase II, ALK-mutated neuroblastoma Cohort (THIS IS CLOSED)", "Phase II, Molecularly defined DSRCT Cohort", "Phase II, Exploratory Cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "ALK point mutation (neuroblastoma cohort)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "repotrectinib",
+      "source_quote": {"field": "arms", "quote": "Phase II, ALK-mutated neuroblastoma Cohort."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase II, ALK-mutated neuroblastoma Cohort (THIS IS CLOSED)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Molecularly defined desmoplastic small round cell tumour (DSRCT)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Cohort 1: Patients with molecularly defined desmoplastic small round cell tumor (DSRCT)"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase II, Molecularly defined DSRCT Cohort"]
+    },
+    {
+      "biomarker": "NTRK",
+      "biomarker_other": "ALK/ROS1/NTRK1-3 status testing (no specific status required)",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "repotrectinib",
+      "source_quote": {"field": "eligibility", "quote": "Phase 2: Prior to enrollment, all patients must have ALK/ROS/NTRK status evaluated in CLIA lab or equivalent by any nucleic acid-based diagnostic testing method"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric/young adult (<=30 y) basket of relapsed/refractory solid and CNS tumours; mixed_age. GBM only named within the DIPG cohort histology list, flagged uncertain for S5. Repotrectinib is the only investigational agent; irinotecan + temozolomide registered as one intervention, split into two soc_backbone rows (shared regimen_id, not a fixed-dose product). DIPG cohort receives repotrectinib monotherapy per arm description even though the registry links irinotecan/temozolomide to that arm, so backbone arms exclude the DIPG cohort. ALK/ROS/NTRK testing is required in phase 2 but fusions are not required (permitted only), so coded exploratory_correlative. H3K27M appears only as one acceptable diagnosis for atypical pontine tumours, not an entry requirement; not recorded. PK planned without stated sample type, so tumour_pk_planned unclear."
+}

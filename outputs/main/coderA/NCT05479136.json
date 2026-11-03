@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05479136",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Grade III or Grade IV Glioma"},
+      {"field": "eligibility", "quote": "Histological diagnosis of primary WHO grade III or IV glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named in conditions/title/inclusion; only 'grade IV glioma' without IDH requirement, which D27C treats as historical glioblastoma. Could alternatively be high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Single intravenous administration of 18F fluciclovine for PET Scan"},
+      {"field": "brief_summary", "quote": "This study will examine whether positron emission tomography (PET) imaging with fluciclovine can reliably differentiate true progression from pseudoprogression months earlier than the conventional MRI methods."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Enlarging or new contrast-enhancing mass suspicious for progression/recurrence (at least 10mm in one direction)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PET imaging with 18F fluciclovine",
+      "active_moiety": "18f-fluciclovine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "PET with 18F fluciclovine injection, 185 MBq (5 mCi) ± 20%, delivered as an intravenous bolus"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid analogue PET tracer (Axumin), diagnostic imaging only",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET study"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study only (18F-fluciclovine PET for progression vs pseudoprogression); no therapeutic agent. Population is WHO grade III or IV glioma; glioblastoma is named only in the detailed description. Coded mixed_glioma_gbm_named on the basis that 'grade IV glioma' without IDH requirement = historical glioblastoma (D27C), flagged uncertain. Fails S6 either way. Phase registered as PHASE3."
+}

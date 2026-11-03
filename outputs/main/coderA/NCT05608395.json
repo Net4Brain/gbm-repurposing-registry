@@ -1,0 +1,120 @@
+{
+  "nct_id": "NCT05608395",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "The subject is a person with a histologically proven diagnosis of glioblastoma (GB) according to WHO 2016."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "11C-Methionine PET/CT will be applied in patients in 11C-Methionine PET/CT Arm, based on planning MRI, prior chemo/radiotherapy (2 weeks prior C1D1)"},
+      {"field": "brief_summary", "quote": "For patients who undergo this examination, the radiotherapy planning will be adjusted based on it."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Indication to adjuvant chemoradiotherapy."},
+      {"field": "eligibility", "quote": "Prior radiotherapy targeting brain."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "11C-Methionine PET/CT",
+      "active_moiety": "11c-methionine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Patients who develop REP within approximately 6 weeks after surgery will have PET/CT (positron emission tomography in combination with computed tomography) examinations using the radiopharmaceutical 11C-methionine in addition to standard practice."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "carbon-11 labelled methionine amino-acid PET tracer (diagnostic imaging for radiotherapy planning)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["11C-Methionine PET/CT Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Mutational status of TERT and IDH2: mutated/wild-type"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Immunohistochemical analysis of GFAP, Ki-67, IDH1, ATRX, and PDL1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MGMT promotor methylation status: ≥25% = methylated/\\<25% = unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "TERT mutation",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Mutational status of TERT and IDH2: mutated/wild-type"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ATRX loss of expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "ATRX loss of expression: positive/negative"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q co-deletion",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "1p/19q co-deletion: positive/negative"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging trial: the only registered drug intervention is the 11C-methionine PET tracer used to adjust radiotherapy planning; no antitumour candidate (S6 fails). Comparator is a historical NO_INTERVENTION cohort. Patients receive standard adjuvant chemoradiotherapy outside the protocol question; temozolomide is mentioned only as background (Stupp history), not as a protocol agent every patient receives, so not listed. GFAP and Ki-67 IHC treated as routine histology and not recorded as molecular biomarkers. Exploratory biomarkers apply to the prospective arm (not arm-restricted in the record)."
+}

@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT06258018",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase I-II Study of Niraparib Plus Temozolomide \"One Week on, One Week Off\" in Patients With Recurrent Isocitrate Dehydrogenase (IDH) Wild Type Glioblastoma and IDH Mutant Gliomas."},
+      {"field": "eligibility", "quote": "Patients with diagnosis of recurrent\\\\progressive IDH wild-type GBM (WHO 2021, grade 4). All the GBM histological variants are allowed."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Niraparib: given orally in continous"},
+      {"field": "brief_summary", "quote": "The study evaluates safety, tolerability, pharmacokinetics at recommended phase II dose (RP2D) and preliminary antitumor activity of Niraparib + dd-TMZ \"one week on, one week off\""}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with diagnosis of recurrent\\\\progressive IDH wild-type GBM (WHO 2021, grade 4)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate cerebrospinal fluid (CSF) drug concentration of the combination of dd-TMZ and Niraparib given on a 7d ON/7d OFF schedule"},
+      {"field": "outcomes", "quote": "To evaluate tissue drug concentration schedule and visualized intra-tumor distribution by mass spectrometry imaging in surgical specimen of the combination of dd-TMZ and Niraparib"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Niraparib and Temozolomide in Patients Glioblastoma"},
+        {"field": "detailed_description", "quote": "Overall, Niraparib can represent an ideal candidate to explore for treatment of malignant gliomas"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved for ovarian cancer)",
+      "stated_antitumour_mechanism": "The inhibition of Poly (ADP-ribose) polymerase (PARP) proteins, normally involved in genomic stability, may rationally improve TMZ efficacy.",
+      "flag": {"uncertain": false},
+      "arms": ["Niraparib + Temodal Level 0", "Niraparib + Temodal Level 1", "Niraparib + Temodal Level 2", "Niraparib + Temodal Level 3", "Niraparib + Temodal Level -1", "Niraparib + Temodal Expansion Phase"]
+    },
+    {
+      "agent_name_registered": "Temodal (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "Niraparib 100 mg/die + TMZ 100 mg/m2 both given for 7 consecutive days, followed by 7 days OFF, in a cycle of 28 days."},
+        {"field": "detailed_description", "quote": "investigator speculate that different schedules and doses of the two drugs (compared to the ones approved in clinical practice) may be explored to improve tolerability preserving the synergistic activity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy (dose-dense schedule)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Niraparib + Temodal Level 0", "Niraparib + Temodal Level 1", "Niraparib + Temodal Level 2", "Niraparib + Temodal Level 3", "Niraparib + Temodal Level -1", "Niraparib + Temodal Expansion Phase"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "eligibility", "quote": "Patients with diagnosis of recurrent/progressive IDH mutant gliomas (WHO 2021, grade 2-4). Both astrocytoma and oligodendroglioma may be included."},
+      "flag": {"uncertain": true, "reason": "Record links IDH mutation (2HG, BRCA-ness) to PARP inhibitor sensitivity, but the IDH-mutant cohort is non-GBM and IDH is also the GBM-defining criterion for cohort 1; match could change the primary outcome."},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Both MGMT methylated and unmethylated patients are allowed."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Two cohorts: recurrent IDH-wildtype GBM (cohort 1) and recurrent IDH-mutant grade 2-4 gliomas (cohort 2); cohorts are not registered arm labels, so biomarker arms left empty. IDH-wildtype for cohort 1 is GBM-defining only; IDH-mutant requirement defines cohort 2 and the detailed description gives a PARP-inhibitor rationale (2HG-induced BRCA-ness), hence coded enrichment and candidate_matched with flag. Temozolomide dose (75 vs 100 mg/m2) differs between dose levels and the dd-TMZ schedule is part of the question, so coded established_therapy_experiment (R2). MGMT listed only as allowed regardless of status (not a selection). Plasma PK (Cmax) also planned."
+}

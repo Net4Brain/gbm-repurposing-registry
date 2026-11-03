@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04543201",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "New pathologic diagnosis of WHO grade III or IV glioma within four months of consent"},
+      {"field": "conditions", "quote": "Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma only named as 'WHO grade IV glioma' (historical term per D27C) alongside grade III; could alternatively be read as high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BEHAVIORAL] Early START visit using checklist over telephone or zoom: Prior to visit subject receives pre-visit educational guide and copy of advance directive form"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New pathologic diagnosis of WHO grade III or IV glioma within four months of consent"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural advance-care-planning telehealth intervention; phase NA; no drug interventions. Population is WHO grade III or IV glioma (high-grade glioma), with no IDH requirement; under D27C 'grade IV glioma' is the historical name for glioblastoma, so coded mixed_glioma_gbm_named with historical terminology, flagged uncertain. Historical controls only, single arm."
+}

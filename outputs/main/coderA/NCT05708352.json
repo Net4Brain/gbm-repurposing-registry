@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05708352",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma (Within 2 months of initial diagnosis by histopathology)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Intensive 18-week Keto Diet intervention. (interventions: Behavioral: Keto Diet)"},
+      {"field": "interventions", "quote": "The experimental intervention includes a strict and controlled diet that manages daily macronutrient breakdown and increases the ratio of dietary fat relative to protein and carbohydrate consumption."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma (Within 2 months of initial diagnosis by histopathology)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Dietary intervention (ketogenic diet) vs standard dietary guidance; diets are an excluded intervention type and no drug is registered. Exclusion reason could alternatively be no_pharmacological_candidate. Standard-of-care treatment is mentioned for all patients but no drug is named, so no agent rows were added. Control arm is a registered PLACEBO_COMPARATOR."
+}

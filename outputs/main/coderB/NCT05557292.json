@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT05557292",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "title", "quote": "RMC-5552 Monotherapy in Adult Subjects With Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "RMC-5552 is a type of medicine called an mechanistic target of rapamycin (mTOR) inhibitor."},
+      {"field": "interventions", "quote": "RMC-5552 (other names: mTORC1/4EBP1): Given IV"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have histologically or cytologically confirmed 1st, 2nd or 3rd recurrence GBM"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Median concentration of RMC-5552 in tumor (Cohort B): Median drug levels of RMC-5552 in tumor tissue of participants in Cohort B will be measured at time of tumor issue removal/surgical resection."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess pharmacodynamic (PD) markers of drug activity, including biochemical markers of mTORC1 pathway inhibition in tumor tissue. (Cohort B)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RMC-5552",
+      "active_moiety": "rmc-5552",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "RMC-5552 Monotherapy in Adult Subjects With Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational bi-steric mTORC1 selective kinase inhibitor",
+      "stated_antitumour_mechanism": "mTORC1 kinase inhibition (mTOR inhibitor)",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Cohort A 1(Dose Escalation, Recurrent Non-surgical GBM)",
+        "Cohort A2 (Dose Escalation, Recurrent Non-surgical GBM)",
+        "Cohort B (Dose Expansion, Recurrent Surgical GBM)",
+        "Cohort C (Dose Expansion, Recurrent Non-surgical GBM)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "mTORC1 pathway PD markers in tumour tissue (pS6RP, p4EBP1, pAKT, p-PRAS40)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "rmc-5552",
+      "source_quote": {"field": "outcomes", "quote": "To assess pharmacodynamic (PD) markers of drug activity, including biochemical markers of mTORC1 pathway inhibition in fresh tumor tissue and in archival tissue, levels of pS6RP will be measured."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Dose Expansion, Recurrent Surgical GBM)"]
+    }
+  ],
+  "coder_notes": "Study closed before Cohorts B and C enrolled (per description), but coded as registered. Tumour PK and tumour PD planned in Cohort B. No eligibility/enrichment molecular biomarker."
+}

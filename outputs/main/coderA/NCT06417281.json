@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06417281",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "5-aminolevulinic Acid; Malignant Glioma of Brain"},
+      {"field": "eligibility", "quote": "Radiological suspicion of a malignant glioma"},
+      {"field": "brief_summary", "quote": "conducted in patients with newly diagnosed or recurrent malignant high-grade (WHO grades 3\\~4) glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "3±1 hours before anesthesia, participants will take 5-ALA orally at a dosage of 20 mg/kg, followed by fluorescence-guided resection of malignant glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "conducted in patients with newly diagnosed or recurrent malignant high-grade (WHO grades 3\\~4) glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5 Aminolevulinic Acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to evaluate the efficacy and safety of a single oral dose of 5-aminolevulinic acid (5-ALA) oral solution powder for fluorescence-guided tumor resection and photodynamic diagnosis."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor for fluorescence-guided resection (oral solution powder)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["5 Aminolevulinic Acid"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Glioblastoma not named anywhere; population is malignant (WHO grade 3-4) glioma, so high_grade_glioma_unspecified. 5-ALA used only for fluorescence-guided resection / photodynamic diagnosis, so diagnostic_agent and no candidate. Quotes containing 'grades 3\\~4' reproduce the record's escaped tilde."
+}

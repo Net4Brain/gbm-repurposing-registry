@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06616727",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Diagnosed with a history of glioblastoma, and the recurrent glioblastoma has confirmed by histological/molecular pathology (including astrocytoma World Health Organization (WHO) Grade 4);"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "SNC-109 CAR-T Cells, first dose from 5×104 CAR+ T Cells, treatment follows the operation and the next dose would be deiced by SRC"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase I Study to Evaluate the Safety, Tolerability and Pharmacokinetics of SNC109 in Patients With Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SNC109",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "SNC-109 CAR-T Cells, first dose from 5×104 CAR+ T Cells, treatment follows the operation and the next dose would be deiced by SRC"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "SNC-109 CAR-T cells (cell therapy), registered as Drug",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SNC109 CART"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only intervention is a CAR-T cell product (excluded type), so no candidate. Cellular PK (CAR copy number) and CSF/blood cytokine PD are planned but relate to the excluded cell therapy, not a pharmacological candidate; tumour_pk_planned and target_engagement_planned coded no. cns5_terminology historical: 'Glioblastoma Multiforme' in conditions and WHO grade 4 astrocytoma allowed without IDH requirement. CAR target antigen not stated."
+}

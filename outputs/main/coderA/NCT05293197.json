@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT05293197",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Brain Tumor; Malignant Glioma; Embryonal Tumor"},
+      {"field": "eligibility", "quote": "diagnosis of supra-tentorial primary malignant brain tumor (e.g. malignant glioma, embryonal tumor including ATRT, ependymoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The opening of the BBB with the SonoCloud-9 system will increase the tumor exposure to carboplatin and increase progression-free and overall survival in pediatric patients treated for a recurrent malignant supra-tentorial brain tumor."},
+      {"field": "eligibility", "quote": "indication of treatment with carboplatin, validated in multidisciplinary meeting"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "recurrence or progression of brain tumor after at least a first line of standard treatment (multifocal tumors and metastatic disease allowed)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the blood-brain barrier can be transiently and safely opened with pulsed low intensity ultrasound immediately prior to intravenously delivered chemotherapy"},
+        {"field": "outcomes", "quote": "Clinical efficacy of BBB disruption by the SonoCloud® device in association with systemic chemotherapy: Overall Survival (OS)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like cytotoxic chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SonoCloud®"]
+    },
+    {
+      "agent_name_registered": "SonoVue",
+      "active_moiety": "sulfur hexafluoride",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "in relation to the use of the ultrasound contrast agent SonoVue® for BBB disruption in the pediatric population"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast agent (sulfur hexafluoride microbubbles) used for BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SonoCloud®"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA (blood and CSF)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "DNA and tumor cells concentrations in blood and cerebrospinal fluid"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric-only trial (Ages: CHILD; 5 to <18 years), so it should fail S4 by [CODE]; coded in full anyway. Glioblastoma is not named in conditions, title or inclusion criteria (only 'malignant glioma'); glioblastoma appears only in the detailed description about a prior adult trial. Carboplatin is not a registered intervention (only the SonoCloud device is) but every patient receives it and its ultrasound-enabled delivery is the study question, so it is coded as a device-dependent candidate (C12/R5). SonoVue microbubbles are delivery-enabling. ctDNA in blood/CSF is an ancillary correlative measure."
+}

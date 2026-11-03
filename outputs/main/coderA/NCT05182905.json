@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT05182905",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma; Glioblastoma Multiforme; Glioma, Malignant"},
+      {"field": "eligibility", "quote": "Participants who have had a prior resection of diagnosed glioma (2021 WHO grade IV)"},
+      {"field": "title", "quote": "AZD1390 in Recurrent and Newly Diagnosed WHO Grade 4 Glioma Patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Phase 1b: AZD1390 administered daily for 5 days concurrently with standard of care radiation therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "will enroll at least 27 participants with recurrent WHO Grade 4 Glioma requiring re-radiation and approximately 35 participants with newly-diagnosed WHO Grade 4 glioma (nGBM)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "For PK analysis, total and unbound AZD1390 concentration in Gd-enhancing and Gd-non-enhancing tumor tissue."},
+      {"field": "outcomes", "quote": "Phase 0: To evaluate the relative pharmacokinetics (PK) of AZD1390 in CSF: AZD1390 level in CSF will be determined."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "AZD1390",
+      "active_moiety": "azd1390",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Phase 0: AZD1390 administered orally daily for 3 days prior to resection"},
+        {"field": "interventions", "quote": "Phase 1b: AZD1390 administered daily for 5 days concurrently with standard of care radiation therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational brain-penetrant ATM kinase inhibitor (radiosensitiser)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Recurrent Grade 4 Glioma Surgical Cohort Time Escalation", "Arm B: Recurrent Grade 4 Glioma Dose Escalation", "Arm C: Newly-diagnosed Grade 4 Glioma"]
+    },
+    {
+      "agent_name_registered": "levetiracetam",
+      "active_moiety": "levetiracetam",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Participants must be willing to receive prophylaxis with levetiracetam for the duration of study drug administration (or alternative anti-epileptic if agreed with Medical Monitor)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antiepileptic (seizure prophylaxis)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Recurrent Grade 4 Glioma Surgical Cohort Time Escalation", "Arm B: Recurrent Grade 4 Glioma Dose Escalation", "Arm C: Newly-diagnosed Grade 4 Glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered as EARLY_PHASE1 (Phase 0/1b; translational subset). Population is WHO 2021 grade 4 glioma with glioblastoma in conditions; under CNS5 grade 4 glioma also includes IDH-mutant astrocytoma grade 4 and no IDH-wildtype requirement is stated, so coded mixed_glioma_gbm_named (gbm_only would also include). Levetiracetam is not a registered intervention but every participant must receive it as seizure prophylaxis; listed as supportive. Phase 0 is AZD1390 alone before resection; Phase 1b adds standard-of-care radiotherapy, hence regimen combination. Tumour tissue and CSF PK planned; no pharmacodynamic/target-modulation endpoint registered."
+}

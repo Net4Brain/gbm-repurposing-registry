@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT02432417",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Astrocytoma, Grade IV"},
+      {"field": "eligibility", "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "In addition this treatment will be combined with a daily intake of the recommended phase two dose (RPTD) of chloroquine (CQ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase II Randomized Controlled Trial for the Addition of Chloroquine, an Autophagy Inhibitor, to Concurrent Chemoradiation for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor hypoxia: Quantitative and qualitative assessment of \\[18F\\]HX4-PET obtained before treatment and one week after the start of CQ"},
+      {"field": "brief_summary", "quote": "Inhibition of autophagy sensitizes cells to hypoxia, reduces the viable hypoxic fraction in tumors with \\> 40% and subsequently sensitizes these tumors to irradiation."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chloroquine",
+      "active_moiety": "chloroquine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Arm B (experimental): Standard treatment as described under arm A combined with daily intake of 400mg CQ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial 4-aminoquinoline; autophagy inhibitor",
+      "stated_antitumour_mechanism": "Chloroquine (CQ) is a potent autophagy blocker",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental arm"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Radiotherapy and chemotherapy according to standard protocol for newly diagnosed GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy (standard GBM backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard", "Experimental arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed grade IV supratentorial astrocytoma, IDH wildtype (glioblastoma multiforme)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "O6-methylguanine-DNA-methyltransferase (MGMT), isocitrate dehydrogenase (IDH) and EGFRvIII in tumor tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "chloroquine",
+      "source_quote": {"field": "brief_summary", "quote": "Previously MAASTRO lab has shown that expression of EGFRvIII provides GBM cells with a survival advantage when exposed to stress factors such as hypoxia and nutrient deprivation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Chloroquine added to Stupp (RT + TMZ) vs Stupp alone; control arm is registered NO_INTERVENTION, so control_arm_from_other_arms = no. The [18F]HX4 hypoxia PET is used in a single-centre substudy only and is not a registered intervention, so it is not listed as an agent (R9). Target engagement coded yes: paired HX4-PET before and one week after CQ start measures tumour hypoxia, the stated downstream effect of autophagy inhibition. EGFRvIII (exploratory correlative only) coded candidate_matched true because the record's rationale links EGFRvIII-driven autophagy dependence to chloroquine; it is not an eligibility/enrichment biomarker, so it does not affect the primary outcome. cns5: IDH wildtype required (also 'glioblastoma multiforme') -> cns5."
+}

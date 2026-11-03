@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT07447531",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "New pathologically confirmed diagnosis of WHO grade IV malignant glioma"},
+      {"field": "title", "quote": "Evaluating Iron-Dependent Biomarkers of Malignant Glioma (WHO Grade IV) Progression"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma never named; WHO grade IV glioma without IDH requirement treated as historical glioblastoma (D27C), but 'malignant glioma' wording could be read as high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Undergo T2\\* MRI"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New pathologically confirmed diagnosis of WHO grade IV malignant glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating dimeric transferrin receptor",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "dimeric transferrin receptor expression"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging and blood-biomarker study (T2* MRI, blood sampling); no drug registered (standard chemoradiation mentioned only as background). Blood iron-related biomarker is a biomarker endpoint, not a tumour tissue marker; listed as other for transparency."
+}

@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT05660369",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Malignant Glioma; Recurrent Glioblastoma; Recurrent Glioma"},
+      {"field": "eligibility", "quote": "Participants must have histologically confirmed recurrent GBM or molecular features of GBM with presence of EGFRvIII mutation detected at initial diagnosis."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] CARv3-TEAM-E T cells (other names: Autologous T lymphocyte): Autologous T lymphocyte population that contains cells transduced ex-vivo with a CARv3-TEAM-E lentiviral vector encoding a chimeric antigen receptor (CAR)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "evaluate its safety for the treatment of recurrent or newly diagnosed glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CARv3-TEAM-E T cells",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "CARv3-TEAM-E T Cells are made from a person's own collected immune cells (T-Cells) that are genetically changed and then delivered back into the body to try to kill their cancerous cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous EGFRvIII-directed CAR-T cells secreting EGFR-targeting T-cell engaging antibody (CARv3-TEAM-E), intraventricular via Ommaya",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Safety Run-In Phase",
+        "Arm 1: Recurrent Glioblastoma (GBM), EGFRvIII Positive",
+        "Arm 2: Newly Diagnosed GBM, EGFRvIII Positive",
+        "Arm 3: Recurrent GBM, EGFRvIII Negative"
+      ]
+    },
+    {
+      "agent_name_registered": "Rituximab",
+      "active_moiety": "rituximab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Rituximab will be administered 5-10 days prior to infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CD20 monoclonal antibody, given as pre-conditioning before CAR-T infusion",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Recurrent Glioblastoma (GBM), EGFRvIII Positive",
+        "Arm 2: Newly Diagnosed GBM, EGFRvIII Positive",
+        "Arm 3: Recurrent GBM, EGFRvIII Negative"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants must have histologically confirmed newly diagnosed GBM with presence of EGFRvIII mutation and their tumors must be MGMT unmethylated."},
+      "flag": {"uncertain": false},
+      "arms": [
+        "Safety Run-In Phase",
+        "Arm 1: Recurrent Glioblastoma (GBM), EGFRvIII Positive",
+        "Arm 2: Newly Diagnosed GBM, EGFRvIII Positive"
+      ]
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants must have histologically confirmed recurrent GBM with EGFR amplification but no EGFRvIII mutation based on initial diagnostic tissue."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 3: Recurrent GBM, EGFRvIII Negative"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants must have histologically confirmed newly diagnosed GBM with presence of EGFRvIII mutation and their tumors must be MGMT unmethylated."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 2: Newly Diagnosed GBM, EGFRvIII Positive"]
+    }
+  ],
+  "coder_notes": "Only investigational product is an autologous CAR-T cell therapy (excluded intervention type), so no pharmacological candidate (fails S6). Rituximab (5-10 days pre-infusion) and unnamed lymphodepletion chemotherapy are preparation for the cell therapy; rituximab listed as supportive (R6), lymphodepleting agents not named so not listed. EGFRvIII-positive / EGFR-amplified EGFRvIII-negative and MGMT-unmethylated requirements define arms (enrichment); they match the CAR-T target but the CAR-T is not a candidate, so candidate_matched false. Glioblastoma named in conditions and inclusion criteria; no IDH/WHO reference (cns5 unclear)."
+}

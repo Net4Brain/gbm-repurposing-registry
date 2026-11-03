@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT05811793",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent glioblastoma who failed first-line therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Subjects with recurrent GBM will receive intrathecal tislelizumab every 3 weeks for six times."},
+      {"field": "interventions", "quote": "Tislelizumab will be administered off-label in this study."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent glioblastoma who failed first-line therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tislelizumab",
+      "active_moiety": "tislelizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects with recurrent GBM will receive intrathecal tislelizumab every 3 weeks for six times."},
+        {"field": "detailed_description", "quote": "The aim of this study is to improve the outcome of recurrent GBM patients by changing the route of administration of the two drugs"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (intrathecal)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab arterial infusion combined with Tislelizumab intrathecal injection"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "each subject will receive 15 mg/Kg of Bevacizumab by cerebral arterial infusion over 15 minutes at a fixed time (d0, d30, d60)"},
+        {"field": "detailed_description", "quote": "The aim of this study is to improve the outcome of recurrent GBM patients by changing the route of administration of the two drugs"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (superselective intra-arterial route)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab arterial infusion combined with Tislelizumab intrathecal injection"]
+    },
+    {
+      "agent_name_registered": "20% mannitol",
+      "active_moiety": "mannitol",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "the infusion of 20% mannitol 12.5 ml over 120 seconds prior to the infusion of Bevacizumab"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "osmotic agent given before intra-arterial bevacizumab (purpose not stated; presumably BBB opening)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab arterial infusion combined with Tislelizumab intrathecal injection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Both drugs have changed routes: bevacizumab (established GBM therapy) by cerebral arterial infusion = established_therapy_experiment (rule 6, not a candidate); tislelizumab intrathecal off-label = the only investigational agent, so experimental_monotherapy. Mannitol is not a registered intervention but is given to every patient before bevacizumab; the record does not state its purpose, coded delivery_enabling_agent (alternative: supportive). The intervention description also says 'Intrathecal administration of Bevacizumab' (Ommaya), inconsistent with the arm text (arterial infusion). Registry phase is NA."
+}

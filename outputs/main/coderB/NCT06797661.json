@@ -1,0 +1,35 @@
+{
+"nct_id":"NCT06797661","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"mixed_glioma_gbm_named",
+"gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma; Glioma; Astrocytoma"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"FDG-PET: Some patients who did not benefit from a FDG-PET in their clinical evaluation or more than 1 month before the inclusion in the present study will be ask to also undergo a brain FDG-PET"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"cns5"},
+"trial":{
+"treatment_setting":"unclear",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Patient has to be included before surgery, chemotherapy and radiation"}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"FDG-PET","active_moiety":"18f-fludeoxyglucose","role":"diagnostic_agent",
+"role_evidence":[{"field":"interventions","quote":"FDG-PET: Some patients who did not benefit from a FDG-PET in their clinical evaluation or more than 1 month before the inclusion in the present study will be ask to also undergo a brain FDG-PET"}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":true,"regimen_id":null,
+"drug_class_hint":"[18F]fluorodeoxyglucose PET imaging tracer","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Glioma patient"]},
+{"agent_name_registered":"gadovist","active_moiety":"gadobutrol","role":"diagnostic_agent",
+"role_evidence":[{"field":"interventions","quote":"T1 with contrast agent (gadovist)"}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,
+"drug_class_hint":"gadolinium-based MRI contrast agent","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Glioma patient"]}],
+"biomarkers":[],
+"coder_notes":"Non-therapeutic neuroimaging study (neurovascular uncoupling). Only diagnostic tracer/contrast agents. A CO2 gas mix is used for the hypercapnia challenge but is not a drug intervention and not listed. WHO 2021 cited for grading/histology outcomes without an IDH requirement, coded cns5 per the 'cites WHO CNS 2021' rule; adjudicator may prefer unclear. Treatment setting not stated beyond 'before surgery, chemotherapy and radiation'."
+}

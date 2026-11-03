@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07126990",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Clinical Study of a Novel Oncolytic Virus Ad-TD-nsIL12 in the Treatment of Primary High-grade Glioma"},
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Glioma that meets the 2021 edition of the World Health Organization (WHO) classification criteria for central nervous system tumors and has not undergone any anti-tumor treatment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Novel oncolytic virus Ad-TD-nsIL12: Ommaya capsule was placed for intratumoral injection at a dose of 1×10\\^10vp"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Glioma that meets the 2021 edition of the World Health Organization (WHO) classification criteria for central nervous system tumors and has not undergone any anti-tumor treatment"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Novel oncolytic virus Ad-TD-nsIL12",
+      "active_moiety": "oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "assessing the preliminary efficacy and safety of the novel oncolytic adenovirus Ad-TD-nsIL12 in treating primary HGG"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "Ad-TD-nsIL12: oncolytic adenovirus expressing non-secreting IL-12, intratumoral via Ommaya",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment of patients with non-functional areas, functional areas and primary HGG of the thalamus"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Glioblastoma is not named anywhere in title, conditions, inclusion criteria or arm label; only primary high-grade glioma / glioma (WHO 2021), so high_grade_glioma_unspecified. Only intervention is an oncolytic virus (excluded type). Untreated primary HGG, neoadjuvant in one sub-trial, coded newly_diagnosed."
+}

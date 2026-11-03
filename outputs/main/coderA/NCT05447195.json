@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT05447195",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly-diagnosed Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Subjects determined as having met inclusion criteria through screening will be randomized into treatment groups (CAN008 + RT + TMZ, 78 subjects) and the control group (placebo + RT + TMZ, 39 subjects) in a ratio of 2:1."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CAN008",
+      "active_moiety": "can008",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] CAN008: CAN008 IV infusion weekly (interventions: Drug: CAN008)"},
+        {"field": "outcomes", "quote": "To evaluate the efficacy of CAN008 plus temozolomide (TMZ) treatment in subjects with newly diagnosed glioblastoma (GBM) during and after radiation therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CD95 (Fas) ligand-blocking Fc fusion protein; other name APG101 (asunercept)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CAN008"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Period 1 (W1-W6) is the triple therapy period in which subjects in both groups will be given placebo + RT + TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CAN008", "placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Temozolomide is not a registered intervention but both groups receive RT + TMZ. Placebo not listed (no active moiety). Record gives other name APG101 but no INN; moiety coded as development code can008. Intervention text oddly says 'subjects in both groups will be given CAN008 + RT + TMZ' (likely copy error); arms/description make CAN008 experimental-arm only."
+}

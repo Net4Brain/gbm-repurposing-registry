@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT07134842",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma, Adult; Glioblastoma - Category"},
+      {"field": "eligibility", "quote": "Radiologically or histologically confirmed, newly diagnosed de-novo supratentorial glioblastoma (including gliosarcoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "All patients will be treated with up to two cycles of ipilimumab prior to their standard treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase I Trial Investigating Neoadjuvant Ipilimumab in Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ipilimumab (3 mg/kg)",
+      "active_moiety": "ipilimumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All participants will be treated with ipilimumab (3mg/kg) for up to 2 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-CTLA-4 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Interventional"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Neoadjuvant ipilimumab given before standard of care (surgery and chemoradiation). The standard treatment is sequential, follows the study treatment, is not a registered intervention and 'can include' surgery and chemoradiation, so temozolomide is not listed and regimen is coded monotherapy; an adjudicator could argue combination because chemoradiation follows within the treatment plan."
+}

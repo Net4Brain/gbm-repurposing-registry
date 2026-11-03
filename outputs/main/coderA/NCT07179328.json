@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT07179328",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis of Glioblastoma by histology or molecular markers based on WHO 2021 classification."},
+      {"field": "conditions", "quote": "GBM; Glioblastoma Multiforme (GBM); Glioblastoma Multiforme of Brain; Glioblastoma Multiforme Glioma; HGG; Glioma; Brain Tumor Adult; Brain Tumor, Primary"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this clinical trial is to evaluate the safety and feasibility of focused ultrasound (FUS)-mediated blood-brain barrier (BBB) disruption using the Next Generation Dome Helmet (NGDH) in adults with glioblastoma (GBM) undergoing the maintenance phase of the standard \"Stupp protocol\"."},
+      {"field": "arms", "quote": "At the time of each FUS session, participants will receive their prescribed standard of care TMZ dose, as well as an intravenous injection of DEFINITY® ultrasound contrast agent that enables targeted BBB opening."},
+      {"field": "keywords", "quote": "Drug delivery; Chemotherapy delivery"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Temozolomide (established GBM therapy) is paired with FUS-enabled BBB opening; could be read as a device-dependent candidate under C12/R5 rather than established_therapy_experiment."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Previously undergone a maximal safe surgical resection and completed concurrent, standard-of-care RT and TMZ without any complications and deemed eligible for the maintenance phase of TMZ treatment."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Blood samples will be analyzed for BBB disruption and tumour-related biomarkers, including S100β protein, inflammatory cytokines, circulating DNA, exosomes, and circulating tumour cells."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "At the time of each FUS session, participants will receive their prescribed standard of care TMZ dose, as well as an intravenous injection of DEFINITY® ultrasound contrast agent that enables targeted BBB opening."},
+        {"field": "keywords", "quote": "Drug delivery; Chemotherapy delivery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy, Stupp maintenance)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Established therapy given with FUS BBB disruption; alternative coding is a device-dependent candidate (C12/R5) or soc_backbone (C3) if delivery is not the question."},
+      "arms": ["Focused Ultrasound BBB Disruption Using the Next Generation Dome Helmet and Definity"]
+    },
+    {
+      "agent_name_registered": "Definity® Vial for (Perflutren Lipid Microsphere) Injectable Suspension",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "DEFINITY® Perflutren Injectable Microbubbles is an ultrasound contrast imaging agent that will be used for blood brain barrier opening during focused ultrasound."}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles (perflutren lipid microspheres) for FUS BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Focused Ultrasound BBB Disruption Using the Next Generation Dome Helmet and Definity"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "liquid biopsy tumour markers (circulating DNA, exosomes, circulating tumour cells)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Blood samples will be analyzed for BBB disruption and tumour-related biomarkers, including S100β protein, inflammatory cytokines, circulating DNA, exosomes, and circulating tumour cells."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is not a registered intervention but every patient receives SOC TMZ at each FUS session (R9), so listed. The record's question is safety/feasibility of FUS BBB disruption during TMZ maintenance; keywords mention drug/chemotherapy delivery. Since TMZ is a D6 established GBM therapy, coded established_therapy_experiment (rule 6 exception i) rather than candidate; adjudicator should decide vs C12/R5 device-dependent candidate. device_dependent left false because the agent is not coded as a candidate. Target engagement coded no: blood biomarkers relate to BBB disruption, not to a candidate. Gadolinium mentioned only in exclusions, not listed."
+}

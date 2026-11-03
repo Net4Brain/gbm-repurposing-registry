@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04988750",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; High-Grade Glioma (WHO III-IV); Brain Tumor Recurrent; Brain Tumor Adult; Brain Tumor, Adult: Glioblastoma; Brain Tumor, Recurrent"},
+      {"field": "eligibility", "quote": "Histologically proven Grade III glioma patients that is recurrent following radiation therapy (RT) and/or temozolomide, who need re-RT treatment based on the physician's judgment."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] NaviFUS System (other names: Focused ultrasound, Low-Intensity Focused Ultrasound)"},
+      {"field": "arms", "quote": "(interventions: Device: NaviFUS System)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven Grade IV glioma patients that is recurrent following standard radiation therapy (RT) and temozolomide"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device trial: low-intensity focused ultrasound (NaviFUS) as radiosensitiser with re-irradiation (SRS or conventional RT) in recurrent grade III-IV glioma; Phase NA. No registered drug intervention. SonoVue (microbubbles), FET and FDG PET tracers and MRI/CT contrast agents appear only in an allergy exclusion criterion; PET uptake is an 'other' outcome. Not listed as agents because they are not registered interventions and the record does not state that every patient receives them. cns5 historical: 'Grade IV glioma' without IDH requirement and 'Glioblastoma Multiforme' in official title."
+}

@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT05717153",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Glioma; Malignant Glioma"},
+      {"field": "eligibility", "quote": "Clinical and radiographic evidence suggesting a diagnosis of a diffuse high grade glioma (HGG), or a prior diagnosis of a diffuse glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This early phase I trial studies brain tumor (glioma) metabolism in response to eflornithine (DFMO) and polyamine transport inhibitor AMXT-1501 dicaprate (AMXT 1501) in patients with diffused or high grade glioma."},
+      {"field": "arms", "quote": "Patients receive eflornithine PO in combination with AMXT 1501 PO on days 1-5 post-surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Clinical and radiographic evidence suggesting a diagnosis of a diffuse high grade glioma (HGG), or a prior diagnosis of a diffuse glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["eflornithine", "amxt 1501"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Central nervous system free drug levels from microdialysate - DFMO"},
+      {"field": "outcomes", "quote": "Central nervous system free drug levels from microdialysate - AMXT 1501"},
+      {"field": "outcomes", "quote": "AMXT 1501 brain/plasma ratio over time"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "I. Determine the impact of polyamine depletion on polyamine abundance and the global extracellular metabolome within live human gliomas, in situ."},
+      {"field": "detailed_description", "quote": "I. Determine how polyamine depletion impacts extracellular guanidinoacetate abundance."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Eflornithine",
+      "active_moiety": "eflornithine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive eflornithine PO in combination with AMXT 1501 PO on days 1-5 post-surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ornithine decarboxylase inhibitor (DFMO); antiprotozoal / hirsutism / neuroblastoma maintenance",
+      "stated_antitumour_mechanism": "DFMO is an irreversible inhibitor of ornithine decarboxylase, the enzyme catalyzing polyamine synthesis.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (MRI, resection, DFMO, AMXT 1501)", "Arm II (MRI, resection, placebo, DMFO, AMXT 1501)", "Arm III (MRI, resection, DMFO, AMXT 1501)"]
+    },
+    {
+      "agent_name_registered": "Polyamine Transport Inhibitor AMXT-1501 Dicaprate",
+      "active_moiety": "amxt 1501",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive eflornithine PO in combination with AMXT 1501 PO on days 1-5 post-surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational polyamine transport inhibitor (AMXT-1501 dicaprate)",
+      "stated_antitumour_mechanism": "AMXT 1501 is a polyamine transport inhibitor which prevents uptake of polyamines from the extracellular environment.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (MRI, resection, DFMO, AMXT 1501)", "Arm II (MRI, resection, placebo, DMFO, AMXT 1501)", "Arm III (MRI, resection, DMFO, AMXT 1501)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "extracellular guanidinoacetate (tumour/brain microdialysate)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "eflornithine; amxt 1501",
+      "source_quote": {"field": "outcomes", "quote": "Change in the tumor/brain extracellular guanidinoacetate ratio"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "extracellular polyamines (putrescine, spermine, spermidine) and ornithine",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "eflornithine; amxt 1501",
+      "source_quote": {"field": "outcomes", "quote": "assaying for polyamines (putrescine, spermine, and spermidine), in addition to ornithine and glutamate"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "extracellular glutamate",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Measured extracellular levels of glutamate in tumor and brain microdialysates"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Population is diffuse/high-grade glioma; glioblastoma is not named in conditions, title, inclusion criteria or arm labels, so high_grade_glioma_unspecified (excluded at S5). All three arms receive DFMO + AMXT 1501 (only timing differs; Arm II is a registered PLACEBO_COMPARATOR with placebo days 1-2, Arm III a registered ACTIVE_COMPARATOR with DFMO alone days 1-2), so both drugs coded experimental_combination across arms. Placebo is not a registered intervention and is not listed. Setting coded both because new suspected HGG or prior diffuse glioma diagnoses are allowed. AMXT 1501 moiety taken as written in title (salt dicaprate dropped)."
+}

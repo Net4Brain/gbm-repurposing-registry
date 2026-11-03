@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04870580",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Diagnosed with low-grade glioma based on clinical standard of care imaging and scheduled for primary surgical resection of low-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Fluorodopa PET tracer: PET/CT scan using fluorodopa tracer"},
+      {"field": "brief_summary", "quote": "Assessing the feasibility of performing PET guided histopathology in a single and multi-site setting will be crucial in order to use PET as a planning tool for brain biopsy to detect high-grade transformation in low-grade gliomas."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "scheduled for primary surgical resection of low-grade glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fluorodopa PET tracer",
+      "active_moiety": "18f-fluorodopa",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "PET/CT with fluorodopa tracer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "[18F]fluorodopa amino acid PET imaging tracer (fluorine-18)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intervention arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Basic tumour characterisation (for example Ki67 expression and detection of IDH mutations) will be undertaken."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging feasibility study in low-grade glioma (phase NA); no glioblastoma named and no therapeutic agent. Fluorodopa F-18 listed as diagnostic agent. Ki67 is an IHC proliferation marker, not listed."
+}

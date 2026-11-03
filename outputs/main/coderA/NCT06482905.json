@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT06482905",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subject must have histologically diagnosed grade 4 glioma, such as glioblastoma, grade 4 astrocytoma, diffuse hemispheric glioma, according to 2021 WHO Classification of Tumors of the CNS."},
+      {"field": "conditions", "quote": "High-grade Glioma; WHO Grade Ⅳ Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Anti-B7-H3 Chimeric Antigen Receptor T-Cell (CAR-T Cell) Injection/TX103"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety and Efficacy Study of TX103 CAR-T Cell Therapy for Recurrent or Progressive Grade 4 Glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anti-B7-H3 Chimeric Antigen Receptor T-Cell (CAR-T Cell) Injection/TX103",
+      "active_moiety": "anti-b7-h3 car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "evaluate the safety, tolerability and antitumor activity of anti-B7-H3 CAR-T cell injection (TX103) in subjects with recurrent or progressive Grade 4 Glioma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-B7-H3 CAR-T cell therapy (TX103), intraventricular/intracavitary",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Safety Run-In",
+        "Cohort A Single delivery route(Multi-dose)",
+        "Cohort B Dual delivery route(Multi-dose)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 (CD276) tumour expression >=30% by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects with confirmed B7-H3 positive\\* (≥30%) tumor expression by immunohistochemistry (IHC) in either primary or recurrent tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR-T only trial: excluded intervention type, no pharmacological candidate. Glioblastoma named in inclusion criteria among grade 4 gliomas (grade 4 astrocytoma, diffuse hemispheric glioma also eligible) -> mixed_glioma_gbm_named. B7-H3 is an entry requirement matched to the CAR-T target, but the CAR-T is not a candidate, so candidate_matched false. NTRK/BRAF V600E mentioned only as prior-therapy history, not recorded as biomarkers. Three experimental arms (dose/route cohorts), none a control."
+}

@@ -1,0 +1,7 @@
+{"nct_id":"NCT07472387","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only","gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma (GBM)"},{"field":"eligibility","quote":"Newly diagnosed GBM"}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"interventions","quote":"Additional blood samples (in addition to those taken as part of treatment) will be taken from patients at T1"}],"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"newly_diagnosed","treatment_setting_evidence":[{"field":"eligibility","quote":"Newly diagnosed GBM"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[{"biomarker":"other","biomarker_other":"androgen/oestrogen receptor and hormone-signalling gene expression (AR, ER)","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"outcomes","quote":"Expression of AR, ER, and other hormone signaling pathway genes using tumor RNA sequencing data"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Observational-style sampling study (blood, saliva, stool, tumour tissue); no drug interventions."}

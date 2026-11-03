@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT07100730",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neoplastic Disease; Glioblastoma; Glioblastoma (GBM); Glioblastoma Multiform; Glioblastoma Multiforme, Adult; Glioblastoma Multiforme (GBM) WHO Grade IV"},
+      {"field": "eligibility", "quote": "Previously confirmed neuropathological diagnosis of glioblastoma, IDH-wildtype according to the WHO 2021 classification."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This global clinical trial which evaluates the efficacy and safety of TLX101-Tx, an investigational radiopharmaceutical therapy, in combination with lomustine versus lomustine alone in adult patients with first recurrence of glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiographic evidence of first recurrence or progressive glioblastoma according to RANO 2.0 criteria"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "We will measure how much radiation from TLX101-Tx reaches the tumor and the bone marrow. This is done using special imaging scans (called SPECT, CT, and MRI) that help us see where the treatment goes in the body."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TLX101-Tx",
+      "active_moiety": "iodofalan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "TLX101-Tx, an investigational radiopharmaceutical therapy, in combination with lomustine versus lomustine alone"},
+        {"field": "arms", "quote": "TLX101-Tx Therapy only"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "iodofalan (131I) / 131I-IPA (4-iodo-L-phenylalanine), LAT-1 targeted radiopharmaceutical; isotope 131I",
+      "stated_antitumour_mechanism": "TLX101-Tx delivers targeted radiation to glioblastoma cells.",
+      "flag": {"uncertain": false},
+      "arms": ["TLX101-Tx + Standard of Care", "TLX101-Tx Only"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] TLX101-Tx + Standard of Care: TLX101-Tx + Lomustine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, standard of care at recurrence",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TLX101-Tx + Standard of Care"]
+    },
+    {
+      "agent_name_registered": "[18F]FET PET tracer",
+      "active_moiety": "18f-fluoroethyl-l-tyrosine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Specifically, amino acid-based molecular imaging using \\[18F\\]FET PET will be evaluated following co-registration with MRI."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "amino acid PET tracer (18F) used for eligibility imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TLX101-Tx + Standard of Care", "TLX101-Tx Only"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Previously confirmed neuropathological diagnosis of glioblastoma, IDH-wildtype according to the WHO 2021 classification."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Title/summary describe TLX101-Tx + lomustine versus lomustine alone, but the registered arms are TLX101-Tx + lomustine and TLX101-Tx only (both EXPERIMENTAL, non-randomised per design); no lomustine-alone arm is registered, so control_arm_from_other_arms coded no. Lomustine is standard of care in one arm only; coded soc_backbone (described as SoC, not the investigational question). Regimen coded combination because the main arm combines lomustine; the TLX101-Tx-only arm is monotherapy. Eligibility requires increased [18F]FET PET uptake (an imaging, LAT-1-related selection criterion); imaging-only markers are not molecular biomarkers per manual section 5, so not recorded as a biomarker, but an adjudicator may consider it a target-related selection for the LAT-1 targeted candidate. The FET tracer is not a registered intervention but is required for every patient at screening; listed as diagnostic_agent. Tumour dosimetry by SPECT treated as tumour PK of the candidate. Active moiety iodofalan with 131I isotope per W1."
+}

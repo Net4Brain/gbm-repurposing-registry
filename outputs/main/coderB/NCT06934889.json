@@ -1,0 +1,133 @@
+{
+  "nct_id": "NCT06934889",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "All Patients must have WHO Grade IV Glioblastoma/Gliosarcoma using WHO 2021 criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "will receive ABBV-637 before standard surgery, followed by ABBV-637 and ERAS-801 after standard surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Cohort A (Recurrent)"},
+      {"field": "arms", "quote": "Cohort C (Newly Diagnosed)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["eras-801", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ABBV-637",
+      "active_moiety": "abbv-637",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-637 before standard surgery, followed by ABBV-637 and ERAS-801 after standard surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational intravenous agent (ABBV-637), tested in an EGFR-amplified population",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Recurrent)", "Cohort C (Newly Diagnosed)"]
+    },
+    {
+      "agent_name_registered": "ABBV-155",
+      "active_moiety": "abbv-155",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-155 before standard surgery, followed by ABBV-155 and ERAS-801 after standard surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational intravenous agent (ABBV-155)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Recurrent)", "Cohort D (Newly Diagnosed)"]
+    },
+    {
+      "agent_name_registered": "ERAS-801",
+      "active_moiety": "eras-801",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-637 before standard surgery, followed by ABBV-637 and ERAS-801 after standard surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral EGFR inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Recurrent)", "Cohort B (Recurrent)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "will receive ABBV-637 in combination with standard radiation and chemotherapy drug temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort C (Newly Diagnosed)", "Cohort D (Newly Diagnosed)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "eras-801",
+      "source_quote": {"field": "eligibility", "quote": "Patients must have evidence of EGFR gene amplification by CLIA-certified laboratory assay at time of consent."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must be IDH wild type by CLIA-certified laboratory assay available at time of consent."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised phase Ib across four experimental cohorts, no control arm. ABBV-637 and ABBV-155 are paired with ERAS-801 in the recurrent cohorts (A, B) and given on a temozolomide + radiotherapy backbone alone in the newly diagnosed cohorts (C, D); coded experimental_combination because of the pairing with ERAS-801 in A/B; role would be experimental_monotherapy in C/D. EGFR amplification is a whole-trial entry requirement; matched to ERAS-801 (EGFR inhibitor, hint from outside knowledge of the drug) and likely also relevant to the ABBV agents. The record plans on-treatment surgery in cohorts A/B but states no PK or PD outcome, so tumour PK and target engagement are coded no."
+}

@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT07193628",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Refractory Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Therapy (Dose level 1)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Refractory Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Therapy",
+      "active_moiety": "b7h3/il13ra2 car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "EPC-003 fully human anti-B7H3/IL13Ra2 armored Chimeric Antigen Receptor T-Cell Therapy (CAR-T) cell injection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "bispecific armored CAR-T cell therapy (intraventricular)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Dose Level 1 Treatment Group",
+        "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Dose Level 2 Treatment Group",
+        "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Dose Level 3 Treatment Group",
+        "EPC-003 Fully Human Anti-B7H3/IL13Ra2 Armored CAR-T Cell Dose Level 4 Treatment Group"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7H3 and/or IL13Ra2 expression (>30%)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with B7H3- and/or IL13Ra2-positive recurrent or refractory glioblastoma confirmed by histopathology and/or cytology"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR-T is an excluded intervention type, so there is no candidate. B7H3/IL13Ra2 expression is the antigen target of the CAR-T; candidate_matched is false because the only agent is not a candidate."
+}

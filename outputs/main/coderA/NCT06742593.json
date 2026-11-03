@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT06742593",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Study of MT027 in Patients with Brain, Meninges, and Spinal Cord Metastatic Solid Tumors"},
+      {"field": "eligibility", "quote": "or have had previous confirmation of brain, meninges, spinal cord metastases, including lung cancer, breast cancer, colorectal cancer, melanoma, renal cell carcinoma, etc."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MT027: CRISPR/Cas9 edited B7H3-specific allogeneic CAR-T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT027 cells suspension",
+      "active_moiety": "b7-h3 car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "MT027 is an off-the-shelf, allogeneic chimeric antigen receptor T cell (UCAR-T) injection prepared from healthy donor T cells targeting B7-H3."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic CRISPR-edited B7-H3-targeted CAR-T cell therapy (MT027)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT027"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered population is CNS metastases of solid tumours; glioblastoma never named. Detailed description inconsistently describes recurrent high-grade glioma with B7H3 positivity, but that is not in eligibility/conditions/title/arms (C7) and HGG is not glioblastoma anyway. B7-H3 positivity appears only in the description, not as an eligibility criterion, so not recorded. CSF/blood PK and PD (CAR copy number, cytokines) are planned but relate to the excluded cell therapy, not a candidate, so tumour_pk/target_engagement coded no."
+}

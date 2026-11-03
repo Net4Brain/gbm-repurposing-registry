@@ -1,0 +1,136 @@
+{
+  "nct_id": "NCT05188508",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Histologically confirmed grade II or III IDH-mutated glioma (absence of known CDKN2A/B deletion) that has recurred after first line therapy"},
+      {"field": "eligibility", "quote": "Histologically confirmed IDH-wildtype glioma that has recurred following therapy (consisting of at least maximum feasible surgical resection and radiation therapy)."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Cohort B enrols recurrent IDH-wildtype glioma of unspecified grade, which would largely be glioblastoma, but glioblastoma/grade 4 is never named in conditions, title, inclusion or arm labels."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase II Study of Pembrolizumab, Olaparib, and Temozolomide in Patients With Glioma"},
+      {"field": "brief_summary", "quote": "This study will test the safety and effectiveness of a combination of pembrolizumab, olaparib, and temozolomide"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in people with a glioma that either did not respond to previous treatment or came back after treatment."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["pembrolizumab", "olaparib", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Patients will receive pembrolizumab 200mg IV on day 1 (± 3days) of each cycle. Pembrolizumab will continue every 21 days (± 3 days) throughout the trial."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent enhancing grade II and III IDH-mutated gliomas that have failed previous therapy", "Recurrent IDH-wildtype gliomas and homologous recombination deficiency (HRD)."]
+    },
+    {
+      "agent_name_registered": "Olaparib and Temozolomide",
+      "active_moiety": "olaparib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Olaparib will be dosed 200mg orally twice a day (bid) days 1-7 each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent enhancing grade II and III IDH-mutated gliomas that have failed previous therapy", "Recurrent IDH-wildtype gliomas and homologous recombination deficiency (HRD)."]
+    },
+    {
+      "agent_name_registered": "Olaparib and Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide 50 mg/m2 will be administered orally days 1-7 each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy), low-dose 7-day schedule",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent enhancing grade II and III IDH-mutated gliomas that have failed previous therapy", "Recurrent IDH-wildtype gliomas and homologous recombination deficiency (HRD)."]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed grade II or III IDH-mutated glioma (absence of known CDKN2A/B deletion) that has recurred after first line therapy"},
+      "flag": {"uncertain": true, "reason": "IDH mutation (cohort A requirement) could be argued as mechanistically linked to the PARP inhibitor olaparib (IDH-associated HR defect), but the record states no such rationale."},
+      "arms": ["Recurrent enhancing grade II and III IDH-mutated gliomas that have failed previous therapy"]
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed grade II or III IDH-mutated glioma (absence of known CDKN2A/B deletion) that has recurred after first line therapy"},
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent enhancing grade II and III IDH-mutated gliomas that have failed previous therapy"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed IDH-wildtype glioma that has recurred following therapy (consisting of at least maximum feasible surgical resection and radiation therapy)."},
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent IDH-wildtype gliomas and homologous recombination deficiency (HRD)."]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "homologous recombination repair gene mutation (HRD; BRCA1/2, ATM, PALB2, etc.)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "olaparib",
+      "source_quote": {"field": "eligibility", "quote": "Patient with known or suspected deleterious mutations in at least 1 of the specified 15 genes involved in homologous recombination repair (BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL, PALB2, PPP2R2A, RAD51B, RAD51C, RAD51D, and RAD54L)"},
+      "flag": {"uncertain": false},
+      "arms": ["Recurrent IDH-wildtype gliomas and homologous recombination deficiency (HRD)."]
+    }
+  ],
+  "coder_notes": "Population: conditions 'Glioma'; cohort A = recurrent grade II/III IDH-mutant glioma; cohort B = recurrent IDH-wildtype glioma (grade not stated) with HRR gene mutation. Glioblastoma not named anywhere -> not_glioblastoma (high_grade_glioma_unspecified also arguable; both exclude), flagged uncertain because cohort B would mostly be GBM under CNS5. Olaparib and temozolomide are registered as one 'Combination Product' but are two separate drugs (not a fixed-dose product) -> split into two rows, fixed_dose_combination false. Temozolomide given at a non-standard low dose (50 mg/m2 d1-7) as part of the tested triplet -> established_therapy_experiment (rule 3 exception i / rule 6); candidates are pembrolizumab and olaparib. HRR mutation enrichment in cohort B matched to olaparib (PARP inhibitor). Primary outcome ORR is for cohort A only; cohort B analysed descriptively."
+}

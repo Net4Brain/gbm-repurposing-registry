@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05788484",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Recurrent, locally advanced, or metastatic solid tumor cancer excluding primary central nervous system tumors (e.g., glioblastoma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase 1 Dose-escalation and Expansion Study of the PD-1 x ILT4 Bispecific Antibody CDX-585 in Patients With Advanced Malignancies"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent, locally advanced, or metastatic solid tumor cancer excluding primary central nervous system tumors (e.g., glioblastoma)."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic Evaluation: CDX-585 serum concentrations will be measured at specified visits"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CDX-585",
+      "active_moiety": "cdx-585",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients enrolled in the expansion phase of the study will receive CDX-585 at the dose level chosen during the escalation phase."},
+        {"field": "interventions", "quote": "CDX-585 is administered by infusion every 2 weeks"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PD-1 x ILT4 (LILRB2) bispecific antibody",
+      "stated_antitumour_mechanism": "PD-1 x ILT4 Bispecific Antibody",
+      "flag": {"uncertain": false},
+      "arms": ["CDX-585"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Solid-tumour basket in which primary CNS tumours including glioblastoma are explicitly excluded (gbm_excluded). basket set true to reflect the multi-cancer design; GBM is not eligible. PK is serum only. Pre-/on-treatment biopsies are mentioned 'if required' without a stated pharmacodynamic endpoint, so target engagement coded no."
+}

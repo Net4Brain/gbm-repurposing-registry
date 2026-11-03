@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06193538",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Glioblastoma Patients"},
+      {"field": "eligibility", "quote": "Patients with advanced malignant glioma confirmed by histopathology;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] Recombinant NV-A01 adenovirus injection: Patients with advanced glioblastoma were intratumoral injected with NV-A01."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients who have received radiotherapy and/or temozolomide (TMZ) treatment and have residual or recurrent tumors;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Proportion of CD3+, CD4+, CD8+T cells and the expression of CD69 on the surface of T cells in peripheral blood are detected by flow cytometry."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Recombinant NV-A01 adenovirus injection",
+      "active_moiety": "recombinant adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Intratumoral injection of NV-A01 adenovirus"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "recombinant adenovirus (gene therapy / oncolytic virus type), intratumoral",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intratumoral injection of NV-A01 adenovirus"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Eligibility says advanced malignant glioma; glioblastoma is named in conditions and the summary, so coded mixed_glioma_gbm_named (gbm_only is an alternative since the conditions field lists only glioblastoma). NV-A01 is a recombinant adenovirus, so it is an excluded intervention type (gene therapy / oncolytic virus); the record does not state which. Blood immune markers are planned as pharmacodynamic indicators."
+}

@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT06910306",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Recurrent Gliomas"},
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed diagnosis of WHO grade IV glioblastoma (including variants such as gliosarcoma, giant cell glioblastoma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] Device :DaRT seeds: The sources are impregnated with a layer containing Ra-224 which is well fixated to the surface of the source."},
+      {"field": "keywords", "quote": "Recurrent Glioblastoma; Brachytherapy; GBM; Alpha DaRT sources; Intratumoral Diffusing Alpha Emitters"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Alpha Radiation Emitters Device (DaRT) for the Treatment of Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Intervention is a registered device: Ra-224 diffusing alpha-emitter brachytherapy seeds (DaRT) implanted intratumorally. Treated as a device/radiotherapy (brachytherapy), not a radiopharmaceutical drug, so no agent row and no candidate; adjudicator may consider whether Ra-224 seeds should count as a radiopharmaceutical. 'WHO grade IV glioblastoma' with giant cell glioblastoma variant and no IDH requirement coded historical. Registered phase NA."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06499831",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "High grade brain glioma (Grade 3 and 4)"},
+      {"field": "arms", "quote": "0-(2-18F-Fluoroethyl)-L-Tyrosine (FET) PET/MRI for planning of radiation therapy of post-operative grade III/IV glioma patients"},
+      {"field": "conditions", "quote": "Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma named only in keywords/summary; inclusion says grade 3 and 4 glioma without IDH, which may count as historical GBM naming (D27C) or as high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "0-(2-18F-Fluoroethyl)-L-Tyrosine (other names: FET): 0-(2-18F-Fluoroethyl)-L-Tyrosine positron emission tomography (FET) is an amino acid agent derived from tyrosine that is able to cross the blood brain barrier."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior radiation or systemic treatment for high grade glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "0-(2-18F-Fluoroethyl)-L-Tyrosine",
+      "active_moiety": "18f-fet",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "0-(2-18F-Fluoroethyl)-L-Tyrosine (FET) PET/MRI for planning of radiation therapy of post-operative grade III/IV glioma patients"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "amino acid PET tracer O-(2-[18F]fluoroethyl)-L-tyrosine (18F); imaging only",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["High Grade Glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA imaging (radiotherapy planning) pilot. Only drug is the FET PET tracer (diagnostic). Temozolomide is optional for grade 4 and not a registered intervention, so not listed. Gadolinium contrast implied but not a registered intervention. Population: grade 3 and 4 gliomas; GBM appears explicitly only in keywords and brief summary."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06147505",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy in Subjects With Primary Glioblastoma(GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] XS005 Injection (other names: XS005)"},
+      {"field": "arms", "quote": "Experimental: Subjects With Tumor (interventions: Biological: XS005 Injection)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy in Subjects With Primary Glioblastoma(GBM)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "XS005 Injection",
+      "active_moiety": "xs005",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] XS005 Injection (other names: XS005)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational biological injection, nature not stated in the record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Subjects With Tumor"]
+    },
+    {
+      "agent_name_registered": "Stupp regimen (temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "XS005 Injection Combined With Stupp Regimen for Adjuvant Chemotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard Stupp backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: Subjects With Tumor"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Conditions field says only 'Tumor'; glioblastoma is named in the title. Temozolomide is not a registered intervention but the Stupp regimen is named in the title and the exclusion criteria refer to TMZ, so it is listed as soc_backbone. Nature of XS005 is not described in the record."
+}

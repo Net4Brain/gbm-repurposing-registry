@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT06666712",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor, Recurrent; Malignant Glioma (WHO Grade III or IV); IDH1/IDH2 Mutation"},
+      {"field": "eligibility", "quote": "Patients must have recurrent malignant glioma with a history of WHO grade 3-4 IDH-mutant status"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Six patients will be treated with Topotecan by Convection-Enhanced Delivery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with recurrent malignant glioma, IDH-mutant, who have failed standard of care treatment are eligible."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "Tumoral and parenchymal distribution of gadolinium (measured by MRI) will be correlated with TPT levels (measured by mass spectrophotometry) in tissue samples obtained upon tumor resection."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Topotecan",
+      "active_moiety": "topotecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Six patients will be treated with Topotecan by Convection-Enhanced Delivery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topoisomerase I inhibitor chemotherapy, given by convection-enhanced delivery",
+      "stated_antitumour_mechanism": "topoisomerase inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Long-term CED of Topotecan"]
+    },
+    {
+      "agent_name_registered": "gadolinium",
+      "active_moiety": "gadolinium",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "after which four cycles of TPT/gadolinium will be administered."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent co-infused to image drug distribution",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Long-term CED of Topotecan"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with recurrent malignant glioma, IDH-mutant, who have failed standard of care treatment are eligible."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only IDH-mutant WHO grade 3-4 glioma is enrolled, so not_glioblastoma under CNS5 despite the registry's mention of prior GBM work. Gadolinium is not a registered intervention but the protocol text says every patient receives TPT/gadolinium, so listed as diagnostic_agent. Drug distribution imaging is not counted as target engagement."
+}

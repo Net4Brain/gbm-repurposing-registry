@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT05283330",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Cervical Cancer; Breast Cancer; Colon Cancer; NSCLC; mCRPC (Metastatic Castration-resistant Prostate Cancer); Glioblastoma; Nonsmall Cell Lung Cancer"},
+      {"field": "eligibility", "quote": "Recurrent glioblastoma (only enrolled in MAD Q4W cohorts) with evidence of recurrent disease (RD) demonstrated by disease progression using modified Response Assessment in Neuro-Oncology (RANO 2.0) criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "²¹²Pb-DOTAM-GRPR1 is a radioimmunoconjugate comprised of ²¹²Pb, the metal chelator DOTAM (1,4,7,10-Tetrakis(carbamoylmethyl)-1,4,7,10- tetraazacyclododecane) and a GRPR-targeted antagonist."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Having first or second glioblastoma recurrence, after standard therapy that includes prior radiation therapy (RT) and at least 12 weeks from completion of RT prior to first administration of 212Pb-DOTAM-GRPR1."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "212Pb-DOTAM-GRPR1 radioactivity concentration as a function of time in whole blood, plasma and urine"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "²¹²Pb-DOTAM-GRPR1",
+      "active_moiety": "dotam-grpr1",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "In the dose escalation portion, a classic 3+3 design will be utilized for the SAD cohorts and a Boin design for the MAD cohorts."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational lead-212 (212Pb) alpha-emitting radioligand: DOTAM chelator conjugated to a GRPR-targeted antagonist peptide",
+      "stated_antitumour_mechanism": "GRPR-targeted alpha radioligand therapy",
+      "flag": {"uncertain": false},
+      "arms": ["²¹²Pb-DOTAM-GRPR1"]
+    },
+    {
+      "agent_name_registered": "203Pb-DOTAM-GRPR1",
+      "active_moiety": "203pb-dotam-grpr1",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lead-203 (203Pb) SPECT imaging form of the same GRPR ligand, used for patient selection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["²¹²Pb-DOTAM-GRPR1"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GRPR (gastrin-releasing peptide receptor) expression, assessed by 203Pb-DOTAM-GRPR1 SPECT/CT uptake",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "dotam-grpr1",
+      "source_quote": {"field": "eligibility", "quote": "Presence of 203Pb-DOTAM-GRPR1 uptake by SPECT/CT scan in the tumor lesion(s)."},
+      "flag": {"uncertain": true, "reason": "GRPR expression is target-matched but assessed only by imaging uptake; manual excludes imaging-only markers from molecular biomarkers"},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket trial; glioblastoma named in conditions and inclusion criteria (recurrent GBM in MAD Q4W cohorts). 212Pb-DOTAM-GRPR1 named by ligand without isotope per W1 (no INN in record). The 203Pb diagnostic form is not a registered intervention but is required for eligibility in all participants and has its own safety outcome, so listed as diagnostic_agent. PK is whole blood/plasma/urine only. Title also requires 'GRPR-expressing tumors'."
+}

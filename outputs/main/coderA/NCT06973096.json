@@ -1,0 +1,142 @@
+{
+  "nct_id": "NCT06973096",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed, EGFR-amplified, MGMT-unmethylated glioblastoma (as defined by WHO 2021 Classification for CNS Tumors, including that the tumor must be IDH wildtype)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] CART-EGFR-IL13Ra2 cells: autologous T cells transduced with a bicistronic lentiviral vector containing a murine scFv targeting EGFR epitope 806 and a humanized scFv targeting IL13Ra2"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with newly diagnosed, EGFR-amplified, MGMT-unmethylated glioblastoma, without evidence of disease recurrence/progression following completion of initial radiotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CART-EGFR-IL13Ra2 cells",
+      "active_moiety": "egfr-il13ra2 car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] CART-EGFR-IL13Ra2 cells: autologous T cells transduced with a bicistronic lentiviral vector containing a murine scFv targeting EGFR epitope 806 and a humanized scFv targeting IL13Ra2"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous bivalent CAR T-cell therapy targeting EGFR epitope 806 and IL13Ra2 (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Single Fixed Dose)", "Cohort B (Repeat Cycles Following Lymphodepletion)"]
+    },
+    {
+      "agent_name_registered": "Rituximab or Rituximab biosimilar",
+      "active_moiety": "rituximab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "CART-EGFR-IL13Ra2 cells will be administered via intracerebroventricular delivery in q6 week cycles of treatment, following lymphodepletion with fludarabine, cyclophosphamide, and rituximab."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "anti-CD20 monoclonal antibody, used here for lymphodepletion before CAR T cells",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Repeat Cycles Following Lymphodepletion)"]
+    },
+    {
+      "agent_name_registered": "Fludarabine + Cyclophosphamide combination",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "CART-EGFR-IL13Ra2 cells will be administered via intracerebroventricular delivery in q6 week cycles of treatment, following lymphodepletion with fludarabine, cyclophosphamide, and rituximab."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "purine analogue chemotherapy, lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Repeat Cycles Following Lymphodepletion)"]
+    },
+    {
+      "agent_name_registered": "Fludarabine + Cyclophosphamide combination",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Fludarabine: 30mg/m2/day x 3 days; Cyclophosphamide: 300mg/m2/day x 3 days"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "alkylating agent chemotherapy, lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B (Repeat Cycles Following Lymphodepletion)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor tissue positive for wild-type EGFR amplification by Neogenomics Laboratories"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumors with an MGMT promoter methylation result of hypermethylated, methylated, low positive methylated, or indeterminate."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with newly diagnosed, EGFR-amplified, MGMT-unmethylated glioblastoma (as defined by WHO 2021 Classification for CNS Tumors, including that the tumor must be IDH wildtype)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only investigational product is a bivalent CAR T-cell therapy (excluded type), so no candidate. Rituximab, fludarabine and cyclophosphamide are lymphodepleting conditioning for the CAR T cells (R6) -> supportive. EGFR amplification eligibility matches the CAR T target, but the CAR T is not a candidate, so candidate_matched false. MGMT unmethylated required (exclusion of methylated tumours). Radiotherapy is completed before study treatment and not part of experimental arms. Brief summary mentions pharmacokinetics of the CAR T cells (not a candidate)."
+}

@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT06059690",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed or recurrent glioblastoma clinically indicated for resective surgery"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] pH Measurement of in vivo tissue"},
+      {"field": "brief_summary", "quote": "The purpose of this project is to validate a new combined MRI and PET imaging technique as a biomarker or measure of glycolysis in brain tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed or recurrent glioblastoma clinically indicated for resective surgery"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FDG-PET",
+      "active_moiety": "fludeoxyglucose (18F)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will undergo FDG-PET scan for the study using standard clinical imaging techniques"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled glucose analogue PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I en vivo Glycolic Index measurement"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Monocarboxylate transporter (MCT) expression / glycolytic enzyme expression in biopsied tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MCT expression will be quantified within biopsy samples based on immunohistochemistry stain density of percentage positive cells"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging/biomarker validation study with no therapeutic drug. FDG is not a registered intervention but the description states every patient undergoes FDG-PET for the study, so it is listed as a diagnostic agent; adjudicator may drop it under R9. Moiety written as fludeoxyglucose (18F) per INN. 'Epidermal Growth Factor Receptor' appears only in the conditions field, with no EGFR testing described in eligibility, design or outcomes, so no EGFR biomarker row was recorded. Contrast agent mentioned only in passing in exclusion criteria; not listed."
+}

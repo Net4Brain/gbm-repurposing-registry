@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT04559230",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed IDH wild type (primary) GBM. Molecular GBM (as per cIMPACT-NOW 3) is allowed as is gliosarcoma and epithelioid glioblastoma. IDH-mutant glioma is not allowed."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Sacituzumab govitecan: Dosing will be at 10 mg/kg on days 1 and 8 of a 21-day cycle (interventions: Drug: Sacituzumab Govitecan)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Sacituzumab Govitecan in Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Sacituzumab Govitecan",
+      "active_moiety": "sacituzumab govitecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is an open-label single arm study. All patients will receive the study drug."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-Trop-2 antibody-drug conjugate (SN-38 payload)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Sacituzumab govitecan"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Trop-2 expression (H-score >=200)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "sacituzumab govitecan",
+      "source_quote": {"field": "eligibility", "quote": "Positive Trop-2 expression (H-Score ≥200), as verified by central review at University of Texas Health Science Center at San Antonio (UTHSA)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed IDH wild type (primary) GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "MGMT status appears only in prior-therapy history (temozolomide required if MGMT methylated); not an entry biomarker, not listed. Lomustine mentioned only as historical control, not an intervention. Trop-2 is the target of sacituzumab govitecan."
+}

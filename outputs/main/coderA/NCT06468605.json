@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT06468605",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent or Progressive High-grade Glioma"},
+      {"field": "eligibility", "quote": "i. subjects with recurrent IDH wild-type GBM, who have recurred or progressed after prior treatment with radiation and TMZ (prior TMZ is mandated if known methylated MGMT promoter), and ii. subjects with recurrent IDH-mutated astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "JCXH-211 is a lipid nanoparticle (LNP) encapsulated srRNA, encoding the human IL-12 protein."},
+      {"field": "brief_summary", "quote": "The study agent JCXH-211, is a self-replicating RNA (srRNA)-based human IL-12, administered intratumorally via convection-enhanced delivery (CED)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "JCXH-211 is an LNP-encapsulated self-replicating RNA encoding IL-12; coded as gene therapy (excluded type), but it could be viewed as a pharmacological biologic (cytokine) candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent or progressive high-grade glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "eligibility", "quote": "patient will be replaced for the purposes of PK analyses only"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "JCXH-211",
+      "active_moiety": "jcxh-211",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "JCXH-211 is a lipid nanoparticle (LNP) encapsulated srRNA, encoding the human IL-12 protein."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "self-replicating RNA encoding human IL-12 in lipid nanoparticles (gene therapy), intratumoral convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Gene therapy vs pharmacological biologic (IL-12) classification affects candidate status."},
+      "arms": ["JCXH-211"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm Phase 1 of intratumoral CED srRNA IL-12. Population includes recurrent IDH-wildtype GBM and IDH-mutated astrocytoma (mixed, GBM named in eligibility). IDH wild-type or mutant both eligible and MGMT is mentioned only for prior-therapy requirements, so no eligibility biomarkers recorded. PK analyses are mentioned (sample type not stated) and CSF is collected for exploratory analyses, but they concern a non-candidate agent; tumour_pk_planned coded no (would be unclear if JCXH-211 were adjudicated a candidate)."
+}

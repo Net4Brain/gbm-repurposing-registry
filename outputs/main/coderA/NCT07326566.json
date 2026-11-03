@@ -1,0 +1,118 @@
+{
+  "nct_id": "NCT07326566",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Newly Diagnosed Glioblastoma; GBM; Glioblastoma Multiforme (GBM); Glioma; Central Nervous System Diseases; Brain Cancer"},
+      {"field": "eligibility", "quote": "Newly diagnosed histologically confirmed glioblastoma that is isocitrate dehydrogenase wild type (IDH-WT)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to see if combining silevertinib with temozolomide after surgery and radiotherapy helps treat newly diagnosed glioblastoma (GBM) better than using temozolomide alone in the maintenance setting."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "At least 4 weeks since completion of radiation therapy, with a post-radiation MRI showing no progression."},
+      {"field": "brief_summary", "quote": "better than using temozolomide alone in the maintenance setting"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "silevertinib in combination with temozolomide (BDTX-1535)",
+      "active_moiety": "silevertinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "silevertinib at dose determined in Part 1 until disease progression in combination with temozolomide 150-200 mg/m2 orally once daily on Days 1 to 5 of each 28-day cycle for maximum of 6 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral brain-penetrant EGFR inhibitor (BDTX-1535)",
+      "stated_antitumour_mechanism": "Silevertinib was designed to block a growth signal important to some cancers where tumors grow because of changes in a protein called epidermal growth factor receptor (EGFR).",
+      "flag": {"uncertain": false},
+      "arms": ["silevertinib and temozolomide"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants randomized to Arm B will receive temozolomide 150-200 mg/m2 orally once daily on Days 1 to 5 of each 28-day cycle for maximum of 6 cycles"},
+        {"field": "detailed_description", "quote": "It is the standard treatment for adults with certain types of newly diagnosed brain cancer, like GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["silevertinib and temozolomide", "temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed histologically confirmed glioblastoma that is isocitrate dehydrogenase wild type (IDH-WT)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "silevertinib",
+      "source_quote": {"field": "eligibility", "quote": "Positive EGFR status in the brain tumor as determined by a commercially available test or validated laboratory assay (CLIA or comparable certification)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "silevertinib",
+      "source_quote": {"field": "eligibility", "quote": "For Part 2 (Randomized, Controlled Trial) ONLY: EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": ["silevertinib and temozolomide", "temozolomide"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "For Part 2 (Randomized, Controlled Trial) ONLY: Unmethylated MGMT promoter tumor status based on a validated assay."},
+      "flag": {"uncertain": false},
+      "arms": ["silevertinib and temozolomide", "temozolomide"]
+    }
+  ],
+  "coder_notes": "Part 1 safety lead-in requires 'EGFR alterations' (not a separately registered arm); Part 2 randomised requires EGFRvIII and unmethylated MGMT, applying to both registered arms. The overall EGFR-positive requirement applies to the whole trial (eligibility). The registered intervention 'silevertinib in combination with temozolomide' bundles both drugs; listed as separate rows. Comparator arm is a registered ACTIVE_COMPARATOR, so control_arm_from_other_arms = no."
+}

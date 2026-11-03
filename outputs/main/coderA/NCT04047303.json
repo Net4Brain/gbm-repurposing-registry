@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT04047303",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Astrocytoma; Glioblastoma"},
+      {"field": "eligibility", "quote": "with recurrent or progressive WHO Grade II Diffuse Astrocytoma, Grade III Anaplastic Astrocytoma or recurrent WHO Grade IV Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "During the preoperative period, all subjects will be given a course of orally administrated CC-90010 at 30 mg once daily for 4 consecutive days on Cycle 1 Day 1 to Day 4."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subject must be in first or second recurrence."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Intratumoral concentration of CC-90010 in tumor tissue collected intraoperatively"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "CC-90010-GBM-001 is a multi-center, open-label study to assess the pharmacokinetics (PK), pharmacodynamics (PD) and CNS penetration of CC-90010 following short-term interval therapy (4 daily doses ) prior to surgery"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CC-90010",
+      "active_moiety": "cc-90010",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CC-90010: CC-90010"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral BET bromodomain inhibitor (CC-90010)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Administration of CC-90010"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Window-of-opportunity phase 1 with intratumoural drug concentration as primary outcome. PD is a stated objective but no specific PD marker is named in outcomes; target_engagement coded yes on the stated PD objective (no paired sampling described) - adjudicator may prefer unclear. Archival tissue for genetic testing required but no specific biomarker named. cns5_terminology unclear: plain 'WHO Grade IV Glioblastoma' with no IDH or WHO edition reference."
+}

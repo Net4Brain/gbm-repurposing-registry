@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT04467346",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed glioblastoma multiforme treated with temozolomide (200mg/m2) as monotherapy and patients with recurrent or progressive malignant glioma treated with temozolomide as monotherapy (200mg/m2)."},
+      {"field": "conditions", "quote": "Therapeutic Equivalency"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Evaluate bioequivalence between Temozolomide Oral Suspension and Temodal® capsules for oral administration."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed glioblastoma multiforme treated with temozolomide (200mg/m2) as monotherapy and patients with recurrent or progressive malignant glioma treated with temozolomide as monotherapy (200mg/m2)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The Cmax pharmacokinetic parameter will be determined from temozolomide plasma concentrations"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ped-TMZ",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Ped-TMZ (other names: Temozolomide Oral Suspension)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral suspension formulation of temozolomide (established GBM therapy, D6)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ped-TMZ"]
+    },
+    {
+      "agent_name_registered": "Temodal capsule",
+      "active_moiety": "temozolomide",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Temodal capsule: Single oral administration on D1 or D2 according to randomization at the dose of 200 mg/m2."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "temozolomide capsules (reference product)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Temodal capsule"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Crossover bioequivalence study of a new oral suspension of temozolomide vs Temodal capsules; temozolomide is an established GBM therapy in a new formulation -> established_therapy_experiment; no candidate. Population: newly diagnosed GBM or recurrent/progressive malignant glioma (GBM named in inclusion) -> mixed. PK is plasma only. Registry lists Ped-TMZ as the intervention in the Temodal arm too (registry error); Temodal listed as comparator row."
+}

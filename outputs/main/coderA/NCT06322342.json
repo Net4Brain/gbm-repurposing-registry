@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06322342",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with known enhancing CNS lesions, including but not limited to gliomas, meningiomas, glioblastomas, schwannomas, brain metastases, multiple sclerosis lesions, that are on an ongoing follow-up MRI schedule"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] RVP-001 (other names: Mn-PyC3A, mangaverate): MRI contrast agent"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Subjects may include individuals who have a stable primary brain tumor, metastatic brain tumors, multiple sclerosis, or other gadolinium-enhancing CNS lesions."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "RVP-001",
+      "active_moiety": "mangaverate",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] RVP-001 (other names: Mn-PyC3A, mangaverate): MRI contrast agent"},
+        {"field": "brief_summary", "quote": "The ultimate goal of this research program is development of a gadolinium-free alternative to current general purpose MRI contrast agents."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational manganese-based MRI contrast agent (Mn-PyC3A)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["2 mg/Mn/kg", "7 mg/Mn/kg", "12 mg/Mn/kg"]
+    },
+    {
+      "agent_name_registered": "gadolinium-based contrast agent (GBCA)",
+      "active_moiety": "gadolinium-based contrast agent",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Subjects will have known gadolinium-enhancing CNS lesions and will have a gadolinium-based contrast agent-enhanced MRI of the brain 2-14 days before receiving RVP-001 with imaging."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium MRI contrast agent, unspecified product (reference imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic MRI contrast agent trial in mixed CNS lesions (tumours and multiple sclerosis); glioblastomas named in inclusion criteria, so basket_gbm_eligible, but there is no therapeutic candidate. Moiety taken from the record's other name 'mangaverate'. GBCA is not a registered intervention but every subject has a study GBCA-enhanced MRI used as comparator; listed as diagnostic for transparency (adjudicator may drop under R9). Three ascending-dose experimental arms, no control arm. 'Pharmacodynamics' in the description refers to imaging enhancement by a contrast agent, not antitumour target engagement."
+}

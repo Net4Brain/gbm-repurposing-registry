@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT05871021",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Dose escalation to 75 Gy with concomitant radioprotectant bevacizumab"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Bevacizumab (established GBM therapy) is given as a protective agent for radiotherapy dose escalation; coded established_therapy_experiment, but no antitumour hypothesis for bevacizumab is stated, so candidate status could be argued either way."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients With First Diagnosis of IDH Wild-type, MGMT Unmethylated Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Dose escalation to 75 Gy with concomitant radioprotectant bevacizumab"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Bevacizumab is used as a radioprotectant during dose-escalated radiotherapy (new setting of an established GBM therapy); no antitumour hypothesis stated."},
+      "arms": ["75 Gy with two cycles of bevacizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild-type, MGMT unmethylated glioblastoma patients"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "4-miRNA signature-based risk score",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Validation of prognostic 4-miRNA signature-based risk score"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm radiotherapy dose escalation to 75 Gy with two cycles of bevacizumab as a protective VEGF inhibitor. The bevacizumab is registered under a Radiation-type intervention (other name). Bevacizumab is an established GBM therapy (D6) used in a new setting, so role established_therapy_experiment and the trial would fail S6 as established_therapy_only; flagged uncertain because the bevacizumab purpose is radioprotection. Temozolomide is not named (official title says radiochemotherapy only), so not listed."
+}

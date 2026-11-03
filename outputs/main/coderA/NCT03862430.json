@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT03862430",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed primary or secondary glioblastoma multiforme."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] NanO2TM: NanO2TM infusion in conjunction with Radiation Treatment and temozolomide (interventions: Drug: NanO2TM)"},
+      {"field": "brief_summary", "quote": "NanO2TM is being developed to increase the amount of oxygen delivered to tumors which is hoped to increase the effectiveness of radiation therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed primary or secondary glioblastoma multiforme."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Via TOLD MRI, we measure the oxygenation level in tumor tissue, to confirmd NanO2 treatment causes the re-oxygenation of hypoxic tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NanO2TM",
+      "active_moiety": "dodecafluoropentane",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] NanO2TM: NanO2TM infusion in conjunction with Radiation Treatment and temozolomide (interventions: Drug: NanO2TM)"},
+        {"field": "interventions", "quote": "NanO2TM (other names: Dodecafluoropentane emulsion (DDFPe))"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "dodecafluoropentane emulsion (DDFPe, NVX-108); perfluorocarbon oxygen therapeutic / radiosensitiser",
+      "stated_antitumour_mechanism": "increase the amount of oxygen delivered to tumors which is hoped to increase the effectiveness of radiation therapy (re-oxygenation of hypoxic tissue)",
+      "flag": {"uncertain": false},
+      "arms": ["NanO2TM"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All study participants will receive standard care for GBM including Temozolomide and radiation therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NanO2TM", "Placebo"]
+    },
+    {
+      "agent_name_registered": "Placebo Saline Infusion",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[PLACEBO_COMPARATOR] Placebo: Placebo Saline infusion in conjunction with Radiation Treatment and temozolomide (interventions: Drug: Placebo Saline Infusion)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "saline placebo (0.9% sodium chloride)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered drug name NanO2TM; also referred to as NVX-108 in outcomes; other name dodecafluoropentane emulsion (DDFPe), used as active moiety. Temozolomide is not a separate registered intervention but every patient receives it with radiotherapy (Stupp), so listed as soc_backbone. 'primary or secondary glioblastoma multiforme' allows secondary (IDH-mutant) GBM, hence historical terminology. Target engagement = TOLD MRI tumour oxygenation (pharmacodynamic imaging). Placebo saline listed as control_comparator."
+}

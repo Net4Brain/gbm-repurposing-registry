@@ -1,0 +1,37 @@
+{
+"nct_id":"NCT05820191","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"gbm_only",
+"gbm_population_evidence":[
+{"field":"conditions","quote":"Glioblastoma"},
+{"field":"eligibility","quote":"GBM diagnose confirmed by MRI and histopathology"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[
+{"field":"brief_summary","quote":"The study will elucidate the diagnostic value of PET imaging with use of amyloid-β radioisotope tracer Amyvid (Florbetapir F18) for GBM."}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"unclear"},
+"trial":{
+"treatment_setting":"recurrent",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Had undergone gross total or subtotal resection of their tumor and developed enlarging and/or new enhancing lesion(s), recommended for second resection"}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Amyvid, Intravenous Solution","active_moiety":"florbetapir","role":"diagnostic_agent",
+"role_evidence":[{"field":"brief_summary","quote":"The study will elucidate the diagnostic value of PET imaging with use of amyloid-β radioisotope tracer Amyvid (Florbetapir F18) for GBM."}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":true,"regimen_id":null,
+"drug_class_hint":"18F amyloid PET tracer (florbetapir F18)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},
+"arms":["AMY-GBM"]}],
+"biomarkers":[
+{"biomarker":"other","biomarker_other":"amyloid-beta expression in tumour","role":"exploratory_correlative","candidate_matched":false,"matched_agent":null,
+"source_quote":{"field":"outcomes","quote":"Tissue specimens, separated from total tumor after planned surgical resection and prior Amyvid-PET analysis, will be analyzed by western blot to quantify amyloid-β expression level and correlate with deposition of Amyvid, as identified by Amyvid-PET."},
+"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"Diagnostic imaging study with a PET tracer only; no therapeutic agent."}

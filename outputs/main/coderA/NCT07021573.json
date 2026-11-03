@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07021573",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "Diagnosis: Patients with a preoperative diagnosis of a suspected high-grade glioma based demographics and MRI imaging."},
+      {"field": "eligibility", "quote": "Group 1: Suspected high-grade glioma with contrast enhancement on MRI (GBM-like)."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Population is suspected high-grade glioma; 'GBM-like' (and 'GMB like' in the arm label) describes an MRI enhancement phenotype, not a glioblastoma diagnosis requirement; adjudicator may judge this as naming glioblastoma."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] KINEVO 900 S with BLUE 400 (other names: CALLAO)"},
+      {"field": "eligibility", "quote": "5-ALA Administration: Patients who will receive 5-aminolevulinic acid (5-ALA) for fluorescence guidance during surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No Prior Treatment: Patients who have not received prior treatment for the current brain tumor, including surgery, radiotherapy, or chemotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-aminolevulinic acid (5-ALA)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "5-ALA Administration: Patients who will receive 5-aminolevulinic acid (5-ALA) for fluorescence guidance during surgery."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence-guided surgery agent (protoporphyrin IX precursor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GMB like or LGG like"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Observational-type imaging device study (Phase NA). 5-ALA is not a registered intervention but every patient receives it for fluorescence guidance (listed per R9 as diagnostic_agent). Single registered arm 'GMB like or LGG like' (typo in registry). Contrast enhancement groups are imaging phenotypes, not molecular biomarkers."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05226494",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven intracranial glioblastoma, with first or second recurrence"},
+      {"field": "title", "quote": "Safety and Tolerability of Fb-PMT in Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "fb-PMT affects a large group of cancer cell signaling pathways and thus may be effective in heterogeneous, treatment-resistant tumors such as Glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven intracranial glioblastoma, with first or second recurrence"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "fb-PMT",
+      "active_moiety": "fb-pmt",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Daily subcutaneous injection of fb-PMT in four escalating cohorts to determine maximum tolerated dose, followed by treatment of up to 10 additional patients at maximum tolerated dose."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational agent (other names NP-100, NP751) acting on cancer cell signalling pathways; full name not given",
+      "stated_antitumour_mechanism": "affects a large group of cancer cell signaling pathways",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (fb-PMT)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm phase 1 dose escalation; no molecular selection and no PK/PD measurement planned."
+}

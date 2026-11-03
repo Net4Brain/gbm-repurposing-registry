@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT04642937",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a single-center, open-label, dose-range finding Phase I study of hP1A8, a new adjuvant CD200 activation receptor ligand (CD200AR-L), in combination with imiquimod and the GBM6-AD vaccine to treat recurrent glioblastoma (GBM) in adults."},
+      {"field": "outcomes", "quote": "Maximum tolerated dose (MTD) of hP1A8 when administered with imiquimod and GBM6-AD"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "hP1A8 is described as a vaccine adjuvant (immune agonist peptide) given with a tumour lysate vaccine; whether it counts as a pharmacological candidate or as part of the excluded vaccine intervention needs adjudication."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiographically or histologically proven progression or recurrence of disease at any time after standard of care therapy (radiation, temozolomide, with or without a tumor treatment field device)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["imiquimod", "GBM6-AD allogeneic tumour lysate vaccine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "hP1A8",
+      "active_moiety": "hp1a8",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Up to 3 dose levels of hP1A8 will be tested with a Dose Level -1 in the event of toxicity."},
+        {"field": "brief_summary", "quote": "hP1A8, a new adjuvant CD200 activation receptor ligand (CD200AR-L)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational CD200 activation receptor ligand (CD200AR-L) peptide, immune adjuvant",
+      "stated_antitumour_mechanism": "adjuvant CD200 activation receptor ligand (CD200AR-L)",
+      "flag": {"uncertain": true, "reason": "Immune adjuvant given with a cancer vaccine; candidate status vs part of excluded vaccine intervention needs adjudication."},
+      "arms": ["hP1A8"]
+    },
+    {
+      "agent_name_registered": "imiquimod",
+      "active_moiety": "imiquimod",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "Maximum tolerated dose (MTD) of hP1A8 when administered with imiquimod and GBM6-AD"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TLR7 agonist (topical immune response modifier), used here as vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["hP1A8"]
+    },
+    {
+      "agent_name_registered": "GBM6-AD vaccine",
+      "active_moiety": "allogeneic tumour lysate vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "Allogeneic Tumor Lysate Vaccine Immunotherapy for Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic glioblastoma tumour lysate cancer vaccine (GBM6-AD)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["hP1A8"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only hP1A8 is a registered intervention; imiquimod and the GBM6-AD vaccine are not registered interventions but every patient receives them per the summary and primary outcome, so they are listed. The dose-finding question concerns hP1A8 only, so imiquimod (given to all, not dose-varied) coded soc_backbone per C3; it could alternatively be seen as a co-investigational adjuvant. If hP1A8 is judged part of the vaccine intervention, the trial would have no candidate (excluded_intervention_type)."
+}

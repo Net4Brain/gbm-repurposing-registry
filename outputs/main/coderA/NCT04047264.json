@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04047264",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma; Metastatic Malignant Neoplasm in the Brain"},
+      {"field": "eligibility", "quote": "Any glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Microdialysis: Undergo microdialysis"},
+      {"field": "brief_summary", "quote": "This clinical trial evaluates the use of microdialysis catheters during surgery to collect biomarkers, and studies the feasibility of intra- and post-operative microdialysis during neurosurgery for central nervous system malignancies."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Planned neurosurgical procedure for purposes of biopsy or resection of suspected or previously diagnosed brain tumor (primary or metastatic) or epileptic focus as part of routine clinical care"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Concentrations of D-2HG in microdialysate will be descriptively compared between patients with IDH mutated gliomas and those with IDH wildtype gliomas."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA (excluded at S3 by code). Procedure-only microdialysis/imaging study; no drug interventions. Population is any glioma plus brain metastases and epileptic foci; glioblastoma named in conditions. Microdialysis samples tumour metabolites, not drug levels. Two non-control cohorts (intra- vs post-operative)."
+}

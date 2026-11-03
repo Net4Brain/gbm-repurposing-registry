@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT07468136",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anaplastic Oligodendroglioma; Astrocytoma, IDH-Mutant, Grade 3; Astrocytoma, IDH-Mutant, Grade 4; Diffuse Astrocytoma; Glioblastoma, IDH-Wildtype; Malignant Glioma"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wild type (WT)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase I/II trial tests the safety, side effects best dose and effect of retifanlimab with or without difluoromethylornithine (DFMO)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiographic disease progression, with or without tissue confirmation"},
+      {"field": "title", "quote": "Retifanlimab With or Without Difluoromethylornithine for the Treatment of Progressive High Grade Gliomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["eflornithine", "retifanlimab"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in T cell/myeloid cell ratio (phase IIa)"},
+      {"field": "outcomes", "quote": "Both dose limiting toxicity and pharmacodynamic activity will be used to identify the best dose to bring forward for the phase IIa portion."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Retifanlimab",
+      "active_moiety": "retifanlimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive retifanlimab IV, over 30 minutes on day 1 of cycle 1 and DFMO PO Q8H on days 1-14 of cycle 1 in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["Group A (retifanlimab and DFMO then surgery)", "Group B1 (retifanlimab only then surgery)", "Group B2 (retifanlimab and DFMO then surgery)"]
+    },
+    {
+      "agent_name_registered": "Eflornithine",
+      "active_moiety": "eflornithine",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "DFMO is in a class of medications called ornithine decarboxylase (ODC) inhibitors."},
+        {"field": "interventions", "quote": "Given PO"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ornithine decarboxylase inhibitor (DFMO)",
+      "stated_antitumour_mechanism": "blocking the action of a substance that signals tumor cells to multiply",
+      "flag": {"uncertain": false},
+      "arms": ["Group A (retifanlimab and DFMO then surgery)", "Group B1 (retifanlimab only then surgery)", "Group B2 (retifanlimab and DFMO then surgery)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Both drugs are investigational together; B1 gets retifanlimab alone in the pre-surgery window (DFMO added after surgery per arm text), so it works as the retifanlimab-alone comparator. Registry intervention lists per arm are inconsistent (Group A lists no eflornithine; B1 lists eflornithine but no retifanlimab); arms assigned from arm descriptions. IDH-wildtype GBM is one allowed diagnosis among several including IDH-mutant, so not an entry requirement biomarker. Eligibility includes non-GBM high-grade gliomas."
+}

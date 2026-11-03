@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07710690",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "HGG; High Grade Glioma (III or IV); High Grade Glioma"},
+      {"field": "eligibility", "quote": "Participants must have a prior diagnosis of World Health Organization (WHO) Grade 3 or 4 glioma, according to the WHO (2021) classification criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "WHO 2021 grade 4 glioma would include glioblastoma, but glioblastoma is never named in conditions, title or inclusion criteria."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The primary objective of this study is to determine the safe dose range of NRG-103 in patients and to recommend the dosage for subsequent treatment, while also evaluating the preliminary efficacy and tolerability of the product."},
+      {"field": "interventions", "quote": "[DRUG] NRG-103: NRG-103"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "NRG-103 is not described; it is registered as a drug 'injection' but could be a gene therapy or oncolytic virus (excluded types), which the record does not settle."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Patients With Recurrent or Progressive High-grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NRG-103",
+      "active_moiety": "nrg-103",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] NRG-103:  (interventions: Drug: NRG-103)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational NRG-103 injection (nature not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Agent type not described; could be an excluded intervention type (gene therapy/oncolytic virus)."},
+      "arms": ["NRG-103"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Recurrent WHO 2021 grade 3-4 glioma; glioblastoma not named anywhere in the record -> high_grade_glioma_unspecified (exclude as not_glioblastoma), flagged because grade 4 under WHO 2021 includes glioblastoma. Cites WHO 2021 -> cns5. NRG-103 nature, route and mechanism are not stated; coded as experimental monotherapy, flagged for adjudication."
+}

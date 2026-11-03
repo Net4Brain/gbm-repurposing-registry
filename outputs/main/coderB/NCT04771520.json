@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT04771520",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive avapritinib PO QD on days 1-28."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      {"field": "eligibility", "quote": "Patient has a locally advanced or metastatic solid tumor and has progressed on appropriate standard therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Avapritinib",
+      "active_moiety": "avapritinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive avapritinib PO QD on days 1-28."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "KIT/PDGFRA kinase inhibitor",
+      "stated_antitumour_mechanism": "blocking some of the enzymes needed for cell growth",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CKIT (KIT) activating mutation",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "avapritinib",
+      "source_quote": {"field": "eligibility", "quote": "Documented pathogenic CKIT activating mutation (Cohort 1)"},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PDGFRA activating mutation",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "avapritinib",
+      "source_quote": {"field": "eligibility", "quote": "pathogenic PDGFRA activating mutation (Cohort 2)"},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    }
+  ],
+  "coder_notes": "Multi-cohort solid-tumour basket; glioblastoma is explicit in inclusion criterion 4 (Cohort 3, newly diagnosed IDH-wildtype MGMT-unmethylated GBM after chemoradiation). Cohort 3 also requires pathogenic CKIT or PDGFRA mutation/amplification ('Cohort 3 should have pathogenic CKIT or PDGFRA activating mutation/amplification'), so the CKIT and PDGFRA rows apply to the GBM cohort and are candidate-matched to avapritinib. Cohorts are not registered as separate arms; the single arm label is used. Prior radiation plus temozolomide is a prerequisite, not a registered intervention, so temozolomide is not listed. Treatment setting both: Cohorts 1-2 advanced/progressed solid tumours (recurrent), Cohort 3 newly diagnosed."
+}

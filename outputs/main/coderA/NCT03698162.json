@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03698162",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Metastases; Glioma of Brain; Brain Tumor; Metastatic Melanoma"},
+      {"field": "eligibility", "quote": "COHORT I: Recurrent high-grade glioma (often with thin areas of enhancement) treated with bevacizumab."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Bevacizumab will be give to participants who have recurrent high-grade glioma as part of standard of care."},
+      {"field": "detailed_description", "quote": "To optimize and technically validate specially-tailored acquisition and reconstruction (STAR) DCE-MRI based on the accuracy and reproducibility of whole-brain tracer-kinetic (TK) parameter maps."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "COHORT I: Recurrent high-grade glioma (often with thin areas of enhancement) treated with bevacizumab."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab Injection",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Bevacizumab will be give to participants who have recurrent high-grade glioma as part of standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort I (STAR DCE-MRI)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study (Phase NA) of STAR DCE-MRI; bevacizumab is standard of care given in Cohort I, not the investigational question. Glioblastoma is not named; population is recurrent high-grade glioma plus melanoma brain metastases. The DCE-MRI contrast agent is not named as a registered drug intervention, so it is not listed. Exclusion reason could alternatively be established_therapy_only (bevacizumab is the only drug)."
+}

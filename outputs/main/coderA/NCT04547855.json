@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04547855",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "The primary tumor must be pathologically confirmed as supratentorial glioblastoma;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Here, we prepared to evaluate whether the combination of dose-dense Temozolomide and Anlotinib can preferably improved survival of the first recurrent or progressive GBM after STUPP regimen."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Anlotinib Combined With Dose-dense Temozolomide for the First Recurrent or Progressive Glioblastoma After STUPP Regimen"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "anlotinib combined with dose-dense temozolomide (Anlotinib hydrochloride capsule)",
+      "active_moiety": "anlotinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Anlotinib hydrochloride capsule 12mg, p.o., qd, D1-D14; 3 weeks one cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-target tyrosine kinase inhibitor (VEGFR/FGFR/PDGFR)",
+      "stated_antitumour_mechanism": "Anlotinib is an efficient multi-target tyrosine kinase inhibitor (TKI) that effectively block the migration and proliferation of endothelial cells and reduce tumor microvascular density by targeting VEGFRs, FGFRs, PDGFRs.",
+      "flag": {"uncertain": false},
+      "arms": ["experimental group"]
+    },
+    {
+      "agent_name_registered": "anlotinib combined with dose-dense temozolomide (Temozolomide Capsule)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide Capsule 150mg, p.o., qd, d1-7,15-21,4 weeks one cycle;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, dose-dense schedule",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["experimental group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm anlotinib + dose-dense TMZ (7 days on/7 off) at first recurrence. Dose-dense TMZ coded soc_backbone (background partner given to all); the record frames the combination as the question, so an adjudicator could instead code TMZ established_therapy_experiment under rule 6 / R2. Either way anlotinib remains the only investigational agent (experimental_monotherapy). Both drugs registered as one combined intervention."
+}

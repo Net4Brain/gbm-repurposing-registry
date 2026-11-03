@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT06132438",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically proven newly diagnosed primary glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase I trial aims to determine the safety and tolerability of the PEP-CMV vaccine in patients with newly diagnosed MGMT-unmethylated GBM in combination with one cycle of adjuvant temozolomide."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically proven newly diagnosed primary glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PEP-CMV vaccine",
+      "active_moiety": "cmv pp65 peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The PEP-CMV vaccine is a long synthetic peptide (PEP) made up of 26 amino acids that is derived from the human cytomegalovirus (CMV) matrix protein pp65 and has both MHC class I and II epitopes."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "cancer peptide vaccine (CMV pp65 long synthetic peptide)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "in combination with one cycle of adjuvant temozolomide"},
+        {"field": "interventions", "quote": "A vaccine platform that initially consists of TMZ-induced lymphopenia and Td pre-conditioning will be used"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy (standard adjuvant)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma"]
+    },
+    {
+      "agent_name_registered": "Td pre-conditioning",
+      "active_moiety": "tetanus and diphtheria toxoid vaccine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "To ensure the effectiveness of the future Td pre-conditioning, which is given right before the initial PEP-CMV vaccine, a Td booster is required at enrollment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetanus-diphtheria toxoid used as immune pre-conditioning for the vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioblastoma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have tumours which are MGMT-unmethylated."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 1 peptide cancer vaccine (PEP-CMV) with adjuvant temozolomide and Td pre-conditioning: excluded intervention type at S6. Td listed as supportive (conditioning for the vaccine, by analogy with R6); it is a non-cancer vaccine, could alternatively be listed as excluded_intervention_type. CMV seropositivity is an eligibility requirement but is host serology, not a tumour molecular biomarker, so not recorded. ELISPOT immune response is a vaccine immunogenicity endpoint; no candidate, so target_engagement_planned coded no."
+}

@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT06297512",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "IDH-wildtype glioblastoma (9440/3), giant cell glioblastoma (9441/3), gliosarcoma (9442/3), epithelioid glioblastoma (9440/3), IDH-mutated glioblastoma (9445/3), glioblastoma NOS (9440/3), diffuse astrocytoma (9400/3), diffuse midline glioma H3 K27M mutated"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "this study aims to evaluate the safety and antitumor activity of combined treatment with Dox, WBRT (whole body radiotherapy), and TMZ in pediatric and young adult patients affected by GMB"},
+      {"field": "outcomes", "quote": "Time to early withdrawal from experimental treatment with Dox"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "of first diagnosis Not previously treated (with chemo and radiotherapy) or treated only surgically"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Doxorubicin",
+      "active_moiety": "doxorubicin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Dox 4 cycles with 37.5mg/m2/day by continuous infusion over 48 hours (2 days) every 28 days (maximum cumulative dose 300mg/m2)"},
+        {"field": "outcomes", "quote": "Proportion of early discontinuation of experimental treatment with Dox"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anthracycline cytotoxic antineoplastic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["pGBM patients therapy"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Currently, the standard of treatment is TMZ concomitant with radiotherapy, and, at the end of combined treatment, as adjuvant therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["pGBM patients therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH-wildtype glioblastoma (9440/3), giant cell glioblastoma (9441/3), gliosarcoma (9442/3), epithelioid glioblastoma (9440/3), IDH-mutated glioblastoma (9445/3)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "diffuse midline glioma H3 K27M mutated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population includes multiple glioma types (GBM IDH-wt and IDH-mutated, diffuse astrocytoma, DMG H3K27M) per WHO 2016; ages 3-30. IDH and H3K27M rows only define alternative eligible diagnoses (no single molecular entry requirement; IDH-wt and IDH-mutated both allowed) - adjudicator may prefer not to count them as molecular selection. Radiotherapy registered within the Drug intervention but not listed as agent. Doxorubicin is the only investigational agent added to Stupp RT/TMZ backbone."
+}

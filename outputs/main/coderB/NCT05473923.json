@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05473923",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High Grade Glioma"},
+      {"field": "eligibility", "quote": "The resected recurrent gliomas was identified as WHO III~IV Glioma by histologic pathology"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients will be treated with FDA-approved chemotherapeutic or targeted drugs which were recommended by the molecular tumor board (MTB)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study on Precision Treatment Strategy Through PTCs (patient-derived Tumor-like Cell Clusters)-based Drug Screening for Recurrent High-grade Gliomas"}
+    ],
+    "regimen": "unclear",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Receiving chemotherapeutic or targeted drugs recommended by molecular tumor board.",
+      "active_moiety": "unspecified_approved_panel",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "A single drug or a drug combination for a specific patient will be recommended by the molecular tumor board"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "FDA-approved glioma drugs chosen per patient by a molecular tumour board using patient-derived tumour-like cell cluster drug screening and bioinformatic prediction",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Receiving chemotherapeutic or targeted drugs recommended by molecular tumor board."]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Drugs not named; coded as one unspecified approved panel row (C13). Regimen unclear because each patient may receive a single drug or a combination. Only 'high-grade glioma' / WHO III-IV glioma is named, never glioblastoma, so screening fails at S5. Genomic sequencing and drug screening are mentioned without a named biomarker, so no biomarker rows. Registered phase EARLY_PHASE1 (phase 0/1 in summary)."
+}

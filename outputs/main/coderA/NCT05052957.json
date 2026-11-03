@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT05052957",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Glioblastoma Multiforme, Adult; Supratentorial Glioblastoma; Supratentorial Gliosarcoma"},
+      {"field": "eligibility", "quote": "Participants with histologically confirmed, newly diagnosed, supratentorial glioblastoma or gliosarcoma who have undergone tumor resection are eligible up to 35 days postoperatively."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "O6BG is a low molecular-weight purine analog which selectively and irreversibly inactivates the DNA-repair enzyme, O6- alkylguanine DNA-alkyltransferase."},
+      {"field": "brief_summary", "quote": "Chemotherapy drugs, such as 6-benzylguanine, temozolomide, and carmustine, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "O6-benzylguanine is the only non-established drug; it acts as an MGMT-inactivating chemosensitiser for temozolomide/carmustine, which could be read as enabling another agent rather than a candidate with its own antitumour role."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants with histologically confirmed, newly diagnosed, supratentorial glioblastoma or gliosarcoma who have undergone tumor resection are eligible up to 35 days postoperatively."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "carmustine", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "O6-benzylguanine",
+      "active_moiety": "o6-benzylguanine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Phase II Trial O6-benzylguanine(BG) and Temozolomide(TMZ) Therapy of Glioblastoma Multiforme (GBM) With Infusion of Autologous P140K MGMT+Hematopoietic Progenitors to Protect Hematopoiesis"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BG/TMZ/BCNU with P140K-MGMT HSC rescue",
+      "drug_class_hint": "investigational O6-alkylguanine-DNA alkyltransferase (MGMT) inactivator; purine analogue chemosensitiser",
+      "stated_antitumour_mechanism": "O6BG is a low molecular-weight purine analog which selectively and irreversibly inactivates the DNA-repair enzyme, O6- alkylguanine DNA-alkyltransferase.",
+      "flag": {"uncertain": true, "reason": "Chemosensitiser of alkylating agents; candidate status vs a non-candidate enabling role could be disputed."},
+      "arms": ["stem cell mobilization after radiation therapy"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "To determine what proportion of patients who receive P140K MGMT transduced CD34 cells tolerate BG and dose escalated TMZ without myelosuppression."},
+        {"field": "interventions", "quote": "Standard of care, photon-based radiotherapy (60Gy in 30 fractions) will be performed in both arms without concomitant TMZ between to 6 weeks post-operatively."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BG/TMZ/BCNU with P140K-MGMT HSC rescue",
+      "drug_class_hint": "alkylating agent; established GBM therapy (dose-escalated with HSC protection)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["stem cell mobilization after radiation therapy"]
+    },
+    {
+      "agent_name_registered": "carmustine",
+      "active_moiety": "carmustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This phase II trial studies the effect of P140K MGMT hematopoietic stem cells, O6-benzylguanine, temozolomide, and carmustine in treating participants with supratentorial glioblastoma or gliosarcoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BG/TMZ/BCNU with P140K-MGMT HSC rescue",
+      "drug_class_hint": "nitrosourea alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["stem cell mobilization after radiation therapy"]
+    },
+    {
+      "agent_name_registered": "P140K-MGMT",
+      "active_moiety": "p140k-mgmt transduced autologous cd34+ cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] P140K-MGMT: Ex Vivo Cultured P140K MGMT CD34+ Cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "BG/TMZ/BCNU with P140K-MGMT HSC rescue",
+      "drug_class_hint": "lentivirally gene-modified autologous haematopoietic stem cells (gene/cell therapy for chemoprotection)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["stem cell mobilization after radiation therapy"]
+    },
+    {
+      "agent_name_registered": "Filgrastim",
+      "active_moiety": "filgrastim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants at University Hospitals-Seidman Cancer Center (UH-SCC) will receive stem cell mobilization after 6 weeks of standard of care (SOC) radiotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "G-CSF; stem cell mobilisation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["stem cell mobilization after radiation therapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "o6-benzylguanine",
+      "source_quote": {"field": "eligibility", "quote": "Participant must have unmethylated MGMT"},
+      "flag": {"uncertain": true, "reason": "Candidate-matched only because O6-benzylguanine is an MGMT-inactivating agent (manual exception); depends on BG being accepted as a candidate."},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Absence of IDH1 or IDH2 mutation on tumor tissue by a CLIA-approved immunohistochemistry or DNA sequencing test on local testing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm trial: BG + dose-escalated TMZ (and carmustine) with P140K-MGMT gene-modified HSC chemoprotection; RT without concomitant TMZ. TMZ and carmustine coded established_therapy_experiment because the regimen alters their dose/schedule (dose escalation enabled by HSC protection); soc_backbone is an alternative ('Followed by SOC chemotherapy' in arm label). O6-benzylguanine has no INN in the record; development name used. MGMT unmethylated requirement is candidate-matched under the manual's MGMT-targeting exception. Arm label mentions 'both arms' in RT description but only one arm is registered."
+}

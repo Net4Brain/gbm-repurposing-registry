@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06585527",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Glioma, Malignant"},
+      {"field": "eligibility", "quote": "The pathological diagnosis was glioblastoma, anaplastic astrocytoma, anaplastic oligodendroglioma, anaplastic oligodendro-astrocytoma, or subtentorial astrocytoma recurrence."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "The participants meeting the criteria will undergo TS-2021 oncolytic virus (5×1011PFU/ml) intratumoral injection using stereotactic technique under MR Localization."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Clinical Study on the Safety and Efficacy of TS-2021 in the Treatment of Recurrent Malignant Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TS-2021",
+      "active_moiety": "oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "A Clinical Study of the Safety and Efficacy of Third-generation Oncolytic TS-2021 in the Treatment of Recurrent Malignant Gliomas"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TS-2021, third-generation oncolytic adenovirus (keywords mention Ki-67, TGF-beta2, IL-15), intratumoral stereotactic injection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TS-2021"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Recurrent malignant glioma incl. glioblastoma (named in conditions and inclusion); 'Glioblastoma Multiforme' -> historical. Only intervention is an oncolytic virus -> excluded at S6. Ki-67, TGF-beta2 and IL-15 appear only as keywords (likely vector design), not as biomarker roles in eligibility/design/outcomes; not recorded as biomarkers."
+}

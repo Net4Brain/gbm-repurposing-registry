@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT07710040",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Gliomas"},
+      {"field": "eligibility", "quote": "radiologically confirmed (MRI and/or PET with amino-acids) diagnosis of high-grade glioma"},
+      {"field": "detailed_description", "quote": "High-grade gliomas (astrocytomas CNS WHO grade 3-4, glioblastomas, etc) are the most common primary brain tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Preoperative irradiation: After enrollment patientswith radiological signs of HGG will be irradiated by pencil beam protons"},
+      {"field": "brief_summary", "quote": "Standard treatment and follow-up: Chemoradiotherapy with a scanned proton beam combined with temozolomide 75 mg/m², given at 2 Gy × 30 fractions, to commence 4-6 weeks after surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Course of preoperative proton stereotactic radiotherapy (PSRT) directed at the tumor only"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Adjuvant chemotherapy with temozolomide 150-200 mg/m² on a 5/23 schedule (maintenance chemotherapy), for 12 cycles or until disease progression/unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard postoperative chemoradiotherapy backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with radiological signs of single-focal high-grade glioma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA and tumour molecular-biological profile",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To evaluate the morphological characteristics and molecular-biological profile of the tumor tissue following the surgical treatment phase. Assess circulating tumor DNA at various stages of treatment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population is 'high-grade glioma' in conditions, title and inclusion criteria; glioblastoma is named only in the detailed description, so high_grade_glioma_unspecified (excluded at S5). The investigational intervention is preoperative proton radiotherapy only; temozolomide is part of the standard postoperative chemoradiotherapy every patient receives (soc_backbone, not a registered intervention). Fluorescence-guided resection is mentioned but no agent is named, so no diagnostic agent listed."
+}

@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT04145349",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Desmoplastic Small Round Cell Tumor"},
+      {"field": "eligibility", "quote": "Participants with relapsed, recurrent, or refractory DSRCT."},
+      {"field": "outcomes", "quote": "Response Assessment in Neuro-Oncology criteria were used for glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study is being conducted to test the safety and efficacy of ramucirumab in combination with other chemotherapy in the treatment of relapsed, recurrent, or refractory desmoplastic small round cell tumor (DSRCT) in children and young adults."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants with relapsed, recurrent, or refractory DSRCT."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["cyclophosphamide", "vinorelbine"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetics (PK): Maximum Serum Concentration of Ramucirumab (Cmax)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ramucirumab",
+      "active_moiety": "ramucirumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Ramucirumab administered intravenously at a dose of 12 milligrams per kilogram (mg/kg) as a one-hour infusion on days 1 and 15."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGFR2 monoclonal antibody (LY3009806)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ramucirumab + Cyclophosphamide + Vinorelbine"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Cyclophosphamide administered orally at 25 mg/m² daily from days 1 to 28."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (oral metronomic)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ramucirumab + Cyclophosphamide + Vinorelbine", "Cyclophosphamide + Vinorelbine"]
+    },
+    {
+      "agent_name_registered": "Vinorelbine",
+      "active_moiety": "vinorelbine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Vinorelbine administered intravenously at 25 mg/m² on days 1, 8, and 15."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "vinca alkaloid microtubule inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ramucirumab + Cyclophosphamide + Vinorelbine", "Cyclophosphamide + Vinorelbine"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Desmoplastic small round cell tumour trial (CAMPFIRE platform); glioblastoma appears only in a secondary-outcome response-criteria sentence (likely template text) and CNS involvement is an exclusion, so not_glioblastoma. Cyclophosphamide + vinorelbine are given in both arms (backbone/comparator). Ramucirumab PK is serum only, so tumour_pk_planned = no."
+}

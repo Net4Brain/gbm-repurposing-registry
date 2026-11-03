@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05607407",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma"},
+      {"field": "eligibility", "quote": "Subjects must have histologically or cytologically confirmed WHO grade 4 glioma (including tumors with molecularly defined grade 4 astrocytoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The investigational drug, Methimazole is not FDA approved for brain tumors, but it is used to treat thyroid illnesses."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Participants with recurrent glioblastoma for whom surgical resection is indicated"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["secondary chemotherapy at physician discretion"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "interventions", "quote": "Pharmacodynamic assays are intended to investigate drug and downstream drug-induced effects."},
+      {"field": "interventions", "quote": "If they achieve a 10% increase in peripheral blood H2S concentrations"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Methimazole",
+      "active_moiety": "methimazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The investigational drug, Methimazole is not FDA approved for brain tumors, but it is used to treat thyroid illnesses."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antithyroid drug (thyroid hormone synthesis inhibitor)",
+      "stated_antitumour_mechanism": "suppression of thyroid hormone signaling to boost endogenous H2S synthesis and signaling in the tumour-bearing brain",
+      "flag": {"uncertain": false},
+      "arms": ["Surgical Resection, Pharmacodynamic Assays, and Methimazole"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Secondary chemotherapy is added at the treating physician's discretion after the first cycle and is not a registered intervention, so it is not listed as an agent; regimen coded combination on that basis (could be read as monotherapy). Eligibility is WHO grade 4 glioma without an IDH requirement, coded historical. H2S and thyroid hormone are peripheral blood pharmacodynamic markers, not tumour molecular biomarkers."
+}

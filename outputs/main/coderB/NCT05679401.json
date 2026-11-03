@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT05679401",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "anti_gbm_disease",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anti-Glomerular Basement Membrane Disease"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluating renal function in patients with severe anti-GBM disease comparing imlifidase and standard of care (SoC) with SoC alone"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Cmax = Maximum observed plasma concentration of imlifidase following dosing."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Imlifidase cleaves IgG. PD of imlifidase will be assessed as IgG levels in serum."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Imlifidase",
+      "active_moiety": "imlifidase",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Imlifidase is an immunoglobulin G (IgG)-degrading enzyme of Streptococcus pyogenes that is highly selective towards IgG."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IgG-degrading bacterial enzyme (anti-GBM disease, not an antitumour agent)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imlifidase and Standard-of-Care (SoC)"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide (CYC)",
+      "active_moiety": "cyclophosphamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "SoC consists of a combination of plasma exchange (PLEX), cyclophosphamide (CYC), and glucocorticoids."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used as immunosuppressant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imlifidase and Standard-of-Care (SoC)", "Standard-of-Care (SoC)"]
+    },
+    {
+      "agent_name_registered": "Glucocorticoids",
+      "active_moiety": "glucocorticoids",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "SoC consists of a combination of plasma exchange (PLEX), cyclophosphamide (CYC), and glucocorticoids."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid (unspecified agent)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Imlifidase and Standard-of-Care (SoC)", "Standard-of-Care (SoC)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Anti-GBM here means anti-glomerular basement membrane disease (Goodpasture); fails S5. Imlifidase is given the experimental role only as the trial's investigational drug; it is not an antitumour agent, hence has_eligible_candidate false. Target engagement coded yes because a PD profile (IgG) is planned for imlifidase, but this is a non-oncology disease."
+}

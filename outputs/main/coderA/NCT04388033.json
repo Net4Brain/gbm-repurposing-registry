@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT04388033",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed Glioblastoma."},
+      {"field": "title", "quote": "Clinical Study of an Dendritic and Glioma Cells Fusion Vaccine With IL-12 for Treatment-naïve GBM Patients."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "In immunotherapy phase, besides maintenance chemotherapy with TMZ, Fusion cells will be administered with IL-12 to enhance the immunity of patients."},
+      {"field": "interventions", "quote": "Given subcutaneously at dose of 6ug twice for interval of one hour."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "IL-12 is the only possible candidate and is given as an immune enhancer with the excluded DC/tumour fusion vaccine; could be read as a vaccine adjuvant (non-candidate)."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Treatment-naïve patients after Resection of Glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["dendritic cell/tumour fusion vaccine", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Assays including Flow Cytometry and Elispot will be employed to determine if cellular and humoral immunity were induced by serial vaccination with DC/Tumor Fusion Cells and IL-12."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dendritic Cell/Tumor Fusion Vaccine",
+      "active_moiety": "dendritic cell/tumour fusion vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Vaccine is derived from the participants dendritic cells and tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous dendritic cell-tumour cell fusion vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Safety Evaluation Group"]
+    },
+    {
+      "agent_name_registered": "Interleukin-12",
+      "active_moiety": "interleukin-12",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "In immunotherapy phase, besides maintenance chemotherapy with TMZ, Fusion cells will be administered with IL-12 to enhance the immunity of patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "recombinant interleukin-12 cytokine (immune agonist), subcutaneous",
+      "stated_antitumour_mechanism": "enhance the immunity of patients",
+      "flag": {"uncertain": true, "reason": "May function only as an adjuvant to the excluded fusion vaccine rather than as an investigational candidate."},
+      "arms": ["Safety Evaluation Group"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "In basic treatment phase, patients will receive concomitant radiation and TMZ-chemotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Safety Evaluation Group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Stupp chemoradiation then maintenance TMZ plus DC/tumour fusion vaccine with subcutaneous IL-12. By analogy with the manual's 'pembrolizumab + investigational vaccine' example IL-12 is coded as the candidate, flagged uncertain. Immunological assays measure immunity induced by vaccine plus IL-12 jointly (target engagement coded yes; not specific to IL-12)."
+}

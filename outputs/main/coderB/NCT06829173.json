@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT06829173",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-Grade Glioma"},
+      {"field": "eligibility", "quote": "For Cohorts A and B, radiographic diagnosis of high-grade glioma that is then confirmed with biopsy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "XRD-0394: Administered orally; small molecule dual inhibitor of ataxia telangiectasia mutated kinase (ATM) and DNA-PK."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "subjects with newly diagnosed and recurrent high grade gliomas receiving radiation therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum Concentration (Cmax) of XRD-0394 in Resected Tumor Tissue: Assessed among Pre-Surgical Dose-Escalation participants only."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "XRD-0394",
+      "active_moiety": "xrd-0394",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Concurrent XRD-0394 With Radiation Therapy for High Grade Gliomas"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral dual ATM and DNA-PK inhibitor (radiosensitiser)",
+      "stated_antitumour_mechanism": "small molecule dual inhibitor of ataxia telangiectasia mutated kinase (ATM) and DNA-PK",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Pre-Surgery Dose-Escalation",
+        "Cohort A: Post-Surgery Dose Escalation",
+        "Cohort B: Post-Surgery Dose Escalation",
+        "Cohort C: Dose-Escalation (No Surgery)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "MGMT-methylated patients will be enrolled in Cohort A following surgical resection."},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: Post-Surgery Dose Escalation", "Cohort B: Post-Surgery Dose Escalation"]
+    }
+  ],
+  "coder_notes": "Population is 'high-grade glioma' only; glioblastoma is not named anywhere in the record. Summary mentions radiation with or without concurrent temozolomide by MGMT status, but temozolomide is not a registered intervention and not given to every patient, so not listed as an agent. Cohort A = MGMT-methylated, Cohort B = MGMT-unmethylated (assignment by MGMT status, not linked to the candidate). Registered as EARLY_PHASE1 with allocation RANDOMIZED, but all arms are dose-escalation cohorts."
+}

@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT07541781",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma; Recurrent Glioma; Recurrent Glioblastoma; Grade 4 Malignant Glioma of Brain (Disorder)"},
+      {"field": "eligibility", "quote": "Subjects must have histologically or cytologically confirmed WHO grade 4 glioma for which disease recurrence/progression after first line therapy is diagnosed by the treating physician."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "it is proposed that sitagliptin will be used to inhibit Myeloid Derived Suppressor Cells (MDSCs) in recurrent Glioblastoma (GBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Sitagliptin in Recurrent/Progressive Grade 4 Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in participants' concentration of circulating MDSCs with treatment"},
+      {"field": "detailed_description", "quote": "to provide preliminary evidence of sitagliptin in reducing infiltrating MDSCs in the GBM tumor microenvironment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Sitagliptin",
+      "active_moiety": "sitagliptin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Sitagliptin, when combined with standard-of-care drug bevacizumab, is being tested"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "DPP-4 inhibitor (antidiabetic)",
+      "stated_antitumour_mechanism": "inhibition of myeloid-derived suppressor cells (MDSCs)",
+      "flag": {"uncertain": false},
+      "arms": ["Standard of care Bevacizumab in addition to Sitagliptin"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "patients will receive standard of care, bevacizumab, in addition to sitagliptin."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF-A monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard of care Bevacizumab in addition to Sitagliptin"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Eligibility is 'WHO grade 4 glioma' without IDH requirement, with Glioblastoma named in conditions; treated as historical glioblastoma terminology (D27C). Circulating and infiltrating MDSC counts are cellular pharmacodynamic endpoints, not molecular biomarkers, so no biomarker row. Bevacizumab is given to all patients at a fixed dose and is coded as standard-of-care backbone."
+}

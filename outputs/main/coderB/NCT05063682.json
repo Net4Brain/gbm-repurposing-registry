@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT05063682",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "EGFRvIII-specific hinge-optimized CD3 ζ-stimulatory/41BB-co-stimulatory Chimeric Antigen Receptor autologous T-lymphocytes: ICV administration"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participant has been treated for leptomeningeal metastases after intrathecal chemotherapy and/or radiation OR refuses to undergo additional radiation and/or intrathecal chemotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "CAR T and endogenous cells detected in tumor tissue: Detected in tumor tissue by immunohistochemistry (IHC)"},
+      {"field": "outcomes", "quote": "CAR (chimeric antigen receptor) T cell levels detected in tumor cyst fluid (TCF), peripheral blood (PB), and cerebrospinal fluid (CSF)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Cytokine levels (Procartaplex panel) in PB, TCF and CSF"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "EGFRvIII-specific hinge-optimized CD3 ζ-stimulatory/41BB-co-stimulatory Chimeric Antigen Receptor autologous T-lymphocytes",
+      "active_moiety": "egfrviii car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "EGFRvIII-specific hinge-optimized CD3 ζ-stimulatory/41BB-co-stimulatory Chimeric Antigen Receptor autologous T-lymphocytes: ICV administration"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous EGFRvIII-targeted CAR T-cell therapy (intracerebroventricular)",
+      "stated_antitumour_mechanism": "EGFRvIII-CAR T cells recognise and destroy brain tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participant has a histologically confirmed EGFRvII+ (epidermal growth factor receptor) tumor expression by immunohistochemistry (IHC)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR T-cell therapy is an excluded intervention type, so no candidate exists and the EGFRvIII eligibility biomarker is coded candidate_matched false (it would match the CAR-T target). tumour_pk/target_engagement coded yes for CAR-T cell levels in tumour tissue/CSF and cytokine levels, though the product is not a candidate."
+}

@@ -1,0 +1,126 @@
+{
+  "nct_id": "NCT07551336",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Glioma; High-Grade Gliomas; Glioblastoma; Recurrent High-Grade Gliomas; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (WHO grade 4) or diffuse high-grade glioma (WHO grade 3 or 4) that is recurrent or progressive after standard therapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Allogeneic natural killer (NK) cells genetically engineered to express a chimeric antigen receptor (CAR) designed to recognize tumor-associated antigens including IL13Rα2, EGFR, and EGFRvIII."},
+      {"field": "interventions", "quote": "[DRUG] Cyclophosphamide: An alkylating chemotherapy agent used as part of lymphodepleting conditioning prior to CAR-NK cell infusion to enhance cell expansion, persistence, and anti-tumor activity."},
+      {"field": "interventions", "quote": "[DRUG] Fludarabine: A purine analog chemotherapy used in lymphodepletion prior to CAR-NK cell therapy to enhance the expansion, persistence, and anti-tumor activity of the infused cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (WHO grade 4) or diffuse high-grade glioma (WHO grade 3 or 4) that is recurrent or progressive after standard therapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dual-target CAR-NK cells",
+      "active_moiety": "car-nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Allogeneic natural killer (NK) cells genetically engineered to express a chimeric antigen receptor (CAR) designed to recognize tumor-associated antigens including IL13Rα2, EGFR, and EGFRvIII."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic dual-target CAR-NK cell therapy (IL13Ra2, EGFR/EGFRvIII, B7-H3), locoregional",
+      "stated_antitumour_mechanism": "CAR-NK cells recognising two tumour-associated antigens to reduce antigen escape",
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + EGFR/EGFRvIII Dual-Target CAR-NK", "IL13Rα2 + B7-H3 (CD276) Dual-Target CAR-NK", "EGFR/EGFRvIII + B7-H3 (CD276) Dual-Target CAR-NK"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Cyclophosphamide: An alkylating chemotherapy agent used as part of lymphodepleting conditioning prior to CAR-NK cell infusion to enhance cell expansion, persistence, and anti-tumor activity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "alkylating agent used for lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + EGFR/EGFRvIII Dual-Target CAR-NK", "IL13Rα2 + B7-H3 (CD276) Dual-Target CAR-NK", "EGFR/EGFRvIII + B7-H3 (CD276) Dual-Target CAR-NK"]
+    },
+    {
+      "agent_name_registered": "Fludarabine",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Fludarabine: A purine analog chemotherapy used in lymphodepletion prior to CAR-NK cell therapy to enhance the expansion, persistence, and anti-tumor activity of the infused cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "purine analogue used for lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + EGFR/EGFRvIII Dual-Target CAR-NK", "IL13Rα2 + B7-H3 (CD276) Dual-Target CAR-NK", "EGFR/EGFRvIII + B7-H3 (CD276) Dual-Target CAR-NK"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants whose tumors meet eligibility thresholds for EGFR (and/or EGFRvIII) and B7-H3 (CD276) will receive a dual-target (tandem) CAR-NK product recognizing EGFR/EGFRvIII and B7-H3."},
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + EGFR/EGFRvIII Dual-Target CAR-NK", "EGFR/EGFRvIII + B7-H3 (CD276) Dual-Target CAR-NK"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 expression (IHC)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants whose tumors meet eligibility thresholds for IL13Rα2 and EGFR will receive a dual-target (tandem) CAR-NK product recognizing IL13Rα2 and EGFR/EGFRvIII"},
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + EGFR/EGFRvIII Dual-Target CAR-NK", "IL13Rα2 + B7-H3 (CD276) Dual-Target CAR-NK"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 (CD276) expression (IHC)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants whose tumors meet eligibility thresholds for IL13Rα2 and B7-H3 (CD276) will receive a dual-target (tandem) CAR-NK product recognizing IL13Rα2 and B7-H3."},
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 + B7-H3 (CD276) Dual-Target CAR-NK", "EGFR/EGFRvIII + B7-H3 (CD276) Dual-Target CAR-NK"]
+    }
+  ],
+  "coder_notes": "Brief summary describes the record as a 'draft, ClinicalTrials.gov-style example record'; adjudicator may want to check whether this is a genuine registration. Only intervention is a CAR-NK cell therapy (excluded type); cyclophosphamide and fludarabine are lymphodepleting conditioning (supportive per R6), so no pharmacological candidate. Entry also requires expression of at least two of IL13Ra2, EGFR/EGFRvIII, B7-H3 ('Tumor demonstrates expression of at least two of the following antigens above protocol-defined thresholds'); each antigen coded as enrichment for the cohorts it defines. None candidate-matched because the CAR-NK product is not a candidate. control_arm_from_other_arms 'no': three biomarker-defined experimental cohorts, none a control. Intracranial catheter is a device, not listed."
+}

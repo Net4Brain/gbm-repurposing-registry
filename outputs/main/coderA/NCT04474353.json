@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04474353",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically proven newly diagnosed glioblastoma (GBM, WHO Grade IV) or molecular GBM of lower grade that will be treated as per glioblastoma (defined as IDH wild type, 1p19q not co deleted)"},
+      {"field": "conditions", "quote": "Glioblastoma; Newly Diagnosed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Determine the safety of Tumor Treating Fields (TTFields) started concurrently with 5 fraction stereotactic radiosurgery (SRS) and temozolomide for newly diagnosed glioblastoma."},
+      {"field": "interventions", "quote": "Noninvasive, portable device which generates tumor treating fields (TTFields) manufactured by Novocure"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Tumor Treating Fields With Hypofractionated Chemoradiotherapy in Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Days 1 to 8: Subjects will take oral temozolomide 75 mg/m2/day Days 2 to 8: Subjects will receive stereotactic radiosurgery (total of 35 Gy) divided equally over 5 days"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Novo-TTF"]
+    },
+    {
+      "agent_name_registered": "Gadolinium",
+      "active_moiety": "gadolinium",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Gadolinium contrast medium"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MRI contrast agent (specific gadolinium chelate not stated)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Novo-TTF"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Investigational intervention is the TTFields device (Optune) concurrent with 5-fraction SRS; device is excluded type and not listed as an agent. Temozolomide coded soc_backbone (background chemoradiation); its concurrent course is shortened to match the 5-day SRS, which could alternatively be read as established_therapy_experiment, but no candidate results either way. cns5_terminology: histological GBM WHO grade IV allowed without IDH requirement, while molecular GBM requires IDH wild type; coded cns5 under the both-criteria tie rule. IDH-wildtype/1p19q used only to define molecular GBM, not recorded as a selection biomarker."
+}

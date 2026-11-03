@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT04657315",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Adult Gliosarcoma; Neoplasms, Brain; Neoplasms, Germ Cell and Embryonal; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients diagnosed with recurrent glioblastoma based on medical imaging after receiving standard therapy for glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Concomitant drug: 5-Flucytosine (prodrug)"},
+      {"field": "brief_summary", "quote": "Mesenchymal stem cells into which the suicide gene, cytosine deaminase (CD), injected into the resection cavity of patients with recurrent glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Flucytosine is a prodrug given with a gene-modified cell therapy; it is the only pharmacological agent, so it is coded as candidate, but it could instead be read as part of the excluded cell/gene therapy or as concomitant supportive drug."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients diagnosed with recurrent glioblastoma based on medical imaging after receiving standard therapy for glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["mesenchymal stem cells expressing cytosine deaminase"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Blood concentrations of 5-FC and 5-FU(Day 1, Day 3, Day 7)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MSC11FCD",
+      "active_moiety": "mesenchymal stem cells expressing cytosine deaminase",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Mesenchymal stem cells into which the suicide gene, cytosine deaminase (CD), injected into the resection cavity of patients with recurrent glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "msc11fcd_flucytosine",
+      "drug_class_hint": "gene-modified mesenchymal stem cell therapy (suicide gene)",
+      "stated_antitumour_mechanism": "suicide gene cytosine deaminase converting prodrug 5-flucytosine",
+      "flag": {"uncertain": false},
+      "arms": ["The investigational drug into the Intratumoral administration"]
+    },
+    {
+      "agent_name_registered": "5-Flucytosine",
+      "active_moiety": "flucytosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Concomitant drug: 5-Flucytosine (prodrug)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "msc11fcd_flucytosine",
+      "drug_class_hint": "antifungal prodrug converted to 5-fluorouracil by cytosine deaminase",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Prodrug of a gene-directed enzyme prodrug therapy; antitumour role depends on the excluded cell/gene therapy; could be soc_backbone or supportive under a different reading."},
+      "arms": ["The investigational drug into the Intratumoral administration"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single arm. Flucytosine is listed under the MSC11FCD intervention as a concomitant prodrug; it is the only pharmacological component, so coded as the candidate (as in the vaccine plus drug worked example), flagged uncertain. Regimen coded combination because the cell/gene therapy is an antitumour component. DPD deficiency exclusion is a germline marker and not recorded. MSC detection concentrations have no sample type stated but MSC11FCD is an excluded type; tumour_pk_planned refers to the candidate flucytosine (plasma only)."
+}

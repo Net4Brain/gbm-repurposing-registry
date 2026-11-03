@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT05938387",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed GBM (CNS WHO Grade 4) and IDH-wildtype astrocytoma with a molecular signature of \"unmethylated\" GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study is an open-label, first-in-human, dose-escalation study of CV09050101 mRNA vaccine (CVGBM) in patients with newly diagnosed \"MGMT-unmethylated\" Glioblastoma (GBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety and Tolerability of CVGBM in Adults With Newly Diagnosed MGMT-Unmethylated Glioblastoma or Astrocytoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CV09050101 mRNA vaccine (CVGBM)",
+      "active_moiety": "mrna cancer vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] CV09050101 mRNA vaccine (CVGBM) 12 μg: CVGBM will be administered as an IM injection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CVGBM (CV09050101): LNP-formulated mRNA cancer vaccine, intramuscular",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Dose escalation: CVGBM Dose Level -1",
+        "Dose escalation: CVGBM Dose Level 1",
+        "Dose escalation: CVGBM Dose Level 2",
+        "Dose escalation: CVGBM Dose Level 3",
+        "Dose escalation: CVGBM Dose Level 4",
+        "Dose expansion"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "title", "quote": "Safety and Tolerability of CVGBM in Adults With Newly Diagnosed MGMT-Unmethylated Glioblastoma or Astrocytoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed, newly diagnosed GBM (CNS WHO Grade 4) and IDH-wildtype astrocytoma with a molecular signature of \"unmethylated\" GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is an mRNA cancer vaccine (excluded type); no pharmacological candidate. Population: GBM plus IDH-wildtype astrocytoma with molecular GBM signature (molecular glioblastoma under CNS5), coded gbm_only/cns5. Specific HLA genotype is a germline requirement and is not recorded. Multiple arms are dose levels of the same vaccine, none a control."
+}

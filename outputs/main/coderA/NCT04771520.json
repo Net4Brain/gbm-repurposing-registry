@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT04771520",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      {"field": "conditions", "quote": "Metastatic Primary Malignant Central Nervous System Neoplasm"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase II trial studies the effect of avapritinib in treating malignant solid tumors that have a genetic change (mutation) in CKIT or PDGFRA"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have received prior treatment with radiation and concurrent temozolomide per standard of care."},
+      {"field": "eligibility", "quote": "Cohorts 1 and 2: Patient has a locally advanced or metastatic solid tumor and has progressed on appropriate standard therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Avapritinib",
+      "active_moiety": "avapritinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive avapritinib PO QD on days 1-28."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "KIT/PDGFRA mutant-specific tyrosine kinase inhibitor (BLU-285)",
+      "stated_antitumour_mechanism": "Avapritinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (avapritinib)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "KIT (CKIT) or PDGFRA activating mutation/amplification",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "avapritinib",
+      "source_quote": {"field": "eligibility", "quote": "Cohort 3 should have pathogenic CKIT or PDGFRA activating mutation/amplification based on CLIA-certified NGS diagnostic test."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Cohort 3: Patient has newly diagnosed IDH wild-type, MGMT-unmethylated glioblastoma."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "baseline genomics and cfDNA",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To evaluate baseline genomics and circulating cell-free deoxyribonucleic acid (cfDNA) and functional analyses of variants."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Tissue-agnostic KIT/PDGFRA basket; glioblastoma named in inclusion criteria (Cohort 3, newly diagnosed IDH-wt MGMT-unmethylated GBM after chemoradiation). Cohorts are not registered arm labels (single arm 'Treatment (avapritinib)'), so biomarker arms left empty; IDH/MGMT apply to Cohort 3 only (enrichment). KIT/PDGFRA alteration is required for all cohorts (mutation for cohorts 1-2, mutation/amplification for cohort 3). Treatment setting 'both': GBM cohort is first-line post-chemoradiation, other cohorts advanced/refractory. Prior temozolomide is history, not a study agent. Adolescents 12+ also allowed per inclusion text."
+}

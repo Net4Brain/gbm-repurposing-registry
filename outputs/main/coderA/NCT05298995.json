@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05298995",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor, Pediatric; Medulloblastoma, Childhood; Embryonal Tumor; High Grade Glioma; Diffuse Midline Glioma; Diffuse Intrinsic Pontine Glioma; Brain Tumor Adult"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] ARM B: Hemispheric HGG: After a lymphodepleting regimen, patients affected by relapsed/refractory hemispheric high grade glioma will receive 1.0 to 6.0 x 10⁶/kg GD2 Chimeric Antigen Receptor (CAR) positive T cells."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] GD2-CART01 (iC9-GD2-CAR T-cells): Following a lymphodepleting treatment with conventional chemotherapy, patients will be treated with 1.0 to 6.0 x 10⁶/kg GD2 Chimeric Antigen Receptor (CAR) positive T cells, infused i.v. as a single dose"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Phase I Study of Anti-GD2 Chimeric Antigen Receptor-Expressing T Cells in Pediatric and Young Adult Patients Affected by Relapsed/Refractory Central Nervous System Tumors"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "GD2-CART01 (iC9-GD2-CAR T-cells)",
+      "active_moiety": "gd2 car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] GD2-CART01 (iC9-GD2-CAR T-cells): Following a lymphodepleting treatment with conventional chemotherapy, patients will be treated with 1.0 to 6.0 x 10⁶/kg GD2 Chimeric Antigen Receptor (CAR) positive T cells, infused i.v. as a single dose"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous third-generation GD2-directed CAR T-cell therapy with iC9 suicide switch",
+      "stated_antitumour_mechanism": "CAR T cells targeting GD2",
+      "flag": {"uncertain": false},
+      "arms": ["ARM A: MB/other embryonal tumor", "ARM B: Hemispheric HGG", "ARM C: Thalamic HGG, DMG, DIPG and other rare CNS tumors not included in Arm A and B"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric/young-adult trial (6 months to 30 years; stdAges CHILD, ADULT). Glioblastoma is not named in conditions, title, inclusion criteria or arm labels; only 'high grade glioma' (hemispheric/thalamic HGG, DMG, DIPG), so high_grade_glioma_unspecified. Only intervention is a CAR T-cell product (excluded type). The lymphodepleting chemotherapy agents are not named, so not listed; the dimerizer AP1903 is given only to activate the suicide switch in case of toxicity and is not a registered intervention, so not listed. Three histology-defined experimental arms, none a control."
+}

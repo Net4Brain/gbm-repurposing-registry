@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05362409",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Parts B and C: Previous histopathologically confirmed diagnosis of glioblastoma and radiographic evidence of recurrence after prior therapy with radiotherapy."},
+      {"field": "eligibility", "quote": "Astrocytoma, WHO grade 3 and 4 (including subtypes)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "5-ALA will be administered as a sonosensitizer prior to CV01-delivered ultrasound and will be re-administered every 4 weeks prior to CV01 ultrasound delivery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Part A: Previous histopathologically confirmed diagnosis of high-grade glioma and radiographic evidence of recurrence after prior therapy with radiotherapy."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5 Aminolevulinic Acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "5-ALA will be administered as a sonosensitizer prior to CV01-delivered ultrasound and will be re-administered every 4 weeks prior to CV01 ultrasound delivery."},
+        {"field": "detailed_description", "quote": "The CV01 device will deliver non-ablative, low-intensity ultrasound to deep regions of the brain to induce apoptosis of cancer cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral sonosensitizer (5-ALA HCl; Gleolan) for sonodynamic therapy",
+      "stated_antitumour_mechanism": "sonosensitizer activated by low-intensity ultrasound to induce apoptosis of cancer cells",
+      "flag": {"uncertain": false},
+      "arms": ["5-ALA with CV01"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Sonodynamic therapy: 5-ALA is the antitumour sonosensitizer (not fluorescence-guided resection), so candidate with device_dependent true. Part A includes grade 3/4 astrocytoma and grade 3 oligodendroglioma; Parts B and C restricted to glioblastoma at first recurrence. Keywords mention glioblastoma but eligibility names it, so mixed_glioma_gbm_named."
+}

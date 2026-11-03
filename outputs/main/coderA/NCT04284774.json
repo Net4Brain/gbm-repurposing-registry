@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04284774",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma"},
+      {"field": "title", "quote": "Tipifarnib for the Treatment of Advanced Solid Tumors, Lymphoma, or Histiocytic Disorders With HRAS Gene Alterations, a Pediatric MATCH Treatment Trial"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive tipifarnib tablets 350 mg/m\\^2/dose PO or via nasogastric or gastric tube BID (maximum 600 mg/dose BID) with food on days 1-7 and 15-21."},
+      {"field": "brief_summary", "quote": "Tipifarnib may block the growth of cancer cells that have specific genetic changes in a gene called HRAS and may reduce tumor size."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "To obtain information about the tolerability of tipifarnib in children and adolescents with relapsed or refractory cancer."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tipifarnib",
+      "active_moiety": "tipifarnib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Tipifarnib (other names: R115777, Zarnestra): Tipifarnib tablets"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "farnesyltransferase inhibitor (investigational)",
+      "stated_antitumour_mechanism": "Tipifarnib may block the growth of cancer cells that have specific genetic changes in a gene called HRAS",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (tipifarnib)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HRAS activating genetic alteration",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "tipifarnib",
+      "source_quote": {"field": "title", "quote": "Tipifarnib for the Treatment of Advanced Solid Tumors, Lymphoma, or Histiocytic Disorders With HRAS Gene Alterations, a Pediatric MATCH Treatment Trial"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric MATCH subprotocol (age 12 months to 21 years) in a multi-tumour population; CNS tumours listed only as 'malignant glioma', 'WHO grade 2 glioma', ependymoma, medulloblastoma; glioblastoma never named, so high_grade_glioma_unspecified (would otherwise be a basket). HRAS alteration required via assignment from APEC1621SC screening. Exploratory biomarker/ctDNA analyses are generic and not linked to a named marker, so not listed separately."
+}

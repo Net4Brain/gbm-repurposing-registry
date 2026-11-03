@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT04320888",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma"},
+      {"field": "detailed_description", "quote": "with advanced solid tumors (including central nervous system \\[CNS\\] tumors), lymphomas or histiocytic disorders that harbor activating genetic alterations in the RET pathway."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive selpercatinib PO BID on days 1-28. Treatment repeats every 28 days for up to 26 cycles (2 years) in the absence of disease progression or unacceptable toxicity."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Refractory Malignant Glioma"},
+      {"field": "detailed_description", "quote": "II. To obtain information about the tolerability of selpercatinib (LOXO-292) in children and adolescents with relapsed or refractory cancer."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Profiling Changes in Tumor Genomics: Will explore approaches to the profiling changes in tumor genomics over time through evaluation of circulating tumor deoxyribonucleic acid."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Selpercatinib",
+      "active_moiety": "selpercatinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Selpercatinib may block the growth of cancer cells that have specific genetic changes in an important signaling pathway (called the RET pathway) and may reduce tumor size."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "selective RET kinase inhibitor (LOXO-292), approved oncology drug",
+      "stated_antitumour_mechanism": "Selpercatinib may block the growth of cancer cells that have specific genetic changes in an important signaling pathway (called the RET pathway) and may reduce tumor size.",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (selpercatinib)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "activating RET gene alterations",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "selpercatinib",
+      "source_quote": {"field": "title", "quote": "NCI-COG Pediatric MATCH (Molecular Analysis for Therapy Choice) - Phase 2 Subprotocol of LOXO-292 in Patients With Tumors Harboring RET Gene Alterations"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA genomic profiling",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Profiling Changes in Tumor Genomics: Will explore approaches to the profiling changes in tumor genomics over time through evaluation of circulating tumor deoxyribonucleic acid."}
+      ,
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric MATCH subprotocol (ages 12 months to 21 years) for RET-altered tumours; conditions list 'Recurrent/Refractory Malignant Glioma' and grade 2 glioma, but glioblastoma is never named in conditions, title, inclusion criteria or arm labels, so high_grade_glioma_unspecified (excluded as not_glioblastoma). Multi-cancer basket. RET alteration is the entry requirement (assignment via APEC1621SC actionable mutation) and is matched to selpercatinib. ctDNA tumour genomics profiling is an exploratory biomarker endpoint not linked to RET inhibition, hence target engagement unclear."
+}

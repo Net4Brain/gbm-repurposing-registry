@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT07029100",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "outcomes", "quote": "in patients with glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ex-vivo organoid cultures composed of tumor cells within their microenvironment (glioblastoma organoid - GBO) and intra- and peri-tumoral blood vessels (blood vessel organoid - BVO)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with newly diagnosed glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Proportion (in number of patients) of phenotypically and molecularly exploitable tumor and vascular organoid models (GBO+BVO) seven days after diagnostic neurosurgical removal"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Correlation of organoid evolution under experimental treatment procedure and evolution of plasma-based biomarker from corresponding patients and along first-line treatment schedule."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (standard of care, not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will be planned to receive standard of care for glioblastoma after resection, namely radiotherapy+temozolomide and TTFields."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard-of-care glioblastoma chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Ex-vivo Organoid culture"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Non-drug organoid feasibility study (phase NA). No therapeutic agent under test. Temozolomide listed because the text says all patients receive it."
+}

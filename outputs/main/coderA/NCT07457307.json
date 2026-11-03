@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT07457307",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Integrating Biology for Safe Intensification of Glioblastoma Hypofractionated Treatment on the MR-Linac"},
+      {"field": "eligibility", "quote": "Have histologically confirmed, newly diagnosed high grade glioma (histologic grade 3 or 4, IDH wildtype)"},
+      {"field": "conditions", "quote": "High-grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a phase 1 study to examine the safety and tolerability of biology-guided dose intensified hypofractionated radiation therapy (RT) using MR-Linac for patients with high grade glioma (HGG)."},
+      {"field": "interventions", "quote": "Temozolomide (75 mg/m2) is administered daily throughout the 3 weeks of treatments and stopped on the final day of radiation therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have histologically confirmed, newly diagnosed high grade glioma (histologic grade 3 or 4, IDH wildtype)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "concurrent Temozolomide (75 mg/m2) will administered daily throughout the 3 weeks of treatments and stopped on the final day of RT."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard concurrent chemoradiation backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MRL-RT + Temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Prior evidence of IDH mutation by IHC or DNA sequencing (i.e., IDH wild type only)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "The investigational question is dose-intensified hypofractionated MR-Linac radiotherapy; temozolomide is standard concurrent backbone at a standard daily dose, so no pharmacological candidate (could alternatively be labelled established_therapy_only; either way excluded at S6). Population is grade 3 or 4 IDH-wildtype high-grade glioma; glioblastoma is named only in the title, so coded mixed_glioma_gbm_named. Gadolinium mentioned only in exclusion criteria and not a registered intervention, so not listed."
+}

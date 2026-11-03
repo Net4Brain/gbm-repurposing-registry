@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07375992",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Glioblastoma (Newly Diagnosed)"},
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "will study whether music therapy is feasible in newly diagnosed GBM patients undergoing standard care."},
+      {"field": "interventions", "quote": "Each GBM study participant in Arm A will receive two 30-minute live synchronous virtual music therapy sessions per week for a period of 8 weeks to be curated by a board-certified music therapist."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Glioblastoma (Newly Diagnosed)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "standard of care radiation therapy and concurrent and adjuvant temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Not planning to undergo standard of care radiation therapy and concurrent and adjuvant temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A- with Music Therapists", "Arm B- without Music Therapists"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA behavioural trial of music therapy; no drug intervention registered. Temozolomide is not a registered intervention but all participants are on standard chemoradiation (exclusion criterion), listed as soc_backbone for transparency. Arm B (independent listening) is an alternative delivery mode rather than a standard-of-care/placebo control, so control_arm_from_other_arms coded no."
+}

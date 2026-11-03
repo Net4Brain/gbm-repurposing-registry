@@ -1,0 +1,84 @@
+{
+  "nct_id": "NCT07583771",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "For glioblastoma: at least one measurable intracranial tumor lesion according to the RANO 2.0 criteria."},
+      {"field": "eligibility", "quote": "For glioblastoma: KPS score ≥60."},
+      {"field": "conditions", "quote": "Pancreatic Adenocarcinoma; Non Small Cell Lung Cancer; Advanced Solid Tumors; Lymphoma; Diffuse Large B-Cell Lymphoma (DLBCL)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] CS08399: two phases: dose escalation and cohort expansion."},
+      {"field": "brief_summary", "quote": "This is a phase I, open-label, first-in-human study of CS08399"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed locally advanced or metastatic solid tumors, or relapsed/refractory lymphoma, for which standard therapy has failed or is not tolerated, and no further standard therapy is available."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters: Maximum Concentration (Cmax):"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "A Phase Ⅰ Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamic and Preliminary Efficacy of CS08399 in Participants With MTAP-deleted Solid Tumors and Lymphoma"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CS08399",
+      "active_moiety": "cs08399",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] CS08399: two phases: dose escalation and cohort expansion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small molecule for MTAP-deleted tumours (likely PRMT5 or MAT2A pathway inhibitor; mechanism not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CS08399"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP homozygous deletion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "cs08399",
+      "source_quote": {"field": "eligibility", "quote": "Homozygous MTAP or CDKN2A deletion confirmed by tissue or peripheral blood testing."},
+      "flag": {"uncertain": true, "reason": "CS08399 mechanism is not stated in the record; match inferred from MTAP-deleted selection and exclusion of prior MAT2A/PRMT5 inhibitors."},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "cs08399",
+      "source_quote": {"field": "eligibility", "quote": "Homozygous MTAP or CDKN2A deletion confirmed by tissue or peripheral blood testing."},
+      "flag": {"uncertain": true, "reason": "CDKN2A deletion is an alternative entry criterion apparently used as surrogate for MTAP co-deletion; mechanistic link to CS08399 is via MTAP, not CDKN2A itself."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Glioblastoma named only in inclusion criteria (measurability/KPS rules), not in conditions; meets D27B for basket. Entry biomarker is MTAP OR CDKN2A homozygous deletion (one criterion, coded as two rows). PK outcomes list plasma-type parameters but sample type not stated (W7 -> unclear). Pharmacodynamic evaluation stated in official title only, no PD outcome or marker specified -> unclear."
+}

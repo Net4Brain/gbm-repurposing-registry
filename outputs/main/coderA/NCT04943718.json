@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT04943718",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Glioma; Recurrent Glioma"},
+      {"field": "eligibility", "quote": "patients with recurrent malignant glioma; have received surgery, radiotherapy, chemotherapy;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Based on genetic and transcriptional sequencing information, personalized peptide vaccines would be designed and produced"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "patients with recurrent malignant glioma; have received surgery, radiotherapy, chemotherapy;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "personalized vaccine",
+      "active_moiety": "personalized neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Based on genetic and transcriptional sequencing information, personalized peptide vaccines would be designed and produced"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalized neoantigen peptide cancer vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["personalized vaccine"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "patients' tumor tissue should have a high mutation load(\\>10 TMB); be genetically unstable; at least have 10 neoantigens;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "neoantigen count (at least 10 neoantigens)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "patients' tumor tissue should have a high mutation load(\\>10 TMB); be genetically unstable; at least have 10 neoantigens;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Malignant glioma without explicit glioblastoma anywhere in the record -> high_grade_glioma_unspecified. Only intervention is a personalized peptide vaccine (excluded type). TMB and neoantigen requirements are linked to the vaccine, not a pharmacological candidate, so not candidate-matched. Immune-response outcome relates to the vaccine only."
+}

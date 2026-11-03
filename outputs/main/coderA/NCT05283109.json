@@ -1,0 +1,101 @@
+{
+  "nct_id": "NCT05283109",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "ETAPA I: Peptide-based Tumor Associated Antigen Vaccine in GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result), MGMT promoter unmethylated (CARIS result) WHO grade IV glioma (e.g., glioblastoma (GBM) or high grade glioma with molecular features of GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Hiltonol® is made up of synthetic (manmade) RNA (ribonucleic acid) and is used as an adjuvant to the vaccine, meaning it is used with the vaccine to stimulate or enhance the activation of your immune system."},
+      {"field": "detailed_description", "quote": "During the Booster Phase on Day 84, patients will also be given 20ug/kg Hiltonol® injections to administer at home every 2 weeks until they return on Day 140."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only non-vaccine agent is poly-ICLC (Hiltonol), described as a vaccine adjuvant; whether a vaccine adjuvant counts as a pharmacological candidate or as part of the excluded vaccine intervention decides S6."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in HLA-A\\*0201 positive patients with a newly diagnosed, unmethylated, and untreated World Health Organization (WHO) grade IV malignant glioma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["P30-EPS peptide vaccine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in Mean Fold Increase in EphA2- or Survivin- Specific T Cells; Time Frame: Days 1, 22, 84: Amongst all patients"},
+      {"field": "detailed_description", "quote": "Blood will be drawn throughout the study to investigate the immune response to P30-EPS vaccination."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tumor Associated Antigen Peptide Vaccine P30-EPS Vaccine",
+      "active_moiety": "peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Vaccine that includes 3 peptides (EphA2 linked to P30 peptide, pp65 linked to P30 peptide, and Survivin linked to P30 peptide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "cancer peptide vaccine (P30-linked EphA2, CMV pp65, survivin peptides; P30-EPS)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Associated Antigen Peptide Vaccine in Combination with Hiltonol"]
+    },
+    {
+      "agent_name_registered": "Hiltonol",
+      "active_moiety": "poly-iclc",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The study vaccine is comprised of three different peptides (small proteins) mixed with Hiltonol®."},
+        {"field": "interventions", "quote": "is used as an adjuvant to the vaccine, meaning it is used with the vaccine to stimulate or enhance the activation of your immune system."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "polyinosinic-polycytidylic acid stabilised with poly-L-lysine and carboxymethylcellulose (poly-ICLC); TLR3 agonist immune adjuvant, investigational",
+      "stated_antitumour_mechanism": "adjuvant to stimulate or enhance activation of the immune system",
+      "flag": {"uncertain": true, "reason": "Vaccine adjuvant; candidate only if adjuvants are treated as pharmacological agents rather than part of the excluded vaccine intervention."},
+      "arms": ["Tumor Associated Antigen Peptide Vaccine in Combination with Hiltonol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT promoter unmethylated (CARIS result) WHO grade IV glioma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Peptide vaccine is an excluded intervention type; poly-ICLC (Hiltonol) is a drug intervention given mixed with the vaccine and also as separate home injections, coded as candidate experimental_monotherapy but flagged (adjuvant). If adjuvant is not accepted, S6 exclusion reason = excluded_intervention_type. Standard chemoradiation with temozolomide precedes enrolment and is not given on study, so temozolomide not listed. HLA-A*0201 (germline) and CMV serostatus (not a tumour marker; used as strata) not recorded as biomarkers. Conditions field says only 'Glioma, Malignant' but title and inclusion name GBM with IDH-wildtype requirement. active_moiety for poly-ICLC uses the common name since no INN is in the record."
+}

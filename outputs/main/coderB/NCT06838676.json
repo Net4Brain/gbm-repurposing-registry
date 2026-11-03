@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT06838676",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Intrinsic Pontine Gliomas (DIPG); Progressive DIPG; Refractory DIPG; Recurrent DIPG; H3K27-altered High Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ACT001: PO BID at 875 mg/m2 for 28 days"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Patients will be enrolled on either Cohort A for newly diagnosed DIPG or on Cohort B \\[ENROLLMENT PAUSED\\] for those with progressive / refractory DIPG or progressive / recurrent / refractory H3K27-altered HGG."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ACT001",
+      "active_moiety": "act001",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Cohort A: Patients with newly-diagnosed DIPG with typical MRI findings (interventions: Drug: ACT001)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral agent (ACT001, parthenolide derivative per exclusion criterion naming parthenolide)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A", "Cohort B [ENROLLMENT PAUSED]"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with DIPG (no biopsy required), pathologically-confirmed (at diagnosis or recurrence) H3K27-altered DIPG, or extra-pontine H3K27-alteredHGG who have progressive/recurrent or refractory disease"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort B [ENROLLMENT PAUSED]"]
+    }
+  ],
+  "coder_notes": "Paediatric/young-adult DIPG and H3K27-altered HGG; glioblastoma is not named in conditions, title, eligibility or arm labels. Ages 12 months to 39 years. Prior temozolomide with RT is only permitted prior therapy, not a registered intervention."
+}

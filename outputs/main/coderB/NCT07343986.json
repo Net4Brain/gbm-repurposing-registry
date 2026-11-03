@@ -1,0 +1,128 @@
+{
+  "nct_id": "NCT07343986",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial glioblastoma or gliosarcoma IDH wildtype and MGMT unmethylated that express EGFR (score ≥ 1 by IHC)) and confirmed by UVA pathology review."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "utilizing autologous activated T-cells armed with bispecific antibody (EGFR-BATs) that recognize the tumor."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed supratentorial glioblastoma or gliosarcoma IDH wildtype and MGMT unmethylated that express EGFR (score ≥ 1 by IHC)) and confirmed by UVA pathology review."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "PET imaging will be used to measure radiotracer uptake (SUV) in the brain and tumor regions following infusions of 89Zr-labeled EGFR BATs."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Immune response will be determined by CTL cytotoxicity."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "anti-EGFR bispecific-armed T cells",
+      "active_moiety": "anti-egfr bispecific-armed t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] anti-EGFR bispecific-armed T cells (other names: EGFR BATs): IN PROGRESS"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous T-cell therapy armed with anti-CD3 x anti-EGFR bispecific antibody (cell therapy)",
+      "stated_antitumour_mechanism": "autologous activated T cells armed with bispecific antibody that recognise the tumour",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B"]
+    },
+    {
+      "agent_name_registered": "microbubbles (Lumason ultrasound contrast agent) for LIFU BBB opening",
+      "active_moiety": "sulfur hexafluoride",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "low-intensity focused ultrasound (LIFU) with microbubbles BBB opening and EGFR BATs"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles used with focused ultrasound for BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B"]
+    },
+    {
+      "agent_name_registered": "89Zr-oxine (radiolabel for EGFR BATs)",
+      "active_moiety": "89zr-oxine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The investigators will radiolabel the EGFR BATs with 89Zr-oxine for subsequent PET imaging to determine the trafficking and uptake of this approach."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "zirconium-89 oxine cell-labelling PET tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A", "Arm B"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial glioblastoma or gliosarcoma IDH wildtype and MGMT unmethylated that express EGFR (score ≥ 1 by IHC)) and confirmed by UVA pathology review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial glioblastoma or gliosarcoma IDH wildtype and MGMT unmethylated that express EGFR (score ≥ 1 by IHC)) and confirmed by UVA pathology review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed supratentorial glioblastoma or gliosarcoma IDH wildtype and MGMT unmethylated that express EGFR (score ≥ 1 by IHC)) and confirmed by UVA pathology review."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "The only antitumour intervention is a cell therapy (EGFR BATs), so there is no candidate; EGFR expression is mechanistically linked to the BATs but they are not a candidate, hence candidate_matched false. Both arms are registered ACTIVE_COMPARATOR but differ only in LIFU timing (no true control). tumour_pk_planned coded yes on the basis of PET uptake of labelled cells in tumour regions (not a drug concentration assay). Microbubbles are named in the summary (Lumason in exclusions) and are not a registered intervention; moiety inferred from the Lumason name. RT/TMZ is mentioned in outcomes ('after RT/TMZ') but not registered, so not listed."
+}

@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT05045027",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Malignant Glioma; Recurrent Glioma; Recurrent Malignant Glioma"},
+      {"field": "eligibility", "quote": "AIM 2: Newly diagnosed or recurrent suspected or confirmed glioma (low or high grade)"},
+      {"field": "detailed_description", "quote": "III. Quantify changes in Na+-, pH-, and O2-weighted MR images after neoadjuvant anti-PD-1 immunotherapy in recurrent glioblastoma (GBM) and explore associated changes in tumor biology."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "(interventions: Procedure: Biospecimen Collection; Procedure: Diagnostic Imaging; Procedure: Magnetic Resonance Imaging)"},
+      {"field": "eligibility", "quote": "AIM 3: Recurrent glioma enrolled in an immunotherapy trial or clinically indicated to receive immunotherapy including anti-PD1"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "AIM 2: Newly diagnosed or recurrent suspected or confirmed glioma (low or high grade)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "AIM 2: 10 IDH mutant and 10 IDH wild type gliomas"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NHE1 (sodium-proton exchanger isoform-1) IHC and gene expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "NHE1 expression: Will create a comprehensive map of genes/pathways and unique cell subsets associated with NHE1 expression."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging (multinuclear metabolic MRI) and biospecimen study; registered interventions are procedures only. Anti-PD-1 immunotherapy in Aim 3 is received outside this study (another trial or clinical care) and is not a registered intervention, so not listed. Glioblastoma named only in the detailed description; conditions and eligibility say glioma / malignant glioma (low or high grade). Could also be coded not_glioblastoma (includes low-grade); either way excluded at S5. IDH quota (10 mutant, 10 wild-type) coded as stratification of sampling; not a selection. Registered phase EARLY_PHASE1."
+}

@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04205357",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically verified glioblastoma multiforme with recurrence (first or second relapse, all subtypes)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Sulfasalazine is a potential tumor selective radiosensitizer."},
+      {"field": "detailed_description", "quote": "Sulfasalazine inhibits the production of an antioxidant that normally protects the tumor against radiation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Sulfasalazine and Stereotactic Radiosurgery for Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["stereotactic radiosurgery"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Monitor the effect of sulfasalazine on the level of Glutathione production in glioma cells."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Sulfasalazine",
+      "active_moiety": "sulfasalazine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Sulfasalazine in addition to stereotactic radiosurgery"},
+        {"field": "brief_summary", "quote": "This study evaluates the safety associated with the addition of sulfasalazine to stereotactic radiosurgery for recurrent glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "aminosalicylate anti-inflammatory (xCT / cystine-glutamate transporter inhibitor)",
+      "stated_antitumour_mechanism": "inhibits production of an antioxidant that protects the tumour against radiation (radiosensitiser)",
+      "flag": {"uncertain": false},
+      "arms": ["Sulfasalazine in addition to stereotactic radiosurgery"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "intratumoral glutathione (pharmacodynamic)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "sulfasalazine",
+      "source_quote": {"field": "outcomes", "quote": "Monitor the effect of sulfasalazine on the level of Glutathione production in glioma cells."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single registered arm typed OTHER (dose escalation of sulfasalazine before gamma knife radiosurgery); sulfasalazine is the only drug, radiosurgery is the partner so regimen is combination. Gamma knife is the radiation modality, not a device needed to activate or deliver the drug, so device_dependent is false."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05030298",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Clear clinical and radiographic evidence of primary high grade glioma (HGG) as judged by the Mayo multidisciplinary neuro-oncology team (World Health Organization \\[WHO\\] grade III-IV, including glioblastoma) regardless of IDH and MGMT status"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the feasibility, safety and maximum tolerated dose (MTD) of preoperative radiosurgery in the treatment of patients with biopsy-proven high-grade glioma prior to conventional therapy."},
+      {"field": "detailed_description", "quote": "Within 4-6 weeks, all patients then receive standard of care radiation therapy over 30 fraction and temozolomide daily with or without tumor treating fields (TTF) at the discretion of the treating neuro-oncologist."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the feasibility, safety and maximum tolerated dose (MTD) of preoperative radiosurgery in the treatment of patients with biopsy-proven high-grade glioma prior to conventional therapy."},
+      {"field": "eligibility", "quote": "Prior history of cranial radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Within 4-6 weeks, all patients then receive standard of care radiation therapy over 30 fraction and temozolomide daily with or without TTF at the discretion of the treating neuro-oncologist."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (stereotactic biopsy, radiosurgery, surgery)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Investigational intervention is preoperative radiosurgery (radiation), not a drug; the only drug is standard-of-care temozolomide (soc_backbone). Exclusion reason coded no_pharmacological_candidate (established_therapy_only could be argued since temozolomide is the only drug, but temozolomide is not itself the subject of investigation). IDH and MGMT mentioned only as 'regardless of IDH and MGMT status', not as entry requirements, so no biomarker rows. cns5_terminology coded historical because glioblastoma is eligible regardless of IDH status (IDH-mutant glioblastoma allowed); could be argued unclear. Correlative tissue analyses relate to radiation, not a drug candidate."
+}

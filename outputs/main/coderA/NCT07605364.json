@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT07605364",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Advanced Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed primary glioblastoma by World Health Organization (WHO) 2021 criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase II/III trial tests how well adding mycophenolate mofetil, to the usual treatment with intensity-modulated radiation therapy and temozolomide works for the treatment of glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed primary glioblastoma by World Health Organization (WHO) 2021 criteria"},
+      {"field": "eligibility", "quote": "Patient is a candidate for first-line standard of care chemoradiation per treating physician(s)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Mycophenolate Mofetil",
+      "active_moiety": "mycophenolic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "To compare the overall survival (OS) (phase III) and progression-free survival (PFS) (phase II) between the experimental arm (mycophenolate mofetil \\[MMF\\] + standard of care \\[SOC\\]) and the control arm (SOC)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "immunosuppressant, IMPDH inhibitor (mycophenolate mofetil, ester prodrug of mycophenolic acid)",
+      "stated_antitumour_mechanism": "Mycophenolate mofetil blocks enzyme activity which can disrupt tumor activity and may make the tumor more sensitive to radiation and/or temozolomide.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm II (radiation, temozolomide, mycophenolate mofetil)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "Testing the Addition of an Anti-Cancer Drug, Mycophenolate Mofetil, to the Usual Treatment (Radiation Therapy and Temozolomide) for Advanced Brain Cancer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (radiation, temozolomide)", "Arm II (radiation, temozolomide, mycophenolate mofetil)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Arm I is registered as EXPERIMENTAL but is described as the SOC control arm, hence control_arm_from_other_arms yes. Title/condition say 'advanced' but eligibility requires newly diagnosed GBM before first-line chemoradiation, so newly_diagnosed. Active moiety given as mycophenolic acid (mofetil is the ester); formulation_flag left none although MMF is technically a prodrug of MPA. Stratified log-rank tests mentioned but stratification factors not named; no biomarker rows."
+}

@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06397560",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioma, Malignant; Recurrent Glioma"},
+      {"field": "eligibility", "quote": "Histologically-confirmed or radiographic evidence of recurrent / progressive glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Proton pulsed reduced dose rate (PRDR) technique, to a dose of 54 Gy in 30 fractions (treatments) with proton radiotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically-confirmed or radiographic evidence of recurrent / progressive glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Proton re-irradiation trial (registered phase NA) for recurrent glioma / recurrent high-grade glioma; glioblastoma not named anywhere. No drug or biologic intervention (contraceptives listed in eligibility are not study interventions)."
+}

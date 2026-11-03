@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04160494",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "A Phase 1 Trial of D2C7-IT in Combination With Atezolizumab in Recurrent WHO Grade IV Malignant Glioma"},
+      {"field": "eligibility", "quote": "Patients must have a recurrent supratentorial WHO grade IV malignant glioma based on imaging studies"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a phase 1 study of atezolizumab in combination with D2C7-IT, a dual-specific monoclonal antibody (mAB) with a high affinity for both EGFRwt- and EGFRvIII-expressing cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have a recurrent supratentorial WHO grade IV malignant glioma based on imaging studies"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["atezolizumab", "d2c7-it"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "D2C7-IT (6920 ng/mL via convection-enhanced delivery)",
+      "active_moiety": "d2c7-it",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Single D2C7-IT convection-enhanced delivery (CED) infusion (6920 ng/mL) plus atezolizumab (1200 mg) intravenous (IV) infusions every three weeks for up to two years"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "dual-specific anti-EGFRwt/EGFRvIII monoclonal antibody immunotoxin, intratumoral convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT (6920 ng/mL) + Atezolizumab", "D2C7-IT (4613.2 ng/mL) + Atezolizumab"]
+    },
+    {
+      "agent_name_registered": "Atezolizumab (1200 mg every three weeks)",
+      "active_moiety": "atezolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a phase 1 study of atezolizumab in combination with D2C7-IT"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-L1 checkpoint antibody",
+      "stated_antitumour_mechanism": "programmed cell death ligand 1 (PD-L1) blocking antibody",
+      "flag": {"uncertain": false},
+      "arms": ["D2C7-IT (6920 ng/mL) + Atezolizumab", "D2C7-IT (4613.2 ng/mL) + Atezolizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Conditions field says only Malignant Glioma; glioblastoma appears only in keywords. Coded gbm_only/historical under D27C because the title and inclusion criteria require WHO grade IV malignant glioma with no IDH requirement. The two registered D2C7-IT arms differ only by dose. EGFR/EGFRvIII is the antibody's target but is not an entry requirement or a planned biomarker endpoint, so no biomarker row. MGMT status is mentioned only in an exclusion criterion about prior chemotherapy."
+}

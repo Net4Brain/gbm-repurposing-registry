@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT07496073",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain (Nervous System) Cancers"},
+      {"field": "eligibility", "quote": "Subjects must be pathologically confirmed to have high-grade glioma, defined as WHO (2021) Central Nervous System Tumor Classification grade 3 or 4 gliomas; or primary central nervous system lymphoma (PCNSL)."},
+      {"field": "brief_summary", "quote": "This group includes a variety of histological types, most commonly glioblastoma, anaplastic astrocytoma, anaplastic oligodendroglioma, and primary central nervous system lymphoma."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma named only in brief summary; eligibility says WHO 2021 grade 3 or 4 high-grade glioma, which would include GBM but does not name it."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CHT101 is an allogeneic CD70-targeted chimeric antigen receptor Tcell therapy, intended to be administered locally for the treatment of primary malignant brain tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Adult Subjects With Recurrent or Progressive Malignant Primary Brain Tumors"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "pharmacokinetics (PK): Concentration levels of CHT 101"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamics (PD): Concentration levels of serum cytokines, such as IL-2, IL-4, IL-6, IL-10, IFN-γ, TNF-α"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CHT 101",
+      "active_moiety": "cd70-targeted car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "CHT101 is an allogeneic CD70-targeted chimeric antigen receptor T cell therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CHT101, allogeneic CD70-targeted CAR-T cell therapy, locally administered",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CHT 101 injection"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD70 positivity by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor tissue specimens must be CD70-positive as determined by immunohistochemistry (IHC)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CD70-targeted CAR-T (cell therapy) is the only intervention, so no pharmacological candidate regardless of S5. CD70 eligibility is mechanistically linked to the CAR-T, but CAR-T is an excluded intervention type, not a candidate, so candidate_matched false. PK/PD outcomes concern the CAR-T (non-candidate); PK sample type not stated. cns5 because eligibility cites WHO (2021) CNS classification."
+}

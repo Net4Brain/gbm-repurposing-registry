@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT06291155",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Type 2 Diabetes; Diabetic Kidney Disease"},
+      {"field": "outcomes", "quote": "Glomerular basement membrane (GBM) width and mesangial expansion: Measured by morphometric examination of kidney tissue"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The primary objective of this study is to determine whether canagliflozin affects intrarenal transcripts of energy metabolism in adults with type 2 diabetes and early DKD."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SGLT2 inhibitor",
+      "active_moiety": "canagliflozin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All participants will be receive 100 mg/daily doses of Canagliflozin (INVOKANA) for 6 months."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "SGLT2 inhibitor antidiabetic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SGLT2i Arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Not a glioblastoma trial: 'GBM' here means glomerular basement membrane (kidney morphometry in diabetic kidney disease), not glioblastoma and not anti-GBM disease, so coded not_glioblastoma. Canagliflozin is the only investigational agent (role experimental_monotherapy by rule 4) but is tested for renal effects with no antitumour hypothesis, so there is no pharmacological antitumour candidate (S6 no_pharmacological_candidate). Kidney transcript endpoints are renal pharmacodynamics, not tumour target engagement. Treatment setting not applicable to a non-tumour trial; coded unclear. Phase 4."
+}

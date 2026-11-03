@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT05120284",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "previously diagnosed with a GBM who have experienced tumor recurrence as determined by neuroimaging"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "Evaluate effects of dichloroacetate (DCA) on tumor PDC phosphorylation."},
+      {"field": "outcomes", "quote": "The efficacy of dichloroacetate will be determined by the level of phosphorylated PDC protein expressed in surgical tissue."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Both registered arms are ACTIVE_COMPARATOR and both receive DCA (pre- vs post-surgical start); DCA is the investigational agent but rule 1 could be read as control_comparator"},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Conduct a multicenter, open label Phase IIA trial of oral DCA in 40 surgical patients with recurrent GBM who have clinically indicated debulking surgery planned."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The efficacy of dichloroacetate will be determined by the level of phosphorylated PDC protein expressed in surgical tissue."},
+      {"field": "brief_summary", "quote": "Deidentified blood and tumor tissue obtained at surgery will be assessed at UF for biochemical markers of DCA dynamics."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dichloroacetate (DCA)",
+      "active_moiety": "dichloroacetic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "will be randomized to receive DCA (N=20) or no DCA (N=20) for one week prior to surgery."},
+        {"field": "interventions", "quote": "Study medication DCA is a liquid formulation mixed with an artificial sweetener containing aspartame and strawberry extract (50mg/mL)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "sodium dichloroacetate; pyruvate dehydrogenase kinase inhibitor (metabolic agent, investigational for congenital lactic acidosis)",
+      "stated_antitumour_mechanism": "effects on tumor PDC (pyruvate dehydrogenase complex) phosphorylation",
+      "flag": {"uncertain": true, "reason": "All arms are registered as ACTIVE_COMPARATOR and all receive DCA; coded as candidate because pre-surgical DCA is the trial question"},
+      "arms": [
+        "Pre-Surgical Dichloroacetate (DCA)",
+        "No Pre-Surgical Dichloroacetate (DCA)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "phosphorylated pyruvate dehydrogenase complex (PDC) protein in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "dichloroacetic acid",
+      "source_quote": {"field": "outcomes", "quote": "Level of phosphorylated PDC protein expressed in surgical tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Active moiety given as dichloroacetic acid (registered as sodium dichloroacetate, salt mapped to parent); script mapping should confirm. Design is NON_RANDOMIZED per registry though text says randomized. Both arms receive DCA (pre-op one week vs starting post-op); the comparison of interest is pre-surgical exposure for tissue PD. GSTZ1 haplotype genotyping is a germline pharmacogenomic dosing marker and is not recorded as a biomarker. MGMT is mentioned only as prior-therapy history ('truly unmethylated GBM do not require prior treatment with temozolomide'), not an entry requirement, so not recorded."
+}

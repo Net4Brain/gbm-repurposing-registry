@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05540873",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients with histologically or cytologically confirmed progressive malignant glioma (Grade III or IV according to the WHO criteria)"},
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma not named; only 'malignant glioma (Grade III or IV)'. Coded as GBM-named via D27C (grade IV glioma without IDH = historical GBM); alternative is high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Biological: IL13Rα2 CAR-T cells Administration method: intravenous infusion"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Treating Patients With Refractory or Recurrent Malignant Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "YYB-103",
+      "active_moiety": "car-t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Biological: IL13Rα2 CAR-T cells Administration method: intravenous infusion"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IL13Ralpha2-targeted chimeric antigen receptor T-cell therapy (YYB-103)",
+      "stated_antitumour_mechanism": "YYB-103 is designed to target cancer cells expressing IL13Rα2 in cell surface.",
+      "flag": {"uncertain": false},
+      "arms": ["IL13Rα2 targeted CAR-T"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "IL13Ralpha2 expression (IHC)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects confirmed as positive for IL13Rα2 expression from immunostaining (IHC)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CAR-T cell therapy is an excluded intervention type, so no candidate and IL13Ra2 selection is not candidate-matched (it is mechanistically matched to the CAR-T, which is not a candidate). Population: 'malignant glioma (Grade III or IV according to the WHO criteria)', glioblastoma never named; grade IV without IDH treated as historical GBM per D27C -> mixed_glioma_gbm_named, flagged. PK and cytokines in blood and CSF are planned for the CAR-T product, not for a pharmacological candidate, so tumour_pk_planned and target_engagement_planned coded no."
+}

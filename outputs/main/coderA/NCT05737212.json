@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT05737212",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma; Recurrent Glioblastoma; Recurrent Anaplastic Astrocytoma; Recurrent Anaplastic Oligodendroglioma"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH wildtype, WHO grade 4"},
+      {"field": "eligibility", "quote": "Individual histologically diagnosed with glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr"},
+      {"field": "detailed_description", "quote": "500 mg/kg of the study drug is intravenously administered over 3 hours at a constant rate and neutron irradiation starts at 1 hour after the end of the study drug administration according to the previously established neutron irradiation plan."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "BNCT is registered as a Radiation intervention with radiation-dose escalation; coded the boron carrier as a device-dependent candidate (drug-device therapy, C12), but an adjudicator could treat BNCT as radiotherapy only."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Studying the Safety, Efficacy, and Pharmacokinetic Characteristics of BNCT in Patients With Recurrent High-grade Gliomas"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters(Cmax) of borono-phenylalanine in subjects with recurrent high-grade glioma"},
+      {"field": "interventions", "quote": "Thereafter, patient will receive neutron irradiation simultaneously for a certain period of time based on his Boronophenylalanine (BPA) concentration in the blood."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "boronophenylalanine, DMX-101",
+      "active_moiety": "borofalan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr"},
+        {"field": "interventions", "quote": "Patients will be infused DMX-101 intravenously at a dose of 500mg/kg/hr over 3 hours."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "boron-10 carrier for boron neutron capture therapy (boronophenylalanine, BPA; DMX-101; INN borofalan (10B)); activated by neutron irradiation device DM-BNCT",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1", "Group 2", "Group 3"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "BNCT: the boron carrier boronophenylalanine (DMX-101) is given at a fixed dose with neutron irradiation (DM-BNCT device) at escalating radiation doses; coded as a device-dependent candidate (C12). Regimen coded monotherapy treating the neutron beam as the activating device (as for light in PDT); could alternatively be combination with radiotherapy. Active moiety given as INN borofalan (record says boronophenylalanine/BPA/DMX-101); not a radiopharmaceutical itself (non-radioactive 10B). PK planned; the record mentions BPA blood concentration for irradiation planning but does not state the PK sample type for the outcomes -> unclear. IDH and 1p/19q appear only as WHO 2021 diagnostic categories (several types allowed), not as entry requirements, so no biomarker rows. Arm labels taken as 'Group 1/2/3' (text before the first colon). Mixed high-grade glioma for Phase I; Phase IIa restricted to glioblastoma."
+}

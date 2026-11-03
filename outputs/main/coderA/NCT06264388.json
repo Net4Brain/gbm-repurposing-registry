@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT06264388",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "DB107-Retroviral Replicating Vector (RRV) Combined With DB107-Flucytosine (FC) in Patients With Recurrent Glioblastoma or Anaplastic Astrocytoma"},
+      {"field": "eligibility", "quote": "Patients with unresectable or resectable HGG (AA or GBM) will be enrolled."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to determine if the investigational products, DB107-RRV and DB107-FC, as a combination treatment will shrink high-grade glioma (HGG) in patients with recurrent/progressive, resectable or unresectable disease and increase the time that disease is controlled."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only pharmacological agent is flucytosine (DB107-FC), a prodrug whose antitumour effect depends on the co-administered gene-therapy vector; whether it counts as a candidate or as part of an excluded gene therapy needs adjudication."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven HGG that have recurred/progressed (first or second recurrence)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["DB107-RRV (retroviral replicating vector gene therapy)"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DB107-RRV",
+      "active_moiety": "retroviral replicating vector gene therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "will receive combination intravenous (IV) and adaptive repeat intratumoral delivery of DB107-RRV in the vein (IV) and in the walls of the cavity that remains where tumor is removed."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DB107",
+      "drug_class_hint": "retroviral replicating vector (gene therapy), presumably delivering a prodrug-activating enzyme; DB107-RRV",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DB107-RRV and DB107-FC Group"]
+    },
+    {
+      "agent_name_registered": "DB107-FC (other names: Ancobon, Ancotil)",
+      "active_moiety": "flucytosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Approximately 6 weeks after surgery, patients will start drug therapy with a 7-day oral regimen of 220 mg/kg/day DB107-FC, which is to be self-administered."},
+        {"field": "title", "quote": "A Biomarker-Guided Phase 2 Study of DB107-RRV (Retroviral Replicating Vector) Combined With DB107-Flucytosine Extended-Release Tablets in Patients With Recurrent Glioblastoma or Anaplastic Astrocytoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DB107",
+      "drug_class_hint": "antifungal (5-fluorocytosine), extended-release tablet, prodrug activated by vector-delivered enzyme",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Antitumour effect depends on gene-therapy vector activation; candidate status of a gene-therapy-dependent prodrug is not explicitly covered by the manual."},
+      "arms": ["DB107-RRV and DB107-FC Group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Denovo Genomic Marker 7 (DGM7), measured in blood",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Presence of Denovo Genomic Marker 7 (DGM7) biomarker in blood."},
+      "flag": {"uncertain": true, "reason": "Blood-based marker; record does not say whether it is a tumour or germline marker (germline markers are not recorded) nor its mechanistic link to the DB107 regimen."}
+    ,
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm recurrent HGG (GBM or anaplastic astrocytoma) trial; glioblastoma named in title and inclusion criteria. DB107-RRV is a retroviral replicating vector (gene therapy) -> excluded_intervention_type. DB107-FC is extended-release flucytosine (brand names Ancobon/Ancotil given), the only small-molecule drug, coded as experimental_monotherapy but flagged because its antitumour activity requires the vector. regimen_id DB107 links the two components. DGM7 blood biomarker is an entry requirement; flagged since it may be germline and its link to the candidate is not stated. cns5_terminology unclear (no IDH/WHO reference; 'anaplastic astrocytoma' is older terminology but not one of the listed historical criteria)."
+}

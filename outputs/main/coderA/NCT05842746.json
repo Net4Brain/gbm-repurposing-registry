@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT05842746",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "newly-diagnosed supratentorial glioblastoma, IDH-wildtype, WHO grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Elemene is given 20ml:176mg orally, three times a day for 28 consecutive days (as one cycle) for 6 cycles, during the phase of adjuvant TMZ administration."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "newly-diagnosed supratentorial glioblastoma, IDH-wildtype, WHO grade 4"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Elemene",
+      "active_moiety": "elemene",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The goal of this phase II randomized clinical trial is to compare the safety and efficacy of Elemene plus Stupp Protocol (the new protocol) and Stupp Protocol alone (the standard protocol) in patients with newly-diagnosed glioblastomas (ndGBMs)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "plant-derived (Curcuma wenyujin) sesquiterpene anticancer medicine marketed in China",
+      "stated_antitumour_mechanism": "could inhibit GBM cell proliferation, promote cell differentiation, and induce cancer cell apoptosis",
+      "flag": {"uncertain": false},
+      "arms": ["Ele-Stupp Protocol"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive maximal safe tumor resection, concurrent radiochemotherapy with TMZ, and adjuvant TMZ (the Stupp Protocol)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp Protocol", "Ele-Stupp Protocol"]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Placebo (with the same appearance and flavor with Elemene) of 20ml is given orally, three times a day, for 28 consecutive days (as a cycle), for 6 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo matching elemene",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp Protocol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "newly-diagnosed supratentorial glioblastoma, IDH-wildtype, WHO grade 4"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised placebo-controlled: Stupp + elemene vs Stupp + placebo. Control arm is registered as PLACEBO_COMPARATOR, so control_arm_from_other_arms = no. Elemene is described as an approved Chinese anti-tumour medicine (approval outside FDA/EMA likely; lookup to confirm); treated as a pharmacological candidate, not a supplement. Temozolomide not a registered intervention but every patient receives it in the named Stupp protocol. Subgroup analysis by unspecified 'molecular alterations' not coded as a biomarker."
+}

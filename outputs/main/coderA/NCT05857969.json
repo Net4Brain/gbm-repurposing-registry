@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT05857969",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Childhood Gliosarcoma"},
+      {"field": "eligibility", "quote": "Subjects with suspected or confirmed diagnosis of recurrent or refractory cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Paediatric pan-cancer study (age <=21); glioblastoma named only as 'Recurrent Childhood Gliosarcoma' in conditions."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Functional precision medicine (FPM) is a relatively new approach to cancer therapy based on direct exposure of patient- isolated tumor cells to clinically approved drugs"},
+      {"field": "outcomes", "quote": "if it is possible to choose and initiate a monotherapy or combination drug regimen based on functional and/or genomics data within 4 weeks"},
+      {"field": "interventions", "quote": "[DEVICE] Functional Precision Medicine: Ex Vivo Drug Sensitivity Testing + Genomic Tumor Profiling"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Registered intervention is the FPM testing (device); approved drugs are chosen by the treating physician from the assay and are not named, so unclear whether drug therapy is protocol intervention (C13 panel)."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subjects with suspected or confirmed diagnosis of recurrent or refractory cancer"}
+    ],
+    "regimen": "unclear",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Functional Precision Medicine",
+      "active_moiety": "unspecified_approved_panel",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Functional precision medicine (FPM) is a relatively new approach to cancer therapy based on direct exposure of patient- isolated tumor cells to clinically approved drugs"},
+        {"field": "arms", "quote": "The results of the drug sensitivity assay and genetic screening will be used to inform treating physician about patient-specific drug sensitivity or resistance guiding best therapy choices."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "unspecified clinically approved drugs (monotherapy or combination) selected per patient by ex vivo drug sensitivity testing plus genomic profiling",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Unnamed approved drugs chosen by assay-informed physician; candidate status depends on whether this counts as a C13 unspecified approved-drug panel."},
+      "arms": ["Functional Precision Medicine for Chemorefractory or relapsed patients"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "genomic/transcriptomic tumour profiling and ex vivo drug sensitivity used to guide therapy choice",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "EXPLORATORY OBJECTIVE: To explore associations between tumor molecular characteristics (genomic and transcriptomic variation) and ex vivo drug response with respect to patient ethnicity."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric/young-adult (<=21 y; stdAges CHILD, ADULT -> mixed_age) pan-cancer functional precision medicine study. Gliosarcoma named in conditions, hence basket_gbm_eligible, flagged uncertain. The only registered intervention is the FPM assay (DEVICE); therapy uses clinically approved drugs chosen per patient, coded as one unspecified_approved_panel row (C13), flagged uncertain. Genomic profiling informs treatment choice for all patients but is not an entry requirement, so not coded eligibility/enrichment. Regimen unclear (monotherapy or combination)."
+}

@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05979064",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Omental Tissue Autograft in Human Recurrent Glioblastoma Multiforme (rGBM)"},
+      {"field": "eligibility", "quote": "Subject has a histologically confirmed (frozen section) diagnosis of recurrent WHO Grade IV glioblastoma multiforme (GBM)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Laparoscopically harvested omental tissue autograft: 1. Standard neurosurgical removal of recurrent GBM,"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "implanted into the resection cavity of recurrent glioblastoma multiforme (GBM) patients."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical procedure (autologous omental tissue graft) only; no drug or biologic interventions. Phase NA. Glioblastoma multiforme terminology = historical. Some conditions list malignant/high-grade glioma but inclusion requires recurrent GBM."
+}

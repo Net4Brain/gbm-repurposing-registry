@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT04424966",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma; GBM"},
+      {"field": "eligibility", "quote": "Prior resection of histologically diagnosed high-grade gliomas (III and IV) defined as participants who have progressed on or following standard (Stupp regimen) therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm 1: Phase 0: 125 mg of infigratinib administered orally for 7 days prior to surgical resection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Infigratinib in Recurrent High-Grade Glioma Patients"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Total infigratinib concentration in Gd enhancing and Gd non-enhancing tumor tissue collected intraoperatively, approximately 8 hours after study drug administration, will be determined by a validated liquid chromatography-mass spectrometry (LC-MS) method."},
+      {"field": "outcomes", "quote": "Total Concentration of Infigratinib in Cerebrospinal Fluid (CSF)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Mean % Change of pERK+ Cells in Resected Post-Treatment Recurrent HGG Tissue vs Baseline Tissue"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Infigratinib",
+      "active_moiety": "infigratinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The Phase 0 study will include treatment of recurrent high-grade glioma participants with 125 mg of infigratinib 7 days prior to surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "FGFR1-3 tyrosine kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "FGFR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "infigratinib",
+      "source_quote": {"field": "eligibility", "quote": "Archival tissue must demonstrate: FGFR1 K656E or FGFR3 K650E mutation or FGFR3-TACC3 translocation from NGS sequencing or IHC and RT-PCR."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pERK-positive cells in tumour (IHC), post-treatment vs baseline",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "infigratinib",
+      "source_quote": {"field": "outcomes", "quote": "The mean percentage change of pERK positive cells in resected post-treatment recurrent high-grade glioma tumor tissue compared to baseline (archival primary high-grade glioma tumor tissue collected at screening) will be quantified using immunohistochemistry."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "MIB-1 (Ki-67) positive cells in tumour (IHC), post-treatment vs baseline",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Mean % Change of MIB-1+ Cells in Resected Post-Treatment Recurrent HGG Tissue vs Baseline Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "cleaved caspase-3 positive cells in tumour (IHC), post-treatment vs baseline",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Mean % Change of ClCas3+ Cells in Resected Post-Treatment Recurrent HGG Tissue vs Baseline Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0 translational subset). Population: recurrent high-grade glioma grades III and IV; glioblastoma named in conditions -> mixed_glioma_gbm_named; 'grade IV' without IDH requirement -> cns5_terminology historical. FGFR1/FGFR3 alteration is an entry requirement matched to the FGFR inhibitor infigratinib (primary outcome positive). Tumour tissue and CSF drug concentrations are primary outcomes (tumour PK yes); pERK change in paired post-treatment vs baseline tumour is a pharmacodynamic endpoint (target engagement yes). Expansion cohort continues infigratinib monotherapy after surgery for PK responders."
+}

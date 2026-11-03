@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT07481721",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Recurrent malignant glioma (WHO grade IV)"},
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Autologous IL13Rα2-targeted CAR-T cells engineered to secrete anti-PD-L1 antibody will be administered after lymphodepleting pretreatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent malignant glioma (WHO grade IV)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IL13Rα2 CAR-T Cells Secreting Anti-PD-L1 Antibody",
+      "active_moiety": "il13ra2 car-t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Autologous IL13Rα2-targeted CAR-T cells engineered to secrete anti-PD-L1 antibody will be administered after lymphodepleting pretreatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous IL13Ralpha2-targeted CAR-T cell therapy secreting anti-PD-L1 antibody",
+      "stated_antitumour_mechanism": "engineered to recognize and target tumor cells expressing IL13Rα2",
+      "flag": {"uncertain": false},
+      "arms": ["Single Treatment Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "immune checkpoint marker expression / immune cell infiltration",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "The study will also assess changes in the immune microenvironment, including immune cell infiltration and expression of immune checkpoint markers."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "GBM population coded via D27C: 'malignant glioma (WHO grade IV)' with no IDH requirement = historical glioblastoma. Lymphodepleting pretreatment is mentioned but the agents are not named, so not listed. IL13Ralpha2 expression is not stated as an entry requirement. Only intervention is a CAR-T cell therapy (excluded type)."
+}

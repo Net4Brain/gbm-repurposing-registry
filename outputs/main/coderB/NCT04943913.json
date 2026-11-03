@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT04943913",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "brief_summary", "quote": "This study is to investigate the safety and efficacy of tumor infiltrating lymphocyte (TIL) therapy in patients with malignant glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Tumor Infiltrating Lymphocytes (TIL): Adoptive transfer of 1x10\\^9-5x10\\^10 autologous TILs to patients i.v. in 30-120 minutes."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Test subjects have failed standard treatment regimens, or there are no standard treatment regimens available."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tumor Infiltrating Lymphocytes (TIL)",
+      "active_moiety": "tumour infiltrating lymphocyte therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Tumor Infiltrating Lymphocytes (TIL): Adoptive transfer of 1x10\\^9-5x10\\^10 autologous TILs to patients i.v. in 30-120 minutes."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous cell therapy (GC101 TIL)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    },
+    {
+      "agent_name_registered": "hydroxychloroquine",
+      "active_moiety": "hydroxychloroquine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "infused i.v. into the patient after NMA lymphodepletion treatment with hydroxychloroquine(600mg,single-dose) and cyclophosphamide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antimalarial; part of lymphodepletion conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    },
+    {
+      "agent_name_registered": "cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "infused i.v. into the patient after NMA lymphodepletion treatment with hydroxychloroquine(600mg,single-dose) and cyclophosphamide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent used for lymphodepletion conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Infiltrating Lymphocytes"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Glioblastoma is not named anywhere (conditions: Glioma; eligibility: brain glioma; summary: malignant glioma), so high_grade_glioma_unspecified. Hydroxychloroquine and cyclophosphamide are non-myeloablative lymphodepletion conditioning for the cell therapy (supportive, R6). Early Phase 1."
+}

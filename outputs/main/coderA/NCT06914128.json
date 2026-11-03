@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT06914128",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "MTAP-deleted Solid Tumors"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Window-of-opportunity trial in participants with MTAP-deleted GBM (Intervention Cohort 7): A surgical window-of-opportunity trial of BAY 3713372 alone in participants with MTAP-deleted glioblastoma (GBM)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A First-in-human Study to Evaluate the Safety, Tolerability and Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of BAY 3713372, a Novel 2nd Generation PRMT5 Inhibitor, in Participants With MTAP-deleted Solid Tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "A surgical window-of-opportunity trial of BAY 3713372 alone in participants with MTAP-deleted glioblastoma (GBM)."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["unspecified other treatments (NSCLC and PDAC expansion cohorts)"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Concentration of BAY 3713372 in enhancing and non-enhancing brain tumor tissue obtained at definitive surgery, with corresponding time-matched plasma concentrations and estimation of tumor-to-plasma exposure ratios"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in symmetric dimethylarginine (SDMA) levels in brain tumor tissue collected at definitive surgery following neoadjuvant BAY 3713372 treatment, as a pharmacodynamic marker of PRMT5 inhibition"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BAY 3713372",
+      "active_moiety": "bay 3713372",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "A surgical window-of-opportunity trial of BAY 3713372 alone in participants with MTAP-deleted glioblastoma (GBM)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational 2nd generation PRMT5 inhibitor (MTA-cooperative), BAY 3713372",
+      "stated_antitumour_mechanism": "blocking the protein arginine N-methyltransferase 5 (PRMT5) in MTAP-deleted cancer cells",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Dose Escalation (Intervention Cohort 1)",
+        "Backfill cohorts in Intervention Cohort 1 (Dose Escalation)",
+        "Dose Expansion (Intervention Cohort 1)",
+        "Dose Expansion (Intervention Cohort 2)",
+        "Dose Expansion (Intervention Cohort 3)",
+        "Dose Expansion (Intervention Cohort 4)",
+        "Dose Expansion (Intervention Cohort 5)",
+        "Dose Expansion (Intervention Cohort 6)",
+        "Window-of-opportunity trial in participants with MTAP-deleted GBM (Intervention Cohort 7)"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP homozygous deletion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "bay 3713372",
+      "source_quote": {"field": "eligibility", "quote": "Homozygous MTAP-deletion identified through molecular testing from a locally certified laboratory."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "symmetric dimethylarginine (SDMA) in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "bay 3713372",
+      "source_quote": {"field": "outcomes", "quote": "Change in symmetric dimethylarginine (SDMA) levels in brain tumor tissue collected at definitive surgery following neoadjuvant BAY 3713372 treatment, as a pharmacodynamic marker of PRMT5 inhibition"},
+      "flag": {"uncertain": false},
+      "arms": ["Window-of-opportunity trial in participants with MTAP-deleted GBM (Intervention Cohort 7)"]
+    }
+  ],
+  "coder_notes": "Solid-tumour basket; glioblastoma named only in a registered arm label (Cohort 7) and keywords, so basket_gbm_eligible per D27B. The GBM cohort is BAY 3713372 alone (window-of-opportunity before definitive surgery); setting (newly diagnosed vs recurrent) not stated. Cohorts 3, 4 and 6 (NSCLC, PDAC) combine BAY 3713372 with unnamed 'other treatments' that are not registered interventions, so not listed as agents; regimen coded combination on that basis, although the GBM cohort is monotherapy. MTAP deletion is a whole-trial entry requirement matched to the PRMT5 inhibitor."
+}

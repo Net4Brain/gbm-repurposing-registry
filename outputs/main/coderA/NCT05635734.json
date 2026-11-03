@@ -1,0 +1,109 @@
+{
+  "nct_id": "NCT05635734",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patient must have histologically confirmed newly diagnosed glioblastoma (GBM, world health organization (WHO) grade IV)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Phase I/II Open Label Study to Assess Safety and Preliminary Evidence of a Therapeutic Effect of Azeliragon Combined With Conventional Concurrent Radiation and Temozolomide in Patients With Newly Diagnosed Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Azeliragon and Chemoradiotherapy in Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "S100A9 expression levels: Expression levels of the S100A9 molecular biomarker in blood samples from patients. Samples will be taken at baseline, Week 10 and after progression"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Azeliragon 5 mg; Azeliragon 10 mg; Azeliragon 20 mg",
+      "active_moiety": "azeliragon",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is an open label study to determine the safety and preliminary evidence of a therapeutic effect of azeliragon in patients with newly diagnosed glioblastoma receiving concurrent radiation and temozolomide."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral RAGE (receptor for advanced glycation end products) antagonist",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental arm"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "plus concomitant daily temozolomide (TMZ; 75 mg/m2/day, 7 days/week from the first to the last day of radiotherapy), followed by six cycles of adjuvant TMZ"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Note: Patients should be isocitrate dehydrogenase (IDH) wild type diagnosed locally"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The local O-6-Methylguanine-DNA Methyltransferase (MGMT) report determination should be available and should be uploaded to the electronic case report form (eCRF)."}
+    ,
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "S100A9 expression in blood",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Expression levels of the S100A9 molecular biomarker in blood samples from patients."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Three registered interventions (azeliragon 5, 10, 20 mg dose levels) collapsed into one agent row. Temozolomide is not a registered intervention but every patient receives it with radiotherapy (Stupp backbone), so listed as soc_backbone. MGMT report must be available at entry but no MGMT status is required, so coded exploratory_correlative rather than eligibility. S100A9 (a RAGE ligand) is measured in blood as a secondary outcome; the record does not link it to azeliragon or its target, hence target_engagement_planned unclear and the S100A9 row not candidate-matched; S100A9 is a blood marker, possibly not a tumour biomarker. Corticosteroids mentioned only in eligibility, not listed."
+}

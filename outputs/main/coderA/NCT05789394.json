@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05789394",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype; Recurrent Astrocytoma, IDH-Mutant, Grade 4; Astrocytoma, Grade IV"},
+      {"field": "eligibility", "quote": "Patients with a previous histological diagnosis of glioblastoma multiforme, isocitrate dehydrogenase (IDH) wildtype (WT) or astrocytoma, IDH-mutant World Health Organization (WHO) grade IV according to the 2021 WHO classification of tumors of the central nervous system"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Allogeneic Adipose-derived Mesenchymal Stem Cells (other names: Allogeneic Adipose-derived MSCs, Allogeneic Adipose-derived Stem/Stromal Cells, Allogeneic Mesenchymal Stem/Stromal Cells): Receive IT"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Allogeneic Adipose-derived Mesenchymal Stem Cells",
+      "active_moiety": "adipose-derived mesenchymal stem cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Allogeneic Adipose-derived Mesenchymal Stem Cells (other names: Allogeneic Adipose-derived MSCs, Allogeneic Adipose-derived Stem/Stromal Cells, Allogeneic Mesenchymal Stem/Stromal Cells): Receive IT"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic adipose-derived mesenchymal stem cell therapy (cell therapy), intratumoral/intracavitary",
+      "stated_antitumour_mechanism": "When in direct contact with tumor cells, AMSCs affect tumor growth, residual tumor cell death, and chemotherapy resistance.",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (AMSCs)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with a previous histological diagnosis of glioblastoma multiforme, isocitrate dehydrogenase (IDH) wildtype (WT) or astrocytoma, IDH-mutant World Health Organization (WHO) grade IV"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is an allogeneic mesenchymal stem cell product (cell therapy, excluded type); no pharmacological candidate. Population: IDH-wildtype glioblastoma or IDH-mutant grade 4 astrocytoma (WHO 2021), so mixed glioma with GBM named. IDH status is used only to define eligible histologies (both IDH-wildtype and IDH-mutant allowed), so it is not a true molecular selection; listed for transparency. Correlative tissue/CSF/blood sampling relates to the cell product, not a drug candidate."
+}

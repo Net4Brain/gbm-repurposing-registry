@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT04782609",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma Multiforme (GBM); Grade 3 Isocitrate Dehydrogenase (IDH) Wildtype Astrocytoma; Grade 3 or 4 Astrocytoma; Glioblastoma Surgery"},
+      {"field": "eligibility", "quote": "Male or female subjects having histologically confirmed IDH wildtype glioblastoma (Parts 1 and 2), or grade 3 or 4 IDH mutant astrocytoma (Part 1 only) per WHO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a 2-part multicenter Phase 1b study designed to test the safety, tolerability and pharmacokinetics of single agent oral icapamespib in patients with recurrent brain lesions."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Icapamespib (PU-AD) in Patients With Recurrent Malignant Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Icapamespib Plasma Concentration at Time of Surgery: Tissue samples collected at surgery after icapamespib treatment."},
+      {"field": "eligibility", "quote": "with at least 5 subjects clinically requiring reoperation for tumor progression (Part 2)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "will be enrolled to evaluate the safety, pharmacokinetics (PK), pharmacodynamics, and MTD of single agent oral icapamespib administered daily."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Icapamespib",
+      "active_moiety": "icapamespib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Icapamespib will be administered orally once daily for each 28-day cycle. The initial dose in this trial will be 20 mg"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational Hsp90 inhibitor (PU-AD)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["20 mg Icapamespib cohort", "dose expansion cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Male or female subjects having histologically confirmed IDH wildtype glioblastoma (Parts 1 and 2), or grade 3 or 4 IDH mutant astrocytoma (Part 1 only) per WHO criteria"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population mixes IDH-wildtype glioblastoma (both parts) and IDH-mutant grade 3/4 astrocytoma (Part 1 only); IDH status defines diagnosis/part, not candidate-matched. tumour_pk_planned coded yes because the PK outcome at surgery says tissue samples are collected, although the outcome title says plasma concentration (conflicting; could be unclear). target_engagement_planned yes on a stated pharmacodynamic objective for icapamespib, but no PD marker or sample type is specified (could be unclear). Hsp90 class inferred from exclusion of prior Hsp90 inhibitors; no antitumour mechanism stated."
+}

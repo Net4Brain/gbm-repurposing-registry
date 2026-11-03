@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05977738",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme, Adult; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Eligible for resection of a suspected primary glioblastoma or a recurrent glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Does pitavastatin reach a cytotoxic concentration in gadolinium-enhanced tumour tissue after oral administration?"},
+      {"field": "arms", "quote": "Pitavastatin 16 mg via oral route in the form of daily tablets for 6 days before SOC surgery"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Phase 0 lead-in Trial of Pitavastatin in Primary and Recurrent Glioblastoma Patients"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Intratumoral pitavastatin concentration as assessed by LC-MS analysis on tumour tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Differences in RNA expression after pitavastatin exposure in tumour tissue using RNA sequencing."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pitavastatin calcium",
+      "active_moiety": "pitavastatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Pitavastatin calcium (other names: Alipza): Daily Pitavastatin administration"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HMG-CoA reductase inhibitor (statin), lipid-lowering; repurposed",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose group 1: 16 mg", "Dose group 2: 32 mg", "Dose group 3: 48 mg"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour RNA expression (RNA-seq) after pitavastatin exposure",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Differences in RNA expression after pitavastatin exposure in tumour tissue using RNA sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 / Phase 0 window trial (translational subset): pre-operative pitavastatin at three dose levels, tumour and plasma LC-MS concentrations. Arms are sequential dose groups, none a control. Temozolomide mentioned only as hypothetical synergy partner, not given; not listed. 'Glioblastoma Multiforme' -> historical. RNA-seq after exposure counted as target engagement (pharmacodynamic tumour measurement); not tied to a named target, so an adjudicator could argue unclear."
+}

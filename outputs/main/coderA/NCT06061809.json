@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT06061809",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically-confirmed GBM in accordance with the 2021 WHO CNS5 (grade 4 Glioma, IDH-wildtype) that has progressed after initial therapy or therapies"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "N-803 (other names: ALT-803, Anktiva): Participants will receive 1mg subcutaneously (SC) on Day 1 and Day 15 of each repeated cycle of treatment."},
+      {"field": "brief_summary", "quote": "The phase 2 portion is an open-label, single-arm study to evaluate the safety and efficacy of NAI, PD-L1 t-haNK, and bevacizumab combination therapy in participants with recurrent or progressive GBM."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "N-803 and PD-L1 t-haNK Combined With Bevacizumab for Recurrent or Progressive Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab", "PD-L1 t-haNK", "TTFields"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Profile of each participant PK profile of N-803 from their serum sample"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "N-803",
+      "active_moiety": "nogapendekin alfa inbakicept",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Open-Label, Single-Arm Phase 2 Study of Nogapendekin Alfa Inbakicept, PD-L1 t-haNK, Bevacizumab"},
+        {"field": "interventions", "quote": "N-803 (other names: ALT-803, Anktiva)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IL-15 superagonist complex (N-803/ALT-803, Anktiva); immunotherapy approved for bladder cancer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single Arm", "Experiment Treatment Arm A", "Experiment Treatment Arm B"]
+    },
+    {
+      "agent_name_registered": "PD-L1 t-haNK",
+      "active_moiety": "pd-l1 targeted nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will receive PD-L1 t-haNK (\\~2 × 109 cells/infusion) intravenously (IV) on Day 1 and Day 15 of each repeated cycle of treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PD-L1-targeted high-affinity NK cell therapy (t-haNK)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single Arm", "Experiment Treatment Arm B"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Participants will receive 10mg/kg of Bevacizumab intravenously (IV) on Day 1 and Day 15 of each repeated cycle of treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single Arm", "Experiment Treatment Arm A", "Experiment Treatment Arm B"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically-confirmed GBM in accordance with the 2021 WHO CNS5 (grade 4 Glioma, IDH-wildtype)"},
+      "flag": {"uncertain": false},
+      "arms": ["Experiment Treatment Arm A", "Experiment Treatment Arm B"]
+    }
+  ],
+  "coder_notes": "N-803 INN taken from the official title (nogapendekin alfa inbakicept). PD-L1 t-haNK is an NK cell therapy (excluded type) although registered as Drug. Bevacizumab given in every arm -> soc_backbone; TTFields device in phase 2B arms. Phase 2B Arm A (without t-haNK) serves as a comparator for the t-haNK question, but both arms are experimental regimens with N-803, not SOC/placebo, so control_arm_from_other_arms coded no. PK and ADA are serum only; cytokines (TNF-alpha, IL-6) are safety measures. IDH-wildtype stated for phase 2B (diagnostic, not candidate-matched); phase 2 cites WHO CNS5."
+}

@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT06328036",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype"},
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed IDH wildtype World Health Organization (WHO) grade IV glioblastoma at first or second relapse"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase II trial compares the safety, side effects and effectiveness of atezolizumab with tiragolumab to atezolizumab alone in treating patients with glioblastoma that has come back after a period of improvement (recurrent)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["atezolizumab", "tiragolumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Trough concentrations in serum and concentrations in cerebrospinal fluid: Pharmacokinetics exposure values will be reported descriptively."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "I. To evaluate the impact of atezolizumab, tiragolumab, or their combination on tumor infiltrating T lymphocyte (TIL) density in glioblastoma patients."},
+      {"field": "outcomes", "quote": "Tumor infiltrating T-cell, T-regs, and myeloid cells: Specific immune cell populations and ratios in tumor tissue will be compared between the groups using a non-parametric test"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Atezolizumab",
+      "active_moiety": "atezolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "GROUP A (neoadjuvant atezolizumab, tiragolumab): Patients receive atezolizumab IV over 60 minutes and tiragolumab IV over 20-75 minutes and 14-19 days later, undergo surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-L1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as atezolizumab and tiragolumab, may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["GROUP A (neoadjuvant atezolizumab, tiragolumab)", "GROUP B (neoadjuvant tiragolumab)", "GROUP C (neoadjuvant atezolizumab)", "GROUP D (no neoadjuvant drug)"]
+    },
+    {
+      "agent_name_registered": "Tiragolumab",
+      "active_moiety": "tiragolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "GROUP A (neoadjuvant atezolizumab, tiragolumab): Patients receive atezolizumab IV over 60 minutes and tiragolumab IV over 20-75 minutes and 14-19 days later, undergo surgical resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-TIGIT monoclonal antibody",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as atezolizumab and tiragolumab, may help the body's immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["GROUP A (neoadjuvant atezolizumab, tiragolumab)", "GROUP B (neoadjuvant tiragolumab)", "GROUP D (no neoadjuvant drug)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with IDH mutations will be excluded from the study"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "IV. To evaluate the impact of baseline tumor mutation burden and expression on response."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "immune checkpoint receptor and ligand expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "atezolizumab; tiragolumab",
+      "source_quote": {"field": "outcomes", "quote": "Expression of immune checkpoint receptors and ligands: Expression of immune checkpoint receptors and ligands will be evaluated."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating T lymphocyte density / TCR clonality",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Tumor infiltrating T lymphocyte density: Will be assessed and compared between arms."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Four randomised groups: A neoadjuvant atezolizumab+tiragolumab, B tiragolumab, C atezolizumab, D no neoadjuvant drug (ACTIVE_COMPARATOR). Post-surgery adjuvant atezolizumab (+/- tiragolumab) may be given in all groups, so atezolizumab is also given in the comparator arm after surgery; coded experimental_combination per Group A. Registered intervention lists for Group B and D include both antibodies. Biomarker rows other than IDH are exploratory/pharmacodynamic only; candidate_matched on checkpoint expression row is a mechanistic link (PD-L1/TIGIT) and does not affect the primary outcome."
+}

@@ -1,0 +1,158 @@
+{
+  "nct_id": "NCT04102436",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Glioblastoma (Cohort 4)"},
+      {"field": "eligibility", "quote": "Patients with glioblastoma must have progression of disease after radiotherapy (including patients that undergo surgery for recurrent disease and are rendered NED)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "All patients will receive a non-myeloablative lymphodepleting preparative regimen of cyclophosphamide and fludarabine. Patients will then receive the infusion of autologous transposed PBL and begin high-dose aldesleukin (720,000 IU/kg IV every 8 hours for up to 10 doses)."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Aldesleukin is given to every patient as part of the cell-therapy regimen (high or low dose); coded soc_backbone, but it could be read as an investigational pharmacological candidate, which would change S6."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "This includes recurrent GBM after receiving all standard first-line treatment, including surgery (if feasible due to neurosurgical and neuro- anatomical considerations) and adjuvant radiotherapy +/- chemotherapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Sleeping Beauty Transposed PBL",
+      "active_moiety": "neoantigen tcr-engineered t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Sleeping Beauty Transposed PBL: Day 0: Cells are to be infused at a dose not to exceed 1.5e11 in 400 mL intravenously"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "Sleeping Beauty ACT regimen",
+      "drug_class_hint": "autologous PBL engineered with Sleeping Beauty transposon to express neoantigen-reactive TCRs (cell/gene therapy)",
+      "stated_antitumour_mechanism": "The neoantigen TCR gene- modified cells can recognize and destroy the autologous cancer in vitro.",
+      "flag": {"uncertain": false},
+      "arms": ["1/Sleeping Beauty"]
+    },
+    {
+      "agent_name_registered": "Aldesleukin",
+      "active_moiety": "aldesleukin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Non-myeloablative, lymphodepleting preparative regimen of cyclophosphamide and fludarabine + Sleeping Beauty Transposed PBL + high- or low-dose aldesleukin."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "Sleeping Beauty ACT regimen",
+      "drug_class_hint": "recombinant interleukin-2, given after adoptive cell transfer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Part of the cell-therapy regimen given to all patients; could alternatively be considered an investigational candidate."},
+      "arms": ["1/Sleeping Beauty"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Non-myeloablative, lymphodepleting preparative regimen of cyclophosphamide and fludarabine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "Sleeping Beauty ACT regimen",
+      "drug_class_hint": "alkylating agent used as lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1/Sleeping Beauty"]
+    },
+    {
+      "agent_name_registered": "Fludarabine",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Non-myeloablative, lymphodepleting preparative regimen of cyclophosphamide and fludarabine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "Sleeping Beauty ACT regimen",
+      "drug_class_hint": "purine analogue used as lymphodepleting conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1/Sleeping Beauty"]
+    },
+    {
+      "agent_name_registered": "mesna",
+      "active_moiety": "mesna",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Cyclophosphamide 60 mg/kg/day x 2 days IV in 250 mL D5W infused simultaneously with mesna 15 mg/kg/day over 1 hour x 2 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "uroprotectant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1/Sleeping Beauty"]
+    },
+    {
+      "agent_name_registered": "filgrastim",
+      "active_moiety": "filgrastim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "They will receive filgrastim as a shot or injection under the skin."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "G-CSF for haematological support",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1/Sleeping Beauty"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "patient-specific mutated neoantigens (exome/RNA sequencing) used to select TCRs",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Exome sequencing and often RNA Seq will be performed to identify the mutations expressed in the patient s cancer."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-cancer basket with a glioblastoma cohort (Cohort 4). Intervention of interest is a TCR-engineered autologous cell/gene therapy (excluded type). Cyclophosphamide/fludarabine are lymphodepleting conditioning (R6, supportive). Aldesleukin coded soc_backbone as fixed part of the ACT regimen (dose high or low). Unnamed oral anti-infective prophylaxis not listed. Neoantigen identification is for TCR manufacture, not an entry selection on a defined marker; role exploratory_correlative is a best fit. Glioblastoma setting coded recurrent (progression after radiotherapy)."
+}

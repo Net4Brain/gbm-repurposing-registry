@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT06218524",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Primary GBM underwent surgery and TMZ chemoradiotherapy, and MRI confirmed the tumor recurrence"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] TMZ and Haloperidol: Oral Temozolomide and Haloperidol (interventions: Drug: Haloperidol Tablets; Drug: Temozolomide)"},
+      {"field": "brief_summary", "quote": "the DRD2 antagonist haloperidol can attenuate the above function of DRD2, and increase the sensitivity of GBM to the TMZ by inducing fatal autophagy and ferroptosis"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Primary GBM underwent surgery and TMZ chemoradiotherapy, and MRI confirmed the tumor recurrence"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "DRD2 expression: If the recurrent GBM underwent surgery resection, the DRD2 expression was detected."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Haloperidol Tablets",
+      "active_moiety": "haloperidol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] TMZ and Haloperidol: Oral Temozolomide and Haloperidol (interventions: Drug: Haloperidol Tablets; Drug: Temozolomide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "butyrophenone antipsychotic; dopamine D2 receptor antagonist",
+      "stated_antitumour_mechanism": "DRD2 antagonism attenuating TMZ-induced DRD2-mediated ferroptosis inhibition and chemoresistance; induces fatal autophagy and ferroptosis",
+      "flag": {"uncertain": false},
+      "arms": ["TMZ and Haloperidol"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[PLACEBO_COMPARATOR] TMZ single: Single oral Temozolomide (interventions: Drug: Temozolomide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TMZ single", "TMZ and Haloperidol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "H3K27M midline glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "DRD2 expression",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "haloperidol",
+      "source_quote": {"field": "outcomes", "quote": "DRD2 expression: If the recurrent GBM underwent surgery resection, the DRD2 expression was detected."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "H3K27M appears as an exclusion criterion (H3K27M midline glioblastoma excluded); coded as eligibility (negative requirement), not candidate-matched. DRD2 expression in resected recurrent tumour is a secondary outcome, conditional on surgery, not tied to arm or paired sampling; coded target_engagement_planned no because it measures target expression rather than modulation by haloperidol, but adjudicator may consider yes. Temozolomide arm registered as PLACEBO_COMPARATOR although no placebo is described. Temozolomide dose stated as 150mg/kg (likely 150 mg/m2)."
+}

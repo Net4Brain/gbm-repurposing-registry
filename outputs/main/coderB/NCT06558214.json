@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT06558214",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosis of recurrent or progressive glioblastoma, WHO Grade IV, IDH wild-Type or astrocytoma WHO grade IV."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Keytruda® is the trade name for pembrolizumab, which will be given as 200mg IV Q3 weeks."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": ["Optune GIO (TTFields)", "MRI-guided laser ablation (NeuroBlate)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "undergo MLA and biopsy for tumor diagnosis and immune monitoring"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Keytruda® is the trade name for pembrolizumab, which will be given as 200mg IV Q3 weeks."},
+        {"field": "brief_summary", "quote": "the triple combination (TTFields, MLA, pembrolizumab)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm 1: Optune GIO® pre-MLA; MLA; followed by Optune GIO® + Pembrolizumab post MLA",
+        "Arm 2: Optune GIO®+Pembrolizumab pre-MLA; MLA; followed by Optune GIO® + Pembrolizumab post MLA"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Diagnosis of recurrent or progressive glioblastoma, WHO Grade IV, IDH wild-Type or astrocytoma WHO grade IV."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Optune GIO (TTFields) and NeuroBlate laser ablation are registered devices and are not listed as agents. Regimen coded monotherapy per the manual definition (pembrolizumab is the only antitumour drug and there is no radiotherapy in the experimental arms); the devices (TTFields, laser ablation) are antitumour modalities but are neither drugs nor radiotherapy. Adjudicator may prefer combination. Target engagement: immune monitoring on biopsy is mentioned but no registered outcome links it to pembrolizumab, hence unclear. Both arms are EXPERIMENTAL and differ only in timing of pembrolizumab relative to ablation."
+}

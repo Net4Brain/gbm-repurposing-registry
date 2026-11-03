@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT07100730",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Previously confirmed neuropathological diagnosis of glioblastoma, IDH-wildtype according to the WHO 2021 classification."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Iodofalan (131I) Solution for Injection (TLX101-Tx) Plus Lomustine Versus Lomustine Alone"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in adult patients with first recurrence of glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["lomustine"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "We will measure how much radiation from TLX101-Tx reaches the tumor and the bone marrow."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TLX101-Tx",
+      "active_moiety": "iodofalan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "TLX101-Tx, an investigational radiopharmaceutical therapy, in combination with lomustine versus lomustine alone"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "iodine-131 labelled radiopharmaceutical (131I-IPA), LAT-1 targeted",
+      "stated_antitumour_mechanism": "delivers targeted radiation to glioblastoma cells",
+      "flag": {"uncertain": false},
+      "arms": ["TLX101-Tx + Standard of Care", "TLX101-Tx Only"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "title", "quote": "Iodofalan (131I) Solution for Injection (TLX101-Tx) Plus Lomustine Versus Lomustine Alone"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TLX101-Tx + Standard of Care"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Previously confirmed neuropathological diagnosis of glioblastoma, IDH-wildtype according to the WHO 2021 classification."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "The registered arms are both EXPERIMENTAL (TLX101-Tx + lomustine; TLX101-Tx only). The lomustine-alone control described in the official title and summary is not registered as an arm, so control_arm_from_other_arms is no; the adjudicator may want to review. Lomustine is coded soc_backbone because the design is TLX101-Tx added to lomustine versus lomustine alone (given in both comparison groups). Regimen coded combination for the pivotal TLX101-Tx + lomustine arm; the second arm is TLX101-Tx alone. [18F]FET PET is an eligibility imaging requirement and not a registered intervention, so not listed. Tumour dosimetry by SPECT is coded as tumour PK."
+}

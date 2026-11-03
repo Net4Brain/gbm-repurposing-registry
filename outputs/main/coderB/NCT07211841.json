@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07211841",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; MRI Spectroscopy; Tumor Microenvironment; Biomarkers / Blood"},
+      {"field": "eligibility", "quote": "Patients consecutively identified in the multidisciplinary consultation meeting of neurooncology with a new diagnosis of GBM / a probable diagnosis of GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] MRS study: Thirty patients newly diagnosed with GBM will be included in this study."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients consecutively identified in the multidisciplinary consultation meeting of neurooncology with a new diagnosis of GBM / a probable diagnosis of GBM."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Observational-style MRS and blood-metabolite correlation study registered as interventional (Phase NA, no arms). No drug or biologic intervention; blood lactate, choline etc. are metabolic blood parameters, not tumour molecular biomarkers, so none recorded. Record uses 'glioblastoma multiforme' without IDH requirement, hence historical."
+}

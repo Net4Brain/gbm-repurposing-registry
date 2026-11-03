@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04209790",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed GBM with histopathological confirmation."},
+      {"field": "title", "quote": "Neoadjuvant Chemoradiation for Resectable Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "The experimental part of the study would be this selection of resectable patients and sequencing neoadjuvant chemoradiation prior to surgery."},
+      {"field": "interventions", "quote": "Drug Therapy with Temozolomide (benzolamide) (Standard of Care) (other names: Neoadjuvant therapy)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed GBM with histopathological confirmation."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Drug Therapy with Temozolomide (benzolamide) (Standard of Care)",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "The experimental part of the study would be this selection of resectable patients and sequencing neoadjuvant chemoradiation prior to surgery."},
+        {"field": "brief_summary", "quote": "This study attempts to prospectively assess the feasibility and efficacy of preoperative chemo radiation in improving local control"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care (given neoadjuvantly with radiotherapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoadjuvant chemoradiation and surgical resection"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only drug is temozolomide (an established GBM therapy) given with radiotherapy in a new neoadjuvant sequence before surgery; the sequencing is the study question, so role established_therapy_experiment and S6 exclusion established_therapy_only. Registered name includes '(benzolamide)', which appears to be a registry error; moiety coded temozolomide. Conditions also list 'High Grade Glioma' but inclusion requires newly diagnosed GBM."
+}

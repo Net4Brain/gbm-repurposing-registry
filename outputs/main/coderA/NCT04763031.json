@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT04763031",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; GBM; Recurrent GBM"},
+      {"field": "eligibility", "quote": "Potentially-resectable, histologically proven recurrent GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Intra-Operative Radiation Therapy - IORT (other names: Electronic Brachytherapy): Single dose of 20 Gy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Potentially-resectable, histologically proven recurrent GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Device/radiotherapy-only study (intra-operative electronic brachytherapy), phase NA; no drug or biologic interventions. Gadolinium MRI is routine assessment, not a registered intervention, so not listed. cns5_terminology historical because the brief summary uses 'glioblastoma multiforme' and there is no IDH requirement."
+}

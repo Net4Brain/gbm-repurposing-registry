@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT04600817",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients newly diagnosed with glioblastoma either radiologically or pathologically and completed concurrent chemo-radiotherapy (CCRT) with plan to receive adjuvant temozolomide therapy with curative intent"},
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "The percentage of patients with average of ALC at 3w after first TJ107 dose and at pre-dose 3rd TMZ ≥1.5X109/L"},
+      {"field": "eligibility", "quote": "Absolute lymphocyte count (ALC) ≤1×109/L."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "TJ107 is given to lymphopenic patients and the only registered outcome is lymphocyte count recovery, with no stated antitumour hypothesis; coded supportive, but if the title's 'efficacy' implies an antitumour (immunotherapy) intent it would be the candidate."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The percentage of patients with average of ALC at 3w after first TJ107 dose and at pre-dose 3rd TMZ ≥1.5X109/L"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TJ107",
+      "active_moiety": "tj107",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "A Study to Evaluate the Efficacy and Safety of TJ107 in Lympopenic Patients With Newly Diagnosed Glioblastoma Who Completed Standard Concurrent Chemoradiotherapy (CCRT)"},
+        {"field": "outcomes", "quote": "The percentage of patients with average of ALC at 3w after first TJ107 dose and at pre-dose 3rd TMZ ≥1.5X109/L"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TJ107, investigational long-acting interleukin-7 fusion protein (lymphocyte-restoring cytokine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Purpose is correction of treatment-related lymphopenia (supportive); no antitumour hypothesis or outcome stated, but an IL-7 cytokine could be argued as immunotherapy candidate."},
+      "arms": ["TJ107"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "with plan to receive adjuvant temozolomide therapy with curative intent"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, adjuvant standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["TJ107", "TJ107Placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Lymphopenic (ALC <=1x10^9/L) newly diagnosed GBM after CCRT, randomised TJ107 vs placebo during adjuvant temozolomide. TJ107 coded supportive (lymphocyte recovery is the only registered outcome; no antitumour hypothesis stated) and flagged uncertain because this decides S6. If TJ107 is judged a candidate, regimen would be combination (with adjuvant temozolomide) and the ALC outcome would be a blood pharmacodynamic measure (target_engagement yes). Temozolomide is not a registered intervention but every patient receives adjuvant TMZ (outcome refers to pre-dose 3rd TMZ), so listed as soc_backbone. Placebo not listed as an agent. ALC is not a tumour biomarker."
+}

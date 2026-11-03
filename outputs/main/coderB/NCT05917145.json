@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT05917145",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Grade 3 or 4 IDH1/2 mutant astrocytoma (2021 WHO classification)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "WSD0628: A non-toxic compound and inhibits the DNA damage response associated with radiation therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Disease progression after previous treatment for glioma with radiation and chemotherapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "an additional 6 patients will have a tissue evaluation of tumor penetrance after a one-time dose of study drug prior to radiosurgery and surgical resection"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Additionally, PK, pharmacodynamic (PD), overall survival, progression-free survival, overall response rate, and patient-reported outcomes will be evaluated."},
+      {"field": "detailed_description", "quote": "WSD0628 plasma and tumor concentrations associated with robust ATM inhibition and radiosensitizing effects"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "WSD0628",
+      "active_moiety": "wsd0628",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "a radiation sensitizer (a small molecule ATM inhibitor, WSD0628) with the goal to enhance the efficacy of radiation therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational small-molecule ATM inhibitor (radiosensitizer)",
+      "stated_antitumour_mechanism": "inhibits the DNA damage response associated with radiation therapy (ATM inhibition, radiosensitization)",
+      "flag": {"uncertain": false},
+      "arms": ["Group A (Dose Escalation)", "Group B (Dose Expansion)", "Group C (Tumor Penetrance Treatments)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligibility allows either IDH-wildtype glioblastoma or grade 3/4 IDH-mutant astrocytoma, hence mixed_glioma_gbm_named. Radiotherapy is the combination partner and is not listed as an agent. Group C randomises two dose levels of WSD0628, not a control."
+}

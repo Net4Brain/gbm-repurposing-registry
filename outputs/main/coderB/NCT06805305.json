@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT06805305",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Receive subcutaneous pIFN injections weekly for a total of 6 doses in parallel with the DOC1021 injections"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "The only drug in the experimental regimen besides the dendritic cell vaccine (excluded type) is pIFN, given as vaccine adjuvant; it is coded as a candidate but could be viewed as part of the vaccine regimen, which would make the trial excluded_intervention_type."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "DOC1021 Dendritic Cell Immunotherapy for Treatment of Newly Diagnosed Adult Glioblastoma (GBM)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["DOC1021", "temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DOC1021",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Double-loaded dendritic cell vaccine, loaded with tumor lysate and mRNA using proprietary method"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous dendritic cell vaccine loaded with tumour lysate and mRNA",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DOC1021 + pIFN + SOC"]
+    },
+    {
+      "agent_name_registered": "pIFN",
+      "active_moiety": "pifn",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Receive subcutaneous pIFN injections weekly for a total of 6 doses in parallel with the DOC1021 injections"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "presumably pegylated interferon (not named in the record), used as adjuvant to the vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Adjuvant to a vaccine; unclear whether it counts as a separate investigational antitumour agent (candidate)."},
+      "arms": ["DOC1021 + pIFN + SOC"]
+    },
+    {
+      "agent_name_registered": "filgrastim",
+      "active_moiety": "filgrastim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Take filgrastim subcutaneously x 5 doses and subsequently undergo a leukapheresis collection"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "G-CSF, cell mobilisation before leukapheresis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DOC1021 + pIFN + SOC"]
+    },
+    {
+      "agent_name_registered": "Temodar (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "SOC concomitant temozolomide during radiation and adjuvant temozolomide after radiation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["DOC1021 + pIFN + SOC", "SOC"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Presumed diagnosis of glioblastoma IDH-wt (as per the 2021 WHO Classification of CNS Tumors)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised DOC1021 dendritic cell vaccine + pIFN + SOC vs SOC. pIFN is not named by an INN; filgrastim is listed because the summary says every participant in the experimental arm receives it. Candidate status rests on pIFN (see flags)."
+}

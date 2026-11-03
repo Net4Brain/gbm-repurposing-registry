@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT05465954",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Astrocytic Tumor; Recurrent Glioblastoma, IDH-Wildtype; Recurrent Gliosarcoma"},
+      {"field": "eligibility", "quote": "Tissue-confirmed progressive or recurrent World Health Organization (WHO) Grade IV IDH wildtype glioblastoma (including molecular glioblastoma and gliosarcoma)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Efficacy and Safety Study of Neoadjuvant Efineptakin Alfa (NT-I7) and Pembrolizumab in Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Efineptakin Alfa and Pembrolizumab for the Treatment of Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["efineptakin alfa", "pembrolizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate tumor infiltrating lymphocytes (CD4, CD8, Treg, etc) in the tumor tissue pre- and post-treatment (when available)."},
+      {"field": "outcomes", "quote": "Changes in absolute lymphocyte counts (ALC): Point estimates will be generated for the difference (at the magnitude of a fold-change) with corresponding 95% confidence intervals."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Efineptakin alfa",
+      "active_moiety": "efineptakin alfa",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Efineptakin alfa is an immunotherapy drug that works by helping the immune system fight tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational long-acting IL-7 Fc fusion protein (NT-I7, rhIL-7-hyFc)",
+      "stated_antitumour_mechanism": "immunotherapy helping the immune system fight tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (efineptakin alfa, pembrolizumab)"]
+    },
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "immune checkpoint antibody helping the immune system attack the cancer",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (efineptakin alfa, pembrolizumab)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tissue-confirmed progressive or recurrent World Health Organization (WHO) Grade IV IDH wildtype glioblastoma (including molecular glioblastoma and gliosarcoma)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "detailed_description", "quote": "To test tumor mutation burden on tumor/immune cells by validated comprehensive genomic profiling."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating lymphocytes (CD4, CD8, Treg) pre/post treatment",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "efineptakin alfa; pembrolizumab",
+      "source_quote": {"field": "detailed_description", "quote": "To evaluate tumor infiltrating lymphocytes (CD4, CD8, Treg, etc) in the tumor tissue pre- and post-treatment (when available)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "T-cell receptor repertoire (TCR sequencing)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To assess changes in repertoire breadth and clonality by T-cell receptor (TCR) sequencing."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both efineptakin alfa and pembrolizumab are investigational in the single neoadjuvant/adjuvant arm, so both experimental_combination. Bevacizumab permitted for symptom control in the adjuvant phase (eligibility text only, not registered), not listed. Absolute lymphocyte count change (secondary outcome, blood) is a pharmacodynamic readout for the IL-7 agent but not a tumour molecular biomarker; captured under target_engagement only. TCR clonality coded exploratory, not matched (could be argued pharmacodynamic)."
+}

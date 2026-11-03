@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06614855",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma (GBM); Astrocytoma; Astrocytoma, Grade III; Astrocytoma, Grade IV; Gliosarcoma, Adult; Gliosarcoma of Brain"},
+      {"field": "eligibility", "quote": "Patients must have histologically or cytologically confirmed recurrent/progressive glioblastoma multiforme, Grade 3 or Grade 4 astrocytoma, or gliosarcoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "eligibility", "quote": "C134 is a viral oncolytic therapy with unknown potential for teratogenic or abortifacient effects."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have histologically or cytologically confirmed recurrent/progressive glioblastoma multiforme, Grade 3 or Grade 4 astrocytoma, or gliosarcoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "C134",
+      "active_moiety": "oncolytic herpes simplex virus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "C134 is a viral oncolytic therapy with unknown potential for teratogenic or abortifacient effects."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IRS-1 HSV C134, oncolytic herpes simplex virus given intratumorally",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Initial Treatment", "2nd Treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Oncolytic HSV (C134) trial; excluded intervention type at S6. Population includes recurrent GBM, grade 3/4 astrocytoma and gliosarcoma; 'glioblastoma multiforme' without IDH requirement -> historical terminology. Two sequential treatment arms, neither a control. Immune monitoring outcomes (WBC subsets, HSV titer, interferon) are not tumour molecular biomarkers."
+}

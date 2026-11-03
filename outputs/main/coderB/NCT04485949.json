@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT04485949",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Has a new diagnosis of GBM (WHO GRADE III or Grade IV GBM) based on the treating neurosurgeon's best clinical judgement"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "IGV-001, an immunotherapeutic product that combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "IGV-001 is an autologous tumour-cell product combined with an antisense oligonucleotide (IMV-001); coded as cell therapy (excluded type), but the oligonucleotide component could be viewed as a pharmacological agent."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Has a new diagnosis of GBM (WHO GRADE III or Grade IV GBM) based on the treating neurosurgeon's best clinical judgement"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IGV-001 Cell Immunotherapy",
+      "active_moiety": "igv-001 cell immunotherapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "IGV-001, an immunotherapeutic product that combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous tumour-cell immunotherapy combined with IGF-1R antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers",
+      "stated_antitumour_mechanism": "an Autologous Cell Immunotherapy With Antisense Oligonucleotide (IMV-001) Targeting IGF-1R",
+      "flag": {"uncertain": true, "reason": "Cell product plus antisense oligonucleotide; treated as excluded cell therapy type."},
+      "arms": ["IGV-001"]
+    },
+    {
+      "agent_name_registered": "SOC: Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "along with temozolomide 75 mg/m\\^2 orally, once daily (QD) for up to 12 weeks"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IGV-001", "Placebo"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MGMT status will be determined per epigenetic and tumor proliferation analysis from tissue obtained during surgery."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Randomised, placebo-controlled trial of IGV-001 (autologous tumour cells plus IGF-1R antisense oligonucleotide in implanted biodiffusion chambers) on a Stupp backbone. Coded as cell therapy (excluded type) so no candidate; flagged uncertain because the oligonucleotide is a drug component. Placebo chambers not listed as an agent. Radiotherapy is a procedure. MGMT appears only as an exploratory subgroup in other outcomes."
+}

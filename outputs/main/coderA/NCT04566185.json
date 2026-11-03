@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT04566185",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patient with histologically proven diagnosis of glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "the study evaluators will evaluate the ability of positron emission tomography (PET) with 18F-fluorodeoxyglucose (FDG PET) and the computed tomography (CT) perfusion scanner, individually and combined, to predict the effectiveness of anti-angiogenic treatment."},
+      {"field": "eligibility", "quote": "Patient in whom treatment with Bevacizumab monotherapy has been validated by a multidisciplinary committee."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient progressing after radiotherapy and at least one line of chemotherapy with TEMODAL"},
+      {"field": "title", "quote": "Anti-angiogenic Therapy (Bevacizumab) in Recurrent Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FDG PET",
+      "active_moiety": "fludeoxyglucose (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "positron emission tomography (PET) with 18F-fluorodeoxyglucose (FDG PET)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F PET imaging tracer (FDG); intervention text also mentions 18F-DOPA",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with recurrent glioblastoma"]
+    },
+    {
+      "agent_name_registered": "VISIPAQUE",
+      "active_moiety": "iodixanol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Acquisition begins 5 seconds after the start of the injection of 60 ml of contrast product (VISIPAQUE) at 4 cc / second"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "iodinated CT contrast agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with recurrent glioblastoma"]
+    },
+    {
+      "agent_name_registered": "gadolinium",
+      "active_moiety": "gadolinium",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Axial cerebral perfusion (Injection of gadolinium (0.1 mmol / kg, 5 cc / second)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent (specific agent not named)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with recurrent glioblastoma"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient in whom treatment with Bevacizumab monotherapy has been validated by a multidisciplinary committee."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy)",
+      "stated_antitumour_mechanism": "anti-angiogenic",
+      "flag": {"uncertain": false},
+      "arms": ["Patients with recurrent glioblastoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA imaging study predicting response to clinically indicated bevacizumab. Bevacizumab is not a registered intervention but every patient receives it as routine care, so listed as soc_backbone (not investigated in a new schedule). Registered intervention 'FDG PET' text describes IV 18F-DOPA (F Dopa) while title/summary say 18F-FDG; coded as fludeoxyglucose, flag for moiety check. FDG PET/CT perfusion parameters are imaging markers, not molecular biomarkers."
+}

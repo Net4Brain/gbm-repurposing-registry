@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04808245",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed H3-mutated Glioma"},
+      {"field": "eligibility", "quote": "Patients present with histologically confirmed diagnosis of an H3.1K27M or H3.3K27M-mutated diffuse midline glioma WHO grade IV"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "One vial of Tecentriq® (1200 mg) will be administered as an intravenous (i.v.) infusion over 60 minutes every 3 weeks starting 4 weeks after radiotherapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed H3-mutated Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["H3K27M peptide vaccine", "radiotherapy", "imiquimod"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The primary immunogenicity endpoint is the presence of an H3K27M-specific T-cell response."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tecentriq 1200 MG in 20 ML Injection",
+      "active_moiety": "atezolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Based on these observations we hypothesize that checkpoint inhibition targeting PD-L1 is required for optimal amplification of a vaccine-induced H3K27M-specific T cell response."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-L1 monoclonal antibody",
+      "stated_antitumour_mechanism": "checkpoint inhibition targeting PD-L1 to amplify vaccine-induced H3K27M-specific T cell response",
+      "flag": {"uncertain": false},
+      "arms": ["Standard patient cohort"]
+    },
+    {
+      "agent_name_registered": "H3K27M peptide vaccine",
+      "active_moiety": "h3k27m peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] H3K27M peptide vaccine: The H3K27M peptide vaccine is injected subcutaneously (s.c.)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "long peptide cancer vaccine against H3K27M neoepitope",
+      "stated_antitumour_mechanism": "induces H3K27M-specific T cell responses",
+      "flag": {"uncertain": false},
+      "arms": ["Standard patient cohort"]
+    },
+    {
+      "agent_name_registered": "Imiquimod (5%)",
+      "active_moiety": "imiquimod",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "The H3K27M peptide vaccine is administered in combination with topical Imiquimod that serves as an adjuvant."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "topical TLR7 agonist used as vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard patient cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumoral H3.1K27M or H3.3K27M mutation proven by immunohistochemistry or H3 DNA sequencing"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population is H3K27M-mutant diffuse midline glioma only; glioblastoma appears only in keywords, so not_glioblastoma. Atezolizumab is the only non-excluded investigational drug (pembrolizumab + vaccine worked example), hence experimental_monotherapy; regimen is combination because of vaccine and radiotherapy. H3K27M eligibility is matched mechanistically to the vaccine (an excluded intervention type), not to atezolizumab, so candidate_matched is false. Imiquimod coded supportive (vaccine adjuvant, no antitumour hypothesis stated); adjudicator may prefer otherwise."
+}

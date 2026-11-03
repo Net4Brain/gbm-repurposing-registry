@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04430842",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "in Previously Treated Patients With Advanced or Metastatic Cancers With High LAT1 Signatures, and in Patients With Relapsed or Refractory Grade 4 Astrocytoma"},
+      {"field": "conditions", "quote": "Astrocytoma; Brain Cancer; Brain Metastases; Bladder Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Dose escalation of QBS10072S: Intravenous administration of QBS10072S once every 4 weeks starting at 3mg/m2 and increasing dose levels in subsequent cohorts."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "The MTD of QBS10072S will be confirmed in patients with relapsed or refractory grade 4 astrocytoma."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Peak Plasma Concentration (Cmax): Determine the maximum plasma concentration of QBS10072S."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "This is a multi-center, open-label, dose escalation study to determine the safety, tolerability, pharmacokinetics, pharmacodynamics, and maximum tolerated dose (MTD) of QBS10072S in patients with advanced or metastatic cancers with high LAT1 expression."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "QBS10072S",
+      "active_moiety": "qbs10072s",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "QBS10072S targets cancers with high LAT1 expression."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational LAT1-targeted cytotoxic agent (development code QBS10072S)",
+      "stated_antitumour_mechanism": "targets cancers with high LAT1 expression",
+      "flag": {"uncertain": false},
+      "arms": ["Dose escalation of QBS10072S"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "LAT1 high expression / LAT1 signature",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "qbs10072s",
+      "source_quote": {"field": "title", "quote": "Previously Treated Patients With Advanced or Metastatic Cancers With High LAT1 Signatures, and in Patients With Relapsed or Refractory Grade 4 Astrocytoma"},
+      "flag": {"uncertain": true, "reason": "High LAT1 is stated in title/summary for the advanced solid-tumour cohort but is not listed in the eligibility criteria and does not appear to apply to the grade 4 astrocytoma cohort; entry-requirement status unclear."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket phase 1 (solid tumours with high LAT1 plus relapsed/refractory grade 4 astrocytoma expansion). Glioblastoma counted via 'Grade 4 Astrocytoma' in the title without an IDH requirement (D27C historical terminology); GBM/Glioblastoma appear only in keywords. Single registered arm; the LAT1 requirement applies to the advanced/metastatic cohort only, which is not a separate registered arm, so biomarker arms left empty. PK is plasma only. Pharmacodynamics is a stated objective but no PD measure is described, hence target_engagement unclear."
+}

@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04214392",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Chimeric Antigen Receptor (CAR) T Cells With a Chlorotoxin Tumor-Targeting Domain for the Treatment of MMP2+ Recurrent or Progressive Glioblastoma"},
+      {"field": "eligibility", "quote": "Participant has a prior histologically-confirmed diagnosis of a grade IV glioblastoma, or has a prior histologically-confirmed diagnosis of a grade II or III malignant brain tumors and now has radiographic progression consistent with a grade IV glioblastoma"},
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Recurrent Malignant Glioma; Recurrent WHO Grade II Glioma; Recurrent WHO Grade III Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Chlorotoxin (EQ)-CD28-CD3zeta-CD19t-expressing CAR T-lymphocytes (via ICT delivery)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Relapsed disease: radiographic evidence of recurrence/progression of measurable disease after standard therapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chlorotoxin (EQ)-CD28-CD3zeta-CD19t-expressing CAR T-lymphocytes (via ICT delivery); Chlorotoxin (EQ)-CD28-CD3zeta-CD19t-expressing CAR T-lymphocytes (via ICT/ICV dual delivery)",
+      "active_moiety": "chlorotoxin car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Chlorotoxin (EQ)-CD28-CD3zeta-CD19t-expressing CAR T-lymphocytes (via ICT/ICV dual delivery)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous CAR T-cell therapy targeting MMP2 via chlorotoxin domain (cell therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (CAR T cell therapy) I", "Treatment (CAR T cell therapy) II"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MMP2 tumour expression by IHC (>=20% moderate/high)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "City of Hope (COH) Clinical Pathology confirms matrix metalloproteinase (MMP)2+ tumor expression by immunohistochemistry (\\>= 20% moderate/high MMP2 \\[2+/3+\\])"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is a CAR T-cell therapy (excluded type), so no candidate. Conditions also list WHO grade II/III glioma, but inclusion requires current grade IV glioblastoma (including progression from lower grade), so coded gbm_only. MMP2 eligibility biomarker is the CAR target but the CAR T product is not a candidate, so candidate_matched false. CAR T cell levels in TCF/CSF and pre/post antigen expression are planned, but these concern the excluded cell therapy, not a candidate, so tumour PK and target engagement coded no. Two arms differ in delivery route (ICT vs ICT/ICV), not a control."
+}

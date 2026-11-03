@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT04655404",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients must have had histologically verified high-grade glioma such as anaplastic astrocytoma, glioblastoma, or H3 K27-mutant diffuse midline glioma verified at a CONNECT site."},
+      {"field": "conditions", "quote": "High Grade Glioma; Diffuse Intrinsic Pontine Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Feasibility Cohort: Larotrectinib administered PO, BID @100 mg/m2 on a 28-day cycle schedule. (interventions: Drug: Larotrectinib)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Pilot Study of Larotrectinib for Newly-Diagnosed High-Grade Glioma With NTRK Fusion"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["standard backbone chemotherapy (BABYPOG or HIT-SKK)", "focal radiation therapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "by measuring the concentration of larotrectinib in tumor tissue collected on day 5 of surgical cycle"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Larotrectinib",
+      "active_moiety": "larotrectinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Larotrectinib monotherapy x2 cycles followed by disease evaluation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TRK (NTRK) kinase inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Feasibility Cohort", "Surgical Cohort"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "NTRK",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "larotrectinib",
+      "source_quote": {"field": "eligibility", "quote": "to harbor an NTRK fusion alteration by FISH, PCR, or next generation sequencing are eligible"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric-focused HGG trial (age <=21; stdAges CHILD, ADULT); EARLY_PHASE1. Glioblastoma named only as an example histology in inclusion ('such as'). Standard backbone chemotherapy (BABYPOG or HIT-SKK) or focal RT is given only to some patients (PR/SD after 2 cycles; by age); chemotherapy agents are not individually registered interventions or named, so not listed as agents. Regimen coded combination because the experimental arm can include chemotherapy or radiotherapy after monotherapy lead-in; monotherapy lead-in could also argue for monotherapy."
+}

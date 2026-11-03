@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT05118776",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "ASC40 tablets 100mg/m\\^2 and bevacizumab 10mg/kg."},
+      {"field": "brief_summary", "quote": "to evaluate the safety and efficacy of ASC40 tablets combined with bevacizumab in the treatment of adult patients with recurrent glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with glioblastoma who have failed standard treatment (surgery, Stupp regimen), were diagnosed by MRI and evaluated by RANO standard to support the first recurrence."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ASC40 tablets",
+      "active_moiety": "asc40",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "ASC40 tablets (other names: TVB-2640): ASC40 tablets administered orally once daily"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] ASC40"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational fatty acid synthase (FASN) inhibitor; ASC40 = TVB-2640 (denifanstat)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ASC40"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Placebo and bevacizumab 10mg/kg."},
+        {"field": "arms", "quote": "ASC40 tablets 100mg/m\\^2 and bevacizumab 10mg/kg."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["ASC40", "Placebo"]
+    },
+    {
+      "agent_name_registered": "Placebo tablets",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[PLACEBO_COMPARATOR] Placebo: Placebo and bevacizumab 10mg/kg."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "ASC40 = TVB-2640 per record; INN not given in record so moiety uses the code as first written (asc40); script may map to denifanstat. Registered PLACEBO_COMPARATOR arm is the control. No biomarkers or PK/PD measurements registered."
+}

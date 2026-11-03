@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT05735171",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "A suspected diagnosis of supratentorial glioblastoma by MRI."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[PROCEDURE] AI-guided surgery: Neuronavigated targeted biopsy sampling. Supramarginal resection including high-risk areas of recurrence defined by a radiomics-based model."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent gliomas (except biopsy)"},
+      {"field": "eligibility", "quote": "A suspected diagnosis of supratentorial glioblastoma by MRI."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical (AI-guided supramarginal resection) trial with no drug or biologic interventions; phase NA. Treatment setting inferred as newly diagnosed because recurrent gliomas are excluded (except biopsy) and patients have a suspected GBM on MRI. Histopathological/transcriptomic analysis of high-risk region tissue is mentioned in the detailed description but no specific tumour molecular biomarker is named, so none recorded."
+}

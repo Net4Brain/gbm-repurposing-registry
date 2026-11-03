@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT04299191",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-grade Glioma; Solid Tumor, Unspecified, Child"},
+      {"field": "eligibility", "quote": "Examples of tumors that lack a standard therapy include, but are not limited to, high-grade glioma, diffuse midline glioma, and diffuse intrinsic pontine glioma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] LAM561: Once a patient is allocated a dose of LAM561, they will receive the same dose on a daily basis in treatment cycles of 21 days (3 weeks)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "histologically- or cytologically-confirmed advanced solid malignancy that is progressive, recurrent or refractory to standard-of-care treatment"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Characterize LAM561 PK profile: The maximum plasma drug concentration observed"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "LAM561",
+      "active_moiety": "idroxioleic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Dose Escalation: The dose level corresponds to 80% of the maximum tolerated dose of LAM561 in adult patients when adjusted for body surface area."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "LAM561 acid, idroxioleic acid (2-OHOA), investigational membrane-lipid therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric (age <18) advanced solid tumour / high-grade glioma study; glioblastoma is not named anywhere, so high_grade_glioma_unspecified. Moiety name idroxioleic acid is taken from the detailed description ('idroxioleic acid (2-OHOA)'). Structured stdAges lists CHILD and ADULT although inclusion requires age <18."
+}

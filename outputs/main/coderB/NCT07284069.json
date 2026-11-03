@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT07284069",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Presumed GBM as determined by an expert multidisciplinary neuro-oncological tumor board"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Two existing drugs, perampanel (used for epilepsy) and senicapoc (previously tested for blood disorders), may block these harmful signals."},
+      {"field": "outcomes", "quote": "Number of patients in each group (2 and 3) excluded from the study due to intolerability when exposed to perampanel at the lowest dose (2 mg)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Senicapoc and Perampanel for Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Concentrations of senicapoc and perampanel in tumor tissue and peritumoral brain tissue obtained during surgery and quantified using validated analytical methods."},
+      {"field": "outcomes", "quote": "CSF concentrations of senicapoc and perampanel measured using validated analytical methods."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Differential expression analysis will compare treatment groups and tissue regions using generalized linear mixed models."},
+      {"field": "brief_summary", "quote": "During surgery, small samples of tumor and fluid will be collected safely to study how the drugs act in the body and how tumor cells respond."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "senicapoc",
+      "active_moiety": "senicapoc",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive senicapoc at the maximum tolerable dose defined in Group 1 in Part A, together with perampanel titrated as described for Group 2."},
+        {"field": "interventions", "quote": "Senicapoc (ICA-17043) is a selective blocker of the intermediate-conductance calcium-activated potassium channel KCa3.1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "KCa3.1 potassium channel blocker (previously tested for sickle cell disease)",
+      "stated_antitumour_mechanism": "Glioblastoma cells communicate with surrounding brain cells through electrical signals that help the tumor grow; senicapoc and perampanel may block these signals.",
+      "flag": {"uncertain": false},
+      "arms": ["Senicapoc monotherapy (Group 1)", "Senicapoc and perampanel combination therapy (Group 3)"]
+    },
+    {
+      "agent_name_registered": "Perampanel",
+      "active_moiety": "perampanel",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will receive senicapoc at the maximum tolerable dose defined in Group 1 in Part A, together with perampanel titrated as described for Group 2."},
+        {"field": "interventions", "quote": "Perampanel (Fycompa®) is a non-competitive AMPA-receptor antagonist approved for the treatment of focal and generalized tonic-clonic seizures."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "AMPA receptor antagonist antiepileptic",
+      "stated_antitumour_mechanism": "Glioblastoma cells communicate with surrounding brain cells through electrical signals that help the tumor grow; senicapoc and perampanel may block these signals.",
+      "flag": {"uncertain": false},
+      "arms": ["Perampanel monotherapy (Group 2)", "Senicapoc and perampanel combination therapy (Group 3)"]
+    },
+    {
+      "agent_name_registered": "Stupp regimen chemotherapy (not registered as an intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Eligibility for surgical resection and planned postoperative concomitant radiochemotherapy and adjuvant chemotherapy according to the Stupp regimen"},
+        {"field": "brief_summary", "quote": "Participants will all receive standard therapy, including surgery, radiochemotherapy, and adjuvant chemotherapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (Stupp regimen); temozolomide inferred from the Stupp regimen, not named in the record",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Senicapoc monotherapy (Group 1)", "Perampanel monotherapy (Group 2)", "Senicapoc and perampanel combination therapy (Group 3)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MGMT-promotor methylation status evaluated from resected tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "CHI3L1-conductivity score",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "CHI3L1-conductivity score evaluated from resected tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "neural epigenetic signature",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Neural epigenetic signatures evaluated from resected tumor tissue."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (phase 0/1). All three arms are registered as ACTIVE_COMPARATOR but are study arms; Part A tests senicapoc alone, Part B compares perampanel alone vs perampanel plus senicapoc, so both drugs are investigational: coded experimental_combination because the combination arm is the main question (monotherapy arms exist). Temozolomide is not named; it is inferred from the Stupp regimen that all patients receive."
+}

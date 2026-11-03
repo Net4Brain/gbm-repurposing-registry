@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT05607407",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Methimazole in Patients With Progressive Glioblastoma"},
+      {"field": "conditions", "quote": "Glioblastoma; Glioma"},
+      {"field": "eligibility", "quote": "Subjects must have histologically or cytologically confirmed WHO grade 4 glioma (including tumors with molecularly defined grade 4 astrocytoma) for which a clinically indicated tumor resection is planned."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "it is hypothesized that reduced thyroid hormone production via oral methimazole intake will bolster the effectiveness of frontline therapy and extend survival by boosting H2S production and function within the tumor-bearing brain."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Participants with recurrent glioblastoma for whom surgical resection is indicated will have baseline peripheral blood pharmacodynamic assays (PBPD)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["physician's choice secondary chemotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "interventions", "quote": "If they achieve a 10% increase in peripheral blood H2S concentrations, an additional 13 participants will receive this dose"},
+      {"field": "interventions", "quote": "Pharmacodynamic assays are intended to investigate drug and downstream drug-induced effects."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Methimazole",
+      "active_moiety": "thiamazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The investigational drug, Methimazole is not FDA approved for brain tumors, but it is used to treat thyroid illnesses."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antithyroid drug (methimazole; INN thiamazole)",
+      "stated_antitumour_mechanism": "suppression of thyroid hormone signaling to augment endogenous H2S synthesis and signaling (transsulfuration)",
+      "flag": {"uncertain": false},
+      "arms": ["Surgical Resection, Pharmacodynamic Assays, and Methimazole"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Active moiety given as INN thiamazole (registered as methimazole). Eligibility is 'WHO grade 4 glioma' without an IDH requirement, read as historical glioblastoma (D27C) together with title/conditions naming glioblastoma; possible inclusion of IDH-mutant grade 4 astrocytoma is not excluded. Regimen coded combination because the experimental arm adds physician's-choice secondary chemotherapy after the first 4-week methimazole cycle (unnamed, not a registered intervention, so not listed as an agent); first cycle is methimazole alone. Pharmacodynamic markers are peripheral blood H2S and thyroid hormone levels (not tumour molecular biomarkers), so no biomarker rows."
+}

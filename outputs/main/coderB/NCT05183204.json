@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT05183204",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically-confirmed glioblastoma (WHO Grade IV glioma); tumors situated primarily in the infratentorial compartment will be excluded."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients will receive paxalisib starting at a dose of 45 mg/day."},
+      {"field": "interventions", "quote": "Patients will receive metformin on Cycle 1, Day 1 at a starting dose of 850 mg QD"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "This study is for patients with newly diagnosed glioblastoma, as well as patients who have recurring glioblastoma."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["paxalisib", "metformin", "ketogenic diet"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in tumor glucose uptake values: Measured by FDG-PET/DCE MRI"},
+      {"field": "outcomes", "quote": "Change in insulin levels: Evaluated by the mean and standard deviation of values over time"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Paxalisib",
+      "active_moiety": "paxalisib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "a new blood-brain penetrant PI3K/mTOR inhibitor (paxalisib) combined with a ketogenic diet plus metformin"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PI3K/mTOR inhibitor",
+      "stated_antitumour_mechanism": "blood-brain penetrant PI3K/mTOR inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma", "Arm 2: Recurrent glioblastoma, regardless of methylation status"]
+    },
+    {
+      "agent_name_registered": "Metformin",
+      "active_moiety": "metformin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Metformin (a drug approved by the Food and Drug Administration to treat type 2 diabetes), and to see what effects it has on glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antidiabetic (biguanide)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma", "Arm 2: Recurrent glioblastoma, regardless of methylation status"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Demonstrated unmethylated MGMT promotor status confirmed by validated PCR or alternate genomic analysis"},
+      "flag": {"uncertain": false},
+      "arms": ["Arm 1: Newly diagnosed MGMT unmethylated glioblastoma"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with tumors exhibiting mutated isocitrate dehydrogenase-1 or 2 (IDH-1, 2)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Ketogenic diet is a registered intervention but is a diet (excluded intervention type, not a drug), so not listed as an agent. Paxalisib and metformin are both investigational in the experimental arms. Target engagement coded unclear: tumour glucose uptake (FDG-PET) and insulin are measured as secondary outcomes but are not explicitly linked to a candidate or its target. IDH-mutant tumours are excluded (implicit IDH-wildtype requirement), so cns5 coded."
+}

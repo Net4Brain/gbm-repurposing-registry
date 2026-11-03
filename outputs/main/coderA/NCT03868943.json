@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT03868943",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma"},
+      {"field": "eligibility", "quote": "WHO Grade 2-4 infiltrating glioma by histologic confirmation"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Solriamfetol is a wakefulness-promoting drug. Giving solriamfetol may improve sleep, memory, fatigue, mood, or quality of life in patients with brain tumors (gliomas)."},
+      {"field": "outcomes", "quote": "Proportion With Grade 3 or Higher Adverse Events"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients who are anticipated to undergo adjuvant chemotherapy are eligible as long as there is no evidence of tumor progression"},
+      {"field": "eligibility", "quote": "Patients who are currently undergoing chemotherapy, targeted therapy, immunotherapy, or salvage treatment and have stable disease by imaging are eligible and can continue the current anti-cancer therapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Soliramfetol",
+      "active_moiety": "solriamfetol",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "Solriamfetol in Improving Sleep in Patients With Grade II-IV Glioma"},
+        {"field": "brief_summary", "quote": "Solriamfetol is a wakefulness-promoting drug."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "wakefulness-promoting agent (dopamine/norepinephrine reuptake inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Solriamfetol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Where appropriate results from clinically available testing of isocitrate dehydrogenase (IDH) gene mutation status (for all gliomas)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "MGMT gene promoter methylation status (for malignant gliomas) must be available in the patient's chart"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "1p/19q codeletion",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "chromosome 1p and 19q deletion status (for suspected oligodendrogliomas)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Solriamfetol is given for sleepiness/cognition/QoL; no antitumour hypothesis or outcome, so supportive and trial fails S6. Registered intervention name is misspelled 'Soliramfetol'. IDH, MGMT and 1p/19q results must be available in the chart but no particular status is required, so they are recorded as exploratory_correlative rather than eligibility biomarkers (no role fits exactly). Treatment setting coded both: patients after chemoradiation (adjuvant) and on salvage therapy are eligible."
+}

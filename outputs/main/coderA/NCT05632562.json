@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT05632562",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade III or grade IV glioma treated with standard of care external beam radiation therapy (RT)."},
+      {"field": "conditions", "quote": "High Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named as such; only 'grade IV glioma' (historical name, D27C) alongside grade III glioma and DIPG; could alternatively be high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This feasibility study will assess the clinical potential of a new imaging approach to detect viable high grade glioma (HGG) in pediatric and adult patients after standard of care radiation therapy (RT) with or without concurrent temozolomide (TMZ)."},
+      {"field": "interventions", "quote": "[DRUG] O-(2-[18F]Fluoroethyl)-L-tyrosine, [18F]-FET with PET/MRI"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade III or grade IV glioma"},
+      {"field": "eligibility", "quote": "Recurrent glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "O-(2-[18F]Fluoroethyl)-L-tyrosine, [18F]-FET with PET/MRI",
+      "active_moiety": "18f-fet",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "outcomes", "quote": "The frequency of the detection of viable tumor by FET and/or FMISO based on prespecified standardized uptake values (SUVs) and lesion to normal brain ratios will be measured."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F amino acid PET tracer (fluoroethyl-L-tyrosine), diagnostic imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET imaging of system L amino acid transport with FET and hypoxia imaging with FMISO"]
+    },
+    {
+      "agent_name_registered": "FMISO 1H-1-(3-\\[18F\\]fluoro-2-hydroxypropyl)-2-nitroimidazole",
+      "active_moiety": "18f-fluoromisonidazole",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The patient will undergo IV administration of FMISO (5 mCi, 185 MBq) in an uptake room in the AIF."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F hypoxia PET tracer (fluoromisonidazole), diagnostic imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET imaging of system L amino acid transport with FET and hypoxia imaging with FMISO"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Relevant medical information may be accessed by study team members for correlation with imaging results including clinic notes, diagnostic imaging, histopathology and genetic tumor markers relevant to HGG classification and prognosis (e.g. MGMT promotor methylation, IDH mutation status)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Relevant medical information may be accessed by study team members for correlation with imaging results including clinic notes, diagnostic imaging, histopathology and genetic tumor markers relevant to HGG classification and prognosis (e.g. MGMT promotor methylation, IDH mutation status)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-only diagnostic study (EARLY_PHASE1). FMISO is administered to every patient but is not listed as a separate registered intervention; listed as diagnostic agent because protocol states every patient receives it; agent_name_registered for FMISO taken from the arm description. Temozolomide is optional prior SOC ('allowed but not required'), not administered by the study, so not listed. Population includes grade III, grade IV glioma and DIPG; ages 10+."
+}

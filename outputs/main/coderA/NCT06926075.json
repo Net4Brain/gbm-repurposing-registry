@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT06926075",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme (GBM)"},
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed locally advanced/metastatic solid cancers."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Primary objective is to evaluate safety and tolerability of KESONOTIDE™ as a monotherapy in participants with advanced/metastatic solid cancers."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Has failed standard of care or refused next line therapy at the present time"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "Secondary objective is to characterise the pharmacokinetics of KESONOTIDE™."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "A novel hGIIA-Vimentin Inhibitor",
+      "active_moiety": "kesonotide",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "An Adaptive Phase I/II Study of KESONOTIDE™, a Novel hGIIA-vimentin Inhibitor, in Participants With Solid Tumours"},
+        {"field": "interventions", "quote": "A novel hGIIA-Vimentin Inhibitor: Phase I, dose escalation includes 4 increasing doses, 10mg, 30mg, 60mg and 120mg."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral hGIIA (secreted phospholipase A2 group IIA)-vimentin inhibitor peptide",
+      "stated_antitumour_mechanism": "hGIIA-vimentin inhibition",
+      "flag": {"uncertain": false},
+      "arms": ["Phase I, Single Arm, dose escalation", "2 Arms of selected indication and recommended dose"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Multi-cancer basket; GBM named in conditions ('Glioblastoma Multiforme' -> historical terminology). Registered interventions 'A novel hGIIA-Vimentin Inhibitor' and 'Dose expansion' both refer to KESONOTIDE, listed as one agent. Phase II 'may be as monotherapy or in combination with standard of care' (partners unspecified); regimen coded monotherapy based on the registered monotherapy objective, could be unclear. PK planned with sample type not stated -> unclear. PSA/CA15.3 mentioned as serum disease markers for non-GBM cancers; not molecular tumour biomarkers relevant here, not listed."
+}

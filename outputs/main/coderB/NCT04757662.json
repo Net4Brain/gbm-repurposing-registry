@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04757662",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Grade III Astrocytoma; Grade IV Astrocytoma; Astrocytoma, Grade IV; Astrocytoma, Grade III"},
+      {"field": "eligibility", "quote": "Gliosarcoma or other subvariants are allowed, including the newly defined \"diffuse astrocytoma, IDH-wildtype, with molecular features of glioblastoma, WHO grade IV\" (Brat et al., 2018)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to investigate the impact of targeting MDSCs in newly diagnosed IDH-wildtype grade III-IV astrocytoma by combining tadalafil with standard of care radiation therapy (RT) and temozolomide (TMZ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of newly diagnosed supratentorial high-grade astrocytoma (WHO grade III-IV)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Relative change of MDSCs in peripheral blood"},
+      {"field": "brief_summary", "quote": "Tadalafil, an FDA-approved drug with inexpensive cost and excellent safety profile, has been shown to effectively reduce MDSCs and restore T-cell activation in the peripheral blood and in the tumor microenvironment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tadalafil",
+      "active_moiety": "tadalafil",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The purpose of this study is to investigate the impact of targeting MDSCs in newly diagnosed IDH-wildtype grade III-IV astrocytoma by combining tadalafil with standard of care radiation therapy (RT) and temozolomide (TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PDE5 inhibitor (erectile dysfunction / pulmonary hypertension drug)",
+      "stated_antitumour_mechanism": "reduce myeloid-derived suppressor cells (MDSCs) and restore T-cell activation",
+      "flag": {"uncertain": false},
+      "arms": ["Tadalafil"]
+    },
+    {
+      "agent_name_registered": "Concurrent and adjuvant temozolomide (standard of care; not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Concurrent temozolomide (TMZ) will be administered as per standard of care, i.e., continuously (Monday through Sunday) from Day 1 of RT to the last day of RT at a daily oral dose of 75 mg/m\\^2 at the discretion of treating medical oncologist."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tadalafil"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "High-grade glioma with known IDH mutation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligible population is IDH-wildtype grade III-IV astrocytoma (grade III included, so not GBM-only); coded mixed_glioma_gbm_named because grade IV astrocytoma and GBM-like molecular glioblastoma are named in conditions/eligibility. IDH-mutant tumours are excluded (IDH-wildtype requirement stated in title and summary). Pharmacodynamic primary outcome is change in MDSCs in peripheral blood."
+}

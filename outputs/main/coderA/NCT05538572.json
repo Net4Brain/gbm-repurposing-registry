@@ -1,0 +1,133 @@
+{
+  "nct_id": "NCT05538572",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Breast Cancer; Glioblastoma; Head and Neck Squamous Cell Carcinoma; Malignant Mesothelioma; Non-small Cell Lung Cancers; Sarcoma; Endometrial Cancer"},
+      {"field": "eligibility", "quote": "Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a Phase 1 dose-escalation study of PRT3645, a Cyclin-dependent Kinase 4/6 (CDK4/6) inhibitor, in patients with advanced or metastatic solid tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed advanced, recurrent, or metastatic solid tumor malignancy that have either progress or ineligible for standard of care therapy:"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "PRT3645 pharmacokinetics will be calculated including the minimum and maximum observed plasma concentration."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamic effect of PRT3645: Target engagement: Pharmacodynamic effect of PRT3645 demonstrating target engagement by assessment of phosphorylation of Rb."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PRT3645",
+      "active_moiety": "prt3645",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] PRT3645: PRT3645 capsules will be self-administered once daily, continuously, at the dose-level assigned"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral CDK4/6 inhibitor (PRT3645)",
+      "stated_antitumour_mechanism": "Cyclin-dependent Kinase 4/6 (CDK4/6) inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["PRT3645"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "prt3645",
+      "source_quote": {"field": "eligibility", "quote": "Recurrent GBM (IDH wild type) or CDKN2A/B homozygous deleted IDH-mutant astrocytoma"},
+      "flag": {"uncertain": true, "reason": "CDKN2A/B homozygous deletion is required only for the IDH-mutant astrocytoma subgroup; IDH-wildtype GBM enters without it, so whether this counts as candidate-matched selection for the GBM population needs adjudication."},
+      "arms": []
+    },
+    {
+      "biomarker": "CDK4_6_pathway",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "prt3645",
+      "source_quote": {"field": "eligibility", "quote": "CDK pathway alternation in any of the following tumor types: malignant mesothelioma, HPV-negative HNSCC (including oral cavity, oropharynx, hypopharynx, and larynx), sarcoma, or NSCLC"},
+      "flag": {"uncertain": true, "reason": "Requirement applies only to non-GBM tumour types (mesothelioma, HNSCC, sarcoma, NSCLC), not to glioblastoma."},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "hormone receptor / HER2 status (breast cancer)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "HR+ and HER2- or HR+ and HER2+ breast cancer"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "KRAS mutation or SMARCA4 loss (NSCLC)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "KRAS-mutant or SMARCA4 loss NSCLC"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "oestrogen receptor positive and TP53 wild type (endometrial cancer)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Estrogen receptor positive with TP53 wild type endometrial cancer"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "phospho-Rb (pharmacodynamic target engagement)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "prt3645",
+      "source_quote": {"field": "outcomes", "quote": "Pharmacodynamic effect of PRT3645: Target engagement: Pharmacodynamic effect of PRT3645 demonstrating target engagement by assessment of phosphorylation of Rb."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Solid-tumour basket; glioblastoma named in conditions and inclusion as 'Recurrent GBM (IDH wild type)' (cns5). IDH-wildtype defines GBM only, not candidate-matched. The GBM cohort itself has no candidate-matched selection: CDKN2A/B deletion applies only to IDH-mutant astrocytoma, and CDK pathway alteration only to mesothelioma/HNSCC/sarcoma/NSCLC; both coded eligibility + candidate-matched with uncertain flags because they are disease-subgroup requirements outside GBM. HR+/ER+ and KRAS/SMARCA4 selections for non-CNS cohorts coded not matched (record states no mechanistic link); an adjudicator may consider HR+ breast cancer linked to CDK4/6 inhibition. Pharmacodynamic sample type for pRb not stated. Plasma-only PK. Tissue sample required at screening."
+}

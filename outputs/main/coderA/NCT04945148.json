@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04945148",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "Newly-diagnosed histologically-confirmed supra-tentorial IDHwt glioblastoma (Grade 4 malignant glioma by World Health Organization, including gliosarcoma),"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "hypothesize that metformin could be specifically efficient to treat up-front patients affected by OXPHOS+ GBM, in association with the standard first-line treatment with radiotherapy and temozolomide (RT-TMZ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly-diagnosed histologically-confirmed supra-tentorial IDHwt glioblastoma (Grade 4 malignant glioma by World Health Organization, including gliosarcoma),"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Metformin",
+      "active_moiety": "metformin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients who have been selected with an OXPHOS+ status, will start standard radiotherapy (RT, 60Gy/6 weeks), concomitant TMZ chemotherapy (75mg/m²/day), and metformin by 7 weeks after surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "biguanide antidiabetic",
+      "stated_antitumour_mechanism": "Metformin is an oral inhibitor of mitochondrial complex I",
+      "flag": {"uncertain": false},
+      "arms": ["Metformin"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "in association with the standard first-line treatment with radiotherapy and temozolomide (RT-TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oral alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Metformin"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "OXPHOS+ subtype (RNA assay of mitochondrial/OXPHOS markers)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "metformin",
+      "source_quote": {"field": "eligibility", "quote": "OXPHOS+ subtype by the central laboratory"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly-diagnosed histologically-confirmed supra-tentorial IDHwt glioblastoma (Grade 4 malignant glioma by World Health Organization, including gliosarcoma),"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "FGFR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Assessement of Progression Free Survival (PFS) of patients with newly-diagnosed IDH wild-type OXPHOS + GBM (either with or without FGFR3-TACC3 gene fusion) treated with RT plus TMZ combined with metformin"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Metformin added to Stupp RT-TMZ in OXPHOS+ IDHwt GBM; metformin is the only investigational agent. OXPHOS+ entry requirement is mechanistically linked to metformin's stated mitochondrial complex I inhibition -> candidate_matched true. FGFR3-TACC3 fusion mentioned in keywords and primary outcome as a subgroup (with or without), not a requirement; coded exploratory_correlative. Metformin continues alone after adjuvant TMZ."
+}

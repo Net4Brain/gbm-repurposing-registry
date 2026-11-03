@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05683808",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Astrocytoma; Venous Thromboembolism"},
+      {"field": "eligibility", "quote": "Histologic diagnosis of malignant glioma, World Health Organization (WHO) grade 4, including glioblastoma and astrocytoma, based on recent biopsy or resection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The purpose of this study is to gather additional safety data regarding the use of apixaban for primary prevention of VTE in patients with newly diagnosed grade 4 glioma."},
+      {"field": "outcomes", "quote": "Efficacy in prevention of venous thromboembolism: Incidence of VTE"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "This is an open label study of apixaban for venous thromboembolism prevention in patients with newly diagnosed grade 4 glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Apixaban",
+      "active_moiety": "apixaban",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is an open label study of apixaban for venous thromboembolism prevention in patients with newly diagnosed grade 4 glioma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "direct oral anticoagulant (factor Xa inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single arm study"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Apixaban given for VTE prophylaxis only; no antitumour hypothesis or outcome stated, so supportive. Patients plan radiation and chemotherapy but no chemotherapy agent is named or registered, so none listed."
+}

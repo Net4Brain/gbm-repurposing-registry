@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06869577",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Caregiver; Glioblastoma Multiform (Grade IV Astrocytoma)"},
+      {"field": "eligibility", "quote": "Family caregivers (≥18 years) to patients (≥18 years) diagnosed with a GBM grade IV or diffuse astrocytoma grade IV offered Stupps treatment regime."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "A 12-week supportive group intervention targeted caregivers to patients with glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "diagnosed with a GBM grade IV or diffuse astrocytoma grade IV offered Stupps treatment regime."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural supportive-care intervention for family caregivers (phase NA); enrolled participants are caregivers of patients with GBM grade IV / diffuse astrocytoma grade IV (historical terminology). gbm_population coded gbm_only for the disease context, but participants are not patients - adjudicator may prefer not_glioblastoma; screening outcome unaffected (no drug intervention, phase NA). Stupp regimen is the patients' background care, not delivered by the trial, so no agents listed."
+}

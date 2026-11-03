@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT04397926",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Non Small Cell Lung Cancer"},
+      {"field": "eligibility", "quote": "Histologically confirmed locally advanced or metastatic non-small-cell lung cancer (stage III or stage IV), with disease progression after surgery and standard chemotherapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Individualized neoantigen peptides vaccine (other names: HJ-N-001)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "With EGFR-TKI sensitive mutations and progresses after receiving EGFR-TKI treatment."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Individualized neoantigen peptides vaccine",
+      "active_moiety": "neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients received subcutaneous injection of individualized neoantigen peptides vaccine at a dose of 200ug per peptide once a week for 12 weeks"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "individualized neoantigen peptide cancer vaccine (HJ-N-001)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoantigen vaccine"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "With EGFR-TKI sensitive mutations and progresses after receiving EGFR-TKI treatment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "NSCLC-only trial; glioblastoma mentioned only in brief summary as background. Fails S5 (not_glioblastoma). Only intervention is a neoantigen peptide vaccine (excluded type). EGFR mutation is an NSCLC entry requirement, recorded for completeness; no candidate so not matched."
+}

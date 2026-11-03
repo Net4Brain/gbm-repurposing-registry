@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT04221061",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants will have a diagnosis of glioblastoma and be enrolled in the companion treatment trial"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "18F-FluorThanatrace is a novel radiopharmaceutical which measure PARP-1 expression using a Positron Emission Tomography (PET/CT) scan."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Evaluate uptake of [18F]FTT in recurrent glioblastoma after initiation of TTFields therapy."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FluorThanatrace",
+      "active_moiety": "18f-fluorthanatrace",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "18F-FluorThanatrace is a novel radiopharmaceutical which measure PARP-1 expression using a Positron Emission Tomography (PET/CT) scan."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "PARP-1 PET imaging radiotracer (fluorine-18 labelled)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Non-surgical candidates", "Surgical candidates"]
+    },
+    {
+      "agent_name_registered": "niraparib",
+      "active_moiety": "niraparib",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "start TTFields therapy 5-7 days prior to starting oral niraparib (a PARP inhibitor)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Non-surgical candidates", "Surgical candidates"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HRD / BRCAness status",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Homologous recombination deficiency (HRD) status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PARP-1 expression by pathology",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "To correlate PARP expression by pathology testing with uptake of"},
+      "flag": {"uncertain": false},
+      "arms": ["Surgical candidates"]
+    }
+  ],
+  "coder_notes": "Imaging-only companion study; the only registered intervention is the diagnostic tracer. Niraparib is not a registered intervention here but the arm descriptions say participants start it (companion treatment trial), so it is listed as soc_backbone and is not treated as a candidate of this record. Target engagement coded no because niraparib is not a candidate in this record (FTT uptake changes after the PARP inhibitor are imaging outcomes of the tracer study). control_arm_from_other_arms: two OTHER-type cohorts, neither works as a control."
+}

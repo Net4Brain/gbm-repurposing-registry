@@ -1,0 +1,143 @@
+{
+  "nct_id": "NCT05432804",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma, IDH-Wildtype; Recurrent MGMT-Methylated Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Patients receive temozolomide PO QD on days 1-5 of each cycle and selinexor PO QD on days 8 and 15 of each cycle."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed glioblastoma (IDH wild-type, MGMT promoter methylated) that has undergone resection or biopsy upon first recurrence."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Selinexor",
+      "active_moiety": "selinexor",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive temozolomide PO QD on days 1-5 of each cycle and selinexor PO QD on days 8 and 15 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "selective inhibitor of nuclear export (XPO1/CRM1)",
+      "stated_antitumour_mechanism": "blocking a protein called CRM1, which may keep cancer cells from growing and may kill them",
+      "flag": {"uncertain": false},
+      "arms": ["Group II (temozolomide, selinexor)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive temozolomide PO QD on days 1-5 of each cycle and placebo PO QD on days 8 and 15 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group I (temozolomide)", "Group II (temozolomide, selinexor)"]
+    },
+    {
+      "agent_name_registered": "Placebo Administration",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Placebo Administration: Given PO"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group I (temozolomide)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have histologically confirmed glioblastoma (IDH wild-type, MGMT promoter methylated) that has undergone resection or biopsy upon first recurrence."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients must have histologically confirmed glioblastoma (IDH wild-type, MGMT promoter methylated) that has undergone resection or biopsy upon first recurrence."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To validate signatures of vulnerability to predict response to selinexor through ribonucleic acid (RNA) sequencing for 6 top-scoring gene pairs, whole exome sequencing, P53, EGFR, and Mcl-1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "P53",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To validate signatures of vulnerability to predict response to selinexor through ribonucleic acid (RNA) sequencing for 6 top-scoring gene pairs, whole exome sequencing, P53, EGFR, and Mcl-1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Mcl-1",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "To validate signatures of vulnerability to predict response to selinexor through ribonucleic acid (RNA) sequencing for 6 top-scoring gene pairs, whole exome sequencing, P53, EGFR, and Mcl-1."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is given in both arms with the same schedule (selinexor is the only investigational agent), so soc_backbone. Exploratory signature outcome lists P53, EGFR and Mcl-1 as correlative markers of selinexor response; not treated as target engagement or selection. Registered arm type for Group I is ACTIVE_COMPARATOR."
+}

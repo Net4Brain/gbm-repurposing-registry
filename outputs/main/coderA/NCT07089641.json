@@ -1,0 +1,122 @@
+{
+  "nct_id": "NCT07089641",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma, IDH-Wildtype; Gliosarcoma; Recurrent Glioblastoma, IDH-Wildtype; Recurrent Gliosarcoma; Resectable Glioblastoma"},
+      {"field": "eligibility", "quote": "Patient tumor sample must have wild type IDH with evidence of EGFR mutation/amplification by Clinical Laboratory Improvement Act (CLIA)-certified laboratory assay."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] EGFR Inhibitor ERAS-801 (other names: ERAS 801, ERAS-801, ERAS801): Given PO"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase Ib Open Label Clinical Trial to Evaluate the Safety and Efficacy of ERAS-801 in Recurrent Glioblastoma or Elderly Newly Diagnosed Glioblastoma Patients With EGFR Amplification and/or Mutation (ERAS-801-3.0)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the pharmacokinetic (PK) profile in plasma, cerebrospinal fluid (CSF), and tumor tissue of ERAS-801 in recurrent glioblastomas. (Cohort A)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To evaluate the pharmacodynamic (PD) impact of ERAS-801 treatment in recurrent glioblastomas. (Cohort A)"},
+      {"field": "detailed_description", "quote": "Exploring whether there are alterations of key glycolytic enzymes and/or other transcriptional changes linked to EGFR occur with ERAS-801 treatment"},
+      {"field": "outcomes", "quote": "Fludeoxyglucose F-18 (FDG) tumor uptake (Cohort A)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "EGFR Inhibitor ERAS-801",
+      "active_moiety": "eras-801",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "ERAS-801, an EGFR inhibitor that can penetrate the central nervous system, binds to the tumor cells that express EGFR and may help shrink or slow the growth of the tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational CNS-penetrant EGFR inhibitor",
+      "stated_antitumour_mechanism": "EGFR inhibition in EGFR-amplified or mutant tumour cells",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (ERAS-801)", "Cohort B (ERAS-801)", "Cohort C (ERAS-801)"]
+    },
+    {
+      "agent_name_registered": "Fludeoxyglucose F-18",
+      "active_moiety": "fludeoxyglucose (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[OTHER] Fludeoxyglucose F-18 (other names: 18FDG, FDG, Fludeoxyglucose (18F)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "18F PET imaging tracer (diagnostic)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (ERAS-801)", "Cohort B (ERAS-801)", "Cohort C (ERAS-801)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "eras-801",
+      "source_quote": {"field": "eligibility", "quote": "Patient tumor sample must have wild type IDH with evidence of EGFR mutation/amplification by Clinical Laboratory Improvement Act (CLIA)-certified laboratory assay."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient initial tumor sample must have wild type IDH with evidence of EGFR mutation/amplification by CLIA-certified laboratory assay."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "glycolytic enzyme and EGFR-linked transcriptional changes in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "eras-801",
+      "source_quote": {"field": "detailed_description", "quote": "Exploring whether there are alterations of key glycolytic enzymes and/or other transcriptional changes linked to EGFR occur with ERAS-801 treatment"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (ERAS-801)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Ki67 proliferation index",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Exploring whether there are changes in percent of tumor cells that have immunohistochemical positive staining for the KI67 antigen after ERAS-801 treatment"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (ERAS-801)"]
+    }
+  ],
+  "coder_notes": "Three non-randomised ERAS-801 monotherapy cohorts (A: recurrent window-of-opportunity pre-surgery; B: recurrent, closed; C: elderly newly diagnosed), so treatment_setting both. EGFR amplification/mutation plus IDH-wildtype required for entry (eligibility criteria shown for Cohorts A and C; Cohort B criteria listed as closed, title implies EGFR requirement for all). EGFR T790M/exon 20 mutations excluded. FDG PET registered as an intervention, listed as diagnostic agent; FDG uptake/glycolytic index used as a pharmacodynamic imaging endpoint. Apoptotic machinery evaluation also planned in Cohort A (not recorded as separate biomarker)."
+}

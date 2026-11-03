@@ -1,0 +1,9 @@
+{"nct_id":"NCT07476781","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"basket_gbm_eligible","gbm_population_evidence":[{"field":"conditions","quote":"Solid Tumor Malignancies"},{"field":"eligibility","quote":"Patients in Cohort D will have primary CNS tumours (such as, but not limited to, meningioma, glioblastoma, astrocytoma, ependymoma, and other rare histologies)."}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate",
+"candidate_evidence":[{"field":"interventions","quote":"One-time CSF collective via lumbar puncture or Ommaya reservoir and collection of concurrent plasma of peripheral blood (liquid biopsy)."}],"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"unclear","treatment_setting_evidence":[{"field":"eligibility","quote":"Patient is eligible at any time point in their treatment course"}],"regimen":"not_applicable","combination_partners":[],"basket":true,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[],
+"coder_notes":"Liquid-biopsy feasibility study (CSF/plasma ctDNA) across solid tumours; glioblastoma is named only as an example within Cohort D (primary CNS tumours) in the inclusion criteria. No drug intervention. ctDNA/CSF biomarkers are generic detection endpoints, not specific molecular biomarkers, so none recorded."}

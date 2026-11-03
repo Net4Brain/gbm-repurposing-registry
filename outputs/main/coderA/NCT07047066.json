@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT07047066",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients newly diagnosed with primary glioblastoma by imaging or pathology, completed concurrent chemoradiotherapy (CCRT), and planned to receive adjuvant TMZ treatment;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "A Phase II clinical study is planned to evaluate the efficacy and safety of fluzoparib combined with temozolomide in newly diagnosed glioblastoma patients after completing standard concurrent chemoradiotherapy (CCRT)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients newly diagnosed with primary glioblastoma by imaging or pathology, completed concurrent chemoradiotherapy (CCRT), and planned to receive adjuvant TMZ treatment;"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fluzoparib with Temozolomide",
+      "active_moiety": "fluzoparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Fluzoparib: 100mg, po.bid. Q4W, d1-28, for a total of 6 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved in China)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Fluzoparib combined with Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Fluzoparib with Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide (TMZ): 150-200 mg/m2, po. Q4W, d1-5, for a total of 6 cycles"},
+        {"field": "interventions", "quote": "The TMZ dose is adjusted by the investigator according to standard chemotherapy requirements."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care (adjuvant)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Fluzoparib combined with Temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Title spells 'Flazoparib'; interventions and summary use 'Fluzoparib' (moiety fluzoparib). Single-arm phase 2: fluzoparib added to standard adjuvant TMZ after CCRT in newly diagnosed GBM. No biomarker selection."
+}

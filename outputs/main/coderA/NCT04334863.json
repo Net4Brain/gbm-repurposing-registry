@@ -1,0 +1,83 @@
+{
+  "nct_id": "NCT04334863",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed progressive medulloblastoma, malignant glioma or any other recurrent/progressive malignant brain tumor, for which curative measures do not exist."},
+      {"field": "conditions", "quote": "Brain Tumor; Medulloblastoma; Brain Metastases"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "the investigators plan to offer investigational treatment with the novel JAK2/STAT3 inhibitor WP1066 (Moleculin Biotech, Inc.) to pediatric patients with any progressive or recurrent malignant brain tumor that is refractory to standard treatment and is without known cure."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "WP1066 in Children With Refractory and Progressive or Recurrent Malignant Brain Tumors"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Cmax is the observed maximum plasma concentration following drug administration."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The level of activated Stat3 (phospho-Stat3) will be measured in the peripheral blood mononuclear cells (PBMCs), the type of immune cells present in the blood, and the immune cytokines in the serum of subjects pre and post administration of the investigational drug."},
+      {"field": "outcomes", "quote": "If clinically indicated and as an optional procedure, biopsy or surgery specimens of the tumors will be obtained to determine the molecular expression of p-STAT3, Ki-67 and immunological characteristics of the tumors"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "WP1066",
+      "active_moiety": "wp1066",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The first group of participants will receive the lowest dose level of WP1066."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational JAK2/STAT3 inhibitor, caffeic acid analogue (WP1066)",
+      "stated_antitumour_mechanism": "WP1066 is designed to target the STAT3 pathway in cancer cells; inhibitor of p-STAT3; targeting this pathway may cause the immune system to kill the cancer cells",
+      "flag": {"uncertain": false},
+      "arms": ["WP1066"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "phospho-STAT3 (PBMC and optional tumour tissue)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "wp1066",
+      "source_quote": {"field": "outcomes", "quote": "The level of activated Stat3 (phospho-Stat3) will be measured in the peripheral blood mononuclear cells (PBMCs), the type of immune cells present in the blood, and the immune cytokines in the serum of subjects pre and post administration of the investigational drug."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "DIPG and DMG H3K27M do not require histological confirmation."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric-focused phase 1 (ages >3 to 25; stdAges CHILD, ADULT) of WP1066 in any recurrent malignant brain tumour. Glioblastoma is never named; only 'malignant glioma' -> high_grade_glioma_unspecified (excluded as not_glioblastoma). PK is plasma only. Target engagement: pre/post phospho-STAT3 in PBMCs plus optional tumour p-STAT3. H3K27M is mentioned only as defining DIPG/DMG patients who need no histological confirmation; not an entry requirement, recorded as exploratory_correlative for transparency. Ki-67 in optional tumour samples not recorded as a molecular biomarker."
+}

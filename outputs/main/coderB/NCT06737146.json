@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT06737146",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-grade Glioma"},
+      {"field": "eligibility", "quote": "Subjects with high-grade glioma diagnosed pathologically (referring to grade 3 or 4 in the \"WHO (2021) Classification of Tumors of the Central Nervous System\")"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MT027: CRISPR/Cas9 edited B7H3-specific allogeneic CAR-T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Patients with Recurrent or Progressive High-grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "title", "quote": "A Single-arm, Dose-escalation Phase I Clinical Study on Evaluating the Tolerability, Pharmacokinetic Characteristics, Safety and Preliminary Efficacy of MT027"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT027 cells suspension",
+      "active_moiety": "allogeneic b7-h3 car-t cell",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "MT027: CRISPR/Cas9 edited B7H3-specific allogeneic CAR-T cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CRISPR/Cas9-edited B7-H3-specific allogeneic CAR-T cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MT027"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 (CD276) expression by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The tumor tissue of the patient has positive expression of B7-H3."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Glioblastoma is not named anywhere in conditions, title, inclusion criteria or arm labels (high-grade glioma grade 3 or 4 only). The only agent is a CAR-T cell therapy (excluded type), so the B7-H3 eligibility requirement is not candidate-matched (no candidate). Lymphodepletion chemotherapy is only mentioned in the exclusion criteria and is not listed. PK is planned (title) but sample type not stated."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05362409",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Parts B and C: Previous histopathologically confirmed diagnosis of glioblastoma and radiographic evidence of recurrence after prior therapy with radiotherapy."},
+      {"field": "eligibility", "quote": "While Part A may include patients with any type of HGG and any number of recurrences, Parts B and C are restricted to patients with glioblastoma experiencing first recurrence."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "5-ALA will be administered as a sonosensitizer prior to CV01-delivered ultrasound and will be re-administered every 4 weeks prior to CV01 ultrasound delivery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study to Evaluate 5-ALA Combined With CV01 Delivery of Ultrasound in Recurrent High Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5 Aminolevulinic Acid",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The investigational product in this clinical study is a drug-device combination product consisting of 5-ALA HCl oral solution and the CV01 ultrasound delivery device."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor photosensitiser/sonosensitiser (Gleolan), used for sonodynamic therapy",
+      "stated_antitumour_mechanism": "sonosensitizer prior to CV01-delivered ultrasound to induce apoptosis of cancer cells",
+      "flag": {"uncertain": false},
+      "arms": ["5-ALA with CV01"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Part A any recurrent HGG (WHO 2021 astrocytoma grade 3/4, oligodendroglioma grade 3); Parts B/C recurrent glioblastoma only. GBM named in inclusion criteria, not in conditions. cns5 from explicit WHO classification 2021 citation. 5-ALA sonodynamic therapy = candidate, device_dependent. Ultrasound device not listed as agent. Part C surgical cohort described as exploratory but no tissue PK or PD measurement stated."
+}

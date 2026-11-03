@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT06116903",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Subject of both sexes at least 18 years of age with glioblastoma."},
+      {"field": "conditions", "quote": "Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Blood sampling for testing of the detection of molecular abnormalities in exosomes of glial tumors"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient for whom an FMI test is indicated, progressing after a 1st line following the chemotherapy and radiotherapy protocol (STUPP protocol)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "panel of molecular alterations by exosome NGS and FoundationOne Liquid CDx ctDNA (unspecified genes)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Level of expression of biomarkers, for the same patient, by molecular analysis of exosomes and blood sampling according to the FMI test protocol"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic blood-sampling study (Phase NA) comparing exosome NGS with FoundationOne Liquid CDx; no drug intervention, so no agents and no candidate. Glioblastoma named in inclusion criteria (conditions say 'Glioma'). Stupp protocol mentioned only as prior therapy, not listed. No specific genes named; one generic 'other' exploratory biomarker row."
+}

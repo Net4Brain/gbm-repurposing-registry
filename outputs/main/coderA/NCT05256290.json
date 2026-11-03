@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT05256290",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations"},
+      {"field": "arms", "quote": "Recurrent GBM with confirmed EGFR alterations (including amplification, mutation, and/or variant)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "All patients will self-administer silevertinib (BDTX-1535) monotherapy by mouth in 21-day cycles."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Recurrent GBM with confirmed EGFR alterations (including amplification, mutation, and/or variant)"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 1 and Phase 2: To characterize the plasma concentration of silevertinib (BDTX-1535) following single and multiple dosing"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "silevertinib (BDTX-1535) monotherapy",
+      "active_moiety": "silevertinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Silevertinib (BDTX-1535) is a 4th generation irreversible brain penetrant EGFR MasterKey inhibitor, which targets a family of oncogenic EGFR classical and non-classical driver and resistance mutations in NSCLC."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational 4th-generation irreversible brain-penetrant EGFR inhibitor (BDTX-1535)",
+      "stated_antitumour_mechanism": "irreversible brain penetrant EGFR MasterKey inhibitor, which targets a family of oncogenic EGFR classical and non-classical driver and resistance mutations",
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1 Dose Escalation - Monotherapy (Recruitment Closed)", "Phase 2 Cohort 1: NSCLC EGFR Non-Classical Driver Mutations", "Phase 2 Cohort 2: NSCLC EGFR Acquired Resistance (C797S) Mutation"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "silevertinib",
+      "source_quote": {"field": "arms", "quote": "Recurrent GBM with confirmed EGFR alterations (including amplification, mutation, and/or variant)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket of EGFR-altered NSCLC and recurrent GBM; GBM eligible only in Phase 1 dose escalation (named in title and arm label). EGFR alteration is an entry requirement for every cohort (NSCLC EGFR mutations; GBM EGFR amplification/mutation/variant), hence eligibility with arms empty; it is the GBM requirement quoted. Phase 2 Cohort 3 arm lists no interventions, so not added to agent arms. Registered inclusion criteria text covers Phase 2 NSCLC only. PK is plasma only."
+}

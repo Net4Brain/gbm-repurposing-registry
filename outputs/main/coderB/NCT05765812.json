@@ -1,0 +1,101 @@
+{
+  "nct_id": "NCT05765812",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma IDH (Isocitrate Dehydrogenase) Wildtype; Astrocytoma, Grade III"},
+      {"field": "eligibility", "quote": "Astrocytoma, IDH-mutant, Grade 3"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Study of Zedoresertib (Debio 0123) in Combination With Temozolomide in Adult Participants With Recurrent or Progressive Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Recurrent or Progressive Glioblastoma and of Zedoresertib (Debio 0123) in Combination With Temozolomide and Radiotherapy in Adult Participants With Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The pharmacokinetics (PK) of zedoresertib and its metabolite will be evaluated in plasma."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamic(s) PDy, Change from baseline in Phosphorylated Cell Division Cycle (pCDC2)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Zedoresertib (Debio 0123)",
+      "active_moiety": "zedoresertib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Zedoresertib (other names: Debio 0123): Administered as capsules."},
+        {"field": "keywords", "quote": "WEE1 inhibitor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational WEE1 inhibitor",
+      "stated_antitumour_mechanism": "WEE1 inhibition",
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1 (Dose Escalation): Arm A - Zedoresertib + Temozolomide", "Phase 1 (Dose Escalation): Arm B - Zedoresertib + Temozolomide + Radiotherapy", "Phase 1 (Dose Escalation): Arm C - Zedoresertib + Temozolomide + Radiotherapy", "Phase 1 (Dose Expansion): Zedoresertib + Temozolomide", "Phase 2: Zedoresertib RD + Temozolomide"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide: Administered as capsules."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1 (Dose Escalation): Arm A - Zedoresertib + Temozolomide", "Phase 1 (Dose Escalation): Arm B - Zedoresertib + Temozolomide + Radiotherapy", "Phase 1 (Dose Escalation): Arm C - Zedoresertib + Temozolomide + Radiotherapy", "Phase 1 (Dose Expansion): Zedoresertib + Temozolomide", "Phase 2: Zedoresertib RD + Temozolomide"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants must have a histopathologically proven diagnosis of GBM, IDH-wildtype Grade 4 WHO 2021"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1 (Dose Expansion): Zedoresertib + Temozolomide", "Phase 2: Zedoresertib RD + Temozolomide"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "phosphorylated CDC2 (pCDC2)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Pharmacodynamic(s) PDy, Change from baseline in Phosphorylated Cell Division Cycle (pCDC2)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Arm A (dose escalation) also admits IDH-mutant grade 3 astrocytoma, hence mixed_glioma_gbm_named; later parts require IDH-wildtype grade 4 GBM. Phase 2 is described as compared with standard of care but only experimental arms are registered, so no control arm is coded. Radiotherapy is not listed as an agent. Sample type for pCDC2 not stated."
+}

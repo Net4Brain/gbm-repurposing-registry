@@ -1,0 +1,116 @@
+{
+  "nct_id": "NCT05739942",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed and Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma according to WHO classification established following either a surgical resection or biopsy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] [177Lu]Lu-NeoB (other names: Lu-NeoB): Radiopharmaceutical solution for infusion"},
+      {"field": "detailed_description", "quote": "The hypothesis of this study is to improve the outcome for participants by combining the current standard of care with the radioligand therapy \\[177Lu\\]Lu-NeoB."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly Diagnosed and Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The \\[177Lu\\]Lu-NeoB absorbed dose by body organs and tumor lesions will be determined by calculation of TACs obtained from the radiotracer uptake (as percentage of injected dose) in selected organs and lesions (coming from image quantification)."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "In this study, all participants with recurrent glioblastoma will undergo \\[68Ga\\]Ga-NeoB PET scan to assess GRPR expression during the screening period."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-NeoB",
+      "active_moiety": "neob",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] [177Lu]Lu-NeoB as Single Agent: In recurrent glioblastoma (interventions: Drug: [177Lu]Lu-NeoB; Drug: [68Ga]Ga-NeoB)"},
+        {"field": "arms", "quote": "[EXPERIMENTAL] [177Lu]Lu-NeoB in Combination with Radiotherapy (RT) and Temozolomide (TMZ): In newly diagnosed glioblastoma (interventions: Drug: [177Lu]Lu-NeoB; Drug: [68Ga]Ga-NeoB; Other: Temozolomide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "investigational 177Lu-labelled GRPR-targeting radioligand (isotope lutetium-177)",
+      "stated_antitumour_mechanism": "radioligand therapy",
+      "flag": {"uncertain": false},
+      "arms": [
+        "[177Lu]Lu-NeoB in Combination with Radiotherapy (RT) and Temozolomide (TMZ)",
+        "[177Lu]Lu-NeoB as Single Agent"
+      ]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-NeoB",
+      "active_moiety": "68ga-neob",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to also explore the safety of the PET imaging agent \\[68Ga\\]Ga-NeoB and characterize its uptake in the tumor area."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "68Ga-labelled GRPR-targeting PET imaging agent (isotope gallium-68)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "[177Lu]Lu-NeoB in Combination with Radiotherapy (RT) and Temozolomide (TMZ)",
+        "[177Lu]Lu-NeoB as Single Agent"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Participants with newly diagnosed glioblastoma enrolled into this trial will be treated with the standard regimen TMZ and RT, combined with \\[177Lu\\]Lu-NeoB every 4 weeks (Q4W) for 6 administrations."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-NeoB in Combination with Radiotherapy (RT) and Temozolomide (TMZ)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GRPR expression (68Ga-NeoB PET uptake)",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "neob",
+      "source_quote": {"field": "eligibility", "quote": "Presence of \\[68Ga\\]Ga-NeoB uptake by PET/CT or PET/MRI at the tumor region"},
+      "flag": {"uncertain": true, "reason": "GRPR target expression is assessed by PET imaging only; manual treats imaging-only markers as non-molecular unless described as a biomarker, though the record explicitly states the scan assesses GRPR expression."},
+      "arms": ["[177Lu]Lu-NeoB as Single Agent"]
+    }
+  ],
+  "coder_notes": "Radiopharmaceutical: therapeutic [177Lu]Lu-NeoB coded as neob (no INN in record), diagnostic [68Ga]Ga-NeoB as separate row 68ga-neob (W1). Temozolomide registered as type OTHER, ND arm only. Regimen combination for ND arm (RT+TMZ backbone); recurrent arm is single agent. Tumour PK coded yes based on image-based quantification of 177Lu-NeoB uptake/absorbed dose in tumour lesions (dosimetry), not tissue sampling; blood PK also planned. Target engagement coded no: 68Ga-NeoB PET is baseline target-expression screening, not a modulation measurement. MGMT methylated or unmethylated allowed (summary/keywords only; not an entry requirement, not listed). Tumour tissue required in Group 1 'to support biomarker analysis' without specified biomarker."
+}

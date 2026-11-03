@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT04573140",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Adult Glioblastoma; High Grade Glioma; WHO Grade III or IV Malignant Glioma"},
+      {"field": "eligibility", "quote": "Histopathologically proven newly-diagnosed de novo GBM (WHO Grade IV glioma, secondary GBM not eligible) that is MGMT low level or unmethylated."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Adult GBM (Stratum 1)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Autologous total tumor mRNA and pp65 full length (fl) lysosomal associated membrane protein (LAMP) mRNA loaded DOTAP liposome vaccine administered intravenously (RNA loaded lipid particles, RNA-LPs)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study of RNA-lipid Particle (RNA-LP) Vaccines for Newly Diagnosed Pediatric High-Grade Gliomas (pHGG) and Adult Glioblastoma (GBM)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous total tumor mRNA and pp65 full length (fl) lysosomal associated membrane protein (LAMP) mRNA loaded DOTAP liposome vaccine administered intravenously (RNA loaded lipid particles, RNA-LPs)",
+      "active_moiety": "mrna cancer vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "RNA-LP vaccines will be administered intravenous. Three RNA-LP vaccines will be administered every 2 weeks followed by 12 cycles of adjuvant monthly RNA-LP vaccines for a total of 15 vaccines."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous tumour mRNA + pp65-LAMP mRNA loaded DOTAP lipid particle vaccine (RNA-LP)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Adult GBM (Stratum 1)", "Pediatric HGG (Stratum 2)"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Surgery and chemoradiation will be standard of care for patients with GBM."},
+        {"field": "eligibility", "quote": "test will be repeated within 72 hours prior to starting TMZ in Stratum 1 patients"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard chemoradiation)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Adult GBM (Stratum 1)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histopathologically proven newly-diagnosed de novo GBM (WHO Grade IV glioma, secondary GBM not eligible) that is MGMT low level or unmethylated."},
+      "flag": {"uncertain": false},
+      "arms": ["Adult GBM (Stratum 1)"]
+    },
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Diffuse intrinsic pontine glioma, brainstem diffuse midline glioma, or BRAFV600E+"},
+      "flag": {"uncertain": false},
+      "arms": ["Pediatric HGG (Stratum 2)"]
+    }
+  ],
+  "coder_notes": "Only intervention is an mRNA lipid-particle cancer vaccine (excluded type), so no candidate. Adult GBM stratum plus paediatric HGG stratum (mixed_age; stdAges include CHILD). 'WHO Grade IV glioma' without IDH requirement and 'de novo GBM / secondary GBM' wording -> historical. Temozolomide not a registered intervention but standard chemoradiation is stated for GBM patients (Stratum 1). Levetiracetam mentioned only as an example antiepileptic patients must be willing to take; not listed. MGMT unmethylated required for the adult cohort (enrichment); BRAF V600E+ is an exclusion for the paediatric cohort; neither candidate-matched. Detailed description also mentions recurrent medulloblastoma in the official title but no such arm is registered."
+}

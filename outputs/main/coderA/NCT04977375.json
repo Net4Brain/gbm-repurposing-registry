@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT04977375",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Trial of Anti-PD-1 Immunotherapy and Stereotactic Radiation in Patients With Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed histologic diagnosis of WHO Grade IV, Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to assess the safety/tolerability/feasibility of pembrolizumab and radiation therapy before surgical resection in patients with recurrent glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "GBM recurrence or progression with planned standard of care surgical resection and repeat radiation"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["stereotactic radiation therapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To assess the T cell clonality, CD8 T cell activation and Tumor Infiltrating Lymphocyte (TIL) score after treatment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Pembrolizumab 400mg administered intravenously on Day 1, and then beginning 6 weeks post-surgery, subjects will receive 400 mg pembrolizumab every 6 weeks"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Anti-PD-1 Immunotherapy",
+      "flag": {"uncertain": false},
+      "arms": ["Pembrolizumab with stereotactic radiation therapy and surgical resection"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "T cell clonality, CD8 T cell activation and tumour-infiltrating lymphocyte (TIL) score",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "To assess the T cell clonality, CD8 T cell activation and Tumor Infiltrating Lymphocyte (TIL) score after treatment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Neoadjuvant pembrolizumab + stereotactic RT before resection in recurrent GBM; single arm. Immune PD markers (T cell clonality/CD8 activation from blood; TIL score) recorded as pharmacodynamic 'other'. 'WHO Grade IV, Glioblastoma Multiforme' -> historical."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06209567",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High-grade Glioma; Brain Metastases; Brain Metastases, Adult"},
+      {"field": "eligibility", "quote": "Suspicion for or histologically or cytologically confirmed and previously treated HGG or brain metastases from a primary extracranial malignancy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] 68Ga-PSMA-11 PET Scans: Participants will be injected intravenously with 68Ga-PSMA-11 via intravenous catheter."},
+      {"field": "outcomes", "quote": "Assess range of tumor uptake of 68Ga-PSMA-11 in participants"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Participants with newly diagnosed or recurrent high-grade glioma/HGG or brain metastases"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "68Ga-PSMA-11",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The purpose of this study is to find out whether 68Ga-PSMA-11 PET/CT is effective in assessing tumor uptake (tumor activity seen in cancerous tissue) in participants with high-grade glioma/HGG or brain metastases."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA-targeting PET imaging tracer (PSMA-11; possibly INN gozetotide, not stated in record); isotope 68Ga",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with high-grade glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic PET imaging study only (Early Phase 1). Population is high-grade glioma or brain metastases; glioblastoma is not named anywhere in conditions, title, eligibility or arm labels, so not_glioblastoma-type exclusion (high_grade_glioma_unspecified). 18F-FDG PET and contrast CT/MR are standard clinical care, not registered interventions, so not listed. PSMA tumour uptake is an imaging measure, not recorded as a molecular biomarker."
+}

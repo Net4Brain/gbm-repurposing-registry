@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT06649851",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "MGMT-Methylated Glioblastoma; Glioblastoma (GBM); Newly Diagnosed Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Participants must have confirmed newly diagnosed glioblastoma multiforme (GBM), World Health Organization (WHO) grade 4, IDH wildtype, either by histological or molecular criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The investigators are testing whether G-CSF can reduce the negative side effects from radiation and chemotherapy on brain health."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have confirmed newly diagnosed glioblastoma multiforme (GBM), World Health Organization (WHO) grade 4, IDH wildtype, either by histological or molecular criteria."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Granulocyte Colony Stimulating Factor (G-CSF)",
+      "active_moiety": "filgrastim",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The investigators are testing whether G-CSF can reduce the negative side effects from radiation and chemotherapy on brain health."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "haematopoietic growth factor with proposed neuroprotective effect",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Chemoradiation combined with G-CSF"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Temozolomide is given as standard of care chemotherapy in this study."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Chemoradiation combined with G-CSF", "Standard Chemoradiation"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Molecular analysis needs to confirm a positive MGMT promoter methylation status using standard institutional testing methods."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "World Health Organization (WHO) grade 4, IDH wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "G-CSF is given for neuroprotection (brain volume, cognition, quality of life) and the record states no antitumour hypothesis or outcome, so it is supportive and the trial has no candidate. Radiation is not listed as an agent. The control arm is registered as OTHER (standard chemoradiation)."
+}

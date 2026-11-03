@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT04415424",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neisseria Gonorrheae Infection"},
+      {"field": "brief_summary", "quote": "who have sex with men (hereafter referred to as Gay Bisexual Men+ \\[GBM+\\]"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] 4CMenB vaccine (other names: Bexsero®): A four-component meningococcal B vaccine"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "4CMenB vaccine",
+      "active_moiety": "meningococcal group b vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] 4CMenB vaccine (other names: Bexsero®): A four-component meningococcal B vaccine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "prophylactic bacterial vaccine (four-component meningococcal B); infectious-disease prevention",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm A - 4CMenB vaccine"]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[OTHER] Placebo: 0.5 ml of 150 mmol sodium chloride (0.9% saline solution)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "saline placebo",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment arm B - placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "False-positive retrieval: 'GBM+' here means Gay Bisexual Men+, not glioblastoma or anti-GBM disease; trial is a gonorrhoea-prevention vaccine study. Coded not_glioblastoma. Vaccine is a prophylactic (not cancer) vaccine, listed as excluded_intervention_type."
+}

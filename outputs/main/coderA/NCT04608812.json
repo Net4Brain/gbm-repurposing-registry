@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT04608812",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; High Grade Glioma; Glioblastoma; Glioblastoma Multiforme; Anaplastic Astrocytoma"},
+      {"field": "eligibility", "quote": "Only patients with a histologically confirmed diagnosis of WHO Grade IV glioma (glioblastoma) meeting the above criteria will be eligible for enrollment in the first 3 dose cohorts (ie, dose concentration levels)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "OS2966 is a humanized monoclonal antibody antagonizing CD29 (Beta 1 integrin)"},
+      {"field": "outcomes", "quote": "Tumor Response Rate: based upon MR imaging using RANO criteria assessed every 8 weeks after the initial safety follow up."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient must have completed standard of care chemoradiation (ie, treatment with temozolomide and radiation) and have evidence of tumor recurrence or progression based on imaging studies within the previous 21 days that supports a clinically-indicated resection."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Spatial Distribution of OS2966 when delivered via CED: measured by comparing pre-infusion MR imaging to post-infusion MR Imaging"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Tumor tissue will be collected in both study parts to evaluate how well OS2966 binds to its intended target and to confirm mechanism of action."}
+    ],
+    "flag": {"uncertain": false}
+  },
+  "agents": [
+    {
+      "agent_name_registered": "OS2966",
+      "active_moiety": "os2966",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The primary goal of this Phase 1 study is to determine if a new investigational drug, OS2966, when delivered directly to the brain of adult participants with recurrent/progressive high-grade glioma (HGG) is safe and well tolerated."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational humanized anti-CD29 (beta1 integrin) monoclonal antibody, given intratumorally by convection-enhanced delivery",
+      "stated_antitumour_mechanism": "humanized monoclonal antibody antagonizing CD29 (Beta 1 integrin)",
+      "flag": {"uncertain": false},
+      "arms": ["Direct Infusion of OS2966"]
+    },
+    {
+      "agent_name_registered": "Gadoteridol",
+      "active_moiety": "gadoteridol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Gadoteridol is a contrast agent which will be added to OS2966 to allow investigators to observe how OS2966 distributes within the brain tumor."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium MRI contrast agent, co-infused intratumorally to track distribution",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Direct Infusion of OS2966"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD29 (beta1 integrin) target binding in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "os2966",
+      "source_quote": {"field": "detailed_description", "quote": "Tumor tissue will be collected in both study parts to evaluate how well OS2966 binds to its intended target and to confirm mechanism of action."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Convection-enhanced delivery (catheter/pump) coded as formulation_flag new_route per manual 3 example; device_dependent set false because CED is listed as a route, not a device-activated therapy, though R4 could be read to make it true. Tumour PK: MRI spatial distribution of co-infused gadoteridol is not a measurement of drug concentration in tumour, so coded no (could be argued unclear/yes). Surgery (resection) is part of the protocol but is not an agent. First 3 dose cohorts restricted to grade IV glioma (glioblastoma); later cohorts allow grade III."
+}

@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT05590689",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histological verification of recurrent glioblastoma independent of methylated MGMT promotor status when alkylating chemotherapy failed at this time."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "In this trial, the drug is being tested outside of its actual approval as a radiosensitizer in combination with conventional radiotherapy for first-time recurrence (relapse) of malignant glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Phase I/II Dose Escalation Trial of Radiodynamic Therapy (RDT) With 5-Aminolevulinic Acid in Patients With First Recurrence of Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "concentration changes of CPI and CPIII: Analytic results for concentration changes as one combined sum parameter"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "concentration changes of immunhistochemistry marker (e.g. Caspase-3, IBA1, H&E, EvG, P53, Ki 67, gammaH2AX): analytic results of pharma-radio-dynamic tissue changes. Tissue samples collected during surgery of cohort 0 and 1"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Gliolan",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A repetitive dose of Gliolan will be administrated in combination with radiotherapy (radiodynamic therapy)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "porphyrin precursor / photosensitiser prodrug (5-ALA, Gliolan), approved for fluorescence-guided glioma resection",
+      "stated_antitumour_mechanism": "radiosensitizer in combination with conventional radiotherapy (radiodynamic therapy)",
+      "flag": {"uncertain": false},
+      "arms": ["Radiodynamic therapy (RDT)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Tissue IHC markers of treatment effect (Caspase-3, IBA1, P53, Ki 67, gammaH2AX)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "aminolevulinic acid",
+      "source_quote": {"field": "outcomes", "quote": "concentration changes of immunhistochemistry marker (e.g. Caspase-3, IBA1, H&E, EvG, P53, Ki 67, gammaH2AX): analytic results of pharma-radio-dynamic tissue changes. Tissue samples collected during surgery of cohort 0 and 1"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "5-ALA used therapeutically as a radiosensitiser activated by radiotherapy (radiodynamic therapy), so candidate with device_dependent true (C12; activation by radiation treated like PDT/SDT). Radiotherapy is the combination partner. CPI/CPIII (porphyrin) concentration changes may be PK/metabolite measures but the sample type is not stated, so tumour_pk_planned unclear. CD3/CD4/CD8/CD19/leucocyte 'radiobiological markers' appear to be immune-cell counts with unspecified sample and are not listed as tumour molecular biomarkers. MGMT is explicitly not a requirement."
+}

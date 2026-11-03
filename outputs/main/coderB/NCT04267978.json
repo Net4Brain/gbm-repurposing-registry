@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04267978",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, Recurrent; Lower Grade Glioma, Recurrent"},
+      {"field": "eligibility", "quote": "Histopathologically-confirmed, supratentorial GBM or lower-grade gliomas"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Recombinant human endostatin was administrated 15mg/d, daily for 14 days."},
+      {"field": "brief_summary", "quote": "Recombinant human endostatin (rh-ES) is an endogenous broad-spectrum angiogenesis inhibitor"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, Recurrent; Lower Grade Glioma, Recurrent"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "irinotecan"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "recombinant human endostatin",
+      "active_moiety": "endostatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Study of Recombinant Human Endostatin Combined with Temozolomide and Irinotecan in Recurrent Gliomas"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "rhES-TMZ-irinotecan",
+      "drug_class_hint": "recombinant human endostatin, anti-angiogenic protein",
+      "stated_antitumour_mechanism": "endogenous broad-spectrum angiogenesis inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["glioblastoma", "lower-grade glioma"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide was given orally 200mg/m2 for 5 days in each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "rhES-TMZ-irinotecan",
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["glioblastoma", "lower-grade glioma"]
+    },
+    {
+      "agent_name_registered": "irinotecan",
+      "active_moiety": "irinotecan",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Irinotecan was administrated 125mg/m2 on day 1 and day 15."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "rhES-TMZ-irinotecan",
+      "drug_class_hint": "topoisomerase I inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Irinotecan is not a standard GBM therapy; coded as cytotoxic backbone given in every arm (C3), but could be read as a second investigational agent (experimental_combination)."},
+      "arms": ["glioblastoma", "lower-grade glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Two EXPERIMENTAL arms defined by histology (glioblastoma; lower-grade glioma) receive the same triplet. Investigational question is the addition of recombinant human endostatin to a temozolomide plus irinotecan chemotherapy regimen ('Combined with Cytotoxic Chemotherapy Regimen'), so temozolomide and irinotecan are coded as background (every arm); endostatin is the candidate either way. Registry arm labels 'glioblastoma:' and 'lower-grade glioma:' have empty descriptions. The registry combines all three drugs into a single intervention entry, split here. Lower-grade glioma arm may include IDH-mutant tumours but the glioblastoma arm and conditions name GBM."
+}

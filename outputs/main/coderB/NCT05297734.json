@@ -1,0 +1,7 @@
+{"nct_id":"NCT05297734","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"not_glioblastoma","gbm_population_evidence":[{"field":"eligibility","quote":"Newly diagnosed patients with solid tumor cancer diagnosis or recurrence of the disease."}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"interventions","quote":"Lay Health Workers will meet with 1:1 with participants over 12 months to discuss advance care planning, surrogate decision-makers, advance directives and physician orders for life sustaining treatment."}],"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"both","treatment_setting_evidence":[{"field":"eligibility","quote":"Newly diagnosed patients with solid tumor cancer diagnosis or recurrence of the disease."}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"no","flag":{"uncertain":false},"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],
+"biomarkers":[],
+"coder_notes":"Supportive-care delivery trial in any solid tumour. Glioblastoma appears only in keywords, which do not count as naming it (D27B)."}

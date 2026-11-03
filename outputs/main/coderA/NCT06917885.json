@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06917885",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Glioblastoma; Glioma, Malignant"},
+      {"field": "eligibility", "quote": "Have histologically confirmed World Health Organization (WHO) Grade 4 glioblastoma, other WHO grade 4 malignant glioma or molecular GBM (based on the 2021 WHO Classification) at first recurrence."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a single center, open-label, Phase Ib trial evaluating the safety and tolerability of CUE-102 monotherapy in adult participants with Glioblastoma (GBM) at first recurrence."},
+      {"field": "interventions", "quote": "A WT-1-pHLA-IL2-Fc fusion protein, single-use vial, via intravenous (into the vein) infusion per protocol."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Phase Ib Open-label Study of Adjuvant CUE-102, a WT-1-pHLA-IL2-Fc Fusion Protein in Glioblastoma (GBM) Patients at First Recurrence"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CUE-102",
+      "active_moiety": "cue-102",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Predetermined dose of CUE-102 1x daily."},
+        {"field": "detailed_description", "quote": "evaluating the safety and tolerability of CUE-102 monotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "CUE-102, WT1 peptide-HLA-IL2-Fc fusion protein (investigational T-cell engaging immunomodulator)",
+      "stated_antitumour_mechanism": "CUE-102 is designed to target tumor cells by activating T cells",
+      "flag": {"uncertain": false},
+      "arms": ["CUE-102"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Eligibility also allows 'other WHO grade 4 malignant glioma' (potentially IDH-mutant astrocytoma grade 4), with glioblastoma explicitly named, so coded mixed_glioma_gbm_named; gliosarcoma excluded. HLA-A*0201 genotype is an entry requirement but is a germline HLA marker, so not recorded as a tumour biomarker per manual section 5; WT-1 tumour expression is not required. CUE-102 is a fusion protein (therapeutic protein), not coded as a vaccine. 'Adjuvant' in the title refers to post-resection treatment at first recurrence."
+}

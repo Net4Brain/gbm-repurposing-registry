@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT05941234",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of supratentorial glioblastoma, or"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[OTHER] Biological biomarker analysis: Collection of tumor and blood samples at T0 (surgery) and T1 (6 months follow-up)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of first recurrence of a primary supratentorial glioblastoma"},
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of supratentorial glioblastoma, or"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour immune signatures (lymphocyte subtypes, T-cell receptor subtypes)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Immune omic markers, namely the tumor count of the different lymphocyte subtypes and of T-cell receptor subtypes, will be correlated with overall survival."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Observational-style biomarker/omics study registered with phase NA; no drug administered to patients. In vitro chemosensitivity testing of stem cell cultures is not a patient intervention. IDH-wildtype appears in the conditions field and the exclusion criteria require a 2021 WHO diagnosis; listed as an eligibility biomarker defining GBM (never candidate-matched)."
+}

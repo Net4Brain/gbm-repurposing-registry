@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT05323123",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Human Immunodeficiency Virus"},
+      {"field": "detailed_description", "quote": "gay and bisexual men (GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants will receive PrEP (as part of their standard of care), motivational counseling, and PrEP adherence support. (interventions: Behavioral: SPARK; Behavioral: HealthMpowerment)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PrEP",
+      "active_moiety": "tenofovir",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive PrEP (as part of their standard of care) and PrEP education during medical visits."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HIV pre-exposure prophylaxis antiretroviral (tenofovir-based; exact product not named)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PrEP Romania", "Control"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Not a glioblastoma trial: 'GBM' here means gay and bisexual men; HIV PrEP behavioural implementation study. PrEP given to all participants as standard of care; product not named (outcome measures tenofovir diphosphate), so active_moiety tenofovir is approximate. Control arm is registered ACTIVE_COMPARATOR. Treatment setting not applicable (coded unclear)."
+}

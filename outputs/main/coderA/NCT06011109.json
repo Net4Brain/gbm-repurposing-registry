@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT06011109",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Patients must have pathologically proven diagnosis of high grade (aka grade III or IV) glioma that has progressed on bevacizumab (anaplastic astrocytoma, anaplastic oligodendroglioma, glioblastoma, gliosarcoma, H3K27M mutant glioma)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this interventional study is to evaluate the efficacy of APG-157 in combination with Bevacizumab in subjects with recurrent high-grade glioma."},
+      {"field": "interventions", "quote": "The participants will receive APG-157 daily; and continue to receive Bevacizumab as standard of care."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "APG-157 is not described in the record; if it is a botanical/curcumin-type product without medicine status it could fall under the supplement exclusion rather than be a pharmacological candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Treatment of Patients With Recurrent High-Grade Glioma With APG-157 and Bevacizumab"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure the amount of APG-157 components in the blood in the presence of bevacizumab"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "optionally serum changes in VEGF and HIF-1 alpha, if the study shows preliminary indication of efficacy"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "APG-157",
+      "active_moiety": "apg-157",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "The participants will receive APG-157 daily by taking two pastilles in their mouth at around breakfast, lunch and dinner time (total of six pastilles per day)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational botanical drug (oral pastille; believed to be a Curcuma longa-derived multicomponent product)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Nature of APG-157 not stated in the record; candidate status depends on whether it is a medicine or a supplement-type botanical."},
+      "arms": ["APG-157"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "The participants will continue to receive Bevacizumab as standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["APG-157"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Bevacizumab is not a registered intervention but every patient continues it as standard of care, so listed as soc_backbone. Optional serum VEGF and HIF-1 alpha changes are planned but not explicitly linked to APG-157's target, so target_engagement coded unclear; not listed as tumour biomarkers because they are serum markers. H3K27M mutant glioma is one of the eligible histologies, not an entry requirement, so not listed as a biomarker. cns5 historical because conditions use 'Glioblastoma Multiforme' and grade III/IV without IDH."
+}

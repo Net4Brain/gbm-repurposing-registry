@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT06623565",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Astrocytoma, IDH-Mutant, Grade 4"},
+      {"field": "eligibility", "quote": "New clinical and radiological suspected diagnosis of IDH-wildtype glioblastoma or grade IV IDH-mutant astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Multimodal image-guided resection: Supramarginal resection using combination of ADC MRI and FET PET"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New clinical and radiological suspected diagnosis of IDH-wildtype glioblastoma or grade IV IDH-mutant astrocytoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New clinical and radiological suspected diagnosis of IDH-wildtype glioblastoma or grade IV IDH-mutant astrocytoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Surgical/imaging study. FET PET tracer is part of the procedure and not a registered drug intervention (R9), so no agents listed."
+}

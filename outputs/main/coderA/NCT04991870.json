@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04991870",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Gliosarcoma; Recurrent Supratentorial Glioblastoma; Supratentorial Gliosarcoma"},
+      {"field": "eligibility", "quote": "Has histologically confirmed supratentorial World Health Organization grade 4 recurrent astrocytoma to include recurrent IDH WT glioblastoma or gliosarcoma and recurrent IDHmutant grade 4 astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Cord Blood-derived Expanded Allogeneic Natural Killer Cells"},
+      {"field": "brief_summary", "quote": "CB-NK-TGF-betaR2-/NR3C1- cells are genetically changed immune cells that may help to control the disease."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in treating patients with glioblastoma that has come back (recurrent)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Cord Blood-derived Expanded Allogeneic Natural Killer Cells",
+      "active_moiety": "nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] Cord Blood-derived Expanded Allogeneic Natural Killer Cells"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic cord blood-derived NK cell therapy, gene-edited (TGF-betaR2 and NR3C1 deleted), intratumoral via Ommaya",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (CB-NK-TGF-betaR2-/NR3C1- )", "Group 2 (CB-NK-TGF-betaR2-/NR3C1-, resection)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only intervention is a gene-edited NK cell therapy (excluded type); no pharmacological candidate. Eligibility allows both IDH-wildtype glioblastoma and IDH-mutant grade 4 astrocytoma, so coded mixed_glioma_gbm_named; IDH not an entry requirement (both allowed), so no biomarker row. Normal saline flush is not a registered intervention and not listed. NK-cell persistence/phenotype in resected tumour (Group 2) is planned but relates to the cell therapy, not a candidate, so tumour_pk and target_engagement coded no. Ages include CHILD (>=12 years)."
+}

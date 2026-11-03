@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04766632",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "eligibility", "quote": "Histological diagnosis of WHO grade III or IV glioma, in local recurrence after radiochemotherapy (60Gy/30 sessions + concomitant TEMOZOLOMIDE), postoperatively or exclusively."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named as such only in the brief summary; inclusion says 'WHO grade III or IV glioma', which counts as historical glioblastoma under D27C, otherwise this would be high_grade_glioma_unspecified."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] Brain PET-CT of 18F-DOPA: PET-CT is a nuclear medicine exam with radiopharmaceutical injection of 18F-DOPA for the patient"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Contribution of Cerebral 18F-DOPA PET-CT Scan in High-grade Recurrent Gliomas"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Brain PET-CT of 18F-DOPA",
+      "active_moiety": "18f-fluorodopa",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "PET-CT is a nuclear medicine exam with radiopharmaceutical injection of 18F-DOPA for the patient"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET tracer (6-fluoro-[18F]-L-dihydroxyphenylalanine), diagnostic imaging for radiotherapy target delineation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["one group: patients with high grade glioma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Phase NA imaging study; 18F-DOPA PET is registered as a Device and used only for re-irradiation target delineation, listed as diagnostic_agent. No pharmacological candidate. Population: WHO grade III or IV glioma at recurrence; 'grade IV glioma' without IDH requirement treated as historical glioblastoma (D27C), hence mixed_glioma_gbm_named. Arm label recorded as 'one group: patients with high grade glioma' (the registry text before the colon is 'one group')."
+}

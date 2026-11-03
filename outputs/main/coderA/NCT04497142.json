@@ -1,0 +1,78 @@
+{
+  "nct_id": "NCT04497142",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants must have radiologic evidence of anaplastic astrocytoma or glioblastoma multiforme within 14 days of enrollment."},
+      {"field": "conditions", "quote": "Glioma, Malignant; Surgery; Seizures"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "It will evaluate whether an antiseizure medication decreases hyperexcitability activity around tumors and prevents seizures."},
+      {"field": "detailed_description", "quote": "Perampanel is expected to decrease abnormal brain activity and prevent seizures by blocking AMPA receptor signaling."},
+      {"field": "outcomes", "quote": "Seizure-free rates were assessed from the time of initial glioma resection to radiographic tumor progression or up to a maximum of 12 months."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Pilot Study of Perampanel on Peritumoral Hyperexcitability and Seizure Control in Newly Diagnosed High Grade Glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Perampanel",
+      "active_moiety": "perampanel",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Perampanel is expected to decrease abnormal brain activity and prevent seizures by blocking AMPA receptor signaling."},
+        {"field": "outcomes", "quote": "Peritumoral hyperexcitability was measured by intraoperative electrocorticography (ECoG) high frequency oscillation (80-500 Hz) rate over 10 minutes within 1 cm of the contrast-enhancing margin at the time of initial glioma resection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "antiseizure medication, AMPA receptor antagonist",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Perampanel"]
+    },
+    {
+      "agent_name_registered": "Standard of Care",
+      "active_moiety": "levetiracetam",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Standard of Care (other names: Standard treatment (typically the anti-seizure medication levetiracetam)): Predetermined standard of care drug and dosing"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "standard antiseizure medication (typically levetiracetam); exact drug not fixed",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard of Care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Perampanel's stated purposes are reduction of peritumoral hyperexcitability (ECoG HFO rate) and seizure prevention; no antitumour hypothesis or antitumour outcome is stated, so coded supportive (rule 2) and trial fails S6. The HFO endpoint is a pharmacodynamic measure for perampanel but perampanel is not a candidate, so target_engagement_planned coded no. Standard-of-care comparator is 'typically levetiracetam'; moiety not fixed. Population includes anaplastic astrocytoma and glioblastoma multiforme (historical terminology)."
+}

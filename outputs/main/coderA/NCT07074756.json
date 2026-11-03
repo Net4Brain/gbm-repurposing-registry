@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT07074756",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; Recurrent Glioma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "SUBSTUDY 1: Diagnosis of recurrent glioblastoma and intention to treat with bevacizumab"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "II. Determine the efficacy, as measured by the 4-month progression free survival (PFS) rate, of propranolol and imipramine, when used in combination with bevacizumab for the treatment of recurrent glioblastoma. (Subprotocol 1: PRIME)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "NOTE: Patient may be enrolled following completion of surgery and/or radiation therapy for newly diagnosed or recurrent tumor."},
+      {"field": "eligibility", "quote": "SUBSTUDY 1: Diagnosis of recurrent glioblastoma and intention to treat with bevacizumab"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Propranolol",
+      "active_moiety": "propranolol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "GROUP A: Patients receive propranolol orally (PO) twice daily (BID) and standard of care (SOC) bevacizumab intravenously (IV) every 3 weeks of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "non-selective beta-adrenergic blocker (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol 1 Group A (propranolol, bevacizumab)"]
+    },
+    {
+      "agent_name_registered": "Imipramine",
+      "active_moiety": "imipramine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "GROUP B: Patients receive imipramine PO once daily (QD) and SOC bevacizumab IV every 3 weeks of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tricyclic antidepressant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol 1 Group B (imipramine, bevacizumab)"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Patients with recurrent glioblastoma receiving bevacizumab on the GHoST Master Protocol as assigned by their treating physician are randomized to 1 of 2 groups."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody, standard of care for recurrent GBM",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Subprotocol 1 Group A (propranolol, bevacizumab)", "Subprotocol 1 Group B (imipramine, bevacizumab)"]
+    },
+    {
+      "agent_name_registered": "Chemotherapy",
+      "active_moiety": "unspecified chemotherapy",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients also receive standard of care chemotherapy as assigned by their treating physician as part of the platform on study."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "physician-assigned standard-of-care systemic chemotherapy for glioma (unnamed; lomustine mentioned in outcomes)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GHoST Master Protocol (remote chemotherapy management)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Master protocol (digital remote-monitoring platform, any glioma, SOC chemotherapy, registry phase NA) plus randomised Subprotocol 1 (PRIME) in recurrent GBM: propranolol + SOC bevacizumab vs imipramine + SOC bevacizumab. Each subprotocol arm has one investigational agent -> experimental_monotherapy; neither arm is a control. Registry data error: Group A arm lists 'Drug: Imipramine' and not bevacizumab among its interventions; arm/description text shows Group A receives propranolol + bevacizumab, so arms assigned per text. treatment_setting 'both' because master protocol enrols newly diagnosed or recurrent glioma; the candidate substudy is recurrent GBM only. No antitumour mechanism stated for propranolol or imipramine."
+}

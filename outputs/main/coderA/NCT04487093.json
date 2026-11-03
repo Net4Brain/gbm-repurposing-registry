@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT04487093",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Non Small Cell Lung Cancer"},
+      {"field": "eligibility", "quote": "Histologically confirmed locally advanced or metastatic non-small-cell lung cancer (stage III or stage IV)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a phase I clinical study of individualized neoantigen peptide vaccine combined with targeted drugs in the treatment of EGFR mutant non-small cell lung cancer aimed to evaluated the safety and immune response of the neoantigen vaccine treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "neoantigen vaccine + EGFR-TKI",
+      "active_moiety": "neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Patients received subcutaneous injection of individualized neoantigen peptides vaccine at a dose of 200ug per peptide once a week for 5 weeks."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalised neoantigen peptide cancer vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoantigen vaccine + EGFR-TKI", "neoantigen vaccine + anti-angioge"]
+    },
+    {
+      "agent_name_registered": "neoantigen vaccine + EGFR-TKI",
+      "active_moiety": "unspecified egfr tyrosine kinase inhibitor",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "First generation EGFR-TKI treatment is in progress, the treatment time is 5-6 months and there is no disease progression."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "first-generation EGFR tyrosine kinase inhibitor, ongoing background therapy, agent not named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoantigen vaccine + EGFR-TKI"]
+    },
+    {
+      "agent_name_registered": "neoantigen vaccine + anti-angioge",
+      "active_moiety": "unspecified anti-angiogenic agent",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "neoantigen vaccine + anti-angioge: neoantigen vaccine + anti-angioge"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-angiogenic targeted drug, agent not named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["neoantigen vaccine + anti-angioge"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "With EGFR-TKI sensitive mutations and no T790M."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "NSCLC trial; glioblastoma mentioned only in brief summary as background. Only investigational agent is a personalised neoantigen peptide vaccine (excluded type). EGFR-TKI and anti-angiogenic drugs are background targeted therapy already used per label, not named. EGFR mutation is an NSCLC entry requirement linked to the background TKI, not to a candidate. Setting for NSCLC is maintenance during ongoing first-line TKI (not GBM-applicable), coded unclear."
+}

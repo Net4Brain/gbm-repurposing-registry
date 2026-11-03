@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05741242",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "1\\. Patients who are within 6 months of diagnosis and have detectable disease as determined by investigator assessment at the start of vaccine administration."},
+      {"field": "eligibility", "quote": "Glioblastoma"},
+      {"field": "conditions", "quote": "Cancer; Solid Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Personalized Synthetic Long Peptide Vaccine: Personalized Synthetic Long Peptide Vaccine"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "1\\. Patients who are within 6 months of diagnosis and have detectable disease as determined by investigator assessment at the start of vaccine administration."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Personalized Synthetic Long Peptide Vaccine",
+      "active_moiety": "neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Personalized Synthetic Long Peptide Vaccine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalised neoantigen synthetic long peptide cancer vaccine (NeoSLP)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Personalized Synthetic Long Peptide Vaccine"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Multi-cohort neoantigen peptide vaccine study (pancreatic, glioblastoma, basket cohorts); glioblastoma is a named cohort heading in the inclusion criteria -> basket_gbm_eligible. Vaccine only: excluded intervention type, no candidate. Treatment setting coded from the glioblastoma cohort (within 6 months of diagnosis = newly diagnosed); the basket cohort is not GBM-specific. FOLFIRINOX is ongoing therapy only in the pancreatic cohort and not a registered intervention; not listed. NTRK/RET/MSI/BRCA mentioned only as advice for pancreatic patients, not entry requirements; not recorded."
+}

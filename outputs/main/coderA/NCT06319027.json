@@ -1,0 +1,96 @@
+{
+  "nct_id": "NCT06319027",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-Wildtype"},
+      {"field": "eligibility", "quote": "Patient must have newly diagnosed GBM (must be IDH wild type), with pathologic proof, based on World Health Organization (WHO) 2021 criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase II trial studies whether different imaging techniques can provide additional and more accurate information than the usual approach for assessing the activity of tumors in patients with newly diagnosed glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient must be planning to receive standard-of-care treatment for newly diagnosed glioblastoma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fluciclovine F18",
+      "active_moiety": "18f-fluciclovine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients with evidence of disease progression then undergo MR spectroscopy or receive fluciclovine F18 IV and undergo PET scan within 12 weeks of SOC radiation therapy completion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F amino-acid PET tracer (Axumin), diagnostic imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic (DSC-MRI, fluciclovine F18 PET, MR spectroscopy)"]
+    },
+    {
+      "agent_name_registered": "Gadolinium-Chelate",
+      "active_moiety": "gadolinium-based contrast agent",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Gadolinium-Chelate (other names: Gadolinium Coordination Complex, Gadolinium-based Contrast Agent, Gadolinium-Chelant Complex): Receive gadolinium-based contrast agent"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MRI contrast agent, specific chelate not stated",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic (DSC-MRI, fluciclovine F18 PET, MR spectroscopy)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient must have newly diagnosed GBM (must be IDH wild type), with pathologic proof, based on World Health Organization (WHO) 2021 criteria."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patient must have O6-Methylguanine-DNA Methyltransferase (MGMT) methylation status ordered at time of registration."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-biomarker diagnostic trial (DSC-MRI, 18F-fluciclovine PET, MRS); no therapeutic drug intervention. SOC chemoradiation is planned but no SOC drug is named, so temozolomide not listed. IDH-wildtype used only to define GBM. MGMT: entry requires that testing be ordered, not a particular status, so coded exploratory_correlative rather than eligibility; adjudicator may prefer eligibility. Imaging markers are not molecular biomarkers."
+}

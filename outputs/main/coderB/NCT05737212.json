@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT05737212",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High-grade Glioma; Recurrent Glioblastoma; Recurrent Anaplastic Astrocytoma; Recurrent Anaplastic Oligodendroglioma"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH wildtype, WHO grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Boronophenylalanine is a boron delivery agent whose antitumour effect needs neutron irradiation (BNCT); counted as a drug-device candidate (device_dependent), but it could also be viewed as part of a radiation modality."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Recurrent High-grade Gliomas"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["neutron irradiation (BNCT)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters(AUClast) of borono-phenylalanine in subjects with recurrent high-grade glioma"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DMX-101 (boronophenylalanine)",
+      "active_moiety": "boronophenylalanine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "500 mg/kg of the study drug is intravenously administered over 3 hours at a constant rate and neutron irradiation starts at 1 hour after the end of the study drug administration"},
+        {"field": "arms", "quote": "Investigational product, boronophenylalanine, DMX-101 500mg/kg/3hr"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "boron-10 carrier (BPA) for boron neutron capture therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1: Radiation dose: 9 Gy-Eq", "Group 2: Radiation dose: 11 Gy-Eq", "Group 3: Radiation dose: 13 Gy-Eq"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "Glioblastoma IDH-wild type, WHO Grade 4"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "BNCT: BPA infusion followed by neutron irradiation (device); coded as drug-device candidate with device_dependent true, regimen combination because neutron irradiation is radiotherapy. Phase IIa recruits IDH-wildtype glioblastoma (brief summary) while Phase I also allows IDH-mutant grade 3/4 gliomas, hence mixed_glioma_gbm_named. The three arms are radiation dose levels with no control. PK sample type not stated (blood concentration is used for irradiation time)."
+}

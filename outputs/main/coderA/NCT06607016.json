@@ -1,0 +1,93 @@
+{
+  "nct_id": "NCT06607016",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "anti_gbm_disease",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Anti-Glomerular Basement Membrane Disease"},
+      {"field": "eligibility", "quote": "Diagnosed with anti-GBM disease. Positive anti-GBM antibodies at screening, with or without ANCA antibody positivity."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "An open-label, single-arm Phase II study to evaluate the preliminary efficacy, safety, pharmacokinetics, pharmacodynamics and immunogenicity of KJ103 in patients with anti-GBM disease."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum observed serum concentration of KJ103 following dosing (Cmax)"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "KJ103 for Injection",
+      "active_moiety": "kj103",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Subjects will administered KJ103 intravenously on D1 and adjunctively on D8"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational IgG-degrading biologic for autoimmune anti-GBM disease (not antitumour)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Group"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "KJ103 +SOC(SoC consists of a standardized combination of PE, Cyclophosphamide, and glucocorticoids)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating immunosuppressant (standard of care for anti-GBM disease)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Group"]
+    },
+    {
+      "agent_name_registered": "Glucocorticoids",
+      "active_moiety": "glucocorticoids (unspecified)",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Glucocorticoids inhibit the inflammation process."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid, unspecified",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "'GBM' here is anti-glomerular basement membrane disease, not glioblastoma; excluded at S5. No antitumour agent: KJ103 is the experimental agent in the arm (role recorded as experimental_monotherapy for its trial role) but it is an autoimmune therapy with no antitumour purpose, so has_eligible_candidate is false. Treatment setting not applicable to a tumour, coded unclear. PK is serum only; PD markers (serum IgG, ANCA) are not antitumour target engagement."
+}

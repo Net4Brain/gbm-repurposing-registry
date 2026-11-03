@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT07585851",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Diffuse Glioma; Diffuse Glioma, Grade I; Diffuse Glioma, Grade II; Diffuse Glioma, Grade III; Diffuse Glioma, Grade IV"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is not named in conditions, title or eligibility (only keywords and description); inclusion rests on 'Diffuse Glioma, Grade IV' in conditions counting as historical glioblastoma."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants receive a single oral dose of ketoconazole 400 mg, administered 4-24 hours prior to scheduled surgery."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "During surgery, drug levels will be measured in tumor tissue and plasma."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Administration of Repurposed Ketoconazole in Glioma Patients"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "inhibition of hexokinase 2 (HK2), curtailing glycolysis",
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole Administration"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Early Phase 1 pre-surgical tumour-penetration study in all-grade primary gliomas. Dexamethasone is mentioned only as optional co-administration within the arm text, not a registered intervention, so it is not listed. Stated mechanism in detailed description: ketoconazole inhibits hexokinase 2 to curtail glycolysis."
+}

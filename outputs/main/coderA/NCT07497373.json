@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT07497373",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histopathologic or radiological confirmed recurrent supratentorial GBM and measurable lesions"},
+      {"field": "eligibility", "quote": "Prior histopathology consistent with the 2021 World Health Organization (WHO) glioblastoma classification."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "Viral shedding:Copy number of JL15003 in blood, throat swab, and fecal samples"},
+      {"field": "interventions", "quote": "[BIOLOGICAL] JL15003 Injection: Single intratumoral administration of JL15003 Injection"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Refractory or relapsed following standard-of-care therapy (surgical resection followed by radiotherapy and concurrent/adjuvant temozolomide);"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "JL15003 Injection",
+      "active_moiety": "oncolytic poliovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "with secondary objectives exploring efficacy and viral shedding"},
+        {"field": "outcomes", "quote": "Viral shedding:Copy number of JL15003 in blood, throat swab, and fecal samples"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "intratumoral oncolytic virus JL15003 (apparently poliovirus-based, CD155-targeted)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single intratumoral administration of JL15003 Injection"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CD155 (poliovirus receptor) expression by IHC",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "CD155 expression confirmed by immunohistochemistry (H-Score ≥1);"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "The record never states the product type, but JL15003 is a biological with planned viral-shedding measurement, a required prior poliovirus boost and CD155 (poliovirus receptor) selection, so it is coded as an oncolytic virus (excluded type); active_moiety is a generic descriptor. CD155 is mechanistically linked to JL15003, but JL15003 is not a candidate, so candidate_matched is false. The required prior poliovirus boost immunization occurs before study entry and is not a registered intervention, so not listed. Contrast agent mentioned only in exclusion criteria; not listed."
+}

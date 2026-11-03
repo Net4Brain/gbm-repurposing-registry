@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT06177964",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Supratentorial Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed recurrent supratentorial glioblastoma (WHO grade 4) (high grade glioma with molecular features of glioblastoma will be eligible)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Lerapolturev (intratumoral) will be dosed at 2x108 TCID50 in 3.0 mL x 2 doses (total dose 4x108 TCID50) by Convection Enhanced Delivery."},
+      {"field": "detailed_description", "quote": "subjects will be randomly assigned to receive either the FDA-approved chemotherapy (lomustine) or the study drug (lerapolturev)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Supratentorial Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Proportion of patients who experience an unacceptable toxicity - Stage 2"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "arms", "quote": "To assess treatment response and/or immunologic responses in the brain, a tissue biopsy of the area infused will be recommended 5 weeks (± 1 week) after the 2nd lerapolturev infusion via CED"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lerapolturev",
+      "active_moiety": "lerapolturev",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "Lerapolturev (PVSRIPO) in GBM"},
+        {"field": "arms", "quote": "This will be followed by subcutaneous injections of lerapolturev in the cervical perilymphatic (CPL) area on the same side as their tumor"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "recombinant oncolytic poliovirus (PVSRIPO), intratumoral CED and cervical perilymphatic injection",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lerapolturev Arm (Stage 1)", "Lerapolturev Arm (Stage 2 - Arm 1)"]
+    },
+    {
+      "agent_name_registered": "Lomustine Pill",
+      "active_moiety": "lomustine",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "Following maximal safe resection of their tumor recurrence subjects will receive Lomustine as a single oral dose of 110 mg/m2 every six weeks for up to 9 cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Lomustone (Stage 2 Arm 2)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Lerapolturev (PVSRIPO) is a recombinant oncolytic poliovirus, so the only investigational agent is an excluded intervention type; lomustine is the comparator-only arm. Poliovirus vaccine booster (IPOL) is a pre-treatment inclusion requirement, not a registered intervention, so not listed. MGMT appears only in an exclusion criterion about prior chemotherapy, not as an entry biomarker."
+}

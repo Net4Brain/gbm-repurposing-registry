@@ -1,0 +1,118 @@
+{
+  "nct_id": "NCT07306299",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, High Grade"},
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Multi-targeted mRNA vaccines encoding the following GBM-associated mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAFV600E, PIK3CAH1047R, IDH1R132H, EGFRvIII"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent or progressive high-grade glioma, defined as a CNS WHO Grade 3-4 glioma confirmed by post-surgical histopathology"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Glioma-related multi-target mRNA vaccines",
+      "active_moiety": "mrna vaccine mv002",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Glioma-related multi-target mRNA vaccines"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multi-target mRNA cancer vaccine (mV002)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["mRNA vaccine treatment group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "H3.3G34R",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically or cytologically confirmed WHO Grade III or IV glioma harboring one or more of the following mutations: H3.3K27M, H3.1K27M, H3.3G34R, BRAF V600E, PIK3CA H1047R, IDH1 R132H, or EGFRvIII."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Glioblastoma is not named in the conditions, title or inclusion criteria (only 'high-grade glioma', WHO grade III or IV, and 'GBM-associated' in the intervention description), so high_grade_glioma_unspecified. The only intervention is an mRNA vaccine (excluded type), so no candidate; the mutation-eligibility biomarkers are not candidate-matched because the vaccine is not a candidate. Ages include CHILD (>=16 y)."
+}

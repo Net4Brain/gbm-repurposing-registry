@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07459101",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Astrocytoma, Grade IV"},
+      {"field": "eligibility", "quote": "glioblastoma or WHO grade 4 astrocytoma (IDH wild type or mutant)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Reduced margins using a dose painting approach"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Deemed clinically appropriate for concurrent chemoradiotherapy (with temozolomide) with definitive/radical intent"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy-only intervention (MR-Linac adaptive dose painting). Temozolomide is mentioned only as expected concurrent chemoradiotherapy (eligibility and description) and is not a registered intervention, so not listed as an agent (R9); a human may reconsider. Single-arm; IDH-mutant explicitly allowed (historical terminology)."
+}

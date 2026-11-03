@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05553041",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma; High Grade Glioma; Glioma, Malignant; Glioma Intracranial; Diffuse Glioma"},
+      {"field": "eligibility", "quote": "Histopathology-proven HGG (WHO grade III-IV) or DMG (WHO grade IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma never named; inclusion allows 'HGG (WHO grade III-IV)', which could be read as historical grade IV glioma (D27C), but this is a paediatric HGG/DMG population without explicit GBM."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "18F-Fluciclovine will be injected via IV prior to Positron emission tomography (PET)-Magnetic resonance imaging (MRI)"},
+      {"field": "detailed_description", "quote": "The overall objective of this current application is to evaluate 18F-fluciclovine PET imaging as a diagnostic biomarker for tumor progression compared to post-treatment changes in pediatric HGG."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants with clinical and/or radiographic suspicion of True progression (TP) or Pseudoprogression (PsP) during radiation but yet to have the initial post-radiation MRI scan."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-Fluciclovine PET-MRI",
+      "active_moiety": "18f-fluciclovine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "18F-Fluciclovine will be injected via IV prior to Positron emission tomography (PET)-Magnetic resonance imaging (MRI)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET imaging tracer (fluciclovine, Axumin)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["18F-Fluciclovine PET-MRI in pediatric HGG or DMG participants"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study in paediatric/young adult (age >1 to <21) HGG and DMG. Only agent is a PET tracer (diagnostic). cns5_terminology coded historical because of 'WHO grade III-IV' grading without IDH; could also be unclear. Treatment setting is suspected progression vs pseudoprogression after radiation, so coded unclear. SUV uptake is an imaging diagnostic endpoint, not a molecular biomarker."
+}

@@ -1,0 +1,160 @@
+{
+  "nct_id": "NCT04421378",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Pathologically confirmed glioblastoma (including all histological variants; documentation to be provided)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Study of Selinexor in Combination With Standard of Care Therapy for Newly Diagnosed or Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with nGBM (Arms A and B) or with rGBM (Arm C)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide", "lomustine", "carmustine", "bevacizumab", "tumor treating fields"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Selinexor",
+      "active_moiety": "selinexor",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is a Phase 1/2 study of selinexor in combination with standard of care (SoC) therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "XPO1 inhibitor (selective inhibitor of nuclear export)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1: Arm A: Selinexor+Radiation Therapy", "Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm C: Selinexor+Lomustine/Carmustine", "Arm D: Selinexor+Bevacizumab", "Arm E: Selinexor+TTField"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with nGBM mMGMT will receive 75 mg/m\\^2 of temozolomide oral capsule QD in combination with 2 Gy RT daily for 5 days per week"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Control: Temozolomide+Radiation Therapy", "Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm B Control: Temozolomide+Radiation Therapy"]
+    },
+    {
+      "agent_name_registered": "Lomustine (CCNU)",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with rGBM uMGMT or mMGMT will receive 110 mg/m\\^2 of lomustine or 200 mg/m\\^2 of Carmustine (substituted if lomustine is not available)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C: Selinexor+Lomustine/Carmustine", "Arm C Control: Lomustine/Carmustine"]
+    },
+    {
+      "agent_name_registered": "Carmustine",
+      "active_moiety": "carmustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with rGBM uMGMT or mMGMT will receive 110 mg/m\\^2 of lomustine or 200 mg/m\\^2 of Carmustine (substituted if lomustine is not available)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, standard of care (IV, substitute for lomustine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C: Selinexor+Lomustine/Carmustine", "Arm C Control: Lomustine/Carmustine"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with rGBM will receive 60-80 mg of selinexor oral tablet QW across dose level -1, 1 and 10 mg/kg of Bevacizumab intravenous (IV) infusion every 2 weeks (Q2W)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody, standard of care in recurrent GBM",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm D: Selinexor+Bevacizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants with nGBM uMGMT will receive 60 to 80 milligram (mg) of selinexor oral tablet once weekly (QW)"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1: Arm A: Selinexor+Radiation Therapy", "Arm A Control: Temozolomide+Radiation Therapy"]
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Participants with nGBM mMGMT will receive 40-80 mg of selinexor oral tablet QW across dose level -1, 1, 2, 2a, 2b and 3a"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm B Control: Temozolomide+Radiation Therapy"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants with mutated isocitrate dehydrogenase (IDH) should be excluded for Phase 2."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Five experimental arms, each selinexor plus a standard backbone (RT, RT+TMZ, lomustine/carmustine, bevacizumab, TTFields), so selinexor is the only investigational agent in each. Bevacizumab, lomustine and carmustine are used as backbone in the selinexor arms (no schedule/dose question), so soc_backbone. Radiotherapy and TTField device are not listed as agents. IDH-mutant exclusion applies only to Phase 2. Plasma Cmax only: tumour PK no."
+}

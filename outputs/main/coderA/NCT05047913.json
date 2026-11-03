@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT05047913",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor; Cervical Cancer"},
+      {"field": "eligibility", "quote": "Adult (\\> 18 years old) patients with newly diagnosed or recurrent high grade glioma with newly confirmed pathology (within 1 month)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] 18F-FTX: The radioactive tracer (FAZA) (interventions: Drug: 18F-FTX)"},
+      {"field": "brief_summary", "quote": "To investigate the relationship between dynamic MRI, brain tumor perfusion (DSC) and permeability (DCE), and dynamic 18F-FAZA PET uptake."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "patients with newly diagnosed or recurrent high grade glioma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FTX",
+      "active_moiety": "18f-fluoroazomycin arabinoside",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] 18F-FTX: The radioactive tracer (FAZA) (interventions: Drug: 18F-FTX)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled hypoxia PET imaging tracer (fluoroazomycin arabinoside, FAZA); isotope 18F",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["18F-FTX"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "To investigate the relationship between tumors with greater hypoxia defined by qBOLD and 18F-FAZA PET and pathological features including proportionate necrosis, Ki-67 and IDH mutation status"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging-only Early Phase 1 study of 18F-FAZA PET in high grade glioma and cervical cancer; glioblastoma is not named anywhere, so high_grade_glioma_unspecified. Only intervention is a diagnostic PET tracer; no candidate. Gadolinium MRI contrast is mentioned but is not a registered intervention, so not listed (R9). IDH mutation status listed as exploratory correlative from the secondary objective in the brief summary (no outcome entry); Ki-67 is routine histology and not recorded. Active moiety named as tracer with isotope since it is a diagnostic form; development name in record is 18F-FTX."
+}

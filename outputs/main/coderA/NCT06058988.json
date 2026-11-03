@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT06058988",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Cancer; Glioblastoma; Metastatic Cancer; Leptomeningeal Metastasis; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Pathologically-documented glioblastoma; or"},
+      {"field": "arms", "quote": "Cohort C: Participants with recurrent glioblastoma requiring neurosurgical resection/biopsy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to find out how much tratuzumab deruxtecan (T-DXd) can penetrate the tumor when injected into the body, and whether T-DXd may be an effective treatment for brain cancers that express the HER2 protein."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Cohort C: Recurrent glioblastoma"},
+      {"field": "eligibility", "quote": "Metastatic cancer that:"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate the brain tumor penetration of trastuzumab deruxtecan (T-DXd) and its payload (DXd) in Her2+/Her2-low/Her2-mutant brain metastases and of Her2-expressing glioblastoma."},
+      {"field": "outcomes", "quote": "Concentrations will be presented as brain tumor:plasma ratios across brain lesions, using intraoperative plasma concentrations"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Trastuzumab deruxtecan",
+      "active_moiety": "trastuzumab deruxtecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "All participants will receive T-DXd prior to indicated brain tumor resection/biopsy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HER2-directed antibody-drug conjugate (topoisomerase I inhibitor payload DXd)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A", "Cohort B", "Cohort C"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HER2 (ERBB2) expression or activating ERBB2 mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "trastuzumab deruxtecan",
+      "source_quote": {"field": "arms", "quote": "Participants with Her2-expressing or solid tumors with activating ERBB2 mutations with 1 or more CNS metastases requiring neurosurgical resection/biopsy with no prior T-DXd"},
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A", "Cohort B"]
+    }
+  ],
+  "coder_notes": "Window-of-opportunity trial in brain metastases (HER2-expressing/ERBB2-mutant, cohorts A and B) plus recurrent glioblastoma (cohort C); glioblastoma named in conditions, inclusion and arm label, so basket_gbm_eligible. HER2 is required only for the metastasis cohorts; the glioblastoma inclusion criterion has no HER2 requirement, although the brief summary and primary outcome refer to 'Her2-expressing glioblastoma'. HER2 is the target of T-DXd, so matched. Treatment setting: recurrent GBM cohort plus metastatic cancer (advanced) = recurrent. Three experimental cohorts, none a control, so control_arm_from_other_arms = no."
+}

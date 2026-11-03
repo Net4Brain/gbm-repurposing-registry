@@ -1,0 +1,19 @@
+{"nct_id":"NCT05495295","coder_id":"A","manual_version":"1.4",
+"screening":{"gbm_population":"basket_gbm_eligible",
+"gbm_population_evidence":[{"field":"conditions","quote":"Malignant Tumor; Advanced Solid Tumor; Glioblastoma Multiforme; Metastatic Cancer"},{"field":"eligibility","quote":"Expansion cohort 1: Patients affected by GBM."}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"title","quote":"First-in-human Trial of PhOx430, a First-in-class Acetylglucosaminyltransferase V Inhibitor, in Advanced Solid Tumours"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"historical"},
+"trial":{"treatment_setting":"recurrent",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Radiologically documented progressive disease after at least one prior treatment for metastatic/advanced disease."}],
+"regimen":"monotherapy","combination_partners":[],"basket":true,"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[{"field":"outcomes","quote":"DOSE ESCALATION SECONDARY OUTCOME #2 (Plasma concentration levels of PhOx430): Plasma concentration levels of PhOx430"}],
+"target_engagement_planned":"yes","target_engagement_planned_evidence":[{"field":"detailed_description","quote":"to characterize the pharmacodynamics (PD) effect of PhOx430 on blood, urine and tumour samples collected before and after treatment;"}]},
+"agents":[
+{"agent_name_registered":"PhOx430","active_moiety":"phox430","role":"experimental_monotherapy","role_evidence":[{"field":"arms","quote":"First-in-human clinical trial of the acetylglucosaminyltransferase V inhibitor PhOx430 in patients with advanced solid tumours."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"investigational oral first-in-class acetylglucosaminyltransferase V (MGAT5) inhibitor","stated_antitumour_mechanism":"acetylglucosaminyltransferase V inhibitor","flag":{"uncertain":false},"arms":["Advanced Solid Tumours"]}],
+"biomarkers":[
+{"biomarker":"other","biomarker_other":"Triple-negative breast cancer (ER/PgR/HER2 negative)","role":"enrichment","candidate_matched":false,"matched_agent":null,"source_quote":{"field":"eligibility","quote":"Expansion cohort 2: Patients with triple-negative breast cancer (TNBC), defined as estrogen receptor (ER) negative (\\< 1% of nuclei reacting for ER in IHC), progesterone receptor (PgR) negative (\\< 1% of nuclei reacting for PgR in IHC)"},"flag":{"uncertain":false},"arms":[]}],
+"coder_notes":"First-in-human basket phase 1; GBM expansion cohort 1 and 'Glioblastoma Multiforme' in conditions (historical terminology). PK is plasma only. Paired pre/post PD on tumour samples is planned (exploratory), so target_engagement_planned = yes; note tumour re-biopsy is not required for GBM patients. Unspecified 'predictive response biomarkers' exploratory objective not listed as a biomarker row. Cohorts are not separate registered arms."}

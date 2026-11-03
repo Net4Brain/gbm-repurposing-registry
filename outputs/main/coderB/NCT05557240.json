@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT05557240",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Neoantigens Phase I Trial in Newly Diagnosed Glioblastoma Patients"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma confirmed by histopathological and imaging evaluation"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Title names glioblastoma, but the inclusion criterion says newly diagnosed high-grade glioma and the conditions field says Glioma, Malignant."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Poly-ICLC（500ug）will be used as immunomodulator with all vaccinations."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only non-vaccine investigational agent is Poly-ICLC, given as immunomodulator/adjuvant with the vaccines; if it is counted as part of the vaccine, no pharmacological candidate remains."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma confirmed by histopathological and imaging evaluation"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "neoantigen peptide vaccines"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Descriptive analysis of induced T-cell immune responses after vaccinations with NeoPep Vaccine1and 2 drug products plus immunomodulators and Stupp standard treatment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NeoPep Vaccine1 plus Poly-ICLC",
+      "active_moiety": "hcmv peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "NPVAC1 drug products are composed of 5 peptides from the HCMV warehouse"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "off-the-shelf peptide cancer vaccine (5 HCMV peptides)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "NeoPep Vaccine2 plus Poly-ICLC",
+      "active_moiety": "personalised neoantigen peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "NPVAC2 drug products are composed 20 peptides de novo synthesized for an individual patient."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "individualised neoantigen peptide cancer vaccine (20 peptides)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "Poly-ICLC",
+      "active_moiety": "poly-iclc",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "will be used as immunomodulator with all vaccinations"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TLR3 agonist immune adjuvant (polyinosinic-polycytidylic acid stabilised with poly-L-lysine and carboxymethylcellulose)",
+      "stated_antitumour_mechanism": "immunomodulator used with all vaccinations",
+      "flag": {"uncertain": true, "reason": "Adjuvant given only with the vaccines; candidate status depends on whether it is treated as an investigational agent in its own right."},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "TMZ (Stupp standard treatment)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient is a candidate for and willing to receive standard CRT with TMZ followed by maintenance TMZ cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "number of tumour neoantigens available for personalised vaccine (>=20 required)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "According to this procedure, the number of candidate neoantigens that can be used to make personalized vaccines is less than 20"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase is NA. Both NeoPep vaccines are excluded intervention types. Poly-ICLC is the only non-vaccine investigational agent and is the sole possible candidate (adjuvant); flagged for adjudication. Neoantigen availability is a vaccine-manufacturing requirement, not matched to a candidate."
+}

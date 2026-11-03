@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT06964815",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; IDH Wild-type and STAT3-positive Glioblastoma"},
+      {"field": "eligibility", "quote": "New histologically confirmed diagnosis of glioblastoma (WHO 2021)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Silibinin as STAT3 inhibitor"},
+      {"field": "arms", "quote": "Silibinin will be continued until disease progression or up to 24 months."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Silibinin is registered as a dietary supplement (Sillbrain sachets); no marketing authorisation as a medicine is stated, so treated as an excluded supplement. If judged pharmacological, the trial would have a candidate."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Silibinin in Association With Concomitant Chemoradiotherapy and Maintenance Temozolomide in STAT3 Positive IDH Wild-type, Newly Diagnosed Glioblastoma Patients"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Silibinin as STAT3 inhibitor (Sillbrain)",
+      "active_moiety": "silibinin",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Each 3.7 g sachet of Sillbrain contains 500 mg silibinin."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "flavonolignan dietary supplement, proposed STAT3 inhibitor",
+      "stated_antitumour_mechanism": "STAT3 inhibitor",
+      "flag": {"uncertain": true, "reason": "Registered as dietary supplement; candidate status depends on whether it counts as a supplement without marketing authorisation."},
+      "arms": ["Silbrain_Experimental Arm"]
+    },
+    {
+      "agent_name_registered": "temozolomide (concomitant and maintenance)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Concomitant radiotherapy (60 gy in 30 fractions) + temozolomide 75mg/mq + placebo 2 sachets/day dissolved in water throughout concomitant treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard-of-care chemotherapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Silbrain_Experimental Arm", "Placebo_Control Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "STAT3 (activated pSTAT3 expression by IHC)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Immunohistochemical positivity of activated STAT3 (pSTAT3) expression on the tumor tissue sample."},
+      "flag": {"uncertain": true, "reason": "pSTAT3 is mechanistically linked to silibinin (STAT3 inhibitor), but silibinin is coded as an excluded supplement, not a candidate; would be candidate-matched if silibinin were a candidate."},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "IDH Wild-type and STAT3-positive Glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "stratification",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "MGMT methylation status (methylated Vs non-methylated)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Placebo is not listed as an agent. Silibinin is registered as Dietary Supplement and the record gives no marketing authorisation; coded excluded_intervention_type, which makes the trial fail S6. Adjudicator should confirm. IDH-wildtype is stated in the title and conditions rather than a dedicated eligibility bullet."
+}

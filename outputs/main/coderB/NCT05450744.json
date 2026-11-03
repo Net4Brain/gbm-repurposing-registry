@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT05450744",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neoplastic Disease; Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Have histologically confirmed intracranial glioblastoma (per WHO 2021 definition) following surgical resection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "to evaluate the safety of ascending radioactive dose levels of 131I-TLX101 administered intravenously in combination with best standard of care in newly diagnosed GBM patients"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "131I-TLX-101 for Treatment of Newly Diagnosed Glioblastoma (IPAX-2)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "131I-IPA",
+      "active_moiety": "tlx101",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to evaluate the safety of ascending radioactive dose levels of 131I-TLX101 administered intravenously in combination with best standard of care"},
+        {"field": "interventions", "quote": "131I-IPA: injection/solution administrated intravenously via infusion in ascending doses"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "iodine-131 labelled radiopharmaceutical (131I-IPA / 131I-TLX101)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["131I-TLX101 + standard of care"]
+    },
+    {
+      "agent_name_registered": "18F-FET",
+      "active_moiety": "18f-fet",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "18F-FET: injection/solution administrated intravenously"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "fluorine-18 PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["131I-TLX101 + standard of care"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (Stupp regimen; not a registered intervention)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Plan to begin chemoradiation therapy 3-6 weeks after surgical resection with Stupp regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["131I-TLX101 + standard of care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Development code first written in the record is 131I-TLX-101 / 131I-TLX101 (title, arm label); registered intervention name is 131I-IPA. Moiety coded tlx101 without isotope per W1. 18F-FET appears only as an 'other name' of the registered intervention; listed as a diagnostic agent row. Temozolomide listed because the Stupp regimen is required for every patient."
+}

@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT06797661",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma; Astrocytoma"},
+      {"field": "eligibility", "quote": "patients in the study include prior imaging showing a potentially resectable intra-cerebral mass lesion. Patient has to be included before surgery, chemotherapy and radiation"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This research project aims at investigating the mechanisms of NVU by using a multimodal noninvasive imaging approach in neurosurgical patients."},
+      {"field": "arms", "quote": "(interventions: Diagnostic Test: Functional MRI; Diagnostic Test: FDG-PET; Diagnostic Test: Structural MRI)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient has to be included before surgery, chemotherapy and radiation"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FDG-PET",
+      "active_moiety": "fludeoxyglucose (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "will be ask to also undergo a brain FDG-PET , the dose is set at 2 Mega becquerel per Kg."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-fluorodeoxyglucose PET imaging tracer",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioma patient"]
+    },
+    {
+      "agent_name_registered": "gadovist",
+      "active_moiety": "gadobutrol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "T1 with contrast agent (gadovist)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioma patient"]
+    },
+    {
+      "agent_name_registered": "gaz mix (5%CO2 21%O2 74%N2)",
+      "active_moiety": "carbon dioxide",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "11 minutes of Functional MRI alternating breathing Air-Room and gaz mix (5%CO2 21%O2 74%N2)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "inhaled CO2 gas mixture for hypercapnia challenge (cerebrovascular reactivity mapping)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Glioma patient"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA imaging physiology study (neurovascular uncoupling) with no therapeutic agent; fails S3 at the code layer anyway. Glioblastoma named in conditions; inclusion is any resectable intracerebral mass, so coded mixed_glioma_gbm_named. cns5 because the record cites the WHO 2021 classification (in outcomes). Treatment setting coded newly_diagnosed because patients are enrolled before surgery, chemotherapy and radiation, though no treatment is studied. Hypercapnic gas mix listed as diagnostic agent (carbon dioxide); O2/N2 components not listed separately."
+}

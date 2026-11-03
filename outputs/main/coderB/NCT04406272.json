@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT04406272",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Intravenously administered type of gene therapy that works by blocking the process of blood-vessel creation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First or second progression of glioblastoma/gliosarcoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "Evaluate Early Immunologic Pharmacodynamic Parameters for the Viral Cancer Therapy Ofranergene Obadenovec (VB-111)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "VB11",
+      "active_moiety": "ofranergene obadenovec",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Intravenously administered type of gene therapy that works by blocking the process of blood-vessel creation."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "adenoviral anti-angiogenic gene therapy (VB-111)",
+      "stated_antitumour_mechanism": "VB-111 works by targeting and damaging the blood vessels that grow and nourish cancerous tumors leading to tumor starvation.",
+      "flag": {"uncertain": false},
+      "arms": ["Before and After Surgery", "After Surgery"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants evidencing disease progression may initiate bevacizumab at a pre-determined dose as needed for supportive care"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Before and After Surgery", "After Surgery"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-infiltrating T cell density (TCR sequencing)",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Tumor infiltrating T cell (TIL) density is defined as the number of T lymphocytes per nucleated cell"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "VB-111 (ofranergene obadenovec) is registered as a gene therapy, hence an excluded intervention type and no candidate. Bevacizumab is described as given at progression 'for supportive care' with no antitumour hypothesis, coded supportive although it is also an established GBM therapy. Placebo ('Other: Placebo', IV solution with no medicine) not listed as an agent. Group C ('After Surgery Standard of Care') is labelled EXPERIMENTAL but functions as the control. Registered outcome says TIL analysis was not performed; target engagement coded from the planned design."
+}

@@ -1,0 +1,37 @@
+{
+  "nct_id": "NCT06439420",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Brain Tumor; Glioblastoma; Astrocytoma; Oligodendroglioma; Meningioma; Primary Central Nervous System (CNS) Lymphoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CBT-I is a non-pharmacological approach to treating sleep disturbance"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Primary brain tumor diagnosis (grade I-IV)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural intervention (CBT-I) for insomnia in brain tumour patients; no drug. Glioblastoma named in conditions among several brain tumour types, so coded mixed_glioma_gbm_named (non-glioma types such as meningioma and CNS lymphoma are also eligible)."
+}

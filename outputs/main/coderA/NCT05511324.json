@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05511324",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma"},
+      {"field": "eligibility", "quote": "FCGs (e.g., spouse/partner, parent, adult child) of patients diagnosed with HGG receiving any form of cancer treatment (including palliative intent) at MDACC."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "These sessions will involve simulation-based, caregiving skill training, and your caregiver will be taught skills to help support you (such as feeding, hygiene, mobility, medication administration, and care coordination)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "patients diagnosed with HGG receiving any form of cancer treatment (including palliative intent) at MDACC."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural caregiver skills-training study (Phase NA); no drugs. Population is high-grade glioma; glioblastoma not named. The detailed description mentions a wait-list control (WLC) group in Trial 2, but the registered OTHER arms are a baseline assessment and the caregiver intervention; neither is clearly a control arm, so control_arm_from_other_arms coded no (could be yes if the baseline-assessment arm is the WLC)."
+}

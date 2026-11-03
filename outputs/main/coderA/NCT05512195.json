@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05512195",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "histologically confirmed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] New delineation approach: New delineation approach"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Eligible patients received chemoradiotherapy (CRT) ( PTV-GTV: 60Gy at 2.0Gy per fraction, 5 fractions per week for 6 weeks; PTV-CTV: 54Gy at 1.8Gy per fraction, 5 fractions per week for 6 weeks) with a Temozolomide (TMZ) regimen"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "with a Temozolomide (TMZ) regimen（75mg/m2 per day during RT）, followed by 6 additional cycles of TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard Stupp chemoradiotherapy backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["New delineation approach （NDA）group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy target-delineation trial (phase NA). Temozolomide is not a registered intervention but every patient receives Stupp chemoradiotherapy per the description; listed as soc_backbone. Setting inferred as newly diagnosed from standard concurrent and adjuvant TMZ chemoradiotherapy; not explicitly stated."
+}

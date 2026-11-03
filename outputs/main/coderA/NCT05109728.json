@@ -1,0 +1,145 @@
+{
+  "nct_id": "NCT05109728",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Group 3 - Recurrent GB: Participants with recurrent glioblastoma will receive \\[177Lu\\]Lu-DOTA-TATE as single agent therapy every 3 weeks +/- 2 days"},
+      {"field": "title", "quote": "A Dose Finding Study of [177Lu]Lu-DOTA-TATE in Newly Diagnosed Glioblastoma in Combination With Standard of Care and in Recurrent Glioblastoma as a Single Agent."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Dose Finding Study of [177Lu]Lu-DOTA-TATE in Newly Diagnosed Glioblastoma in Combination With Standard of Care and in Recurrent Glioblastoma as a Single Agent."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Time activity curves (TACs), describing percentage (%) of the activity injected vs time in blood, organs and tumor lesions"},
+      {"field": "outcomes", "quote": "Absorbed radiation doses of \\[177Lu\\]Lu-DOTA-TATE in organs and tumor lesions will be summarized with descriptive statistics."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-DOTA-TATE",
+      "active_moiety": "lutetium (177lu) oxodotreotide",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Group 3 - Recurrent GB: Participants with recurrent glioblastoma will receive \\[177Lu\\]Lu-DOTA-TATE as single agent therapy every 3 weeks +/- 2 days"},
+        {"field": "interventions", "quote": "[177Lu]Lu-DOTA-TATE (other names: Lutathera, Lutetium (177Lu)oxodotreotide, Lutetium Lu 177dotatate)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 (177Lu) labelled somatostatin receptor (SSTR) agonist radioligand therapy (Lutathera, oxodotreotide/DOTATATE)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 - Newly diagnosed GB", "Group 3 - Recurrent GB"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-DOTA-TATE",
+      "active_moiety": "68ga-dotatate",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "each participant will be assessed for somatostatin receptor (SSTR) expression by \\[68Ga\\]Ga-DOTA-TATE imaging PET/scan."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 (68Ga) labelled DOTATATE SSTR PET imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 - Newly diagnosed GB", "Group 3 - Recurrent GB"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with newly diagnosed glioblastoma will receive \\[177Lu\\]Lu-DOTA-TATE every 4 weeks +/- 2 days, starting 7 to 10 days prior to initiation of Radiotherapy (RT) and Temozolomide (TMZ)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard of care backbone in newly diagnosed group)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 - Newly diagnosed GB"]
+    },
+    {
+      "agent_name_registered": "2.5% Lysine - Arginine amino acid (AA) solution",
+      "active_moiety": "lysine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "An infusion of sterile 2.5% Lysine - Arginine amino acid (AA) solution will be co-administered with each \\[177Lu\\]Lu-DOTA-TATE dose for renal protection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "amino acid infusion for renal protection during radioligand therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 - Newly diagnosed GB", "Group 3 - Recurrent GB"]
+    },
+    {
+      "agent_name_registered": "2.5% Lysine - Arginine amino acid (AA) solution",
+      "active_moiety": "arginine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "An infusion of sterile 2.5% Lysine - Arginine amino acid (AA) solution will be co-administered with each \\[177Lu\\]Lu-DOTA-TATE dose for renal protection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "amino acid infusion for renal protection during radioligand therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 - Newly diagnosed GB", "Group 3 - Recurrent GB"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "somatostatin receptor (SSTR) expression by [68Ga]Ga-DOTA-TATE PET uptake",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "lutetium (177lu) oxodotreotide",
+      "source_quote": {"field": "eligibility", "quote": "\\[68Ga\\]Ga-DOTA-TATE uptake by positron emission tomography/computed tomography (PET/CT) or PET/MRI at the tumor region"},
+      "flag": {"uncertain": true, "reason": "SSTR target expression is assessed by PET imaging only (manual excludes imaging-only markers unless a biomarker endpoint); uptake is an entry requirement for Group 3 only, so it may or may not count as a candidate-matched enrichment biomarker."},
+      "arms": ["Group 3 - Recurrent GB"]
+    }
+  ],
+  "coder_notes": "Active moiety given as the INN form stated in the record ('Lutetium (177Lu)oxodotreotide'); isotope also in drug_class_hint; script may normalise to oxodotreotide. Temozolomide (registered as Other) and radiotherapy are the SOC backbone in Group 1 only; Group 3 is single-agent 177Lu-DOTATATE. Lysine-arginine renal protection solution is not a registered intervention but every dose is co-administered with it; listed as two supportive components. SSTR expression: every participant is assessed by 68Ga-DOTATATE PET at screening, but tumour uptake is an explicit inclusion criterion only under the Group 3 recurrent criteria, hence enrichment for Group 3. MGMT appears only in keywords, not in eligibility/design/outcomes, so not recorded. Tumour PK coded yes because tumour-lesion time-activity curves and absorbed dose (imaging dosimetry) quantify drug activity in tumour; blood PK also planned. No pharmacodynamic/target-modulation measurement stated (68Ga PET used for target expression at screening, not modulation)."
+}

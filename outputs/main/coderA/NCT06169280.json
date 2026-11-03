@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06169280",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; New Diagnosis Tumor"},
+      {"field": "eligibility", "quote": "Diagnosis of a high-grade glioma (WHO grade 3 or grade 4)."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Eligibility is 'high-grade glioma (WHO grade 3 or grade 4)' without naming glioblastoma; grade 4 glioma could be read as historical glioblastoma (D27C), which would make it mixed_glioma_gbm_named."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] NSC-CRAd-S-pk7: NSC-CRAd-S-pk7 1·50 x 10⁸ NSCs loaded with1·875 x viral particles administered intra-tumorally on Day 0 and Day 15, then every 4 weeks for up to 6 total doses."},
+      {"field": "detailed_description", "quote": "standard chemoradiotherapy will be initiated consisting of daily radiotherapy (2 Gy per fraction x 30 fractions) and concomitant temozolomide (TMZ) chemotherapy (75 mg/m2 daily from day 1 of RT until last day of RT)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Repeated Neural Stem Cell Based Virotherapy for Newly Diagnosed High Grade Glioma"},
+      {"field": "eligibility", "quote": "Prior radiation therapy to the brain or prior treatment for brain tumor."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NSC-CRAd-S-pk7",
+      "active_moiety": "neural stem cell-delivered oncolytic adenovirus",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "neural stem cell (NSC)-conditionally replicative adenovirus (CRAd)-survivin (S)-protomer (p)k7"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "NSC-CRAd-S-pk7: neural stem cells loaded with conditionally replicative oncolytic adenovirus (survivin promoter, pk7 fiber); cell-based virotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NSC-CRAd-S-pk7"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "As per standard of care, approx. 4 weeks after end of radiotherapy, patients will start maintenance TMZ chemotherapy (150 - 200 mg/m2, daily x 5 every 28 days)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NSC-CRAd-S-pk7"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only investigational product is a neural stem cell-delivered oncolytic adenovirus (excluded type: cell therapy/oncolytic virus). Temozolomide is standard chemoradiation and maintenance given to every patient (not a registered intervention). TTFields is a device and not listed. Glioblastoma is not named anywhere in the record; S6 fails regardless of the S5 decision."
+}

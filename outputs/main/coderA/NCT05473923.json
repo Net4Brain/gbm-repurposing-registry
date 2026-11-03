@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05473923",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent High Grade Glioma"},
+      {"field": "eligibility", "quote": "The resected recurrent gliomas was identified as WHO III~IV Glioma by histologic pathology"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "WHO grade IV glioma is eligible without IDH requirement (D27C historical GBM name would apply to grade 4 glioma), but grade II-III gliomas are also eligible and glioblastoma is never named; mixed_glioma_gbm_named is possible."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients will be treated with FDA-approved chemotherapeutic or targeted drugs which were recommended by the molecular tumor board (MTB), based on their expertise, patients willingness as well as evidences from PTCs-drug screening and bioinformatic prediction for drug response."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent and respectable gliomas, and have been neurosurgically resected"}
+    ],
+    "regimen": "unclear",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Receiving chemotherapeutic or targeted drugs recommended by molecular tumor board.",
+      "active_moiety": "unspecified_approved_panel",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "These drugs included all the FDA-approved drugs that have been used in treating gliomas."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "FDA-approved chemotherapeutic or targeted drugs used in gliomas, single drug or combination chosen by molecular tumour board from patient-derived tumour-like cell cluster (PTC) drug screening and bioinformatic prediction; no drugs named",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Receiving chemotherapeutic or targeted drugs recommended by molecular tumor board."]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour genomic sequencing and PTC ex vivo drug screening used to select therapy",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The amount of resected tumors is not enough for genomic sequencing or PTCs drug screening"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (phase 0/1) precision-medicine trial. Coded as C13 unspecified approved-drug panel. 'FDA-approved drugs that have been used in treating gliomas' may include established GBM therapies (temozolomide, lomustine, bevacizumab), so the panel could be established-therapy-only; not resolvable from the record. Genomic sequencing/PTC screening guides individual drug choice but is not an entry selection by a defined biomarker; coded exploratory_correlative. cns5 historical because WHO grade IV glioma named without IDH requirement."
+}

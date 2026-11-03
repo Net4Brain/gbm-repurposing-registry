@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT06113705",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven glioblastoma multiforme wild type for IDH1-2 mutation"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "design", "quote": "a pilot prospective interventional clinical trial using a novel 18F-GE-180 PET radio-metabolic marker (AxMP) and MRI with advanced sequences with no modification of standard of care treatment"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Before surgery and starting the standard treatment with RT and chemotherapy, all subjects will undergo baseline MRI and 18F-GE-180 PET imaging"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-GE-180 PET",
+      "active_moiety": "18f-ge-180",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "PET examination of glioblastoma using 18F-GE-180 PET radio-metabolic marker"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled TSPO PET tracer (GE-180), diagnostic radiopharmaceutical",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    },
+    {
+      "agent_name_registered": "temozolomide (standard treatment)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "standard treatment with radiotherapy and chemotherapy"},
+        {"field": "eligibility", "quote": "Patient eligible to undergo treatment with TMZ and RT (Stupp protocol or hypofractionated protocol as per Institutional Multidisciplinary Brain Tumor Board's decision)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically proven glioblastoma multiforme wild type for IDH1-2 mutation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "with MGMT promoter methylated or unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic/biomarker study, no antitumour candidate. Temozolomide is not a registered intervention but all patients receive standard Stupp/hypofractionated treatment per physician; listed as soc_backbone. MGMT is mentioned only as 'methylated or unmethylated' (not an entry requirement); coded as exploratory."
+}

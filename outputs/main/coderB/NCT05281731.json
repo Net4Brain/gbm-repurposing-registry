@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05281731",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Ultrasound combined with microbubbles to facilitate sampling of biomarkers from brain tumors via blood-based liquid biopsy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Must be newly diagnosed with a lesion in the brain with imaging characteristics consistent with glioblastoma multiforme."},
+      {"field": "eligibility", "quote": "Patients with recurrent GBM who are planning to undergo surgical resection or laser ablation of the recurrent tumor."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Definity® (Definity® microbubbles)",
+      "active_moiety": "perflutren",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "a standard ultrasound contrast agent (microbubbles) is injected intravenously"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast agent (lipid-shelled perflutren microbubbles)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Sonobiopsy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA tumour-specific variants (liquid biopsy)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Number of matched mutations between the post-sonobiopsy sample and the tumor tissue sample"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic sonobiopsy (focused ultrasound with microbubbles) for liquid biopsy; no therapeutic agent. Definity is registered as a Device but is an ultrasound contrast agent, listed as diagnostic_agent. ctDNA is the diagnostic endpoint rather than a biomarker for a therapy."
+}

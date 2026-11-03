@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05303467",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "History of a histologically confirmed diagnosis of glioblastoma per 2021 WHO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] TheraSphere GBM (other names: TheraSphere™ GBM Y-90 Glass Microspheres (TheraSphere GBM)): Single treatment of TheraSphere GBM device"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Feasibility Study to Evaluate the Safety of the TheraSphere Glioblastoma (GBM) Device in Patients With Recurrent GBM"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "The only intervention is the TheraSphere GBM Y-90 glass microsphere system, registered as a Device (endovascular radiotherapy); treated as device/radiotherapy and not listed as an agent, so no pharmacological candidate. Four parallel experimental groups differ by hemisphere/eloquence, none is a control."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT07387666",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed with no prior surgery, radiation, chemotherapy, or other tumor-treating agent"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Drugs like Acetadote, which affect the level of damage in a cell (oxidative stress), may impact brain tumor metabolism and slow the growth of brain tumors."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Acetadote 150 mg/kg IV"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Prospective, Open-label Phase 0 Single-center Study to Assess the Effect of Acetadote on Metabolism in Newly Diagnosed Glioblastoma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "The effect of Acetadote on glioblastoma metabolism in resected tumor tissue will be measured by Liquid chromatography-mass spectrometry (LCMS)."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The effect of Acetadote on glioblastoma metabolism will be assessed by measuring cysteine, glutathione, and lactate in glioblastoma through MRS."},
+      {"field": "outcomes", "quote": "The effect of Acetadote on glioblastoma metabolism in resected tumor tissue will be measured by Liquid chromatography-mass spectrometry (LCMS)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Acetadote",
+      "active_moiety": "acetylcysteine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Acetadote will be administered at a dose of 150 mg/kg IV over 60 minutes."},
+        {"field": "brief_summary", "quote": "This goal of this clinical trial is to evaluate how Acetadote affects metabolism in patients with glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "N-acetylcysteine IV (Acetadote; paracetamol overdose antidote, antioxidant)",
+      "stated_antitumour_mechanism": "affects oxidative stress; may impact brain tumor metabolism and slow the growth of brain tumors",
+      "flag": {"uncertain": false},
+      "arms": ["Acetadote 150 mg/kg IV"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour cysteine, glutathione and lactate (MRS) and tumour tissue metabolites (LCMS)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "acetylcysteine",
+      "source_quote": {"field": "outcomes", "quote": "The effect of Acetadote on glioblastoma metabolism will be assessed by measuring cysteine, glutathione, and lactate in glioblastoma through MRS."},
+      "flag": {"uncertain": false},
+      "arms": ["Acetadote 150 mg/kg IV"]
+    }
+  ],
+  "coder_notes": "Early Phase 1 (phase 0) window study of IV acetylcysteine (Acetadote) before resection in newly diagnosed GBM; translational subset. Stated antitumour hypothesis (oxidative stress, tumour metabolism). Tumour cysteine/glutathione by MRS and tissue LCMS are framed as metabolic (pharmacodynamic) effects, not as drug concentration; tumour_pk_planned coded no, though tumour cysteine could be read as a drug-derived level (adjudicator may consider unclear). No radiotherapy or other drug in the arm -> monotherapy."
+}

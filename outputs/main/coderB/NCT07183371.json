@@ -1,0 +1,162 @@
+{
+  "nct_id": "NCT07183371",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malaria,Falciparum"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "title", "quote": "A Study to Assess the Experimental Malaria Vaccines R78C and RH5.1 With Matrix-M in Combination With R21/Matrix-M"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "R21",
+      "active_moiety": "r21 malaria vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "R21: A protein particle comprising recombinant HBsAg fused to the central repeat and the C-terminus of the circumsporozoite protein"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "malaria vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 2 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "RH5.1",
+      "active_moiety": "rh5.1 malaria vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "RH5.1: A soluble protein vaccine against the RH5 antigen"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "malaria vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 2 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "R78C",
+      "active_moiety": "r78c malaria vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "R78C: A soluble RIPR EGF-CyRPA fusion protein vaccine"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "malaria vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (n=120) children 5-36 months", "Group 2 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "Matrix-M™",
+      "active_moiety": "matrix-m",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Matrix-M™: A saponin-based vaccine adjuvant"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "saponin-based vaccine adjuvant",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (n=120) children 5-36 months", "Group 2 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "Rabivax-S",
+      "active_moiety": "rabies vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Rabivax-S is an inactivated, freeze-dried, single-dose vaccine."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "inactivated rabies vaccine (control)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 1 (n=120) children 5-36 months", "Group 3 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "Menveo",
+      "active_moiety": "meningococcal vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Menveo is a tetravalent meningitis vaccine that consists of one vial of MenA powder and one vial of Men CWY solution."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetravalent meningococcal vaccine (control)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 3 (n=120) children 5-36 months"]
+    },
+    {
+      "agent_name_registered": "Avaxim 80",
+      "active_moiety": "hepatitis a vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Avaxim 80 is an inactivated, adsorbed hepatitis A vaccine."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "inactivated hepatitis A vaccine (control)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group 3 (n=120) children 5-36 months"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Malaria vaccine trial in healthy children in Burkina Faso; not oncology. 'GBM' appears only as a hepatitis A virus strain name. All products are vaccines/adjuvant (excluded type), listed for transparency."
+}

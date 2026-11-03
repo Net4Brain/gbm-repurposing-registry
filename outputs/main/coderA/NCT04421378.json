@@ -1,0 +1,156 @@
+{
+  "nct_id": "NCT04421378",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Pathologically confirmed glioblastoma (including all histological variants; documentation to be provided) that are newly diagnosed (for Arms A and B) or relapsed disease (for Arm C, D and E)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a Phase 1/2 study of selinexor in combination with standard of care (SoC) therapy for newly diagnosed glioblastoma (nGBM) or recurrent glioblastoma (rGBM)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study of Selinexor in Combination With Standard of Care Therapy for Newly Diagnosed or Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide", "lomustine", "carmustine", "bevacizumab", "TTFields (device)"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 1a and 1b: Maximum Plasma Concentration (Cmax) of Selinexor: Cmax of Selinexor was reported."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "RP2D was determined based on the totality of the available safety, efficacy, pharmacokinetic/pharmacodynamic (PK/PD)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Selinexor",
+      "active_moiety": "selinexor",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "will independently evaluate 3 different combination regimens in 3 treatment arms in patients with nGBM (Arms A and B) or with rGBM (Arm C)."},
+        {"field": "interventions", "quote": "[DRUG] Selinexor (other names: KPT-330, XPOVIO): Dose and Formulation: 20 milligram (mg); Tablet Route of Administration: Oral"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "XPO1 (exportin-1) inhibitor, approved for haematological malignancies",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1: Arm A: Selinexor+Radiation Therapy", "Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm C: Selinexor+Lomustine/Carmustine", "Arm D: Selinexor+Bevacizumab", "Arm E: Selinexor+TTField"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Arm B: evaluating the combination of selinexor with radiation therapy and temozolomide (TMZ) (S-TRT) in nGBM participants with methylated-O6-methylguanine-DNA-methyltransferase (mMGMT)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A Control: Temozolomide+Radiation Therapy", "Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm B Control: Temozolomide+Radiation Therapy"]
+    },
+    {
+      "agent_name_registered": "Lomustine (CCNU)",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Arm C: evaluating the combination of selinexor with lomustine (or carmustine, if lomustine is not available) (S-L/C) in rGBM participants regardless of MGMT status"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C: Selinexor+Lomustine/Carmustine", "Arm C Control: Lomustine/Carmustine"]
+    },
+    {
+      "agent_name_registered": "Carmustine",
+      "active_moiety": "carmustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants with rGBM uMGMT or mMGMT will receive 110 mg/m\\^2 of lomustine or 200 mg/m\\^2 of Carmustine (substituted if lomustine is not available) capsule on Day 1 of each cycle in a 42-day cycle for all cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent, established GBM therapy (substitute for lomustine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm C: Selinexor+Lomustine/Carmustine", "Arm C Control: Lomustine/Carmustine"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Arm D: evaluating the combination of selinexor with bevacizumab in rGBM participants regardless of MGMT status"},
+        {"field": "title", "quote": "A Study of Selinexor in Combination With Standard of Care Therapy for Newly Diagnosed or Recurrent Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody, established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm D: Selinexor+Bevacizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "Arm A: evaluating the combination of selinexor with radiation therapy (S-RT) in nGBM participants with uMGMT"},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 1: Arm A: Selinexor+Radiation Therapy", "Arm A Control: Temozolomide+Radiation Therapy", "Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy", "Arm B Control: Temozolomide+Radiation Therapy"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Participants with mutated isocitrate dehydrogenase (IDH) should be excluded for Phase 2."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Selinexor is the only investigational agent in each experimental arm (on different SoC backbones) -> experimental_monotherapy; trial regimen combination. Temozolomide is in control only for Arm A (uMGMT) and backbone in Arm B; lomustine/carmustine and bevacizumab are SoC partners (Arm D has no registered control). MGMT status defines Arm A (unmethylated) vs Arm B (methylated) -> enrichment, not candidate-matched. IDH-mutant excluded for Phase 2 only; cns5 coded on that basis although 'Glioblastoma Multiforme' also appears (historical). PK/PD mentioned only generically for RP2D; only plasma Cmax specified -> tumour PK no, target engagement no."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05383872",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma; Liquid Biopsy"},
+      {"field": "eligibility", "quote": "suspected new or recurrent glioblastoma tumor on pre-operative brain imaging scans"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "BBB opening via Exablate Type 2 system with microbubble resonators and drawing blood before and after opening"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "suspected new or recurrent glioblastoma tumor on pre-operative brain imaging scans"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DEFINITY/DEFINITY RT (microbubble resonators)",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Known sensitivity/allergy to gadolinium or DEFINITY/DEFINITY RT,"},
+        {"field": "interventions", "quote": "BBB opening via Exablate Type 2 system with microbubble resonators and drawing blood before and after opening"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ultrasound contrast microbubbles used for focused-ultrasound BBB opening",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Exablate BBBD"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Device-only trial (focused ultrasound BBB disruption for liquid biopsy). The only drug is microbubble contrast (DEFINITY) which is not a registered drug intervention; listed as delivery-enabling for transparency (BBB opening, no drug delivered). No antitumour agent."
+}

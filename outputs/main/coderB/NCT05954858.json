@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT05954858",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioma, Malignant; Glioblastoma; Glioblastoma Multiforme; Glioblastoma Multiforme, Adult; High Grade Glioma; GBM; Brain Cancer"},
+      {"field": "title", "quote": "Surgical Tissue Flap to Bypass the Blood Brain Barrier in Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Surgical tissue autograft of pedicled temporoparietal fascial (TPF) or pericranial flap into the resection cavity of newly diagnosed glioblastoma multiforme (GBM) patients."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "Use of a pedicled autologous piece of tissue called the temporoparietal fascial (TPF) flap or pericranial flap into the resection cavity of newly diagnosed glioblastoma multiforme (GBM) patients"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical procedure only (tissue autograft flap); no drug or biologic intervention registered."
+}

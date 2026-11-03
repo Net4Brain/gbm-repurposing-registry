@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06160206",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma; Recurrent WHO Grade 4 Glioma"},
+      {"field": "eligibility", "quote": "Recurrent World Health Organization (WHO) grade IV glioblastoma. Note: Any number of recurrences are allowable. Glioblastoma (GBM) variants and molecular GBM are allowed"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase II trial tests how well retifanlimab with bevacizumab and hypofractionated radiotherapy, compared to bevacizumab and hypofractionated radiotherapy alone, works in treating patients with glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Retifanlimab with Bevacizumab and Hypofractionated Radiotherapy for the Treatment of Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab", "hypofractionated radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "To assess the anti-glioma immune response before and after retifanlimab including assessment of immune cells phenotyping, function and activation in the pre-/post-treatment blood, and changes in cytokine levels over time."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Retifanlimab",
+      "active_moiety": "retifanlimab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive retifanlimab IV over 30 minutes on day 1 and bevacizumab IV on day 1 and 15 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as retifanlimab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A (Retifanlimab, bevacizumab and HFRT)"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients receive bevacizumab IV on day 1 and 15 of each cycle. Treatment repeats every 28 days for up to 2 years in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": "Bevacizumab is in a class of medications called antiangiogenic agents. It works by stopping the formation of blood vessels that bring oxygen and nutrients to tumor.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm A (Retifanlimab, bevacizumab and HFRT)", "Arm B (Bevacizumab and radiation)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Arm B (bevacizumab + HFRT) is registered EXPERIMENTAL but is the control group per the primary objective ('vs. the control group treated with bevacizumab and HFRT'), so control_arm_from_other_arms = yes. Bevacizumab given identically in both arms -> soc_backbone. 'WHO grade IV glioblastoma' / 'WHO Grade 4 Glioma' with no IDH requirement -> historical. Target engagement coded yes on the correlative pre/post blood immune-response objective. Epacadostat is mentioned only in an exclusion (allergy) criterion and is not a registered intervention; dexamethasone only in eligibility; neither listed."
+}

@@ -1,0 +1,115 @@
+{
+  "nct_id": "NCT06552260",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically confirmed IDH-wildtype glioblastoma, WHO Grade 4, and variants including gliosarcoma as per WHO 2021 criteria (38)."},
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma; Brain Tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This research study is studying troriluzole as a possible treatment for recurrent glioblastoma."},
+      {"field": "interventions", "quote": "Tripeptide prodrug of Riluzole, 100 mg capsule, taken orally per protocol."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent or progressive disease with no more than 2 prior relapses."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor Tissue Concentration of Troriluzole by MALDI-MSI: MALD-MSI analysis for concentration of troriluzole in resected tumor tissue of participants who received presurgical troriluzole"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Concentrations of Extracellular Glutamate in Resected Tissue by MALDI-MSI"},
+      {"field": "outcomes", "quote": "Protein Levels of Phosphorylated AMPA Receptor Subunits (e.g. GluA2) in Resected Tissue"},
+      {"field": "outcomes", "quote": "The effect of troriluzole on high-gamma band power (a measure of neuronal activity) via electrocorticography during surgical resection"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Troriluzole",
+      "active_moiety": "troriluzole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This research study is studying troriluzole as a possible treatment for recurrent glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "prodrug",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tripeptide prodrug of riluzole (glutamate modulator; riluzole licensed for ALS); BHV-4157",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Group A: Presurgical Troriluzole", "Group B: Surgery + Troriluzole"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Tumor is documented as IDH1/2 wildtype by direct DNA sequencing, provided that it is performed in a CLIA/CAP-certified laboratory."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "extracellular glutamate in resected tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "troriluzole",
+      "source_quote": {"field": "outcomes", "quote": "Concentrations of Extracellular Glutamate in Resected Tissue by MALDI-MSI"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "phosphorylated AMPA receptor subunits (GluA2) in resected tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "troriluzole",
+      "source_quote": {"field": "outcomes", "quote": "Protein Levels of Phosphorylated AMPA Receptor Subunits (e.g. GluA2) in Resected Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NLGN3 protein in resected tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Protein Levels of NLGN3 in Resected Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Ki-67 proliferation in resected tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Proliferation Rate (Ki-67) in Resected Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (translational subset). Window-of-opportunity trial; both registered arms are EXPERIMENTAL and receive troriluzole post-surgery, but Group B receives no presurgical troriluzole and serves as the comparison group for the presurgical tissue/ECoG endpoints, hence control_arm_from_other_arms = yes. Troriluzole is a prodrug of riluzole (formulation_flag prodrug); moiety kept as troriluzole since the INN is given. Glutamate and phospho-GluA2 coded candidate_matched as pharmacodynamic readouts of a glutamate-modulating drug (mechanism not explicitly stated in the record); these are pharmacodynamic rows only and do not affect selection. Pharmacodynamic markers are compared between arms rather than applied to one arm, so arms left empty."
+}

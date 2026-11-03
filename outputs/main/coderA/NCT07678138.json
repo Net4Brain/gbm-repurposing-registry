@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT07678138",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed GBM (WHO Grade IV)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Neoantigen DC Vaccine (YS247) for Glioblastoma"},
+      {"field": "brief_summary", "quote": "The trial aims to evaluate the safety and tolerability of autologous dendritic cell injection sensitized with tumor neoantigens (YS247) in participants with recurrent or progressive glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrence/progression confirmed by MRI after standard therapy (surgery, Stupp protocol)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Neoantigen DC Vaccine (YS247) for Glioblastoma",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Tumor Neoantigen-pulsed Autologous Dendritic Cell Injection (YS247) in Patients with Recurrent or Progressive Glioblastoma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalised tumour neoantigen-pulsed autologous dendritic cell vaccine (YS247), subcutaneous",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoantigen DC Vaccine (YS247) for Glioblastoma"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA. Only intervention is a neoantigen-pulsed autologous dendritic cell vaccine (excluded intervention type). Pharmacodynamic immune monitoring (neoantigen-specific T cells by ELISpot, flow, TCR sequencing) is planned but relates to the excluded vaccine, not a candidate, so target_engagement coded no. Tumour NGS is required to design the personalised neoantigens, not as a biomarker selection, so no biomarker row. 'GBM (WHO Grade IV)' without IDH or WHO edition reference coded cns5 unclear."
+}

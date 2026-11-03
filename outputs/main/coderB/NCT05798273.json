@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT05798273",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Malignant Brain Tumors"},
+      {"field": "eligibility", "quote": "glioma (grade II-IV) showing enhancement on post-contrast MRI"},
+      {"field": "eligibility", "quote": "brain metastases"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Radiopharmacon Contrast agent"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Planned for (re-)resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Radiopharmacon Contrast agent",
+      "active_moiety": "68ga-psma-11",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Radiopharmacon Contrast agent"},
+        {"field": "brief_summary", "quote": "By means of 68Ga-labeled PSMA ligands, investigators are able to non-invasively visualize/quantify PSMA expression"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PSMA ligand PET imaging tracer (PSMA-11)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["intra-arterial injection of [68Ga]Ga-PSMA-11"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "PSMA expression (IHC)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "correlation between SUV and the degree of immunohistochemical PSMA staining"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Non-treatment PET imaging study (phase NA). Glioblastoma appears only in summary/description; eligibility is glioma grade II-IV or brain metastases, so not_glioblastoma. Only agent is the diagnostic tracer. Gadolinium and iodinated contrast appear only in contra-indications and are not listed."
+}

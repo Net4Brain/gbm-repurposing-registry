@@ -1,0 +1,113 @@
+{
+  "nct_id": "NCT04555577",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed World Health Organization (WHO) grade 4 glioma (GBM) or gliosarcoma, IDH wild-type, per WHO 2021 classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Phase I Trial of DNA-PK Inhibitor (PEPOSERTIB ) in Combination With Radiation and Adjuvant Temozolomide in Newly Diagnosed MGMT Unmethylated and Recurrent Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Newly Diagnosed MGMT Unmethylated and Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent GBM only"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Ability of the investigational drug to cross the blood brain barrier will be tested by measuring concentration of the drug within the blood and the resected brain tumor tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "This will be correlated with biomarkers of deoxyribonucleic acid (DNA) damage in brain tumor tissue, blood, and hair follicle."},
+      {"field": "detailed_description", "quote": "To determine the ability of Peposertib to cross the blood brain barrier and to evaluate their pharmacodynamic properties in resected tissue. (Stage II)"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Peposertib",
+      "active_moiety": "peposertib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "Peposertib may further stop the growth of tumor cells by blocking some of the enzymes needed for cell growth."},
+        {"field": "detailed_description", "quote": "This is a dose-escalation study of Peposertib."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational DNA-PK inhibitor (M3814)",
+      "stated_antitumour_mechanism": "DNA-dependent protein kinase (DNA-PK) inhibition with radiation",
+      "flag": {"uncertain": false},
+      "arms": ["Stage I (Peposertib, Radiation therapy, Temozolomide)", "Stage II (Peposertib, Radiation, Temozolomide, Surgery)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "ADJUVANT: Patients receive temozolomide PO QD on days 1-5. Treatment repeats every 28 days for up to 6 cycles in the absence of disease progression or unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stage I (Peposertib, Radiation therapy, Temozolomide)", "Stage II (Peposertib, Radiation, Temozolomide, Surgery)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed World Health Organization (WHO) grade 4 glioma (GBM) or gliosarcoma, IDH wild-type, per WHO 2021 classification"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Documentation of MGMT unmethylated GBM per testing at any Clinical Laboratory Improvement Amendment (CLIA) certified laboratory"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "DNA damage biomarkers (DNA-PK inhibition pharmacodynamics) in tumour, blood and hair follicle",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "peposertib",
+      "source_quote": {"field": "outcomes", "quote": "This will be correlated with biomarkers of deoxyribonucleic acid (DNA) damage in brain tumor tissue, blood, and hair follicle."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "MGMT unmethylated status is required only for the newly diagnosed cohort (recurrent cohort has no MGMT requirement); cohorts are not separate registered arms, so coded enrichment with empty arms. Bevacizumab is permitted at physician discretion in recurrent Stage IIC/D adjuvant phase (eligibility text only, not a registered intervention), not listed. Tumour immune microenvironment alterations after DNA-PK inhibition are an additional correlative outcome."
+}

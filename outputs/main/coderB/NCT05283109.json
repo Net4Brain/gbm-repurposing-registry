@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT05283109",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "ETAPA I: Peptide-based Tumor Associated Antigen Vaccine in GBM"},
+      {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result), MGMT promoter unmethylated (CARIS result) WHO grade IV glioma (e.g., glioblastoma (GBM) or high grade glioma with molecular features of GBM)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Hiltonol® is made up of synthetic (manmade) RNA (ribonucleic acid) and is used as an adjuvant to the vaccine"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only non-vaccine agent is the poly-ICLC adjuvant (Hiltonol); coded as an investigational immune agonist candidate, but it could instead be viewed as an integral part of the excluded vaccine regimen."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result), MGMT promoter unmethylated (CARIS result) WHO grade IV glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["P30-EPS peptide vaccine"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Change in Mean Fold Increase in EphA2- or Survivin- Specific T Cells; Time Frame: Days 1, 22, 84: Amongst all patients"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tumor Associated Antigen Peptide Vaccine P30-EPS Vaccine",
+      "active_moiety": "p30-eps peptide vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Vaccine that includes 3 peptides (EphA2 linked to P30 peptide, pp65 linked to P30 peptide, and Survivin linked to P30 peptide)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tumour-associated antigen peptide cancer vaccine (EphA2, CMV pp65, survivin)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Associated Antigen Peptide Vaccine in Combination with Hiltonol"]
+    },
+    {
+      "agent_name_registered": "Hiltonol (poly-ICLC)",
+      "active_moiety": "poly-iclc",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "used as an adjuvant to the vaccine, meaning it is used with the vaccine to stimulate or enhance the activation of your immune system."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "synthetic dsRNA TLR3 agonist, immune adjuvant",
+      "stated_antitumour_mechanism": "adjuvant to stimulate or enhance activation of the immune system",
+      "flag": {"uncertain": true, "reason": "Adjuvant to an excluded vaccine; candidate status (vs. part of vaccine regimen) could change S6."},
+      "arms": ["Tumor Associated Antigen Peptide Vaccine in Combination with Hiltonol"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result), MGMT promoter unmethylated (CARIS result) WHO grade IV glioma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed Isocitrate dehydrogenase (IDH) wild type (CARIS result), MGMT promoter unmethylated (CARIS result) WHO grade IV glioma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "HLA-A*0201 positivity (germline) and CMV serostatus are not coded as tumour biomarkers. Standard chemoradiation precedes enrollment and is not a registered intervention. Target engagement coded yes on the basis of vaccine-specific T-cell immune response endpoints (pharmacodynamic, blood); these relate to the vaccine/adjuvant regimen."
+}

@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT07392957",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically or radiographically confirmed recurrent CNS WHO grade 4 IDH wild-type glioma following standard of care treatment including radiation, chemotherapy, and/or tumor-treating fields."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is a phase IB/II, open-label study evaluating CTX-009 as monotherapy and in combination with CTX-471."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety and Efficacy of CTX-009 With or Without CTX-471 for Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["ctx-471"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CTX-009",
+      "active_moiety": "tovecimig",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Phase IB Arm 1: CTX-009 monotherapy: CTX-009 will be given intravenously at the assigned dose level on an outpatient basis every 2 weeks of a 28-day cycle."},
+        {"field": "interventions", "quote": "[DRUG] CTX-009 (other names: Tovecimig)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational bispecific antibody (anti-DLL4/VEGF-A), anti-angiogenic",
+      "stated_antitumour_mechanism": "CTX-009 expands on existing anti-angiogenic therapies by ablating key compensatory and resistance mechanisms to bevacizumab",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase IB Arm 1: CTX-009 monotherapy",
+        "Phase IB Arm 2: CTX-009 and CTX-471 combination therapy",
+        "Phase II Expansion Arm 1: CTX-009 monotherapy",
+        "Phase II Expansion Arm 2: CTX-009 and CTX-471 combination therapy"
+      ]
+    },
+    {
+      "agent_name_registered": "CTX-471",
+      "active_moiety": "ctx-471",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "CTX-471 will be given intravenously at a dose of 0.3 mg/kg every 2 weeks (day 1 and day 15)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational agonist anti-CD137 (4-1BB) monoclonal antibody",
+      "stated_antitumour_mechanism": "CTX-471 restores local immune reactivity through activation of costimulatory immune mediators",
+      "flag": {"uncertain": false},
+      "arms": [
+        "Phase IB Arm 2: CTX-009 and CTX-471 combination therapy",
+        "Phase II Expansion Arm 2: CTX-009 and CTX-471 combination therapy"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "recurrent CNS WHO grade 4 IDH wild-type glioma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "CTX-009 (tovecimig) is the only investigational agent in the Arm 1 arms (experimental_monotherapy) but one of two in the Arm 2 arms (experimental_combination there). CTX-471 is investigational only in Arm 2 arms. Regimen coded combination because Arm 2 combines both; Arm 1 is monotherapy. Allocation registered as randomized but all arms experimental; no control arm. IDH-wildtype only defines GBM."
+}

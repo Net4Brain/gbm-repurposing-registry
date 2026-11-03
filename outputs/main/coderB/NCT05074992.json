@@ -1,0 +1,36 @@
+{
+"nct_id":"NCT05074992","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma"},{"field":"eligibility","quote":"Histologically confirmed, newly diagnosed de-novo supratentorial glioblastoma (including gliosarcoma)"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,
+"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"interventions","quote":"Ipilimumab is a monoclonal antibody medication that works to activate the immune system by targeting CTLA-4"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"unclear"},
+"trial":{
+"treatment_setting":"newly_diagnosed",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Histologically confirmed, newly diagnosed de-novo supratentorial glioblastoma (including gliosarcoma)"}],
+"regimen":"combination",
+"combination_partners":["chemoradiotherapy"],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"no",
+"tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no",
+"target_engagement_planned_evidence":[]},
+"agents":[{
+"agent_name_registered":"Ipilimumab",
+"active_moiety":"ipilimumab",
+"role":"experimental_monotherapy",
+"role_evidence":[{"field":"brief_summary","quote":"whether the addition of ipilimumab prior to the current standard treatment of surgery and chemoradiotherapy will improve survival"}],
+"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,
+"drug_class_hint":"anti-CTLA-4 monoclonal antibody",
+"stated_antitumour_mechanism":"activate the immune system by targeting CTLA-4",
+"flag":{"uncertain":false},
+"arms":["Ipilimumab"]}],
+"biomarkers":[],
+"coder_notes":"Single-arm neoadjuvant ipilimumab before surgery and standard chemoradiotherapy. Registered arm lists only ipilimumab; regimen coded combination because standard chemoradiation follows for all patients (C1) - temozolomide is not named so not listed as an agent. Adjudicator may prefer monotherapy if only the registered arm is counted."
+}

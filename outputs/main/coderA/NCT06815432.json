@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT06815432",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Diagnosis of GPC3-positive recurrent glioblastoma with previous resection"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "GPC3-CAR and IL15 will be administered to patients with GPC3-positive glioblastoma."},
+      {"field": "interventions", "quote": "[GENETIC] 15.GPC3-CAR T cells"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis of GPC3-positive recurrent glioblastoma with previous resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "15.GPC3-CAR T cells",
+      "active_moiety": "car t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[GENETIC] 15.GPC3-CAR T cells"},
+        {"field": "brief_summary", "quote": "This study will test T cells genetically engineered with a GPC3-CAR and IL15 (GO-CART T cells) in participants with GPC3-positive brain tumors."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous GPC3-directed CAR T cells co-expressing IL15 and iCasp9 safety switch, intracavitary/intraventricular",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["15.GPC3-CAR T cells"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GPC3 (glypican-3) positivity by immunohistochemistry",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Diagnosis of GPC3-positive recurrent glioblastoma with previous resection planned for repeat resection (as determined by immunohistochemistry)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only intervention is a CAR T-cell product (excluded type). Acetaminophen and diphenhydramine premedication are optional ('may be pretreated') and AP1903 is used only if needed to eliminate T cells; none are registered interventions given to every patient, so not listed (R9). GPC3 eligibility is not candidate-matched because the GPC3-directed agent is a cell therapy. Tumour/CSF sampling for CAR T-cell detection relates to the cell product, not a candidate."
+}

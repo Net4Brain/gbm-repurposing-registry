@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04982926",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Solid Tumor; Glioblastoma; Non-small Cell Lung Cancer; Breast Cancer"},
+      {"field": "eligibility", "quote": "Cohort C: Recurrent or refractory glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "TAS2940 is a small molecule inhibitor of ERBB family proteins HER2 and EGFR. It has not been evaluated in human subjects yet."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Cohort C: Recurrent or refractory glioblastoma"},
+      {"field": "eligibility", "quote": "Have histologically confirmed solid cancer that is locally advanced and metastatic and available standard treatment options have been exhausted"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Evaluation of the maximum observed plasma concentration; time to reach maximum concentration, area under the Concentration-time curve and time it takes for plasma concentration to fall by half its original value (T1/2) of TAS2940"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "to assess the safety, tolerability, pharmacokinetics, pharmacodynamics, and the preliminary antitumor activity of TAS2940"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TAS2940",
+      "active_moiety": "tas2940",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Study participants with solid tumors and EGFR or HER2 aberrations will receive TAS2940 tablets daily at increasing doses until MTD is reached."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "TAS2940, investigational oral small-molecule HER2/EGFR (ERBB family) inhibitor",
+      "stated_antitumour_mechanism": "TAS2940 is a small molecule inhibitor of ERBB family proteins HER2 and EGFR.",
+      "flag": {"uncertain": false},
+      "arms": [
+        "TAS2940 Dose Escalation",
+        "Dose Expansion Non-small Cell Lung Cancer",
+        "Dose Expansion Breast Cancer",
+        "Dose Expansion Gliblastoma",
+        "Dose Expansion Solid tumors"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "tas2940",
+      "source_quote": {"field": "title", "quote": "A Phase 1 Study of TAS2940 in Patients With Locally Advanced or Metastatic Solid Tumors With EGFR and / or HER2 Aberrations"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "HER2 (ERBB2) aberration",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "tas2940",
+      "source_quote": {"field": "eligibility", "quote": "Any solid tumor with EGFR and / or HER2 aberration"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Basket trial; glioblastoma named in conditions, eligibility (Cohort C) and arm label 'Dose Expansion Gliblastoma' (typo in record). The official title restricts the whole study to tumours with EGFR and/or HER2 aberrations; the GBM cohort criterion itself ('Recurrent or refractory glioblastoma') does not restate the EGFR/HER2 requirement, but the GBM arm description says 'select solid tumors characterized by HER2 or EGFR aberrations'. Coded eligibility (whole trial); could alternatively be enrichment, which does not change the primary outcome. HER2-positive breast cancer cohort B is an additional HER2 enrichment. Target engagement coded yes from the stated pharmacodynamic objective; no specific PD measure or sample is described."
+}

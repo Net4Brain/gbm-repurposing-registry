@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT06113705",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically proven glioblastoma multiforme wild type for IDH1-2 mutation with MGMT promoter methylated or unmethylated OR subjects with medical history, clinical sign and symptoms and MRI findings highly consistent with the diagnosis of IDH wild type glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a pilot prospective interventional clinical trial using a novel 18F-GE-180 PET radio-metabolic marker (AxMP) and MRI with advanced sequences with no modification of standard of care treatment"},
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] 18F-GE-180 PET: PET examination of glioblastoma using 18F-GE-180 PET radio-metabolic marker"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "detailed_description", "quote": "Before surgery and starting the standard treatment with RT and chemotherapy, all subjects will undergo baseline MRI and 18F-GE-180 PET imaging, and blood withdrawal for evaluation of plasma biomarkers of inflammation, circulating microvesicles, and RNA."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-GE-180 PET",
+      "active_moiety": "18f-ge-180",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] 18F-GE-180 PET: PET examination of glioblastoma using 18F-GE-180 PET radio-metabolic marker"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "fluorine-18 labelled PET tracer (GE-180, TSPO ligand), diagnostic imaging",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient eligible to undergo treatment with TMZ and RT (Stupp protocol or hypofractionated protocol as per Institutional Multidisciplinary Brain Tumor Board's decision)"},
+        {"field": "detailed_description", "quote": "All study participants will receive the standards of care for GBM."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Experimental Arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically proven glioblastoma multiforme wild type for IDH1-2 mutation with MGMT promoter methylated or unmethylated"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "plasma circulating RNA and extracellular microvesicles / inflammation markers for pseudoprogression",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "interventions", "quote": "[OTHER] Blood withdrawal: blood withdrawal for evaluation of plasma biomarkers of inflammation, circulating microvesicles, and RNA"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic/biomarker study (phase NA) with no investigational drug; standard Stupp or hypofractionated RT+TMZ given per clinical practice, listed as soc_backbone (not a registered intervention). 18F-GE-180 is a registered diagnostic tracer. Gadolinium contrast for routine MRI not listed. MGMT is mentioned only as 'methylated or unmethylated' (no requirement), so not recorded as a biomarker row. IDH-wildtype is a diagnostic entry criterion, never candidate-matched."
+}

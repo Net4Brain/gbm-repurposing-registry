@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT05892653",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Malignant Brain Tumor"},
+      {"field": "eligibility", "quote": "Patients with histologically or cytologically-confirmed, primary malignant brain tumor with (a) failure of prior standard therapy, (b) no standard therapy available"},
+      {"field": "brief_summary", "quote": "Cohort 1: GBM, N = up to 25 patients; Cohort 2: In addition to GBM, other primary malignant brain tumors, N = up to 15 patients."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only in the brief summary (GBM expansion cohort); conditions, title, inclusion criteria and arm label say only primary malignant brain tumor, so per C7/D27B it is not named."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Subjects will be given oral dosing of ABM-1310 twice daily (BID) for 28-day cycles of continuous administration"},
+      {"field": "outcomes", "quote": "Preliminary efficacy of ABM-1310 monotherapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Study of ABM-1310 in Patients With BRAF V600-Mutant Relapsed and Drug Resistant Primary Malignant Brain Tumors"},
+      {"field": "eligibility", "quote": "(a) failure of prior standard therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Exposure analysis of ABM-1310 in cerebrospinal fluid"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ABM-1310",
+      "active_moiety": "abm-1310",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Dose Escalation and Dose Expansion"},
+        {"field": "outcomes", "quote": "Safety and tolerability of ABM-1310 monotherapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral BRAF inhibitor (BRAF V600-directed), development code ABM-1310",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation and Dose Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "BRAF",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "abm-1310",
+      "source_quote": {"field": "eligibility", "quote": "Documentation of positive BRAF V600 mutation is required for enrollment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population: 'primary malignant brain tumor' only in conditions/title/inclusion; GBM cohort appears only in brief summary, so coded not_glioblastoma per C7 (flagged; adjudicator may consider basket/high-grade). BRAF V600 requirement matched to ABM-1310 as the trial is built around BRAF V600-mutant tumours and allows prior BRAF/MEK inhibitors; the record does not explicitly state ABM-1310's mechanism. CSF exposure analysis planned (other outcome)."
+}

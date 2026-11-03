@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT06519682",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Diagnosis: Patients must have a histologically confirmed diagnosis of glioblastoma."},
+      {"field": "conditions", "quote": "High Grade Glioma; Replication Repair Deficient"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This is open label, multicentre, single arm, pilot study of upfront nivolumab in patients with RRD-glioblastoma with favorable immune/genomic biomarkers."},
+      {"field": "interventions", "quote": "All patients will be administered Nivolumab with or without radiation"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Both registered arms are typed ACTIVE_COMPARATOR (no EXPERIMENTAL arm), although nivolumab is the investigational agent of this single-arm pilot; rule 1 (comparator arm only) vs rule 4 could change candidate status."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Prior Therapy: No prior therapy except surgery will be permitted for high grade glioma."},
+      {"field": "brief_summary", "quote": "The purpose of the study is to use upfront immune checkpoint inhibitor (ICI) to delay/avoid radiation for patients with RRD-glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nivolumab",
+      "active_moiety": "nivolumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This is open label, multicentre, single arm, pilot study of upfront nivolumab in patients with RRD-glioblastoma with favorable immune/genomic biomarkers."},
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Domain 1 - Upfront ICI"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (immune checkpoint inhibitor)",
+      "stated_antitumour_mechanism": "immune checkpoint inhibitor (ICI)",
+      "flag": {"uncertain": true, "reason": "Only arms are typed ACTIVE_COMPARATOR; coded as candidate because nivolumab is the investigational agent of the single-arm pilot."},
+      "arms": ["Domain 1 - Upfront ICI", "Domain 2 - Radiation + ICI → maintenance ICI"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "nivolumab",
+      "source_quote": {"field": "eligibility", "quote": "Proof of RRD: By tumor immunohistochemistry showing functional loss of mismatch repair gene expression (MLH1, MSH2, MSH6, PMS2), or based on prior germline testing confirming congenital mismatch repair deficiency (CMMRD) or Lynch syndrome."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PD1 and CD8 positivity (favorable immune markers)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "nivolumab",
+      "source_quote": {"field": "eligibility", "quote": "Favorable immune markers: High PD1 and CD8 positivity as detailed in the lab manual."},
+      "flag": {"uncertain": true, "reason": "PD1/CD8 immune-infiltrate positivity is an entry requirement; judged mechanistically linked to the anti-PD-1 candidate, but it is an immune-contexture marker rather than a classic genomic target."},
+      "arms": []
+    },
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Provide a tumor tissue specimen for molecular profiling, including TMB analysis."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase NA, ages 12 months to 25 years (CHILD+ADULT). Population: conditions say high-grade glioma but inclusion requires histologically confirmed glioblastoma -> gbm_only. Nivolumab is the only drug; both arms (domains) are typed ACTIVE_COMPARATOR though the study is a single-arm pilot of upfront nivolumab, so coded experimental_monotherapy with uncertain flag. Regimen: Domain 1 is nivolumab alone (no RT) and Domain 2 adds radiation; coded combination because radiotherapy is given in a treatment arm - adjudicator may prefer monotherapy (primary question is upfront ICI alone). MMR deficiency may be established by germline testing (CMMRD/Lynch) as an alternative to tumour IHC; recorded as tumour RRD eligibility biomarker matched to nivolumab. TMB analysis is a tissue-submission requirement, coded exploratory_correlative. The summary mentions studying tumour evolution in response to ICI using tissue at progression, but no specific pharmacodynamic endpoint is registered -> target_engagement no."
+}

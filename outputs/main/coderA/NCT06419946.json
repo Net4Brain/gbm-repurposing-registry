@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT06419946",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype; MGMT-Methylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma/gliosarcoma, IDH wild type"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The investigators hypothesize that the addition of LOM to the TMZ regimen will lead to significantly improved survival rates among patients with newly diagnosed glioblastoma who have a methylated MGMT promoter compared to those receiving only TMZ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed glioblastoma/gliosarcoma, IDH wild type"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "arm with temozolomide (TMZ) plus lomustine (LOM) treatment."},
+        {"field": "detailed_description", "quote": "LOM has been used for treatment of glioma for many decades, often used in combination with procarbazine and vincristine (PCV), but in recent years it is used in patients with glioblastoma as 2nd line therapy after failure of TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TMZ/LOM",
+      "drug_class_hint": "nitrosourea alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["treatment arm"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "arms", "quote": "6 cycles of LOM/TMZ Start day 1 of RT. Cycle length of 42 days. Duration 9 months."},
+        {"field": "arms", "quote": "Oral TMZ 75 mg/m2 daily during RT and with start day 1 of RT. This is followed by 6 cycles of TMZ with start 4 weeks after the end of RT. Cycle length 28 days. Duration 8,5 months."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "TMZ/LOM",
+      "drug_class_hint": "alkylating agent (established GBM therapy)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["treatment arm", "standard arm"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Methylated MGMT promoter"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Newly diagnosed glioblastoma/gliosarcoma, IDH wild type"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both drugs are established GBM therapies (D6). Lomustine added to temozolomide (CeTeG/NOA-09-type regimen) is the trial question -> established_therapy_experiment. Temozolomide schedule differs between arms (42-day LOM/TMZ cycles vs standard 28-day TMZ), so coded established_therapy_experiment under R2; in the standard arm it is the control (could alternatively be soc_backbone). Either way no candidate: established_therapy_only. TTFields is a device used in stratification, not an agent. IDH-wildtype listed only as GBM-defining eligibility; MGMT methylation is an entry requirement but linked to the alkylator backbone, not a candidate."
+}

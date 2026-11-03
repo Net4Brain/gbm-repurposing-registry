@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT07243470",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically proven diagnosis of central nervous system (CNS) malignant tumor: IDH-mutant high-grade glioma, other high-grade glioma, or other high-grade CNS tumors."},
+      {"field": "conditions", "quote": "Glioma; CNS Tumor, Adult; CNS Tumor, Childhood"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This clinical trial is a 2-phase trial designed to evaluate the safety of tarlatamab in combination with a fixed dose of metronomic temozolomide in adolescents and adults with CNS tumors"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Confirmed progressive or refractory disease after at least one line of standard therapy containing radiotherapy and for which no further effective standard therapy exists."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To identify biomarkers predictive of tumor response including DLL3 expression during treatment using descriptive statistics and appropriate multivariate models"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tarlatamab",
+      "active_moiety": "tarlatamab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "then tarlatamab at 10mg every D1 \\& D15 of each 4-week cycle thereafter in combination with temozolomide from C2D1."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "DLL3 x CD3 bispecific T-cell engager antibody (approved for small-cell lung cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with IDH-mutant glioma", "Patients with other glioma", "Patients with other CNS tumors"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "It will be administered from the first day of the second cycle, at a dose of 50 mg/m²/day, continuously."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, metronomic schedule",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients with IDH-mutant glioma", "Patients with other glioma", "Patients with other CNS tumors"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "DLL3 expression (IHC)",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "tarlatamab",
+      "source_quote": {"field": "eligibility", "quote": "Tumors expressing DLL3 based on IHC staining performed on archival tumor sample i.e. at least 1+ on IHC"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "DLL3 expression during treatment",
+      "role": "exploratory_correlative",
+      "candidate_matched": true,
+      "matched_agent": "tarlatamab",
+      "source_quote": {"field": "outcomes", "quote": "Exploratory analyses in tumor will be performed in an effort to understand the association of DLL3 expression with treatment response."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "Patients with IDH-mutant glioma"},
+      "flag": {"uncertain": false},
+      "arms": ["Patients with IDH-mutant glioma"]
+    }
+  ],
+  "coder_notes": "Glioblastoma is not named in conditions, title, inclusion criteria or arm labels; 'other high-grade glioma' likely includes glioblastoma but per C7 the trial is high_grade_glioma_unspecified (excluded at S5). Mixed age (>=12 years). Metronomic temozolomide is given at the same fixed dose in all cohorts and coded soc_backbone; tarlatamab is the investigational agent. DLL3 expression during treatment is an exploratory predictive analysis, coded target_engagement no (not framed as target modulation); adjudicator may consider unclear. The interventions quote contains a literal backslash before the ampersand as in the record."
+}

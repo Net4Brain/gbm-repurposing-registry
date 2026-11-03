@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT06253234",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "WHO Grade III Gliomas; WHO Grade IV Gliomas"},
+      {"field": "eligibility", "quote": "Subjects with histologically or cytologically confirmed WHO grade III-IV gliomas experiencing recurrence or progression after standard treatment."}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only in the brief summary ('adult GBM patients'), not in conditions, title, inclusion criteria or arm labels; grade III-IV gliomas are eligible, so the D27B naming rule decides screening."},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] personalized dendritic cell injection ZSNeo-DC1.1 (other names: DC vaccine)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Safety and Efficacy Study for DC Vaccine in Recurrent or Progressive High-grade Gliomas"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "personalized dendritic cell injection ZSNeo-DC1.1",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The autologous genetic-modification-free DC cells will be loaded with multiple tumor neoantigen peptides"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous neoantigen-loaded dendritic cell vaccine",
+      "stated_antitumour_mechanism": "activation of anti-tumor immune response",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment Sequence A", "Treatment Sequence B"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Record is for WHO grade III-IV gliomas; glioblastoma only appears in the brief summary, which does not count under D27B, so high_grade_glioma_unspecified. Both arms are experimental schedules of the same vaccine (no control), allocation NA, single group. Sequencing of tumour samples is used to make the vaccine, not as a selection biomarker."
+}

@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT05887882",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor including, but not limited to, infant-type hemispheric glioma, gliosarcoma, intracranial sarcoma and WHO Grade II ependymoma."},
+      {"field": "conditions", "quote": "Pediatric Brain Tumor; Recurrent Pediatric Brain Tumor; Pediatric Neoplasm"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Universal Donor (UD) Transforming growth factor beta imprinting (TGFβi) Natural Killer (NK) Cells (other names: UD TGFβi NK cells, UD TGFβi NK cell product)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Participants must have a histologically-confirmed recurrent or progressive malignant brain tumor"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Universal Donor (UD) Transforming growth factor beta imprinting (TGFβi) Natural Killer (NK) Cells",
+      "active_moiety": "natural killer cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The TGFβi NK cell product will be manufactured in the Cell Therapy Laboratory at Nationwide Children's Hospital and given via infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic TGF-beta-imprinted NK cell therapy (cell therapy), intratumoral via Ommaya reservoir",
+      "stated_antitumour_mechanism": "Natural killer (NK) cells are immune cells that recognize and get rid of abnormal cells in the body, including tumor cells",
+      "flag": {"uncertain": false},
+      "arms": ["Dose Level 2 (3x10^6) - Starting Dose", "Dose Level 3 (3x10^7)", "Dose Level 4 (3x10^8)"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric/young-adult (1-39 y) recurrent malignant brain tumour trial; gliosarcoma named in inclusion criteria among several brain tumour types (incl. non-glioma sarcoma and ependymoma), coded mixed_glioma_gbm_named (alternatively basket_gbm_eligible; both are include categories). Only intervention is a cell therapy, so excluded at S6. Arms are dose-escalation cohorts, none a control. Exploratory TCR repertoire and NK persistence assessments relate to a cell therapy, not a pharmacological candidate."
+}

@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT06466031",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "MRI+T1C in fusion with FET-PET will be used for tumor resection and/or radiotherapy planning."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Primary tumor, without neurosurgical, radiotherapy or oncology intervention."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FET (FET-PET tracer, within 'MRI & PET fusion')",
+      "active_moiety": "fluoroethyltyrosine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "using amino acid tracers like 18F-fluoroethyl-L-tyrosine (18F-FET)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET tracer (imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Resection and radiotherapy according to the MRI & PET fusion", "Radiotherapy according to the MRI & PET fusion"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging-guided surgery and radiotherapy planning trial; the registered interventions are procedures ('Other: MRI & PET fusion'). The FET tracer is the only drug-like item and is listed as a diagnostic agent for transparency. Stupp temozolomide and 5-ALA are mentioned only as background or in passing and are not listed."
+}

@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT05629702",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histological diagnosis of MGMT promoter methylated, IDH wild type (WT) GBM with consistent local molecular pathology (repeat biopsy at recurrence is NOT required)."},
+      {"field": "title", "quote": "A Randomised Controlled Phase II Trial of Temozolomide With or Without Cannabinoids in Patients With Recurrent Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "outcomes", "quote": "To establish whether the addition of cannabinoids (Nabiximols) to standard TMZ treatment improves overall survival time (OS) in MGMT methylated recurrent GBM compared to the addition of placebo to TMZ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First recurrence of GBM planned for systemic treatment as determined by local Multidisciplinary Team (MDT)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nabiximols",
+      "active_moiety": "dronabinol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The trial will randomise a target number of 120 patients on a 2:1 basis to receive either Nabiximols or Nabiximols-matched placebo, in combination with standard TMZ."},
+        {"field": "interventions", "quote": "[DRUG] Nabiximols (other names: Sativex): Oromucosal spray"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": "nabiximols",
+      "drug_class_hint": "cannabinoid (delta-9-tetrahydrocannabinol component of nabiximols/Sativex; licensed for MS spasticity)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Temozolomide with Nabiximols"]
+    },
+    {
+      "agent_name_registered": "Nabiximols",
+      "active_moiety": "cannabidiol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The trial will randomise a target number of 120 patients on a 2:1 basis to receive either Nabiximols or Nabiximols-matched placebo, in combination with standard TMZ."},
+        {"field": "interventions", "quote": "[DRUG] Nabiximols (other names: Sativex): Oromucosal spray"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": true,
+      "radiopharmaceutical": false,
+      "regimen_id": "nabiximols",
+      "drug_class_hint": "cannabinoid (cannabidiol component of nabiximols/Sativex)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Temozolomide with Nabiximols"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "to compare the cannabinoid Nabiximols with placebo in patients with recurrent MGMT methylated glioblastoma (GBM) treated with temozolomide (TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; standard GBM chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Temozolomide with Nabiximols", "Standard Temozolomide with Nabiximols-matched placebo"]
+    },
+    {
+      "agent_name_registered": "Nabiximols-matched placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Nabiximols-matched placebo: Nabiximols-matched placebo oromucosal spray"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo oromucosal spray",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Standard Temozolomide with Nabiximols-matched placebo"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histological diagnosis of MGMT promoter methylated, IDH wild type (WT) GBM with consistent local molecular pathology (repeat biopsy at recurrence is NOT required)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histological diagnosis of MGMT promoter methylated, IDH wild type (WT) GBM with consistent local molecular pathology (repeat biopsy at recurrence is NOT required)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Nabiximols (Sativex) split into its fixed-dose components dronabinol (THC) and cannabidiol, each experimental_monotherapy per R3. No antitumour mechanism is stated in the record. Temozolomide given in both arms = soc_backbone. Placebo listed as control_comparator. IDH-wildtype used to define GBM; MGMT methylation is an entry requirement but never candidate-matched. Exclusion of BRAF-mutant/PXA-like tumours serves to confirm IDH-WT GBM diagnosis; not recorded as a separate biomarker. Ages include CHILD (age >=16)."
+}

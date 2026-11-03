@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT06439420",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Primary Brain Tumor; Glioblastoma; Astrocytoma; Oligodendroglioma; Meningioma; Primary Central Nervous System (CNS) Lymphoma"},
+      {"field": "eligibility", "quote": "Primary brain tumor diagnosis (grade I-IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CBT-I is a non-pharmacological approach to treating sleep disturbance consisting of educational, behavioral, and cognitive intervention components"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": ">/=1 month post-radiation therapy (if applicable)"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural intervention (telehealth CBT for insomnia) vs enhanced treatment as usual (NO_INTERVENTION arm); no drug or biologic. Population is any primary brain tumour (grade I-IV) incl. meningioma and CNS lymphoma, with Glioblastoma named in conditions; coded mixed_glioma_gbm_named, though basket_gbm_eligible is arguable because non-glioma brain tumours are eligible (both include). Disease setting not specified."
+}

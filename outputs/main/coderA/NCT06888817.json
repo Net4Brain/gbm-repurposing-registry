@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT06888817",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma (III or IV)"},
+      {"field": "eligibility", "quote": "A confirmed histological diagnosis of high-grade diffuse glioma according to WHO 2021 criteria"},
+      {"field": "eligibility", "quote": "diffuse glioma, NEC, grade 3-4; or glioblastoma, IDH-wildtype, grade 4"},
+      {"field": "eligibility", "quote": "BM of solid tumour, including all primary tumour types"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This phase III multicenter, open-label, randomized clinical trial compares the clinical efficacy of first-line bevacizumab versus standard-of-care dexamethasone for sCRN in patients with high-grade glioma (HGG) or BM."},
+      {"field": "eligibility", "quote": "A clear working diagnosis of CRN without evidence of a combination with tumour progression is required"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "First episode of sCRN ≥ 3 months after completion of focal (re-)irradiation, as determined by the local Multidisciplinary Neuro-Oncology Board."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetics bevacizumab and dexamethasone: Bevacizumab and dexamethasone serum and plasma concentrations pre- and post-dose"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "title", "quote": "Bevacizumab Versus Corticosteroids as First-line Treatment in Patients With Symptomatic Cerebral Radiation Necrosis After Radiation for High-grade Glioma or Brain Metastases"},
+        {"field": "brief_summary", "quote": "A small randomized clinical trial (RCT) has shown that bevacizumab significantly diminishes cerebral edema on MRI and decreases clinical symptoms of sCRN in irradiated glioma patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody (established GBM therapy), used here for radiation necrosis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab"]
+    },
+    {
+      "agent_name_registered": "Dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Dexamethasone: Daily oral dexamethasone followed by a protocol-based tapering dose over 12 weeks"},
+        {"field": "detailed_description", "quote": "Patients in the intervention (bevacizumab) arm may use dexamethasone concurrently with bevacizumab if clinically indicated."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Bevacizumab", "Dexamethasone"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Olink Target 96 immuno-oncology blood protein panel",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Immuno-oncology proteins as blood-based biomarkers for (early) treatment response in both treatment arms using Olink Target 96 Immuno-oncology panel"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour-educated platelet RNA profiles",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Platelet RNA profiles as blood-based biomarkers for (early) treatment response in both treatment arms"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Trial treats symptomatic cerebral radiation necrosis (not the tumour) in HGG (WHO 2021 incl. glioblastoma, IDH-wildtype) and brain-metastasis patients. Bevacizumab coded supportive (stated purpose: oedema/symptom control of sCRN; tumour PFS/RANO are secondary outcomes only). Alternative coding would be established_therapy_experiment (bevacizumab in new setting); either way no candidate, but exclusion reason could then be established_therapy_only. Dexamethasone is the active comparator and also allowed in the experimental arm; coded supportive (symptom control in both arms) rather than control_comparator. Treatment setting relative to GBM disease course not stated (post-irradiation), coded unclear. IDH and 1p/19q appear only as WHO 2021 diagnostic categories, not entry requirements, so not listed as biomarkers. PK is serum/plasma only."
+}

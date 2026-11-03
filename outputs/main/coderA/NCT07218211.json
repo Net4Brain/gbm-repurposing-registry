@@ -1,0 +1,55 @@
+{
+  "nct_id": "NCT07218211",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "HIV Prevention; HIV Pre-exposure Prophylaxis; HIV Prevention Program; HIV Prevention and Care; HIV Pre-exposure Prophylaxis Use"},
+      {"field": "brief_summary", "quote": "Latine gay and bisexual men (GBM) and transgender women (TGW)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Culturally-tailored, community-delivered long-acting injectable PrEP (lenacapavir)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lenacapavir long-acting",
+      "active_moiety": "lenacapavir",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Culturally-tailored, community-delivered long-acting injectable PrEP (lenacapavir)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "HIV capsid inhibitor used for pre-exposure prophylaxis",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Long-acting Injectable PrEP (lenacapavir) program"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "'GBM' here means gay, bisexual and other men who have sex with men, not glioblastoma; HIV PrEP implementation study (Phase 4), no tumour population. Lenacapavir has no antitumour purpose; no role in 3.1 fits a non-oncology trial exactly, so it is listed as supportive (non-antitumour use) for transparency. treatment_setting not applicable (coded unclear)."
+}

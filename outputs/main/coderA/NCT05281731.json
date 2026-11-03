@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT05281731",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Must be newly diagnosed with a lesion in the brain with imaging characteristics consistent with glioblastoma multiforme."},
+      {"field": "eligibility", "quote": "Patients with recurrent GBM who are planning to undergo surgical resection or laser ablation of the recurrent tumor."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Ultrasound combined with microbubbles to facilitate sampling of biomarkers from brain tumors via blood-based liquid biopsy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Must be newly diagnosed with a lesion in the brain with imaging characteristics consistent with glioblastoma multiforme."},
+      {"field": "eligibility", "quote": "Patients with recurrent GBM who are planning to undergo surgical resection or laser ablation of the recurrent tumor."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Definity®",
+      "active_moiety": "perflutren",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Ultrasound combined with microbubbles to facilitate sampling of biomarkers from brain tumors via blood-based liquid biopsy"},
+        {"field": "arms", "quote": "a standard ultrasound contrast agent (microbubbles) is injected intravenously, and the probe is turned on for 3 minutes for the sonobiopsy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "perflutren lipid microbubble ultrasound contrast agent (Definity), used off-label for focused-ultrasound sonobiopsy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Sonobiopsy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA / tumour-specific variants (liquid biopsy after sonobiopsy)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "The feasibility of sonobiopsy will be demonstrated by an increase in the amount of ctDNA in the blood samples acquired post than prior sonobiopsy in at least 50% of the patients."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic device study (focused-ultrasound sonobiopsy for liquid biopsy), phase NA; no therapeutic agent. Definity microbubbles are registered as a device but are a drug product (perflutren); listed as diagnostic_agent because their purpose is to release tumour biomarkers into blood for diagnosis, not to deliver a therapeutic. Inclusion list contains 'Low grade tumors and metastatic tumors' and 'Recurrent brain tumors and/or radiation necrosis', apparently misplaced exclusion items; population otherwise defined as suspected newly diagnosed or recurrent GBM."
+}

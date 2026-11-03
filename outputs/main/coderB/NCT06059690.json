@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06059690",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Glycolytic Index; Epidermal Growth Factor Receptor"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed or recurrent glioblastoma clinically indicated for resective surgery"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] pH Measurement of in vivo tissue"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed or recurrent glioblastoma clinically indicated for resective surgery"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "18F-FDG PET (18F-2-fluoro-2-deoxy-D-glucose)",
+      "active_moiety": "fludeoxyglucose f-18",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will undergo FDG-PET scan for the study using standard clinical imaging techniques"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "PET imaging tracer (18F)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MCT (monocarboxylate transporter) expression / glycolytic enzymes",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MCT expression will be quantified within biopsy samples based on immunohistochemistry stain density of percentage positive cells"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Imaging/biopsy biomarker study, no therapeutic agent. FDG is not a registered intervention but the text says every patient receives the FDG-PET, so it is listed as a diagnostic agent (R9 judgement call). 'Epidermal Growth Factor Receptor' appears as a condition keyword only; no EGFR requirement or measurement is described, so no EGFR biomarker row. Arm is registered under the single arm 'Arm I en vivo Glycolic Index measurement' but FDG is not attached to it in the registry, so agent arms is empty."
+}

@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT06279767",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Cancer; Temozolomide"},
+      {"field": "eligibility", "quote": "Patients with recurrent glioblastoma confirmed by MRI after standard treatment (surgery, Stupp regimen) failure, supported by RANO criteria evaluation."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Treatment with a combination of 6-mercaptopurine and temozolomide"},
+      {"field": "brief_summary", "quote": "In this project, we propose an innovative strategy involving the combination of 6-MP with TMZ for the treatment of glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Efficacy and Safety of TMZ Plus 6-MP in the Patients With Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "6-mercaptopurine",
+      "active_moiety": "mercaptopurine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "6-mercaptopurine (6-MP) is a crucial drug in the maintenance phase of acute lymphoblastic leukemia treatment."},
+        {"field": "brief_summary", "quote": "6-mercaptopurine (6-MP) competes effectively to inhibit HPRT1 activity, thereby impeding TMZ-induced AMPK activation and significantly heightening glioblastoma cell sensitivity to TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "purine antimetabolite (antileukaemic)",
+      "stated_antitumour_mechanism": "HPRT1 inhibition blocking TMZ-derived AICAR/AMPK activation, sensitising GBM to temozolomide",
+      "flag": {"uncertain": false},
+      "arms": ["Treatment with a combination of 6-mercaptopurine and temozolomide"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Treatment with a combination of 6-mercaptopurine and temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment with a combination of 6-mercaptopurine and temozolomide"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Temozolomide is not a registered intervention but is named in the single experimental arm label and title (TMZ plus 6-MP), so listed as soc_backbone (temozolomide rechallenge backbone in recurrent disease); 6-MP is the only investigational agent."
+}

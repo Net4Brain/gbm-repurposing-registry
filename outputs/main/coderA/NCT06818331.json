@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06818331",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "WHO grade IV glioma as defined in the \"Integrated Diagnosis and Treatment Guidelines for Glioma of the Chinese Anti-Cancer Association\" (V2.0\\_2025 (20250110))."},
+      {"field": "conditions", "quote": "Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Eligibility is 'WHO grade IV glioma' without an IDH requirement (historical GBM per D27C), but glioblastoma is never named and the cited 2025 guideline likely follows CNS5, under which grade 4 glioma also includes IDH-mutant astrocytoma and other entities (would then be high_grade_glioma_unspecified/not_glioblastoma)."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "Preliminary research by our team has demonstrated that Specific Mode Electroacupuncture Stimulation (SMES) can open the BBB, increasing the concentration of PTX in tumor tissues, peritumoral tissues, and surrounding invasive tissues, thereby exerting antitumor effects."},
+      {"field": "interventions", "quote": "[DRUG] Paclitaxel: Paclitaxel is administered intravenously at a dose of 135-175mg/m², repeated every 3 weeks."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrence confirmed by cranial MRI after surgical resection."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Paclitaxel",
+      "active_moiety": "paclitaxel",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "This intervention involves the combined use of medication and device, where the specific mode electroacupuncture stimulation (SMES) intervention is administered simultaneously with the intravenous infusion of paclitaxel."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "taxane microtubule-stabilising chemotherapy (record also refers to 'ABX' infusion, possibly albumin-bound paclitaxel)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paclitaxel delivered across the BBB opened by specific mode electroacupuncture stimulation (device), so device_dependent true (C12). Arm text mentions 'ABX intravenous infusion' and outcomes 'SMES combined with ABX', suggesting albumin-bound (nab-)paclitaxel; registered as plain paclitaxel so formulation_flag left none. Title says 'malignant glioma' and brief summary 'high-grade gliomas'; inclusion is WHO grade IV glioma per a 2025 Chinese guideline, coded gbm_only/historical per D27C with S5 flag. Tumour drug concentrations are cited from prior research only, not planned in this trial."
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05410301",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed GBM (primary) with unequivocal first progression of disease"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The sBE device produces static magnetic (sB) and electric (sE) fields and is to be used 8 hours a day by the patients, during sleep, for 8 weeks, while also receiving standard chemotherapy Lomustine and Bevacizumab."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have histologically confirmed GBM (primary) with unequivocal first progression of disease"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "while also receiving standard chemotherapy Lomustine and Bevacizumab."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients: sBE device applied during sleep, in combination with Lomustine and Bevacizumab"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "while also receiving standard chemotherapy Lomustine and Bevacizumab."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients: sBE device applied during sleep, in combination with Lomustine and Bevacizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Investigational element is the static magnetic/electric field device; lomustine and bevacizumab are standard background for recurrent GBM with no new dose/schedule. Partner arm (healthy partners) uses the device only. Phase is NA in the registry."
+}

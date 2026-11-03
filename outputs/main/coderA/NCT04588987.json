@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT04588987",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "After biopsy or surgery, the postoperative pathological diagnosis was WHO III-IV glioma."},
+      {"field": "conditions", "quote": "Recurrent High-Grade Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Glioblastoma is named only via 'WHO III-IV glioma' in inclusion (grade IV glioma without IDH = historical GBM per D27C); 'GBM' appears only in the brief summary. Could otherwise be high_grade_glioma_unspecified."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Neoadjuvant PD-1 and Apatinib for rHGG. Adjuvant PD-1 and Apatinib for rHGG"},
+      {"field": "brief_summary", "quote": "The study aim to Evaluate the Safety and efficiency of Using the neoadjuvant therapy with Carilizumab and Apatinib in patients with Recurrent High-Grade Glioma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Neoadjuvant Carilizumab and Apatinib for Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["camrelizumab", "rivoceranib"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "PD-1 (Carilizumab)",
+      "active_moiety": "camrelizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients need to treat with PD-1 and apatinib before surgery. Sequential therapy with PD-1 and apatinib when patients accepted surgery."},
+        {"field": "title", "quote": "Neoadjuvant Carilizumab and Apatinib for Recurrent High-Grade Glioma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (registered as 'Carilizumab'; camrelizumab, SHR-1210)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoadjuvant group", "Adjuvant group"]
+    },
+    {
+      "agent_name_registered": "Apatinib",
+      "active_moiety": "rivoceranib",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Neoadjuvant PD-1 and Apatinib for rHGG. Adjuvant PD-1 and Apatinib for rHGG"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "apatinib; VEGFR2 tyrosine kinase inhibitor (INN rivoceranib)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Neoadjuvant group", "Adjuvant group"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single registered intervention 'PD-1 (other names: apatinib)' covers two agents: an anti-PD-1 antibody named Carilizumab (camrelizumab) in title/conditions/summary, and apatinib. Both arms receive both drugs; the randomised comparison is neoadjuvant vs adjuvant timing, so neither arm is a control. Inclusion criterion mentions 'first dose of nivolumab', apparently a template remnant; nivolumab is not a registered intervention and was not listed. Apatinib moiety given as INN rivoceranib; script mapping should confirm."
+}

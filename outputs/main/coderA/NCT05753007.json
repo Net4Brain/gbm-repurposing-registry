@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT05753007",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Documentation of newly diagnosed glioblastoma, evidenced by neuropathology report and based on World Health Organization (WHO) 2021 classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Custom-formulated full-spectrum solution high in cannabidiol"},
+      {"field": "brief_summary", "quote": "the impact of this product vs. placebo on tumor progression will also be assessed"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Custom full-spectrum hemp-derived CBD product (apparently not a licensed medicine) with a stated antitumour hypothesis and tumour-progression outcome; if treated as licensed cannabidiol it would be a candidate (experimental_monotherapy) and the trial would pass S6."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Documentation of newly diagnosed glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Cannabidiol (CBD)",
+      "active_moiety": "cannabidiol",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "Full-spectrum, hemp-derived, ultra-high CBD solution administered for 8 weeks along with standard of care treatment"},
+        {"field": "brief_summary", "quote": "recent in-vitro and in-vivo work suggests potential cytotoxic and anti-tumor effects of CBD and other cannabinoids"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "custom full-spectrum hemp-derived high-CBD extract (cannabinoid); unlicensed product",
+      "stated_antitumour_mechanism": "potential cytotoxic and anti-tumor effects of CBD and other cannabinoids",
+      "flag": {"uncertain": true, "reason": "Unlicensed hemp-derived CBD extract treated as excluded supplement; stated antitumour hypothesis and tumour-progression outcome would otherwise make it experimental_monotherapy."},
+      "arms": ["Cannabidiol (CBD) Solution Plus Standard of Care (SOC)"]
+    },
+    {
+      "agent_name_registered": "Placebo",
+      "active_moiety": "placebo",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[PLACEBO_COMPARATOR] Placebo: Placebo solution administered for 8 weeks along with standard of care treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "placebo solution",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Placebo"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "who are to undergo SOC (\\~ 6 weeks of treatment) with radiation and temozolomide"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cannabidiol (CBD) Solution Plus Standard of Care (SOC)", "Placebo"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Primary purpose is anxiety (symptom control), but the summary states an antitumour hypothesis and tumour progression vs placebo will be assessed, so rule 2 (supportive) does not apply. The product is a custom full-spectrum hemp-derived CBD extract, which the manual lists as an excluded supplement (CBD extracts not licensed); coded excluded_intervention_type and flagged for adjudication. If accepted as a pharmacological candidate: experimental_monotherapy, regimen combination (radiation + temozolomide backbone). Temozolomide is not a registered intervention but all patients receive SOC chemoradiation. Optune (device) not listed."
+}

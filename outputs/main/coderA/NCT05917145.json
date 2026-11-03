@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05917145",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "Grade 3 or 4 IDH1/2 mutant astrocytoma (2021 WHO classification)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The focus of this project is the development of a radiation sensitizer (a small molecule ATM inhibitor, WSD0628) with the goal to enhance the efficacy of radiation therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Disease progression after previous treatment for glioma with radiation and chemotherapy"},
+      {"field": "title", "quote": "ATM-Inhibitor WSD0628 in Combination With Radiation Therapy for Treatment of Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "an additional 6 patients will have a tissue evaluation of tumor penetrance after a one-time dose of study drug prior to radiosurgery and surgical resection (Phase 0, tumor penetrance cohort)"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Additionally, PK, pharmacodynamic (PD), overall survival, progression-free survival, overall response rate, and patient-reported outcomes will be evaluated."},
+      {"field": "outcomes", "quote": "Evaluate biologic activity measures using rank-based desirability scores (RDS) generated for each of the dose levels"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "WSD0628",
+      "active_moiety": "wsd0628",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A non-toxic compound and inhibits the DNA damage response associated with radiation therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational small-molecule ATM inhibitor (radiosensitizer)",
+      "stated_antitumour_mechanism": "ATM inhibition / DNA damage response inhibition radiosensitizing glioma cells",
+      "flag": {"uncertain": false},
+      "arms": ["Group A (Dose Escalation)", "Group B (Dose Expansion)", "Group C (Tumor Penetrance Treatments)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Grade 3 or 4 IDH1/2 mutant astrocytoma (2021 WHO classification)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Eligible histologies are IDH-wildtype glioblastoma or IDH-mutant grade 3/4 astrocytoma; IDH status defines the diagnosis rather than restricting entry to one IDH group, so IDH row is diagnostic, not candidate-matched. Group C randomizes 1:1 between two WSD0628 dose levels; no control arm. Target engagement coded yes on a stated PD evaluation and mandatory tissue for correlative research; the PD sample type and marker (e.g. ATM inhibition) are not specified in the registered outcomes. Phase registered as PHASE1 though title says Phase 0/I."
+}

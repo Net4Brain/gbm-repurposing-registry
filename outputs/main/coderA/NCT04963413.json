@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT04963413",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of de novo Glioblastoma (WHO Grade IV glioma) by histopathology or molecular studies. (Secondary GBM not eligible)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF"},
+      {"field": "detailed_description", "quote": "All patients will receive Td booster (5 Lf) with Vaccine #1 regardless of booster history."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "GM-CSF is a drug given as part of the dendritic-cell vaccine intervention (adjuvant); coded as part of the excluded vaccine type, but it could be considered a pharmacological candidate."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patient must be receiving adjuvant therapy with Temozolomide at time of enrollment."},
+      {"field": "title", "quote": "for the Treatment of Newly Diagnosed Glioblastoma Patients."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "RENEW: Feasibility of CMV RNA-Pulsed Dendritic Cells Vaccines for the Treatment of Newly Diagnosed Glioblastoma Patients."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DC_vaccine_GM-CSF",
+      "drug_class_hint": "autologous CMV pp65-flLAMP RNA-pulsed dendritic cell vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "GM-CSF",
+      "active_moiety": "gm-csf",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "arms", "quote": "Autologous DCs derived from PBMC loaded with RNA encoding the human CMV matrix protein pp65-flLAMP plus GM-CSF"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DC_vaccine_GM-CSF",
+      "drug_class_hint": "granulocyte-macrophage colony-stimulating factor (recombinant cytokine), vaccine adjuvant; INN not stated",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "GM-CSF is a licensed-type cytokine given as vaccine adjuvant within the registered vaccine intervention; could alternatively be a candidate (experimental_monotherapy)."},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "Td booster",
+      "active_moiety": "tetanus-diphtheria toxoid vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "All patients will receive Td booster (5 Lf) with Vaccine #1 regardless of booster history."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetanus-diphtheria toxoid vaccine (site preconditioning for DC vaccine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient must be receiving adjuvant therapy with Temozolomide at time of enrollment."},
+        {"field": "detailed_description", "quote": "Patients may complete up to 6 to 12 adjuvant cycles every 5 weeks with pp65 full-length RNA-pulsed DCs administered at day 22-24 of each cycle"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (GBM standard of care, ongoing adjuvant)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Autologous DCs derived from PBMC loaded with RNA"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Feasibility pilot of CMV pp65 RNA-pulsed DC vaccine during adjuvant temozolomide. DC vaccine and Td booster are excluded intervention types. GM-CSF is part of the registered vaccine intervention (adjuvant) and was coded excluded_intervention_type with uncertain flag; if adjudicated as a pharmacological candidate, S6 would pass. 'WHO Grade IV glioma' without IDH requirement -> cns5_terminology historical. CMV pp65 is a vaccine antigen, not recorded as a tumour biomarker. Temozolomide timing is adjusted around vaccines (cycles every 5 weeks) but it is ongoing standard adjuvant therapy, not the question -> soc_backbone."
+}

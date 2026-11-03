@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT04315584",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Known or suspected recurrent malignant brain tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[RADIATION] Fludeoxyglucose F-18 (other names: FDG, 18 FDG, fludeoxyglucose F 18, 2-F18-fluoro-2-deoxy-D-glucose, 2-F18-fluoro-2-deoxyglucose): IV (intravenous) administration of radiotracer"},
+      {"field": "detailed_description", "quote": "The primary objective will be to evaluate the diagnostic accuracy of Dynamic PET imaging in differentiating tumor recurrence from treatment effect (radiation necrosis or pseudoprogression)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Known or suspected recurrent malignant brain tumors"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Fludeoxyglucose F-18",
+      "active_moiety": "fludeoxyglucose (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[RADIATION] Fludeoxyglucose F-18 (other names: FDG, 18 FDG, fludeoxyglucose F 18, 2-F18-fluoro-2-deoxy-D-glucose, 2-F18-fluoro-2-deoxyglucose): IV (intravenous) administration of radiotracer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "PET imaging radiotracer, 18F",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic"]
+    },
+    {
+      "agent_name_registered": "fluorine F 18 fluorodopa",
+      "active_moiety": "fluorodopa (18f)",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[RADIATION] fluorine F 18 fluorodopa (other names: 18F-6- L-fluorodopa, 18F-DOPA, 18F-FDOPA, 3,4-dihydroxy-6-(18)F-fluoro-l-phenylalanine, L-6-[ 18F]fluoro-3, 4-dihydroxyphenylalanine, (18)F-FDOPA): IV (intravenous) administration of radiotracer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "PET imaging radiotracer (amino acid analogue), 18F",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic"]
+    },
+    {
+      "agent_name_registered": "Gadovist",
+      "active_moiety": "gadobutrol",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "They will then receive an IV injection of Gadovist for contrast before undergoing a multiparametric MRI scan."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "gadolinium-based MRI contrast agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Diagnostic"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic imaging study (EARLY_PHASE1). Only agents are PET radiotracers and MRI contrast; no therapeutic agent. Gadovist is not a registered intervention but the arm description says every subject receives it, so listed as diagnostic_agent. Eligibility says 'recurrent malignant brain tumors' and the detailed description says high grade gliomas, but glioblastoma is the only registered condition, so coded gbm_only."
+}

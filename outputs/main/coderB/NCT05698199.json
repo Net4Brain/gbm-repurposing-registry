@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT05698199",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Newly diagnosed patients with histopathological diagnosis of WHO grade IV glioma (GBM)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "ITI-1001 DNA vaccine represents a multi-antigen nucleic acid cancer immunotherapy encoding 3 CMV antigens."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed patients with histopathological diagnosis of WHO grade IV glioma (GBM)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ITI-1001",
+      "active_moiety": "cmv dna vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "ITI-1001 DNA vaccine represents a multi-antigen nucleic acid cancer immunotherapy encoding 3 CMV antigens."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "DNA plasmid vaccine encoding CMV pp65, IE-1 and gB antigens with LAMP1 (IM electroporation)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with Newly Diagnosed Glioblastoma (GBM)"]
+    },
+    {
+      "agent_name_registered": "Td toxoid",
+      "active_moiety": "tetanus-diphtheria toxoid vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "ITI-1001 vaccinations will be given in combination with Td toxoid."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetanus-diphtheria toxoid vaccine given with the DNA vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with Newly Diagnosed Glioblastoma (GBM)"]
+    },
+    {
+      "agent_name_registered": "temozolomide (SOC chemoradiation and maintenance TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planned standard adjuvant chemoradiation (SOC RT + TMZ for 6 weeks)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with Newly Diagnosed Glioblastoma (GBM)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CMV antigens pp65, IE1, gB in tumour (IHC)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "IHC detects cytomegalovirus (CMV) proteins pp65, IE1, and Glycoprotein B (gB) in human glioblastoma multiforme tissues"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "DNA vaccine is an excluded intervention type, so no candidate. Td toxoid is co-administered with every vaccination and listed as a vaccine-type agent. Immune-response endpoints relate to the vaccine, which is not a candidate, so target_engagement_planned is coded no."
+}

@@ -1,0 +1,62 @@
+{
+  "nct_id": "NCT05150457",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Measurable disease as per RECIST 1.1, or per Response Assessment in Neuro-Oncology (RANO) criteria for patients with glioblastoma multiforme and documented by computed tomography (CT) and/or magnetic resonance imaging (MRI)."},
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced malignant solid tumor that is refractory to or intolerant of all standard therapy or for which no standard therapy is available."},
+      {"field": "eligibility", "quote": "Patients with GBM are eligible, if meeting all other inclusion criteria and no exclusion criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Anti-epidermal growth factor receptor (Anti-EGFR) and anti-cluster of differentiation 137 (anti-CD137) bispecific antibody"},
+      {"field": "brief_summary", "quote": "The purpose of the study is to evaluate the safety and tolerability of BNA035 in order to determine the maximum tolerated dose (MTD) and Recommended Phase 2 dose (RP2D)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced malignant solid tumor that is refractory to or intolerant of all standard therapy or for which no standard therapy is available."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Peak Plasma Concentration of BNA035"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "BNA035",
+      "active_moiety": "bna035",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Starting dose level of BNA035 administered as an IV infusion once weekly in 28 day cycles."},
+        {"field": "interventions", "quote": "Anti-epidermal growth factor receptor (Anti-EGFR) and anti-cluster of differentiation 137 (anti-CD137) bispecific antibody"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational anti-EGFR x anti-CD137 (4-1BB) bispecific antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dose Escalation Phase, Dose Level 1", "Dose Escalation Phase, Dose Level 2", "Dose Escalation Phase, Dose Level 3", "Dose Escalation Phase, Dose Level 4", "Dose Escalation Phase, Dose Level 5", "Dose Escalation Phase, Dose Level 6"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Advanced solid tumour dose-escalation basket; glioblastoma multiforme named in inclusion criteria (RANO for GBM patients; steroid limit for GBM patients) and exclusion text states GBM patients are eligible -> basket_gbm_eligible, basket true; 'glioblastoma multiforme' -> historical. No EGFR expression requirement despite anti-EGFR target, so no biomarker rows. PK is plasma-only -> tumour_pk_planned no. Brief summary mentions 'each combination regimen' but only BNA035 is registered; coded monotherapy. Multiple dose-level arms, none a control -> control_arm_from_other_arms no."
+}

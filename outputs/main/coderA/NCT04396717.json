@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT04396717",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of brain cancer:"},
+      {"field": "eligibility", "quote": "glioblastoma (GBM),"},
+      {"field": "eligibility", "quote": "meningiomas, chordomas, medulloblastoma, craniopharyngiomas, pituitary tumors or"},
+      {"field": "conditions", "quote": "Malignant Primary Brain Tumors; Brain Metastases, Adult"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] Pritumumab: Pritumumab IgG1 human monoclonal antibody"},
+      {"field": "brief_summary", "quote": "Pritumumab is a human IgG1 kappa antibody that binds to a malignant tumor associated antigen, ecto domain-vimentin (EDV) which is expressed in a variety of tumor cells."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "in patients with recurrent gliomas or with brain metastases"},
+      {"field": "eligibility", "quote": "Has progression of brain cancer and measurable disease by magnetic resonance imaging (MRI) or computed tomography (CT) scan."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "title", "quote": "Dose-Escalation Study of the Safety and CNS Exposure of Pritumumab in Patients with Brain Cancer"},
+      {"field": "detailed_description", "quote": "including blood sampling for clinical biochemistries, pharmacokinetics, CSF and tissue samples, at frequency specified by the protocol"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "To determine pharmacokinetics and pharmacodynamics of Pritumumab"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pritumumab",
+      "active_moiety": "pritumumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Pritumumab: Dose Escalation phase (3+3 patients):"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational human IgG1 monoclonal antibody against ecto-domain vimentin",
+      "stated_antitumour_mechanism": "binds ecto domain-vimentin (EDV) on tumour cells; antibody-dependent cellular cytotoxicity",
+      "flag": {"uncertain": false},
+      "arms": ["Pritumumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Multi-tumour brain cancer trial (gliomas incl. GBM, brain metastases, meningioma, chordoma, medulloblastoma, etc.); coded basket_gbm_eligible rather than mixed_glioma_gbm_named because non-glioma tumours are eligible; both categories are included at S5. Tumour PK coded yes because CNS exposure is in the title and CSF and tissue samples are planned, though no outcome is registered for it. Target engagement coded yes from the stated pharmacodynamic objective; the PD measure and sample type are not specified. EDV is the antibody target but is not used as a selection or measured biomarker, so no biomarker row."
+}

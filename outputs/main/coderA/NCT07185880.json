@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT07185880",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wild type and MGMT unmethylated GBM."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] MT-125: This is an investigational new drug under IND 170975."},
+      {"field": "title", "quote": "A Phase 1/2 Single-Arm Dose Escalation Study of the Safety, Tolerability, and Pharmacokinetics of MT-125 Monotherapy With Radiation in Newly Diagnosed Glioblastoma"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wild type and MGMT unmethylated GBM."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "PK Parameters-AUC 0-24hr: Area under the plasma concentration-time curve over the last 24 hour dosing interval"},
+      {"field": "detailed_description", "quote": "evaluating the systemic pharmacokinetics (PK) of MT-125"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MT-125",
+      "active_moiety": "mt-125",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "we will start with an evaluation of MT-125 as a monotherapy in a first-in-human (FIH) Phase 1 trial with RT in newly diagnosed isocitrate dehydrogenase (IDH) wild type / MGMT unmethylated GBM"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational small-molecule dual non-muscle myosin IIA/IIB inhibitor (first in human)",
+      "stated_antitumour_mechanism": "MT-125 is a potent, selective, and central nervous system (CNS) permeable dual small molecule inhibitor of the non-muscle myosin II (NMII) paralogs, IIA and IIB.",
+      "flag": {"uncertain": false},
+      "arms": ["MT-125 at 25 mg", "MT-125 at 50 mg", "MT-125 at 83.5mg", "MT-125 at 100 mg", "MT-125 at MTD and one dose lower than MTD"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wild type and MGMT unmethylated GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "New Diagnosed with histologically or molecularly confirmed IDH wild type and MGMT unmethylated GBM."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "MT-125 (NMII inhibitor) with radiotherapy, no temozolomide; MGMT-unmethylated selection justified by lack of TMZ benefit, not by the candidate's target, so not candidate-matched. PK is plasma/serum only. Multiple dose-level arms, none a control. Radiotherapy is not listed as an agent."
+}

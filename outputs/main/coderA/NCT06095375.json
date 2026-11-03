@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT06095375",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype; MGMT-Methylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed Grade IV GBM/gliosarcoma (WHO criteria; non-IDH R132Hmutant by immunohistochemistry \\[IHC\\] or, sequencing for IDH1 and 2 in case of patients \\>55 years) established following either a radical or partial surgical resection."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This study will evaluate the addition of regorafenib to standard of care treatment with TMZ as adjuvant therapy, and in combination with TMZ+RT as concomitant therapy."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Patients With Newly Diagnosed MGMT-Methylated, IDH Wild-type Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetics parameters - AUC: area under the plasma concentration versus time curve"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Regorafenib",
+      "active_moiety": "regorafenib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This study will evaluate the addition of regorafenib to standard of care treatment with TMZ as adjuvant therapy, and in combination with TMZ+RT as concomitant therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "multikinase (VEGFR/TIE2/RAF) inhibitor",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Adjuvant/Maintenance Phase)", "Cohort B (Concomitant Phase)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "The standard of care for newly diagnosed GBM (ndGBM) includes surgical resection to the extent that is safely feasible, followed by RT plus concomitant TMZ chemotherapy, and up to 6 months of adjuvant TMZ."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (standard of care GBM backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A (Adjuvant/Maintenance Phase)", "Cohort B (Concomitant Phase)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Methylated MGMT according to local laboratory (in case of pyrosequencing, methylation \\>10%)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "NOTE: Patients with known isocitrate dehydrogenase (IDH) 1 and 2 are to be excluded."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Newly diagnosed IDH-wildtype, MGMT-methylated GBM; regorafenib added to standard TMZ (adjuvant, cohort A) or TMZ+RT (concomitant, cohort B). Regorafenib only investigational agent -> experimental_monotherapy; TMZ soc_backbone; regimen combination (TMZ in both cohorts, RT in cohort B). Two sequential experimental dose-escalation cohorts, neither a control -> control_arm_from_other_arms no. MGMT methylation and IDH-wildtype are entry requirements, never candidate-matched. PK plasma only. Fluorescein/5-ALA mentioned only in exclusion notes, not listed."
+}

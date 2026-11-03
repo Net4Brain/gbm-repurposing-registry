@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05120284",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "brief_summary", "quote": "40 surgical patients with recurrent GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "All subjects will be given the 12.5 mg/kg/12 hour DCA for pre-surgical dosing."},
+      {"field": "detailed_description", "quote": "Evaluate effects of dichloroacetate (DCA) on tumor PDC phosphorylation."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "40 surgical patients with recurrent GBM"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "Deidentified blood and tumor tissue obtained at surgery will be assessed at UF for biochemical markers of DCA dynamics."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The efficacy of dichloroacetate will be determined by the level of phosphorylated PDC protein expressed in surgical tissue."},
+      {"field": "detailed_description", "quote": "Evaluate effects of dichloroacetate (DCA) on tumor PDC phosphorylation."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dichloroacetate (DCA)",
+      "active_moiety": "dichloroacetate",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "All subjects will be given the 12.5 mg/kg/12 hour DCA for pre-surgical dosing."},
+        {"field": "arms", "quote": "Subject randomized to start DCA after surgery will do so 12-24 hours postoperatively"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "pyruvate dehydrogenase kinase inhibitor (metabolic modulator)",
+      "stated_antitumour_mechanism": "effects on tumour phosphorylation of the pyruvate dehydrogenase complex (PDC)",
+      "flag": {"uncertain": false},
+      "arms": ["Pre-Surgical Dichloroacetate (DCA)", "No Pre-Surgical Dichloroacetate (DCA)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "phosphorylated PDC (pyruvate dehydrogenase complex) protein in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "dichloroacetate",
+      "source_quote": {"field": "outcomes", "quote": "Level of phosphorylated PDC protein expressed in surgical tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Both registered arms are ACTIVE_COMPARATOR and both receive DCA; the difference is that DCA starts one week before surgery (pre-surgical arm) or 12-24 hours after surgery (control timing), so DCA is the sole investigational drug and is coded experimental_monotherapy, not control_comparator. The post-surgery-start arm functions as the no-pre-surgical-drug control for tissue pharmacodynamics. Tumour PK: the record plans blood and tumour tissue analysis of 'DCA dynamics' without stating whether drug concentrations are measured, hence unclear. GSTZ1 genotyping is a germline pharmacogenomic dosing factor and is not recorded as a tumour biomarker. Registry allocation is NON_RANDOMIZED although the summary says patients are randomized."
+}

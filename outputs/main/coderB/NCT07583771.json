@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT07583771",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "For glioblastoma: at least one measurable intracranial tumor lesion according to the RANO 2.0 criteria."},
+      {"field": "conditions", "quote": "Pancreatic Adenocarcinoma; Non Small Cell Lung Cancer; Advanced Solid Tumors; Lymphoma; Diffuse Large B-Cell Lymphoma (DLBCL)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "CS08399: Oral tablet."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "for which standard therapy has failed or is not tolerated, and no further standard therapy is available."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters: Maximum Concentration (Cmax):"}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "title", "quote": "Safety, Tolerability, Pharmacokinetics, Pharmacodynamic and Preliminary Efficacy of CS08399"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CS08399",
+      "active_moiety": "cs08399",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "CS08399: two phases: dose escalation and cohort expansion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small molecule for MTAP-deleted tumours (target not stated in record)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CS08399"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "MTAP homozygous deletion",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "cs08399",
+      "source_quote": {"field": "eligibility", "quote": "Homozygous MTAP or CDKN2A deletion confirmed by tissue or peripheral blood testing."},
+      "flag": {"uncertain": true, "reason": "Record does not state CS08399's mechanism; match to MTAP deletion inferred from the trial being built around MTAP-deleted tumours and exclusion of prior MAT2A/PRMT5 inhibitors."},
+      "arms": []
+    },
+    {
+      "biomarker": "CDKN2A_B",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "cs08399",
+      "source_quote": {"field": "eligibility", "quote": "Homozygous MTAP or CDKN2A deletion confirmed by tissue or peripheral blood testing."},
+      "flag": {"uncertain": true, "reason": "CDKN2A deletion is accepted as an alternative to MTAP deletion (co-deleted locus) for the MTAP-directed drug; mechanism not stated in record."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Glioblastoma is named only in inclusion criteria 4 and 5 (measurability and KPS), not in conditions or title; coded basket_gbm_eligible under D27B. Target engagement: pharmacodynamics appears in the official title but no pharmacodynamic outcome is registered, so coded unclear. PK outcomes are plasma-type parameters (no tissue sampling stated)."
+}

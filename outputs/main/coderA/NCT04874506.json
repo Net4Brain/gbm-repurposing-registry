@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT04874506",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "Be newly diagnosed with glioblastoma multiforme within 4 weeks of open biopsy/resection;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "MBM-02 (Tempol) is an HIF-1 and HIF-2 inhibitor that is being tested as an addition to standard of care treatment that includes radiotherapy and TMZ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Increase Survival in Patients With Newly Diagnosed Glioblastoma Multiforme (GBM)"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MBM-02",
+      "active_moiety": "tempol",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Cohort 1 will receive standard of care concomitantly with1000 mg/day of MBM-02."},
+        {"field": "interventions", "quote": "MBM-02 (other names: Tempol; 4-hydroxy-tempo; 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-oxyl)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational nitroxide antioxidant (Tempol, 4-hydroxy-2,2,6,6-tetramethylpiperidine-1-oxyl), stated HIF-1/HIF-2 inhibitor; development code MBM-02",
+      "stated_antitumour_mechanism": "MBM-02 is an HIF-1 and HIF-2 inhibitor that has shown in animal models to turn back on the apoptosis process (cell death) in cancer.",
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3", "Cohort 4"]
+    },
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "2. 6 weeks of radiotherapy and concomitant temozolomide;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care for glioblastoma",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort 1", "Cohort 2", "Cohort 3", "Cohort 4"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with histone H3 K27M mutation or gliosarcoma;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Active moiety: Tempol has no INN stated in the record; coded 'tempol' (named in record as other name of MBM-02); script may map to development code mbm-02. Temozolomide is not a registered intervention but every patient receives it as standard of care (listed per R9). H3K27M mutation is an exclusion criterion (absence required for entry), coded as eligibility biomarker, not candidate-matched. Exclusion 9 requires sufficient tissue for full molecular profiling, but no specific marker is named. Four sequential dose cohorts (1000/1200/1400 mg/day), none a control. Secondary outcomes on haematological toxicity reduction and radiation necrosis are not target engagement."
+}

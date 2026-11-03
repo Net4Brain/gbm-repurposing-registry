@@ -1,0 +1,147 @@
+{
+  "nct_id": "NCT03688178",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma with definitive resection prior to enrollment, with residual radiographic contrast enhancing disease on the post-operative CT or MRI of \\<1 cm in maximal diameter in any plane."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "We hypothesize that TReg inhibition through Varlilumab may increase polyfunctional immune responses to CMV."},
+      {"field": "interventions", "quote": "Varlilumab is an agonist anti-CD27 monoclonal antibody"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "Patients with newly diagnosed glioblastoma will be consented following tumor resection then undergo leukapheresis for harvest of peripheral blood leukocytes for generation of dendritic cells."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "CMV pp65-LAMP mRNA-pulsed dendritic cell vaccine", "tetanus-diphtheria toxoid"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Median percent change between baseline, assessed on day 14, and nadir levels of Treg before the time that the second cycle of adjuvant TMZ would be administered. Treg determined by flow cytometry (CD3+ CD4+ CD25+ Foxp3+)."},
+      {"field": "detailed_description", "quote": "Anti-CD27 mAb has emerged as a novel costimulatory immune modulator that depletes TRegs without impairing activated effector T cells to improve antitumor immunity."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Varlilumab",
+      "active_moiety": "varlilumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "they will also receive varlilumab intraveneously (IV) 7 days before vaccine #1 and again at the same visit as vaccine #1, as well as 7 days before every DC vaccine except vaccine #2"},
+        {"field": "detailed_description", "quote": "We hypothesize that TReg inhibition through Varlilumab may increase polyfunctional immune responses to CMV."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational agonist anti-CD27 monoclonal antibody (immune costimulator)",
+      "stated_antitumour_mechanism": "agonist anti-CD27 mAb that depletes TRegs without impairing activated effector T cells to improve antitumor immunity",
+      "flag": {"uncertain": false},
+      "arms": ["Gr3:DC Vaccine+varlilumab(Td pre-conditioning)"]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Temozolomide is a standard chemotherapy given to all enrolled patients at a targeted dose of 150-200mg/m2/d for 5 days every 4 (+ 2) weeks for up to 12 cycles"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Gr1: DC vaccine (DC pre-conditioning)", "Gr2: DC Vaccine (Td pre-conditioning)", "Gr3:DC Vaccine+varlilumab(Td pre-conditioning)"]
+    },
+    {
+      "agent_name_registered": "Human CMV pp65-LAMP mRNA-pulsed autologous DCs",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "This study generates autologous DCs from peripheral blood leukocytes obtained from the subject during leukapheresis."},
+        {"field": "brief_summary", "quote": "All patients will receive up to a total of 10 DC vaccines called pp65 CMV dendritic cells (DC)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous CMV pp65-LAMP mRNA-pulsed dendritic cell vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Gr1: DC vaccine (DC pre-conditioning)", "Gr2: DC Vaccine (Td pre-conditioning)", "Gr3:DC Vaccine+varlilumab(Td pre-conditioning)"]
+    },
+    {
+      "agent_name_registered": "Unpulsed DCs",
+      "active_moiety": "unpulsed dendritic cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Patients in Group I will receive 1 x 10\\^6 autologous unpulsed DCs in saline administered to a single side of the groin intradermally 1 day before the fourth vaccine."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous unpulsed dendritic cells used as control pre-conditioning (cell product)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Gr1: DC vaccine (DC pre-conditioning)"]
+    },
+    {
+      "agent_name_registered": "Td",
+      "active_moiety": "tetanus-diphtheria toxoid",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "It is thought that Td toxoid induces an inflammatory milieu within the intradermal vaccine site, thereby promoting the migration of injected tumor-specific DCs."},
+        {"field": "detailed_description", "quote": "Previous trials have suggested that giving the Td prior to immunotherapy may help improve the effectiveness of the DC vaccine by activating the immune response."}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "tetanus and diphtheria toxoid vaccine used as vaccine-site pre-conditioning",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Td pre-conditioning is the comparison of Groups 1 vs 2 with an OS primary outcome; could be viewed as a candidate (immune adjuvant) or as an excluded vaccine rather than delivery-enabling (promotes DC migration)."},
+      "arms": ["Gr2: DC Vaccine (Td pre-conditioning)", "Gr3:DC Vaccine+varlilumab(Td pre-conditioning)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Enough tumor tissue available for determination of MGMT gene promoter status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Varlilumab is the only pharmacological candidate (Group 3). Td toxoid coded delivery_enabling_agent because its stated purpose is to promote migration of the DC vaccine; flagged uncertain since Gr1 vs Gr2 tests Td with OS as primary outcome (if Td were treated as investigational, varlilumab would become experimental_combination in Gr3). Group 1 (unpulsed DC pre-conditioning) acts as control for Td. MGMT status determines number of adjuvant TMZ cycles (unmethylated get only cycle 1) but is not an entry requirement for a specific status; coded exploratory_correlative. CMV seropositivity is an entry requirement but is host serology, not a tumour molecular biomarker; not recorded. Treg and serum CCL3 are immune PD measures, captured under target_engagement_planned (Treg for varlilumab)."
+}

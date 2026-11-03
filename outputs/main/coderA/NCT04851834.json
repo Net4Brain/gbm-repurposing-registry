@@ -1,0 +1,159 @@
+{
+  "nct_id": "NCT04851834",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "High-grade glioma, such as glioblastoma multiforme (GBM) that are:"},
+      {"field": "conditions", "quote": "Advanced Solid Tumor; Platinum-Resistant Ovarian Cancer; Platinum-Resistant Urothelial Carcinoma; High-grade Glioma"},
+      {"field": "arms", "quote": "NTX-301 combined with Temozolomide (TMZ) as adjuvant (maintenance) treatment in IDH1 mutated high-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "GBM named in inclusion criteria, but the glioma arms are labelled IDH1-mutated high-grade glioma only, which under CNS5 would exclude glioblastoma; Phase 1a accepts all solid tumours."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "evaluating the safety and tolerability of NTX-301, an oral DNMT1 inhibitor, as a monotherapy in patients with advanced solid tumours"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] NTX-301 Temozolomide doublet therapy Dose Escalation: NTX-301 combined with Temozolomide (TMZ) as adjuvant (maintenance) treatment in IDH1 mutated high-grade glioma (interventions: Drug: NTX-301; Drug: Temozolomide)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Newly diagnosed and are undergoing, or are planned to undergo, 42 Days of SOC chemoradiation therapy as per part 1 of the eviQ protocol 3364 v.1."},
+      {"field": "eligibility", "quote": "Locally advanced or metastatic cancer (all solid tumours). Subjects must be considered refractory or intolerant to SOC therapies or have refused standard therapy."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "cisplatin", "carboplatin"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetics (PK): Maximum observed concentration (Cmax):"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamics (PD): DNMT1 level:"},
+      {"field": "outcomes", "quote": "Pharmacodynamics (PD): Global DNA Methylation:"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NTX-301",
+      "active_moiety": "ntx-301",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] NTX-301: Oral hypomethylating agent"},
+        {"field": "brief_summary", "quote": "Optionally, the safety and tolerability of NTX-301 in combination with Temozolomide (TMZ) in patients with Isocitrate Dehydrogenase 1 (IDH1) mutated high-grade glioma will also be assessed."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral DNMT1 inhibitor / hypomethylating nucleoside analogue (NTX-301)",
+      "stated_antitumour_mechanism": "an oral DNMT1 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": [
+        "NTX-301 Monotherapy Dose Escalation",
+        "NTX-301 platinum-based doublet therapy Dose Escalation",
+        "NTX-301 platinum-based doublet therapy Dose Expansion",
+        "NTX-301 Temozolomide doublet therapy Dose Escalation",
+        "NTX-301 Temozolomide doublet therapy Dose Expansion"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Temozolomide: Standard of care for high-grade glioma"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "NTX-301 Temozolomide doublet therapy Dose Escalation",
+        "NTX-301 Temozolomide doublet therapy Dose Expansion"
+      ]
+    },
+    {
+      "agent_name_registered": "Platinum-based Chemotherapy (other names: Cisplatin, Carboplatin)",
+      "active_moiety": "cisplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Platinum-based Chemotherapy (other names: Cisplatin, Carboplatin): Standard of care for ovarian and bladder cancer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "NTX-301 platinum-based doublet therapy Dose Escalation",
+        "NTX-301 platinum-based doublet therapy Dose Expansion"
+      ]
+    },
+    {
+      "agent_name_registered": "Platinum-based Chemotherapy (other names: Cisplatin, Carboplatin)",
+      "active_moiety": "carboplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Platinum-based Chemotherapy (other names: Cisplatin, Carboplatin): Standard of care for ovarian and bladder cancer"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum alkylating-like chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "NTX-301 platinum-based doublet therapy Dose Escalation",
+        "NTX-301 platinum-based doublet therapy Dose Expansion"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "arms", "quote": "NTX-301 combined with Temozolomide (TMZ) as adjuvant (maintenance) treatment in IDH1 mutated high-grade glioma"},
+      "flag": {"uncertain": true, "reason": "IDH1 mutation required for the glioma arms; record does not state a mechanistic link to the DNMT1 inhibitor NTX-301 (IDH-mutant hypermethylation link possible), so match is debatable."},
+      "arms": [
+        "NTX-301 Temozolomide doublet therapy Dose Escalation",
+        "NTX-301 Temozolomide doublet therapy Dose Expansion"
+      ]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "DNMT1 level / global DNA methylation (pharmacodynamic)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ntx-301",
+      "source_quote": {"field": "outcomes", "quote": "Pharmacodynamics (PD): DNMT1 level:"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-tumour basket: Phase 1a monotherapy in all advanced solid tumours, platinum combination arms in ovarian/bladder cancer, optional glioma arms with TMZ maintenance. GBM is named only via 'High-grade glioma, such as glioblastoma multiforme (GBM)' in inclusion; brief summary, detailed description and arm labels restrict glioma arms to IDH1-mutated high-grade glioma, so GBM eligibility under CNS5 is doubtful (flagged). The platinum intervention lists cisplatin and carboplatin as alternatives; split into two soc_backbone rows. Treatment setting 'both': glioma arms are newly diagnosed (maintenance after chemoradiation), solid-tumour arms are refractory. PK outcomes do not state sample type (unclear). DNMT1 level and global DNA methylation PD outcomes; sample type not stated."
+}

@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT06325683",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Progressive Glioblastoma; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically-proven glioblastoma (World Health Organization \\[WHO\\] 2021 criteria)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Arm I (nivolumab, relatlimab): Patients receive nivolumab IV over 30 minutes followed by relatlimab IV over 30 minutes on day 1 of each cycle."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must be in first recurrence of glioblastoma following radiation therapy and temozolomide"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["nivolumab", "relatlimab"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nivolumab",
+      "active_moiety": "nivolumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm I (nivolumab, relatlimab): Patients receive nivolumab IV over 30 minutes followed by relatlimab IV over 30 minutes on day 1 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": "Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the tumor, and may interfere with the ability of tumor cells to grow and spread.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (nivolumab, relatlimab)"]
+    },
+    {
+      "agent_name_registered": "Relatlimab",
+      "active_moiety": "relatlimab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Arm I (nivolumab, relatlimab): Patients receive nivolumab IV over 30 minutes followed by relatlimab IV over 30 minutes on day 1 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-LAG-3 monoclonal antibody (BMS-986016)",
+      "stated_antitumour_mechanism": "Relatlimab is a monoclonal antibody that may interfere with the ability of tumor cells to grow and spread.",
+      "flag": {"uncertain": false},
+      "arms": ["Arm I (nivolumab, relatlimab)"]
+    },
+    {
+      "agent_name_registered": "Lomustine",
+      "active_moiety": "lomustine",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Arm II (lomustine): Patients receive lomustine PO on day 1 of each cycle."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "nitrosourea alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm II (lomustine)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "No IDH mutation (IDH1 R132H negative by immunohistochemistry \\[IHC\\] or sequencing)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Nivolumab + relatlimab vs lomustine; both antibodies are investigational in Arm I. Surgery/biopsy and biospecimen collection are planned but no tumour PK or pharmacodynamic endpoint is registered."
+}

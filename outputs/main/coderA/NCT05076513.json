@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT05076513",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioblastoma Multiforme; Glioma; GBM; Glioma, Malignant; Glioblastoma Multiforme of Brain"},
+      {"field": "eligibility", "quote": "Arm A participants undergoing resection for a suspected newly diagnosed glioblastoma. For Arm B, participants undergoing resection who have had a prior resection of histologically diagnosed WHO grade II-IV glioma with IDH1 or IDH2 mutation and ATRX loss."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants undergoing resection for a presumed newly-diagnosed glioblastoma (WHO grade 4) will be treated with niraparib for 4 days prior to surgical resection."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "brief_summary", "quote": "will enroll up to 24 participants with newly-diagnosed glioblastoma and up to 18 recurrent glioma participants with IDH mutation and ATRX loss."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0 Arm A: Total and unbound niraparib concentration in enhancing and nonenhancing tissue: Tumor to plasma partition coefficients of niraparib for total (Kp) and unbound (Kp,uu) drug levels"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0 Arm A: Pharmacodynamics (PD) of niraparib: Quantification of percentage of PAR positive cells with IHC assay or PAR concentration in tumor homogenates with an HT PARP pharmacodynamic assay II."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Niraparib",
+      "active_moiety": "niraparib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "In Phase 0, 300mg administered orally QD for 4 days prior to resection."},
+        {"field": "brief_summary", "quote": "combines therapeutic dosing of niraparib plus standard-of-care fractionated radiotherapy (in Arm A) or niraparib monotherapy (in Arm B) until progression of disease."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "PARP inhibitor (approved for ovarian cancer)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Presumed Newly-Diagnosed glioblastoma", "Arm B: Recurrent Glioma (Grades II-IV)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "arms", "quote": "Participants undergoing resection of a recurrent WHO Grade II, III, or IV glioma with IDH1 or IDH2 mutation and ATRX loss will be treated with niraparib for 4 days prior to a planned surgical resection."},
+      "flag": {"uncertain": true, "reason": "IDH-mutant cohort for a PARP inhibitor; mechanistic link (IDH-mutation-associated homologous-recombination defect) is not stated in the record."},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ATRX loss",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "eligibility", "quote": "For Arm B, participants undergoing resection who have had a prior resection of histologically diagnosed WHO grade II-IV glioma with IDH1 or IDH2 mutation and ATRX loss."},
+      "flag": {"uncertain": true, "reason": "ATRX loss cohort for a PARP inhibitor; DNA-repair/synthetic-lethality rationale is implied (PD endpoint of chromosomal fusion) but not stated."},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "PAR (poly-ADP-ribose) in tumour",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "outcomes", "quote": "Quantification of percentage of PAR positive cells with IHC assay or PAR concentration in tumor homogenates with an HT PARP pharmacodynamic assay II."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm A: Presumed Newly-Diagnosed glioblastoma"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "Chromosomal fusion in niraparib-treated tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "niraparib",
+      "source_quote": {"field": "outcomes", "quote": "Presence of chromosomal fusion with the cutoff CT value of 35 in niraparib treated glioma tissue with IDH and ATRX loss."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm B: Recurrent Glioma (Grades II-IV)"]
+    }
+  ],
+  "coder_notes": "Early Phase 1 (Phase 0) trigger trial: translational subset. Arm A newly diagnosed GBM (niraparib + RT in expansion); Arm B recurrent IDH-mutant ATRX-loss grade II-IV glioma (niraparib monotherapy). regimen coded combination because Arm A includes radiotherapy; Arm B is monotherapy. cns5_terminology historical: 'Glioblastoma Multiforme' in conditions and 'WHO grade 4' GBM without IDH requirement; Arm B includes IDH-mutant grade IV glioma. control_arm_from_other_arms coded no (two experimental arms, neither a control). The IDH/ATRX enrichment match to niraparib is based on mechanistic plausibility only and is flagged for adjudication."
+}

@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT06894225",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed diagnosis of GBM according to 2021 WHO classification"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients recruited and have signed informed consent will be initiated on ACT001 400mg twice a day."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Proof-of-Concept Study of ACT001 in Adult Patients With Recurrent Glioblastoma Harbouring STAT3-High Signature"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Drug levels in cerebrospinal fluid and tissue sample when available in patients who are agreeable to proceed with Omaya shunt insertion, lumbar puncture or undergoes further surgical resection following treatment with ACT001."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Tissue and blood exosome biomarkers that are predictive of treatment response and treatment resistance."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ACT001",
+      "active_moiety": "act001",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "This trial will study the effectiveness of ACT001 in adult patients whose Glioblastoma have recurred with a STAT3-high signature"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational STAT3 inhibitor (ACT001, parthenolide/micheliolide derivative)",
+      "stated_antitumour_mechanism": "STAT3 inhibitor",
+      "flag": {"uncertain": false},
+      "arms": ["ACT001"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "STAT3-High signature",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "act001",
+      "source_quote": {"field": "eligibility", "quote": "Availability of tumor tissue representative of GBM from definitive surgery or biopsy and tested to harbour STAT3-High Signature"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "ACT001 is referred to in eligibility as the 'STAT3 inhibitor' ('prior to first dose of STAT3 inhibitor'), so STAT3-High selection is candidate-matched. No INN in record. Target engagement unclear: exosome biomarkers planned but not linked to STAT3."
+}

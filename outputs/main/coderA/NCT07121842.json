@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07121842",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of glioblastoma based on histopathological or molecular analysis of biopsy after surgery, or suspected of glioblastoma based on medical imaging."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Extended MRI: The MRI protocol for every clinical follow-up MRI scan is extended with 15 minutes to add the APTw-CEST scan."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Scheduled to undergo radiotherapy or combined chemo-and radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Imaging-only diagnostic study (APTw-CEST MRI); phase NA. No drug registered as an intervention. FET-PET is mentioned as additional imaging (added to standard of care only at LUMC) but is not a registered intervention, so not listed (R9). APTw-CEST is an imaging marker, not a molecular biomarker."
+}

@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT06964737",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Malignant Glioma; Recurrent WHO Grade 3 Glioma; Recurrent WHO Grade 4 Glioma; WHO Grade 2 Glioma; WHO Grade 3 Glioma; WHO Grade 4 Glioma"},
+      {"field": "eligibility", "quote": "Diagnosis or clinical suspicion of recurrent malignant glioma, including:"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Anti-GARP Chimeric Antigen Receptor-T Cells (other names: Anti-GARP CAR T Cells (SY), Anti-GARP CAR T-cells (SY), Anti-GARP CAR-T Cells (SY)): Given intracavitary"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Anti-GARP Chimeric Antigen Receptor T Cell Therapy for the Treatment of Recurrent Grade III or IV Gliomas"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Anti-GARP Chimeric Antigen Receptor-T Cells",
+      "active_moiety": "anti-garp car t cells",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "CAR T-cell therapy is a type of treatment in which a patient's T cells (a type of immune system cell) are changed in the laboratory so they will attack tumor cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "autologous CAR-T cell therapy targeting GARP (cell therapy, excluded type)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment (anti-GARP CAR T cell)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "GARP expression in tumour tissue",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Correlation of GARP expression levels with outcomes: Relative GARP expression in tumor tissue will be summarized using descriptive statistics."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population: grade 2-4 recurrent glioma; glioblastoma is not named, but 'WHO Grade 4 Glioma' without an IDH requirement appears in conditions, which under D27C counts as historical glioblastoma, hence mixed_glioma_gbm_named / historical. If D27C were read as not applying to mixed grade 2-4 glioma conditions, this would be high_grade_glioma_unspecified; screening outcome is unaffected because the only agent is a CAR-T cell therapy (excluded type). GARP is the CAR-T target, not matched because there is no pharmacological candidate."
+}

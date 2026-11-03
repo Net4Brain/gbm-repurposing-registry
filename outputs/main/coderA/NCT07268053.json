@@ -1,0 +1,84 @@
+{
+  "nct_id": "NCT07268053",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM); Brain Metastasases"},
+      {"field": "eligibility", "quote": "Diagnosed with: (a) GBM according to the 2021 WHO criteria, who have progressed on or following standard of care therapy"},
+      {"field": "arms", "quote": "rGBM and Brain Mets"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "who will receive the investigational drug risvutatug rezetecan (GSK5764227), a B7-H3-targeted antibody-drug conjugate (ADC) with the GSK5757810 payload"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Diagnosed with: (a) GBM according to the 2021 WHO criteria, who have progressed on or following standard of care therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Phase 0: Total, Cleaved, and Unbound GSK5757810 Payload Concentration in Tumor Tissue"},
+      {"field": "outcomes", "quote": "Phase 0: Total, Cleaved, and Unbound GSK5757810 Payload Concentration in CSF"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The change in expression of pH2AX and B7-H3 in GSK5764227-treated rGBM and brain metastasis tissue collected during Phase 0 surgery compared to archival tissue (baseline)."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Risvutatug rezetecan",
+      "active_moiety": "risvutatug rezetecan",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "who will receive the investigational drug risvutatug rezetecan (GSK5764227), a B7-H3-targeted antibody-drug conjugate (ADC) with the GSK5757810 payload"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational B7-H3-targeted antibody-drug conjugate (GSK5764227 / HS-20093) with GSK5757810 payload",
+      "stated_antitumour_mechanism": "a B7-H3-targeted antibody-drug conjugate (ADC) with the GSK5757810 payload",
+      "flag": {"uncertain": false},
+      "arms": ["rGBM and Brain Mets"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "B7-H3 expression change in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "risvutatug rezetecan",
+      "source_quote": {"field": "outcomes", "quote": "Phase 0: pH2AX and B7-H3 Expression Change in Tumor Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pH2AX (DNA damage) expression change in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "risvutatug rezetecan",
+      "source_quote": {"field": "outcomes", "quote": "Phase 0: pH2AX and B7-H3 Expression Change in Tumor Tissue"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0/1; translational subset). Enrols recurrent GBM (WHO 2021) and brain metastases from any primary, so coded basket_gbm_eligible / basket true (could alternatively be viewed as a GBM trial with a brain-metastasis cohort). Expansion is restricted to patients with a positive tumour PK response, which is a pharmacokinetic, not molecular, selection criterion, so not coded as a biomarker. B7-H3 is measured as a pharmacodynamic marker, not required for entry. pH2AX coded candidate-matched as a DNA-damage readout of the ADC payload (payload mechanism not stated in record)."
+}

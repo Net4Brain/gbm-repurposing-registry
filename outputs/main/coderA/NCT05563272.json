@@ -1,0 +1,68 @@
+{
+  "nct_id": "NCT05563272",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Gastric Cancer; Glioblastoma Multiforme; Cholangiocarcinoma"},
+      {"field": "eligibility", "quote": "Participants must have proven tumors of the following types, but not limited to:"},
+      {"field": "eligibility", "quote": "* GBM;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] 89Zr-girentuximab for PET/CT imaging of CAIX positive tumors"},
+      {"field": "brief_summary", "quote": "A prospective, open-label, phase 2 study to explore CAIX expression through 89Zirconium-labelled girentuximab deferoxamine (89Zr-girentuximab) PET/CT imaging in patients with solid tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "89Zr-girentuximab",
+      "active_moiety": "89zr-girentuximab",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] 89Zr-girentuximab for PET/CT imaging of CAIX positive tumors"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "zirconium-89-labelled anti-CAIX monoclonal antibody (girentuximab deferoxamine, TLX250) PET imaging agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["89Zr-TLX250"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CAIX expression (assessed by 89Zr-girentuximab PET/CT)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "brief_summary", "quote": "A prospective, open-label, phase 2 study to explore CAIX expression through 89Zirconium-labelled girentuximab deferoxamine (89Zr-girentuximab) PET/CT imaging in patients with solid tumors."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Diagnostic imaging study only: single administration of 89Zr-girentuximab for PET/CT; no therapeutic agent, so no candidate (S6 fail). Multi-tumour basket with GBM named in conditions and inclusion criteria. CAIX positivity is in the title but is not an entry requirement in the eligibility criteria; CAIX expression is the imaging endpoint and is recorded as exploratory_correlative 'other' (could arguably be excluded as an imaging-only marker). Treatment setting not stated."
+}

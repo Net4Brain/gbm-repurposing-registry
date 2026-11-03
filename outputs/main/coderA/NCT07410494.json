@@ -1,0 +1,153 @@
+{
+  "nct_id": "NCT07410494",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Ovarian Cancer; Glioblastoma; Melanoma (Skin Cancer)"},
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced/unresectable or metastatic solid tumor that is relapsed/refractory after standard therapy, or no standard therapy available."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This Phase 1/2 study evaluates the safety, feasibility, and preliminary anti-tumor activity of allogeneic donor-derived CAR-NK cells in participants with advanced solid tumors."},
+      {"field": "detailed_description", "quote": "Participants receive lymphodepleting chemotherapy followed by CAR-NK infusion(s)."},
+      {"field": "detailed_description", "quote": "Optional cytokine support (e.g., low-dose IL-2) may be used per protocol to support NK persistence, consistent with approaches used in some CAR-NK studies."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Optional low-dose IL-2 is listed as an intervention name; coded supportive (to support NK persistence), but it could be regarded as an immunomodulatory candidate."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically or cytologically confirmed advanced/unresectable or metastatic solid tumor that is relapsed/refractory after standard therapy, or no standard therapy available."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "EB-SELECT Single-Target CAR-NK Cells",
+      "active_moiety": "car-nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Donor-derived CAR-NK cells expressing a single CAR selected from the target menu."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic donor-derived single-target CAR-NK cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single-Target Antigen-Selected CAR-NK"]
+    },
+    {
+      "agent_name_registered": "Dual-Target Antigen-Selected CAR-NK",
+      "active_moiety": "car-nk cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "a single CAR (Arm A) or a dual CAR / dual-target construct (Arm B)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "allogeneic donor-derived dual-target CAR-NK cell therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dual-Target Antigen-Selected CAR-NK"]
+    },
+    {
+      "agent_name_registered": "Fludarabine",
+      "active_moiety": "fludarabine",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "WITH Fludarabine (IV) + Cyclophosphamide (IV), administered prior to CAR-NK infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "purine analogue; lymphodepleting conditioning chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single-Target Antigen-Selected CAR-NK", "Dual-Target Antigen-Selected CAR-NK"]
+    },
+    {
+      "agent_name_registered": "Cyclophosphamide",
+      "active_moiety": "cyclophosphamide",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "WITH Fludarabine (IV) + Cyclophosphamide (IV), administered prior to CAR-NK infusion."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "lymphodepletion",
+      "drug_class_hint": "alkylating agent; lymphodepleting conditioning chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Single-Target Antigen-Selected CAR-NK", "Dual-Target Antigen-Selected CAR-NK"]
+    },
+    {
+      "agent_name_registered": "IL-2",
+      "active_moiety": "aldesleukin",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "Optional cytokine support (e.g., low-dose IL-2) may be used per protocol to support NK persistence, consistent with approaches used in some CAR-NK studies."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "interleukin-2 (recombinant; record says only 'IL-2'), optional cytokine support for CAR-NK persistence",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Optional IL-2 given to support CAR-NK persistence, not symptom control; coded supportive by analogy with conditioning agents (R6), but could be considered an immunomodulatory candidate."}
+    ,
+      "arms": ["Single-Target Antigen-Selected CAR-NK", "Dual-Target Antigen-Selected CAR-NK"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour antigen positivity from CAR target menu (TROP2, MSLN, B7-H3, HER2, EGFR, GD2, Claudin18.2, GPC3, PSMA)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Targetable antigen positivity from the protocol target menu based on:"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ctDNA dynamics",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Correlative studies including CAR-NK persistence and ctDNA dynamics."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-cancer CAR-NK basket; Glioblastoma named in conditions. Ages field includes CHILD although inclusion says 18-75. Only CAR-NK cell products are investigational (excluded type). Fludarabine/cyclophosphamide are conditioning (supportive, R6). Antigen positivity (including EGFR, one of nine menu antigens) is an entry requirement and also determines arm assignment (1 vs >=2 antigens); not candidate-matched because the CAR-NK products are not candidates. Not coded as EGFR_EGFRvIII because the requirement is any menu antigen."
+}

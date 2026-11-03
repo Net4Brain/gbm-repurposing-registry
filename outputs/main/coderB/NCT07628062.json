@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT07628062",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "HPV-Positive Oropharyngeal Squamous Cell Carcinoma; Oropharyngeal Squamous Cell Carcinoma; Head and Neck Cancer"},
+      {"field": "eligibility", "quote": "Histologically confirmed squamous cell carcinoma of the oropharynx that is HPV-positive"},
+      {"field": "title", "quote": "In Participants With Recurrent Or Progressive Glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Official title names recurrent/progressive glioblastoma, but conditions, arms, interventions and eligibility describe only HPV-positive oropharyngeal cancer; title treated as a registry error."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "NAI 1.2 mg administered subcutaneously as part of the experimental treatment regimen."},
+      {"field": "interventions", "quote": "Nab-paclitaxel 100 mg/m² administered intravenously during neoadjuvant treatment cycles."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "No prior definitive treatment for the current OPSCC."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["cisplatin", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Nogapendekin Alfa Inbakicept (NAI)",
+      "active_moiety": "nogapendekin alfa inbakicept",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive neoadjuvant nogapendekin alfa inbakicept (NAI), hAd5-HPV vaccine (IBRX-042), and nab-paclitaxel followed by de-intensified intensity-modulated radiation therapy (IMRT) with concurrent cisplatin, and post-radiation NAI and IBRX-042."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IL-15 receptor superagonist complex",
+      "stated_antitumour_mechanism": "IL-15 receptor agonist (immunotherapy)",
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2a, Single Arm (Safety Lead-In)", "Arm A"]
+    },
+    {
+      "agent_name_registered": "Nab-Paclitaxel",
+      "active_moiety": "paclitaxel",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Nab-paclitaxel 100 mg/m² administered intravenously during neoadjuvant treatment cycles."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "albumin-bound taxane chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2a, Single Arm (Safety Lead-In)", "Arm A"]
+    },
+    {
+      "agent_name_registered": "hAd5-HPV Vaccine (IBRX-042)",
+      "active_moiety": "hAd5-HPV vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "IBRX-042 administered subcutaneously as part of the experimental treatment regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "adenovirus-vectored HPV therapeutic vaccine",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2a, Single Arm (Safety Lead-In)", "Arm A"]
+    },
+    {
+      "agent_name_registered": "Cisplatin",
+      "active_moiety": "cisplatin",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Cisplatin 40 mg/m² administered intravenously concurrently with radiation therapy."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "platinum chemotherapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2a, Single Arm (Safety Lead-In)", "Arm A", "Arm B"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "HPV / p16 status",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed squamous cell carcinoma of the oropharynx that is HPV-positive (p16 immunohistochemistry positive and/or HPV DNA positive)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour HPV DNA (NavDx)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "Early efficacy signals such as clearance of circulating tumor HPV DNA (using the NavDx® assay) will also be assessed to gauge biomarker response."},
+      "flag": {"uncertain": false},
+      "arms": ["Phase 2a, Single Arm (Safety Lead-In)"]
+    }
+  ],
+  "coder_notes": "Record body is HPV-positive oropharyngeal cancer; only the official title mentions recurrent or progressive glioblastoma (with bevacizumab, tumour treatment fields, PD-L1 t-haNK, none of which are registered interventions). Coded not_glioblastoma and flagged uncertain for adjudication; likely a registry text mix-up. Candidate fields filled as if the record were eligible. HPV biomarker not candidate-matched because the HPV vaccine is an excluded intervention type, not a candidate (HPV targeting by the vaccine noted). Nab-paclitaxel and NAI treated as two investigational agents (experimental_combination)."
+}

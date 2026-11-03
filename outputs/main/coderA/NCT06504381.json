@@ -1,0 +1,125 @@
+{
+  "nct_id": "NCT06504381",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; MGMT-Unmethylated Glioblastoma; MGMT-Methylated Glioblastoma"},
+      {"field": "eligibility", "quote": "Participant must have newly diagnosed adult-type diffuse gliomas (World Health Organization Classification 2021) that has not been previously treated with surgery, radiation or chemotherapy (specifically astrocytoma, Isocitrate dehydrogenase (IDH)-mutant or glioblastoma, IDH-wildtype)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The study is designed to evaluate whether treatment with DB107-RRV in combination with DB107-FC when added to standard of care provides clinical benefit to newly diagnosed HGG"},
+      {"field": "interventions", "quote": "[DRUG] DB107-FC (other names: Toca FC, Extended-release 5-fluorocytosine, 5-fluorocytosine): Given orally (PO)"}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only pharmacological candidate is extended-release flucytosine, a prodrug whose antitumour effect depends on the gene therapy vector DB107-RRV; could be viewed as part of an excluded gene-therapy system (excluded_intervention_type)."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "in Combination With DB107-FC (Formerly Toca FC) and Radiation Therapy or DB107-FC, Temozolomide (TMZ) and Radiation Therapy in Patients With Newly Diagnosed High Grade Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["DB107-RRV (vocimagene amiretrorepvec)", "radiotherapy", "temozolomide"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "DB107-RRV",
+      "active_moiety": "retroviral replicating vector gene therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[GENETIC] DB107-RRV (other names: Toca 511, Vocimagene amiretrorepvec): Given intracranially (IC) during resection and intravenously (IV) immediately following"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DB107",
+      "drug_class_hint": "vocimagene amiretrorepvec (Toca 511), retroviral replicating vector gene therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "No MGMT Methylation (DB107-RRV, DB107-FC, Radiation therapy)",
+        "Low to High MGMT Methylation (DB107-RRV, DB107-FC, Temozolomide (TMZ), Radiation therapy)"
+      ]
+    },
+    {
+      "agent_name_registered": "DB107-FC",
+      "active_moiety": "flucytosine",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] DB107-FC (other names: Toca FC, Extended-release 5-fluorocytosine, 5-fluorocytosine): Given orally (PO)"},
+        {"field": "brief_summary", "quote": "The study is designed to evaluate whether treatment with DB107-RRV in combination with DB107-FC when added to standard of care provides clinical benefit to newly diagnosed HGG"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "DB107",
+      "drug_class_hint": "extended-release flucytosine (antifungal; prodrug converted by vector-encoded cytosine deaminase)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Candidate status depends on whether a prodrug activated only by the excluded gene therapy counts as a pharmacological candidate."},
+      "arms": [
+        "No MGMT Methylation (DB107-RRV, DB107-FC, Radiation therapy)",
+        "Low to High MGMT Methylation (DB107-RRV, DB107-FC, Temozolomide (TMZ), Radiation therapy)"
+      ]
+    },
+    {
+      "agent_name_registered": "Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Low to high MGMT methylation participants receive 75 mg/m\\^2 TMZ per SOC and 300mg/kg/day DB107-FC PO concurrent with 2 Gy/day over 5 consecutive days during weeks 1-2, \\& 5-6."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Low to High MGMT Methylation (DB107-RRV, DB107-FC, Temozolomide (TMZ), Radiation therapy)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "No MGMT methylation (MGMT unmethylated) which will receive DB107-FC and RT following DB107-RRV or Low-High MGMT methylated which will receive DB107-FC, Temozolomide (TMZ) and RT following DB107-RRV"},
+      "flag": {"uncertain": false},
+      "arms": [
+        "No MGMT Methylation (DB107-RRV, DB107-FC, Radiation therapy)",
+        "Low to High MGMT Methylation (DB107-RRV, DB107-FC, Temozolomide (TMZ), Radiation therapy)"
+      ]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "The primary tumor must be made available for central testing for IDH1 mutation, O6-methylguanine-DNA methyl-transferase (MGMT) methylation status."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "DB107-RRV (Toca 511) is a gene therapy vector, listed as excluded_intervention_type. DB107-FC (extended-release flucytosine) is the only pharmacological agent; coded experimental_monotherapy by analogy with 'checkpoint inhibitor + vaccine', but it acts only as a prodrug converted by the vector, so flagged for adjudication. MGMT status assigns the arm (TMZ vs no TMZ); linked to the TMZ backbone, so not candidate-matched. Both IDH-mutant astrocytoma and IDH-wildtype glioblastoma are eligible, so IDH is not an entry requirement; it is tested centrally and PFS is analysed by genomic subsets. DGM7 (Denovo Genomic Marker 7) is measured from a blood sample (germline predictive marker) and not recorded as a tumour biomarker; primary PFS analysis is 'informed by biomarker status, DGM7'."
+}

@@ -1,0 +1,15 @@
+{"nct_id":"NCT07832448","coder_id":"A","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only",
+"gbm_population_evidence":[{"field":"conditions","quote":"Recurrent Glioblastoma (WHO-Grade IV Glioma)"},{"field":"eligibility","quote":"Histopathologically confirmed glioblastoma (WHO grade IV) that has progressed or recurred after standard radiotherapy and chemotherapy, based on radiological evidence of measurable disease"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":true,"candidate_exclusion_reason":"none",
+"candidate_evidence":[{"field":"detailed_description","quote":"Tumor-targeted photodynamic therapy (PDT) uses a photosensitizer that preferentially accumulates in tumor tissue; activation with 630-nm laser light generates reactive oxygen species that selectively kill residual tumor cells while sparing normal brain."}],
+"candidate_flag":{"uncertain":false},"cns5_terminology":"historical"},
+"trial":{"treatment_setting":"recurrent","treatment_setting_evidence":[{"field":"conditions","quote":"Recurrent Glioblastoma (WHO-Grade IV Glioma)"}],
+"regimen":"monotherapy","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[
+{"agent_name_registered":"Hematoporphyrin Injection (Hiporfin)","active_moiety":"hematoporphyrin","role":"experimental_monotherapy","role_evidence":[{"field":"arms","quote":"Patients receive hematoporphyrin injection (Hiporfin) 5 mg/kg intravenously in 250 mL normal saline under light protection 48-72 hours before surgery, after a negative skin test."}],"delivery_enabling":false,"device_dependent":true,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"photosensitizer (hematoporphyrin derivative, HpD) for photodynamic therapy with 630-nm laser","stated_antitumour_mechanism":"photosensitizer activated by 630-nm laser light generates reactive oxygen species that kill residual tumour cells","flag":{"uncertain":false},"arms":["Microsurgical Resection + PDT"]},
+{"agent_name_registered":"Dexamethasone","active_moiety":"dexamethasone","role":"supportive","role_evidence":[{"field":"arms","quote":"Dexamethasone 10 mg IV daily for 3 days preoperatively."}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"corticosteroid","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["Microsurgical Resection + PDT"]}],
+"biomarkers":[],
+"coder_notes":"Phase NA (excluded at S3 by code). Hematoporphyrin derivative PDT with intraoperative 630-nm laser: device-dependent candidate. Dexamethasone is not a registered intervention but is given to every patient per the arm description; coded supportive (perioperative, no antitumour hypothesis). Laser PDT not counted as radiotherapy, so regimen monotherapy alongside surgery."}

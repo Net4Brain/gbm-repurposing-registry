@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05772767",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Glioma, Malignant"},
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of supratentorial glioblastoma, or"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Modulation of cilium-related genes and administration of cilium-targeted drugs to glioblastoma stem cells in vitro and ex vivo in glioblastoma brain organoids."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have a radiological diagnosis of first recurrence of a primary supratentorial glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "cilium-related gene expression signature (prognostic)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "interventions", "quote": "Cilium-related signature will be studied in tumor tissue to evaluate its prognostic role."},
+      "flag": {"uncertain": false},
+      "arms": ["Biological sample collection"]
+    }
+  ],
+  "coder_notes": "Laboratory/biospecimen study: patients provide tissue; cilium-targeted drugs are tested only on cultured cells and organoids, no drug is named and none is administered to patients. Agents list empty. Setting is newly diagnosed or first recurrence (both)."
+}

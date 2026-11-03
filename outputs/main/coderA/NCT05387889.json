@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT05387889",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Hypertension, Pulmonary"},
+      {"field": "brief_summary", "quote": "each MMPH session will include Gentle Body Movement (GBM,10-min), Restorative Pose (Pose,10-min), and Body Awareness Meditation (BAM, 20-min)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Mindfulness Meditation for Pulmonary Hypertension (MMPH) (other names: MMPH intervention): Eight weeks of Mindfulness Meditation practice for patients with Pulmonary Hypertension condition."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Behavioural mindfulness trial in pulmonary hypertension; 'GBM' here means Gentle Body Movement, not glioblastoma. No drug interventions. Phase NA. Treatment setting not applicable to a non-cancer trial, coded unclear."
+}

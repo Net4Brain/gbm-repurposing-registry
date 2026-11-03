@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT05664243",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Subjects with histologically or cytologically confirmed history of IDH-wild type glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "This is a Phase 1b and 2 open-label cellular therapy trial using genetically modified gamma-delta (γδ) T cells or DeltEx Drug Resistant Immunotherapy (DRI)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "detailed_description", "quote": "There are four arms to this study for eligible subjects with either newly diagnosed or relapsed IDH wild-type (IDH-wt) glioblastoma (GBM)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Autologous genetically modified gamma-delta T cells",
+      "active_moiety": "autologous gamma-delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Autologous genetically modified gamma-delta T cells: Arm A: Cells will be administered on Day 1 of each of 6, 28-day cycles in combination with TMZ maintenance"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "genetically modified autologous gamma-delta T cell therapy (drug-resistant immunotherapy, DeltEx DRI)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1) Autologous Newly Diagnosed Disease"]
+    },
+    {
+      "agent_name_registered": "Allogeneic genetically modified gamma-delta T cells",
+      "active_moiety": "allogeneic gamma-delta t cell therapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Allogeneic genetically modified gamma-delta T cells: Phase 1b and Arm B: Cells will be administered on Day 1 of each of 6, 28-day cycles in combination with D1 of TMZ 150mg/m2"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "genetically modified allogeneic gamma-delta T cell therapy (drug-resistant immunotherapy, DeltEx DRI)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["2) Allogeneic Relapsed Disease", "3) Allogeneic Newly Diagnosed Disease"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The DRI cells are given in combination with a standard dose of TMZ"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["1) Autologous Newly Diagnosed Disease", "2) Allogeneic Relapsed Disease", "3) Allogeneic Newly Diagnosed Disease"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Subjects with histologically or cytologically confirmed history of IDH-wild type glioblastoma"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Only experimental interventions are cell therapies (excluded intervention type); temozolomide is the shared backbone (not a registered intervention but part of every arm per the descriptions). Arms 2 and 3 are both allogeneic; arm 2 uses a single TMZ dose per cycle."
+}

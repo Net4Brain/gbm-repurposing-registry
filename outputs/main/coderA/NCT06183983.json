@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT06183983",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosed with IDH-wildtype glioblastoma, as confirmed by pathology including molecular analysis post resection/biopsy;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DIAGNOSTIC_TEST] Extended or additional MRI-scan (with contrast) prior to radiotherapy"},
+      {"field": "brief_summary", "quote": "Radiation treatment and patient follow-up will occur according to the clinical standard."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Referred for treatment of recurrent glioblastoma;"},
+      {"field": "eligibility", "quote": "Previous radiotherapy to the brain;"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Imaging-only study (advanced MRI for radiotherapy target delineation); phase NA. No drug or biologic is a registered intervention; the gadolinium-based contrast used for the MRI is part of the registered diagnostic test and is not listed as a separate agent (would be diagnostic_agent if listed). Treatment setting quotes are exclusion criteria (recurrent GBM and prior brain RT excluded) -> newly diagnosed. IDH-wildtype is a diagnostic criterion, not recorded as a biomarker."
+}

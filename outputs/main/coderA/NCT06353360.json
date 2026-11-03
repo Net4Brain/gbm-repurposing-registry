@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT06353360",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme"},
+      {"field": "eligibility", "quote": "the pathological examination confirmed glioblastoma with isocitrate dehydrogenase (IDH) wild-type according to the 2021 World Health Organization (WHO) classification of tumors of the central nervous system"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Tislelizumab will be given 300 mg intravenously every 4 weeks beginning on Day 1 of Cycle 2 of adjuvant TMZ."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "TTField in Combination With Temozolomide and Tislelizumab in The Treatment of Newly Diagnosed Glioblastoma."},
+      {"field": "eligibility", "quote": "Patients who had undergone maximal surgical resection (biopsy) and completed TMZ concurrent chemoradiotherapy were planned for adjuvant TMZ treatment."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "tumor treating fields"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Tislelizumab",
+      "active_moiety": "tislelizumab",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "To investigate the safety and efficacy of Tumor-Treating Fields (TTFields) in combined with temozolomide (TMZ) and tislelizumab in the treatment of newly diagnosed glioblastoma (GBM)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Treating Fields + Temozolomide + Tislelizumab"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "The patients will carry out 6 cycles of TMZ adjuvant chemotherapy according to the instructions."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Tumor Treating Fields + Temozolomide + Tislelizumab"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "the pathological examination confirmed glioblastoma with isocitrate dehydrogenase (IDH) wild-type"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm: TTFields (device, not listed as agent) + standard adjuvant TMZ + tislelizumab. Tislelizumab is the only investigational drug; TTFields arguably also part of the investigational combination but is a device. IDH-wildtype only defines GBM."
+}

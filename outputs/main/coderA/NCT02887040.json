@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT02887040",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Confirmation of anaplastic glioma (i.e., oligodendroglioma, astrocytoma, oligoastrocytoma) or GBM histology if there is less than 50% involvement of the pons."},
+      {"field": "conditions", "quote": "Brain Stem Glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": true, "reason": "Diffuse intrinsic pontine glioma trial (could be read as DIPG-only = not_glioblastoma), but inclusion criteria explicitly accept GBM histology."},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Antineoplaston therapy (Atengenal + Astugenal) by IV infusion every four hours for 104 weeks."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Plus Radiation Therapy vs. Radiation Therapy Only in Subjects With Newly Diagnosed Diffuse, Intrinsic, Brainstem Glioma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Atengenal",
+      "active_moiety": "atengenal",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "will receive Atengenal in combination with Astugenal (Antineoplaston therapy) and radiation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "antineoplaston_therapy",
+      "drug_class_hint": "antineoplaston A10 (investigational, phenylacetylglutamine-based)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Antineoplaston therapy + Radiation"]
+    },
+    {
+      "agent_name_registered": "Astugenal",
+      "active_moiety": "astugenal",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "will receive Astugenal in combination with Atengenal (Antineoplaston therapy) and radiation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "antineoplaston_therapy",
+      "drug_class_hint": "antineoplaston AS2-1 (investigational, phenylacetate/phenylacetylglutamine mixture)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Antineoplaston therapy + Radiation"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Brainstem glioma (DIPG) trial including children and adults; GBM histology explicitly allowed in inclusion criteria, hence mixed_glioma_gbm_named with uncertainty. The 'Radiation' arm is registered as EXPERIMENTAL but is radiation-only and functions as the control (control_arm_from_other_arms yes). Atengenal (A10) and Astugenal (AS2-1) are given together as 'Antineoplaston therapy'; coded as two investigational agents (experimental_combination) sharing regimen_id. Not a fixed-dose product. Start date may fall outside window (CODE layer)."
+}

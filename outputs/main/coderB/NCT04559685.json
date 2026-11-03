@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT04559685",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "eligibility", "quote": "Prior resection of histologically diagnosed high-grade gliomas (III and IV)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "SONALA-001(ALA) given 5-7 hours prior to receiving the MRgFUS."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Study of Sonodynamic Therapy in Participants With Recurrent High-Grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "The percentage (%) of Cleaved Caspase-3 of the surgical tissue will be quantified and compared to intra-patient control specimens."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "SONALA-001(ALA)",
+      "active_moiety": "aminolevulinic acid",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "SONALA-001(ALA) given 5-7 hours prior to receiving the MRgFUS."},
+        {"field": "brief_summary", "quote": "sonodynamic therapy (SDT) utilizing the MRgFUS combined with intravenous ALA to assess safety and efficacy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "5-aminolevulinic acid HCl, intravenous sonosensitizer for sonodynamic therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Arm A Energy Dose-escalation",
+        "Arm B Time-escalation",
+        "Arm C ALA Dose-escalation",
+        "Arm E Optimal energy and ALA dose"
+      ]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Arm E: Participant at first recurrence with an unmethylated HGG, has completed standard therapy and is not currently scheduled for resection."},
+      "flag": {"uncertain": false},
+      "arms": ["Arm E Optimal energy and ALA dose"]
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). Not glioblastoma-specific: high-grade glioma grade III/IV, GBM never named, so high_grade_glioma_unspecified. Arm D is device alone (no agent). Arm E 'unmethylated HGG' is read as MGMT promoter unmethylation (gene not named in the record)."
+}

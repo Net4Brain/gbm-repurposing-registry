@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04747145",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically confirmed new diagnosis of GBM according to updated World Health Organization (WHO) classification criteria."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The primary protocol objective is to assess the impact of substituting pulsed reduced dose radiotherapy (pRDR) for standard radiation therapy in the upfront treatment of glioblastoma (GBM) on disease progression."},
+      {"field": "eligibility", "quote": "Planned for standard adjuvant chemoradiotherapy of approximately 60 Gy of radiation therapy (RT) , or biologically equivalent dose, according to local practice, and concomitant TMZ chemotherapy (75 mg/m\\^2 daily)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed new diagnosis of GBM according to updated World Health Organization (WHO) classification criteria."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Concurrent Chemotherapy (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Concurrent Chemotherapy (Temozolomide) (other names: TMZ, Temodar): 75mg/m\\^2 x 42 days (concurrent chemotherapy with radiation)."},
+        {"field": "eligibility", "quote": "Planned for standard adjuvant chemoradiotherapy of approximately 60 Gy of radiation therapy (RT) , or biologically equivalent dose, according to local practice, and concomitant TMZ chemotherapy (75 mg/m\\^2 daily)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy), standard concurrent dosing",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Pulsed reduced dose-rate radiotherapy"]
+    },
+    {
+      "agent_name_registered": "Adjuvant Chemotherapy (Temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Planned treatment with adjuvant/maintenance TMZ (150 to 200 mg/m\\^2 daily x 5 d, q 28 days)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy), standard adjuvant dosing",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Pulsed reduced dose-rate radiotherapy"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "All patients with sufficient tissue must have had tissue submitted for O6-Methylguanine-DNA Methyltransferase (MGMT) promoter methylation determination prior to enrollment."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "The investigational intervention is pulsed reduced dose-rate radiotherapy (registered as a device), which is not a pharmacological candidate; temozolomide is standard concurrent/adjuvant Stupp dosing and coded soc_backbone (listed as its two registered interventions). Exclusion reason could alternatively be no_pharmacological_candidate; chosen excluded_intervention_type because radiotherapy is the investigated intervention. MGMT: tissue must be submitted for testing but no MGMT status is required for entry, so coded exploratory_correlative rather than eligibility. 'Updated WHO classification' without IDH or edition stated, so cns5_terminology unclear."
+}

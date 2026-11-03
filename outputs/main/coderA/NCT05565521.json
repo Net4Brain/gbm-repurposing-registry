@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT05565521",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme, Adult; Glioblastoma, IDH-mutant"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed, based on biopsy or surgical resection, glioblastoma or WHO grade 4 astrocytoma, IDH-mutant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Concurrent chemoradiation with temozolomide (TMZ) over 3 weeks (40 Gy in 15 fractions). The gross tumor volume (GTV) plus margin will be boosted simultaneously (SIB) to 52.5 Gy in 15 fractions."},
+      {"field": "brief_summary", "quote": "In this trial, we will examine the outcomes of increased radiation dose, combined with reduced-margin adaptive radiotherapy in this patient population."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Biopsy or surgical resection performed ≤ 6 weeks prior to study entry"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Concurrent dose-escalated chemoradiation with temozolomide (TMZ) on the MR-Linac with weekly adaptation"},
+        {"field": "brief_summary", "quote": "The usual standard of care for patients over 65 diagnosed with glioblastoma (\"GBM\") or Grade 4 astrocytoma, IDH-mutant is a 3-week course of radiotherapy, with concurrent and adjuvant temozolomide (TMZ)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment Arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Radiotherapy trial (dose-escalated, reduced-margin adaptive MR-Linac RT) in elderly GBM or IDH-mutant grade 4 astrocytoma; temozolomide is standard concurrent backbone, not the question. Exclusion reason could alternatively be established_therapy_only. cns5_terminology: conditions use 'Glioblastoma Multiforme' and list 'Glioblastoma, IDH-mutant' (historical); no IDH-wildtype requirement, though the record separately names WHO grade 4 astrocytoma, IDH-mutant. IDH mentioned only as an allowed histology, not as an entry requirement, so not listed as a biomarker. Gadolinium contrast mentioned only in eligibility for MRI; not a registered intervention, not listed."
+}

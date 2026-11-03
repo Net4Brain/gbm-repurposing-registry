@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT07511725",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma (GBM)"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly-diagnosed WHO grade IV glioblastoma with at least one measurable lesion on MRI."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The goal of this clinical trial is to test whether adding preventive intrathecal chemotherapy (thiotepa) to the standard Stupp regimen can lower the risk of leptomeningeal metastasis (LM) and extend survival in patients with newly diagnosed glioblastoma (GBM)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly-diagnosed WHO grade IV glioblastoma with at least one measurable lesion on MRI."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": [
+      {"field": "brief_summary", "quote": "Provide CSF and blood samples for exploratory biomarkers that may predict response or resistance."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Preventive Intrathecal Thiotepa",
+      "active_moiety": "thiotepa",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "10 mg thiotepa once weekly for 6 consecutive weeks, beginning within 7 days of the first RT fraction. Lumbar puncture or injection via intra-operatively placed Ommaya reservoir."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (approved cytotoxic), given intrathecally",
+      "stated_antitumour_mechanism": "Thiotepa is a lipophilic alkylating agent that achieves high CSF concentrations, penetrates the pia-glial barrier, and has documented activity against meningeal glioma deposits",
+      "flag": {"uncertain": false},
+      "arms": ["Stupp plus intrathecal injection of thiotepa"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (within Concomitant Chemoradiotherapy (Stupp backbone))",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Oral temozolomide 75 mg/m² daily, starting on the first day of RT and continuing until the last fraction (≈ 42-49 days)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care (Stupp regimen)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Stupp plus intrathecal injection of thiotepa"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "in adults with newly diagnosed, WHO grade 4 IDH-wildtype glioblastoma who are at very high risk of leptomeningeal seeding"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Thiotepa is an approved alkylator used here intrathecally (new_route) as a prophylactic add-on to Stupp; not on the D6 established-GBM-therapy list, so treated as the candidate. Temozolomide is registered within the Radiation-type 'Stupp backbone' intervention and every patient receives it. IDH-wildtype appears only in the detailed description (population definition); inclusion criteria say 'WHO grade IV glioblastoma'. cns5 coded because the record describes the population as IDH-wildtype grade 4; if the description is not counted, this would be historical. Exploratory CSF/blood biomarkers are predictive (response/resistance), not linked to thiotepa's target, so target engagement coded no. SVZ contact / ventricular entry are imaging/surgical risk criteria, not molecular biomarkers."
+}

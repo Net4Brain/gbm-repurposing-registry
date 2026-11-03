@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07439172",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Gliomas; Glioblastoma; Astrocytoma; Oligodendroglioma"},
+      {"field": "eligibility", "quote": "Pathologic diagnosis of high-grade glioma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Patients will receive 2 cycles of pre-radiation temozolomide (200mg/m\\^2)."},
+      {"field": "brief_summary", "quote": "The investigators will start with temozolomide, which is the only chemotherapy approved by the FDA for HGG."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Pre-Radiation Chemotherapy for Newly Diagnosed High-Grade Glioma."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Pre-radiation temozolomide.",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Patients will receive 2 cycles of pre-radiation temozolomide (200mg/m\\^2)."},
+        {"field": "brief_summary", "quote": "First, the investigators need to find out if giving chemotherapy early works using a drug we already know can treat gliomas."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent; established GBM therapy given in a new (pre-radiation) schedule",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["All Patients"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm test of temozolomide given before radiotherapy (new schedule/setting of an established GBM therapy), so no candidate. Glioblastoma named in conditions alongside other high-grade gliomas."
+}

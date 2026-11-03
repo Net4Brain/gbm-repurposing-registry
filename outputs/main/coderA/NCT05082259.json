@@ -1,0 +1,145 @@
+{
+  "nct_id": "NCT05082259",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "PART B4 (no longer recruiting): Patients with histologically confirmed relapsed glioblastoma (GBM). Diagnosis of GBM will be based on WHO classification of CNS tumours, 5th edition (2021):"},
+      {"field": "conditions", "quote": "Advanced Cancer; Cervical Cancer; Triple Negative Breast Cancer"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "escalating doses of ASTX660 will be investigated in combination with a fixed dose of Pembrolizumab (200mg)."},
+      {"field": "title", "quote": "ASTEROID: A Trial of ASTX660 in Combination With Pembrolizumab"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "PART B4 (no longer recruiting): Patients with histologically confirmed relapsed glioblastoma (GBM)."},
+      {"field": "eligibility", "quote": "PART A: Patients with histologically or cytologically confirmed malignant advanced solid tumours, refractory to conventional treatment, or for which no conventional therapy exists or is declined by the patient."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["tolinapant", "pembrolizumab"],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Determination of the plasma levels of ASTX660 in Part A of the study, using validated assays"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "To evaluate the effect of ASTX660 on the tumour microenvironment including the evaluation of inflammatory cytokines downstream of NF-kB in paired tumour biopsies."},
+      {"field": "outcomes", "quote": "Determination of changes in exploratory biomarkers including but not limited to immune transcriptome profile changes, PD-L1 expression and tumour lysate cytokine profiling in pre- and post-treatment tumour biopsies."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "ASTX660",
+      "active_moiety": "tolinapant",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "escalating doses of ASTX660 will be investigated in combination with a fixed dose of Pembrolizumab (200mg)."},
+        {"field": "interventions", "quote": "ASTX660 (other names: Tolinapant)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral IAP antagonist (cIAP1/2 and XIAP Smac mimetic), ASTX660",
+      "stated_antitumour_mechanism": "the ASTEROID Phase I clinical trial will be the first trial utilising triple cIAP1/2 and XIAP blockade by ASTX660 as a strategy to maximise immunogenic cell death and the generation of an efficient adaptive immune response.",
+      "flag": {"uncertain": false},
+      "arms": ["Part A-Escalation", "Part B-Expansion"]
+    },
+    {
+      "agent_name_registered": "Pembrolizumab",
+      "active_moiety": "pembrolizumab",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "title", "quote": "ASTEROID: A Trial of ASTX660 in Combination With Pembrolizumab"},
+        {"field": "brief_summary", "quote": "This is a multi-centre Phase I dose finding and proof-of-concept study of the combination of ASTX660 together with Pembrolizumab with expansion cohorts testing preliminary efficacy in immune-refractory cancers, triple negative breast cancer (TNBC), cervical cancer, and glioblastoma."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-PD-1 monoclonal antibody (MK-3475)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Pembrolizumab is given at a fixed dose in every arm while ASTX660 is dose-escalated; could be read as soc_backbone (C3), making ASTX660 the sole candidate (experimental_monotherapy)."},
+      "arms": ["Part A-Escalation", "Part B-Expansion"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "arms", "quote": "Cohort B2: Patients with PD-L1 positive Cervical Cancer"},
+      "flag": {"uncertain": true, "reason": "Match depends on pembrolizumab being a candidate (role uncertain); cohort is cervical cancer, not GBM."},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "IDH wild type diffuse astrocytic glioma with microvascular proliferation, OR necrosis, OR one or more of the following molecular features of GBM:"},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "ER-positive HER2-negative breast cancer (cohort B5)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "PART B5: Patients with histologically or cytologically confirmed ER positive HER2 negative breast cancer who have progressed on CDK4/6 inhibitor therapy."},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "triple-negative (ER/PR/HER2-negative) breast cancer (cohort B3)",
+      "role": "enrichment",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "PART B3: Patients with histologically or cytologically confirmed triple negative breast cancer, refractory to conventional treatment, or for which no conventional therapy exists or is declined by the patient."},
+      "flag": {"uncertain": false},
+      "arms": ["Part B-Expansion"]
+    },
+    {
+      "biomarker": "PD_L1",
+      "biomarker_other": null,
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "pembrolizumab",
+      "source_quote": {"field": "outcomes", "quote": "Determination of changes in exploratory biomarkers including but not limited to immune transcriptome profile changes, PD-L1 expression and tumour lysate cytokine profiling in pre- and post-treatment tumour biopsies."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "NF-kB downstream inflammatory cytokines in paired tumour biopsies",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "tolinapant",
+      "source_quote": {"field": "outcomes", "quote": "To evaluate the effect of ASTX660 on the tumour microenvironment including the evaluation of inflammatory cytokines downstream of NF-kB in paired tumour biopsies."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Multi-cancer basket; GBM is eligible only in Part B4 (relapsed GBM, WHO CNS5 2021, IDH-wildtype), which the record says is no longer recruiting; GBM cohort is not listed in the Part B arm label (only B1-B3). GBM diagnostic molecular features (TERT promoter mutation, EGFR amplification, chr7 gain/10 loss) are alternative diagnostic criteria, not selection requirements, so not recorded as separate biomarker rows. PD-L1 positivity is required only for the cervical cancer cohort B2. Part A requires fresh paired biopsies for biomarker analysis. ASTX660 PK is plasma only."
+}

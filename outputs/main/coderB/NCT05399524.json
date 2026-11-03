@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05399524",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Functional and Ultrasound Guided Resection of Glioblastoma"},
+      {"field": "conditions", "quote": "Glioma Glioblastoma Multiforme"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[OTHER] Additional pre- and intra-operative imaging (other names: DTI, IUS)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Neuro-oncology Multi-Disciplinary Team (MDT) decision that the imaging shows a primary GB tumour which is maximally resectable"},
+      {"field": "eligibility", "quote": "Recurrent GB"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "5-ALA",
+      "active_moiety": "aminolevulinic acid",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[OTHER] Standard of Care: Neuronavigation and intraoperative 5-ALA"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "fluorescence-guided resection agent",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Additional pre- and intra-operative imaging", "Standard of Care"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Surgical/imaging trial (DTI and intraoperative ultrasound); 5-ALA is background fluorescence-guided resection in both arms. Temozolomide is mentioned only as planned adjuvant therapy (suitability criterion), not a registered intervention, so not listed. Registered ACTIVE_COMPARATOR arm exists, so control_arm_from_other_arms is no."
+}

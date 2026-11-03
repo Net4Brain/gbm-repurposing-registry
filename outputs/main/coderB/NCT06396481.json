@@ -1,0 +1,30 @@
+{
+"nct_id":"NCT06396481","coder_id":"B","manual_version":"1.4",
+"screening":{
+"gbm_population":"mixed_glioma_gbm_named",
+"gbm_population_evidence":[{"field":"conditions","quote":"GBM; DIPG Brain Tumor; Medulloblastoma"},{"field":"eligibility","quote":"Patients with clinically diagnosed malignant brain glioma in an important structural area (WHO Grade IV);"}],
+"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,
+"candidate_exclusion_reason":"excluded_intervention_type",
+"candidate_evidence":[{"field":"interventions","quote":"[BIOLOGICAL] Vγ9Vδ2 T cell"}],
+"candidate_flag":{"uncertain":false},
+"cns5_terminology":"historical"},
+"trial":{
+"treatment_setting":"recurrent",
+"treatment_setting_evidence":[{"field":"eligibility","quote":"Patients with poor postoperative effect or ineffective guidelines for conventional treatment"}],
+"regimen":"not_applicable",
+"combination_partners":[],
+"basket":false,
+"control_arm_from_other_arms":"not_applicable",
+"flag":{"uncertain":false},
+"tumour_pk_planned":"unclear",
+"tumour_pk_planned_evidence":[{"field":"arms","quote":"To investigate the expansion, infiltration and persistence of Vγ9Vδ2 T cells after reinfusion."}],
+"target_engagement_planned":"unclear",
+"target_engagement_planned_evidence":[{"field":"detailed_description","quote":"To investigate the immunological dynamics of Vγ9Vδ2 T cells after reinfusion."}]
+},
+"agents":[
+{"agent_name_registered":"Vγ9Vδ2 T cell","active_moiety":"allogeneic vgamma9vdelta2 t cell therapy","role":"excluded_intervention_type","role_evidence":[{"field":"interventions","quote":"[BIOLOGICAL] Vγ9Vδ2 T cell"}],"delivery_enabling":false,"device_dependent":false,"formulation_flag":"none","fixed_dose_combination":false,"radiopharmaceutical":false,"regimen_id":null,"drug_class_hint":"allogeneic gamma-delta T cell therapy (cell therapy)","stated_antitumour_mechanism":null,"flag":{"uncertain":false},"arms":["To evaluate the safety and feasibility of allogeneic Vγ9Vδ2 T cell therapy.","To evaluate the therapeutic effect of allogeneic Vγ9Vδ2 T cells on brain malignant glioma","To investigate the expansion, infiltration and persistence of Vγ9Vδ2 T cells after reinfusion."]}
+],
+"biomarkers":[],
+"coder_notes":"Cell therapy only. Temozolomide/radiotherapy are optional in some patients ('may be combined'), not a registered intervention, so not listed. Three EXPERIMENTAL arms are really objectives of one single-arm study; internal/external control groups are described but not registered arms. Conditions include DIPG and medulloblastoma; eligibility is WHO grade IV malignant glioma, ages 4 and over. Biomarker exploration is generic, no specific marker named."
+}

@@ -1,0 +1,97 @@
+{
+  "nct_id": "NCT06327451",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "title", "quote": "Evaluate the Efficacy and Safety of Atorvastatin Combined With Temozolomide in the Treatment of Glioblastoma"},
+      {"field": "brief_summary", "quote": "Our previous study found that statins can block the malignant progression of glioma mediated by EGFR pathway."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "arms", "quote": "After 2 weeks of glioma surgery, one tablet of liptor was taken orally every night on the basis of STUPP protocol."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Atorvastatin 20mg",
+      "active_moiety": "atorvastatin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "title", "quote": "Evaluate the Efficacy and Safety of Atorvastatin Combined With Temozolomide in the Treatment of Glioblastoma"},
+        {"field": "interventions", "quote": "Liptor is a capsule in the form of 20 mg, once daily."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "statin (HMG-CoA reductase inhibitor), lipid-lowering",
+      "stated_antitumour_mechanism": "statins can block the malignant progression of glioma mediated by EGFR pathway",
+      "flag": {"uncertain": false},
+      "arms": ["Atorvastatin administrating group"]
+    },
+    {
+      "agent_name_registered": "STUPP regimen (temozolomide)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "the patients were treated with the current STUPP regimen and ATO (20mg, qn) orally"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM therapy (Stupp regimen)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Atorvastatin administrating group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "EGFR_EGFRvIII",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "atorvastatin",
+      "source_quote": {"field": "eligibility", "quote": "The immunohistochemical results of postoperative glioma samples showed that EGFR score was 3"},
+      "flag": {"uncertain": true, "reason": "EGFR IHC high expression is an entry requirement and the record links statins to EGFR-pathway mediated progression, but atorvastatin is not a direct EGFR-targeting agent."},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Temozolomide is not a separately registered intervention but the protocol states all patients receive the Stupp regimen, so it is listed (radiotherapy is not an agent). The summary also says 'primary and recurrent glioblastomas', but the arm and eligibility describe post-surgery Stupp therapy, so coded newly_diagnosed. Summary calls the trial 'double-blind' although it is single-arm."
+}

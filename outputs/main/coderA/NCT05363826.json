@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05363826",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme of Brain; Glioma, Sarcomatous"},
+      {"field": "eligibility", "quote": "Subject has pathologically confirmed diagnosis of glioblastoma or gliosarcoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Intravenous injection of Photobac® 24 hours before surgical removal of recurrent GBMF."},
+      {"field": "detailed_description", "quote": "Lighting up the brain using a low power near infrared laser will kill cells that contain Photobac®."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Subject has recurrent or progressive tumor following standard therapy."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure Photobac® concentration in tumor tissue removed during resection and in the bed of the tumor both before and after ligh treatment."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Measure Stat 3 Crosslinking as a quantitative marker of singlet oxygen tissue damage"},
+      {"field": "outcomes", "quote": "The samples of tissue taken from the tumor bed will be assayed for the degree of stat 3 crosslinking."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "photochemotherapy using 3-(1-Butyloxy)ethyl-3-deacetyl-bacteriopurpurin-18-n-butylimide methyl ester(Photobac®)",
+      "active_moiety": "photobac",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "3-(1-Butyloxy)ethyl-3-deacetyl-bacteriopurpurin-18-n-butylimide methyl ester (Photobac®) is injected 24 hours prior to surgical resection of a recurrent Glioblastoma or gliosarcoma."},
+        {"field": "arms", "quote": "Immediately following the resection the cavity is treated with 50 joules/ square cm of 787 nm light"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational bacteriochlorin photosensitizer for photodynamic therapy: 3-(1-Butyloxy)ethyl-3-deacetyl-bacteriopurpurin-18-n-butylimide methyl ester",
+      "stated_antitumour_mechanism": "Photodynamic therapy: photosensitizer retained in tumour, activated by near-infrared (787 nm) light to kill cells via singlet oxygen damage",
+      "flag": {"uncertain": false},
+      "arms": ["Photochemotherapy as an adjuvant to surgical resection of glioblastoma"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "STAT3 crosslinking in tumour bed tissue (marker of singlet oxygen damage)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "photobac",
+      "source_quote": {"field": "outcomes", "quote": "Stat3 crosslinking is caused by singlet oxygen damage and is expected correlate with the PDT dose."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Photobac is a brand-like name; no INN given in record, so active_moiety uses the name as first written (photobac) with the chemical name in drug_class_hint. Drug-device (laser PDT) -> device_dependent true. Prior RT/TMZ is history, not a backbone. Plasma PK also planned (blood/serum)."
+}

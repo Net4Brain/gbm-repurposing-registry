@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT05324501",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Recurrent glioblastoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DRUG] MTX110: Soluble panobinostat"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Recurrent glioblastoma."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "MTX110",
+      "active_moiety": "panobinostat",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] MTX110: Soluble panobinostat"},
+        {"field": "arms", "quote": "Weekly dosing of MTX110 via CED until progression/ unacceptable toxicity."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "soluble panobinostat (HDAC inhibitor) given intratumorally by convection-enhanced delivery",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Cohort A: MTX-110", "Cohort B: MTX-110 with optional catheter repositioning"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "device_dependent set true under manual R4 because the registered intervention pairs MTX110 with a programmable pump and catheter system for convection-enhanced delivery; the record does not say the device is needed for the antitumour effect, so an adjudicator may prefer false. Formulation is new route (intratumoral CED) of panobinostat (soluble form). The device is not listed as an agent. Arm 'Cohort B' is a continued-dosing/catheter-repositioning variation, not a control."
+}

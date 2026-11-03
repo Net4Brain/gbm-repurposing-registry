@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT04614493",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Initial Radiological Diagnosis Compatible With Newly Diagnosed Glioblastoma (IDH Wild-type)"},
+      {"field": "eligibility", "quote": "MRI with suspicion of GBM or Patient with a newly histologically proven IDHwt GBM by previous stereotaxic biopsy or king size opened biopsy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The transient opening of the BBB by ultrasound with the SonoCloud-9 (SC9) device, predicts the increase in the penetration of temozolomide (TMZ) into the brain and the stimulation of cerebral immunity"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Ultrasound experimental arm: Standard of Care + 15 Ultrasound BBB opening (interventions: Device: SonoCloud-9 (SC9) device; Drug: Temozolomide according Stupp protocol)"},
+      {"field": "detailed_description", "quote": "will evaluate primarily the clinical efficacy of the device and will be to compare Progression Free Survival (PFS) between the standard of care treatment with concomitant ultrasound BBB opening versus standard of care alone."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Temozolomide (established GBM therapy) is given with device-enabled BBB opening in the experimental arm; C12/R5 (device-enabled delivery = candidate) conflicts with rule 6 / D6 (established therapy = not a candidate)."},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Multisite Open-label Randomized Phase II Clinical Trial in Newly Diagnosed Glioblastoma Treated by Concurrent Temoradiation and Adjuvant Temozolomide +/- Ultrasound-induced Blood Brain Barrier Opening."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "yes",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temozolomide according Stupp protocol",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "interventions", "quote": "daily temozolomide (TMZ) during Radiation, followed by 6 months of adjuvant TMZ (5 days/months) with 6 concomitant Blood Brain Barrier opening sessions by ultrasound"},
+        {"field": "detailed_description", "quote": "The expected benefits of using the SonoCloud-9 experimental device prior to TMZ chemotherapy are the stabilization or reduction of GBM tumor volume"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, established GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Established GBM therapy whose device-enabled (ultrasound BBB opening) delivery is tested; could be candidate under C12/R5 or established_therapy_experiment under rule 6 / D6."},
+      "arms": ["Ultrasound experimental arm", "Control arm"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Primary question is the SonoCloud-9 device (ultrasound BBB opening) added to Stupp; temozolomide is the same in both arms but is delivered with BBB opening in the experimental arm. Coded temozolomide as established_therapy_experiment (D6 established GBM therapy, delivery tested), device_dependent true because the record pairs it with device-enabled delivery; in the control arm temozolomide is standard of care. Exclusion criteria mention hypersensitivity to perflutren lipid microspheres (Luminity/Definity), implying microbubble use with the device, but perflutren is not a registered intervention and not stated as given to every patient, so not listed (possible delivery_enabling_agent). IDH wild-type stated in conditions/eligibility; IDH used only to define GBM, so not recorded as a biomarker row. Radiotherapy is part of the Stupp backbone in both arms."
+}

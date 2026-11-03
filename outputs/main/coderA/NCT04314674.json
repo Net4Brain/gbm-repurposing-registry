@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT04314674",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumor - Metastatic; Brain Tumor, Adult: Glioblastoma"},
+      {"field": "eligibility", "quote": "Glioblastoma multiforme"},
+      {"field": "eligibility", "quote": "Metastatic tumor"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The aim of the study is to compare the effects of continuous 3% hypertonic saline (HS), bolus HS and 20% mannitol on intraoperative brain relaxation in patients with raised intracranial pressure during surgery for supratentorial tumors."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Elective supratentorial tumor resection"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "%3 HS bolus",
+      "active_moiety": "sodium chloride",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] %3 HS bolus 3 mL.kg-1: After the head fixation 3 mL.kg-1 %3 hypertonic saline will be administered over the 20 min intravenously."},
+        {"field": "brief_summary", "quote": "Hyperosmotic agents are used to decrease intracranial pressure."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "3% hypertonic saline, hyperosmotic agent for intracranial pressure",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["%3 HS bolus 3 mL.kg-1"]
+    },
+    {
+      "agent_name_registered": "%3 HS infusion 20 ml/h",
+      "active_moiety": "sodium chloride",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] %3 HS infusion 20 ml/h: After the head fixation 3% hypertonic saline at 20 ml/h infusion rate will be administered during the operation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "3% hypertonic saline, hyperosmotic agent for intracranial pressure",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["%3 HS infusion 20 ml/h"]
+    },
+    {
+      "agent_name_registered": "20% mannitol",
+      "active_moiety": "mannitol",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] %20 mannitol 0,6 gr.kg-1: After the head fixation %20 mannitol 0,6 gr.kg-1 will be administered over the 20 min intravenously."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "osmotic diuretic for intracranial pressure / brain relaxation",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["%20 mannitol 0,6 gr.kg-1"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Registered phase NA (fails S3); coded in full. Perioperative anaesthesia trial comparing hyperosmotic agents for brain relaxation; no antitumour hypothesis. All three arms are registered ACTIVE_COMPARATOR, so agents coded control_comparator by rule 1 (first applicable rule); supportive (rule 2) would be the substantive alternative. Population is glioblastoma multiforme or metastatic brain tumours, coded basket_gbm_eligible (multi-cancer, GBM named in conditions and inclusion); mixed_glioma_gbm_named is not apt as no other glioma types. Treatment setting not stated (resection, likely mostly newly diagnosed). Mannitol here is for ICP, not BBB disruption, so not delivery-enabling."
+}

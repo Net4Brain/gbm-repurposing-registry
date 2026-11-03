@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT04485949",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Has a new diagnosis of GBM (WHO GRADE III or Grade IV GBM) based on the treating neurosurgeon's best clinical judgement"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "IGV-001, an immunotherapeutic product that combines personalized whole tumor-derived cells with an antisense oligonucleotide (IMV-001) in implantable biodiffusion chambers."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "IGV-001 is an autologous tumour-cell immunotherapy (vaccine-like) but contains an antisense oligonucleotide (IMV-001) targeting IGF-1R; if the ASO were treated as a pharmacological candidate, S6 would change."},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Has a new diagnosis of GBM (WHO GRADE III or Grade IV GBM) based on the treating neurosurgeon's best clinical judgement"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "IGV-001 Cell Immunotherapy",
+      "active_moiety": "autologous tumour cell immunotherapy",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "title", "quote": "IGV-001, an Autologous Cell Immunotherapy With Antisense Oligonucleotide (IMV-001) Targeting IGF-1R"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "IGV-001: personalized whole tumour-derived cells combined with IGF-1R antisense oligonucleotide IMV-001 in implantable biodiffusion chambers (autologous cell immunotherapy / tumour-cell vaccine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Component IMV-001 is an antisense oligonucleotide (pharmacological class) within an autologous cell immunotherapy product; candidate status depends on whether the product is treated as an excluded cell/vaccine therapy."},
+      "arms": ["IGV-001"]
+    },
+    {
+      "agent_name_registered": "SOC: Temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] SOC: Temozolomide: Temozolomide administered orally."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard chemoradiation backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["IGV-001", "Placebo"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "MGMT status will be determined per epigenetic and tumor proliferation analysis from tissue obtained during surgery."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Population: inclusion reads 'new diagnosis of GBM (WHO GRADE III or Grade IV GBM)'; condition is Glioblastoma only, coded gbm_only; grade IV GBM without IDH requirement -> historical. Placebo biodiffusion chamber (inactive solution) not listed as an agent (no active drug). IGV-001 coded as a single excluded_intervention_type row; IMV-001 (IGF-1R antisense oligonucleotide) is a component of the cell product, flagged for adjudication. Placebo arm is a registered PLACEBO_COMPARATOR, so control_arm_from_other_arms = no. MGMT used only for subgroup PFS/OS."
+}

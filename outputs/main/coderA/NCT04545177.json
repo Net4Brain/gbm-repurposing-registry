@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT04545177",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Participants with a history of histologically-confirmed diagnosis of World Health Organization Grade IV glioma (glioblastoma or gliosarcoma) that are undergoing repeat resection of a recurrent tumor as identified on preoperative MR imaging"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Tumor tissue will be obtained by the NICO Myriad and Tissue Preservation System (TPS) via an automated, standardized methodology"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "both",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "will undergo the procedure if the frozen is consistent with World Health Organization Grade IV glioma (glioblastoma or gliosarcoma) OR"},
+      {"field": "eligibility", "quote": "that are undergoing repeat resection of a recurrent tumor as identified on preoperative MR imaging"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Comparison of mutational burden in each tumor region, with the number of somatic mutations per region compared to one another"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "regional gene expression (bulk and single-cell RNA-seq)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Comparison of gene expression in each tumor region via RNA-seq"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "regional DNA methylation profile",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Comparison of DNA methylation status between tumor regions"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Device/tissue-collection feasibility study (NICO Myriad and Tissue Preservation System), phase NA; no drug or biologic. Population is WHO grade IV glioma (glioblastoma or gliosarcoma) without IDH requirement -> gbm_only, historical. Newly suspected and recurrent resections both allowed -> both. Exploratory spatial genomic/transcriptomic/methylation profiling recorded as exploratory biomarkers."
+}

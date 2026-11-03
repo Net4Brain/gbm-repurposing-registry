@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07021339",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Newly-diagnosed Glioblastoma; Temporal Lobe"},
+      {"field": "eligibility", "quote": "Suspected glioblastoma with contrast-enhancement in preoperative MRI"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[PROCEDURE] Anterior temporal lobectomy (ATL)"},
+      {"field": "interventions", "quote": "[PROCEDURE] Gross Total Resection (GTR)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Newly-diagnosed Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgical trial (anterior temporal lobectomy vs gross total resection); no drug or biologic interventions. Inclusion is by suspected glioblastoma / diffuse high-grade glioma on frozen section; the primary analysis population is defined as CNS WHO grade 4 IDH-wildtype glioblastoma in the outcomes, hence cns5. IDH-wildtype appears only as an analysis-population definition, not an entry requirement, so not recorded as a biomarker. Control is a registered ACTIVE_COMPARATOR arm."
+}

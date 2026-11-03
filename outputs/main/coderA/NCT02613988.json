@@ -1,0 +1,76 @@
+{
+  "nct_id": "NCT02613988",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Adult Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients must have radiologically and histologically confirmed diagnosis of newly diagnosed glioblastoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] 3 Tesla magnetic resonance imaging: High resolution structural imaging (contrast-enhanced T1-weighted image, T2-weighted image, Fluid-attenuated inversion recovery)"},
+      {"field": "brief_summary", "quote": "This clinical trial studies advanced MR imaging techniques in measuring early response of standard treatment may become predictors of long-term treatment response in patients with newly diagnosed glioblastomas."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients must have radiologically and histologically confirmed diagnosis of newly diagnosed glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "temozolomide",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patients scheduled for standard therapy (6 weeks radiation treatment (RT) \\~ 60 Gy, plus temozolomide 75 mg/m\\^2 during 6 week RT, and followed routine monthly temozolomide therapy)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, GBM standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MR imaging and standard treatment"]
+    },
+    {
+      "agent_name_registered": "gadolinium-containing contrast agent",
+      "active_moiety": "gadolinium contrast agent",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "perfusion (using DCE-MRI and DSC-MRI with IV administration of gadolinium-containing contrast agent)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "MRI contrast agent (unspecified gadolinium-based)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["MR imaging and standard treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging study (Phase NA, devices only). Temozolomide is standard therapy every patient receives (not a registered intervention). Gadolinium contrast is described in the arm as given to every patient for perfusion MRI; listed as diagnostic_agent (specific agent not named). Advanced MRI metrics (APT, ADC, CBV) are imaging markers, not molecular biomarkers. Note: the record start date likely predates 2020 (registry NCT0261...), handled by S2 [CODE]."
+}

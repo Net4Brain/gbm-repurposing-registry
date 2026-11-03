@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT06902350",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neoplasms; Glioblastoma, Adult; Small Cell Lung Carcinoma (SCLC)"},
+      {"field": "eligibility", "quote": "Cohort 2: Recurrent or progressive glioblastoma confirmed by histopathology or imaging, which has progressed or recurred after at least one prior treatment with temozolomide."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This trial is a single-arm, open-label, first-in-human study of CS231295, comprising two phases: dose escalation (including single-dose and multiple-dose) and cohort expansion."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Have histologically or cytologically confirmed unresectable advanced, recurrent, or metastatic solid tumors"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "unclear",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic parameters: Maximum Concentration (Cmax): "}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CS231295",
+      "active_moiety": "cs231295",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "CS231295: oral tablet. Only one dose on C0D1 in single-dose period."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral small molecule CS231295 (first-in-human; possibly Aurora kinase inhibitor given exclusion of prior Aurora kinase inhibitors)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CS231295"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "First-in-human solid-tumour basket; glioblastoma named in conditions, inclusion criteria and as expansion Cohort 2 (recurrent GBM after temozolomide). PK planned (Tmax, Cmax, AUC etc.) with no sample type stated -> tumour_pk_planned unclear per W7 (almost certainly plasma). Mechanism not stated in record; the Aurora kinase hint is inferred only from an exclusion criterion. Plain 'glioblastoma' -> cns5 unclear."
+}

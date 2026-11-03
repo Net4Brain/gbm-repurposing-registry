@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT04552886",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Diagnosed with glioblastoma (GBM) deemed to be potentially resectable and who are deemed to be good candidate for postoperative adjuvant chemo and radiation therapy."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[BIOLOGICAL] TH-1 Dendritic Cell Immunotherapy: Adult patients with histopathologically diagnosed glioblastoma will be eligible for this novel, personalized dendritic cell vaccine after completing standard of care chemoradiation."},
+      {"field": "eligibility", "quote": "Use of non-standard post-operative treatment regimen, as defined by the Stupp protocol: postoperative chemoradiation and initiation of temozolomide (TMZ)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase I Study of Th-1 Dendritic Cell Immunotherapy in Combination With Standard Chemoradiation for the Adjuvant Treatment of Adult Glioblastoma"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "TH-1 Dendritic Cell Immunotherapy",
+      "active_moiety": "dendritic cell vaccine",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[BIOLOGICAL] TH-1 Dendritic Cell Immunotherapy: Adult patients with histopathologically diagnosed glioblastoma will be eligible for this novel, personalized dendritic cell vaccine after completing standard of care chemoradiation."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "personalized Th-1 dendritic cell vaccine (cell-based cancer vaccine)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dendritic cell vaccine", "Dendritic cell vaccine dose de-escalation", "Dendritic cell vaccine dose escalation one", "Dendritic cell vaccine dose escalation two"]
+    },
+    {
+      "agent_name_registered": "temozolomide (TMZ)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Use of non-standard post-operative treatment regimen, as defined by the Stupp protocol: postoperative chemoradiation and initiation of temozolomide (TMZ)."},
+        {"field": "detailed_description", "quote": "Standard of care chemotherapy and radiation therapy shall be followed as per routine neuro-oncologic paradigms after which patients enrolled into this study will receive a personalized vaccine beyond standard of care."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "stupp",
+      "drug_class_hint": "alkylating agent, standard Stupp chemoradiation backbone",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dendritic cell vaccine", "Dendritic cell vaccine dose de-escalation", "Dendritic cell vaccine dose escalation one", "Dendritic cell vaccine dose escalation two"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Only investigational intervention is a dendritic cell vaccine (excluded type). Temozolomide is not a registered intervention but all patients follow the Stupp protocol (exclusion criterion 2), so listed as soc_backbone. The four registered arms are dose-escalation/de-escalation cohorts of the same vaccine (design SINGLE_GROUP), none a control; coded control_arm_from_other_arms 'no' (could be read as not_applicable given single-group design)."
+}

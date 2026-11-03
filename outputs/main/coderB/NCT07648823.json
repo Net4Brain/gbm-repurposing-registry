@@ -1,0 +1,117 @@
+{
+  "nct_id": "NCT07648823",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma (WHO-Grade IV Glioma); Recurrent Glioblastoma; Glioblastoma (GBM); Recurrent Glioblastoma IDH Wildtype"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (based on the 2021 WHO Classification of Tumors of the Central Nervous System, 5th edition)"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "is a novel, first-in-human radiopharmaceutical designed to specifically target Carbonic Anhydrase IX (CA IX) and XII (CA XII)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed recurrence of glioblastoma following prior treatments."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "calculate the cumulative radiation absorbed dose in the tumor cavity and critical normal organs (e.g., kidneys)"},
+      {"field": "brief_summary", "quote": "to assess the biodistribution of the drug and to quantify the absorbed radiation dose to both the tumor and normal organs"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-XT771",
+      "active_moiety": "xt771",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "All eligible participants with recurrence of glioblastoma will be assigned to this single experimental arm."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 labelled CA IX/CA XII-targeted radioligand, given locoregionally via Ommaya reservoir",
+      "stated_antitumour_mechanism": "targeted beta radiation delivered to tumour cells overexpressing carbonic anhydrase IX and XII",
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-XT771 tracer",
+      "active_moiety": "68ga-xt771",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A mandatory pre-treatment leakage test using a"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled PET tracer for leakage testing",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "dexamethasone (oral, prophylactic)",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "interventions", "quote": "to mitigate radiation-induced cerebral edema, the intervention is paired with a prophylactic regimen of oral dexamethasone (4 mg, three times daily) for 4 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "CA IX / CA XII expression",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "xt771",
+      "source_quote": {"field": "eligibility", "quote": "and confirmed CA IX/CA XII positive by histology"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Recurrent Glioblastoma IDH Wildtype"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Early Phase 1 (translational subset). The diagnostic tracer 68Ga-XT771 is a registered-text agent (leakage test) listed separately; its role_evidence quote is a fragment because the record's following text contains escaped brackets. Tumour PK coded yes because SPECT/CT biodistribution and absorbed dose in the tumour cavity are planned (imaging-based, not tissue sampling); adjudicator may disagree. IDH-wildtype appears in conditions only."
+}

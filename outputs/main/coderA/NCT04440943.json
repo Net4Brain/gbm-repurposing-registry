@@ -1,0 +1,69 @@
+{
+  "nct_id": "NCT04440943",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_excluded",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Recurrent, locally advanced or metastatic solid tumor cancer excluding the following: MSI-low colorectal cancer, glioblastoma multiforme, prostate cancer, pancreatic cancer, mucosal and ocular melanoma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] CDX-527: Dose-escalation phase: Eligible patients will receive CDX-527 treatment based on cohort assigned until progression or intolerance."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Receipt of all standard therapies for the tumor type"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacokinetic Evaluation: CDX-527 serum concentrations will be measured at specified visits."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "CDX-527",
+      "active_moiety": "cdx-527",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] CDX-527: CDX-527 is administered by infusion every 2 weeks"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational PD-L1 x CD27 bispecific antibody",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["CDX-527"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "TMB_MMR",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "MSI-H Colorectal Cancer"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Solid-tumour basket in which glioblastoma multiforme is explicitly excluded (gbm_excluded); basket coded true for the multi-cancer design. Treatment setting: recurrent/advanced after all standard therapies. Pre- and on-treatment biopsies 'if required' are mentioned but no pharmacodynamic objective is stated; PK is serum only. MSI-H applies only to the colorectal cancer subgroup (MSI-low colorectal excluded); coded as eligibility for that tumour type, not linked to the candidate in the record."
+}

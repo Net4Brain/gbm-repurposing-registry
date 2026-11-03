@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT07384884",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Brain Tumours; GBM"},
+      {"field": "title", "quote": "Surgery and Laser Interstitial Thermal Therapy for Bilateral Glioblastomas"},
+      {"field": "eligibility", "quote": "Presumptive diagnosis of bGBM as per preoperative MRI and MDT assessment"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "All patients will have combined unilateral open surgery for maximal tumour resection followed by contralateral LITT to the smaller component/residual."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Presumptive diagnosis of bGBM as per preoperative MRI and MDT assessment"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Surgery plus laser interstitial thermal therapy procedure study (Phase NA); no drug or biologic intervention is named (the intervention label mentions 'pharmaceuticals treatment' per guidelines generically, no agent specified). Setting not stated; presumptive preoperative diagnosis suggests newly diagnosed disease but recurrent tumours are not excluded, so coded unclear."
+}

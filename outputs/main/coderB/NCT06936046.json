@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT06936046",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Pathologically diagnosed GBM patients"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Dual antibody group A: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/VEGF dual antibody adjuvant therapy"},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Dual antibody group B: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/CTLA-4 dual antibody adjuvant therapy"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Enhanced Adjuvant Therapy for Newly Diagnosed GBM With Partial Surgical Resection or Short-term Progression"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Dual antibody A",
+      "active_moiety": "pd-1/vegf bispecific antibody",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "PD-1/VEGF dual antibody 20mg/kg intravenous infusion once, with a cycle of 21 days."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Dual antibody group A: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/VEGF dual antibody adjuvant therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "unnamed PD-1/VEGF bispecific antibody (checkpoint plus anti-angiogenic)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dual antibody group A: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/VEGF dual antibody adjuvant therapy"]
+    },
+    {
+      "agent_name_registered": "Dual antibody B",
+      "active_moiety": "pd-1/ctla-4 bispecific antibody",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "PD-1/CTLA-4 dual antibody 6mg/kg intravenous infusion once, with a cycle of 14 days."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Dual antibody group B: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/CTLA-4 dual antibody adjuvant therapy"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "unnamed PD-1/CTLA-4 bispecific antibody (checkpoint inhibitor)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Dual antibody group B: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/CTLA-4 dual antibody adjuvant therapy"]
+    },
+    {
+      "agent_name_registered": "TMZ (Stupp protocol)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "TMZ synchronous chemotherapy regimen: 75mg/m2 po qd."},
+        {"field": "brief_summary", "quote": "The Stupp regimen is the standard treatment regimen (control group), while the experimental group receives enhanced treatment by combining different drugs or increasing the radiation dose based on the Stupp standard treatment regimen."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": [
+        "Stupp group: radiotherapy+TMZ synchronous chemotherapy+TMZ adjuvant chemotherapy",
+        "Dual antibody group A: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/VEGF dual antibody adjuvant therapy",
+        "Dual antibody group B: radiotherapy+TMZ synchronous chemotherapy+TMZ combined with PD-1/CTLA-4 dual antibody adjuvant therapy",
+        "Modified Stupp group: radiotherapy+TMZ synchronous chemotherapy+TMZ adjuvant chemotherapy"
+      ]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Arm labels in the record are 'Stupp group', 'Dual antibody group A', 'Dual antibody group B', 'Modified Stupp group' followed by descriptive text; the agent arms lists copy the label together with the descriptive text as the arms lines do not separate it with a colon-free label. The two bispecific antibodies are unnamed (no INN or code); descriptive generic names used. Each is the only investigational agent in its own experimental arm, so experimental_monotherapy. The Modified Stupp arm changes only radiotherapy dose (not a drug)."
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04482933",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Neoplasms; High Grade Glioma; Glioblastoma Multiforme; Malignant Glioma of Brain; Anaplastic Astrocytoma of Brain; High-grade Glioma; Anaplastic Glioma; Giant Cell Glioblastoma"},
+      {"field": "eligibility", "quote": "Patients must have a histologically confirmed diagnosis of high-grade glioma regardless of molecular characterization that is recurrent or progressive."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "excluded_intervention_type",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "G207 is an oncolytic herpes simplex virus-1 (HSV) that has been successfully engineered to introduce mutations in the virus that enable it to selectively replicate in and kill cancer cells, but not normal cells."},
+      {"field": "interventions", "quote": "Single dose of HSV-1 (G207) infused through catheters into region(s) of tumor defined by MRI"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients are only eligible after their first progression following prior surgery and radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Biological G207",
+      "active_moiety": "oncolytic herpes simplex virus g207",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "G207 is an oncolytic herpes simplex virus-1 (HSV) that has been successfully engineered to introduce mutations in the virus that enable it to selectively replicate in and kill cancer cells, but not normal cells."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "oncolytic HSV-1 virus (G207), intratumoral",
+      "stated_antitumour_mechanism": "selective replication in and killing of cancer cells plus induced anti-tumour immune response",
+      "flag": {"uncertain": false},
+      "arms": ["Experimental: HSV G207"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Paediatric-focused trial (age 3 to <22; stdAges CHILD, ADULT, so mixed_age). Only intervention is an oncolytic virus plus a single 5 Gy radiation dose (radiation not listed as agent). Tumour-tissue survey of checkpoint proteins and immune markers is exploratory and not linked to a pharmacological candidate; no specific molecular biomarker named."
+}

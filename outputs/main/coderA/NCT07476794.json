@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT07476794",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma"},
+      {"field": "eligibility", "quote": "Histopathologically confirmed newly diagnosed WHO grade 4, IDH wild-type GBM"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "established_therapy_only",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "In this study, the same chemotherapy (Temozolomide) normally given after radiation therapy for glioblastoma. The only difference is that it will be given with a modified regimen."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histopathologically confirmed newly diagnosed WHO grade 4, IDH wild-type GBM"},
+      {"field": "interventions", "quote": "Following completion of radiation therapy, temozolomide will be administered daily for 5 days each of a 28-day cycle, for a maximum of 6 cycles"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Daily TMZ",
+      "active_moiety": "temozolomide",
+      "role": "established_therapy_experiment",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "In this study, the same chemotherapy (Temozolomide) normally given after radiation therapy for glioblastoma. The only difference is that it will be given with a modified regimen."},
+        {"field": "arms", "quote": "[EXPERIMENTAL] Treatment: Daily TMZ (interventions: Drug: Daily TMZ)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (established GBM therapy), modified adjuvant schedule",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Treatment: Daily TMZ"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Unmethylated MGMT promoter, according to local assessment"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Histopathologically confirmed newly diagnosed WHO grade 4, IDH wild-type GBM"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Single-arm trial of a modified adjuvant temozolomide schedule in elderly MGMT-unmethylated newly diagnosed GBM; temozolomide is an established GBM therapy investigated in a new schedule (rule 6), so no candidate. Concurrent TMZ with 40 Gy radiotherapy is completed before enrolment and is not an on-study intervention. The arm label in the record is 'Treatment: Daily TMZ' (EXPERIMENTAL)."
+}

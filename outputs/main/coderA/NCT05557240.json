@@ -1,0 +1,126 @@
+{
+  "nct_id": "NCT05557240",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "title", "quote": "Neoantigens Phase I Trial in Newly Diagnosed Glioblastoma Patients"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma confirmed by histopathological and imaging evaluation;"},
+      {"field": "conditions", "quote": "Glioma, Malignant"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "Poly-ICLC（500ug）will be used as immunomodulator with all vaccinations."}
+    ],
+    "candidate_flag": {"uncertain": true, "reason": "Only possible candidate is poly-ICLC, given as an immunomodulator/adjuvant with peptide vaccines (excluded type); if it is treated as part of the vaccine product rather than a separate investigational drug, S6 becomes excluded_intervention_type."},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed high-grade glioma confirmed by histopathological and imaging evaluation;"},
+      {"field": "detailed_description", "quote": "After the standard chemoradiotherapy with TMZ has been completed, Vaccination was initiated 14 days before the first maintenanceTMZ cycle."}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy", "NeoPep peptide vaccines (NPVAC1, NPVAC2)"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Descriptive analysis of induced T-cell immune responses after vaccinations with NeoPep Vaccine1and 2 drug products plus immunomodulators and Stupp standard treatment."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "NeoPep Vaccine1 plus Poly-ICLC",
+      "active_moiety": "peptide vaccine (npvac1)",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "NPVAC1 drug products are composed of 5 peptides from the HCMV warehouse"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "NeoPep",
+      "drug_class_hint": "peptide cancer vaccine (5 HCMV-derived peptides, NPVAC1)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "NeoPep Vaccine2 plus Poly-ICLC",
+      "active_moiety": "personalized neoantigen peptide vaccine (npvac2)",
+      "role": "excluded_intervention_type",
+      "role_evidence": [
+        {"field": "interventions", "quote": "NPVAC2 drug products are composed 20 peptides de novo synthesized for an individual patient."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "NeoPep",
+      "drug_class_hint": "personalised neoantigen peptide cancer vaccine (20 patient-specific peptides, NPVAC2)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "Poly-ICLC",
+      "active_moiety": "poly-iclc",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Poly-ICLC（500ug）will be used as immunomodulator with all vaccinations."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "NeoPep",
+      "drug_class_hint": "TLR3 agonist / synthetic dsRNA immune adjuvant (polyinosinic-polycytidylic acid stabilised with poly-L-lysine and carboxymethylcellulose; INN may be hiltonol)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": true, "reason": "Poly-ICLC is a vaccine adjuvant/immunomodulator; candidate status depends on whether it counts as a separate investigational drug or as part of the excluded vaccine regimen."},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "eligibility", "quote": "Patient is a candidate for and willing to receive standard CRT with TMZ followed by maintenance TMZ cycles;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, Stupp standard of care",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["NeoPep Vaccine1and 2 plus polyICLC concurrent to TMZ"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour neoantigen load (at least 20 predicted neoantigens from tumour WES/RNA-seq)",
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "According to this procedure, the number of candidate neoantigens that can be used to make personalized vaccines is less than 20;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered phase NA (fails S3 at [CODE] level) but coded in full. Title names glioblastoma while inclusion allows newly diagnosed high-grade glioma -> mixed_glioma_gbm_named. Peptide vaccines are excluded types; poly-ICLC is registered within the vaccine interventions as an 'immunomodulator' and coded as a candidate by analogy with the manual's pembrolizumab + vaccine example, flagged for adjudication. Temozolomide (Stupp) received by every patient = soc_backbone. Neoantigen-count requirement (exclusion criterion 12) is a tumour-sequencing entry requirement for vaccine manufacture, not matched to a candidate. HLA ligandome is germline/HLA and not coded. T-cell response endpoint is linked to the vaccines plus immunomodulator jointly, so target engagement coded unclear."
+}

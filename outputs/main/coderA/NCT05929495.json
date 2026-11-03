@@ -1,0 +1,110 @@
+{
+  "nct_id": "NCT05929495",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma, IDH-wildtype"},
+      {"field": "eligibility", "quote": "Patients with newly diagnosed histologically confirmed GBM (WHO grade IV, IDH wild type) undergoing surgical resection;"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "The aim of this study is to evaluate the effect of Metformin as adjuvant therapy to TMZ in the treatment of patients with GBM."},
+      {"field": "outcomes", "quote": "It allow us to determine the efficacy at the recommended dose (RD) of metformin in patients with GBM"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with newly diagnosed histologically confirmed GBM (WHO grade IV, IDH wild type) undergoing surgical resection;"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Peri-operative plasma will be taken from each patient for hematochemical analysis, in order to research of prognostic biomarkers."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Metformin",
+      "active_moiety": "metformin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Administration of the standard or partial Stupp protocol (Radiotherapy + Temozolomide) in combination with Metformin for 6 weeks,"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "biguanide antidiabetic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Metformin"]
+    },
+    {
+      "agent_name_registered": "Temozolomide (Stupp protocol)",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Administration of the standard or partial Stupp protocol (Radiotherapy + Temozolomide) in combination with Metformin for 6 weeks,"},
+        {"field": "eligibility", "quote": "Patients undergoing Stupp protocol including patients aged \\> 70 years performing the hypofractionated protocol and three weeks of chemotherapy;"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent (Stupp backbone)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Metformin"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Patients with newly diagnosed histologically confirmed GBM (WHO grade IV, IDH wild type) undergoing surgical resection;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "MGMT",
+      "biomarker_other": null,
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "hypomethylation or hypermethylation of MGMT assessed post-surgery;"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "tumour gene expression / transcriptomic molecular phenotype",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Identifying the molecular phenotype of cells taken from patients' tissue samples during surgery and comparing clinical response and molecular phenotype by transcriptomic analysis"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Metformin added to Stupp TMZ/RT; TMZ is not a registered intervention but every patient receives it per the Stupp protocol, so listed as soc_backbone. MGMT is in the inclusion list but either methylation status is allowed (status must only be assessed), so not coded as an eligibility selection; coded exploratory_correlative. Plasma metabolites, adiponectin and proteomics are described as prognostic biomarkers from peri-operative plasma, not explicitly linked to metformin's target, so target_engagement_planned unclear. In vitro patient-derived cell response is also an exploratory outcome. Escaped '\\>' in eligibility quote is copied as it appears in the record."
+}

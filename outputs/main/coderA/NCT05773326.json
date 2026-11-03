@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT05773326",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma; Glioma; Glioma, Malignant; Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically diagnosed high-grade glioma (Grade 3 or 4 per 2021 WHO criteria) in the frontal lobe."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "[EXPERIMENTAL] Single infusion of Temsirolimus: Single infusion of Temsirolimus via super-selective intra-arterial infusion or IV (interventions: Drug: Temsirolimus)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "A Phase 0, Single-center, Open-label, Dose-escalating Trial Using Super-selective Intra-arterial Infusion of a Single Dose of Temsirolimus for the Treatment of Recurrent High-grade Glioma"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Tumor pharmacokinetics (PK) of temsirolimus: Total and unbound temsirolimus concentration in tumor tissue."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Pharmacodynamic effects of temsirolimus: Quantification of the % of pS6 positive cells"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Temsirolimus",
+      "active_moiety": "temsirolimus",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Single infusion of Temsirolimus: Single infusion of Temsirolimus via super-selective intra-arterial infusion or IV (interventions: Drug: Temsirolimus)"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "mTOR inhibitor (rapamycin analogue); licensed for advanced renal cell carcinoma",
+      "stated_antitumour_mechanism": "targeting the mTOR pathway",
+      "flag": {"uncertain": false},
+      "arms": ["Single infusion of Temsirolimus"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "PTEN_PI3K",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "temsirolimus",
+      "source_quote": {"field": "eligibility", "quote": "Tissue must demonstrate mTOR+: PTEN loss OR PIK3C2B or AKT3 amplification on aCGH OR mutations for PIK3CA or PIK3R1, or mTOR or PTEN mutations using next-generation sequencing analysis OR pS6 positivity on immunohistochemistry (≥30% for pS6)."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "pS6 (phospho-S6) positive cells in tumour tissue",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "temsirolimus",
+      "source_quote": {"field": "outcomes", "quote": "Pharmacodynamic effects of temsirolimus: Quantification of the % of pS6 positive cells"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "EARLY_PHASE1 (Phase 0) record: translational subset. Population is recurrent high-grade glioma grade 3 or 4 (WHO 2021) with glioblastoma named in conditions, so mixed_glioma_gbm_named. Temsirolimus given by super-selective intra-arterial infusion (or IV): formulation_flag new_route; catheter-based delivery not treated as device activation, device_dependent false. Eligibility requires mTOR pathway activation (PTEN loss, PI3K/AKT/mTOR alterations or pS6 IHC positivity), matched to the mTOR inhibitor temsirolimus. 'Patients who have completed the Stupp regimen' indicates recurrent disease after first-line therapy."
+}

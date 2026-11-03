@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT07648823",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma (WHO-Grade IV Glioma); Recurrent Glioblastoma; Glioblastoma (GBM); Recurrent Glioblastoma IDH Wildtype"},
+      {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (based on the 2021 WHO Classification of Tumors of the Central Nervous System, 5th edition), and confirmed CA IX/CA XII positive by histology or \\[68Ga\\]Ga-XT771 PET/CT."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "\\[177Lu\\]Lu-XT771 is designed to specifically target and deliver beta radiation directly to tumor cells that overexpress carbonic anhydrase IX and XII (CA IX and CA XII)."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed recurrence of glioblastoma following prior treatments."}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "detailed_description", "quote": "These scans will quantify the drug's distribution and the radiation dose absorbed by both the tumor lesions and normal organs (such as the kidneys)."}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "[177Lu]Lu-XT771",
+      "active_moiety": "xt771",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive a single-dose locoregional injection of 3-5 mCi of the investigational radiopharmaceutical, \\[177Lu\\]Lu-XT771."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "new_route",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "lutetium-177 labelled CA IX/CA XII-targeted radioligand (investigational, first-in-human)",
+      "stated_antitumour_mechanism": "binds CA IX and CA XII on tumour cells and delivers localized beta radiation from Lutetium-177",
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "[68Ga]Ga-XT771",
+      "active_moiety": "68ga-xt771",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "A mandatory pre-treatment leakage test using a \\[68Ga\\]Ga-XT771 tracer (4-6 mCi) with PET/CT imaging to rule out any leakage into the subcutaneous or subarachnoid spaces"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "gallium-68 labelled XT771 PET tracer (leakage test and CA IX/XII imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    },
+    {
+      "agent_name_registered": "dexamethasone",
+      "active_moiety": "dexamethasone",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "arms", "quote": "Additionally, to prevent cerebral edema, participants will receive a prophylactic course of oral dexamethasone (4 mg, 3 times daily), starting 24 hours prior to the \\[177Lu\\]Lu-XT771 injection and continuing for a total of 4 days."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "corticosteroid (oedema prophylaxis)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["[177Lu]Lu-XT771"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "Carbonic anhydrase IX / XII (CA IX/CA XII) expression",
+      "role": "eligibility",
+      "candidate_matched": true,
+      "matched_agent": "xt771",
+      "source_quote": {"field": "eligibility", "quote": "Histologically confirmed glioblastoma (based on the 2021 WHO Classification of Tumors of the Central Nervous System, 5th edition), and confirmed CA IX/CA XII positive by histology or \\[68Ga\\]Ga-XT771 PET/CT."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase EARLY_PHASE1 (translational subset). Radiopharmaceutical named per W1: xt771 with isotope in drug_class_hint; diagnostic 68Ga form listed separately. Delivered into the resection cavity via an implanted Ommaya reservoir: coded formulation_flag new_route and device_dependent false (Ommaya treated as a route of administration, not device activation/FUS-type delivery); adjudicator may prefer device_dependent true under R4. tumour_pk_planned yes based on SPECT/CT quantification of drug distribution in tumour lesions (imaging-based biodistribution rather than tissue/CSF sampling). Dexamethasone is not a registered intervention but every patient receives it per protocol. CA IX/XII positivity is an entry requirement and is the target of XT771. Conditions also mention 'Recurrent Glioblastoma IDH Wildtype' and eligibility cites WHO 2021 (cns5)."
+}

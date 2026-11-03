@@ -1,0 +1,8 @@
+{"nct_id":"NCT05140902","coder_id":"B","manual_version":"1.4",
+"screening":{"gbm_population":"gbm_only","gbm_population_evidence":[{"field":"conditions","quote":"Glioblastoma"}],"gbm_population_flag":{"uncertain":false},
+"has_eligible_candidate":false,"candidate_exclusion_reason":"no_pharmacological_candidate","candidate_evidence":[{"field":"interventions","quote":"[DEVICE] Point-of-care Portable Perfusion Phantom (P4)"}],"candidate_flag":{"uncertain":false},"cns5_terminology":"unclear"},
+"trial":{"treatment_setting":"unclear","treatment_setting_evidence":[{"field":"arms","quote":"glioblastoma patients with newly or enlarged enhancing lesion within 3 months after completing 6 weeks of adjuvant chemoradiation therapy"}],"regimen":"not_applicable","combination_partners":[],"basket":false,"control_arm_from_other_arms":"not_applicable","flag":{"uncertain":false},
+"tumour_pk_planned":"no","tumour_pk_planned_evidence":[],
+"target_engagement_planned":"no","target_engagement_planned_evidence":[]},
+"agents":[],"biomarkers":[],
+"coder_notes":"Imaging phantom device study (P4 for DCE-MRI); no drug interventions registered. The 'pharmacokinetic parameter' in outcomes is a DCE-MRI perfusion parameter, not drug PK. Patients are post-chemoradiation with enlarging lesions (pseudo- vs true progression), so setting left unclear."}

@@ -1,0 +1,39 @@
+{
+  "nct_id": "NCT04223999",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "progressive GBM based on the RANO criteria"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[PROCEDURE] Skullremodeling surgery (other names: SR-surgery): Strategically placed cranial burrholes in order to improve the TTField \"dose\" focally in the tumor."},
+      {"field": "interventions", "quote": "[OTHER] Control: Tumor treating fields combined with best medical treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "title", "quote": "Enhancing Tumor Treating Fields for Recurrent Glioblastoma With Targeted and Individualised Skullremodeling Surgery: A Multi-center Randomized Phase 2 Trial"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Interventions are skull-remodelling surgery and TTFields (device) plus unspecified best-practice medical oncological treatment (physician's choice, e.g. bevacizumab or temozolomide rechallenge mentioned only for the earlier phase 1 trial). No drug is a registered intervention or stated as received by every patient, so no agents listed. Registered ACTIVE_COMPARATOR arm is the control."
+}

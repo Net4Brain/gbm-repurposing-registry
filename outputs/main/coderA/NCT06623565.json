@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT06623565",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Astrocytoma, IDH-Mutant, Grade 4"},
+      {"field": "eligibility", "quote": "New clinical and radiological suspected diagnosis of IDH-wildtype glioblastoma or grade IV IDH-mutant astrocytoma"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[PROCEDURE] Multimodal image-guided resection: Supramarginal resection using combination of ADC MRI and FET PET"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "New clinical and radiological suspected diagnosis of IDH-wildtype glioblastoma or grade IV IDH-mutant astrocytoma"},
+      {"field": "eligibility", "quote": "Previous brain surgery or cranial radiotherapy"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "FET PET",
+      "active_moiety": "18f-fet",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "arms", "quote": "Supramarginal resection using combination of ADC MRI and FET PET"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "O-(2-[18F]fluoroethyl)-L-tyrosine PET imaging tracer (18F)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Intervention"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Surgical/imaging study (phase NA): FET PET + ADC MRI guided supramarginal resection; only registered intervention is a procedure. FET listed as diagnostic_agent because it is named in the registered intervention/arm description (not a separate drug intervention). Population includes IDH-wildtype GBM and IDH-mutant grade 4 astrocytoma -> mixed_glioma_gbm_named. IDH status defines the two eligible histologies (either allowed) so no IDH selection biomarker recorded."
+}

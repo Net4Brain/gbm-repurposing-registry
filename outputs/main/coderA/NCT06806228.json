@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT06806228",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Diffuse Midline Glioma, H3 K27M-Mutant; Gliosarcoma; Giant Cell Glioblastoma; GBM"},
+      {"field": "eligibility", "quote": "confirmed diagnosis of Glioblastoma according to RANO criteria by contrast-enhanced MRI or PET-CT (including diffuse midline glioma, gliosarcoma or giant cell glioblastoma), relapse or disease progression"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The objective of this pilot study is to evaluate the efficacy of adding S-Gboxin to standard RT/TMZ treatment protocols in patients with glioblastoma multiforme (GBM) or midline glioma (DMG)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "confirmed diagnosis of Glioblastoma according to RANO criteria by contrast-enhanced MRI or PET-CT (including diffuse midline glioma, gliosarcoma or giant cell glioblastoma), relapse or disease progression"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["temozolomide", "radiotherapy"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Brain tumor metabolism as measured by PET and MRI: The standardized uptake value (SUV) of HGG will be measured."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "S-Gboxin",
+      "active_moiety": "s-gboxin",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Patients will be offered 4 courses of S-Gboxin during standard treatment."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational mitochondrial oxidative phosphorylation (F0F1 ATP synthase) inhibitor, oral; S-Gboxin",
+      "stated_antitumour_mechanism": "Its positive charge for binding to mitochondrial oxidative phosphorylation complexes is dependent on the proton gradient of the inner mitochondrial membrane, and it inhibits F 0 F 1 ATP synthase activity in tumor cells.",
+      "flag": {"uncertain": false},
+      "arms": ["Patients will be offered 4 courses of Gboxin during (or without) standard treatment."]
+    },
+    {
+      "agent_name_registered": "TMZ",
+      "active_moiety": "temozolomide",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "adding S-Gboxin to standard RT/TMZ treatment protocols"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "alkylating agent, standard backbone (not a registered intervention)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Patients will be offered 4 courses of Gboxin during (or without) standard treatment."]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "H3K27M",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "conditions", "quote": "Diffuse Midline Glioma, H3 K27M-Mutant"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour cells by qRT-PCR",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "detailed_description", "quote": "In some cases, circulating tumor cells (CTCs) will be monitored by real-time qRT-PCR to correlate with clinical data."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Treatment setting is internally inconsistent: eligibility requires relapse or progression, but the summary describes adding S-Gboxin to standard RT/TMZ (a first-line regimen) and the arm label says 'during (or without) standard treatment'; coded recurrent from eligibility. Temozolomide is not a registered intervention but is named as the standard backbone; listed as soc_backbone; whether every patient receives it is unclear ('or without'). Regimen coded combination on that basis. H3K27M row: DMG H3 K27M-mutant is one eligible histology (title says 'regardless of mutation status'), not a strict entry requirement for all; may be dropped. Target engagement coded yes because the primary outcome is tumour metabolism on PET for a metabolic (OXPHOS) inhibitor; could be read as imaging response. S-Gboxin registered as Biological but is a small molecule; may be a salt/formulation of gboxin."
+}

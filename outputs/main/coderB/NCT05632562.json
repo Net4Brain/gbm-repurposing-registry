@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT05632562",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "High Grade Glioma"},
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade III or grade IV glioma treated with standard of care external beam radiation therapy (RT)."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "This feasibility study will assess the clinical potential of a new imaging approach to detect viable high grade glioma (HGG)"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Histologically confirmed newly diagnosed grade III or grade IV glioma treated with standard of care external beam radiation therapy (RT)."}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "O-(2-[18F]Fluoroethyl)-L-tyrosine, [18F]-FET with PET/MRI",
+      "active_moiety": "fluoroethyltyrosine",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "FET (5 mCi, 185 MBq) will be administered IV as a bolus with dynamic acquisition of brain PET/MRI data from the time of injection through 60 min after injection."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled amino acid PET tracer (imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET imaging of system L amino acid transport with FET and hypoxia imaging with FMISO"]
+    },
+    {
+      "agent_name_registered": "FMISO",
+      "active_moiety": "fluoromisonidazole",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "detailed_description", "quote": "The patient will undergo IV administration of FMISO (5 mCi, 185 MBq) in an uptake room in the AIF."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": true,
+      "regimen_id": null,
+      "drug_class_hint": "18F-labelled nitroimidazole hypoxia PET tracer (imaging)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["PET imaging of system L amino acid transport with FET and hypoxia imaging with FMISO"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Imaging-only feasibility study (Early Phase 1). GBM is not named (grade III or IV glioma, pediatric and adult). FMISO is not a registered intervention but every participant receives it per the description, so it is listed. MGMT and IDH are mentioned only as clinical information that may be accessed for correlation, not as planned biomarker endpoints, so not listed."
+}

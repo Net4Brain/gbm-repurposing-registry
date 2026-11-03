@@ -1,0 +1,84 @@
+{
+  "nct_id": "NCT04295759",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "mixed_glioma_gbm_named",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma Multiforme; Anaplastic Astrocytoma; Anaplastic Oligodendroglioma; DIPG; High-grade Astrocytoma NOS; CNS Primary Tumor, NOS (Malignant Glioma)"},
+      {"field": "eligibility", "quote": "Eligible diagnoses include but are not limited to the following: diffuse intrinsic pontine glioma (DIPG), H3K27M-altered diffuse midline glioma (DMG), glioblastoma multiforme, anaplastic astrocytoma and anaplastic oligodendroglioma."}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "INCB7839 is an inhibitor of the ADAM (A Disintegrin and Metalloprotease) 10 and 17 proteases."},
+      {"field": "arms", "quote": "[EXPERIMENTAL] Dose-finding: INCB7839 dosing will begin at 120 mg/m2/dose BID"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "historical"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Patients with recurrent/progressive high-grade gliomas"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Maximum Concentration [CMAX] of INCB7839 in Cerebrospinal Fluid: The maximum concentration \\[CMAX\\] will be calculated based on the cerebrospinal fluid pharmacokinetic samples."}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "ADAM10 Inhibition of Neuroligin-3 (NLGN3): Descriptive statistics for neuroligin-3 (NLGN3) in cerebral spinal fluid will be reported."},
+      {"field": "outcomes", "quote": "ADAM10 Inhibition of HER2: HER2 extracellular domain (ECD) in serum will be reported."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "INCB7839",
+      "active_moiety": "incb7839",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Dose-finding: INCB7839 dosing will begin at 120 mg/m2/dose BID"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "investigational oral ADAM10/ADAM17 sheddase inhibitor (INCB7839)",
+      "stated_antitumour_mechanism": "inhibits ADAM10, the protease releasing neuroligin-3 into the tumour microenvironment",
+      "flag": {"uncertain": false},
+      "arms": ["Dose-finding"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "neuroligin-3 (NLGN3) in CSF",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "incb7839",
+      "source_quote": {"field": "outcomes", "quote": "ADAM10 Inhibition of Neuroligin-3 (NLGN3): Descriptive statistics for neuroligin-3 (NLGN3) in cerebral spinal fluid will be reported."},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "serum HER2 extracellular domain (ADAM10 shedding substrate)",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "incb7839",
+      "source_quote": {"field": "outcomes", "quote": "ADAM10 Inhibition of HER2: HER2 extracellular domain (ECD) in serum will be reported."},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Paediatric-focused trial (ages 3-21; stdAges CHILD, ADULT, so mixed_age). GBM multiforme named in conditions and eligibility among several high-grade gliomas. H3K27M-altered DMG is listed as one of several eligible diagnoses, not an entry requirement, so no H3K27M biomarker row. Blood PK plus CSF PK (Cmax in CSF) planned. Serum HER2 ECD is a circulating marker of ADAM10 activity rather than a strictly tumour marker; recorded as pharmacodynamic. INN not given in record; development code used."
+}

@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04908176",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "basket_gbm_eligible",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Confirmed diagnosis of recurrent or unresectable CNS tumors including :IDH-mutant astrocytoma, IDH-mutant oligodendroglioma, glioblastoma, H3K27-altered diffuse midline glioma, H3G34-mutant diffuse hemispheric glioma, midline glioma (with unknown H3K27 mutation status)"},
+      {"field": "conditions", "quote": "Gastrointestinal Stromal Tumors; GIST; Non-resectable Advanced Solid Tumors; Recurrent or Unresectable Central Nervous System (CNS) Tumors"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "arms", "quote": "Participants with CNS tumors will receive avapritinib 300 mg daily orally, until Day 56."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "that has failed prior radiation or systemic SOC therapy"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": true,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "area under the plasma concentration-time curve at steady state (AUC,ss) of avapritinib"}
+    ],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Avapritinib",
+      "active_moiety": "avapritinib",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Participants will receive avapritinib 300 mg daily, orally on starting on Day 3."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "KIT/PDGFRA tyrosine kinase inhibitor (BLU-285)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with metastatic, unresectable GIST, non-CNS solid tumors, or CNS tumors"]
+    },
+    {
+      "agent_name_registered": "midazolam",
+      "active_moiety": "midazolam",
+      "role": "diagnostic_agent",
+      "role_evidence": [
+        {"field": "title", "quote": "A Drug-drug Interaction Study to Investigate the Effect of Avapritinib on the Pharmacokinetics of Midazolam"},
+        {"field": "arms", "quote": "Participants will receive 5 mg of midazolam orally on Day 1 and Day 17."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "benzodiazepine; used here as CYP3A4 probe substrate for drug-drug interaction",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Participants with metastatic, unresectable GIST, non-CNS solid tumors, or CNS tumors"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "KIT mutation",
+      "role": "enrichment",
+      "candidate_matched": true,
+      "matched_agent": "avapritinib",
+      "source_quote": {"field": "eligibility", "quote": "Non-resectable advance solid tumor with KIT mutation with progression following standard of care treatment."},
+      "flag": {"uncertain": true, "reason": "KIT mutation is required only for the GIST and non-CNS solid tumour cohorts, not for the CNS/glioblastoma cohort; whether this counts as candidate-matched enrichment for a GBM-eligible trial affects the primary outcome."},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Phase 1 drug-drug interaction basket (GIST, KIT-mutant solid tumours, recurrent CNS tumours including glioblastoma; glioblastoma named in inclusion criteria and keywords). Avapritinib is the investigational antitumour drug (CNS patients continue to Day 56); midazolam is a CYP3A4 probe substrate, coded diagnostic_agent (measurement-only use; not a candidate under any reading). Only plasma PK planned, so tumour_pk no. KIT mutation coded enrichment (required for GIST/solid tumour cohorts only; single registered arm so arms left empty) and candidate-matched to avapritinib, flagged uncertain as it does not apply to GBM patients. The CNS cohort lists WHO CNS5-style entities (IDH-mutant astrocytoma, H3K27-altered DMG) as diagnostic categories; these are not entry requirements on one marker state, so IDH and H3K27M were not recorded as biomarkers. cns5_terminology unclear: glioblastoma is not defined with IDH-wildtype and WHO CNS 2021 is not cited, although the entity list follows CNS5 naming."
+}

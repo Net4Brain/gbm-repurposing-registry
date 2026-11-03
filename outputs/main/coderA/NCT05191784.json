@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT05191784",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Histologically diagnosed glioblastoma patients who have been confirmed the progression of disease after attempting standard therapy"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "The purpose of this study is to evaluate the efficacy and safety of GX-I7 in combination with bevacizumab in subjects with recurrent glioblastoma."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "conditions", "quote": "Recurrent Glioblastoma"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["bevacizumab"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Absolute counts and ratios of immune cell subtypes: Changes of absolute counts and ratios of immune cell subtypes"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "GX-I7",
+      "active_moiety": "efineptakin alfa",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "Bevacizumab at a dose of 10 mg/kg intravenously, and GX-I7 intramuscularly."},
+        {"field": "title", "quote": "GX-I7 in Combination With Bevacizumab in Recurrent Glioblastoma (GBM) Patients"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "long-acting recombinant human interleukin-7 Fc fusion protein (rhIL-7-hyFc), immune agonist",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GX-I7 and bevacizumab"]
+    },
+    {
+      "agent_name_registered": "Bevacizumab",
+      "active_moiety": "bevacizumab",
+      "role": "soc_backbone",
+      "role_evidence": [
+        {"field": "arms", "quote": "Bevacizumab at a dose of 10 mg/kg intravenously, and GX-I7 intramuscularly."},
+        {"field": "eligibility", "quote": "Subjects who have received bevacizumab or other VEGF inhibitors prior to study participation"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "anti-VEGF monoclonal antibody; established GBM therapy",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["GX-I7 and bevacizumab"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Single-arm GX-I7 (efineptakin alfa, INN given in record) plus bevacizumab at a standard 10 mg/kg dose; bevacizumab is an established GBM therapy given in the only arm and not itself the question, so coded soc_backbone. Target engagement coded yes on the planned change in blood immune-cell subset counts (IL-7 pharmacodynamic effect); ADA endpoints are immunogenicity, not target engagement."
+}

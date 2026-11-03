@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT03763396",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"},
+      {"field": "conditions", "quote": "Brain Tumor, Recurrent; Cancer, Advanced; Glioma of Brain"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "detailed_description", "quote": "A small cohort of recurrent HGG patients will receive either a single-, or repeated, steady state dose of either KCZ or PCZ"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Evidence of recurrent HGG that in the opinion of the treating team does not represent pseudoprogression and would require surgical resection"}
+    ],
+    "regimen": "monotherapy",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "outcomes", "quote": "Intratumoral concentrations of KCZ or PCZ"}
+    ],
+    "target_engagement_planned": "yes",
+    "target_engagement_planned_evidence": [
+      {"field": "outcomes", "quote": "Assess Hexokinase 2 activity: enzyme activity measured using optical absorbance with a spectrophotometer"}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Ketoconazole (KCZ)",
+      "active_moiety": "ketoconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Ketoconazole (KCZ) Single Dose Group: Single dose 400mg oral tablets 4-24 hours prior to surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs",
+      "flag": {"uncertain": false},
+      "arms": ["Ketoconazole (KCZ) Single Dose Group", "Ketoconazole (KCZ) Repeated Dose Group"]
+    },
+    {
+      "agent_name_registered": "Posaconazole (PCZ)",
+      "active_moiety": "posaconazole",
+      "role": "experimental_monotherapy",
+      "role_evidence": [
+        {"field": "arms", "quote": "[EXPERIMENTAL] Posaconazole (PCZ) Single Dose group: Single dose 300 mg delayed release oral tablets 4-24 hours prior to surgery"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "azole antifungal",
+      "stated_antitumour_mechanism": "targeting hexokinase 2 (HK2), the first committed step of glucose metabolism, with azole class drugs",
+      "flag": {"uncertain": false},
+      "arms": ["Posaconazole (PCZ) Single Dose group", "Posaconazole (PCZ) Repeated Dose group"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "other",
+      "biomarker_other": "hexokinase 2 (HK2) activity",
+      "role": "pharmacodynamic",
+      "candidate_matched": true,
+      "matched_agent": "ketoconazole; posaconazole",
+      "source_quote": {"field": "outcomes", "quote": "Assess Hexokinase 2 activity: enzyme activity measured using optical absorbance with a spectrophotometer"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Registered as EARLY_PHASE1 (Phase 0). Glioblastoma is not named in conditions, title, inclusion criteria or arm labels (only recurrent high grade glioma, WHO grade III and IV, in the description), so coded high_grade_glioma_unspecified. Each arm gives one azole, so both are experimental_monotherapy; there is no combination of the two in one arm."
+}

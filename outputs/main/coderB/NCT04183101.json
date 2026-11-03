@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04183101",
+  "coder_id": "B",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "not_glioblastoma",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "C3 Glomerulopathy; Membranoproliferative Glomerulonephritis; Complement Abnormality; Dense Deposit Disease; C3 Glomerulonephritis"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "assess aliskiren, a direct renin inhibitor, as a novel treatment to block complement activation in the kidneys"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "unclear",
+    "treatment_setting_evidence": [],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "no",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Aliskiren",
+      "active_moiety": "aliskiren",
+      "role": "supportive",
+      "role_evidence": [
+        {"field": "brief_summary", "quote": "assess aliskiren, a direct renin inhibitor, as a novel treatment to block complement activation in the kidneys"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "direct renin inhibitor (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Aliskiren treatment", "Enalapril treatment"]
+    },
+    {
+      "agent_name_registered": "Enalapril",
+      "active_moiety": "enalapril",
+      "role": "control_comparator",
+      "role_evidence": [
+        {"field": "arms", "quote": "[ACTIVE_COMPARATOR] Enalapril treatment"}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "ACE inhibitor (antihypertensive)",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["Aliskiren treatment", "Enalapril treatment"]
+    }
+  ],
+  "biomarkers": [],
+  "coder_notes": "Renal (C3 glomerulopathy) cross-over trial; no cancer population. Role labels for aliskiren (supportive) and enalapril (control_comparator) are formal only, as neither has an antitumour purpose."
+}

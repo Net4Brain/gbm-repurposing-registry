@@ -1,0 +1,38 @@
+{
+  "nct_id": "NCT07616726",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "high_grade_glioma_unspecified",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Patients Diagnosed With a Malignant Glioma"},
+      {"field": "eligibility", "quote": "With a newly diagnosed malignant glioma based on brain imaging"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": false,
+    "candidate_exclusion_reason": "no_pharmacological_candidate",
+    "candidate_evidence": [
+      {"field": "interventions", "quote": "[DEVICE] MEG: Eligible patients will undergo a complete Magnetoencephalography, of approximatively 45min"}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "unclear"
+  },
+  "trial": {
+    "treatment_setting": "newly_diagnosed",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "With a newly diagnosed malignant glioma based on brain imaging"}
+    ],
+    "regimen": "not_applicable",
+    "combination_partners": [],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "no",
+    "tumour_pk_planned_evidence": [],
+    "target_engagement_planned": "no",
+    "target_engagement_planned_evidence": []
+  },
+  "agents": [],
+  "biomarkers": [],
+  "coder_notes": "Diagnostic magnetoencephalography device study (phase NA) in malignant glioma. Glioblastoma is mentioned only in the brief summary (median survival), not in conditions, title, inclusion criteria or arm labels, so high_grade_glioma_unspecified (C7/D27B). No drug interventions."
+}

@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT04528680",
+  "coder_id": "A",
+  "manual_version": "1.4",
+  "screening": {
+    "gbm_population": "gbm_only",
+    "gbm_population_evidence": [
+      {"field": "conditions", "quote": "Glioblastoma; Gliosarcoma; GBM; Glioblastoma Multiforme; Glioblastoma, IDH-wildtype; Recurrent Glioblastoma"},
+      {"field": "eligibility", "quote": "Confirmed diagnosis of Isocitrate Dehydrogenase 1 (IDH1) wild-type glioblastoma on pathology from initial surgery (e.g. IDH R132H neg); morphologic or molecular determination of grade 4"}
+    ],
+    "gbm_population_flag": {"uncertain": false},
+    "has_eligible_candidate": true,
+    "candidate_exclusion_reason": "none",
+    "candidate_evidence": [
+      {"field": "brief_summary", "quote": "In this trial we will implant a novel device with 9 ultrasound emitters allowing to temporarily and reversibly open the BBB immediately prior to chemotherapy infusion with albumin-bound paclitaxel."},
+      {"field": "brief_summary", "quote": "Once the the recommended dosing has been established, carboplatin will be added to the regimen and additional patients will be treated in order to better evaluate the antitumor efficacy of this novel treatment."}
+    ],
+    "candidate_flag": {"uncertain": false},
+    "cns5_terminology": "cns5"
+  },
+  "trial": {
+    "treatment_setting": "recurrent",
+    "treatment_setting_evidence": [
+      {"field": "eligibility", "quote": "Radiographic evidence of tumor recurrence/progression after failure of 1 - 2 lines of prior therapy"}
+    ],
+    "regimen": "combination",
+    "combination_partners": ["paclitaxel (albumin-bound)", "carboplatin"],
+    "basket": false,
+    "control_arm_from_other_arms": "not_applicable",
+    "flag": {"uncertain": false},
+    "tumour_pk_planned": "yes",
+    "tumour_pk_planned_evidence": [
+      {"field": "brief_summary", "quote": "a first test dose of the chemotherapy will be administered in the operating room after sonication (procedure of activating ultrasound and opening the BBB) and tissue concentrations in different parts of the resected tumor will be measured."}
+    ],
+    "target_engagement_planned": "unclear",
+    "target_engagement_planned_evidence": [
+      {"field": "detailed_description", "quote": "Blood samples for circulating tumor DNA will also be collected before and after each sonication."}
+    ]
+  },
+  "agents": [
+    {
+      "agent_name_registered": "Chemotherapy, albumin-bound paclitaxel",
+      "active_moiety": "paclitaxel",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "interventions", "quote": "[DRUG] Chemotherapy, albumin-bound paclitaxel (other names: Abraxane®, ABX): Intravenous infusion of ABX over 30 minutes"},
+        {"field": "brief_summary", "quote": "Paclitaxel is among the most active agents against glioblastoma in preclinical models. However, its clinical use has been hampered by the blood-brain barrier (BBB)."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "new_formulation",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SC9_ABX_carboplatin",
+      "drug_class_hint": "albumin-bound nanoparticle paclitaxel (Abraxane), microtubule-stabilising cytotoxic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SC9/ABX (phase 1); SC9/ABX/Carboplatin (phase 2)"]
+    },
+    {
+      "agent_name_registered": "Chemotherapy, carboplatin",
+      "active_moiety": "carboplatin",
+      "role": "experimental_combination",
+      "role_evidence": [
+        {"field": "arms", "quote": "In phase 2, patients will receive carboplatin immediately prior to sonication using the SC9 device and microbubbles in order to open the blood-brain barrier, then will receive albumin-bound paclitaxel upon completion of sonication."}
+      ],
+      "delivery_enabling": false,
+      "device_dependent": true,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": "SC9_ABX_carboplatin",
+      "drug_class_hint": "platinum alkylating-like cytotoxic",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SC9/ABX (phase 1); SC9/ABX/Carboplatin (phase 2)"]
+    },
+    {
+      "agent_name_registered": "Definity (microbubbles)",
+      "active_moiety": "perflutren",
+      "role": "delivery_enabling_agent",
+      "role_evidence": [
+        {"field": "interventions", "quote": "Implantation of SC-9 device and repeat activation of 9 ultrasound emitters during i.v. injection of microbubbles"},
+        {"field": "eligibility", "quote": "Definity® (the FDA-approved ultrasound contrast agent to be used in this study)"}
+      ],
+      "delivery_enabling": true,
+      "device_dependent": false,
+      "formulation_flag": "none",
+      "fixed_dose_combination": false,
+      "radiopharmaceutical": false,
+      "regimen_id": null,
+      "drug_class_hint": "perflutren lipid microsphere ultrasound contrast agent, used for BBB opening with SonoCloud-9",
+      "stated_antitumour_mechanism": null,
+      "flag": {"uncertain": false},
+      "arms": ["SC9/ABX (phase 1); SC9/ABX/Carboplatin (phase 2)"]
+    }
+  ],
+  "biomarkers": [
+    {
+      "biomarker": "IDH",
+      "biomarker_other": null,
+      "role": "eligibility",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "eligibility", "quote": "Confirmed diagnosis of Isocitrate Dehydrogenase 1 (IDH1) wild-type glioblastoma on pathology from initial surgery (e.g. IDH R132H neg)"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "SSR3",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Relationship between overall survival and SSR3 (Phase 2): Survival time from date of tumor resection and device implantation"},
+      "flag": {"uncertain": false},
+      "arms": []
+    },
+    {
+      "biomarker": "other",
+      "biomarker_other": "circulating tumour DNA (pre/post sonication)",
+      "role": "exploratory_correlative",
+      "candidate_matched": false,
+      "matched_agent": null,
+      "source_quote": {"field": "outcomes", "quote": "Measurement of circulating tumor DNA, methods and units for this measure are to be determined and still under evaluation.: compare before and after sonication"},
+      "flag": {"uncertain": false},
+      "arms": []
+    }
+  ],
+  "coder_notes": "Albumin-bound paclitaxel (phase 1) then plus carboplatin (phase 2), both delivered after SonoCloud-9 ultrasound BBB opening -> both candidates with device_dependent true (C12). Both coded experimental_combination since the single registered arm includes both investigational drugs; in phase 1 paclitaxel is given alone, so experimental_monotherapy for paclitaxel would also be defensible. Microbubbles named as Definity (perflutren) in exclusion criteria -> delivery_enabling_agent. Tumour tissue drug concentrations after sonication -> tumour PK yes. Target engagement unclear: ctDNA pre/post sonication and Gd-enhancement BBB opening are planned but not linked to a candidate target. SSR3 is a primary-outcome correlative marker of unspecified nature (record does not link it to a candidate)."
+}
