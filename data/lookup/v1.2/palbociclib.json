@@ -1,0 +1,694 @@
+{
+ "moiety": "palbociclib",
+ "accessed_utc": "2026-11-03T18:04:04+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA207103",
+    "date": "2015-02-03",
+    "brand": [
+     "IBRANCE",
+     "IBRANCE",
+     "IBRANCE"
+    ]
+   },
+   {
+    "application": "NDA212436",
+    "date": "2019-11-01",
+    "brand": [
+     "IBRANCE",
+     "IBRANCE",
+     "IBRANCE"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-02-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE IBRANCE is a kinase inhibitor indicated: \u2022 for the treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer in combination with: o an aromatase inhibitor as initial endocrine-based therapy ( 1.1 ); or o fulvestrant in patients with disease progression following endocrine therapy. ( 1.1 ) \u2022 in combination with inavolisib and fulvestrant for the treatment of adult patients with endocrine-resistant, PIK3CA -mutated, HR-positive, HER2-negative, locally advanced or metastatic breast cancer, as detected by an FDA-authorized test, following recurrence on or after completing adjuvant endocrine therapy. ( 1.1 ) \u2022 in combination with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of adult patients with HR-positive, HER2 positive locally advanced or metastatic breast cancer following induction treatment. ( 1.2 ) 1.1 HER2-Negative Metastatic Breast Cancer IBRANCE is indicated for the treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer in combination with: \u2022 an aromatase inhibitor as initial endocrine-based therapy; or \u2022 fulvestrant in patients with disease progression following endocrine therapy. IBRANCE is indicated in combination with inavolisib and fulvestrant for the treatment of adult patients with endocrine-resistant, PIK3CA -mutated, HR-positive, HER2-negative, locally advanced or metastatic breast cancer, as detected by an FDA- authorized test, following recurrence on or after completing adjuvant endocrine therapy. 1.2 HER2-Positive Metastatic Breast Cancer IBRANCE is indicated in combination with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of adult patients with HR-positive, HER2-positive locally advanced or metastatic breast cancer following induction treatment.",
+   "1 INDICATIONS AND USAGE IBRANCE is a kinase inhibitor indicated: \u2022 for the treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer in combination with: o an aromatase inhibitor as initial endocrine-based therapy ( 1.1 ); or o fulvestrant in patients with disease progression following endocrine therapy. ( 1.1 ) \u2022 in combination with inavolisib and fulvestrant for the treatment of adult patients with endocrine-resistant, PIK3CA -mutated, HR-positive, HER2-negative, locally advanced or metastatic breast cancer, as detected by an FDA\u2011authorized test, following recurrence on or after completing adjuvant endocrine therapy. ( 1.1 ) \u2022 in combination with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of adult patients with HR-positive, HER2\u2011positive locally advanced or metastatic breast cancer following induction treatment. ( 1.2 ) 1.1 HER2-Negative Metastatic Breast Cancer IBRANCE is indicated for the treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer in combination with: \u2022 an aromatase inhibitor as initial endocrine-based therapy; or \u2022 fulvestrant in patients with disease progression following endocrine therapy. IBRANCE is indicated in combination with inavolisib and fulvestrant for the treatment of adult patients with endocrine-resistant, PIK3CA -mutated, HR-positive, HER2-negative, locally advanced or metastatic breast cancer, as detected by an FDA- authorized test, following recurrence on or after completing adjuvant endocrine therapy. 1.2 HER2-Positive Metastatic Breast Cancer IBRANCE is indicated in combination with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of adult patients with HR-positive, HER2-positive locally advanced or metastatic breast cancer following induction treatment."
+  ],
+  "query": "products.active_ingredients.name:\"palbociclib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Ibrance",
+    "status": "Authorised",
+    "authorisation_date": "2016-11-09",
+    "atc": "L01EF01",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Ibrance is indicated for the treatment of hormone receptor (HR) positive, human epidermal growth factor receptor 2 (HER2) negative locally advanced or metastatic breast cancer:  in combination with an aromatase inhibitor; in combination with fulvestrant in women who have received prior endocrine therapy.  In pre- or perimenopausal women, the endocrine therapy should be combined with a luteinizing hormone releasing hormone (LHRH) agonist.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ibrance"
+   }
+  ],
+  "first_authorisation_date": "2016-11-09"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL189963",
+  "pref_name": "PALBOCICLIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EF01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02296801,NCT02592083,NCT02603679,NCT02668666,NCT02774681,NCT02778685,NCT02871791,NCT02894398,NCT02907918,NCT03007979,NCT03128619,NCT03809988,NCT03854903,NCT04256941"
+     },
+     {
+      "type": "DailyMed",
+      "id": "86718885-da44-4d3d-b3ca-06cbcedcffd8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e0e6412f-50b4-4fd4-9364-62818d121a07"
+     }
+    ]
+   },
+   {
+    "efo_term": "Mantle cell lymphoma",
+    "mesh_heading": "Lymphoma, Mantle-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00420056,NCT02159755,NCT03478514"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01684215,NCT01740427,NCT02297438,NCT02530424,NCT02690480,NCT03220178,NCT03284723,NCT03304080,NCT03423199,NCT03447132,NCT03900884,NCT04288089,NCT04858997,NCT05067530,NCT05969184"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003853"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EF01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01522989,NCT02925234,NCT03065387,NCT03239015,NCT04185883,NCT04423185,NCT05178888,NCT05867251"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00141297"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01356628"
+     }
+    ]
+   },
+   {
+    "efo_term": "liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01209598"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02154490,NCT02785939"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02499120,NCT03194373,NCT03389477,NCT03498378,NCT04966481"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02664935"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03158389"
+     }
+    ]
+   },
+   {
+    "efo_term": "oligoastrocytoma",
+    "mesh_heading": "Oligodendroglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02530320"
+     }
+    ]
+   },
+   {
+    "efo_term": "oligodendroglioma",
+    "mesh_heading": "Oligodendroglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02530320"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02664935,NCT03088059"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03454919"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02030483"
+     }
+    ]
+   },
+   {
+    "efo_term": "thymus neoplasm",
+    "mesh_heading": "Thymus Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03219554"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02022982,NCT02349633,NCT02664935,NCT03386929,NCT03965845"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic neuroendocrine tumor",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02806648"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ewing sarcoma",
+    "mesh_heading": "Sarcoma, Ewing",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04129151"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02310243,NCT03132454,NCT03472573,NCT03515200,NCT04996160"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02310243,NCT03132454,NCT05627232"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03454035"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02334527"
+     }
+    ]
+   },
+   {
+    "efo_term": "colon carcinoma",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03446157"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03242382,NCT03784014"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hereditary breast and ovarian cancer syndrome",
+    "mesh_heading": "Hereditary Breast and Ovarian Cancer Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03685331"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02085538"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03455270"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01823835,NCT01864746,NCT01942135,NCT01976169,NCT02028507,NCT02040857,NCT02296801,NCT02384239,NCT02389842,NCT02400567,NCT02448420,NCT02448771,NCT02491983,NCT02499146,NCT02513394,NCT02536742,NCT02549430,NCT02592746,NCT02599714,NCT02600923,NCT02605486,NCT02624973,NCT02626507,NCT02630693,NCT02668666,NCT02679755,NCT02684032,NCT02692755,NCT02738866,NCT02760030,NCT02764541,NCT02806050,NCT02871791,NCT02913430,NCT02917005,NCT02947685,NCT03006172,NCT03007979,NCT03054363,NCT03065621,NCT03079011,NCT03147287,NCT03184090,NCT03238196,NCT03284957,NCT03322215,NCT03332797,NCT03355157,NCT03377101,NCT03439735,NCT03455270,NCT03471663,NCT03530696,NCT03560531,NCT03573648,NCT03609047,NCT03628066,NCT03633331,NCT03644186,NCT03709082,NCT03774472,NCT03819010,NCT03820830,NCT03959891,NCT03969121,NCT04060862,NCT04075604,NCT04130152,NCT04191499,NCT04220476,NCT04224272,NCT04247633,NCT04318223,NCT04360941,NCT04436744,NCT04478266,NCT04483505,NCT04494958,NCT04546009,NCT04563507,NCT04567420,NCT04669587,NCT04711252,NCT04802759,NCT04818632,NCT04841148,NCT04856371,NCT04858516,NCT04862663,NCT04872608,NCT04920708,NCT04946864,NCT04964934,NCT05069038,NCT05076695,NCT05190094,NCT05207709,NCT05266105,NCT05293964,NCT05384119,NCT05429684,NCT05501886,NCT05766410,NCT05909397,NCT06207734,NCT06377852,NCT06380751,NCT06447623"
+     },
+     {
+      "type": "DailyMed",
+      "id": "86718885-da44-4d3d-b3ca-06cbcedcffd8"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03936270"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02059213,NCT02905318"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03170206"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02730429"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03478514,NCT04439201,NCT06390839"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell renal carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05176288"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03242382"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05468697"
+     }
+    ]
+   },
+   {
+    "efo_term": "chordoma",
+    "mesh_heading": "Chordoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03110744,NCT03242382"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05371275"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05564377"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05694871"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05865132"
+     }
+    ]
+   },
+   {
+    "efo_term": "HER2 Positive Breast Carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03530696"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02065063,NCT02925234,NCT03123744"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast ductal carcinoma in situ",
+    "mesh_heading": "Carcinoma, Intraductal, Noninfiltrating",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03535506"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01209598"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast disease",
+    "mesh_heading": "Breast Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03304080"
+     }
+    ]
+   },
+   {
+    "efo_term": "undifferentiated pleomorphic sarcoma",
+    "mesh_heading": "Histiocytoma, Malignant Fibrous",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06113809"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06364956"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02501902,NCT05039177"
+     }
+    ]
+   },
+   {
+    "efo_term": "nasopharyngeal carcinoma",
+    "mesh_heading": "Nasopharyngeal Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04605562"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant tumor of neck",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03024489"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "CDK6/cyclin D1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2111455"
+   },
+   {
+    "mechanism": "Cyclin-dependent kinase 4/cyclin D1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1907601"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 185,
+  "earliest": {
+   "nct": "NCT01209598",
+   "start": "2010-09-23",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-02-03",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "moiety": "afatinib",
+ "accessed_utc": "2026-11-03T17:15:11+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA201292",
+    "date": "2013-07-12",
+    "brand": [
+     "GILOTRIF",
+     "GILOTRIF",
+     "GILOTRIF"
+    ]
+   }
+  ],
+  "first_approval_date": "2013-07-12",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Afatinib tablets are a kinase inhibitor indicated for: \u2022 First-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have non-resistant epidermal growth factor receptor (EGFR) mutations as detected by an FDA-approved test ( 1.1 ) Limitations of Use : Safety and efficacy of afatinib tablets were not established in patients whose tumors have resistant EGFR mutations ( 1.1 ) \u2022 Treatment of patients with metastatic, squamous NSCLC progressing after platinum-based chemotherapy ( 1.2 ) 1.1 EGFR Mutation-Positive, Metastatic Non-Small Cell Lung Cancer Afatinib tablets are indicated for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have non-resistant epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test [see Dosage and Administration (2.1), Clinical Pharmacology (12.1), Clinical Studies (14.1)]. Limitations of Use : The safety and efficacy of afatinib tablets have not been established in patients whose tumors have resistant EGFR mutations [ see Clinical Studies (14.1)] . 1.2 Previously Treated, Metastatic Squamous NSCLC Afatinib tablets are indicated for the treatment of patients with metastatic squamous NSCLC progressing after platinum-based chemotherapy.",
+   "1 INDICATIONS AND USAGE GILOTRIF is a kinase inhibitor indicated for: First-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have non-resistant epidermal growth factor receptor (EGFR) mutations as detected by an FDA-approved test ( 1.1 ) Limitations of Use : Safety and efficacy of GILOTRIF were not established in patients whose tumors have resistant EGFR mutations ( 1.1 ) Treatment of patients with metastatic, squamous NSCLC progressing after platinum-based chemotherapy ( 1.2 ) 1.1 EGFR Mutation-Positive, Metastatic Non-Small Cell Lung Cancer GILOTRIF is indicated for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have non-resistant epidermal growth factor receptor (EGFR) mutations as detected by an FDA-approved test [see Dosage and Administration (2.1) , Clinical Pharmacology (12.1) , Clinical Studies (14.1) ]. Limitations of Use : The safety and efficacy of GILOTRIF have not been established in patients whose tumors have resistant EGFR mutations [see Clinical Studies (14.1) ]. 1.2 Previously Treated, Metastatic Squamous NSCLC GILOTRIF is indicated for the treatment of patients with metastatic squamous NSCLC progressing after platinum-based chemotherapy ."
+  ],
+  "query": "products.active_ingredients.name:\"afatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Giotrif",
+    "status": "Authorised",
+    "authorisation_date": "2013-09-25",
+    "atc": "L01XE13",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung",
+    "indication": "Giotrif as monotherapy is indicated for the treatment of  Epidermal Growth Factor Receptor (EGFR) TKI-na\u00efve adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with activating EGFR mutation(s); locally advanced or metastatic NSCLC of squamous histology progressing on or after platinum-based chemotherapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/giotrif"
+   }
+  ],
+  "first_authorisation_date": "2013-09-25"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1173655",
+  "pref_name": "AFATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EB03"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EB03"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00716417,NCT00730821,NCT00748709,NCT00809133,NCT00875433,NCT00906698,NCT00998296,NCT01169675,NCT01206816,NCT01214616,NCT02020577,NCT02171637,NCT02171650,NCT02171663,NCT02171676,NCT02171702,NCT02171728,NCT02171741,NCT02506517,NCT02925234,NCT03239015,NCT04185883"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01427478,NCT01732640,NCT01783587,NCT01824823,NCT02979977,NCT05516589"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01415674,NCT01538381,NCT03088059,NCT03486509,NCT03652233,NCT04533321,NCT05070403,NCT05164848"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00525148,NCT00656136,NCT00711594,NCT00730925,NCT00796549,NCT00993499,NCT01003899,NCT01085136,NCT01090011,NCT01156545,NCT01415011,NCT01523587,NCT01542437,NCT01746251,NCT01814553,NCT01836341,NCT01853826,NCT01861223,NCT01932229,NCT01953913,NCT01999985,NCT02044380,NCT02145637,NCT02183883,NCT02191891,NCT02369484,NCT02470065,NCT02488694,NCT02595840,NCT02597946,NCT02716311,NCT02747953,NCT03054038,NCT03157089,NCT03574402,NCT03727724,NCT03827070,NCT04497584,NCT05215548,NCT05298176,NCT06062823"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00431067,NCT00708214,NCT00826267,NCT00950742,NCT01125566,NCT01271725,NCT01325428,NCT02115048"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01298063"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00706628"
+     }
+    ]
+   },
+   {
+    "efo_term": "upper aerodigestive tract neoplasm",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01345669,NCT01856478,NCT02131155,NCT03695510"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00977431"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02876081,NCT03810872"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02975141"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine neoplasm",
+    "mesh_heading": "Uterine Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02491099"
+     }
+    ]
+   },
+   {
+    "efo_term": "urogenital neoplasm",
+    "mesh_heading": "Urogenital Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02780687"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00801294,NCT01152437"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometriosis",
+    "mesh_heading": "Endometriosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03481842"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02353936,NCT03940976,NCT04839471,NCT04880811,NCT05818982,NCT05865132"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic neoplasm",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01679405"
+     }
+    ]
+   },
+   {
+    "efo_term": "gallbladder carcinoma",
+    "mesh_heading": "Gallbladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04183712"
+     }
+    ]
+   },
+   {
+    "efo_term": "Renal insufficiency",
+    "mesh_heading": "Renal Insufficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02096718"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain cancer",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02423525"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01594177,NCT02511847"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01480141,NCT01553942,NCT01999985,NCT02271906,NCT02625168"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung neoplasm",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01466660,NCT02629523"
+     }
+    ]
+   },
+   {
+    "efo_term": "chordoma",
+    "mesh_heading": "Chordoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03083678,NCT05519917"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05517330"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT04410653"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06385483"
+     }
+    ]
+   },
+   {
+    "efo_term": "stomach neoplasm",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06085755"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06302621"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00727506"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 116,
+  "earliest": {
+   "nct": "NCT00706628",
+   "start": "2006-03",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2013-07-12",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

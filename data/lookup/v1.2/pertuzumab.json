@@ -1,0 +1,424 @@
+{
+ "moiety": "pertuzumab",
+ "accessed_utc": "2026-11-03T18:08:52+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA125409",
+    "date": "2012-06-08",
+    "brand": [
+     "PERJETA"
+    ]
+   },
+   {
+    "application": "BLA761170",
+    "date": "2020-06-29",
+    "brand": [
+     "PHESGO",
+     "PHESGO"
+    ]
+   },
+   {
+    "application": "BLA761450",
+    "date": "2025-11-13",
+    "brand": [
+     "POHERDY"
+    ]
+   }
+  ],
+  "first_approval_date": "2012-06-08",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE PERJETA is a HER2/neu receptor antagonist indicated for: Use in combination with trastuzumab and docetaxel for treatment of adults with HER2-positive metastatic breast cancer (MBC) who have not received prior anti-HER2 therapy or chemotherapy for metastatic disease. ( 1.1 ) Use in combination with trastuzumab and chemotherapy as neoadjuvant treatment of adults with HER2-positive, locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive) as part of a complete treatment regimen for early breast cancer. ( 1.2 , 2.2 , 14.2 ) adjuvant treatment of adults with HER2-positive early breast cancer at high risk of recurrence ( 1.2 , 2.2 , 14.3 ) 1.1 Metastatic Breast Cancer (MBC) PERJETA is indicated for use in combination with trastuzumab and docetaxel for the treatment of adults with HER2-positive metastatic breast cancer who have not received prior anti-HER2 therapy or chemotherapy for metastatic disease [see Dosage and Administration (2.2) and Clinical Studies (14.1) ] . 1.2 Early Breast Cancer (EBC) PERJETA is indicated for use in combination with trastuzumab and chemotherapy for the neoadjuvant treatment of adults with HER2-positive, locally advanced, inflammatory, or early stage breast cancer (either greater than 2 cm in diameter or node positive) as part of a complete treatment regimen for early breast cancer [see Dosage and Administration (2.2) and Clinical Studies (14.2) ] . the adjuvant treatment of adults with HER2-positive early breast cancer at high risk of recurrence [see Dosage and Administration (2.2) and Clinical Studies (14.3) ] ."
+  ],
+  "query": "products.active_ingredients.name:\"pertuzumab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Poherdy",
+    "status": "Authorised",
+    "authorisation_date": "2026-04-23",
+    "atc": "L01FD02",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Early breast cancerPoherdy is indicated for use in combination with trastuzumab and chemotherapy in:- the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence- the adjuvant treatment of adult patients with HER2-positive early breast cancer at high risk of recurrenceMetastatic breast cancerPoherdy is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 therapy or chemotherapy for their metastatic disease.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/poherdy"
+   },
+   {
+    "product": "Pebrilzo",
+    "status": "Opinion",
+    "authorisation_date": null,
+    "atc": "L01FD02",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Treatment of breast cancer in adults",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pebrilzo"
+   },
+   {
+    "product": "Perjeta",
+    "status": "Authorised",
+    "authorisation_date": "2013-03-04",
+    "atc": "L01FD02",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Metastatic Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 therapy or chemotherapy for their metastatic disease. Neoadjuvant Treatment of Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and chemotherapy for the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/perjeta"
+   }
+  ],
+  "first_authorisation_date": "2013-03-04"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2007641",
+  "pref_name": "PERTUZUMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FD02"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01922921,NCT02003209,NCT02436993,NCT02568839,NCT03101748,NCT03144947,NCT03199885,NCT04108858,NCT04266249,NCT05319873,NCT06348134"
+     },
+     {
+      "type": "DailyMed",
+      "id": "17f85d17-ab71-4f5b-9fe3-0b8c822f69ff"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379,NCT01572038,NCT02057133,NCT02131064,NCT02530424,NCT02689921,NCT03272477,NCT03304080,NCT05020860,NCT05113251,NCT05385705,NCT05978648"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002547"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FD02"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00027027,NCT02320435,NCT02490475,NCT02494596,NCT02593708,NCT02925234,NCT04341181,NCT05150691,NCT05159245,NCT06136897"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00063154,NCT00855894,NCT02507375,NCT03845270"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01108458"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02120911"
+     }
+    ]
+   },
+   {
+    "efo_term": "male breast carcinoma",
+    "mesh_heading": "Breast Neoplasms, Male",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02060253"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01730833,NCT02125344,NCT02682693,NCT05415215"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00781612"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00551421"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00551421"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01461057,NCT01774786"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneum cancer",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00096993"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine carcinoma",
+    "mesh_heading": "Carcinoma, Neuroendocrine",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01121939"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00096993"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00301899,NCT00545688,NCT00567190,NCT00875979,NCT00934856,NCT00943670,NCT00951665,NCT00976989,NCT01026142,NCT01042379,NCT01120184,NCT01276041,NCT01358877,NCT01491737,NCT01565083,NCT01597414,NCT01674062,NCT01730833,NCT01796197,NCT01817452,NCT01835236,NCT01847001,NCT01855828,NCT01904903,NCT01912963,NCT01918254,NCT01937117,NCT01959490,NCT01966471,NCT01996267,NCT02000596,NCT02019277,NCT02060253,NCT02073487,NCT02132949,NCT02139358,NCT02229149,NCT02252887,NCT02326974,NCT02336984,NCT02339532,NCT02345772,NCT02379585,NCT02390427,NCT02402712,NCT02411344,NCT02445586,NCT02491892,NCT02514681,NCT02536339,NCT02568839,NCT02586025,NCT02598427,NCT02605915,NCT02624973,NCT02625441,NCT02738970,NCT02789657,NCT02827877,NCT02896855,NCT02909751,NCT02947685,NCT03006172,NCT03058939,NCT03112590,NCT03125928,NCT03135171,NCT03161353,NCT03238495,NCT03264547,NCT03329378,NCT03412643,NCT03493854,NCT03595592,NCT03644186,NCT03674112,NCT03716180,NCT03726879,NCT03742986,NCT03747120,NCT03811418,NCT03820141,NCT03894007,NCT03988036,NCT04024462,NCT04172259,NCT04193059,NCT04208178,NCT04246502,NCT04253561,NCT04301375,NCT04329065,NCT04337658,NCT04398914,NCT04419181,NCT04425018,NCT04514419,NCT04538742,NCT04629846,NCT04675827,NCT04717531,NCT04733118,NCT04784715,NCT04802759,NCT04858529,NCT04900311,NCT04957212,NCT04993014,NCT05020860,NCT05036005,NCT05041842,NCT05113251,NCT05159193,NCT05180006,NCT05283837,NCT05292742,NCT05325632,NCT05332561,NCT05420454,NCT05420467,NCT05429684,NCT05471648,NCT05474690,NCT05483439,NCT05574881,NCT05638594,NCT05720026,NCT05738993,NCT05749016,NCT05802225,NCT05838066,NCT05883852,NCT05891561,NCT05900206,NCT05983094,NCT05985187,NCT06038539,NCT06162559,NCT06178159,NCT06278870,NCT06348134"
+     },
+     {
+      "type": "DailyMed",
+      "id": "17f85d17-ab71-4f5b-9fe3-0b8c822f69ff"
+     },
+     {
+      "type": "DailyMed",
+      "id": "27dd5e6b-72cd-458d-a015-cf4dab5800da"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00058552,NCT00096993,NCT01684878,NCT02004093"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00058539,NCT02480010"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00551421"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05722886"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05730712"
+     }
+    ]
+   },
+   {
+    "efo_term": "HER2 Positive Breast Carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02827877,NCT05132582"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00096941,NCT02925234,NCT03498521,NCT04341181,NCT04551521,NCT04632992,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast disease",
+    "mesh_heading": "Breast Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03304080"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02291289"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05188313"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1824"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 198,
+  "earliest": {
+   "nct": "NCT02491892",
+   "start": "2003-02",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2012-06-08",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

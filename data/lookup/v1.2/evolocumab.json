@@ -1,0 +1,330 @@
+{
+ "moiety": "evolocumab",
+ "accessed_utc": "2026-11-03T17:45:35+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA125522",
+    "date": "2015-08-27",
+    "brand": [
+     "REPATHA"
+    ]
+   },
+   {
+    "application": "BLA125522",
+    "date": "2021-02-26",
+    "brand": [
+     "REPATHA"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-08-27",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"evolocumab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Repatha",
+    "status": "Authorised",
+    "authorisation_date": "2015-07-17",
+    "atc": "C10AX13",
+    "therapeutic_area": "Dyslipidemias;Hypercholesterolemia",
+    "indication": "Hypercholesterolaemia and mixed dyslipidaemia Repatha is indicated in adults with primary hypercholesterolaemia (heterozygous familial and non-familial) or mixed dyslipidaemia, as an adjunct to diet:  in combination with a statin or statin with other lipid lowering therapies in patients unable to reach LDL-C goals with the maximum tolerated dose of a statin or, alone or in combination with other lipid-lowering therapies in patients who are statin-intolerant, or for whom a statin is contraindicated.  Homozygous familial hypercholesterolaemia Repatha is indicated in adults and adolescents aged 12 years and over with homozygous familial hypercholesterolaemia in combination with other lipid-lowering therapies. Established atherosclerotic cardiovascular disease Repatha is indicated in adults with established atherosclerotic cardiovascular disease (myocardial infarction, stroke or peripheral arterial disease) to reduce cardiovascular risk by lowering LDL-C levels, as an adjunct to correction of other risk factors:  in combination with the maximum tolerated dose of a statin with or without other lipid-lowering therapies or, alone or in combination with other lipid-lowering therapies in patients who are statin-intolerant, or for whom a statin is contraindicated.  For study results with respect to effects on LDL-C, cardiovascular events and populations studied see section 5.1.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha"
+   }
+  ],
+  "first_authorisation_date": "2015-07-17"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2364655",
+  "pref_name": "EVOLOCUMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "C10AX13"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "familial hypercholesterolemia",
+    "mesh_heading": "Hyperlipoproteinemia Type II",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01375751,NCT01624142,NCT02392559,NCT02624869,NCT03331666,NCT06231459"
+     },
+     {
+      "type": "DailyMed",
+      "id": "709338ae-ab8f-44a9-b7d5-abaabec3493a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cd61e902-166d-4aa6-9f3c-a18c1008d07e"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "C10AX13"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03096288,NCT04338165"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cd61e902-166d-4aa6-9f3c-a18c1008d07e"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hypercholesterolemia",
+    "mesh_heading": "Hypercholesterolemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01439880,NCT01516879,NCT01652703,NCT01813422,NCT01849497,NCT02304484,NCT02585895,NCT02634580,NCT03193047,NCT03429998"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003766"
+     }
+    ]
+   },
+   {
+    "efo_term": "Disorder of lipid metabolism",
+    "mesh_heading": "Lipid Metabolism Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01764633,NCT02207634,NCT02867813,NCT03080935"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute coronary syndrome",
+    "mesh_heading": "Acute Coronary Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03287609,NCT03515304,NCT04082442"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03791593"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sepsis",
+    "mesh_heading": "Sepsis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03869073"
+     }
+    ]
+   },
+   {
+    "efo_term": "ST Elevation Myocardial Infarction",
+    "mesh_heading": "ST Elevation Myocardial Infarction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04303377"
+     }
+    ]
+   },
+   {
+    "efo_term": "Combined hyperlipidemia",
+    "mesh_heading": "Hyperlipidemia, Familial Combined",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01849497"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Artery Disease",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "709338ae-ab8f-44a9-b7d5-abaabec3493a"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04937413"
+     }
+    ]
+   },
+   {
+    "efo_term": "myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "cd61e902-166d-4aa6-9f3c-a18c1008d07e"
+     }
+    ]
+   },
+   {
+    "efo_term": "stroke",
+    "mesh_heading": "Stroke",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "cd61e902-166d-4aa6-9f3c-a18c1008d07e"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03337698"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04941105"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05144529"
+     }
+    ]
+   },
+   {
+    "efo_term": "homozygous familial hypercholesterolemia",
+    "mesh_heading": "Hyperlipoproteinemia Type II",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01588496,NCT04034485"
+     }
+    ]
+   },
+   {
+    "efo_term": "hyperlipidemia",
+    "mesh_heading": "Hyperlipidemias",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01133522,NCT01375764,NCT01375777,NCT01380730,NCT01763827,NCT01763866,NCT01763905,NCT01763918,NCT01854918,NCT01953328,NCT01984424,NCT02189837"
+     }
+    ]
+   },
+   {
+    "efo_term": "Abnormal circulating lipid concentration",
+    "mesh_heading": "Dyslipidemias",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003766"
+     }
+    ]
+   },
+   {
+    "efo_term": "Abdominal Aortic Aneurysm",
+    "mesh_heading": "Aortic Aneurysm, Abdominal",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06081153"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell adenocarcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06284564"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Subtilisin/kexin type 9 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2929"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 45,
+  "earliest": {
+   "nct": "NCT01380730",
+   "start": "2011-07-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-07-17",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

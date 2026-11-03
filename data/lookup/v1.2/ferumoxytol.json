@@ -1,0 +1,295 @@
+{
+ "moiety": "ferumoxytol",
+ "accessed_utc": "2026-11-03T17:45:58+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA022180",
+    "date": "2009-06-30",
+    "brand": [
+     "FERAHEME"
+    ]
+   },
+   {
+    "application": "NDA219868",
+    "date": "2025-10-16",
+    "brand": [
+     "FERABRIGHT",
+     "FERABRIGHT"
+    ]
+   }
+  ],
+  "first_approval_date": "2009-06-30",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE FERABRIGHT is indicated for magnetic resonance imaging (MRI) of the brain in adults with known or suspected malignant neoplasms in the brain to visualize lesions with a disrupted blood-brain barrier. FERABRIGHT is an iron-based contrast agent indicated for magnetic resonance imaging (MRI) of the brain in adults with known or suspected malignant neoplasms in the brain to visualize lesions with a disrupted blood-brain barrier.",
+   "1 INDICATIONS AND USAGE Feraheme is indicated for the treatment of iron deficiency anemia (IDA) in adult patients: \u2022 who have intolerance to oral iron or have had unsatisfactory response to oral iron or \u2022 who have chronic kidney disease (CKD). Feraheme is an iron replacement product indicated for the treatment of iron deficiency anemia (IDA) in adult patients: \u2022 who have intolerance to oral iron or have had unsatisfactory response to oral iron ( 1 ) or \u2022 who have chronic kidney disease (CKD). ( 1 )",
+   "1 INDICATIONS AND USAGE Ferumoxytol is indicated for the treatment of iron deficiency anemia (IDA) in adult patients: \u2022 who have intolerance to oral iron or have had unsatisfactory response to oral iron or \u2022 who have chronic kidney disease (CKD). Ferumoxytol is an iron replacement product indicated for the treatment of iron deficiency anemia (IDA) in adult patients: \u2022 who have intolerance to oral iron or have had unsatisfactory response to oral iron ( 1 ) or \u2022 who have chronic kidney disease (CKD). ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"ferumoxytol\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Feraheme",
+    "status": "Application withdrawn",
+    "authorisation_date": null,
+    "atc": "B03AC",
+    "therapeutic_area": "Anemia, Iron-Deficiency",
+    "indication": "Intravenous treatment of iron deficiency anaemia",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/feraheme"
+   },
+   {
+    "product": "Rienso",
+    "status": "Withdrawn",
+    "authorisation_date": "2012-06-15",
+    "atc": "B03",
+    "therapeutic_area": "Anemia;Kidney Failure, Chronic",
+    "indication": "Rienso is indicated for the intravenous treatment of iron-deficiency anaemia in adult patients with chronic kidney disease (CKD). The diagnosis of iron deficiency must be based on appropriate laboratory tests (see section 4.2).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rienso"
+   }
+  ],
+  "first_authorisation_date": "2012-06-15"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1201867",
+  "pref_name": "FERUMOXYTOL",
+  "max_phase": 4.0,
+  "atc": [],
+  "molecule_type": "Unknown",
+  "indications": [
+   {
+    "efo_term": "Iron deficiency anemia",
+    "mesh_heading": "Anemia, Iron-Deficiency",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01114139,NCT01114204,NCT01114217,NCT01155375,NCT01264679,NCT02694978,NCT03619850,NCT03657433,NCT03893045,NCT04268849"
+     }
+    ]
+   },
+   {
+    "efo_term": "AIDS dementia",
+    "mesh_heading": "AIDS Dementia Complex",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02678767"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02631733"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03325166"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia (phenotype)",
+    "mesh_heading": "Anemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00233597,NCT00255424,NCT00255437,NCT00255450,NCT00360425,NCT04080908"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002215"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03347617,NCT04900792"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia",
+    "mesh_heading": "Anemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "32b0e320-a739-11dc-a704-0002a5d5c51b"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Kidney Failure, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002215"
+     }
+    ]
+   },
+   {
+    "efo_term": "bladder tumor",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04369560"
+     }
+    ]
+   },
+   {
+    "efo_term": "nervous system disease",
+    "mesh_heading": "Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00659776"
+     }
+    ]
+   },
+   {
+    "efo_term": "temporal lobe epilepsy",
+    "mesh_heading": "Epilepsy, Temporal Lobe",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06483061"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung carcinoma",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03325166"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06348524"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic progressive multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis, Chronic Progressive",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05357833"
+     }
+    ]
+   },
+   {
+    "efo_term": "stricture",
+    "mesh_heading": "Constriction, Pathologic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06440408"
+     }
+    ]
+   },
+   {
+    "efo_term": "interstitial cystitis",
+    "mesh_heading": "Cystitis, Interstitial",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05811377"
+     }
+    ]
+   },
+   {
+    "efo_term": "secondary progressive multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis, Chronic Progressive",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05357833"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02511028"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Unknown",
+    "action_type": null,
+    "target": null
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 21,
+  "earliest": {
+   "nct": "NCT00255424",
+   "start": "2004-05",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2009-06-30",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "cancer wording in label but no L01/L02 ATC: oncology drug or supportive use?"
+  ]
+ }
+}

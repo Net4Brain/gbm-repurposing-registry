@@ -1,0 +1,473 @@
+{
+ "moiety": "ribociclib",
+ "accessed_utc": "2026-11-03T18:14:08+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA209092",
+    "date": "2017-03-13",
+    "brand": [
+     "KISQALI"
+    ]
+   },
+   {
+    "application": "NDA209935",
+    "date": "2017-05-04",
+    "brand": [
+     "KISQALI FEMARA CO-PACK (COPACKAGED)"
+    ]
+   }
+  ],
+  "first_approval_date": "2017-03-13",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE KISQALI is a kinase inhibitor indicated: in combination with an aromatase inhibitor for the adjuvant treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative stage II and III early breast cancer at high risk of recurrence. ( 1 ) for the treatment of adults with HR-positive, HER2-negative advanced or metastatic breast cancer in combination with: an aromatase inhibitor as initial endocrine-based therapy; or fulvestrant as initial endocrine-based therapy or following disease progression on endocrine therapy. ( 1 ) 1.1 Early Breast Cancer KISQALI is indicated in combination with an aromatase inhibitor for the adjuvant treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative stage II and III early breast cancer at high risk of recurrence. 1.2 Advanced or Metastatic Breast Cancer KISQALI is indicated for the treatment of adults with HR-positive, HER2-negative advanced or metastatic breast cancer in combination with: an aromatase inhibitor as initial endocrine-based therapy; or fulvestrant as initial endocrine-based therapy or following disease progression on endocrine therapy."
+  ],
+  "query": "products.active_ingredients.name:\"ribociclib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3545110",
+  "pref_name": "RIBOCICLIB",
+  "max_phase": 4.0,
+  "atc": [],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01237236,NCT02414724"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01777776,NCT01781572,NCT02159066,NCT02645149,NCT03484923,NCT04417621"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02345824,NCT03355794,NCT03834740"
+     }
+    ]
+   },
+   {
+    "efo_term": "liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02343172,NCT02571829"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01543698,NCT01898845,NCT02187783,NCT02925234,NCT02934568,NCT03237390,NCT04116541,NCT05867251"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02429089,NCT03179956,NCT04213404"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02524119"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02555189"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02632045,NCT04256941,NCT05319873"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroblastoma",
+    "mesh_heading": "Neuroblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01747876,NCT05429502"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02657928"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03355794"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02292550,NCT03333343"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03096912"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine neoplasm",
+    "mesh_heading": "Uterine Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02657928"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02608216,NCT03283384"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant rhabdoid tumour",
+    "mesh_heading": "Rhabdoid Tumor",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01747876"
+     }
+    ]
+   },
+   {
+    "efo_term": "Fallopian Tube Carcinoma",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02657928"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03114527"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03740334"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03673124"
+     }
+    ]
+   },
+   {
+    "efo_term": "thymus neoplasm",
+    "mesh_heading": "Thymus Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02420691"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02431481"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary neuroendocrine tumor",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02420691"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse intrinsic pontine glioma",
+    "mesh_heading": "Diffuse Intrinsic Pontine Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02607124,NCT03355794"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine neoplasm",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03070301"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03056833"
+     }
+    ]
+   },
+   {
+    "efo_term": "teratoma",
+    "mesh_heading": "Teratoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02300987"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01857193,NCT01872260,NCT01919229,NCT01958021,NCT02088684,NCT02154776,NCT02278120,NCT02333370,NCT02422615,NCT02586675,NCT02599363,NCT02608216,NCT02632045,NCT02657343,NCT02712723,NCT02732119,NCT02734615,NCT02754011,NCT02941926,NCT03050398,NCT03078751,NCT03081234,NCT03090165,NCT03096847,NCT03248427,NCT03285412,NCT03424005,NCT03439046,NCT03477396,NCT03555877,NCT03613220,NCT03671330,NCT03701334,NCT03822468,NCT03839823,NCT03905343,NCT03944434,NCT04055493,NCT04802759,NCT04862663,NCT04964934,NCT05207709,NCT05296746,NCT05384119,NCT05467891,NCT05508906,NCT05573555,NCT05625087,NCT05664893,NCT05766410,NCT05816655,NCT05827081,NCT05870579,NCT05900206,NCT05996107,NCT06377852,NCT06380751,NCT06481956"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03056833"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02494921"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02370706"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02813135,NCT02925234,NCT02934568"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02345824,NCT03355794,NCT03834740"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02703571"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03355794"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Cyclin-dependent kinase 4 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL331"
+   },
+   {
+    "mechanism": "Cyclin-dependent kinase 6 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2508"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 87,
+  "earliest": {
+   "nct": "NCT01543698",
+   "start": "2012-05-28",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2017-03-13",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "cancer wording in label but no L01/L02 ATC: oncology drug or supportive use?"
+  ]
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "moiety": "lorlatinib",
+ "accessed_utc": "2026-11-03T17:53:31+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA210868",
+    "date": "2018-11-02",
+    "brand": [
+     "LORBRENA",
+     "LORBRENA"
+    ]
+   }
+  ],
+  "first_approval_date": "2018-11-02",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE LORBRENA \u00ae is indicated for the treatment of adult patients with metastatic non-small cell lung cancer (NSCLC) whose tumors are anaplastic lymphoma kinase (ALK)-positive as detected by an FDA-approved test. LORBRENA is a kinase inhibitor indicated for the treatment of adult patients with metastatic non-small cell lung cancer (NSCLC) whose tumors are anaplastic lymphoma kinase (ALK)-positive as detected by an FDA-approved test. ( 1 , 2.1 )"
+  ],
+  "query": "products.active_ingredients.name:\"lorlatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Lorviqua",
+    "status": "Authorised",
+    "authorisation_date": "2019-05-06",
+    "atc": "L01ED05",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung",
+    "indication": "Lorviqua as monotherapy is indicated for the treatment of adult patients with anaplastic lymphoma kinase (ALK)?positive advanced non?small cell lung cancer (NSCLC) previously not treated with an ALK inhibitor. Lorviqua as monotherapy is indicated for the treatment of adult patients with ALK?positive advanced NSCLC whose disease has progressed after:  alectinib or ceritinib as the first ALK tyrosine kinase inhibitor (TKI) therapy; or crizotinib and at least one other ALK TKI.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lorviqua"
+   }
+  ],
+  "first_authorisation_date": "2019-05-06"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3286830",
+  "pref_name": "LORLATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01ED05"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01970865,NCT02584634,NCT02927340,NCT03052608,NCT03439215,NCT03612154,NCT03737994,NCT03909971,NCT04111705,NCT04127110,NCT04362072,NCT04541407,NCT04541706,NCT04621188,NCT05144997,NCT05297890,NCT05740943,NCT05948462"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2b34d62d-e02a-4af3-bc0d-1571dd4ee76d"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004646"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2018/210868s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroblastoma",
+    "mesh_heading": "Neuroblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03107988,NCT03126916"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01ED05"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT04800822"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic large cell lymphoma",
+    "mesh_heading": "Lymphoma, Large-Cell, Anaplastic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03505554"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03542305"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "2b34d62d-e02a-4af3-bc0d-1571dd4ee76d"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05224609"
+     }
+    ]
+   },
+   {
+    "efo_term": "ganglioneuroblastoma",
+    "mesh_heading": "Ganglioneuroblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03126916"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT03726333,NCT05097599"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05948462"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "ALK tyrosine kinase receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4247"
+   },
+   {
+    "mechanism": "EML4-ALK inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3883330"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 25,
+  "earliest": {
+   "nct": "NCT01970865",
+   "start": "2014-01-08",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2018-11-02",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

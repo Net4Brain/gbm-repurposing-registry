@@ -1,0 +1,470 @@
+{
+ "moiety": "lapatinib",
+ "accessed_utc": "2026-11-03T17:52:07+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA022059",
+    "date": "2007-03-13",
+    "brand": [
+     "TYKERB"
+    ]
+   }
+  ],
+  "first_approval_date": "2007-03-13",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Lapatinib tablets are indicated in combination with: capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use : Patients should have disease progression on trastuzumab prior to initiation of treatment with lapatinib tablets in combination with capecitabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. Lapatinib tablets in combination with an aromatase inhibitor has not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer. Lapatinib tablets are a kinase inhibitor indicated in combination with: ( 1 ) capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use : Patients should have disease progression on trastuzumab prior to initiation of treatment with lapatinib tablets in combination with capecitabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. Lapatinib tablets in combination with an aromatase inhibitor has not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer.",
+   "1 INDICATIONS AND USAGE Lapatinib tablets are kinase inhibitor indicated in combination with: ( 1 ) capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use: Patients should have disease progression on trastuzumab prior to initiation of treatment with lapatinib tablets in combination with capecetabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. Lapatinib tablets in combination with an aromatase inhibitor has not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer. Lapatinib tablet is a kinase inhibitor indicated in combination with: ( 1 ) capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use : Patients should have disease progression on trastuzumab prior to initiation of treatment with lapatinib tablets in combination with capecitabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. Lapatinib tablets in combination with an aromatase inhibitor have not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer.",
+   "1 INDICATIONS AND USAGE TYKERB \u00ae is indicated in combination with: capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use : Patients should have disease progression on trastuzumab prior to initiation of treatment with TYKERB in combination with capecitabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. TYKERB in combination with an aromatase inhibitor has not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer. TYKERB is a kinase inhibitor indicated in combination with: ( 1 ) capecitabine for the treatment of patients with advanced or metastatic breast cancer whose tumors overexpress human epidermal growth factor receptor 2 (HER2) and who have received prior therapy, including an anthracycline, a taxane, and trastuzumab. Limitations of Use : Patients should have disease progression on trastuzumab prior to initiation of treatment with TYKERB in combination with capecitabine. letrozole for the treatment of postmenopausal women with hormone receptor-positive metastatic breast cancer that overexpresses the HER2 receptor for whom hormonal therapy is indicated. TYKERB in combination with an aromatase inhibitor has not been compared to a trastuzumab-containing chemotherapy regimen for the treatment of metastatic breast cancer."
+  ],
+  "query": "products.active_ingredients.name:\"lapatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Tyverb",
+    "status": "Authorised",
+    "authorisation_date": "2008-06-10",
+    "atc": "L01EH01",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Tyverb is indicated for the treatment of patients with breast cancer, whose tumours overexpress HER2 (ErbB2):  in combination with capecitabine for patients with advanced or metastatic disease with progression following prior therapy, which must have included anthracyclines and taxanes and therapy with trastuzumab in the metastatic setting; in combination with trastuzumab for patients with hormone-receptor-negative metastatic disease that has progressed on prior trastuzumab therapy or therapies in combination with chemotherapy; in combination with an aromatase inhibitor for post-menopausal women with hormone-receptor-positive metastatic disease, not currently intended for chemotherapy. The patients in the registration study had not previously been treated with trastuzumab or an aromatase inhibitor. No data are available on the efficacy of this combination relative to trastuzumab in combination with an aromatase inhibitor in this patient population.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tyverb"
+   }
+  ],
+  "first_authorisation_date": "2008-06-10"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL554",
+  "pref_name": "LAPATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EH01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EH01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00486954,NCT00495872,NCT00526669,NCT00680901,NCT00682279,NCT00984425,NCT01497626,NCT01771458,NCT02029001"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00371566,NCT01612351"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01272141"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00062686,NCT00073528,NCT00075270,NCT00089999,NCT00105950,NCT00111787,NCT00148902,NCT00169533,NCT00251433,NCT00258050,NCT00263588,NCT00272987,NCT00281658,NCT00320385,NCT00320411,NCT00347919,NCT00356811,NCT00359190,NCT00367471,NCT00371488,NCT00374322,NCT00388076,NCT00422903,NCT00429299,NCT00437073,NCT00444535,NCT00479856,NCT00490139,NCT00508274,NCT00524303,NCT00553358,NCT00558103,NCT00650910,NCT00709618,NCT00709761,NCT00790816,NCT00820924,NCT00821054,NCT00826267,NCT00849329,NCT00996762,NCT01137994,NCT01138046,NCT01160211,NCT01205217,NCT01273610,NCT02213042,NCT03273595,NCT03500380"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02581124"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01264081"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01666431"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00073008,NCT00528281"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00259987"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00536809"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00158782,NCT00516672"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00447122,NCT00881621"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain disease",
+    "mesh_heading": "Brain Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00820222"
+     }
+    ]
+   },
+   {
+    "efo_term": "Pituitary Gland Adenoma",
+    "mesh_heading": "Pituitary Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00939523"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01947023"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00239200"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03784014"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Ductal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01891357"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01612351,NCT01711658"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00450203,NCT01769508,NCT02015169"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain cancer",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00883688"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneum cancer",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00436644"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00430781"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00044330,NCT00078572,NCT00206427,NCT00225758,NCT00299286,NCT00343759,NCT00404066,NCT00450892,NCT00455039,NCT00470704,NCT00477464,NCT00479856,NCT00486668,NCT00496366,NCT00513058,NCT00548184,NCT00567554,NCT00632489,NCT00634088,NCT00657137,NCT00694252,NCT00721630,NCT00754702,NCT00756470,NCT00759642,NCT00777101,NCT00807859,NCT00829166,NCT00841828,NCT00842998,NCT00903656,NCT00912275,NCT00952692,NCT00963547,NCT00999804,NCT01005641,NCT01044485,NCT01068704,NCT01133912,NCT01138384,NCT01161368,NCT01199367,NCT01238029,NCT01262469,NCT01275859,NCT01283789,NCT01300962,NCT01309607,NCT01471847,NCT01477060,NCT01485926,NCT01526369,NCT01534455,NCT01589861,NCT01619111,NCT01658358,NCT01730677,NCT01808573,NCT01827163,NCT01934894,NCT01973660,NCT01985893,NCT02073487,NCT02073916,NCT02131506,NCT02238509,NCT02338245,NCT02362958,NCT02394496,NCT02422199,NCT02650752,NCT03080805,NCT03084939,NCT03085368,NCT03523585,NCT04185649,NCT05122494,NCT06313983"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01145404"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00317434,NCT00436644,NCT04608409"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00953576"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01454479"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00387127,NCT00424255"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01245660"
+     }
+    ]
+   },
+   {
+    "efo_term": "HER2 Positive Breast Carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03500380"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00447226,NCT00543504,NCT00888810,NCT00968968,NCT01013740,NCT01087983,NCT01128543,NCT01290354,NCT01427322,NCT01454804,NCT02294786,NCT02342587"
+     }
+    ]
+   },
+   {
+    "efo_term": "bile duct carcinoma",
+    "mesh_heading": "Bile Duct Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02836847"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00350727"
+     }
+    ]
+   },
+   {
+    "efo_term": "gallbladder cancer",
+    "mesh_heading": "Gallbladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02836847"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00044343,NCT02230553"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 178,
+  "earliest": {
+   "nct": "NCT00044343",
+   "start": "2002-09",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2007-03-13",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

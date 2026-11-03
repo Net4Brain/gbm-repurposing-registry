@@ -1,0 +1,256 @@
+{
+ "moiety": "pemigatinib",
+ "accessed_utc": "2026-11-03T18:07:49+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA213736",
+    "date": "2020-04-17",
+    "brand": [
+     "PEMAZYRE",
+     "PEMAZYRE",
+     "PEMAZYRE"
+    ]
+   }
+  ],
+  "first_approval_date": "2020-04-17",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE PEMAZYRE is a kinase inhibitor indicated: for the treatment of adults with previously treated, unresectable locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or other rearrangement as detected by an FDA-approved test. ( 1 , 2.1 ) This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). ( 1 , 2.1 ) For the treatment of adults with relapsed or refractory myeloid/lymphoid neoplasms (MLNs) with FGFR1 rearrangement. ( 1 , 2.1 ) 1.1 Cholangiocarcinoma PEMAZYRE is indicated for the treatment of adults with previously treated, unresectable locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or other rearrangement as detected by an FDA-approved test [see Dosage and Administration ( 2.1 )] . This indication is approved under accelerated approval based on overall response rate and duration of response [see Clinical Studies ( 14.1 )]. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s). 1.2 Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement PEMAZYRE is indicated for the treatment of adults with relapsed or refractory myeloid/lymphoid neoplasms (MLNs) with fibroblast growth factor receptor 1 (FGFR1) rearrangement."
+  ],
+  "query": "products.active_ingredients.name:\"pemigatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Pemazyre",
+    "status": "Authorised",
+    "authorisation_date": "2021-03-26",
+    "atc": "L01EN02",
+    "therapeutic_area": "Cholangiocarcinoma",
+    "indication": "Pemazyre monotherapy is indicated for the treatment of adults with locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or rearrangement that have progressed &nbsp;after at least one prior line of systemic therapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pemazyre"
+   }
+  ],
+  "first_authorisation_date": "2021-03-26"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297522",
+  "pref_name": "PEMIGATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EN02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EN02"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT03235570,NCT04003623,NCT04258527,NCT06022289"
+     },
+     {
+      "type": "USAN",
+      "id": "PEMIGATINIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "urogenital neoplasm",
+    "mesh_heading": "Urogenital Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02872714,NCT04294277"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloproliferative disorder",
+    "mesh_heading": "Myeloproliferative Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03011372"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02924376,NCT03656536,NCT04088188,NCT04256980,NCT06302621,NCT06439485"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005266"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/213736s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04003610"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04659616"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04463771"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05216120"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05004974,NCT05253807,NCT05287386"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05202236"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT03498521,NCT03822117,NCT04949191"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05560334"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06389799"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05997459"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Fibroblast growth factor receptor 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4142"
+   },
+   {
+    "mechanism": "Fibroblast growth factor receptor 3 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2742"
+   },
+   {
+    "mechanism": "Fibroblast growth factor receptor 1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3650"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 27,
+  "earliest": {
+   "nct": "NCT02925234",
+   "start": "2016-08",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2020-04-17",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

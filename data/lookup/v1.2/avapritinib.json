@@ -1,0 +1,168 @@
+{
+ "moiety": "avapritinib",
+ "accessed_utc": "2026-11-03T17:21:38+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA212608",
+    "date": "2020-01-09",
+    "brand": [
+     "AYVAKIT",
+     "AYVAKIT",
+     "AYVAKIT"
+    ]
+   }
+  ],
+  "first_approval_date": "2020-01-09",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"avapritinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Ayvakyt",
+    "status": "Authorised",
+    "authorisation_date": "2020-09-24",
+    "atc": "L01EX18",
+    "therapeutic_area": "Gastrointestinal Stromal Tumors",
+    "indication": "Unresectable or metastatic gastrointestinal stromal tumour (GIST) AYVAKYT is indicated as monotherapy for the treatment of adult patients with unresectable or metastatic gastrointestinal stromal tumours (GIST) harbouring the platelet-derived growth factor receptor alpha (PDGFRA) D842V mutation. Advanced systemic mastocytosis (AdvSM) AYVAKYT is indicated as monotherapy for the treatment of adult patients with aggressive systemic mastocytosis (ASM), systemic mastocytosis with an associated haematological neoplasm (SM-AHN) or mast cell leukaemia (MCL), after at least one systemic therapy. Indolent systemic mastocytosis (ISM) AYVAKYT is indicated for the treatment of adult patients with indolent systemic mastocytosis (ISM) with moderate to severe symptoms inadequately controlled on symptomatic treatment (see section 5.1).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ayvakyt"
+   }
+  ],
+  "first_authorisation_date": "2020-09-24"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4204794",
+  "pref_name": "AVAPRITINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX18"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "mast-cell leukemia",
+    "mesh_heading": "Leukemia, Mast-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02561988,NCT03580655"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic mastocytosis",
+    "mesh_heading": "Mastocytosis, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03731260,NCT06327685"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system cancer",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04773782"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX18"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04116541"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastrointestinal stromal tumor",
+    "mesh_heading": "Gastrointestinal Stromal Tumors",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02508532,NCT03465722,NCT04254939,NCT04825574,NCT04908176"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005208"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/212608s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02561988"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06221683"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Stem cell growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1936"
+   },
+   {
+    "mechanism": "Platelet-derived growth factor receptor alpha inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2007"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 11,
+  "earliest": {
+   "nct": "NCT03465722",
+   "start": "2018-03-26",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2020-01-09",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

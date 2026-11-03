@@ -1,0 +1,787 @@
+{
+ "moiety": "niacin",
+ "accessed_utc": "2026-11-03T18:36:57+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA011073",
+    "date": "1957-07-24",
+    "brand": [
+     "WAMPOCAP"
+    ]
+   },
+   {
+    "application": "NDA020381",
+    "date": "1997-07-28",
+    "brand": [
+     "NIASPAN TITRATION STARTER PACK",
+     "NIASPAN",
+     "NIASPAN"
+    ]
+   }
+  ],
+  "first_approval_date": "1957-07-24",
+  "label_indications": [
+   "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. M ultivitamin with Fluoride 0.5 mg Chewable Tablets provide 0.5 mg fluoride in tablet form for children 4-6 years of age in areas where the drinking water fluoride level is less than 0.3 ppm, and for children 6 years of age and above where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.5 mg Chewable Tablets supply significant amounts of Vitamins A, C, D, E, thiamine, riboflavin, niacin, vitamin B6, vitamin B12, and folate to supplement the diet, and to help assure that nutritional deficiencies of these vitamins will not develop. Thus, in a single easy-to-use preparation, children obtain ten essential vitamins and the important mineral, fluoride. The American Academy of Pediatrics recommends that children up to age 16, in areas where drinking water contains less than optimal levels of fluoride, receive daily fluoride supplements. Children using Multivitamin with Fluoride 0 . 5 mg Chewable Tablets regularly should receive semiannual dental examinations. The regular brushing of teeth and attention to good oral hygiene practices are also essential. Multivitamin with Fluoride Chewable Tablets is a prescription product for the clinical dietary management of the metabolic processes of caries prophylaxis and provides supplementation of the diet with ten essential vitamins.",
+   "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. Multivitamin with Fluoride 0.25 mg Chewable Tablets provide 0.25 mg fluoride in tablet form for children 4-6years of age in areas where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.25 mg Chewable Tablets supply significant amounts of Vitamins A, C, D, E, thiamine, riboflavin, niacin, vitamin B6, vitamin B12, and folate to supplement the diet, and to help assure that nutritional deficiencies of these vitamins will not develop. Thus, in a single easy-to-use preparation, children obtain ten essential vitamins and the important mineral, fluoride. The American Academy of Pediatrics recommends that children up to age 16, in areas where drinking water contains less than optimal levels of fluoride, receive daily fluoride supplements. Children using Multivitamin with Fluoride 0 . 25 mg Chewable Tablets regularly should receive semiannual dental examinations. The regular brushing of teeth and attention to good oral hygiene practices are also essential. Multivitamin with Fluoride Chewable Tablets is a prescription product for the clinical dietary management of the metabolic processes of caries prophylaxis and provides supplementation of the diet with ten essential vitamins.",
+   "INDICATIONS Slimming effect, water retention.",
+   "USES: Assists in correction of circulatory disorders.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated."
+  ],
+  "query": "products.active_ingredients.name:\"niacin\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL573",
+  "pref_name": "NIACIN",
+  "max_phase": 4.0,
+  "atc": [
+   "C10AD02",
+   "C04AC01",
+   "C10AD52"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00152893,NCT02018965"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01720095"
+     }
+    ]
+   },
+   {
+    "efo_term": "Disorder of lipid metabolism",
+    "mesh_heading": "Lipid Metabolism Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00111891,NCT00376584,NCT00626392,NCT00630877,NCT00664287,NCT00728910,NCT00903617,NCT00943124,NCT00944645,NCT00961636,NCT01071291,NCT01104519,NCT01984073,NCT02890992,NCT03510884"
+     }
+    ]
+   },
+   {
+    "efo_term": "metabolic syndrome",
+    "mesh_heading": "Metabolic Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00300365"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hypercholesterolemia",
+    "mesh_heading": "Hypercholesterolemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00080275,NCT00082251,NCT00203476,NCT00269217,NCT00271817,NCT00378833,NCT00533312,NCT00536510,NCT00652431,NCT00769132,NCT01054508,NCT01071525,NCT01321034,NCT03510715"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3b3e7629-1a19-46c9-8795-8e280b318af3"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4d6b509c-7b9c-4c53-d8b1-ef9539f17039"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ce739d68-d89c-437c-90fb-3c0c45140f22"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dbdee4c0-86fa-4857-b536-79bf9ebb911a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dd749fb9-e279-4958-9534-ad75a5b6754b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fbe83466-aaea-49ab-9f00-4ff6e0930c44"
+     }
+    ]
+   },
+   {
+    "efo_term": "aortic stenosis",
+    "mesh_heading": "Aortic Valve Stenosis",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02109614"
+     }
+    ]
+   },
+   {
+    "efo_term": "atherosclerosis",
+    "mesh_heading": "Atherosclerosis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00120289,NCT00150722,NCT00397657,NCT01221402"
+     },
+     {
+      "type": "DailyMed",
+      "id": "35433c7b-556c-49a0-bfb5-0d498359925b"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute coronary syndrome",
+    "mesh_heading": "Acute Coronary Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00855257"
+     }
+    ]
+   },
+   {
+    "efo_term": "obesity",
+    "mesh_heading": "Obesity",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01083329"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia (phenotype)",
+    "mesh_heading": "Anemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0722734e-5a30-47af-99a3-2512848b45cd"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5e273c62-e582-4a40-90aa-c7c723cbcdf1"
+     }
+    ]
+   },
+   {
+    "efo_term": "retinal vein occlusion",
+    "mesh_heading": "Retinal Vein Occlusion",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00493064,NCT00500045"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01426438"
+     }
+    ]
+   },
+   {
+    "efo_term": "myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000482,NCT00120289"
+     },
+     {
+      "type": "DailyMed",
+      "id": "35433c7b-556c-49a0-bfb5-0d498359925b"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01005303"
+     }
+    ]
+   },
+   {
+    "efo_term": "carotid artery disease",
+    "mesh_heading": "Carotid Artery Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000599"
+     }
+    ]
+   },
+   {
+    "efo_term": "intermittent vascular claudication",
+    "mesh_heading": "Intermittent Claudication",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00062556,NCT00071266"
+     }
+    ]
+   },
+   {
+    "efo_term": "obsessive-compulsive disorder",
+    "mesh_heading": "Obsessive-Compulsive Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03356483"
+     }
+    ]
+   },
+   {
+    "efo_term": "familial hypercholesterolemia",
+    "mesh_heading": "Hyperlipoproteinemia Type II",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00384293,NCT01583647"
+     }
+    ]
+   },
+   {
+    "efo_term": "Myocardial Ischemia",
+    "mesh_heading": "Myocardial Ischemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000461,NCT00000482,NCT00000512,NCT00000553,NCT00000599"
+     }
+    ]
+   },
+   {
+    "efo_term": "Combined hyperlipidemia",
+    "mesh_heading": "Hyperlipidemia, Familial Combined",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00269204,NCT00269217,NCT00289900"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Kidney Failure, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "2e1625cd-7337-4eed-95b1-b371c7169b97"
+     },
+     {
+      "type": "DailyMed",
+      "id": "54753dd9-dd90-40ee-a50d-47a7fa5b4754"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6a02aaa1-92d1-43ae-841c-0f991e10c60f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d92a09ae-017e-487c-bbd7-b284dce406ee"
+     }
+    ]
+   },
+   {
+    "efo_term": "Iron deficiency anemia",
+    "mesh_heading": "Anemia, Iron-Deficiency",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "025fee85-53a8-4161-a806-44fd95d0ca74"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-traumatic stress disorder",
+    "mesh_heading": "Stress Disorders, Post-Traumatic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03752918"
+     }
+    ]
+   },
+   {
+    "efo_term": "acne",
+    "mesh_heading": "Acne Vulgaris",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "e25686be-d652-4ac5-8d52-4d9de03eec3b"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02702492"
+     }
+    ]
+   },
+   {
+    "efo_term": "carotid atherosclerosis",
+    "mesh_heading": "Carotid Artery Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00804843"
+     }
+    ]
+   },
+   {
+    "efo_term": "cerebral atherosclerosis",
+    "mesh_heading": "Intracranial Arteriosclerosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000599"
+     }
+    ]
+   },
+   {
+    "efo_term": "Flushing",
+    "mesh_heading": "Flushing",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00533611,NCT00536237"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder, Major",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03866174,NCT04630964"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04677049"
+     }
+    ]
+   },
+   {
+    "efo_term": "stroke",
+    "mesh_heading": "Stroke",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00120289"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Artery Disease",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "068b9b2e-0ec1-4635-8257-62bb852f0d71"
+     },
+     {
+      "type": "DailyMed",
+      "id": "09bccfc6-71eb-420f-92d3-cd21789a0dbc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dd18020-c211-423d-b3d8-a926ae626e14"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dfe662a-f2ac-4f10-9a08-54cbd0c6dec6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0f049ee9-ab85-401c-b1d7-06c98d559055"
+     },
+     {
+      "type": "DailyMed",
+      "id": "35433c7b-556c-49a0-bfb5-0d498359925b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "414b3d30-cc7f-4f91-b21e-5090b7f5b529"
+     },
+     {
+      "type": "DailyMed",
+      "id": "62efc71c-9746-d603-3e9d-a8786f7d4de8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8e290f96-e8c6-47fd-863f-1c9480f28d9b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "92b3ec1d-0dc7-4bde-9817-57b1bdf7f0b9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c64d7717-8e8e-4e17-8f00-2b18f496b321"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ccc64ee7-f581-493b-b8c2-6147a0db197e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "eac1abb4-58bf-4cd0-aa66-a93e116f516c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f9b97613-c62e-40b0-a2aa-a7fde6bd5bc7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc312806-1441-478d-95a2-68ce9a7a796d"
+     }
+    ]
+   },
+   {
+    "efo_term": "systolic heart failure",
+    "mesh_heading": "Heart Failure, Systolic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04703361"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ischemic stroke",
+    "mesh_heading": "Ischemic Stroke",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00796887"
+     }
+    ]
+   },
+   {
+    "efo_term": "Abdominal pain",
+    "mesh_heading": "Abdominal Pain",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "3b3e7629-1a19-46c9-8795-8e280b318af3"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "C04AC01"
+     },
+     {
+      "type": "ATC",
+      "id": "C10AD02"
+     },
+     {
+      "type": "ATC",
+      "id": "C10AD52"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05452772"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00485758,NCT00618995,NCT01368328,NCT03540758,NCT03685773"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00508989"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00170404"
+     }
+    ]
+   },
+   {
+    "efo_term": "hyperlipidemia",
+    "mesh_heading": "Hyperlipidemias",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00203476,NCT00376584,NCT00378833,NCT00536510,NCT00652431"
+     },
+     {
+      "type": "DailyMed",
+      "id": "068b9b2e-0ec1-4635-8257-62bb852f0d71"
+     },
+     {
+      "type": "DailyMed",
+      "id": "09bccfc6-71eb-420f-92d3-cd21789a0dbc"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dd18020-c211-423d-b3d8-a926ae626e14"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dfe662a-f2ac-4f10-9a08-54cbd0c6dec6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0f049ee9-ab85-401c-b1d7-06c98d559055"
+     },
+     {
+      "type": "DailyMed",
+      "id": "35433c7b-556c-49a0-bfb5-0d498359925b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "414b3d30-cc7f-4f91-b21e-5090b7f5b529"
+     },
+     {
+      "type": "DailyMed",
+      "id": "62efc71c-9746-d603-3e9d-a8786f7d4de8"
+     },
+     {
+      "type": "DailyMed",
+      "id": "8e290f96-e8c6-47fd-863f-1c9480f28d9b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "92b3ec1d-0dc7-4bde-9817-57b1bdf7f0b9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c64d7717-8e8e-4e17-8f00-2b18f496b321"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ccc64ee7-f581-493b-b8c2-6147a0db197e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ce739d68-d89c-437c-90fb-3c0c45140f22"
+     },
+     {
+      "type": "DailyMed",
+      "id": "eac1abb4-58bf-4cd0-aa66-a93e116f516c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f9b97613-c62e-40b0-a2aa-a7fde6bd5bc7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc312806-1441-478d-95a2-68ce9a7a796d"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00957359,NCT05398484"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine disorder",
+    "mesh_heading": "Migraine Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05846373"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-alcoholic fatty liver disease",
+    "mesh_heading": "Non-alcoholic Fatty Liver Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06140953"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart disease",
+    "mesh_heading": "Heart Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000482"
+     }
+    ]
+   },
+   {
+    "efo_term": "peripheral vascular disease",
+    "mesh_heading": "Peripheral Vascular Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00062556,NCT00071266"
+     }
+    ]
+   },
+   {
+    "efo_term": "body weight gain",
+    "mesh_heading": "Weight Gain",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06175403"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00302744"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04630964"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 73,
+  "earliest": {
+   "nct": "NCT00000482",
+   "start": "1965-04",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1957-07-24",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

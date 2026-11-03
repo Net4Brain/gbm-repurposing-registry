@@ -1,0 +1,686 @@
+{
+ "moiety": "thiotepa",
+ "accessed_utc": "2026-11-03T18:25:52+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA011683",
+    "date": "1959-03-09",
+    "brand": [
+     "THIOTEPA"
+    ]
+   },
+   {
+    "application": "NDA020058",
+    "date": "1994-12-22",
+    "brand": [
+     "THIOPLEX"
+    ]
+   },
+   {
+    "application": "NDA208264",
+    "date": "2017-01-26",
+    "brand": [
+     "TEPADINA AND SODIUM CHLORIDE",
+     "TEPADINA",
+     "TEPADINA AND SODIUM CHLORIDE"
+    ]
+   },
+   {
+    "application": "NDA216984",
+    "date": "2024-06-25",
+    "brand": [
+     "TEPYLUTE",
+     "TEPYLUTE"
+    ]
+   }
+  ],
+  "first_approval_date": "1959-03-09",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE TEPADINA (thiotepa) is an alkylating drug indicated: To reduce the risk of graft rejection when used in conjunction with high-dose busulfan and cyclophosphamide as a preparative regimen for allogeneic hematopoietic progenitor (stem) cell transplantation (HSCT) for pediatric patients with class 3 beta-thalassemia. (1.1 , 14) For treatment of adenocarcinoma of the breast or ovary. (1.2) For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. (1.3) For treatment of superficial papillary carcinoma of the urinary bladder. (1.4) 1.1 Class 3 Beta-Thalassemia TEPADINA is indicated to reduce the risk of graft rejection when used in conjunction with high-dose busulfan and cyclophosphamide as a preparative regimen for allogeneic hematopoietic progenitor (stem) cell transplantation (HSCT) for pediatric patients with class 3 beta-thalassemia [see Clinical Studies ( 14 ) ] . 1.2 Adenocarcinoma of the Breast or Ovary TEPADINA is indicated for treatment of adenocarcinoma of the breast or ovary. 1.3 Malignant Effusions TEPADINA is indicated for controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. 1.4 Superficial Papillary Carcinoma of the Urinary Bladder TEPADINA is indicated for treatment of superficial papillary carcinoma of the urinary bladder. 1.1 Class 3 Beta-Thalassemia TEPADINA is indicated to reduce the risk of graft rejection when used in conjunction with high-dose busulfan and cyclophosphamide as a preparative regimen for allogeneic hematopoietic progenitor (stem) cell transplantation (HSCT) for pediatric patients with class 3 beta-thalassemia [see Clinical Studies ( 14 ) ] . 1.2 Adenocarcinoma of the Breast or Ovary TEPADINA is indicated for treatment of adenocarcinoma of the breast or ovary. 1.3 Malignant Effusions TEPADINA is indicated for controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. 1.4 Superficial Papillary Carcinoma of the Urinary Bladder TEPADINA is indicated for treatment of superficial papillary carcinoma of the urinary bladder.",
+   "1 INDICATIONS AND USAGE Thiotepa for Injection is an alkylating drug indicated: For treatment of adenocarcinoma of the breast or ovary. ( 1.2 ) For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. ( 1.3 ) For treatment of superficial papillary carcinoma of the urinary bladder. ( 1.4 ) 1.2 Adenocarcinoma of the Breast or Ovary Thiotepa for Injection is indicated for treatment of adenocarcinoma of the breast or ovary. 1.3 Malignant Effusions Thiotepa for Injection is indicated for controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. 1.4 Superficial Papillary Carcinoma of the Urinary Bladder Thiotepa for Injection is indicated for treatment of superficial papillary carcinoma of the urinary bladder. Pediatric use information is approved for Adienne SA\u2019s TEPADINA (thiotepa) for injection. However, due to Adienne SA\u2019s marketing exclusivity rights, the drug product is not labeled with that information.",
+   "1 INDICATIONS AND USAGE Thiotepa for injection is an alkylating drug indicated: \u2022 For treatment of adenocarcinoma of the breast or ovary. ( 1.2 ) \u2022 For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. ( 1.3 ) \u2022 For treatment of superficial papillary carcinoma of the urinary bladder. ( 1.4 ) 1.2 Adenocarcinoma of the Breast or Ovary Thiotepa for injection is indicated for treatment of adenocarcinoma of the breast or ovary. 1.3 Malignant Effusions Thiotepa for injection is indicated for controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. 1.4 Superficial Papillary Carcinoma of the Urinary Bladder Thiotepa for injection is indicated for treatment of superficial papillary carcinoma of the urinary bladder. Pediatric use information is approved for Adienne SA' s TEPADINA (thiotepa) for Injection. However, due to Adienne SA's marketing exclusivity rights, the drug product is not labeled with that information.",
+   "INDICATIONS AND USAGE Thiotepa for Injection has been tried with varying results in the palliation of a wide variety of neoplastic diseases. However, the most consistent results have been seen in the following tumors: Adenocarcinoma of the breast. Adenocarcinoma of the ovary. For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. For the treatment of superficial papillary carcinoma of the urinary bladder. While now largely superseded by other treatments, Thiotepa for Injection has been effective against other lymphomas, such as lymphosarcoma and Hodgkin's disease.",
+   "INDICATIONS AND USAGE Thiotepa for Injection, USP has been tried with varying results in the palliation of a wide variety of neoplastic diseases. However, the most consistent results have been seen in the following tumors: 1. Adenocarcinoma of the breast. 2. Adenocarcinoma of the ovary. 3. For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities. 4. For the treatment of superficial papillary carcinoma of the urinary bladder. While now largely superseded by other treatments, thiotepa has been effective against other lymphomas, such as lymphosarcoma and Hodgkin\u2019s disease."
+  ],
+  "query": "products.active_ingredients.name:\"thiotepa\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Tepadina",
+    "status": "Authorised",
+    "authorisation_date": "2010-03-15",
+    "atc": "L01AC01",
+    "therapeutic_area": "Hematopoietic Stem Cell Transplantation",
+    "indication": "TEPADINA is indicated, in combination with other chemotherapy medicinal products:- with or without total body irradiation (TBI), as conditioning treatment prior to allogeneic or autologous haematopoietic progenitor cell transplantation (HPCT) in haematological diseases in adult and paediatric patients;- when high dose chemotherapy with HPCT support is appropriate for the treatment of solid tumours in adult and paediatric patients.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tepadina"
+   }
+  ],
+  "first_authorisation_date": "2010-03-15"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL671",
+  "pref_name": "THIOTEPA",
+  "max_phase": 4.0,
+  "atc": [
+   "L01AC01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00978471"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002718,NCT00003816,NCT00005092,NCT00028730,NCT00475384"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00475384,NCT00961142,NCT01025778,NCT01423500,NCT01423747,NCT01949129,NCT05565105"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00475384,NCT00961142,NCT01025778,NCT05565105,NCT06158828"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00429182"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system cancer",
+    "mesh_heading": "Glioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00588523"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02707393"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00692939"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02329080"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002471,NCT00002534,NCT00002704,NCT00002718,NCT00003816,NCT00005092,NCT00028730,NCT00038857,NCT00462787,NCT00801931,NCT00857389,NCT01010217,NCT01807611,NCT02333838,NCT03342196"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002471,NCT00002718,NCT00003816,NCT00005092,NCT00027937,NCT00028730,NCT00038857,NCT00045539,NCT00238433,NCT00647049,NCT00801931,NCT00857389,NCT01511562,NCT01786018,NCT01807611,NCT02049580,NCT02724904,NCT03346096"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01AC01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003194,NCT00003816,NCT00003899,NCT00653068,NCT03980769"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005434"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroblastoma",
+    "mesh_heading": "Neuroblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003141,NCT00003846,NCT00003926,NCT00017368,NCT00040872,NCT00567567,NCT00790413,NCT00793845,NCT00801931,NCT02605421,NCT03061656,NCT03126916,NCT03165292,NCT03786783,NCT04221035,NCT05303727,NCT06172296"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003081,NCT00003141,NCT00003926,NCT00357396"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003146,NCT00005092"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02199041"
+     }
+    ]
+   },
+   {
+    "efo_term": "medulloblastoma",
+    "mesh_heading": "Medulloblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00180791,NCT00336024,NCT00749723,NCT02025881"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003141,NCT00078988,NCT00528437"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia (phenotype)",
+    "mesh_heading": "Anemia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00801931"
+     }
+    ]
+   },
+   {
+    "efo_term": "primitive neuroectodermal tumor",
+    "mesh_heading": "Neuroectodermal Tumors, Primitive",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00336024,NCT00936156"
+     }
+    ]
+   },
+   {
+    "efo_term": "male breast carcinoma",
+    "mesh_heading": "Breast Neoplasms, Male",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003199"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003199"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02784015"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloproliferative disorder",
+    "mesh_heading": "Myeloproliferative Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002718,NCT00028730"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematologic disease",
+    "mesh_heading": "Hematologic Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03615144,NCT04859946"
+     }
+    ]
+   },
+   {
+    "efo_term": "ganglioneuroblastoma",
+    "mesh_heading": "Ganglioneuroblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03126916,NCT03786783,NCT06172296"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myeloproliferative disorder",
+    "mesh_heading": "Myeloproliferative Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003816"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002619,NCT00003101,NCT00003141,NCT00003846,NCT00003926,NCT00008008,NCT00025077,NCT00025324,NCT00025558,NCT00078988,NCT00313521,NCT00392886"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneum cancer",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003064"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003064"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney cancer",
+    "mesh_heading": "Kidney Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003926"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver cancer",
+    "mesh_heading": "Liver Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003926"
+     }
+    ]
+   },
+   {
+    "efo_term": "childhood germ cell tumor",
+    "mesh_heading": "Neoplasms, Germ Cell and Embryonal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003926"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002616,NCT00002680,NCT00002755,NCT00002772,NCT00002780,NCT00002836,NCT00002870,NCT00003068,NCT00003086,NCT00003680,NCT00003877,NCT00003972,NCT00004092,NCT00004172,NCT00004174,NCT00004900,NCT00004906,NCT00005798,NCT00006123,NCT00008203,NCT00012311,NCT00020722,NCT00182793,NCT00429182,NCT00448266,NCT01057069,NCT01646034"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002977,NCT00003064,NCT00003080,NCT00003297,NCT00003926"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00382109,NCT01810926"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroepithelial neoplasm",
+    "mesh_heading": "Neoplasms, Neuroepithelial",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02653196"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01814475"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "6dc898dc-5949-4aa4-83f8-4bd20c29eb93"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "6cd6ae89-c553-4328-9262-4363610a1f19"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6dc898dc-5949-4aa4-83f8-4bd20c29eb93"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "559e353c-2dc0-16ba-e054-00144ff8d46c"
+     }
+    ]
+   },
+   {
+    "efo_term": "retinoblastoma",
+    "mesh_heading": "Retinoblastoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003926,NCT00554788,NCT02870907"
+     }
+    ]
+   },
+   {
+    "efo_term": "chordoma",
+    "mesh_heading": "Chordoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003926"
+     }
+    ]
+   },
+   {
+    "efo_term": "Wiskott-Aldrich syndrome",
+    "mesh_heading": "Wiskott-Aldrich Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00160355"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02757885,NCT03263559,NCT04362293"
+     }
+    ]
+   },
+   {
+    "efo_term": "severe combined immunodeficiency",
+    "mesh_heading": "Severe Combined Immunodeficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03597594"
+     }
+    ]
+   },
+   {
+    "efo_term": "immune system disease",
+    "mesh_heading": "Immune System Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00801931"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00202917,NCT00824135,NCT01010217"
+     }
+    ]
+   },
+   {
+    "efo_term": null,
+    "mesh_heading": "Hematopoietic Stem Cell Transplantation",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/001046"
+     }
+    ]
+   },
+   {
+    "efo_term": "plasma cell neoplasm",
+    "mesh_heading": "Neoplasms, Plasma Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003146"
+     }
+    ]
+   },
+   {
+    "efo_term": "unspecified peripheral T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06468267"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematopoietic and lymphoid cell neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05579769"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2311221"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 117,
+  "earliest": {
+   "nct": "NCT00002471",
+   "start": "1990-02",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1959-03-09",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,450 @@
+{
+ "moiety": "dostarlimab",
+ "accessed_utc": "2026-11-03T17:37:53+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761174",
+    "date": "2021-04-22",
+    "brand": [
+     "JEMPERLI"
+    ]
+   },
+   {
+    "application": "BLA761223",
+    "date": "2021-08-17",
+    "brand": [
+     "JEMPERLI"
+    ]
+   }
+  ],
+  "first_approval_date": "2021-04-22",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"dostarlimab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Jemperli",
+    "status": "Authorised",
+    "authorisation_date": "2021-04-21",
+    "atc": "L01FF07",
+    "therapeutic_area": "Endometrial Neoplasms",
+    "indication": "Jemperli is indicated in combination with carboplatin and paclitaxel for the first-line treatment of adult patients with primary advanced or recurrent endometrial cancer (EC) and who are candidates for systemic therapy. Jemperli is indicated as monotherapy for the treatment of adult patients with mismatch repair deficient (dMMR)/ microsatellite instability\u2011high (MSI\u2011H) recurrent or advanced EC that has progressed on or following prior treatment with a platinum\u2011containing regimen.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jemperli"
+   }
+  ],
+  "first_authorisation_date": "2021-04-21"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4298124",
+  "pref_name": "DOSTARLIMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FF07"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "cervical carcinoma",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04068753,NCT06238635"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FF07"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02715284,NCT02723955,NCT02817633,NCT03250832,NCT03308942,NCT03739710,NCT03843359,NCT03981796,NCT04446351,NCT04544995,NCT05277051,NCT06322693"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04274023"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04139902"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian neoplasm",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03574779,NCT03602859,NCT03955471,NCT05751629"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04313504"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04926324"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver cancer",
+    "mesh_heading": "Liver Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03680508"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03833479,NCT06238635"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03806049,NCT04679064"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03016338,NCT04774419,NCT05201547,NCT05819892,NCT06385548"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2021/761174s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04701307"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04126200"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04409002"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04581824,NCT04655976,NCT05565378,NCT06405230,NCT06472076"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379,NCT04837209"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hereditary breast and ovarian cancer syndrome",
+    "mesh_heading": "Hereditary Breast and Ovarian Cancer Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04584255"
+     }
+    ]
+   },
+   {
+    "efo_term": "mesothelioma",
+    "mesh_heading": "Mesothelioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03654833"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05239546"
+     }
+    ]
+   },
+   {
+    "efo_term": "gestational trophoblastic neoplasm",
+    "mesh_heading": "Gestational Trophoblastic Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05405192"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05239546"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05784012"
+     }
+    ]
+   },
+   {
+    "efo_term": "colonic neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05855200"
+     }
+    ]
+   },
+   {
+    "efo_term": "Penile Carcinoma",
+    "mesh_heading": "Penile Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05526989"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectal neoplasm",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05723562"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05855811"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrium neoplasm",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005204"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06317311"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma, Clear Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06065462"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06062420,NCT06256588"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04493060"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Programmed cell death protein 1 antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL3307223"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 52,
+  "earliest": {
+   "nct": "NCT01042379",
+   "start": "2010-03-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2021-04-21",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

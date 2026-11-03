@@ -1,0 +1,116 @@
+{
+ "moiety": "trimipramine",
+ "accessed_utc": "2026-11-03T18:33:26+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA016792",
+    "date": "1979-06-12",
+    "brand": [
+     "SURMONTIL",
+     "SURMONTIL",
+     "SURMONTIL"
+    ]
+   }
+  ],
+  "first_approval_date": "1979-06-12",
+  "label_indications": [
+   "INDICATIONS AND USAGE Trimipramine Maleate Capsules are indicated for the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than other depressive states. In studies with neurotic outpatients, the drug appeared to be equivalent to amitriptyline in the less-depressed patients but somewhat less effective than amitriptyline in the more severely depressed patients. In hospitalized depressed patients, trimipramine and imipramine were equally effective in relieving depression.",
+   "INDICATIONS AND USAGE Trimipramine capsules are indicated for the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than other depressive states. In studies with neurotic outpatients, the drug appeared to be equivalent to amitriptyline in the less-depressed patients but somewhat less effective than amitriptyline in the more severely depressed patients. In hospitalized depressed patients, trimipramine and imipramine were equally effective in relieving depression."
+  ],
+  "query": "products.active_ingredients.name:\"trimipramine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL644",
+  "pref_name": "TRIMIPRAMINE",
+  "max_phase": 4.0,
+  "atc": [
+   "N06AA06"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "Dementia",
+    "mesh_heading": "Dementia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N06AA06"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 1,
+  "earliest": {
+   "nct": "NCT02374567",
+   "start": "2015-01",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1979-06-12",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

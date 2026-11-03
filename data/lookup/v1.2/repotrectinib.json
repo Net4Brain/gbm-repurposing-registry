@@ -1,0 +1,153 @@
+{
+ "moiety": "repotrectinib",
+ "accessed_utc": "2026-11-03T18:13:47+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA218213",
+    "date": "2023-11-15",
+    "brand": [
+     "AUGTYRO",
+     "AUGTYRO"
+    ]
+   }
+  ],
+  "first_approval_date": "2023-11-15",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE AUGTYRO is a kinase inhibitor indicated for the treatment of \u2022 adult patients with locally advanced or metastatic ROS1- positive non-small cell lung cancer (NSCLC). ( 1.1 ) \u2022 adult and pediatric patients 12 years of age and older with solid tumors that: \u2022 have a neurotrophic tyrosine receptor kinase ( NTRK ) gene fusion and \u2022 are locally advanced or metastatic or where surgical resection is likely to result in severe morbidity. \u2022 have progressed following treatment or have no satisfactory alternative therapy. This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in the confirmatory trials. ( 1.2 ) 1.1 ROS1 -Positive Non-Small Cell Lung Cancer AUGTYRO is indicated for the treatment of adult patients with locally advanced or metastatic ROS1 -positive non-small cell lung cancer (NSCLC) [see Dosage and Administration (2.1) ] . 1.2 NTRK Gene Fusion-Positive Solid Tumors AUGTYRO is indicated for the treatment of adult and pediatric patients 12 years of age and older with solid tumors that: \u2022 have a neurotrophic tyrosine receptor kinase ( NTRK ) gene fusion [see Dosage and Administration ( 2.1 )] , \u2022 are locally advanced or metastatic or where surgical resection is likely to result in severe morbidity, and \u2022 have progressed following treatment or have no satisfactory alternative therapy. This indication is approved under accelerated approval based on overall response rate and duration of response [see Clinical Studies ( 14.2 )] . Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s)."
+  ],
+  "query": "products.active_ingredients.name:\"repotrectinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Augtyro",
+    "status": "Authorised",
+    "authorisation_date": "2025-01-13",
+    "atc": "L01EX28",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung;Cancer",
+    "indication": "Augtyro as monotherapy is indicated for the treatment of adult patients with ROS1-positive advanced non-small cell lung cancer (NSCLC). Augtyro as monotherapy is indicated for the treatment of adult and paediatric patients 12 years of age and older with advanced solid tumours expressing a NTRK&nbsp;gene fusion, and  who have received a prior NTRK inhibitor, or&nbsp; have not received a prior NTRK inhibitor and treatment options not targeting NTRK provide limited clinical benefit, or have been exhausted (see sections 4.4 and 5.1)",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/augtyro"
+   }
+  ],
+  "first_authorisation_date": "2025-01-13"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4298138",
+  "pref_name": "REPOTRECTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX28"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04772235,NCT06140836"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX28"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03093116,NCT05004116,NCT05071183,NCT05828277,NCT05828303"
+     },
+     {
+      "type": "USAN",
+      "id": "REPOTRECTINIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03093116,NCT05004116,NCT05828277"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06352528"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Nerve growth factor receptor Trk-A inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2815"
+   },
+   {
+    "mechanism": "Neurotrophic tyrosine kinase receptor type 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4898"
+   },
+   {
+    "mechanism": "Proto-oncogene tyrosine-protein kinase ROS inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5568"
+   },
+   {
+    "mechanism": "NT-3 growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5608"
+   },
+   {
+    "mechanism": "CD74-ROS1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4680046"
+   },
+   {
+    "mechanism": "ROS1-SDC4 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5303568"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 7,
+  "earliest": {
+   "nct": "NCT03093116",
+   "start": "2017-03-07",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2023-11-15",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

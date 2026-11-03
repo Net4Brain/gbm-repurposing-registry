@@ -1,0 +1,504 @@
+{
+ "moiety": "bumetanide",
+ "accessed_utc": "2026-11-03T17:25:52+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA018225",
+    "date": "1983-02-28",
+    "brand": [
+     "BUMEX",
+     "BUMEX",
+     "BUMEX"
+    ]
+   },
+   {
+    "application": "NDA018226",
+    "date": "1983-02-28",
+    "brand": [
+     "BUMEX"
+    ]
+   },
+   {
+    "application": "NDA219500",
+    "date": "2025-09-12",
+    "brand": [
+     "ENBUMYST"
+    ]
+   }
+  ],
+  "first_approval_date": "1983-02-28",
+  "label_indications": [
+   "INDICATIONS AND USAGE Bumetanide Injection is indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome. Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route. Successful treatment with bumetanide following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity.",
+   "INDICATIONS AND USAGE Bumetanide tablets are indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome. Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route. Successful treatment with bumetanide tablets following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity.",
+   "INDICATIONS AND USAGE Bumetanide tablets, USP are indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome. Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route. Successful treatment with bumetanide tablets, USP following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity."
+  ],
+  "query": "products.active_ingredients.name:\"bumetanide\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1072",
+  "pref_name": "BUMETANIDE",
+  "max_phase": 4.0,
+  "atc": [
+   "C03CA02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "congestive heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06218199"
+     },
+     {
+      "type": "DailyMed",
+      "id": "00b71dc2-1851-4670-a48e-b4eb89d48d0b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "04236576-01c4-43a6-ac8a-60e23b5dc692"
+     },
+     {
+      "type": "DailyMed",
+      "id": "05cb961d-ac33-4bcf-b04e-411e496c43c1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0fb6d547-9966-4352-8974-d02ea58e6445"
+     },
+     {
+      "type": "DailyMed",
+      "id": "168fe885-a19e-4007-a258-77b50b22bfb4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c4015ba-567a-403c-91f6-fad7749ea2a2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "509dba6d-7e53-02ed-8d86-fe83a2126250"
+     },
+     {
+      "type": "DailyMed",
+      "id": "681b5e9d-e2c7-4f29-aaad-e06d4a528c11"
+     },
+     {
+      "type": "DailyMed",
+      "id": "925b309a-8a0b-4bcd-bdf4-1ec42780ecc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9d1b82df-9e2f-4ac4-99ed-f109228dac52"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a3594e64-c819-4b01-a7b2-ddacbda19ada"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b5a68154-8003-4b80-81e2-e926524fb72c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bf9ff69a-3436-41c8-b6a2-749f041daf4b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c2e1f993-434a-4f09-acf0-a3849957d5c5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c35aea66-17c7-47f5-8105-c33a53a26d5e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c386547a-e741-4dee-84f4-f520ea895291"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cf01d206-f19e-4ab4-ac76-2a1297dced72"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d788f9e9-105c-497d-8004-ac8ce80aee64"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d91945d7-f626-4ae2-b252-c88a38fc9ca1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e71daa68-2744-47da-64b4-0a725c2e8457"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f5e9dc4f-3b0b-4b2e-ace4-abe1d1989768"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc35f3c6-a8c4-4cb7-8188-8269cc24cad8"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2010/018225s024lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "00b71dc2-1851-4670-a48e-b4eb89d48d0b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "04236576-01c4-43a6-ac8a-60e23b5dc692"
+     },
+     {
+      "type": "DailyMed",
+      "id": "05cb961d-ac33-4bcf-b04e-411e496c43c1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0fb6d547-9966-4352-8974-d02ea58e6445"
+     },
+     {
+      "type": "DailyMed",
+      "id": "168fe885-a19e-4007-a258-77b50b22bfb4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c4015ba-567a-403c-91f6-fad7749ea2a2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "509dba6d-7e53-02ed-8d86-fe83a2126250"
+     },
+     {
+      "type": "DailyMed",
+      "id": "681b5e9d-e2c7-4f29-aaad-e06d4a528c11"
+     },
+     {
+      "type": "DailyMed",
+      "id": "925b309a-8a0b-4bcd-bdf4-1ec42780ecc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9d1b82df-9e2f-4ac4-99ed-f109228dac52"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a3594e64-c819-4b01-a7b2-ddacbda19ada"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b5a68154-8003-4b80-81e2-e926524fb72c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bf9ff69a-3436-41c8-b6a2-749f041daf4b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c2e1f993-434a-4f09-acf0-a3849957d5c5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c35aea66-17c7-47f5-8105-c33a53a26d5e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c386547a-e741-4dee-84f4-f520ea895291"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cf01d206-f19e-4ab4-ac76-2a1297dced72"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d788f9e9-105c-497d-8004-ac8ce80aee64"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d91945d7-f626-4ae2-b252-c88a38fc9ca1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e71daa68-2744-47da-64b4-0a725c2e8457"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f5e9dc4f-3b0b-4b2e-ace4-abe1d1989768"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc35f3c6-a8c4-4cb7-8188-8269cc24cad8"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2010/018225s024lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "nephrotic syndrome",
+    "mesh_heading": "Nephrotic Syndrome",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "00b71dc2-1851-4670-a48e-b4eb89d48d0b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "04236576-01c4-43a6-ac8a-60e23b5dc692"
+     },
+     {
+      "type": "DailyMed",
+      "id": "05cb961d-ac33-4bcf-b04e-411e496c43c1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0fb6d547-9966-4352-8974-d02ea58e6445"
+     },
+     {
+      "type": "DailyMed",
+      "id": "168fe885-a19e-4007-a258-77b50b22bfb4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "1c4015ba-567a-403c-91f6-fad7749ea2a2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "509dba6d-7e53-02ed-8d86-fe83a2126250"
+     },
+     {
+      "type": "DailyMed",
+      "id": "681b5e9d-e2c7-4f29-aaad-e06d4a528c11"
+     },
+     {
+      "type": "DailyMed",
+      "id": "925b309a-8a0b-4bcd-bdf4-1ec42780ecc2"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9d1b82df-9e2f-4ac4-99ed-f109228dac52"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a3594e64-c819-4b01-a7b2-ddacbda19ada"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b5a68154-8003-4b80-81e2-e926524fb72c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bf9ff69a-3436-41c8-b6a2-749f041daf4b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c2e1f993-434a-4f09-acf0-a3849957d5c5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c35aea66-17c7-47f5-8105-c33a53a26d5e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c386547a-e741-4dee-84f4-f520ea895291"
+     },
+     {
+      "type": "DailyMed",
+      "id": "cf01d206-f19e-4ab4-ac76-2a1297dced72"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d788f9e9-105c-497d-8004-ac8ce80aee64"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d91945d7-f626-4ae2-b252-c88a38fc9ca1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e71daa68-2744-47da-64b4-0a725c2e8457"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f5e9dc4f-3b0b-4b2e-ace4-abe1d1989768"
+     },
+     {
+      "type": "DailyMed",
+      "id": "fc35f3c6-a8c4-4cb7-8188-8269cc24cad8"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2010/018225s024lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00372762,NCT02546583"
+     }
+    ]
+   },
+   {
+    "efo_term": "Seizure",
+    "mesh_heading": "Seizures",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00830531,NCT01434225"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "C03CA02"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02947880,NCT04766177"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03107416"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03156153,NCT03715153"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03923933"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00930865"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypokalemic periodic paralysis",
+    "mesh_heading": "Hypokalemic Periodic Paralysis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02582476"
+     }
+    ]
+   },
+   {
+    "efo_term": "Down syndrome",
+    "mesh_heading": "Down Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06465823"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06052163"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Sodium-(potassium)-chloride cotransporter 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1874"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 11,
+  "earliest": {
+   "nct": "NCT00372762",
+   "start": "2011-01",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1983-02-28",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

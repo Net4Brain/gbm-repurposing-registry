@@ -1,0 +1,620 @@
+{
+ "moiety": "curcumin",
+ "accessed_utc": "2026-11-03T17:32:32+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [
+   "Indications: For temporary relief of symptoms associated with a low or imbalance immune system.*"
+  ],
+  "query": "products.active_ingredients.name:\"curcumin\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL140",
+  "pref_name": "CURCUMIN",
+  "max_phase": 3.0,
+  "atc": [],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02100423"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00247026"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00889161,NCT02255370,NCT04713631"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02944578"
+     }
+    ]
+   },
+   {
+    "efo_term": "periodontitis",
+    "mesh_heading": "Periodontitis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03790605,NCT04355416"
+     }
+    ]
+   },
+   {
+    "efo_term": "ulcerative colitis",
+    "mesh_heading": "Colitis, Ulcerative",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00889161,NCT01320436,NCT02277223"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01269203"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00192842,NCT00486460"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cutaneous T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Cutaneous",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00969085"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01048983"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00365209,NCT04837664"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02369549"
+     }
+    ]
+   },
+   {
+    "efo_term": "sclerosing cholangitis",
+    "mesh_heading": "Cholangitis, Sclerosing",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02978339"
+     }
+    ]
+   },
+   {
+    "efo_term": "colonic neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00295035"
+     }
+    ]
+   },
+   {
+    "efo_term": "persian gulf syndrome",
+    "mesh_heading": "Persian Gulf Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02848417"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral lichen planus",
+    "mesh_heading": "Lichen Planus, Oral",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00226174,NCT00525421"
+     }
+    ]
+   },
+   {
+    "efo_term": "atrophic gastritis",
+    "mesh_heading": "Gastritis, Atrophic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02782949"
+     }
+    ]
+   },
+   {
+    "efo_term": "dysplasia of cervix",
+    "mesh_heading": "Uterine Cervical Dysplasia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01035580"
+     }
+    ]
+   },
+   {
+    "efo_term": "intracranial subdural hematoma",
+    "mesh_heading": "Hematoma, Subdural, Intracranial",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03845322"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral submucous fibrosis",
+    "mesh_heading": "Oral Submucous Fibrosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02645656,NCT03511261"
+     }
+    ]
+   },
+   {
+    "efo_term": "mucositis",
+    "mesh_heading": "Mucositis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02300727"
+     }
+    ]
+   },
+   {
+    "efo_term": "Proteinuria",
+    "mesh_heading": "Proteinuria",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01831193,NCT03019848"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cognitive impairment",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01383161,NCT01811381,NCT02104752"
+     }
+    ]
+   },
+   {
+    "efo_term": "Familial adenomatous polyposis",
+    "mesh_heading": "Adenomatous Polyposis Coli",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00118989,NCT00248053,NCT00641147"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical adenocarcinoma",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04266275"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03192059,NCT04294836,NCT05947513"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00852332,NCT01042938,NCT01740323,NCT03072992,NCT03980509"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02064673,NCT02095717,NCT02724618,NCT03769766,NCT04403568"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03192059"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01294072"
+     }
+    ]
+   },
+   {
+    "efo_term": "radiodermatitis",
+    "mesh_heading": "Radiodermatitis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01246973"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectal carcinoma",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00745134"
+     }
+    ]
+   },
+   {
+    "efo_term": "age-related macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04590196,NCT05062486"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral mucositis",
+    "mesh_heading": "Stomatitis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04870060,NCT04896164"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05045443"
+     }
+    ]
+   },
+   {
+    "efo_term": "Oral ulcer",
+    "mesh_heading": "Oral Ulcer",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05147376"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00099710,NCT00164749"
+     }
+    ]
+   },
+   {
+    "efo_term": "asthma",
+    "mesh_heading": "Asthma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04353310"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02529969,NCT02529982"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01514370"
+     }
+    ]
+   },
+   {
+    "efo_term": "Leber hereditary optic neuropathy",
+    "mesh_heading": "Optic Atrophy, Hereditary, Leber",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00528151"
+     }
+    ]
+   },
+   {
+    "efo_term": "cognition",
+    "mesh_heading": "Cognition",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03085680"
+     }
+    ]
+   },
+   {
+    "efo_term": "lupus nephritis",
+    "mesh_heading": "Lupus Nephritis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05714670"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01928043"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01201694,NCT01608139,NCT02138955"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03953261,NCT05430087"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical intraepithelial neoplasia",
+    "mesh_heading": "Uterine Cervical Dysplasia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02554344"
+     }
+    ]
+   },
+   {
+    "efo_term": "peripheral neuropathy",
+    "mesh_heading": "Peripheral Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05966441"
+     }
+    ]
+   },
+   {
+    "efo_term": "anogenital venereal wart",
+    "mesh_heading": "Condylomata Acuminata",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06281353"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder, Major",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04103892,NCT06340958"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypogonadism",
+    "mesh_heading": "Hypogonadism",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06312761"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00027495,NCT00973869,NCT01333917,NCT01859858,NCT02439385"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 76,
+  "earliest": {
+   "nct": "NCT00226174",
+   "start": "2003-02",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "moiety": "vismodegib",
+ "accessed_utc": "2026-11-03T18:34:43+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA203388",
+    "date": "2012-01-30",
+    "brand": [
+     "ERIVEDGE"
+    ]
+   }
+  ],
+  "first_approval_date": "2012-01-30",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ERIVEDGE is indicated for the treatment of adults with metastatic basal cell carcinoma, or with locally advanced basal cell carcinoma that has recurred following surgery or who are not candidates for surgery and who are not candidates for radiation. ERIVEDGE \u00ae (vismodegib) is a hedgehog pathway inhibitor indicated for the treatment of adults with metastatic basal cell carcinoma, or with locally advanced basal cell carcinoma that has recurred following surgery or who are not candidates for surgery and who are not candidates for radiation. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"vismodegib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Erivedge",
+    "status": "Authorised",
+    "authorisation_date": "2013-07-12",
+    "atc": "L01XX43",
+    "therapeutic_area": "Carcinoma, Basal Cell",
+    "indication": "Erivedge is indicated for the treatment of adult patients with:- symptomatic metastatic basal cell carcinoma- locally advanced basal cell carcinoma inappropriate for surgery or radiotherapy",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/erivedge"
+   }
+  ],
+  "first_authorisation_date": "2013-07-12"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL473417",
+  "pref_name": "VISMODEGIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XJ01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00833417,NCT01201915,NCT01367665,NCT01543581,NCT01700049,NCT01815840,NCT01835626,NCT01898598,NCT02067104,NCT02436408,NCT02639117,NCT02667574,NCT02956889,NCT03035188,NCT05561634,NCT05651828,NCT06344052"
+     },
+     {
+      "type": "DailyMed",
+      "id": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002602"
+     }
+    ]
+   },
+   {
+    "efo_term": "medulloblastoma",
+    "mesh_heading": "Medulloblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00822458,NCT01239316,NCT01878617"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XJ01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00607724,NCT02925234,NCT04341181,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "idiopathic pulmonary fibrosis",
+    "mesh_heading": "Idiopathic Pulmonary Fibrosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02168530,NCT02648048"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01330173,NCT06357988"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00980343"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01880437,NCT02073838"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03158389"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01163084"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00887159"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01195415"
+     }
+    ]
+   },
+   {
+    "efo_term": "stomach neoplasm",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03052478"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02694224"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00739661"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01163084,NCT02115828"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02593760"
+     }
+    ]
+   },
+   {
+    "efo_term": "skin basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01631331,NCT02690948"
+     }
+    ]
+   },
+   {
+    "efo_term": "mesenchymal chondrosarcoma",
+    "mesh_heading": "Chondrosarcoma, Mesenchymal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01267955"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell chondrosarcoma",
+    "mesh_heading": "Chondrosarcoma, Clear Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01267955"
+     }
+    ]
+   },
+   {
+    "efo_term": "nevoid basal cell carcinoma syndrome",
+    "mesh_heading": "Basal Cell Nevus Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00957229,NCT01556009,NCT03767439"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01071564"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00968981,NCT01174264,NCT01209143,NCT01546519,NCT02925234,NCT03498521,NCT04341181,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic graft versus host disease",
+    "mesh_heading": "Bronchiolitis Obliterans Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02337517"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01071564"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01774253"
+     }
+    ]
+   },
+   {
+    "efo_term": "adult medulloblastoma",
+    "mesh_heading": "Medulloblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00939484"
+     }
+    ]
+   },
+   {
+    "efo_term": "skin cancer",
+    "mesh_heading": "Skin Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01631331"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01096732"
+     }
+    ]
+   },
+   {
+    "efo_term": "adult glioblastoma",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00980343"
+     }
+    ]
+   },
+   {
+    "efo_term": "intracranial meningioma",
+    "mesh_heading": "Meningioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02523014"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Smoothened homolog inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5971"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 51,
+  "earliest": {
+   "nct": "NCT00739661",
+   "start": "2008-12",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2012-01-30",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

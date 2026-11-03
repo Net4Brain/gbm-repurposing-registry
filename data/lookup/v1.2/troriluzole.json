@@ -1,0 +1,104 @@
+{
+ "moiety": "troriluzole",
+ "accessed_utc": "2026-11-03T18:33:28+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"troriluzole\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297586",
+  "pref_name": "TRORILUZOLE",
+  "max_phase": 3.0,
+  "atc": [
+   "N07XX23"
+  ],
+  "molecule_type": "Protein",
+  "indications": [
+   {
+    "efo_term": "obsessive-compulsive disorder",
+    "mesh_heading": "Obsessive-Compulsive Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03299166,NCT04641143,NCT04693351,NCT04708834"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04899921"
+     }
+    ]
+   },
+   {
+    "efo_term": "generalized anxiety disorder",
+    "mesh_heading": "Anxiety Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03829241"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03970447"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03605667"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 7,
+  "earliest": {
+   "nct": "NCT03299166",
+   "start": "2017-12-19",
+   "phases": [
+    "PHASE2",
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

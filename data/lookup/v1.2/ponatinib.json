@@ -1,0 +1,224 @@
+{
+ "moiety": "ponatinib",
+ "accessed_utc": "2026-11-03T18:10:55+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA203469",
+    "date": "2012-12-14",
+    "brand": [
+     "ICLUSIG",
+     "ICLUSIG",
+     "ICLUSIG"
+    ]
+   }
+  ],
+  "first_approval_date": "2012-12-14",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ICLUSIG \u00ae is indicated for the treatment of adult patients with: Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia (Ph+ ALL) Newly diagnosed Ph+ ALL in combination with chemotherapy. This indication is approved under accelerated approval based on minimal residual disease (MRD)-negative complete remission (CR) at the end of induction [see Clinical Studies (14) ] . Continued approval for this indication may be contingent upon verification of clinical benefit in a confirmatory trial(s). As monotherapy in Ph+ ALL for whom no other kinase inhibitors are indicated or T315I-positive Ph+ ALL. Chronic Myeloid Leukemia (CML) Chronic phase (CP) CML with resistance or intolerance to at least two prior kinase inhibitors. Accelerated phase (AP) or blast phase (BP) CML for whom no other kinase inhibitors are indicated. T315I-positive CML (chronic phase, accelerated phase, or blast phase). ICLUSIG is a kinase inhibitor indicated for the treatment of adult patients with: Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia (Ph+ ALL) Newly diagnosed Ph+ ALL, in combination with chemotherapy. This indication is approved under accelerated approval based on minimal residual disease (MRD)-negative complete remission (CR) at the end of induction. Continued approval for this indication may be contingent upon verification of clinical benefit in a confirmatory trial(s). ( 1 ) As monotherapy in Ph+ ALL for whom no other kinase inhibitors are indicated or T315I-positive Ph+ ALL. ( 1 ) Chronic Myeloid Leukemia (CML) Chronic phase (CP) CML with resistance or intolerance to at least two prior kinase inhibitors. ( 1 ) Accelerated phase (AP) or blast phase (BP) CML for whom no other kinase inhibitors are indicated. ( 1 ) T315I-positive CML (chronic phase, accelerated phase, or blast phase). ( 1 ) Limitations of Use : ICLUSIG is not indicated and is not recommended for the treatment of patients with newly diagnosed CP-CML. ( 5.7 ) Limitations of Use : ICLUSIG is not indicated and is not recommended for the treatment of patients with newly diagnosed CP-CML [see Warnings and Precautions (5.7) ] ."
+  ],
+  "query": "products.active_ingredients.name:\"ponatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Iclusig",
+    "status": "Authorised",
+    "authorisation_date": "2013-07-01",
+    "atc": "L01EA05",
+    "therapeutic_area": "Leukemia, Myeloid;Leukemia, Lymphoid",
+    "indication": "Iclusig is indicated as monotherapy in adult patients with  chronic phase, accelerated phase, or blast phase chronic myeloid leukaemia (CML) who are resistant to dasatinib or nilotinib; who are intolerant to dasatinib or nilotinib and for whom subsequent treatment with imatinib is not clinically appropriate; or who have the T315I mutation Philadelphia chromosome positive acute lymphoblastic leukaemia (Ph+ ALL) who are resistant to dasatinib; who are intolerant to dasatinib and for whom subsequent treatment with imatinib is not clinically appropriate; or who have the T315I mutation.  Iclusig is indicated in combination with reduced-intensity chemotherapy in adult patients with newly diagnosed Ph+&nbsp;ALL (see section 5.1).&nbsp; Iclusig is indicated as monotherapy in paediatric patients 6 years of age or older with  chronic phase chronic myeloid leukaemia (CP-CML) who are resistant to dasatinib or nilotinib; who are intolerant to dasatinib or nilotinib and for whom subsequent treatment with imatinib is not clinically appropriate; or who have the T315I mutation.  See sections 4.2 for the assessment of cardiovascular status prior to start of therapy and 4.4 for situations where an alternative treatment may be considered.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/iclusig"
+   }
+  ],
+  "first_authorisation_date": "2013-07-01"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1171837",
+  "pref_name": "PONATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EA05"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EA05"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01424982,NCT01641107,NCT02776605,NCT03589326,NCT04475731,NCT04554459,NCT04688983,NCT04722848,NCT04747912,NCT04845035,NCT05268003,NCT05306301,NCT06061094"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00660920,NCT01650805,NCT02398825,NCT02467270,NCT02627677,NCT03807479,NCT04043676,NCT04070443,NCT04160546,NCT04709731"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01570868,NCT02829840"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01761747,NCT01813734,NCT03704688"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02478164"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid neoplasm",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01838642"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02829840"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02829840,NCT03690115,NCT04188405"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01935336"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma of Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01935336"
+     }
+    ]
+   },
+   {
+    "efo_term": "Blast Phase Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+    "mesh_heading": "Blast Crisis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01424982"
+     }
+    ]
+   },
+   {
+    "efo_term": "medullary thyroid gland carcinoma",
+    "mesh_heading": "Carcinoma, Medullary",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03838692"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastrointestinal stromal tumor",
+    "mesh_heading": "Gastrointestinal Stromal Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01874665,NCT03171389"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 35,
+  "earliest": {
+   "nct": "NCT01424982",
+   "start": "2011-10-05",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2012-12-14",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

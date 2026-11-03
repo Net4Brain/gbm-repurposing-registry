@@ -1,0 +1,87 @@
+{
+ "moiety": "meclofenamate",
+ "accessed_utc": "2026-11-03T18:37:47+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA018006",
+    "date": "1980-06-25",
+    "brand": [
+     "MECLOMEN",
+     "MECLOMEN"
+    ]
+   }
+  ],
+  "first_approval_date": "1980-06-25",
+  "label_indications": [
+   "INDICATIONS AND USAGE Carefully consider the potential benefits and risks of meclofenamate sodium capsules and other treatment options before deciding to use meclofenamate sodium capsules. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). Meclofenamate sodium capsules are indicated: \u2022 For reduction of fever in adults \u2022 For relief of mild to moderate pain in adults \u2022 For relief of signs and symptoms of juvenile arthritis. \u2022 For relief of the signs and symptoms of rheumatoid arthritis \u2022 For relief of the signs and symptoms of osteoarthritis. \u2022 For treatment of primary dysmenorrhea. \u2022 For acute or long-term use in the relief of signs and symptoms of the following: 1. Ankylosing spondylitis 2. Acute painful shoulder (Acute subacromial bursitis/supraspinatus tendinitis) 3. Acute gouty arthritis Meclofenamate sodium capsules are also indicated for the treatment of idiopathic heavy menstrual blood loss (see CLINICAL PHARMACOLOGY and PRECAUTIONS ). As with all nonsteroidal anti-inflammatory drugs, selection of meclofenamate sodium capsules require a careful assessment of the benefit/risk ratio (see WARNINGS , PRECAUTIONS and ADVERSE REACTIONS ). Meclofenamate sodium capsules are not recommended in children because adequate studies to demonstrate safety and efficacy have not been carried out."
+  ],
+  "query": "products.active_ingredients.name:\"meclofenamate\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL509",
+  "pref_name": "MECLOFENAMIC ACID",
+  "max_phase": 4.0,
+  "atc": [
+   "M01AG04",
+   "M02AA18"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "rheumatic disease",
+    "mesh_heading": "Rheumatic Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "M01AG04"
+     }
+    ]
+   },
+   {
+    "efo_term": "Arthralgia",
+    "mesh_heading": "Arthralgia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "M02AA18"
+     }
+    ]
+   },
+   {
+    "efo_term": "Myalgia",
+    "mesh_heading": "Myalgia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "M02AA18"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 0,
+  "earliest": null
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1980-06-25",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

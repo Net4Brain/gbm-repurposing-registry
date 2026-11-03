@@ -1,0 +1,1405 @@
+{
+ "moiety": "ascorbic acid",
+ "accessed_utc": "2026-11-03T17:18:29+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA006071",
+    "date": "1947-07-28",
+    "brand": [
+     "BEROCCA PN"
+    ]
+   },
+   {
+    "application": "NDA008809",
+    "date": "1953-02-20",
+    "brand": [
+     "M.V.I.-12 ADULT",
+     "M.V.I.-12 ADULT",
+     "M.V.I.-12 ADULT"
+    ]
+   },
+   {
+    "application": "NDA018440",
+    "date": "1981-11-06",
+    "brand": [
+     "M.V.C. 9+3"
+    ]
+   },
+   {
+    "application": "NDA018439",
+    "date": "1982-07-13",
+    "brand": [
+     "MVC PLUS"
+    ]
+   },
+   {
+    "application": "NDA018920",
+    "date": "1983-04-06",
+    "brand": [
+     "M.V.I. PEDIATRIC"
+    ]
+   },
+   {
+    "application": "NDA020176",
+    "date": "1993-12-29",
+    "brand": [
+     "VITAPED"
+    ]
+   },
+   {
+    "application": "NDA021163",
+    "date": "2000-05-18",
+    "brand": [
+     "INFUVITE ADULT",
+     "INFUVITE ADULT"
+    ]
+   },
+   {
+    "application": "NDA021265",
+    "date": "2001-02-21",
+    "brand": [
+     "INFUVITE PEDIATRIC (PHARMACY BULK PACKAGE)",
+     "INFUVITE PEDIATRIC"
+    ]
+   },
+   {
+    "application": "NDA021625",
+    "date": "2004-01-30",
+    "brand": [
+     "M.V.I. ADULT"
+    ]
+   },
+   {
+    "application": "NDA021643",
+    "date": "2004-02-18",
+    "brand": [
+     "M.V.I. ADULT (PHARMACY BULK PACKAGE)"
+    ]
+   },
+   {
+    "application": "NDA021881",
+    "date": "2006-08-02",
+    "brand": [
+     "MOVIPREP"
+    ]
+   },
+   {
+    "application": "NDA209112",
+    "date": "2017-10-02",
+    "brand": [
+     "ASCOR"
+    ]
+   },
+   {
+    "application": "NDA209381",
+    "date": "2018-05-04",
+    "brand": [
+     "PLENVU"
+    ]
+   }
+  ],
+  "first_approval_date": "1947-07-28",
+  "label_indications": [
+   "INDICATIONS AND USAGE Supplementation of the diet with ten essential vitamins. Supplementation of the diet with fluoride for caries prophylaxis. M ultivitamin with Fluoride 0.5 mg Chewable Tablets provide 0.5 mg fluoride in tablet form for children 4-6 years of age in areas where the drinking water fluoride level is less than 0.3 ppm, and for children 6 years of age and above where the drinking water contains 0.3 through 0.6 ppm of fluoride. Multivitamin with Fluoride 0.5 mg Chewable Tablets supply significant amounts of Vitamins A, C, D, E, thiamine, riboflavin, niacin, vitamin B6, vitamin B12, and folate to supplement the diet, and to help assure that nutritional deficiencies of these vitamins will not develop. Thus, in a single easy-to-use preparation, children obtain ten essential vitamins and the important mineral, fluoride. The American Academy of Pediatrics recommends that children up to age 16, in areas where drinking water contains less than optimal levels of fluoride, receive daily fluoride supplements. Children using Multivitamin with Fluoride 0 . 5 mg Chewable Tablets regularly should receive semiannual dental examinations. The regular brushing of teeth and attention to good oral hygiene practices are also essential. Multivitamin with Fluoride Chewable Tablets is a prescription product for the clinical dietary management of the metabolic processes of caries prophylaxis and provides supplementation of the diet with ten essential vitamins.",
+   "INDICATIONS AND USAGE Supplementation of the diet with vitamins A, C and D. Tri-Vite Drops with Fluoride 0.25 mg also provides fluoride for caries prophylaxis. The American Academy of Pediatrics recommends that children up to age 16, in areas where drinking water contains less than optimal levels of fluoride, receive daily fluoride supplementation. The American Academy of Pediatrics recommend that infants and young children 6 months to 3 years of age, in areas where the drinking water contains less than 0.3 ppm of fluoride, and children 3-6 years of age, in areas where the drinking water contains 0.3 through 0.6 ppm of fluoride, receive 0.25 mg of supplemental fluoride daily which is provided in a dose of 1 mL of Tri-Vite Drops with Fluoride 0.25 mg (See Dosage and Administration ). Tri-Vite Drops with Fluoride 0.25 mg supply significant amounts of vitamins A, C and D to supplement the diet, and to help assure that nutritional deficiencies of these vitamins will not develop. Thus, in a single easy-to-use preparation, children obtain essential vitamins and fluoride.",
+   "INDICATIONS CitraNatal Assure \u00ae is a multivitamin/mineral prescription drug indicated for use in improving the nutritional status of women prior to conception, throughout pregnancy, and in the postnatal period for both lactating and nonlactating mothers.",
+   "INDICATIONS: For temporary relief of painful sore throat, painful earache, and minor bronchial irritation with yellow expectoration.",
+   "INDICATIONS: PNV-DHA is a multivitamin/multimineral fatty acid dietary supplement indicated for use in improving the nutritional status of women throughout pregnancy and in the postnatal period for both lactating and nonlactating mothers."
+  ],
+  "query": "products.active_ingredients.name:\"ascorbic acid\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL196",
+  "pref_name": "ASCORBIC ACID",
+  "max_phase": 4.0,
+  "atc": [
+   "G01AD03",
+   "A11GA01",
+   "S01XA15"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "Iron deficiency anemia",
+    "mesh_heading": "Anemia, Iron-Deficiency",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03188445,NCT04268849"
+     },
+     {
+      "type": "DailyMed",
+      "id": "002df203-be22-41aa-a52c-d14ecbc00dbe"
+     },
+     {
+      "type": "DailyMed",
+      "id": "025fee85-53a8-4161-a806-44fd95d0ca74"
+     },
+     {
+      "type": "DailyMed",
+      "id": "156b7690-2b42-47fb-9d9a-bf6f8b48ebe5"
+     },
+     {
+      "type": "DailyMed",
+      "id": "31e7d93d-440a-4664-a707-736cb32bdd4e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "47e3ae30-64ac-462c-95eb-2e29506d9a7b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "bf9624d8-b2ef-45a4-9ad6-a3b8701e76b7"
+     },
+     {
+      "type": "DailyMed",
+      "id": "eac6bfc8-c928-40f6-bc1b-6c0ebc948881"
+     },
+     {
+      "type": "DailyMed",
+      "id": "ff14da00-293e-4aed-abbf-98dd15eb84c3"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02107976,NCT02297399"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00626444"
+     }
+    ]
+   },
+   {
+    "efo_term": "injury",
+    "mesh_heading": "Wounds and Injuries",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01587261"
+     }
+    ]
+   },
+   {
+    "efo_term": "pneumonia",
+    "mesh_heading": "Pneumonia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02186158,NCT02735707"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7b65c50d-09d6-4df2-8322-971b100c176d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d05200cb-cf29-4bc7-bf0c-b42ab2d20958"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00631111"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia (phenotype)",
+    "mesh_heading": "Anemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00920413,NCT02225886,NCT02631668,NCT02780505"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2c9fd33d-4b38-42be-ad36-b1521ded47e1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "2d207dad-c8bf-44d9-9065-692a3ea5217b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3c2df670-f894-48e5-b08a-6ad5d293429b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "50fa1766-1db6-4360-97b1-c1550695c75c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5e273c62-e582-4a40-90aa-c7c723cbcdf1"
+     },
+     {
+      "type": "DailyMed",
+      "id": "878e22cc-9f69-3074-3212-2b36763b2a65"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c36cb9d3-f0a3-4d34-92f2-8ab281b26b7d"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d68362a4-05ca-4062-8863-62c5a2d8177a"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d891ab47-4a05-4b5b-b372-7ddf91699c29"
+     },
+     {
+      "type": "DailyMed",
+      "id": "dfc69d93-0796-4ae5-888e-0f7d81f19b2e"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal adenocarcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01550510"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02420314,NCT02655913,NCT02905591,NCT03799094,NCT06083454"
+     }
+    ]
+   },
+   {
+    "efo_term": "atrial fibrillation",
+    "mesh_heading": "Atrial Fibrillation",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00953212,NCT01107730,NCT01580683,NCT03148236"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01080352"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00954525,NCT01364805,NCT01555489,NCT01905150,NCT03797443"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine fibroid",
+    "mesh_heading": "Leiomyoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01715597"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic neuropathy",
+    "mesh_heading": "Diabetic Neuropathies",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00634998"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02791906"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02516670"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00329498,NCT00803530,NCT03433781"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00184054,NCT00329498"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell renal carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03334409"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02369822"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential thrombocythemia",
+    "mesh_heading": "Thrombocythemia, Essential",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01014546"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01752491,NCT02168270,NCT02344355,NCT02833701,NCT04900792"
+     }
+    ]
+   },
+   {
+    "efo_term": "preeclampsia",
+    "mesh_heading": "Pre-Eclampsia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00388856,NCT03451266"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00006021,NCT00085345,NCT00112879,NCT00227682,NCT00258245,NCT00317811,NCT00469209,NCT00661544,NCT02206425,NCT03602235,NCT03964688"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycythemia vera",
+    "mesh_heading": "Polycythemia Vera",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01014546"
+     }
+    ]
+   },
+   {
+    "efo_term": "primary myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01014546"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02168270"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic oligodendroglioma",
+    "mesh_heading": "Oligodendroglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02168270"
+     }
+    ]
+   },
+   {
+    "efo_term": "muscular disease",
+    "mesh_heading": "Muscular Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03223519"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01005303,NCT06044194"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00067899"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic neoplasm",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01852890,NCT03541486"
+     }
+    ]
+   },
+   {
+    "efo_term": "atrial flutter",
+    "mesh_heading": "Atrial Flutter",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00953212"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02969681"
+     }
+    ]
+   },
+   {
+    "efo_term": "temporomandibular joint disorder",
+    "mesh_heading": "Temporomandibular Joint Disorders",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02602483"
+     }
+    ]
+   },
+   {
+    "efo_term": "ascorbic acid deficiency",
+    "mesh_heading": "Ascorbic Acid Deficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02606773,NCT03224572,NCT05009355"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02168270"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral mucositis",
+    "mesh_heading": "Stomatitis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02868151"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sepsis",
+    "mesh_heading": "Sepsis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01590303,NCT02734147,NCT03333278,NCT03509350,NCT03680274,NCT04999137"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Kidney Failure, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "2e1625cd-7337-4eed-95b1-b371c7169b97"
+     },
+     {
+      "type": "DailyMed",
+      "id": "54753dd9-dd90-40ee-a50d-47a7fa5b4754"
+     },
+     {
+      "type": "DailyMed",
+      "id": "6a02aaa1-92d1-43ae-841c-0f991e10c60f"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d92a09ae-017e-487c-bbd7-b284dce406ee"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03418038"
+     }
+    ]
+   },
+   {
+    "efo_term": "myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000541"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary tract infection",
+    "mesh_heading": "Urinary Tract Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03800667,NCT04261036,NCT05913180"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart disease",
+    "mesh_heading": "Heart Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000541,NCT00000600"
+     }
+    ]
+   },
+   {
+    "efo_term": "carotid artery disease",
+    "mesh_heading": "Carotid Artery Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000600"
+     }
+    ]
+   },
+   {
+    "efo_term": "acne",
+    "mesh_heading": "Acne Vulgaris",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03522922,NCT05891795"
+     }
+    ]
+   },
+   {
+    "efo_term": "septic shock",
+    "mesh_heading": "Shock, Septic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03333278,NCT03592693,NCT03649633,NCT03828929,NCT03872011,NCT04999137"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypoxia",
+    "mesh_heading": "Hypoxia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03066115,NCT04357782"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiac arrest",
+    "mesh_heading": "Heart Arrest",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03509662,NCT04921189,NCT05817851"
+     }
+    ]
+   },
+   {
+    "efo_term": "burn",
+    "mesh_heading": "Burns",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00734695"
+     }
+    ]
+   },
+   {
+    "efo_term": "postpartum hemorrhage",
+    "mesh_heading": "Postpartum Hemorrhage",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02424201"
+     }
+    ]
+   },
+   {
+    "efo_term": "cerebral atherosclerosis",
+    "mesh_heading": "Intracranial Arteriosclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000600"
+     }
+    ]
+   },
+   {
+    "efo_term": "Myocardial Ischemia",
+    "mesh_heading": "Myocardial Ischemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000541,NCT00000555"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03508726"
+     }
+    ]
+   },
+   {
+    "efo_term": "Fatigue",
+    "mesh_heading": "Fatigue",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00633581,NCT02521077"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00325572"
+     }
+    ]
+   },
+   {
+    "efo_term": "eye disease",
+    "mesh_heading": "Eye Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "S01XA15"
+     }
+    ]
+   },
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04279535"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lung injury",
+    "mesh_heading": "Acute Lung Injury",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04153487,NCT04344184"
+     }
+    ]
+   },
+   {
+    "efo_term": "macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000161"
+     }
+    ]
+   },
+   {
+    "efo_term": "complex regional pain syndrome",
+    "mesh_heading": "Complex Regional Pain Syndromes",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02390505"
+     }
+    ]
+   },
+   {
+    "efo_term": "Anorexia",
+    "mesh_heading": "Anorexia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01295450"
+     }
+    ]
+   },
+   {
+    "efo_term": "Shock",
+    "mesh_heading": "Shock",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01587963"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03015675"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04046094"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00284427"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03175341"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00284427"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04035096"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute promyelocytic leukemia",
+    "mesh_heading": "Leukemia, Promyelocytic, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03624270"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypertension",
+    "mesh_heading": "Hypertension",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04715022,NCT04832009"
+     }
+    ]
+   },
+   {
+    "efo_term": "severe acute respiratory syndrome",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04482686"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04801511"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02793648"
+     }
+    ]
+   },
+   {
+    "efo_term": "respiratory tract infectious disorder",
+    "mesh_heading": "Respiratory Tract Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02678234,NCT02730364"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02735707,NCT03680274,NCT04328961,NCT04334512,NCT04335084,NCT04344184,NCT04347889,NCT04354428,NCT04357782,NCT04363216,NCT04370288,NCT04395768,NCT04401150,NCT04446104,NCT04482686,NCT04928495,NCT05029037,NCT05283954,NCT05694975"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01891747"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammation",
+    "mesh_heading": "Inflammation",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04553666,NCT06068543"
+     }
+    ]
+   },
+   {
+    "efo_term": "viral disease",
+    "mesh_heading": "Virus Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04898023"
+     }
+    ]
+   },
+   {
+    "efo_term": "scurvy",
+    "mesh_heading": "Scurvy",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "388aad52-fc01-4784-9791-1dbc80c69306"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary alveolar proteinosis",
+    "mesh_heading": "Pulmonary Alveolar Proteinosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03887169"
+     }
+    ]
+   },
+   {
+    "efo_term": "influenza",
+    "mesh_heading": "Influenza, Human",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02735707"
+     }
+    ]
+   },
+   {
+    "efo_term": "asthma",
+    "mesh_heading": "Asthma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01057615"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00211562"
+     }
+    ]
+   },
+   {
+    "efo_term": "cataract",
+    "mesh_heading": "Cataract",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000161"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02109315"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01319734,NCT03437902"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoarthritis",
+    "mesh_heading": "Osteoarthritis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04783792"
+     }
+    ]
+   },
+   {
+    "efo_term": "Charcot-Marie-Tooth disease type 1A",
+    "mesh_heading": "Charcot-Marie-Tooth Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00484510"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05501548"
+     }
+    ]
+   },
+   {
+    "efo_term": "Charcot-Marie-Tooth disease",
+    "mesh_heading": "Charcot-Marie-Tooth Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00271635"
+     }
+    ]
+   },
+   {
+    "efo_term": "beta-thalassemia major",
+    "mesh_heading": "beta-Thalassemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02083575"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05561257"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00441207,NCT01050621"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05849129"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hereditary breast and ovarian cancer syndrome",
+    "mesh_heading": "Hereditary Breast and Ovarian Cancer Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04150042"
+     }
+    ]
+   },
+   {
+    "efo_term": "plasma cell neoplasm",
+    "mesh_heading": "Neoplasms, Plasma Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00006021,NCT00227682,NCT00317811"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03418038"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000555"
+     }
+    ]
+   },
+   {
+    "efo_term": "atherosclerosis",
+    "mesh_heading": "Atherosclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000600"
+     }
+    ]
+   },
+   {
+    "efo_term": "vascular disease",
+    "mesh_heading": "Vascular Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000600"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01502280,NCT02833701"
+     }
+    ]
+   },
+   {
+    "efo_term": "menopause",
+    "mesh_heading": "Menopause",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000555"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03410030,NCT03697239,NCT03908333"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01426490,NCT04516681"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Supplement",
+    "action_type": null,
+    "target": null
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 124,
+  "earliest": {
+   "nct": "NCT00000541",
+   "start": "1993-05",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1947-07-28",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

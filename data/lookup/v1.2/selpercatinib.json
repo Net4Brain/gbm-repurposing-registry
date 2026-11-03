@@ -1,0 +1,226 @@
+{
+ "moiety": "selpercatinib",
+ "accessed_utc": "2026-11-03T18:19:10+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA213246",
+    "date": "2020-05-08",
+    "brand": [
+     "RETEVMO",
+     "RETEVMO"
+    ]
+   },
+   {
+    "application": "NDA218160",
+    "date": "2024-04-10",
+    "brand": [
+     "RETEVMO",
+     "RETEVMO",
+     "RETEVMO"
+    ]
+   }
+  ],
+  "first_approval_date": "2020-05-08",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"selpercatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Retsevmo",
+    "status": "Authorised",
+    "authorisation_date": "2021-02-11",
+    "atc": "L01EX22",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung;Thyroid Neoplasms;Cancer",
+    "indication": "Retsevmo as monotherapy is indicated for the treatment of adults with:  advanced RET fusion positive non small cell lung cancer (NSCLC) not previously treated with a RET inhibitor. For biomarker-based patient selection, see section 4.2.&nbsp;  Retsevmo as monotherapy is indicated for the treatment of adults and paediatric patients 2&nbsp; years of age and older with:  advanced RET fusion positive thyroid cancer who are radioactive iodine-refractory (if radioactive iodine is appropriate) . For biomarker-based patient selection, see section 4.2. advanced RET mutant medullary thyroid cancer (MTC) . For biomarker-based patient selection, see section 4.2. advanced RET fusion positive solid tumours, when treatment options not targeting RET provide limited clinical benefit, or have been exhausted (see sections&nbsp; 4.4 and 5.1). For biomarker-based patient selection, see section 4.2.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/retsevmo"
+   }
+  ],
+  "first_authorisation_date": "2021-02-11"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4559134",
+  "pref_name": "SELPERCATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX22"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03944772,NCT04194944,NCT04268550,NCT04819100,NCT05364645"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005375"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/213246s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05668962"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/213246s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "medullary thyroid gland carcinoma",
+    "mesh_heading": "Carcinoma, Medullary",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04211337,NCT04280081"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7fa848ba-a59c-4144-9f52-64d090f4d828"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX22"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT05159245"
+     },
+     {
+      "type": "USAN",
+      "id": "SELPERCATINIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05436912"
+     }
+    ]
+   },
+   {
+    "efo_term": "Renal insufficiency",
+    "mesh_heading": "Renal Insufficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05469100"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular thyroid carcinoma",
+    "mesh_heading": "Adenocarcinoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05668962"
+     }
+    ]
+   },
+   {
+    "efo_term": "papillary thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05668962"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid neoplasm",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005375"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT05159245"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2041"
+   },
+   {
+    "mechanism": "Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3430888"
+   },
+   {
+    "mechanism": "Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3430904"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 10,
+  "earliest": {
+   "nct": "NCT02925234",
+   "start": "2016-08",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2020-05-08",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

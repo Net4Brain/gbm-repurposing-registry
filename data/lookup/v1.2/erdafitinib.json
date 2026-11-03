@@ -1,0 +1,271 @@
+{
+ "moiety": "erdafitinib",
+ "accessed_utc": "2026-11-03T17:41:10+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA212018",
+    "date": "2019-04-12",
+    "brand": [
+     "BALVERSA",
+     "BALVERSA",
+     "BALVERSA"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-04-12",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE BALVERSA is indicated for the treatment of adult patients with locally advanced or metastatic urothelial carcinoma (mUC) with susceptible FGFR3 genetic alterations whose disease has progressed on or after at least one line of prior systemic therapy. Select patients for therapy based on an FDA-approved companion diagnostic for BALVERSA [see Dosage and Administration (2.1) and Clinical Studies (14.1) ] . BALVERSA is a kinase inhibitor indicated for the treatment of adult patients with locally advanced or metastatic urothelial carcinoma (mUC) with susceptible FGFR3 genetic alterations whose disease has progressed on or after at least one line of prior systemic therapy. Select patients for therapy based on an FDA-approved companion diagnostic for BALVERSA. ( 1 , 2.1 ) Limitations of Use BALVERSA is not recommended for the treatment of patients who are eligible for and have not received prior PD-1 or PD-L1 inhibitor therapy. ( 1 , 14.1 ) Limitations of Use BALVERSA is not recommended for the treatment of patients who are eligible for and have not received prior PD-1 or PD-L1 inhibitor therapy [see Clinical Studies (14.1) ] ."
+  ],
+  "query": "products.active_ingredients.name:\"erdafitinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Balversa",
+    "status": "Authorised",
+    "authorisation_date": "2024-08-22",
+    "atc": "L01EN01",
+    "therapeutic_area": "Urologic Neoplasms",
+    "indication": "Balversa as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic urothelial carcinoma (UC), harbouring susceptible FGFR3 genetic alterations who have previously received at least one line of therapy containing a PD-1 or PD-L1 inhibitor in the unresectable or metastatic treatment setting (see section 5.1).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/balversa"
+   }
+  ],
+  "first_authorisation_date": "2024-08-22"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3545376",
+  "pref_name": "ERDAFITINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EN01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EN01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02699606,NCT02925234,NCT03547037,NCT04083976,NCT06351371"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02421185"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01703481"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02952573,NCT03732703"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03827850"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03587363"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03827850"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03473743,NCT05564416"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212018s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03999515"
+     }
+    ]
+   },
+   {
+    "efo_term": "bladder tumor",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04172675,NCT05316155,NCT05567185"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03999515"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03238196"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Carcinoma, Transitional Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04917809"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03999515"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03999515"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Fibroblast growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2095217"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 15,
+  "earliest": {
+   "nct": "NCT02699606",
+   "start": "2016-07-08",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-04-12",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

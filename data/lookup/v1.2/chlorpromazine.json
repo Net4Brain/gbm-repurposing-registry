@@ -1,0 +1,206 @@
+{
+ "moiety": "chlorpromazine",
+ "accessed_utc": "2026-11-03T17:31:35+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA011120",
+    "date": "1957-09-18",
+    "brand": [
+     "THORAZINE",
+     "THORAZINE",
+     "THORAZINE"
+    ]
+   },
+   {
+    "application": "NDA009149",
+    "date": "1957-11-20",
+    "brand": [
+     "THORAZINE",
+     "THORAZINE",
+     "THORAZINE"
+    ]
+   }
+  ],
+  "first_approval_date": "1957-09-18",
+  "label_indications": [
+   "INDICATIONS AND USAGE For the management of manifestations of psychotic disorders. For the treatment of schizophrenia. To control nausea and vomiting. For relief of restlessness and apprehension before surgery. For acute intermittent porphyria. As an adjunct in the treatment of tetanus. To control the manifestations of the manic type of manic-depressive illness. For relief of intractable hiccups. For the treatment of severe behavioral problems in children (1 to 12 years of age) marked by combativeness and/or explosive hyperexcitable behavior (out of proportion to immediate provocations), and in the short-term treatment of hyperactive children who show excessive motor activity with accompanying conduct disorders consisting of some or all of the following symptoms: impulsivity, difficulty sustaining attention, aggressivity, mood lability and poor frustration tolerance.",
+   "INDICATIONS AND USAGE For the treatment of schizophrenia; to control nausea and vomiting; for relief of restlessness and apprehension before surgery; for acute intermittent porphyria; as an adjunct in the treatment of tetanus; to control the manifestations of the manic type of manic-depressive illness; for relief of intractable hiccups; for the treatment of severe behavioral problems in children (1 to 12 years of age) marked by combativeness and/or explosive hyperexcitable behavior (out of proportion to immediate provocations), and in the short-term treatment of hyperactive children who show excessive motor activity with accompanying conduct disorders consisting of some or all of the following symptoms: impulsivity, difficulty sustaining attention, aggressivity, mood lability, and poor frustration tolerance."
+  ],
+  "query": "products.active_ingredients.name:\"chlorpromazine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL71",
+  "pref_name": "CHLORPROMAZINE",
+  "max_phase": 4.0,
+  "atc": [
+   "N05AA01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N05AA01"
+     }
+    ]
+   },
+   {
+    "efo_term": "neonatal abstinence syndrome",
+    "mesh_heading": "Neonatal Abstinence Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02810782"
+     }
+    ]
+   },
+   {
+    "efo_term": "delirium",
+    "mesh_heading": "Delirium",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03021486"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04224441,NCT05190315"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04354805,NCT04366739"
+     }
+    ]
+   },
+   {
+    "efo_term": "mental or behavioural disorder",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "9575c766-3758-6f33-e053-2995a90ae6b1"
+     }
+    ]
+   },
+   {
+    "efo_term": "conduct disorder",
+    "mesh_heading": "Conduct Disorder",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "9575c766-3758-6f33-e053-2995a90ae6b1"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea and vomiting",
+    "mesh_heading": "Postoperative Nausea and Vomiting",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "9575c766-3758-6f33-e053-2995a90ae6b1"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00169039,NCT00654576,NCT00882518"
+     },
+     {
+      "type": "DailyMed",
+      "id": "9575c766-3758-6f33-e053-2995a90ae6b1"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05433402"
+     }
+    ]
+   },
+   {
+    "efo_term": "porphyria",
+    "mesh_heading": "Porphyrias",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "9575c766-3758-6f33-e053-2995a90ae6b1"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL224"
+   },
+   {
+    "mechanism": "D2-like dopamine receptor antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL2331075"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 7,
+  "earliest": {
+   "nct": "NCT00169039",
+   "start": "1994-12",
+   "phases": [
+    "PHASE4"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1957-09-18",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

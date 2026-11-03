@@ -1,0 +1,505 @@
+{
+ "moiety": "cemiplimab",
+ "accessed_utc": "2026-11-03T17:29:36+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761097",
+    "date": "2018-09-28",
+    "brand": [
+     "LIBTAYO"
+    ]
+   }
+  ],
+  "first_approval_date": "2018-09-28",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE LIBTAYO is a programmed death receptor-1 (PD-1) blocking antibody indicated: Cutaneous Squamous Cell Carcinoma (CSCC) for the treatment of adult patients with metastatic cutaneous squamous cell carcinoma (mCSCC) or locally advanced CSCC (laCSCC) who are not candidates for curative surgery or curative radiation. ( 1.1 ) for the adjuvant treatment of adult patients with CSCC at high risk of recurrence after surgery and radiation. ( 1.1 , 14.1 ) Basal Cell Carcinoma (BCC) for the treatment of adult patients with locally advanced or metastatic BCC (laBCC or mBCC) who have been previously treated with a hedgehog pathway inhibitor or for whom a hedgehog pathway inhibitor is not appropriate. ( 1.2 ) Non-Small Cell Lung Cancer (NSCLC) in combination with platinum\u2010based chemotherapy for the first\u2010line treatment of adult patients with non-small cell lung cancer (NSCLC) with no EGFR, ALK or ROS1 aberrations and is: locally advanced where patients are not candidates for surgical resection or definitive chemoradiation or metastatic. ( 1.3 ) as single agent for the first-line treatment of adult patients with NSCLC whose tumors have high PD-L1 expression [Tumor Proportion Score (TPS) \u226550%] as determined by an FDA-approved test, with no EGFR, ALK or ROS1 aberrations, and is: locally advanced where patients are not candidates for surgical resection or definitive chemoradiation or metastatic. ( 1.3 , 2.1 ) 1.1 Cutaneous Squamous Cell Carcinoma LIBTAYO is indicated for the treatment of adult patients with metastatic cutaneous squamous cell carcinoma (mCSCC) or locally advanced CSCC (laCSCC) who are not candidates for curative surgery or curative radiation. LIBTAYO is indicated for the adjuvant treatment of adult patients with CSCC at high risk of recurrence [see Clinical Studies (14.1) ] after surgery and radiation . 1.2 Basal Cell Carcinoma LIBTAYO is indicated for the treatment of adult patients with locally advanced or metastatic basal cell carcinoma (laBCC or mBCC) who have been previously treated with a hedgehog pathway inhibitor or for whom a hedgehog pathway inhibitor is not appropriate. 1.3 Non-Small Cell Lung Cancer LIBTAYO in combination with platinum\u2010based chemotherapy is indicated for the first\u2010line treatment of adult patients with non-small cell lung cancer (NSCLC) with no EGFR, ALK or ROS1 aberrations and is: locally advanced where patients are not candidates for surgical resection or definitive chemoradiation or metastatic. LIBTAYO as a single agent is indicated for the first-line treatment of adult patients with NSCLC whose tumors have high PD-L1 expression [Tumor Proportion Score (TPS) \u226550%] as determined by an FDA-approved test [see Dosage and Administration (2.1) ] , with no EGFR, ALK or ROS1 aberrations, and is: locally advanced where patients are not candidates for surgical resection or definitive chemoradiation or metastatic."
+  ],
+  "query": "products.active_ingredients.name:\"cemiplimab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Libtayo",
+    "status": "Authorised",
+    "authorisation_date": "2019-06-28",
+    "atc": "L01XC33",
+    "therapeutic_area": "Carcinoma, Squamous Cell",
+    "indication": "Cutaneous Squamous Cell Carcinoma  Libtayo as monotherapy is indicated for the treatment of adult patients with metastatic or locally advanced cutaneous squamous cell carcinoma (mCSCC or laCSCC) who are not candidates for curative surgery or curative radiation. Libtayo as monotherapy is indicated for the adjuvant treatment of adult patients with CSCC at high risk of recurrence after surgery and radiation (see section 5.1 for selection criteria).&nbsp;  Basal Cell Carcinoma  Libtayo as monotherapy is indicated for the treatment of adult patients with locally advanced or metastatic basal cell carcinoma (laBCC or mBCC) who have progressed on or are intolerant to a hedgehog pathway inhibitor (HHI).  Non-Small Cell Lung Cancer  Libtayo as monotherapy is indicated for the first-line treatment of adult patients with non-small cell lung cancer (NSCLC) expressing PD-L1 (in ? 50% tumour cells), with no EGFR, ALK or ROS1 aberrations, who have:  locally advanced NSCLC who are not candidates for definitive chemoradiation, or metastatic NSCLC.   Libtayo in combination with platinum?based chemotherapy is indicated for the first?line treatment of adult patients with NSCLC expressing PD-L1 (in ? 1% of tumour cells), with no EGFR, ALK or ROS1 aberrations, who have:  locally advanced NSCLC who are not candidates for definitive chemoradiation, or metastatic NSCLC.    Cervical Cancer  Libtayo as monotherapy is indicated for the treatment of adult patients with recurrent or metastatic cervical cancer and disease progression on or after platinum-based chemotherapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/libtayo"
+   }
+  ],
+  "first_authorisation_date": "2019-06-28"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297723",
+  "pref_name": "CEMIPLIMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FF06"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03491683,NCT04006119"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03769181,NCT04763616"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03294083"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03198130,NCT03257267"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4347ae1f-d397-4f18-8b70-03897e1c054a"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004844"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2018/761097s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03002376,NCT04526899,NCT05259696,NCT05352672,NCT05608291,NCT06190951,NCT06246916"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03787095"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03088540,NCT03409614,NCT03515629,NCT03580694,NCT04916002,NCT04982224,NCT05142189,NCT05208944,NCT05259696,NCT05344209,NCT05401786,NCT05501665,NCT05800015,NCT05882734,NCT06088771,NCT06161441,NCT06162572,NCT06219317,NCT06465329"
+     }
+    ]
+   },
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03132636,NCT03889912,NCT04679480,NCT04916002,NCT05929664"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4347ae1f-d397-4f18-8b70-03897e1c054a"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis B virus infection",
+    "mesh_heading": "Hepatitis B, Chronic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04046107"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04373083"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FF06"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03192345,NCT04460456,NCT04626635,NCT04706715,NCT04729725,NCT05054348,NCT05259709,NCT06302426"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03194867,NCT05137054,NCT05669989"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04177810,NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic neoplasm",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03871348"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse intrinsic pontine glioma",
+    "mesh_heading": "Diffuse Intrinsic Pontine Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03690869"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03564340"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03257267,NCT04646005"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379,NCT04243616,NCT04916002,NCT05064085,NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03477864,NCT03951831,NCT03972657,NCT04382898,NCT04989946,NCT05125016"
+     }
+    ]
+   },
+   {
+    "efo_term": "oropharyngeal carcinoma",
+    "mesh_heading": "Oropharyngeal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03669718,NCT04398524"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04305795,NCT04465487,NCT05376553"
+     }
+    ]
+   },
+   {
+    "efo_term": "Merkel cell skin cancer",
+    "mesh_heading": "Carcinoma, Merkel Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04916002,NCT04975152"
+     }
+    ]
+   },
+   {
+    "efo_term": "skin cancer",
+    "mesh_heading": "Skin Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04315701,NCT04387084"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05501665,NCT05704634"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4347ae1f-d397-4f18-8b70-03897e1c054a"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm of mature B-cells",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02651662"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05694871"
+     }
+    ]
+   },
+   {
+    "efo_term": "urogenital neoplasm",
+    "mesh_heading": "Urogenital Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "mycosis fungoides",
+    "mesh_heading": "Mycosis Fungoides",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05538988"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02383212,NCT02520245,NCT03005782,NCT03233139"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05557591,NCT05785767"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05259696,NCT05961709,NCT06205836"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Programmed cell death protein 1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3307223"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 74,
+  "earliest": {
+   "nct": "NCT01042379",
+   "start": "2010-03-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2018-09-28",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

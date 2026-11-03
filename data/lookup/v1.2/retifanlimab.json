@@ -1,0 +1,366 @@
+{
+ "moiety": "retifanlimab",
+ "accessed_utc": "2026-11-03T18:13:52+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761334",
+    "date": "2023-03-22",
+    "brand": [
+     "ZYNYZ"
+    ]
+   }
+  ],
+  "first_approval_date": "2023-03-22",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"retifanlimab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Zynyz",
+    "status": "Authorised",
+    "authorisation_date": "2024-04-19",
+    "atc": "L01FF10",
+    "therapeutic_area": "Carcinoma, Merkel Cell",
+    "indication": "Squamous cell carcinoma of the anal canal (SCAC) Zynyz is indicated in combination with carboplatin and paclitaxel for the first-line treatment of adult patients with metastatic or with inoperable locally recurrent squamous cell carcinoma of the anal canal (SCAC). Merkel cell carcinoma (MCC)&nbsp; Zynyz is indicated as monotherapy for the first line treatment of adult patients with metastatic or recurrent locally advanced Merkel cell carcinoma (MCC) not amenable to curative surgery or radiation therapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zynyz"
+   },
+   {
+    "product": "Zynyz",
+    "status": "Application withdrawn",
+    "authorisation_date": null,
+    "atc": "L01FX06",
+    "therapeutic_area": "Anus Neoplasms;Carcinoma, Squamous Cell",
+    "indication": "Treatment of locally advanced or metastatic squamous carcinoma of the anal canal (SCAC) who have progressed on or who are intolerant of platinum-based chemotherapy",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zynyz-0"
+   }
+  ],
+  "first_authorisation_date": "2024-04-19"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4298037",
+  "pref_name": "RETIFANLIMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FF10"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FF10"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03406949,NCT03522142,NCT03589651,NCT03910530,NCT06179160,NCT06320405"
+     },
+     {
+      "type": "USAN",
+      "id": "RETIFANLIMAB"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04129320"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04225039,NCT05083754,NCT05743595"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03597295"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/006194"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03920839,NCT04203511,NCT04205812"
+     }
+    ]
+   },
+   {
+    "efo_term": "Merkel cell skin cancer",
+    "mesh_heading": "Carcinoma, Merkel Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03599713,NCT05594290,NCT06056895"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/006194"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2023/761334Orig1s000correctedlbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03328026"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04445844"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04586244"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoid syndrome",
+    "mesh_heading": "Malignant Carcinoid Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04776876"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04577014"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04494009"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04463771"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04577014,NCT04968106"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04370704"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04116073"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine neoplasm",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04776876"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04129320,NCT04470024,NCT05287113"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03059823,NCT04949191"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04445844"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06389799"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03328026"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03532295"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05440942"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Programmed cell death protein 1 antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL3307223"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 28,
+  "earliest": {
+   "nct": "NCT03328026",
+   "start": "2018-03-16",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2023-03-22",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "moiety": "osimertinib",
+ "accessed_utc": "2026-11-03T17:59:41+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA208065",
+    "date": "2015-11-13",
+    "brand": [
+     "TAGRISSO",
+     "TAGRISSO"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-11-13",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"osimertinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3353410",
+  "pref_name": "OSIMERTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EB04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01802632,NCT02094261,NCT02143466,NCT02157883,NCT02163733,NCT02179671,NCT02197247,NCT02228369,NCT02296125,NCT02317016,NCT02411448,NCT02442349,NCT02454933,NCT02496663,NCT02503722,NCT02511106,NCT02529995,NCT02664935,NCT02771314,NCT02789345,NCT02803203,NCT02811354,NCT02824952,NCT02841579,NCT02856893,NCT02954523,NCT02971501,NCT03050411,NCT03122717,NCT03133546,NCT03239340,NCT03255083,NCT03257124,NCT03381274,NCT03392246,NCT03394118,NCT03410043,NCT03414814,NCT03424759,NCT03433469,NCT03434418,NCT03455829,NCT03463525,NCT03521154,NCT03532698,NCT03535363,NCT03543683,NCT03586453,NCT03667820,NCT03784599,NCT03810066,NCT03810807,NCT03831932,NCT03833154,NCT03940703,NCT03944772,NCT04029350,NCT04035486,NCT04141644,NCT04181060,NCT04285671,NCT04335292,NCT04351555,NCT04410796,NCT04479306,NCT04486833,NCT04487080,NCT04541407,NCT04563871,NCT04606771,NCT04695925,NCT04720976,NCT04721015,NCT04762199,NCT04765059,NCT04769388,NCT04772235,NCT04780568,NCT04811001,NCT04816214,NCT04870190,NCT04908956,NCT04959981,NCT04974879,NCT05011487,NCT05015608,NCT05017025,NCT05020769,NCT05089916,NCT05104281,NCT05120349,NCT05163249,NCT05166616,NCT05261399,NCT05281406,NCT05298176,NCT05382728,NCT05401110,NCT05493501,NCT05507606,NCT05526755,NCT05546866,NCT05642572,NCT05686434,NCT05693090,NCT05773092,NCT05801029,NCT05816252,NCT06014827,NCT06032936,NCT06067776,NCT06093503,NCT06206850,NCT06306456,NCT06319950,NCT06350097,NCT06362980,NCT06380348,NCT06391944,NCT06417814,NCT06436144,NCT06477055,NCT06486142"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EB04"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02161770,NCT02923947,NCT03040973,NCT03989115"
+     }
+    ]
+   },
+   {
+    "efo_term": "adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02664935"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02664935"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03778229"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03732352"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02474355,NCT02504346,NCT02736513,NCT02803203,NCT02917993,NCT02997501,NCT03455829,NCT03567642,NCT03755102,NCT03804580,NCT03891615,NCT04285671,NCT04545710,NCT04591002,NCT04988607,NCT05166616,NCT05215951,NCT06067776,NCT06194448"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung neoplasm",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02769286"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05120960"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02099058,NCT02151981,NCT05629234"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma of Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02759835,NCT05528458"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02959749"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL203"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 149,
+  "earliest": {
+   "nct": "NCT01802632",
+   "start": "2013-03-04",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-11-13",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "moiety": "alpelisib",
+ "accessed_utc": "2026-11-03T17:16:21+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA212526",
+    "date": "2019-05-24",
+    "brand": [
+     "PIQRAY",
+     "PIQRAY",
+     "PIQRAY"
+    ]
+   },
+   {
+    "application": "NDA215039",
+    "date": "2022-04-05",
+    "brand": [
+     "VIJOICE",
+     "VIJOICE",
+     "VIJOICE"
+    ]
+   },
+   {
+    "application": "NDA218466",
+    "date": "2024-04-24",
+    "brand": [
+     "VIJOICE"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-05-24",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE PIQRAY is indicated in combination with fulvestrant for the treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, PIK3CA-mutated, advanced or metastatic breast cancer as detected by an FDA-approved test following progression on or after an endocrine-based regimen. PIQRAY is a kinase inhibitor indicated in combination with fulvestrant for the treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, PIK3CA-mutated, advanced or metastatic breast cancer as detected by an FDA-approved test following progression on or after an endocrine-based regimen."
+  ],
+  "query": "products.active_ingredients.name:\"alpelisib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Piqray",
+    "status": "Authorised",
+    "authorisation_date": "2020-07-27",
+    "atc": "L01XE",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Piqray is indicated in combination with fulvestrant for the treatment of postmenopausal women, and men, with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, locally advanced or metastatic breast cancer with a PIK3CA mutation after disease progression following an endocrine-based regimen (see section 5.1 and for biomarker-based patient selection see section 4.2).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/piqray"
+   },
+   {
+    "product": "Vijoice",
+    "status": "Authorised",
+    "authorisation_date": "2026-07-15",
+    "atc": "L01EM03",
+    "therapeutic_area": "Genetic Diseases, Inborn;Growth Disorders",
+    "indication": "Treatment of adult and paediatric patients aged 2 years and older with severe or life-threatening manifestations of PIK3CA-related overgrowth spectrum (PROS)",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vijoice"
+   },
+   {
+    "product": "Vijoice",
+    "status": "Application withdrawn",
+    "authorisation_date": null,
+    "atc": "L01EM03",
+    "therapeutic_area": "Genetic Diseases, Inborn;Growth Disorders",
+    "indication": "Treatment of patients with severe manifestations of PIK3CA-related overgrowth spectrum",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vijoice-w"
+   }
+  ],
+  "first_authorisation_date": "2020-07-27"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2396661",
+  "pref_name": "ALPELISIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EM03"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03207529,NCT04216472,NCT04762979"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212526s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01602315,NCT02145312,NCT02537223,NCT04997902"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EM03"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01387321,NCT01708161,NCT01928459,NCT02620839,NCT02925234"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02282371,NCT02298595"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02624557"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02144038"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02155088"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02051751,NCT04251533,NCT04544189"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004804"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212526s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "upper aerodigestive tract neoplasm",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02051751,NCT03292250"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01822613"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02550743"
+     }
+    ]
+   },
+   {
+    "efo_term": "oropharynx cancer",
+    "mesh_heading": "Oropharyngeal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02298595"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01219699,NCT01300962,NCT01791478,NCT01870505,NCT01872260,NCT01923168,NCT02038010,NCT02058381,NCT02088684,NCT02167854,NCT02379247,NCT02437318,NCT02506556,NCT02734615,NCT03056755,NCT03284957,NCT03386162,NCT03439046,NCT04208178,NCT04300790,NCT04524000,NCT04762979,NCT04862143,NCT04899349,NCT05038735,NCT05063786,NCT05090358,NCT05101564,NCT05143229,NCT05230810,NCT05501886,NCT05508906,NCT05625087,NCT05631795,NCT05646862,NCT05933395,NCT05966584"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b20b4e18-7a4b-4500-a08f-06c6dab0ee5b"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04526470"
+     }
+    ]
+   },
+   {
+    "efo_term": "oropharynx squamous cell carcinoma",
+    "mesh_heading": "Squamous Cell Carcinoma of Head and Neck",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03601507"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastrointestinal stromal tumor",
+    "mesh_heading": "Gastrointestinal Stromal Tumors",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01735968"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05154487"
+     }
+    ]
+   },
+   {
+    "efo_term": "meningioma",
+    "mesh_heading": "Meningioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03631953"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03207529,NCT04216472"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05564377"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uveal Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02273219"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01719380"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphatic malformation",
+    "mesh_heading": "Lymphedema",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05948943"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm of oropharynx",
+    "mesh_heading": "Oropharyngeal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02298595"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "PI3-kinase p110-alpha subunit inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4005"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 59,
+  "earliest": {
+   "nct": "NCT01602315",
+   "start": "2012-11-12",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-05-24",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

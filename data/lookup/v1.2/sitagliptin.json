@@ -1,0 +1,443 @@
+{
+ "moiety": "sitagliptin",
+ "accessed_utc": "2026-11-03T18:19:23+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA021995",
+    "date": "2006-10-16",
+    "brand": [
+     "JANUVIA",
+     "JANUVIA",
+     "JANUVIA"
+    ]
+   },
+   {
+    "application": "NDA022044",
+    "date": "2007-03-30",
+    "brand": [
+     "JANUMET",
+     "JANUMET"
+    ]
+   },
+   {
+    "application": "NDA202343",
+    "date": "2011-10-07",
+    "brand": [
+     "JUVISYNC",
+     "JUVISYNC",
+     "JUVISYNC"
+    ]
+   },
+   {
+    "application": "NDA202270",
+    "date": "2012-02-02",
+    "brand": [
+     "JANUMET XR",
+     "JANUMET XR",
+     "JANUMET XR"
+    ]
+   },
+   {
+    "application": "NDA209805",
+    "date": "2017-12-19",
+    "brand": [
+     "STEGLUJAN",
+     "STEGLUJAN"
+    ]
+   },
+   {
+    "application": "NDA211566",
+    "date": "2023-10-18",
+    "brand": [
+     "ZITUVIO",
+     "ZITUVIO",
+     "ZITUVIO"
+    ]
+   },
+   {
+    "application": "NDA216743",
+    "date": "2023-11-03",
+    "brand": [
+     "ZITUVIMET",
+     "ZITUVIMET"
+    ]
+   },
+   {
+    "application": "NDA216778",
+    "date": "2024-07-18",
+    "brand": [
+     "ZITUVIMET XR",
+     "ZITUVIMET XR",
+     "ZITUVIMET XR"
+    ]
+   },
+   {
+    "application": "NDA219122",
+    "date": "2025-01-16",
+    "brand": [
+     "BRYNOVIN"
+    ]
+   }
+  ],
+  "first_approval_date": "2006-10-16",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE JANUVIA \u00ae is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. JANUVIA is a dipeptidyl peptidase-4 (DPP-4) inhibitor indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: JANUVIA should not be used in patients with type 1 diabetes ( 1 ) JANUVIA has not been studied in patients with a history of pancreatitis. ( 1 , 5.1 ) Limitations of Use JANUVIA should not be used in patients with type 1 diabetes. JANUVIA has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using JANUVIA. [See Warnings and Precautions (5.1) .]",
+   "1 INDICATIONS AND USAGE JANUVIA \u00ae is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. JANUVIA is a dipeptidyl peptidase-4 (DPP-4) inhibitor indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: \u2022 JANUVIA should not be used in patients with type 1 diabetes ( 1 ) \u2022 JANUVIA has not been studied in patients with a history of pancreatitis. ( 1 , 5.1 ) Limitations of Use JANUVIA should not be used in patients with type 1 diabetes. JANUVIA has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using JANUVIA. [See Warnings and Precautions (5.1) .]",
+   "1 INDICATIONS AND USAGE ZITUVIMET XR is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use ZITUVIMET XR is not recommended in patients with type 1 diabetes mellitus. ZITUVIMET XR has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using ZITUVIMET XR [see Warnings and Precautions ( 5.2 )]. ZITUVIMET XR is a combination of sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, and metformin hydrochloride (HCl), a biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: Not for the treatment of type 1 diabetes mellitus. ( 1 ) Has not been studied in patients with a history of pancreatitis. ( 1 )",
+   "1 INDICATIONS AND USAGE ZITUVIMET is a combination of sitagliptin, a dipeptidyl peptidase-4 (DPP-4) inhibitor, and metformin hydrochloride (HCl), a biguanide, indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 ) Limitations of Use: ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ( 1 ) ZITUVIMET has not been studied in patients with a history of pancreatitis. ( 1 ) ZITUVIMET is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Limitations of Use ZITUVIMET is not recommended in patients with type 1 diabetes mellitus. ZITUVIMET has not been studied in patients with a history of pancreatitis. It is unknown whether patients with a history of pancreatitis are at increased risk for the development of pancreatitis while using ZITUVIMET. [see Warnings and Precautions ( 5.2 )]."
+  ],
+  "query": "products.active_ingredients.name:\"sitagliptin\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Xelevia",
+    "status": "Authorised",
+    "authorisation_date": "2007-03-21",
+    "atc": "A10BH01",
+    "therapeutic_area": "Diabetes Mellitus, Type 2",
+    "indication": "For adult patients with type-2 diabetes mellitus, Xelevia is indicated to improve glycaemic control:  as monotherapy:  in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to contraindications or intolerance;   as dual oral therapy in combination with:  metformin when diet and exercise plus metformin alone do not provide adequate glycaemic control; a sulphonylurea when diet and exercise plus maximal tolerated dose of a sulphonylurea alone do not provide adequate glycaemic control and when metformin is inappropriate due to contraindications or intolerance; a peroxisome proliferator-activated receptor gamma (PPAR?) agonist (i.e. a thiazolidinedione) when use of a PPAR? agonist is appropriate and when diet and exercise plus the PPAR? agonist alone do not provide adequate glycaemic control;   as triple oral therapy in combination with:  a sulphonylurea and metformin when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control; a PPAR? agonist and metformin when use of a PPAR? agonist is appropriate and when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control.    Xelevia is also indicated as add-on to insulin (with or without metformin) when diet and exercise plus stable dose of insulin do not provide adequate glycaemic control.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xelevia"
+   },
+   {
+    "product": "Tesavel",
+    "status": "Authorised",
+    "authorisation_date": "2008-01-10",
+    "atc": "A10BH01",
+    "therapeutic_area": "Diabetes Mellitus, Type 2",
+    "indication": "For patients with type-2 diabetes mellitus, Tesavel is indicated to improve glycaemic control:  as monotherapy:  in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to contraindications or intolerance;   as dual oral therapy in combination with:  metformin when diet and exercise plus metformin alone do not provide adequate glycaemic control; a sulphonylurea when diet and exercise plus maximal tolerated dose of a sulphonylurea alone do not provide adequate glycaemic control and when metformin is inappropriate due to contraindications or intolerance; a PPAR? agonist (i.e. a thiazolidinedione) when use of a PPAR? agonist is appropriate and when diet and exercise plus the PPAR? agonist alone do not provide adequate glycaemic control;   as triple oral therapy in combination with  a sulphonylurea and metformin when diet and exercise plus dual therapy with these agents do not provide adequate glycaemic control; a peroxisome-proliferator-activated-receptor-gamma (PPAR?) agonist and metformin when use of a PPAR? agonist is appropriate and when diet and exercise plus dual therapy with these agents do not provide adequate glycaemic control.    Tesavel is also indicated as add on to insulin (with or without metformin) when diet and exercise plus stable dosage of insulin do not provide adequate glycaemic control.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tesavel"
+   },
+   {
+    "product": "Januvia",
+    "status": "Authorised",
+    "authorisation_date": "2007-03-20",
+    "atc": "A10BH01",
+    "therapeutic_area": "Diabetes Mellitus, Type 2",
+    "indication": "For adult patients with type-2 diabetes mellitus, Januvia is indicated to improve glycaemic control:  as monotherapy:  in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to contraindications or intolerance;   as dual oral therapy in combination with:  metformin when diet and exercise plus metformin alone do not provide adequate glycaemic control; a sulphonylurea when diet and exercise plus maximal tolerated dose of a sulphonylurea alone do not provide adequate glycaemic control and when metformin is inappropriate due to contraindications or intolerance; a peroxisome-proliferator-activated-receptor-gamma (PPAR?) agonist (i.e. a thiazolidinedione) when use of a PPAR? agonist is appropriate and when diet and exercise plus the PPAR? agonist alone do not provide adequate glycaemic control; a PPAR? agonist (i.e. a thiazolidinedione) when use of a PPAR? agonist is appropriate and when diet and exercise plus the PPAR? agonist alone do not provide adequate glycaemic control;   as triple oral therapy in combination with:  a sulphonylurea and metformin when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control; a PPAR? agonist and metformin when use of a PPAR? agonist is appropriate and when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control.    Januvia is also indicated as add-on to insulin (with or without metformin) when diet and exercise plus stable dose of insulin do not provide adequate glycaemic control.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/januvia"
+   },
+   {
+    "product": "Ristaben",
+    "status": "Authorised",
+    "authorisation_date": "2010-03-15",
+    "atc": "A10BH01",
+    "therapeutic_area": "Diabetes Mellitus, Type 2",
+    "indication": "For adult patients with type-2 diabetes mellitus, Ristaben is indicated to improve glycaemic control:  as monotherapy:  in patients inadequately controlled by diet and exercise alone and for whom metformin is inappropriate due to contraindications or intolerance;   as dual oral therapy in combination with:  metformin when diet and exercise plus metformin alone do not provide adequate glycaemic control; a sulphonylurea when diet and exercise plus maximal tolerated dose of a sulphonylurea alone do not provide adequate glycaemic control and when metformin is inappropriate due to contraindications or intolerance; a peroxisome proliferator-activated-receptor-gamma (PPAR?) agonist (i.e. a thiazolidinedione) when use of a PPAR? agonist is appropriate and when diet and exercise plus the PPAR? agonist alone do not provide adequate glycaemic control;   as triple oral therapy in combination with:  a sulphonylurea and metformin when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control; a PPAR? agonist and metformin when use of a PPAR? agonist is appropriate and when diet and exercise plus dual therapy with these medicinal products do not provide adequate glycaemic control.    Ristaben is also indicated as add-on to insulin (with or without metformin) when diet and exercise plus stable dose of insulin do not provide adequate glycaemic control.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ristaben"
+   }
+  ],
+  "first_authorisation_date": "2007-03-20"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1422",
+  "pref_name": "SITAGLIPTIN",
+  "max_phase": 4.0,
+  "atc": [
+   "A10BH01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "A10BH01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00683735,NCT00700817,NCT00760344,NCT00820573,NCT00832624,NCT00960453,NCT00969566,NCT01035879,NCT01100125,NCT01519674,NCT01652729,NCT01928199,NCT01930188,NCT02607865,NCT02849080,NCT02956044,NCT03061214,NCT03108521,NCT03893526,NCT04287387"
+     },
+     {
+      "type": "USAN",
+      "id": "SITAGLIPTIN"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02513771"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriasis",
+    "mesh_heading": "Psoriasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02347501"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-alcoholic fatty liver disease",
+    "mesh_heading": "Non-alcoholic Fatty Liver Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01963845"
+     }
+    ]
+   },
+   {
+    "efo_term": "congestive heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00657280"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic foot",
+    "mesh_heading": "Diabetic Foot",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02675335"
+     }
+    ]
+   },
+   {
+    "efo_term": "abnormal glucose tolerance",
+    "mesh_heading": "Glucose Intolerance",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00961363"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatitis C virus infection",
+    "mesh_heading": "Hepatitis C",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01567540"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02650427"
+     }
+    ]
+   },
+   {
+    "efo_term": "prediabetes syndrome",
+    "mesh_heading": "Prediabetic State",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01336322"
+     }
+    ]
+   },
+   {
+    "efo_term": "obesity",
+    "mesh_heading": "Obesity",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02697253,NCT05900531"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00095056"
+     }
+    ]
+   },
+   {
+    "efo_term": "Glucose intolerance",
+    "mesh_heading": "Glucose Intolerance",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01405911"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02683525,NCT04448587"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04365517"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00650143,NCT02377388"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05149365"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00768651,NCT00813228,NCT00837759,NCT01155284,NCT01159847,NCT02127047,NCT02328040,NCT05219409"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00086502,NCT00087516,NCT00094757,NCT00095056,NCT00106704,NCT00337610,NCT00350779,NCT00397631,NCT00411411,NCT00420511,NCT00425490,NCT00451113,NCT00481663,NCT00541775,NCT00616811,NCT00631488,NCT00637273,NCT00642278,NCT00666458,NCT00673894,NCT00676338,NCT00700817,NCT00701090,NCT00716092,NCT00734474,NCT00749190,NCT00754988,NCT00758069,NCT00789191,NCT00790205,NCT00813228,NCT00830076,NCT00837577,NCT00838903,NCT00842556,NCT00851903,NCT00854035,NCT00855166,NCT00860288,NCT00871507,NCT00881530,NCT00885352,NCT00901979,NCT00961480,NCT00961857,NCT00971659,NCT00975052,NCT00976261,NCT00976937,NCT00998686,NCT01028391,NCT01038648,NCT01046110,NCT01054118,NCT01059825,NCT01076088,NCT01081834,NCT01089790,NCT01093794,NCT01095991,NCT01098539,NCT01106677,NCT01106690,NCT01119846,NCT01128621,NCT01137812,NCT01169090,NCT01177813,NCT01289990,NCT01296412,NCT01334229,NCT01336738,NCT01338870,NCT01340768,NCT01376323,NCT01408888,NCT01414920,NCT01422590,NCT01455870,NCT01455909,NCT01462266,NCT01472367,NCT01475461,NCT01477853,NCT01485614,NCT01517321,NCT01529541,NCT01545388,NCT01557504,NCT01582308,NCT01590771,NCT01590797,NCT01602003,NCT01619332,NCT01678820,NCT01702298,NCT01703221,NCT01760447,NCT01794143,NCT01824264,NCT01834274,NCT01841697,NCT01930188,NCT01933672,NCT01936025,NCT01937598,NCT01969357,NCT01984606,NCT01999218,NCT02036515,NCT02099110,NCT02111096,NCT02173457,NCT02202161,NCT02226003,NCT02254291,NCT02284893,NCT02405260,NCT02444364,NCT02532855,NCT02536248,NCT02564211,NCT02577003,NCT02577016,NCT02607865,NCT02623998,NCT02628392,NCT02647320,NCT02689362,NCT02738879,NCT02749032,NCT02791490,NCT02849080,NCT02949193,NCT03061214,NCT03076112,NCT03115099,NCT03115112,NCT03125694,NCT03646721,NCT04017832,NCT04161430,NCT04271189,NCT04304261,NCT04365517,NCT04801199,NCT04982705,NCT05266404,NCT05549570,NCT05549583,NCT05833958,NCT06124495,NCT06124547,NCT06124560,NCT06124573,NCT06204107,NCT06246799,NCT06329882"
+     },
+     {
+      "type": "USAN",
+      "id": "SITAGLIPTIN"
+     }
+    ]
+   },
+   {
+    "efo_term": "cystic fibrosis",
+    "mesh_heading": "Cystic Fibrosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01257464"
+     }
+    ]
+   },
+   {
+    "efo_term": "hyperlipidemia",
+    "mesh_heading": "Hyperlipidemias",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01600703"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycystic ovary syndrome",
+    "mesh_heading": "Polycystic Ovary Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05972928"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-alcoholic steatohepatitis",
+    "mesh_heading": "Non-alcoholic Fatty Liver Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06054815"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05947825"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 199,
+  "earliest": {
+   "nct": "NCT00481663",
+   "start": "2003-08-19",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2006-10-16",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

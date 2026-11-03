@@ -1,0 +1,189 @@
+{
+ "moiety": "amivantamab",
+ "accessed_utc": "2026-11-03T17:16:46+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761210",
+    "date": "2021-05-21",
+    "brand": [
+     "RYBREVANT"
+    ]
+   },
+   {
+    "application": "BLA761433",
+    "date": "2025-12-17",
+    "brand": [
+     "RYBREVANT FASPRO",
+     "RYBREVANT FASPRO"
+    ]
+   },
+   {
+    "application": "BLA761484",
+    "date": "2026-02-13",
+    "brand": [
+     "RYBREVANT FASPRO",
+     "RYBREVANT FASPRO",
+     "RYBREVANT FASPRO"
+    ]
+   }
+  ],
+  "first_approval_date": "2021-05-21",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE RYBREVANT is a bispecific EGF receptor-directed and MET receptor-directed antibody indicated: in combination with lazertinib for the first-line treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 L858R substitution mutations, as detected by an FDA-approved test. ( 1 , 2.2 ) in combination with carboplatin and pemetrexed for the treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 19 deletions or exon 21 L858R substitution mutations, whose disease has progressed on or after treatment with an EGFR tyrosine kinase inhibitor. ( 1 , 2.2 ) in combination with carboplatin and pemetrexed for the first-line treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, as detected by an FDA-approved test. ( 1 , 2.2 ) as a single agent for the treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, as detected by an FDA-approved test, whose disease has progressed on or after platinum-based chemotherapy. ( 1 , 2.2 ) 1.1 First-Line Treatment of NSCLC with EGFR Exon 19 Deletions or Exon 21 L858R Substitution Mutations RYBREVANT, in combination with lazertinib, is indicated for the first-line treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 L858R substitution mutations, as detected by an FDA-approved test [see Dosage and Administration (2.2) ] . 1.2 Previously Treated NSCLC with EGFR Exon 19 Deletions or Exon 21 L858R Substitution Mutations RYBREVANT, in combination with carboplatin and pemetrexed, is indicated for the treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 19 deletions or exon 21 L858R substitution mutations, whose disease has progressed on or after treatment with an EGFR tyrosine kinase inhibitor [see Dosage and Administration (2.2) ] . 1.3 First-Line Treatment of NSCLC with EGFR Exon 20 Insertion Mutations RYBREVANT, in combination with carboplatin and pemetrexed, is indicated for the first-line treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, as detected by an FDA-approved test [see Dosage and Administration (2.2) ] . 1.4 Previously Treated NSCLC with EGFR Exon 20 Insertion Mutations RYBREVANT is indicated as a single agent for the treatment of adult patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations, as detected by an FDA-approved test [see Dosage and Administration (2.2) ] , whose disease has progressed on or after platinum-based chemotherapy."
+  ],
+  "query": "products.active_ingredients.name:\"amivantamab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Rybrevant",
+    "status": "Authorised",
+    "authorisation_date": "2021-12-09",
+    "atc": "L01FX18",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung",
+    "indication": "Rybrevant is indicated:  in combination with lazertinib for the first line treatment of adult patients with advanced non small cell lung cancer (NSCLC) with EGFR Exon 19 deletions or Exon 21 L858R substitution mutations. in combination with carboplatin and pemetrexed for the treatment of adult patients with advanced NSCLC with EGFR Exon&nbsp;19 deletions or Exon&nbsp;21 L858R substitution mutations after failure of prior therapy including an EGFR tyrosine kinase inhibitor (TKI). in combination with carboplatin and pemetrexed for the first line treatment of adult patients with advanced NSCLC with activating EGFR Exon 20 insertion mutations. as monotherapy for treatment of adult patients with advanced NSCLC with activating EGFR Exon 20 insertion mutations, after failure of platinum based therapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rybrevant"
+   }
+  ],
+  "first_authorisation_date": "2021-12-09"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297774",
+  "pref_name": "AMIVANTAMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FX18"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04077463,NCT04487080,NCT04538664,NCT04965090,NCT04988295,NCT05299125,NCT05388669,NCT05488314,NCT05498428,NCT05601973,NCT05663866,NCT05801029,NCT05908734,NCT06083857,NCT06116682,NCT06120140"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005454"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2021/761210s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FX18"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03767075"
+     },
+     {
+      "type": "USAN",
+      "id": "AMIVANTAMAB"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05117931"
+     }
+    ]
+   },
+   {
+    "efo_term": "salivary gland cancer",
+    "mesh_heading": "Salivary Gland Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05074940"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05653427"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06385080"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05845671"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL203"
+   },
+   {
+    "mechanism": "Hepatocyte growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3717"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 20,
+  "earliest": {
+   "nct": "NCT03767075",
+   "start": "2018-12-10",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2021-05-21",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

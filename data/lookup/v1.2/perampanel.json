@@ -1,0 +1,285 @@
+{
+ "moiety": "perampanel",
+ "accessed_utc": "2026-11-03T18:08:28+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA202834",
+    "date": "2012-10-22",
+    "brand": [
+     "FYCOMPA",
+     "FYCOMPA",
+     "FYCOMPA"
+    ]
+   },
+   {
+    "application": "NDA208277",
+    "date": "2016-04-29",
+    "brand": [
+     "FYCOMPA"
+    ]
+   }
+  ],
+  "first_approval_date": "2012-10-22",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE FYCOMPA, a non-competitive AMPA glutamate receptor antagonist, is indicated for: Treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older ( 1.1 ) Adjunctive therapy in the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older ( 1.2 ) 1.1 Partial - Onset Seizures FYCOMPA is indicated for the treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older. 1.2 Primary Generalized Tonic-Clonic Seizures FYCOMPA is indicated as adjunctive therapy for the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older.",
+   "1 INDICATIONS AND USAGE Perampanel tablets, a non-competitive AMPA glutamate receptor antagonist, is indicated for: Treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older ( 1.1 ) Adjunctive therapy in the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older ( 1.2 ) 1.1 Partial-Onset Seizures Perampanel tablets are indicated for the treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older. 1.2 Primary Generalized Tonic-Clonic Seizures Perampanel tablets are indicated as adjunctive therapy for the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older.",
+   "1 INDICATIONS AND USAGE Perampanel, a non-competitive AMPA glutamate receptor antagonist, is indicated for: Treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older ( 1.1 ) Adjunctive therapy in the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older ( 1.2 ) 1.1 Partial-Onset Seizures Perampanel oral suspension is indicated for the treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older. 1.2 Primary Generalized Tonic-Clonic Seizures Perampanel oral suspension is indicated as adjunctive therapy for the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older.",
+   "1 INDICATIONS AND USAGE Perampanel, a non-competitive AMPA glutamate receptor antagonist, is indicated for: Treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older ( 1.1 ) Adjunctive therapy in the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older ( 1.2 ) 1.1 Partial-Onset Seizures Perampanel tablets are indicated for the treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy 4 years of age and older. 1.2 Primary Generalized Tonic-Clonic Seizures Perampanel tablets are indicated as adjunctive therapy for the treatment of primary generalized tonic-clonic seizures in patients with epilepsy 12 years of age and older."
+  ],
+  "query": "products.active_ingredients.name:\"perampanel\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Fycompa",
+    "status": "Authorised",
+    "authorisation_date": "2012-07-23",
+    "atc": "N03AX22",
+    "therapeutic_area": "Epilepsies, Partial",
+    "indication": "Fycompa is indicated for the adjunctive treatment of partial-onset seizures with or without secondarily generalised seizures in adult and adolescent patients from 12 years of age with epilepsy. Fycompa is indicated for the adjunctive treatment of primary generalised tonic-clonic seizures in adult and adolescent patients from 12 years of age with idiopathic generalised epilepsy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fycompa"
+   }
+  ],
+  "first_authorisation_date": "2012-07-23"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1214124",
+  "pref_name": "PERAMPANEL",
+  "max_phase": 4.0,
+  "atc": [
+   "N03AX22"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N03AX22"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00144690,NCT00368472,NCT00416195,NCT00735397,NCT01161524,NCT01209858,NCT01240187,NCT01527006,NCT02220972,NCT02427607,NCT02726074,NCT02727101,NCT02914314,NCT03457129,NCT03780907,NCT04309721,NCT04417907,NCT05533814"
+     },
+     {
+      "type": "DailyMed",
+      "id": "71cf3309-e182-473c-8b0b-280cabd0e122"
+     }
+    ]
+   },
+   {
+    "efo_term": "Seizure",
+    "mesh_heading": "Seizures",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00699582,NCT00699972,NCT00700310,NCT00849212,NCT00903786,NCT01618695,NCT03201900,NCT04015141"
+     },
+     {
+      "type": "DailyMed",
+      "id": "71cf3309-e182-473c-8b0b-280cabd0e122"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential tremor",
+    "mesh_heading": "Essential Tremor",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02668146"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic neuropathy",
+    "mesh_heading": "Diabetic Neuropathies",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00505284"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuralgia",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00592774,NCT00592904"
+     }
+    ]
+   },
+   {
+    "efo_term": "Torticollis",
+    "mesh_heading": "Torticollis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02131467"
+     }
+    ]
+   },
+   {
+    "efo_term": "Bilateral tonic-clonic seizure",
+    "mesh_heading": "Epilepsy, Tonic-Clonic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02849626"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder, Major",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03973268"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy with generalized tonic-clonic seizures",
+    "mesh_heading": "Epilepsy, Tonic-Clonic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01393743"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03019419,NCT03377309,NCT03793868"
+     }
+    ]
+   },
+   {
+    "efo_term": "Parkinson disease",
+    "mesh_heading": "Parkinson Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00165789,NCT00286897,NCT00360308,NCT00360412,NCT00368108,NCT00427011,NCT00451633,NCT00505622,NCT00566462,NCT01172379,NCT01634360"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine disorder",
+    "mesh_heading": "Migraine Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00154063"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02120365,NCT04502589"
+     }
+    ]
+   },
+   {
+    "efo_term": "Lennox-Gastaut syndrome",
+    "mesh_heading": "Lennox Gastaut Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02834793"
+     }
+    ]
+   },
+   {
+    "efo_term": "partial epilepsy",
+    "mesh_heading": "Epilepsies, Partial",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002434"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03367533"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathy, small fiber",
+    "mesh_heading": "Small Fiber Neuropathy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02511873"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Glutamate receptor ionotropic AMPA antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL2096670"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 49,
+  "earliest": {
+   "nct": "NCT03780907",
+   "start": "2003-02-14",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2012-07-23",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

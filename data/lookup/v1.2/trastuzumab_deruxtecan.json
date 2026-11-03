@@ -1,0 +1,315 @@
+{
+ "moiety": "trastuzumab deruxtecan",
+ "accessed_utc": "2026-11-03T18:32:18+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761139",
+    "date": "2019-12-20",
+    "brand": [
+     "ENHERTU"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-12-20",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ENHERTU is a HER2-directed antibody and topoisomerase inhibitor conjugate indicated for: HER2-Positive Early Breast Cancer as neoadjuvant treatment of adult patients with HER2-positive (IHC 3+ or ISH+) Stage II or III breast cancer, as determined by an FDA-authorized test followed by a taxane, trastuzumab, and pertuzumab (THP). ( 1.1 ) as adjuvant treatment of adult patients with HER2-positive (IHC 3+ or ISH+) breast cancer who have residual invasive disease following neoadjuvant trastuzumab (with or without pertuzumab) and taxane-based treatment. ( 1.1 ) HER2-Positive Metastatic Breast Cancer in combination with pertuzumab as first-line treatment of adult patients with unresectable or metastatic HER2-positive (IHC 3+ or ISH+) breast cancer, as determined by an FDA-authorized test. ( 1.2 ) as monotherapy for the treatment of adult patients with unresectable or metastatic HER2-positive (IHC 3+ or ISH+) breast cancer who have received a prior anti-HER2-based regimen either in the metastatic setting, or, in the neoadjuvant or adjuvant setting and have developed disease recurrence during or within six months of completing therapy. ( 1.2 ) HER2-Low and HER2-Ultralow Metastatic Breast Cancer as monotherapy for the treatment of adult patients with unresectable or metastatic hormone receptor (HR)-positive, HER2-low (IHC 1+ or IHC 2+/ISH-) or HER2-ultralow (IHC 0 with membrane staining) breast cancer, as determined by an FDA-authorized test, that has progressed on one or more endocrine therapies in the metastatic setting. ( 1.3 ) as monotherapy for the treatment of adult patients with unresectable or metastatic HER2-low (IHC 1+ or IHC 2+/ISH-) breast cancer, as determined by an FDA-authorized test, who have received a prior chemotherapy in the metastatic setting; or developed disease recurrence during or within 6 months of completing adjuvant chemotherapy. ( 1.3 ) HER2-Mutant Unresectable or Metastatic Non-Small Cell Lung Cancer as monotherapy for the treatment of adult patients with unresectable or metastatic non-small cell lung cancer (NSCLC) whose tumors have activating HER2 (ERBB2) mutations, as detected by an FDA-authorized test, and who have received a prior systemic therapy* ( 1.4 ) HER2-Positive Locally Advanced or Metastatic Gastric Cancer as monotherapy for the treatment of adult patients with locally advanced or metastatic HER2-positive (IHC 3+ or IHC 2+/ISH positive) gastric or gastroesophageal junction adenocarcinoma who have received a prior trastuzumab-based regimen. ( 1.5 ) HER2-Positive (IHC 3+) Unresectable or Metastatic Solid Tumors as monotherapy for the treatment of adult patients with unresectable or metastatic HER2-positive (IHC 3+) solid tumors who have received prior systemic treatment and have no satisfactory alternative treatment options* ( 1.6 ) * These indications are approved under accelerated approval based on objective response rate and duration of response. Continued approval for this indication may"
+  ],
+  "query": "products.active_ingredients.name:\"trastuzumab deruxtecan\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Enhertu",
+    "status": "Authorised",
+    "authorisation_date": "2021-01-18",
+    "atc": "L01FD04",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Breast cancerHER2-positive breast cancerEnhertu as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic HER2-positive breast cancer who have received one or more prior anti-HER2-based regimens.HER2-low and HER2-ultralow breast cancerEnhertu as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic&nbsp;  hormone receptor (HR)-positive, HER2-low or HER2-ultralow breast cancer who have received at least one endocrine therapy in the metastatic setting and who are not considered suitable for endocrine therapy as the next line of treatment (see sections 4.2 and 5.1). HER2-low breast cancer who have received prior chemotherapy in the metastatic setting or developed disease recurrence during or within 6 months of completing adjuvant chemotherapy (see section 4.2).  Non-small cell lung cancer (NSCLC)Enhertu as monotherapy is indicated for the treatment of adult patients with advanced NSCLC whose tumours have an activating HER2 (ERBB2) mutation and who require systemic therapy following platinum-based chemotherapy with or without immunotherapy.Gastric cancer&nbsp;Enhertu as monotherapy is indicated for the treatment of adult patients with advanced HER2-positive gastric or gastroesophageal junction (GEJ) adenocarcinoma who have received a prior trastuzumab-based regimen. Other unresectable or metastatic solid tumours&nbsp;&nbsp;Enhertu as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic HER2-positive (IHC3+) solid tumours who have received prior treatment and who have no satisfactory treatment options (see sections 4.4 and 5.1; for biomarker-based patient selection, see section 4.2).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enhertu"
+   }
+  ],
+  "first_authorisation_date": "2021-01-18"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297844",
+  "pref_name": "TRASTUZUMAB DERUXTECAN",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FD04"
+  ],
+  "molecule_type": "Antibody drug conjugate",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FD04"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02564900,NCT04639219,NCT05372614,NCT06311214"
+     },
+     {
+      "type": "USAN",
+      "id": "TRASTUZUMAB DERUXTECAN"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03742102,NCT04132960,NCT05113251"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005124"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03384940"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03383692"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03334617,NCT03505710,NCT04644237,NCT05048797,NCT05246514,NCT06250777"
+     }
+    ]
+   },
+   {
+    "efo_term": "digestive system neoplasm",
+    "mesh_heading": "Digestive System Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03329690"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03248492,NCT03366428,NCT03424005,NCT03523585,NCT03529110,NCT03734029,NCT04494425,NCT04538742,NCT04622319,NCT04739761,NCT04752059,NCT04784715,NCT05113251,NCT05633979,NCT05704829,NCT05710666,NCT05744375,NCT05795101,NCT05900206,NCT05950945,NCT06048718,NCT06102824,NCT06172127,NCT06328387,NCT06331169,NCT06429761"
+     },
+     {
+      "type": "DailyMed",
+      "id": "7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04294628,NCT04553770"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04616560"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04379596,NCT05274048"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric adenocarcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04989816"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05795101"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05417594"
+     }
+    ]
+   },
+   {
+    "efo_term": "stomach neoplasm",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06085755"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05953168"
+     }
+    ]
+   },
+   {
+    "efo_term": "HER2 Positive Breast Carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04539938"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract cancer",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06467357"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastroesophageal junction adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04014075"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04744831,NCT05845450"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05965479"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+    "action_type": "BINDING AGENT",
+    "target": "CHEMBL1824"
+   },
+   {
+    "mechanism": "DNA topoisomerase I inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1781"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 55,
+  "earliest": {
+   "nct": "NCT03248492",
+   "start": "2017-08-25",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-12-20",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

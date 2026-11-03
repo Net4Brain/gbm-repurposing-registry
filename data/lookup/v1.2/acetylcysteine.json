@@ -1,0 +1,1537 @@
+{
+ "moiety": "acetylcysteine",
+ "accessed_utc": "2026-11-03T17:13:38+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA013601",
+    "date": "1963-09-14",
+    "brand": [
+     "MUCOMYST",
+     "MUCOMYST"
+    ]
+   },
+   {
+    "application": "NDA021539",
+    "date": "2004-01-23",
+    "brand": [
+     "ACETADOTE"
+    ]
+   },
+   {
+    "application": "NDA207916",
+    "date": "2016-01-29",
+    "brand": [
+     "CETYLEV",
+     "CETYLEV"
+    ]
+   },
+   {
+    "application": "NDA215040",
+    "date": "2024-02-13",
+    "brand": [
+     "LEGUBETI",
+     "LEGUBETI"
+    ]
+   }
+  ],
+  "first_approval_date": "1963-09-14",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ACETADOTE is indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in adults and pediatric patients who weigh 5 kg or greater with acute ingestion or from repeated supratherapeutic ingestion (RSI). ACETADOTE is an antidote for acetaminophen overdose indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in adults and pediatric patients who weigh 5 kg or greater with acute ingestion or from repeated supratherapeutic ingestion (RSI) ( 1 ).",
+   "1 INDICATIONS AND USAGE Acetylcysteine Injection is indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in patients with acute ingestion or from repeated supratherapeutic ingestion (RSI). Acetylcysteine Injection is an antidote for acetaminophen overdose indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in patients with an acute ingestion or from repeated supratherapeutic ingestion (RSI) ( 1 ).",
+   "1 INDICATIONS AND USAGE Acetylcysteine injection is indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in adults and pediatric patients who weigh 5 kg or greater with acute ingestion or from repeated supratherapeutic ingestion (RSI). Acetylcysteine injection is an antidote for acetaminophen overdose indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in adults and pediatric patients who weigh 5 kg or greater with an acute ingestion or from repeated supratherapeutic ingestion (RSI) (1).",
+   "1 INDICATIONS AND USAGE Acetylcysteine injection is indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in patients with acute ingestion or from repeated supratherapeutic ingestion (RSI). Acetylcysteine injection is an antidote for acetaminophen overdose indicated to prevent or lessen hepatic injury after ingestion of a potentially hepatotoxic quantity of acetaminophen in patients with an acute ingestion or from repeated supratherapeutic ingestion (RSI) ( 1 )."
+  ],
+  "query": "products.active_ingredients.name:\"acetylcysteine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL600",
+  "pref_name": "ACETYLCYSTEINE",
+  "max_phase": 4.0,
+  "atc": [
+   "R05CB01",
+   "S01XA08",
+   "V03AB23"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "hearing loss",
+    "mesh_heading": "Hearing Loss",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00552786,NCT01131468,NCT01271088,NCT02259595,NCT04291209"
+     }
+    ]
+   },
+   {
+    "efo_term": "dry eye syndrome",
+    "mesh_heading": "Dry Eye Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01015209,NCT01753752"
+     }
+    ]
+   },
+   {
+    "efo_term": "rhabdomyolysis",
+    "mesh_heading": "Rhabdomyolysis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00391911"
+     }
+    ]
+   },
+   {
+    "efo_term": "common cold",
+    "mesh_heading": "Common Cold",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02379637,NCT05070650"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug-induced liver injury",
+    "mesh_heading": "Chemical and Drug Induced Liver Injury",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01118663"
+     },
+     {
+      "type": "DailyMed",
+      "id": "d990ef51-ced2-4359-b99b-092334d2dc9b"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01612221"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney disease",
+    "mesh_heading": "Kidney Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00497328,NCT00575419,NCT00780962,NCT00830193,NCT01017796,NCT01704482,NCT02088502"
+     }
+    ]
+   },
+   {
+    "efo_term": "injury",
+    "mesh_heading": "Wounds and Injuries",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03679442"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5558a5f5-e821-473b-7d8a-5d33d09f0586"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycystic ovary syndrome",
+    "mesh_heading": "Polycystic Ovary Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02775734,NCT03164421"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-traumatic stress disorder",
+    "mesh_heading": "Stress Disorders, Post-Traumatic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01664260"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00453180,NCT00627705,NCT00676195"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00751257,NCT02723162,NCT02737358"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00440869,NCT00506506,NCT00998972,NCT01210456,NCT01251029,NCT03636932,NCT04916080"
+     }
+    ]
+   },
+   {
+    "efo_term": "obsessive-compulsive disorder",
+    "mesh_heading": "Obsessive-Compulsive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00539513,NCT01172275,NCT01555970"
+     }
+    ]
+   },
+   {
+    "efo_term": "idiopathic pulmonary fibrosis",
+    "mesh_heading": "Idiopathic Pulmonary Fibrosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02707640,NCT03720483,NCT04300920"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lung injury",
+    "mesh_heading": "Acute Lung Injury",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00655928"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tourette syndrome",
+    "mesh_heading": "Tourette Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01172288"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01840345"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypertrophic cardiomyopathy",
+    "mesh_heading": "Cardiomyopathy, Hypertrophic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01537926"
+     }
+    ]
+   },
+   {
+    "efo_term": "mental or behavioural disorder",
+    "mesh_heading": "Mental Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01354132"
+     }
+    ]
+   },
+   {
+    "efo_term": "cocaine dependence",
+    "mesh_heading": "Cocaine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00136825,NCT00218491,NCT02124941,NCT02994875,NCT03423667,NCT03556371,NCT04155632"
+     }
+    ]
+   },
+   {
+    "efo_term": "altitude sickness",
+    "mesh_heading": "Altitude Sickness",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01187108"
+     }
+    ]
+   },
+   {
+    "efo_term": "myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00463749,NCT01878344"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hepatitis, Alcoholic",
+    "mesh_heading": "Hepatitis, Alcoholic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00863785,NCT00962442"
+     }
+    ]
+   },
+   {
+    "efo_term": "pyelonephritis",
+    "mesh_heading": "Pyelonephritis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02080182"
+     }
+    ]
+   },
+   {
+    "efo_term": "methamphetamine dependence",
+    "mesh_heading": "Amphetamine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00332605,NCT01063205,NCT04405193"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic foot",
+    "mesh_heading": "Diabetic Foot",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01082445"
+     }
+    ]
+   },
+   {
+    "efo_term": "ischemia reperfusion injury",
+    "mesh_heading": "Reperfusion Injury",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01771978"
+     }
+    ]
+   },
+   {
+    "efo_term": "autoimmune thrombocytopenic purpura",
+    "mesh_heading": "Purpura, Thrombocytopenic, Idiopathic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01808521,NCT03460808,NCT04368598,NCT05551624"
+     }
+    ]
+   },
+   {
+    "efo_term": "atrial fibrillation",
+    "mesh_heading": "Atrial Fibrillation",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02750319"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003346"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse scleroderma",
+    "mesh_heading": "Scleroderma, Diffuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00428883"
+     }
+    ]
+   },
+   {
+    "efo_term": "infertility",
+    "mesh_heading": "Infertility",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02493933,NCT03241472"
+     }
+    ]
+   },
+   {
+    "efo_term": "bacteriemia",
+    "mesh_heading": "Bacteremia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02040818"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00453180,NCT03008889,NCT04278898,NCT05494398,NCT05664789"
+     }
+    ]
+   },
+   {
+    "efo_term": "Asperger syndrome",
+    "mesh_heading": "Asperger Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00453180"
+     }
+    ]
+   },
+   {
+    "efo_term": "myopathy",
+    "mesh_heading": "Muscular Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02505087"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol drinking",
+    "mesh_heading": "Alcohol Drinking",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03238300"
+     }
+    ]
+   },
+   {
+    "efo_term": "gambling behaviour",
+    "mesh_heading": "Gambling",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00273702"
+     }
+    ]
+   },
+   {
+    "efo_term": "bulimia nervosa",
+    "mesh_heading": "Bulimia Nervosa",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01033149"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic bronchitis",
+    "mesh_heading": "Bronchitis, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00205647"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute respiratory distress syndrome",
+    "mesh_heading": "Respiratory Distress Syndrome",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03346681"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug-induced hepatitis",
+    "mesh_heading": "Chemical and Drug Induced Liver Injury",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02182167"
+     }
+    ]
+   },
+   {
+    "efo_term": "noise-induced hearing loss",
+    "mesh_heading": "Hearing Loss, Noise-Induced",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02259595"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuromuscular disease",
+    "mesh_heading": "Neuromuscular Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02362425"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thrombocytopenia",
+    "mesh_heading": "Thrombocytopenia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03391856"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cognitive impairment",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00611897,NCT03306979,NCT03493178"
+     }
+    ]
+   },
+   {
+    "efo_term": "Gaucher disease type 1",
+    "mesh_heading": "Gaucher Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02583672"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic obstructive pulmonary disease",
+    "mesh_heading": "Pulmonary Disease, Chronic Obstructive",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03956888,NCT05706402"
+     }
+    ]
+   },
+   {
+    "efo_term": "respiratory system disease",
+    "mesh_heading": "Respiratory Tract Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03843541"
+     }
+    ]
+   },
+   {
+    "efo_term": "premature birth",
+    "mesh_heading": "Premature Birth",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03596125"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00542750,NCT01005810,NCT01439828,NCT01675661,NCT03055377,NCT03154580"
+     }
+    ]
+   },
+   {
+    "efo_term": "sinusitis",
+    "mesh_heading": "Sinusitis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04123405"
+     }
+    ]
+   },
+   {
+    "efo_term": "female infertility",
+    "mesh_heading": "Infertility, Female",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03862586,NCT05460858"
+     }
+    ]
+   },
+   {
+    "efo_term": "ST Elevation Myocardial Infarction",
+    "mesh_heading": "ST Elevation Myocardial Infarction",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04023266"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary fibrosis",
+    "mesh_heading": "Pulmonary Fibrosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00639496,NCT00650091"
+     }
+    ]
+   },
+   {
+    "efo_term": "kidney failure",
+    "mesh_heading": "Renal Insufficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00211653"
+     }
+    ]
+   },
+   {
+    "efo_term": "eye disease",
+    "mesh_heading": "Eye Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "S01XA08"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiac arrhythmia",
+    "mesh_heading": "Arrhythmias, Cardiac",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04154982"
+     }
+    ]
+   },
+   {
+    "efo_term": "transposition of the great arteries",
+    "mesh_heading": "Transposition of Great Vessels",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00374088"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder, Major",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02269540"
+     }
+    ]
+   },
+   {
+    "efo_term": "substance abuse",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01063205"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute kidney failure",
+    "mesh_heading": "Acute Kidney Injury",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00736866"
+     }
+    ]
+   },
+   {
+    "efo_term": "homocystinuria",
+    "mesh_heading": "Homocystinuria",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00483314"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01878695,NCT03121989"
+     }
+    ]
+   },
+   {
+    "efo_term": "thrombotic thrombocytopenic purpura",
+    "mesh_heading": "Purpura, Thrombotic Thrombocytopenic",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01808521"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain injury",
+    "mesh_heading": "Brain Injuries",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01322009,NCT04291066"
+     }
+    ]
+   },
+   {
+    "efo_term": "irritable bowel syndrome",
+    "mesh_heading": "Irritable Bowel Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04557215"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01878669"
+     }
+    ]
+   },
+   {
+    "efo_term": "fibromyalgia",
+    "mesh_heading": "Fibromyalgia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04594733"
+     }
+    ]
+   },
+   {
+    "efo_term": "mucositis",
+    "mesh_heading": "Mucositis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04756622,NCT06482034"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03730064"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatic veno-occlusive disease",
+    "mesh_heading": "Hepatic Veno-Occlusive Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04712435"
+     }
+    ]
+   },
+   {
+    "efo_term": "respiratory tract infectious disorder",
+    "mesh_heading": "Respiratory Tract Infections",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02688361"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04370288,NCT04374461,NCT04545008,NCT04703036,NCT04792021,NCT04928495,NCT05658549,NCT05736887"
+     }
+    ]
+   },
+   {
+    "efo_term": "Fuchs endothelial corneal dystrophy",
+    "mesh_heading": "Fuchs' Endothelial Dystrophy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04440280"
+     }
+    ]
+   },
+   {
+    "efo_term": "stroke",
+    "mesh_heading": "Stroke",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04920448"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myocardial infarction",
+    "mesh_heading": "Myocardial Infarction",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01741207"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ischemic stroke",
+    "mesh_heading": "Ischemic Stroke",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04918719"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04945096"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05485558"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential thrombocythemia",
+    "mesh_heading": "Thrombocythemia, Essential",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05123365"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05081479"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycythemia vera",
+    "mesh_heading": "Polycythemia Vera",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05123365"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic progressive multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis, Chronic Progressive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05122559"
+     }
+    ]
+   },
+   {
+    "efo_term": "persian gulf syndrome",
+    "mesh_heading": "Persian Gulf Syndrome",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04987775"
+     }
+    ]
+   },
+   {
+    "efo_term": "pseudomyxoma peritonei",
+    "mesh_heading": "Pseudomyxoma Peritonei",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04982146"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar I disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05340504"
+     }
+    ]
+   },
+   {
+    "efo_term": "Abnormality of blood and blood-forming tissues",
+    "mesh_heading": "Hematologic Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03252925"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04740580"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01506765,NCT01885338,NCT03149107"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00609102"
+     }
+    ]
+   },
+   {
+    "efo_term": "Parkinson disease",
+    "mesh_heading": "Parkinson Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01470027,NCT02212678,NCT03104725,NCT04459052"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00203099,NCT01381354,NCT05122559"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00568087,NCT01214083,NCT03120468,NCT03216954,NCT03707951,NCT04964843"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary atresia",
+    "mesh_heading": "Biliary Atresia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03499249,NCT06260566"
+     }
+    ]
+   },
+   {
+    "efo_term": "cystic fibrosis",
+    "mesh_heading": "Cystic Fibrosis",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00809094,NCT00996424"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5558a5f5-e821-473b-7d8a-5d33d09f0586"
+     },
+     {
+      "type": "DailyMed",
+      "id": "75b48fab-cef6-465c-a1e0-d085b3988bc4"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c90fca12-12fb-4cf6-bd6f-83bc0d95df81"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01800526,NCT01849016"
+     }
+    ]
+   },
+   {
+    "efo_term": "adrenomyeloneuropathy",
+    "mesh_heading": "Adrenoleukodystrophy",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01495260"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cornelia de Lange syndrome",
+    "mesh_heading": "De Lange Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04381897"
+     }
+    ]
+   },
+   {
+    "efo_term": "beta-thalassemia major",
+    "mesh_heading": "beta-Thalassemia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04260516"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03702738,NCT05686356"
+     }
+    ]
+   },
+   {
+    "efo_term": "neurofibromatosis type 1",
+    "mesh_heading": "Neurofibromatosis 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04481035,NCT04481048"
+     }
+    ]
+   },
+   {
+    "efo_term": "Niemann-Pick disease type C",
+    "mesh_heading": "Niemann-Pick Disease, Type C",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00975689"
+     }
+    ]
+   },
+   {
+    "efo_term": "retinitis pigmentosa",
+    "mesh_heading": "Retinitis Pigmentosa",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03063021,NCT04864496,NCT05537220"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05123365"
+     }
+    ]
+   },
+   {
+    "efo_term": "mitochondrial disease",
+    "mesh_heading": "Mitochondrial Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05241262"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05796401"
+     }
+    ]
+   },
+   {
+    "efo_term": "influenza",
+    "mesh_heading": "Influenza, Human",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03900988"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriasis vulgaris",
+    "mesh_heading": "Psoriasis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05906498"
+     }
+    ]
+   },
+   {
+    "efo_term": "thrombotic disease",
+    "mesh_heading": "Thrombosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05907486"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01797575,NCT02294591,NCT03730064,NCT05340504"
+     }
+    ]
+   },
+   {
+    "efo_term": "Huntington disease",
+    "mesh_heading": "Huntington Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05509153"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00775476"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06024031"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatitis",
+    "mesh_heading": "Pancreatitis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06252441"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine fibroid",
+    "mesh_heading": "Leiomyoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06115408"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02348775"
+     }
+    ]
+   },
+   {
+    "efo_term": "age-related macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06165068"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-alcoholic fatty liver disease",
+    "mesh_heading": "Non-alcoholic Fatty Liver Disease",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06105060"
+     }
+    ]
+   },
+   {
+    "efo_term": "aging",
+    "mesh_heading": "Aging",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01384591"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral mucositis",
+    "mesh_heading": "Stomatitis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06354712"
+     }
+    ]
+   },
+   {
+    "efo_term": "Anosmia",
+    "mesh_heading": "Anosmia",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02481609"
+     }
+    ]
+   },
+   {
+    "efo_term": "Jaundice",
+    "mesh_heading": "Jaundice",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06236165"
+     }
+    ]
+   },
+   {
+    "efo_term": "cocaine abuse",
+    "mesh_heading": "Cocaine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02141620"
+     }
+    ]
+   },
+   {
+    "efo_term": "trichotillomania",
+    "mesh_heading": "Trichotillomania",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00354770,NCT00993265"
+     }
+    ]
+   },
+   {
+    "efo_term": "cystinosis",
+    "mesh_heading": "Cystinosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05994534"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute liver failure",
+    "mesh_heading": "Liver Failure, Acute",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004467"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic renal failure syndrome",
+    "mesh_heading": "Kidney Failure, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00122018,NCT01232257"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Glutathione precursor",
+    "action_type": null,
+    "target": null
+   },
+   {
+    "mechanism": "Mycolytic",
+    "action_type": null,
+    "target": null
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 180,
+  "earliest": {
+   "nct": "NCT00205647",
+   "start": "1997-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1963-09-14",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

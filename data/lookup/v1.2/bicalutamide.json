@@ -1,0 +1,284 @@
+{
+ "moiety": "bicalutamide",
+ "accessed_utc": "2026-11-03T17:24:05+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA020498",
+    "date": "1995-10-04",
+    "brand": [
+     "CASODEX"
+    ]
+   },
+   {
+    "application": "NDA022310",
+    "date": "2008-12-19",
+    "brand": [
+     "CASODEX"
+    ]
+   }
+  ],
+  "first_approval_date": "1995-10-04",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Bicalutamide tablets 50 mg daily is indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments [see Clinical Studies ( 14.2 ) ]. Bicalutamide tablets 50 mg is an androgen receptor inhibitor indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. ( 1 ) Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments ( 1 )",
+   "1 INDICATIONS AND USAGE Bicalutamide tablets, USP 50 mg daily are indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. Bicalutamide tablets, USP 150 mg daily are not approved for use alone or with other treatments [see Clinical Studies (14.2)]. \u2022 Bicalutamide tablet 50 mg is an androgen receptor inhibitor indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. (1) \u2022 Bicalutamide tablet 150 mg daily is not approved for use alone or with other treatments. (1)",
+   "1. INDICATIONS AND USAGE Bicalutamide tablets 50 mg daily is indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments [see Clinical Studies (14.2) ]. Bicalutamide tablets 50 mg is an androgen receptor inhibitor indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. ( 1 ) Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments. ( 1 )",
+   "1. INDICATIONS AND USAGE Bicalutamide tablets 50 mg daily is indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments [see Clinical Studies (14.2) ]. Bicalutamide tablets 50 mg is an androgen receptor inhibitor indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. (1) Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments. (1)",
+   "1. INDICATIONS AND USAGE Bicalutamide tablets 50 mg daily is indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments [see Clinical Studies (14.2) ]. \u2022 Bicalutamide tablets 50 mg is an androgen receptor inhibitor indicated for use in combination therapy with a luteinizing hormone-releasing hormone (LHRH) analog for the treatment of Stage D 2 metastatic carcinoma of the prostate. (1) \u2022 Bicalutamide tablets 150 mg daily is not approved for use alone or with other treatments. (1)"
+  ],
+  "query": "products.active_ingredients.name:\"bicalutamide\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL409",
+  "pref_name": "BICALUTAMIDE",
+  "max_phase": 4.0,
+  "atc": [
+   "L02BB03"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003517,NCT00075192,NCT00165399,NCT00170157,NCT00512668,NCT00514917,NCT00521781,NCT00544830,NCT00589472,NCT00666666,NCT00878436,NCT01050842,NCT01120236,NCT01200810,NCT01288911,NCT01786265,NCT02058706,NCT02064036,NCT02346253,NCT02531516,NCT03070886,NCT03119857,NCT03147196,NCT03587285,NCT04734730,NCT04943536,NCT05050084"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00657904,NCT00672282,NCT00673205,NCT02487823,NCT04787744"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00108732,NCT00170157,NCT00298155,NCT00486642,NCT00586898,NCT01251861,NCT02614859"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03650894"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02353988,NCT06365788"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L02BB03"
+     }
+    ]
+   },
+   {
+    "efo_term": "Gynecomastia",
+    "mesh_heading": "Gynecomastia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00637871"
+     }
+    ]
+   },
+   {
+    "efo_term": "precocious puberty",
+    "mesh_heading": "Puberty, Precocious",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00094328"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneum cancer",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00012090"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00012090"
+     }
+    ]
+   },
+   {
+    "efo_term": "salivary gland cancer",
+    "mesh_heading": "Salivary Gland Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01969578"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00468715,NCT02299999,NCT02348281,NCT02605486,NCT02697032,NCT02910050,NCT03055312,NCT03090165,NCT03650894"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00012090,NCT03458221"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002633,NCT00002651,NCT00002855,NCT00002874,NCT00003026,NCT00003517,NCT00003653,NCT00003915,NCT00004054,NCT00004124,NCT00005044,NCT00014586,NCT00021450,NCT00023829,NCT00026377,NCT00028769,NCT00030654,NCT00031889,NCT00055731,NCT00067015,NCT00086736,NCT00099086,NCT00108732,NCT00223171,NCT00233610,NCT00243646,NCT00244920,NCT00328614,NCT00348998,NCT00349557,NCT00388804,NCT00418080,NCT00421694,NCT00482807,NCT00528866,NCT00554086,NCT00630344,NCT00631527,NCT00651326,NCT00658697,NCT00659438,NCT00669162,NCT00684905,NCT00685633,NCT00702923,NCT00757692,NCT00769795,NCT00771017,NCT00776594,NCT00814788,NCT00831233,NCT00833248,NCT00841113,NCT00846976,NCT00884273,NCT00924807,NCT00936390,NCT00943956,NCT00959335,NCT00960310,NCT01200810,NCT01250717,NCT01313273,NCT01420250,NCT01658527,NCT01664923,NCT01674270,NCT01809691,NCT02058706,NCT02059213,NCT02085252,NCT02382094,NCT02678520,NCT02716974,NCT02742675,NCT03043807,NCT03141671,NCT03358563,NCT03520478,NCT03541928,NCT03809000,NCT04025372,NCT04734730,NCT05019846"
+     }
+    ]
+   },
+   {
+    "efo_term": "severe acute respiratory syndrome",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04652765"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04374279,NCT04509999,NCT04652765"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "dfee4fe7-8478-4a3e-925d-00be3cd0ab67"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05327647"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06018116"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Androgen Receptor antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL1871"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 138,
+  "earliest": {
+   "nct": "NCT00846976",
+   "start": "1994-12",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1995-10-04",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

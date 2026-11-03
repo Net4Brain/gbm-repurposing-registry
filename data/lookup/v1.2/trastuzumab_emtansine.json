@@ -1,0 +1,255 @@
+{
+ "moiety": "trastuzumab emtansine",
+ "accessed_utc": "2026-11-03T18:32:43+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA125427",
+    "date": "2013-02-22",
+    "brand": [
+     "KADCYLA",
+     "KADCYLA"
+    ]
+   }
+  ],
+  "first_approval_date": "2013-02-22",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE KADCYLA is a HER2-targeted antibody and microtubule inhibitor conjugate indicated, as a single agent, for: the treatment of patients with HER2-positive, metastatic breast cancer who previously received trastuzumab and a taxane, separately or in combination. Patients should have either: received prior therapy for metastatic disease, or developed disease recurrence during or within six months of completing adjuvant therapy. ( 1.1 ) the adjuvant treatment of patients with HER2-positive early breast cancer who have residual invasive disease after neoadjuvant taxane and trastuzumab-based treatment. ( 1.2 ) Select patients for therapy based on an FDA-authorized test for KADCYLA [see Dosage and Administration (2.1) ] 1.1 Metastatic Breast Cancer (MBC) KADCYLA \u00ae , as a single agent, is indicated for the treatment of patients with HER2-positive, metastatic breast cancer who previously received trastuzumab and a taxane, separately or in combination. Patients should have either: Received prior therapy for metastatic disease, or Developed disease recurrence during or within six months of completing adjuvant therapy. Select patients for therapy based on an FDA-authorized test for KADCYLA [ see Dosage and Administration (2.1) ]. 1.2 Early Breast Cancer (EBC) KADCYLA, as a single agent, is indicated for the adjuvant treatment of patients with HER2-positive early breast cancer who have residual invasive disease after neoadjuvant taxane and trastuzumab -based treatment. Select patients for therapy based on an FDA-authorized test for KADCYLA [ see Dosage and Administration (2.1) ]."
+  ],
+  "query": "products.active_ingredients.name:\"trastuzumab emtansine\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Kadcyla",
+    "status": "Authorised",
+    "authorisation_date": "2013-11-15",
+    "atc": "L01FD03",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Early Breast Cancer (EBC) Kadcyla, as a single agent, is indicated for the adjuvant treatment of adult patients with HER2-positive early breast cancer who have residual invasive disease, in the breast and/or lymph nodes, after neoadjuvant taxane-based and HER2-targeted therapy. Metastatic Breast Cancer (MBC) Kadcyla, as a single agent, is indicated for the treatment of adult patients with HER2-positive, unresectable locally advanced or metastatic breast cancer who previously received trastuzumab and a taxane, separately or in combination. Patients should have either:  Received prior therapy for locally advanced or metastatic disease, or Developed disease recurrence during or within six months of completing adjuvant therapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kadcyla"
+   }
+  ],
+  "first_authorisation_date": "2013-11-15"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1743082",
+  "pref_name": "TRASTUZUMAB EMTANSINE",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FD03"
+  ],
+  "molecule_type": "Antibody drug conjugate",
+  "indications": [
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01816035,NCT04266249,NCT04351230,NCT06348134"
+     },
+     {
+      "type": "DailyMed",
+      "id": "23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02289833,NCT02314481,NCT03784599"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FD03"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04341181,NCT04589845"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02131064,NCT03153163"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/002389"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00781612"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01641939,NCT01702558"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00509769,NCT00679211,NCT00679341,NCT00829166,NCT00875979,NCT00934856,NCT00943670,NCT00951665,NCT01120184,NCT01196052,NCT01419197,NCT01494662,NCT01513083,NCT01565200,NCT01702558,NCT01702571,NCT01745965,NCT01772472,NCT01835236,NCT01853748,NCT01904903,NCT01966471,NCT01976169,NCT01983501,NCT02038010,NCT02070094,NCT02073487,NCT02073916,NCT02144012,NCT02236000,NCT02326974,NCT02390427,NCT02605915,NCT02657343,NCT02658084,NCT02658734,NCT02725541,NCT02924883,NCT03032107,NCT03084939,NCT03429101,NCT03529110,NCT03530696,NCT03587740,NCT03709082,NCT03726879,NCT03894007,NCT04042051,NCT04296942,NCT04298918,NCT04398914,NCT04419181,NCT04509596,NCT04622319,NCT04675827,NCT04733118,NCT04740918,NCT04873362,NCT04924699,NCT05288777,NCT05429684,NCT05755048,NCT06126640,NCT06265428,NCT06348134"
+     },
+     {
+      "type": "DailyMed",
+      "id": "23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04439110"
+     }
+    ]
+   },
+   {
+    "efo_term": "salivary gland cancer",
+    "mesh_heading": "Salivary Gland Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04620187,NCT05408845"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05415215"
+     }
+    ]
+   },
+   {
+    "efo_term": "salivary gland carcinoma",
+    "mesh_heading": "Salivary Gland Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05408845"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04486352"
+     }
+    ]
+   },
+   {
+    "efo_term": "HER2 Positive Breast Carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02414646,NCT03364348,NCT03530696,NCT04351230,NCT04457596"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04341181,NCT04632992"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+    "action_type": "BINDING AGENT",
+    "target": "CHEMBL1824"
+   },
+   {
+    "mechanism": "Tubulin inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2095182"
+   },
+   {
+    "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+    "action_type": "BINDING AGENT",
+    "target": "CHEMBL1824"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 85,
+  "earliest": {
+   "nct": "NCT00509769",
+   "start": "2007-07",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2013-02-22",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

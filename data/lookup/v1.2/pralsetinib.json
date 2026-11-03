@@ -1,0 +1,162 @@
+{
+ "moiety": "pralsetinib",
+ "accessed_utc": "2026-11-03T18:11:11+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA213721",
+    "date": "2020-09-04",
+    "brand": [
+     "GAVRETO"
+    ]
+   },
+   {
+    "application": "NDA214701",
+    "date": "2020-12-01",
+    "brand": [
+     "GAVRETO"
+    ]
+   }
+  ],
+  "first_approval_date": "2020-09-04",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE GAVRETO is a kinase inhibitor indicated for treatment of: Adult patients with metastatic rearranged during transfection (RET ) fusion-positive non-small cell lung cancer as detected by an FDA approved test (NSCLC). ( 1.1 ) Adult and pediatric patients 12 years of age and older with advanced or metastatic RET fusion-positive thyroid cancer who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate). This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trial(s). ( 1.2 ) 1.1 Metastatic RET Fusion-Positive Non-Small Cell Lung Cancer GAVRETO is indicated for the treatment of adult patients with metastatic RET fusion-positive non-small cell lung cancer (NSCLC) as detected by an FDA approved test. 1.2 RET Fusion-Positive Thyroid Cancer GAVRETO is indicated for the treatment of adult and pediatric patients 12 years of age and older with advanced or metastatic RET fusion-positive thyroid cancer who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate). This indication is approved under accelerated approval based on overall response rate and duration of response [see Clinical Studies (14.2) ] . Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trial(s)."
+  ],
+  "query": "products.active_ingredients.name:\"pralsetinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Gavreto",
+    "status": "Withdrawn",
+    "authorisation_date": "2021-11-18",
+    "atc": "L01EX23",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung",
+    "indication": "Gavreto is indicated as monotherapy for the treatment of adult patients with rearranged during transfection (RET) fusion-positive advanced non-small cell lung cancer (NSCLC) not previously treated with a RET inhibitor.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/gavreto"
+   }
+  ],
+  "first_authorisation_date": "2021-11-18"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4582651",
+  "pref_name": "PRALSETINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX23"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005413"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/213721s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX23"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04589845,NCT05159245"
+     },
+     {
+      "type": "USAN",
+      "id": "PRALSETINIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "medullary thyroid gland carcinoma",
+    "mesh_heading": "Carcinoma, Medullary",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04760288"
+     },
+     {
+      "type": "DailyMed",
+      "id": "beb226ab-f684-42de-93a4-edb2263ddb11"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04632992,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06482086"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2041"
+   },
+   {
+    "mechanism": "Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3430904"
+   },
+   {
+    "mechanism": "Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3430888"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 5,
+  "earliest": {
+   "nct": "NCT04632992",
+   "start": "2021-01-13",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2020-09-04",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "moiety": "mercaptopurine",
+ "accessed_utc": "2026-11-03T17:55:08+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA009053",
+    "date": "1953-09-11",
+    "brand": [
+     "PURINETHOL"
+    ]
+   },
+   {
+    "application": "NDA205919",
+    "date": "2014-04-28",
+    "brand": [
+     "PURIXAN"
+    ]
+   }
+  ],
+  "first_approval_date": "1953-09-11",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE MERCAPTOPURINE is a nucleoside metabolic inhibitor indicated for the treatment of patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen. ( 1.1 ) 1.1 Acute Lymphoblastic Leukemia MERCAPTOPURINE is indicated for the treatment of patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen.",
+   "1 INDICATIONS AND USAGE Mercaptopurine Tablets is a nucleoside metabolic inhibitor indicated for treatment of adult and pediatric patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen. (1.1) 1.1 Acute Lymphoblastic Leukemia Mercaptopurine Tablets are indicated for treatment of adult and pediatric patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen.",
+   "1 INDICATIONS AND USAGE Mercaptopurine is a nucleoside metabolic inhibitor indicated for the treatment of patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen. ( 1.1 ) 1.1 Acute Lymphoblastic Leukemia Mercaptopurine is indicated for the treatment of patients with acute lymphoblastic leukemia (ALL) as part of a combination chemotherapy maintenance regimen."
+  ],
+  "query": "products.active_ingredients.name:\"mercaptopurine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1425",
+  "pref_name": "MERCAPTOPURINE ANHYDROUS",
+  "max_phase": 4.0,
+  "atc": [],
+  "molecule_type": "Small molecule",
+  "indications": [],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 0,
+  "earliest": null
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1953-09-11",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "cancer wording in label but no L01/L02 ATC: oncology drug or supportive use?"
+  ]
+ }
+}

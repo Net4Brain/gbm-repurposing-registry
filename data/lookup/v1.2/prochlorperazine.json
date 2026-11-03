@@ -1,0 +1,246 @@
+{
+ "moiety": "prochlorperazine",
+ "accessed_utc": "2026-11-03T18:11:17+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA010571",
+    "date": "1956-10-23",
+    "brand": [
+     "COMPAZINE",
+     "COMPAZINE",
+     "COMPAZINE"
+    ]
+   },
+   {
+    "application": "NDA010742",
+    "date": "1957-04-08",
+    "brand": [
+     "COMPAZINE"
+    ]
+   },
+   {
+    "application": "NDA011000",
+    "date": "1957-06-05",
+    "brand": [
+     "COMPAZINE",
+     "COMPAZINE",
+     "COMPAZINE"
+    ]
+   },
+   {
+    "application": "NDA011188",
+    "date": "1957-12-10",
+    "brand": [
+     "COMPAZINE"
+    ]
+   },
+   {
+    "application": "NDA011127",
+    "date": "1959-01-26",
+    "brand": [
+     "COMPAZINE",
+     "COMPAZINE",
+     "COMPAZINE"
+    ]
+   },
+   {
+    "application": "NDA021019",
+    "date": "1999-10-06",
+    "brand": [
+     "COMPAZINE",
+     "COMPAZINE"
+    ]
+   }
+  ],
+  "first_approval_date": "1956-10-23",
+  "label_indications": [
+   "For control of severe nausea and vomiting. For the treatment of schizophrenia. Prochlorperazine is effective for the short-term treatment of generalized non-psychotic anxiety. However, prochlorperazine is not the first drug to be used in therapy for most patients with non-psychotic anxiety, because certain risks associated with its use are not shared by common alternative treatments (e.g., benzodiazepines). When used in the treatment of non-psychotic anxiety, prochlorperazine should not be administered at doses of more than 20 mg per day or for longer than 12 weeks, because the use of prochlorperazine at higher doses or for longer intervals may cause persistent tardive dyskinesia that may prove irreversible (see WARNINGS). The effectiveness of prochlorperazine as treatment for non-psychotic anxiety was established in 4-week clinical studies of outpatients with generalized anxiety disorder. This evidence does not predict that prochlorperazine will be useful in patients with other non-psychotic conditions in which anxiety, or signs that mimic anxiety, are found (e.g., physical illness, organic mental conditions, agitated depression, character pathologies, etc.). Prochlorperazine has not been shown effective in the management of behavioral complications in patients with mental retardation.",
+   "INDICATIONS & USAGE For control of severe nausea and vomiting. For the treatment of schizophrenia. Prochlorperazine is effective for the short-term treatment of generalized non-psychotic anxiety. However, prochlorperazine is not the first drug to be used in therapy for most patients with non-psychotic anxiety, because certain risks associated with its use are not shared by common alternative treatments (e.g., benzodiazepines). When used in the treatment of non-psychotic anxiety, prochlorperazine should not be administered at doses of more than 20 mg per day or for longer than 12 weeks, because the use of prochlorperazine at higher doses or for longer intervals may cause persistent tardive dyskinesia that may prove irreversible (see WARNINGS) . The effectiveness of prochlorperazine as treatment for non-psychotic anxiety was established in 4-week clinical studies of outpatients with generalized anxiety disorder. This evidence does not predict that prochlorperazine will be useful in patients with other non-psychotic conditions in which anxiety, or signs that mimic anxiety, are found (e.g., physical illness, organic mental conditions, agitated depression, character pathologies, etc.). Prochlorperazine has not been shown effective in the management of behavioral complications in patients with mental retardation.",
+   "INDICATIONS AND USAGE For control of severe nausea and vomiting. For the treatment of schizophrenia. Prochlorperazine maleate tablets are effective for the short-term treatment of generalized non-psychotic anxiety. However, prochlorperazine maleate tablets are not the first drug to be used in therapy for most patients with non-psychotic anxiety, because certain risks associated with its use are not shared by common alternative treatments (e.g., benzodiazepines). When used in the treatment of non-psychotic anxiety, prochlorperazine maleate tablets should not be administered at doses of more than 20 mg per day or for longer than 12 weeks because the use of prochlorperazine maleate tablets at higher doses or for longer intervals may cause persistent tardive dyskinesia that may prove irreversible (see WARNINGS ). The effectiveness of prochlorperazine maleate tablets as treatment for non-psychotic anxiety was established in 4-week clinical studies of outpatients with generalized anxiety disorder. This evidence does not predict that prochlorperazine maleate tablets will be useful in patients with other non-psychotic conditions in which anxiety, or signs that mimic anxiety, are found (e.g., physical illness, organic mental conditions, agitated depression, character pathologies, etc.). Prochlorperazine maleate tablets have not been shown effective in the management of behavioral complications in patients with mental retardation.",
+   "INDICATIONS AND USAGE To control severe nausea and vomiting. For the treatment of schizophrenia. Prochlorperazine has not been shown effective in the management of behavioral complications in patients with mental retardation."
+  ],
+  "query": "products.active_ingredients.name:\"prochlorperazine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL728",
+  "pref_name": "PROCHLORPERAZINE",
+  "max_phase": 4.0,
+  "atc": [
+   "N05AB04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "Nausea and vomiting",
+    "mesh_heading": "Postoperative Nausea and Vomiting",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00020657,NCT00590317"
+     },
+     {
+      "type": "DailyMed",
+      "id": "016b4aa0-ec8f-4bbc-aa07-58e3da801c3b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4924c2cf-ffe0-7398-e054-00144ff88e88"
+     },
+     {
+      "type": "DailyMed",
+      "id": "99d9e8a9-e299-4ee4-9f04-a82a83845594"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N05AB04"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea",
+    "mesh_heading": "Nausea",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00475085"
+     }
+    ]
+   },
+   {
+    "efo_term": "Headache",
+    "mesh_heading": "Headache",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01785459,NCT02735343"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chemotherapy-induced nausea and vomiting",
+    "mesh_heading": "Nausea",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03367572"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiotoxicity",
+    "mesh_heading": "Cardiotoxicity",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00543062"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety disorder",
+    "mesh_heading": "Anxiety",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "4924c2cf-ffe0-7398-e054-00144ff88e88"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05013437"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "016b4aa0-ec8f-4bbc-aa07-58e3da801c3b"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4924c2cf-ffe0-7398-e054-00144ff88e88"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine disorder",
+    "mesh_heading": "Migraine Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00610428,NCT00610727,NCT02779959,NCT06083571"
+     }
+    ]
+   },
+   {
+    "efo_term": "Genital neoplasm, female",
+    "mesh_heading": "Genital Neoplasms, Female",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04503668"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Dopamine D2 receptor antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL217"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 11,
+  "earliest": {
+   "nct": "NCT00020657",
+   "start": "2001-07",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1956-10-23",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

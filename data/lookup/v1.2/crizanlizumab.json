@@ -1,0 +1,126 @@
+{
+ "moiety": "crizanlizumab",
+ "accessed_utc": "2026-11-03T17:32:16+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761128",
+    "date": "2019-11-15",
+    "brand": [
+     "ADAKVEO"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-11-15",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ADAKVEO \u00ae is indicated to reduce the frequency of vaso-occlusive crises (VOCs) in adults and pediatric patients aged 16 years and older with sickle cell disease. ADAKVEO is a selectin blocker indicated to reduce the frequency of vasoocclusive crises in adults and pediatric patients aged 16 years and older with sickle cell disease."
+  ],
+  "query": "products.active_ingredients.name:\"crizanlizumab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Adakveo",
+    "status": "Revoked",
+    "authorisation_date": "2020-10-28",
+    "atc": "B06AX01",
+    "therapeutic_area": "Anemia, Sickle Cell",
+    "indication": "Adakveo is indicated for the prevention of recurrent vaso occlusive crises (VOCs) in sickle cell disease patients aged 16 years and older. It can be given as an add on therapy to hydroxyurea/hydroxycarbamide (HU/HC) or as monotherapy in patients for whom HU/HC is inappropriate or inadequate.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/adakveo"
+   }
+  ],
+  "first_authorisation_date": "2020-10-28"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL4297734",
+  "pref_name": "CRIZANLIZUMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "B06AX01"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "Priapism",
+    "mesh_heading": "Priapism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03938454"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04097821"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04435184"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01895361,NCT03264989,NCT03474965,NCT03814746,NCT04657822,NCT04662931,NCT05469828,NCT06439082"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b2b7f8b4-fe9a-4a86-8129-9e43f99a20c6"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004874"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "P-selectin blocker",
+    "action_type": "BLOCKER",
+    "target": "CHEMBL5378"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 10,
+  "earliest": {
+   "nct": "NCT01895361",
+   "start": "2013-07",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-11-15",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "moiety": "eflornithine",
+ "accessed_utc": "2026-11-03T17:40:05+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA019879",
+    "date": "1990-11-28",
+    "brand": [
+     "ORNIDYL"
+    ]
+   },
+   {
+    "application": "NDA021145",
+    "date": "2000-07-27",
+    "brand": [
+     "VANIQA"
+    ]
+   },
+   {
+    "application": "NDA215500",
+    "date": "2023-12-13",
+    "brand": [
+     "IWILFIN"
+    ]
+   }
+  ],
+  "first_approval_date": "1990-11-28",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE IWILFIN (eflornithine) is indicated to reduce the risk of relapse in adult and pediatric patients with high-risk neuroblastoma (HRNB) who have demonstrated at least a partial response to prior multiagent, multimodality therapy including anti-GD2 immunotherapy. IWILFIN is an ornithine decarboxylase inhibitor indicated to reduce the risk of relapse in adult and pediatric patients with high-risk neuroblastoma (HRNB) who have demonstrated at least a partial response to prior multiagent, multimodality therapy including anti-GD2 immunotherapy. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"eflornithine\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Vaniqa",
+    "status": "Authorised",
+    "authorisation_date": "2001-03-19",
+    "atc": "D11AX",
+    "therapeutic_area": "Hirsutism",
+    "indication": "Treatment of facial hirsutism in women.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vaniqa"
+   }
+  ],
+  "first_authorisation_date": "2001-03-19"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL830",
+  "pref_name": "EFLORNITHINE",
+  "max_phase": 4.0,
+  "atc": [
+   "D11AX16",
+   "L01XX79",
+   "P01CX03"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "trypanosomiasis",
+    "mesh_heading": "Trypanosomiasis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "P01CX03"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00146627,NCT00330148,NCT00489658"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroblastoma",
+    "mesh_heading": "Neuroblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01059071,NCT01586260,NCT02030964,NCT02139397,NCT02395666,NCT02559778,NCT04301843"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic astrocytoma",
+    "mesh_heading": "Astrocytoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02796261"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01349881"
+     }
+    ]
+   },
+   {
+    "efo_term": "Leishmaniasis",
+    "mesh_heading": "Leishmaniasis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "P01CX03"
+     }
+    ]
+   },
+   {
+    "efo_term": "human african trypanosomiasis",
+    "mesh_heading": "Trypanosomiasis, African",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01685827"
+     }
+    ]
+   },
+   {
+    "efo_term": "Familial adenomatous polyposis",
+    "mesh_heading": "Adenomatous Polyposis Coli",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00033371,NCT01245816,NCT01483144"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03536728"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02794428"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003814"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00006079"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00003076"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00006101,NCT00086736,NCT06059118"
+     }
+    ]
+   },
+   {
+    "efo_term": "precancerous condition",
+    "mesh_heading": "Precancerous Conditions",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00118365"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05879367"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05594563"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05717153"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XX79"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03536728"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05717153"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00005882"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 27,
+  "earliest": {
+   "nct": "NCT00003076",
+   "start": "1995-10",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1990-11-28",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

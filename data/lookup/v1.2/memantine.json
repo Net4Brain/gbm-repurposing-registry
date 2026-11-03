@@ -1,0 +1,565 @@
+{
+ "moiety": "memantine",
+ "accessed_utc": "2026-11-03T17:54:19+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA021487",
+    "date": "2003-10-16",
+    "brand": [
+     "NAMENDA",
+     "NAMENDA"
+    ]
+   },
+   {
+    "application": "NDA021627",
+    "date": "2005-04-18",
+    "brand": [
+     "NAMENDA"
+    ]
+   },
+   {
+    "application": "NDA022525",
+    "date": "2010-06-21",
+    "brand": [
+     "NAMENDA XR",
+     "NAMENDA XR",
+     "NAMENDA XR"
+    ]
+   },
+   {
+    "application": "NDA206439",
+    "date": "2014-12-23",
+    "brand": [
+     "NAMZARIC",
+     "NAMZARIC",
+     "NAMZARIC"
+    ]
+   }
+  ],
+  "first_approval_date": "2003-10-16",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Memantine hydrochloride extended-release capsules are indicated for the treatment of moderate to severe dementia of the Alzheimer\u2019s type. Memantine hydrochloride is a N-methyl-D-aspartate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer\u2019s type. ( 1 )",
+   "1 INDICATIONS AND USAGE Memantine hydrochloride extended-release capsules is indicated for the treatment of moderate to severe dementia of the Alzheimer's type. Memantine hydrochloride extended-release capsules is a N-methyl-D-aspartate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer's type. ( 1 )",
+   "1 INDICATIONS AND USAGE Memantine hydrochloride is an N-methyl-D-aspartate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer's type. ( 1 ) Memantine hydrochloride tablets, USP are indicated for the treatment of moderate to severe dementia of the Alzheimer's type.",
+   "1 INDICATIONS AND USAGE Memantine hydrochloride tablets are an N-methyl-D-asparate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer's type. ( 1 ) Memantine hydrochloride tablets are indicated for the treatment of moderate to severe dementia of the Alzheimer's type.",
+   "1 INDICATIONS AND USAGE Memantine hydrochloride tablets are indicated for the treatment of moderate to severe dementia of the Alzheimer\u2019s type. Memantine hydrochloride tablets are an N-methyl-D-aspartate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer\u2019s type. (1)"
+  ],
+  "query": "products.active_ingredients.name:\"memantine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL807",
+  "pref_name": "MEMANTINE",
+  "max_phase": 4.0,
+  "atc": [
+   "N06DX01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "autism spectrum disorder",
+    "mesh_heading": "Child Development Disorders, Pervasive",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01372449,NCT01972074,NCT02811627"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00136747,NCT00136786"
+     }
+    ]
+   },
+   {
+    "efo_term": "autism",
+    "mesh_heading": "Autistic Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00872898,NCT01999894"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02950233"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cognitive impairment",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03342443,NCT06275035"
+     }
+    ]
+   },
+   {
+    "efo_term": "cocaine dependence",
+    "mesh_heading": "Cocaine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00134901"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol drinking",
+    "mesh_heading": "Alcohol Drinking",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00630955,NCT01519063"
+     }
+    ]
+   },
+   {
+    "efo_term": "opioid dependence",
+    "mesh_heading": "Opioid-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00125515,NCT01052662"
+     }
+    ]
+   },
+   {
+    "efo_term": "fibromyalgia",
+    "mesh_heading": "Fibromyalgia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01653457"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathic pain",
+    "mesh_heading": "Neuralgia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01602185,NCT03686774"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01260467,NCT05664464"
+     }
+    ]
+   },
+   {
+    "efo_term": "obsessive-compulsive disorder",
+    "mesh_heading": "Obsessive-Compulsive Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00264238,NCT00956085,NCT04539951,NCT05015595"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00411398,NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "obesity",
+    "mesh_heading": "Obesity",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02001584"
+     }
+    ]
+   },
+   {
+    "efo_term": "open-angle glaucoma",
+    "mesh_heading": "Glaucoma, Open-Angle",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00141882,NCT00168350"
+     }
+    ]
+   },
+   {
+    "efo_term": "heroin dependence",
+    "mesh_heading": "Heroin Dependence",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00476242"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizoaffective disorder",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02234752,NCT04857983"
+     }
+    ]
+   },
+   {
+    "efo_term": "Dementia",
+    "mesh_heading": "Dementia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N06DX01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00200538,NCT00371059,NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "Mental deterioration",
+    "mesh_heading": "Cognitive Dysfunction",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04033419"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system cancer",
+    "mesh_heading": "Glioma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04217694"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tension-type headache",
+    "mesh_heading": "Tension-Type Headache",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00315666"
+     }
+    ]
+   },
+   {
+    "efo_term": "major depressive disorder",
+    "mesh_heading": "Depressive Disorder, Major",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01392287"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol abuse",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00246415"
+     }
+    ]
+   },
+   {
+    "efo_term": "substance abuse",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01189214"
+     }
+    ]
+   },
+   {
+    "efo_term": "drug dependence",
+    "mesh_heading": "Substance-Related Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04687566"
+     }
+    ]
+   },
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04789915"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system disease",
+    "mesh_heading": "Central Nervous System Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03569579"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ischemic stroke",
+    "mesh_heading": "Ischemic Stroke",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02144584,NCT02535611"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hair-pulling",
+    "mesh_heading": "Trichotillomania",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04792645"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00040261,NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00097916,NCT00235716,NCT00255086,NCT00322153,NCT00624026,NCT00804271,NCT00857233,NCT00857649,NCT01409694,NCT01677754,NCT02288000,NCT02580305,NCT03316898,NCT03802162"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00353665,NCT00409721,NCT01020331"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00097942,NCT00148590,NCT00148616,NCT01555697,NCT02001103,NCT02234752,NCT02374567,NCT04857983"
+     }
+    ]
+   },
+   {
+    "efo_term": "Parkinson disease",
+    "mesh_heading": "Parkinson Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03858270"
+     }
+    ]
+   },
+   {
+    "efo_term": "migraine disorder",
+    "mesh_heading": "Migraine Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04698525"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple sclerosis",
+    "mesh_heading": "Multiple Sclerosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00638833,NCT01074619,NCT01744444"
+     }
+    ]
+   },
+   {
+    "efo_term": "alcohol dependence",
+    "mesh_heading": "Alcoholism",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00246415"
+     }
+    ]
+   },
+   {
+    "efo_term": "Huntington disease",
+    "mesh_heading": "Huntington Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01458470"
+     }
+    ]
+   },
+   {
+    "efo_term": "fragile X syndrome",
+    "mesh_heading": "Fragile X Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05418049"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00106405,NCT01188148,NCT02630888,NCT03039842"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05834231"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03527472"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04217694"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 73,
+  "earliest": {
+   "nct": "NCT00141882",
+   "start": "1999-03",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2003-10-16",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

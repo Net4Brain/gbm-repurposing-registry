@@ -1,0 +1,602 @@
+{
+ "moiety": "selinexor",
+ "accessed_utc": "2026-11-03T18:18:29+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA212306",
+    "date": "2019-07-03",
+    "brand": [
+     "XPOVIO",
+     "XPOVIO",
+     "XPOVIO"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-07-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE XPOVIO is a nuclear export inhibitor indicated: In combination with bortezomib and dexamethasone for the treatment of adult patients with multiple myeloma who have received at least one prior therapy ( 1.1 ). In combination with dexamethasone for the treatment of adult patients with relapsed or refractory multiple myeloma who have received at least four prior therapies and whose disease is refractory to at least two proteasome inhibitors, at least two immunomodulatory agents, and an anti-CD38 monoclonal antibody ( 1.1 ). 1.1 Multiple Myeloma XPOVIO in combination with bortezomib and dexamethasone is indicated for the treatment of adult patients with multiple myeloma who have received at least one prior therapy. XPOVIO in combination with dexamethasone is indicated for the treatment of adult patients with relapsed or refractory multiple myeloma who have received at least four prior therapies and whose disease is refractory to at least two proteasome inhibitors, at least two immunomodulatory agents, and an anti-CD38 monoclonal antibody."
+  ],
+  "query": "products.active_ingredients.name:\"selinexor\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Nexpovio",
+    "status": "Authorised",
+    "authorisation_date": "2021-03-26",
+    "atc": "L01XX66",
+    "therapeutic_area": "Multiple Myeloma",
+    "indication": "NEXPOVIO is indicated  in combination with bortezomib and dexamethasone for the treatment of adult patients with multiple myeloma who have received at least one prior therapy. in combination with dexamethasone for the treatment of multiple myeloma in adult patients who have received at least four prior therapies and whose disease is refractory to at least two proteasome inhibitors, two immunomodulatory agents and an anti-CD38 monoclonal antibody, and who have demonstrated disease progression on the last therapy.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nexpovio"
+   }
+  ],
+  "first_authorisation_date": "2021-03-26"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3545185",
+  "pref_name": "SELINEXOR",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XX66"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02120222"
+     }
+    ]
+   },
+   {
+    "efo_term": "dedifferentiated liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02606461"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02212561,NCT02228525,NCT02431351,NCT02485535"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01986348,NCT04421378,NCT05432804"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetic foot",
+    "mesh_heading": "Diabetic Foot",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02367690"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XX66"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01607905,NCT02078349"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02213133"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02227251,NCT02471911,NCT05265975,NCT05422066,NCT05786989"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f6dd2682-75a6-4863-90a8-a3197f6f78a8"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02088541,NCT02091245,NCT02093403,NCT02249091,NCT02403310,NCT02416908,NCT02530476,NCT02573363,NCT03071276,NCT03661515,NCT05726110,NCT05736965,NCT05736978,NCT05951855,NCT06449482"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02351505"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm of mature B-cells",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02741388,NCT04442022,NCT04607772,NCT05322330"
+     }
+    ]
+   },
+   {
+    "efo_term": "unspecified peripheral T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03212937,NCT05675813"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02536495"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02186834,NCT02199665,NCT02336815,NCT02343042,NCT02389543,NCT02628704,NCT02780609,NCT02831686,NCT03110562,NCT03589222,NCT03732703,NCT03944057,NCT04414475,NCT04519476,NCT04661137,NCT04717700,NCT04756401,NCT04764942,NCT04782687,NCT04843579,NCT04877275,NCT04891744,NCT04925193,NCT04941937,NCT05028348,NCT05170789,NCT05201118,NCT05422027,NCT05530421,NCT05597345,NCT05900882,NCT06158841,NCT06169215,NCT06212596,NCT06225310"
+     },
+     {
+      "type": "DailyMed",
+      "id": "f6dd2682-75a6-4863-90a8-a3197f6f78a8"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005127"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212306s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01607892"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495,NCT03095612"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02384850"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thymoma",
+    "mesh_heading": "Thymoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03193437,NCT03466827"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02137356"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03042819"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02212561"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02091245"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04216329"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02402764,NCT05035745"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02146833"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03555422,NCT05611931"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04595994"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495,NCT04768881"
+     }
+    ]
+   },
+   {
+    "efo_term": "Fallopian Tube Carcinoma",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04562389,NCT04562870"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04349098,NCT04355676"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02436707"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04856189"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute leukemia of ambiguous lineage",
+    "mesh_heading": "Leukemia, Biphenotypic, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04898894"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05093608"
+     }
+    ]
+   },
+   {
+    "efo_term": "AL amyloidosis",
+    "mesh_heading": "Amyloidosis, Familial",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04984330"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495"
+     }
+    ]
+   },
+   {
+    "efo_term": "mature T-cell and NK-cell non-Hodgkin lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05822050"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04850755,NCT05177276"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02530476"
+     }
+    ]
+   },
+   {
+    "efo_term": "liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06239272"
+     }
+    ]
+   },
+   {
+    "efo_term": "thymus neoplasm",
+    "mesh_heading": "Thymus Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03466827"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01986348"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyloidosis",
+    "mesh_heading": "Amyloidosis",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04984330"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05983276"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Exportin-1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5661"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 91,
+  "earliest": {
+   "nct": "NCT02088541",
+   "start": "2014-03",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-07-03",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

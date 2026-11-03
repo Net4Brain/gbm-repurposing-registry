@@ -1,0 +1,270 @@
+{
+ "moiety": "mycophenolic acid",
+ "accessed_utc": "2026-11-03T17:55:13+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Mycophenolic acid delayed-release tablets are an antimetabolite immunosuppressant indicated for prophylaxis of organ rejection in adult patients receiving kidney transplants and in pediatric patients at least 5 years of age and older who are at least 6 months post kidney transplant. ( 1.1 ) Use in combination with cyclosporine and corticosteroids. ( 1.1 ) Limitations of Use: Mycophenolic acid delayed-release tablets and mycophenolate mofetil tablets and capsules should not be used interchangeably. ( 1.2 ) 1.1 Prophylaxis of Organ Rejection in Kidney Transplant Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in adult patients receiving a kidney transplant. Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in pediatric patients 5 years of age and older who are at least 6 months post kidney transplant. Mycophenolic acid delayed-release tablets are to be used in combination with cyclosporine and corticosteroids. 1.2 Limitations of Use Mycophenolic acid delayed-release tablets and mycophenolate mofetil (MMF) tablets and capsules should not be used interchangeably without physician supervision because the rate of absorption following the administration of these two products is not equivalent.",
+   "1 INDICATIONS AND USAGE Mycophenolic acid delayed-release tablets are an antimetabolite immunosuppressant indicated for prophylaxis of organ rejection in adult patients receiving kidney transplants and in pediatric patients at least 5 years of age and older who are at least 6 months post kidney transplant. (1.1) Use in combination with cyclosporine and corticosteroids. (1.1) Limitations of Use: Mycophenolic acid delayed release tablets and mycophenolate mofetil tablets and capsules should not be used interchangeably. (1.2) 1.1 Prophylaxis of Organ Rejection in Kidney Transplant Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in adult patients receiving a kidney transplant. Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in pediatric patients 5 years of age and older who are at least 6 months post kidney transplant. Mycophenolic acid delayed-release tablets are to be used in combination with cyclosporine and corticosteroids. 1.2 Limitations of Use Mycophenolic acid delayed-release tablets and mycophenolate mofetil (MMF) tablets and capsules should not be used interchangeably without physician supervision because the rate of absorption following the administration of these two products is not equivalent.",
+   "1 INDICATIONS AND USAGE Mycophenolic acid is an antimetabolite immunosuppressant indicated for prophylaxis of organ rejection in adult patients receiving kidney transplants and in pediatric patients at least 5 years of age and older who are at least 6 months post kidney transplant. ( 1.1 ) Use in combination with cyclosporine and corticosteroids. ( 1.1 ) Limitations of Use: Mycophenolic acid delayed-release tablets and mycophenolate mofetil tablets and capsules should not be used interchangeably. ( 1.2 ) 1.1 Prophylaxis of Organ Rejection in Kidney Transplant Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in adult patients receiving a kidney transplant. Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in pediatric patients 5 years of age and older who are at least 6 months post kidney transplant. Mycophenolic acid delayed-release tablets are to be used in combination with cyclosporine and corticosteroids. 1.2 Limitations of Use Mycophenolic acid delayed-release tablets and mycophenolate mofetil (MMF) tablets and capsules should not be used interchangeably without physician supervision because the rate of absorption following the administration of these two products is not equivalent.",
+   "1 INDICATIONS AND USAGE \u2022 Mycophenolic acid delayed-release tablets are an antimetabolite immunosuppressant indicated for prophylaxis of organ rejection in adult patients receiving kidney transplants and in pediatric patients at least 5 years of age and older who are at least 6 months post kidney transplant. ( 1.1 ) \u2022 Use in combination with cyclosporine and corticosteroids. ( 1.1 ) Limitations of Use: \u2022 Mycophenolic acid delayed-release tablets and mycophenolate mofetil tablets and capsules should not be used interchangeably. ( 1.2 ) 1.1 Prophylaxis of Organ Rejection in Kidney Transplant Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in adult patients receiving a kidney transplant. Mycophenolic acid delayed-release tablets are indicated for the prophylaxis of organ rejection in pediatric patients 5 years of age and older who are at least 6 months post kidney transplant. Mycophenolic acid delayed-release tablets are to be used in combination with cyclosporine and corticosteroids. 1.2 Limitations of Use Mycophenolic acid delayed-release tablets and mycophenolate mofetil (MMF) tablets and capsules should not be used interchangeably without physician supervision because the rate of absorption following the administration of these two products is not equivalent."
+  ],
+  "query": "products.active_ingredients.name:\"mycophenolic acid\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL866",
+  "pref_name": "MYCOPHENOLIC ACID",
+  "max_phase": 4.0,
+  "atc": [
+   "L04AA06"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00251004"
+     }
+    ]
+   },
+   {
+    "efo_term": "immune system disease",
+    "mesh_heading": "Immune System Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L04AA06"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00298883,NCT00890253"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02416388"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01570348"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic scleroderma",
+    "mesh_heading": "Scleroderma, Systemic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00622895"
+     }
+    ]
+   },
+   {
+    "efo_term": "nephrotic syndrome",
+    "mesh_heading": "Nephrotic Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01197040"
+     }
+    ]
+   },
+   {
+    "efo_term": "lupus nephritis",
+    "mesh_heading": "Lupus Nephritis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01299922,NCT02550652"
+     }
+    ]
+   },
+   {
+    "efo_term": "intermediate uveitis",
+    "mesh_heading": "Uveitis, Intermediate",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01092533"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00298324,NCT00639717,NCT00775632,NCT04945096"
+     }
+    ]
+   },
+   {
+    "efo_term": "dry eye syndrome",
+    "mesh_heading": "Dry Eye Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04734197"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01346085,NCT01369082"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00504244"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary sarcoidosis",
+    "mesh_heading": "Sarcoidosis, Pulmonary",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00262132"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01490723,NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01490723,NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "cytomegalovirus infection",
+    "mesh_heading": "Cytomegalovirus Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00966836"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02167958"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2111369"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 21,
+  "earliest": {
+   "nct": "NCT00262132",
+   "start": "2003-09",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "ChEMBL max_phase 4 but no FDA/EMA approval found (other regulator?)"
+  ]
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "moiety": "entrectinib",
+ "accessed_utc": "2026-11-03T17:40:21+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA212725",
+    "date": "2019-08-15",
+    "brand": [
+     "ROZLYTREK",
+     "ROZLYTREK"
+    ]
+   },
+   {
+    "application": "NDA212726",
+    "date": "2019-08-15",
+    "brand": [
+     "ROZLYTREK",
+     "ROZLYTREK"
+    ]
+   },
+   {
+    "application": "NDA218550",
+    "date": "2023-10-20",
+    "brand": [
+     "ROZLYTREK"
+    ]
+   }
+  ],
+  "first_approval_date": "2019-08-15",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"entrectinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Rozlytrek",
+    "status": "Authorised",
+    "authorisation_date": "2020-07-31",
+    "atc": "L01EX14",
+    "therapeutic_area": "Cancer;Carcinoma, Non-Small-Cell Lung",
+    "indication": "Rozlytrek as monotherapy is indicated for the treatment of adult and paediatric patients 12 years of age and older with solid tumours expressing a neurotrophic tyrosine receptor kinase (NTRK) gene fusion,  who have a disease that is locally advanced, metastatic or where surgical resection is likely to result in severe morbidity, and who have not received a prior NTRK inhibitor who have no satisfactory treatment options.  Rozlytrek as monotherapy is indicated for the treatment of adult patients with ROS1 positive, advanced non small cell lung cancer (NSCLC) not previously treated with ROS1 inhibitors.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rozlytrek"
+   }
+  ],
+  "first_authorisation_date": "2020-07-31"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1983268",
+  "pref_name": "ENTRECTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX14"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX14"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02097810,NCT02925234,NCT03330990,NCT04589845,NCT05159245"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212725s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system cancer",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02650401"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02587650"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03178552,NCT04302025,NCT04603807,NCT05170204"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c7c71b0c-2549-4495-86b6-c2807fa54908"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004936"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2019/212725s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "invasive lobular carcinoma",
+    "mesh_heading": "Carcinoma, Lobular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04551495"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05396859"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05722886"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02097810,NCT02925234,NCT03498521,NCT04632992,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06482086"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uveal Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04589832"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Neurotrophic tyrosine kinase receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3559684"
+   },
+   {
+    "mechanism": "Proto-oncogene tyrosine-protein kinase ROS inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5568"
+   },
+   {
+    "mechanism": "ALK tyrosine kinase receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4247"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 15,
+  "earliest": {
+   "nct": "NCT02587650",
+   "start": "2015-03-26",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2019-08-15",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": true,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

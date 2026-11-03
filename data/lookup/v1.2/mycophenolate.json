@@ -1,0 +1,313 @@
+{
+ "moiety": "mycophenolate",
+ "accessed_utc": "2026-11-03T18:37:35+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA050722",
+    "date": "1995-05-03",
+    "brand": [
+     "CELLCEPT"
+    ]
+   },
+   {
+    "application": "NDA050723",
+    "date": "1997-06-19",
+    "brand": [
+     "CELLCEPT"
+    ]
+   },
+   {
+    "application": "NDA050758",
+    "date": "1998-08-12",
+    "brand": [
+     "CELLCEPT"
+    ]
+   },
+   {
+    "application": "NDA050759",
+    "date": "1998-10-01",
+    "brand": [
+     "CELLCEPT"
+    ]
+   },
+   {
+    "application": "NDA050791",
+    "date": "2004-02-27",
+    "brand": [
+     "MYFORTIC",
+     "MYFORTIC"
+    ]
+   },
+   {
+    "application": "NDA216482",
+    "date": "2024-05-01",
+    "brand": [
+     "MYHIBBIN"
+    ]
+   }
+  ],
+  "first_approval_date": "1995-05-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Mycophenolate mofetil (MMF) is indicated for the prophylaxis of organ rejection, in adult and pediatric recipients 3 months of age and older of allogeneic kidney [see Clinical Studies ( 14.1 )] , heart [see Clinical Studies ( 14.2 ) ] or liver transplants [see Clinical Studies ( 14.3 ) ] , in combination with other immunosuppressants. Mycophenolate mofetil is an antimetabolite immunosuppressant indicated for the prophylaxis of organ rejection in adult and pediatric recipients 3 months of age and older of allogeneic kidney, heart or liver transplants, in combination with other immunosuppressants. ( 1 )",
+   "1 INDICATIONS AND USAGE Mycophenolate mofetil (MMF) is indicated for the prophylaxis of organ rejection, in adult and pediatric recipients 3 months of age and older of allogeneic kidney [see Clinical Studies ( 14.1 )], heart [see Clinical Studies ( 14.2 )] or liver transplants [see Clinical Studies ( 14.3 )], in combination with other immunosuppressants. Mycophenolate mofetil is an antimetabolite immunosuppressant indicated for the prophylaxis of organ rejection in adult and pediatric recipients 3 months of age and older of allogeneic kidney, heart or liver transplants, in combination with other immunosuppressants. (1)",
+   "1 INDICATIONS AND USAGE Mycophenolate mofetil (MMF) is indicated for the prophylaxis of organ rejection, in adult and pediatric recipients 3 months of age and older of allogeneic kidney [see Clinical Studies (14.1) ] , heart [see Clinical Studies (14.2) ] or liver transplants [see Clinical Studies (14.3) ], in combination with other immunosuppressants. Mycophenolate mofetil is an antimetabolite immunosuppressant indicated for the prophylaxis of organ rejection in adult and pediatric recipients 3 months of age and older of allogeneic kidney, heart or liver transplants, in combination with other immunosuppressants ( 1 )",
+   "1 INDICATIONS AND USAGE Mycophenolate mofetil capsules are indicated for the prophylaxis of organ rejection, in adult and pediatric recipients 3 months of age and older of allogeneic kidney [see Clinical Studies (14.1) ], heart [see Clinical Studies (14.2) ] or liver transplants [see Clinical Studies (14.3) ], in combination with other immunosuppressants. Mycophenolate Mofetil capsules are an antimetabolite immunosuppressant indicated for the prophylaxis of organ rejection in adult and pediatric recipients 3 months of age and older of allogeneic kidney, heart or liver transplants, in combination with other immunosuppressants. ( 1 )",
+   "1 INDICATIONS AND USAGE Mycophenolate mofetil for oral suspension (MMF) is indicated for the prophylaxis of organ rejection, in adult and pediatric recipients 3 months of age and older of allogeneic kidney [see Clinical Studies (14.1) ], heart [see Clinical Studies (14.2) ] or liver transplants [see Clinical Studies (14.3) ] , in combination with other immunosuppressants. Mycophenolate mofetil is an antimetabolite immunosuppressant indicated for the prophylaxis of organ rejection in adult and pediatric recipients 3 months of age and older of allogeneic kidney, heart or liver transplants, in combination with other immunosuppressants. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"mycophenolate\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL866",
+  "pref_name": "MYCOPHENOLIC ACID",
+  "max_phase": 4.0,
+  "atc": [
+   "L04AA06"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00251004"
+     }
+    ]
+   },
+   {
+    "efo_term": "immune system disease",
+    "mesh_heading": "Immune System Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L04AA06"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00298883,NCT00890253"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02416388"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01570348"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic scleroderma",
+    "mesh_heading": "Scleroderma, Systemic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00622895"
+     }
+    ]
+   },
+   {
+    "efo_term": "nephrotic syndrome",
+    "mesh_heading": "Nephrotic Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01197040"
+     }
+    ]
+   },
+   {
+    "efo_term": "lupus nephritis",
+    "mesh_heading": "Lupus Nephritis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01299922,NCT02550652"
+     }
+    ]
+   },
+   {
+    "efo_term": "intermediate uveitis",
+    "mesh_heading": "Uveitis, Intermediate",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01092533"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00298324,NCT00639717,NCT00775632,NCT04945096"
+     }
+    ]
+   },
+   {
+    "efo_term": "dry eye syndrome",
+    "mesh_heading": "Dry Eye Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04734197"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01346085,NCT01369082"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00504244"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary sarcoidosis",
+    "mesh_heading": "Sarcoidosis, Pulmonary",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00262132"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01490723,NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01490723,NCT02167958"
+     }
+    ]
+   },
+   {
+    "efo_term": "cytomegalovirus infection",
+    "mesh_heading": "Cytomegalovirus Infections",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00966836"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02167958"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2111369"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 21,
+  "earliest": {
+   "nct": "NCT00262132",
+   "start": "2003-09",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1995-05-03",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

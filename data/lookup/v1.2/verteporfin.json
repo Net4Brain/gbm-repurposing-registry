@@ -1,0 +1,291 @@
+{
+ "moiety": "verteporfin",
+ "accessed_utc": "2026-11-03T18:34:29+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA021119",
+    "date": "2000-04-12",
+    "brand": [
+     "VISUDYNE"
+    ]
+   }
+  ],
+  "first_approval_date": "2000-04-12",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE VISUDYNE \u00ae (verteporfin for injection) therapy is indicated for the treatment of patients with predominantly classic subfoveal choroidal neovascularization (CNV) due to age-related macular degeneration (AMD), pathologic myopia or presumed ocular histoplasmosis. There is insufficient evidence to indicate VISUDYNE for the treatment of predominantly occult subfoveal CNV. VISUDYNE (verteporfin for injection) therapy is a photoenhancer indicated for the treatment of patients with predominantly classic subfoveal choroidal neovascularization due to age-related macular degeneration, pathologic myopia or presumed ocular histoplasmosis. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"verteporfin\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Visudyne",
+    "status": "Authorised",
+    "authorisation_date": "2000-07-27",
+    "atc": "S01LA01",
+    "therapeutic_area": "Myopia, Degenerative;Macular Degeneration",
+    "indication": "Visudyne is indicated for the treatment of:  adults with exudative (wet) age-related macular degeneration (AMD) with predominantly classic subfoveal choroidal neovascularisation (CNV) or; adults with subfoveal choroidal neovascularisation secondary to pathological myopia.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/visudyne"
+   }
+  ],
+  "first_authorisation_date": "2000-07-27"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL5314346",
+  "pref_name": "VERTEPORFIN",
+  "max_phase": 4.0,
+  "atc": [
+   "S01LA01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "histoplasmosis",
+    "mesh_heading": "Histoplasmosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00546936"
+     }
+    ]
+   },
+   {
+    "efo_term": "ocular vascular disease",
+    "mesh_heading": "Retinal Neovascularization",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "S01LA01"
+     }
+    ]
+   },
+   {
+    "efo_term": "age-related macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00134667,NCT00135837,NCT00140803,NCT00347399,NCT00370539,NCT00390026,NCT00390208,NCT00457678,NCT00473642,NCT00574093,NCT00696592,NCT01570608,NCT02120950,NCT04075136"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000305"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00007969"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03033225"
+     }
+    ]
+   },
+   {
+    "efo_term": "pathological myopia",
+    "mesh_heading": "Myopia, Degenerative",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01217944"
+     }
+    ]
+   },
+   {
+    "efo_term": "macular degeneration",
+    "mesh_heading": "Macular Degeneration",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00121407,NCT00359164,NCT00527475,NCT01482910"
+     }
+    ]
+   },
+   {
+    "efo_term": "pleural effusion",
+    "mesh_heading": "Pleural Effusion",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02702700"
+     }
+    ]
+   },
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00049959"
+     }
+    ]
+   },
+   {
+    "efo_term": "wet macular degeneration",
+    "mesh_heading": "Wet Macular Degeneration",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "31512723-9ff0-4e18-aa3a-55ab833038c6"
+     },
+     {
+      "type": "DailyMed",
+      "id": "952f4c80-50b1-4308-9ee6-311ffefb13df"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00002647"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02939274"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03067051"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04590664"
+     }
+    ]
+   },
+   {
+    "efo_term": "nevoid basal cell carcinoma syndrome",
+    "mesh_heading": "Basal Cell Nevus Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00049959"
+     }
+    ]
+   },
+   {
+    "efo_term": "Myopia",
+    "mesh_heading": "Myopia, Degenerative",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000305"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06306638"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic neoplasm",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03033225"
+     }
+    ]
+   },
+   {
+    "efo_term": "choroidal neovascularization",
+    "mesh_heading": "Choroidal Neovascularization",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00242580,NCT00426998,NCT00433017,NCT00436553,NCT00492284,NCT00570193"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2311221"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 29,
+  "earliest": {
+   "nct": "NCT00121407",
+   "start": "2002-03",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2000-04-12",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

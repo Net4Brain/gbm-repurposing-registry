@@ -1,0 +1,964 @@
+{
+ "moiety": "olaparib",
+ "accessed_utc": "2026-11-03T17:58:07+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA206162",
+    "date": "2014-12-19",
+    "brand": [
+     "LYNPARZA"
+    ]
+   },
+   {
+    "application": "NDA208558",
+    "date": "2017-08-17",
+    "brand": [
+     "LYNPARZA",
+     "LYNPARZA"
+    ]
+   }
+  ],
+  "first_approval_date": "2014-12-19",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Lynparza is a poly (ADP-ribose) polymerase (PARP) inhibitor indicated: Ovarian cancer \u2022 for the maintenance treatment of adult patients with deleterious or suspected deleterious germline or somatic BRCA -mutated advanced epithelial ovarian, fallopian tube or primary peritoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.1 , 2.1 ) \u2022 in combination with bevacizumab for the maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube or primary peritoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency (HRD)-positive status defined by either: \u2022 a deleterious or suspected deleterious BRCA mutation, and/or \u2022 genomic instability. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.2 , 2.1 ) \u2022 for the maintenance treatment of adult patients with deleterious or suspected deleterious germline or somatic BRCA-mutated recurrent epithelial ovarian, fallopian tube or primary peritoneal cancer, who are in complete or partial response to platinum-based chemotherapy. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.3 , 2.1 ) Breast cancer \u2022 for the adjuvant treatment of adult patients with deleterious or suspected deleterious g BRCA m human epidermal growth factor receptor 2 (HER2)-negative high risk early breast cancer who have been treated with neoadjuvant or adjuvant chemotherapy. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.4 , 2.1 ) \u2022 for the treatment of adult patients with deleterious or suspected deleterious gBRCA m, HER2-negative metastatic breast cancer who have been treated with chemotherapy in the neoadjuvant, adjuvant or metastatic setting. Patients with hormone receptor (HR)-positive breast cancer should have been treated with a prior endocrine therapy or be considered inappropriate for endocrine therapy. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.5 , 2.1 ) Pancreatic cancer \u2022 for the maintenance treatment of adult patients with deleterious or suspected deleterious gBRCA m metastatic pancreatic adenocarcinoma whose disease has not progressed on at least 16 weeks of a first-line platinum-based chemotherapy regimen. Select patients for therapy based on an FDA-approved companion diagnostic for Lynparza. ( 1.6 , 2.1 ) Prostate cancer \u2022 for the treatment of adult patients with deleterious or suspected deleterious germline or somatic homologous recombination repair (HRR) gene-mutated metastatic castration-resistant prostate cancer (mCRPC) who have progressed following prior treatment with enzalutamide or abiraterone. Select patients for therapy based on an FDA-approved companion di"
+  ],
+  "query": "products.active_ingredients.name:\"olaparib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Lynparza",
+    "status": "Authorised",
+    "authorisation_date": "2014-12-16",
+    "atc": "L01XK01",
+    "therapeutic_area": "Ovarian Neoplasms;Breast Neoplasms;Pancreatic Neoplasms;Prostatic Neoplasms, Castration-Resistant",
+    "indication": "Ovarian cancer Lynparza is indicated as monotherapy for the:  maintenance treatment of adult patients with advanced (FIGO stages III and IV) BRCA1/2-mutated (germline and/or somatic) high-grade epithelial ovarian, fallopian tube or primary peritoneal cancer who are in response (complete or partial) following completion of first-line platinum-based chemotherapy. maintenance treatment of adult patients with platinum sensitive relapsed high grade epithelial ovarian, fallopian tube, or primary peritoneal cancer who are in response (complete or partial) to platinum based chemotherapy.  Lynparza in combination with bevacizumab is indicated for the:  maintenance treatment of adult patients with advanced (FIGO stages III and IV) high-grade epithelial ovarian, fallopian tube or primary peritoneal cancer who are in response (complete or partial) following completion of first-line platinum-based chemotherapy in combination with bevacizumab and whose cancer is associated with homologous recombination deficiency (HRD) positive status defined by either a BRCA1/2 mutation and/or genomic instability (see section 5.1).  Breast cancer Lynparza is indicated as:  monotherapy or in combination with endocrine therapy for the adjuvant treatment of adult patients with germline BRCA1/2-mutations who have HER2-negative, high risk early breast cancer previously treated with neoadjuvant or adjuvant chemotherapy (see sections 4.2 and 5.1). monotherapy for the treatment of adult patients with germline BRCA1/2-mutations, who have HER2 negative locally advanced or metastatic breast cancer. Patients should have previously been treated with an anthracycline and a taxane in the (neo)adjuvant or metastatic setting unless patients were not suitable for these treatments (see section 5.1). Patients with hormone receptor (HR)-positive breast cancer should also have progressed on or after prior endocrine therapy, or be considered unsuitable for endocrine therapy.  Adenocarcinoma of the pancreas Lynparza is indicated as:  monotherapy for the maintenance treatment of adult patients with germline BRCA1/2-mutations who have metastatic adenocarcinoma of the pancreas and have not progressed after a minimum of 16 weeks of platinum treatment within a first-line chemotherapy regimen.  Prostate cancer Lynparza is indicated as:  monotherapy for the treatment of adult patients with metastatic castration-resistant prostate cancer (mCRPC) and BRCA1/2-mutations (germline and/or somatic) who have progressed following prior therapy that included a new hormonal agent. in combination with abiraterone and prednisone or prednisolone for the treatment of adult patients with mCRPC in whom chemotherapy is not clinically indicated (see section 5.1).  Endometrial cancer Lynparza in combination with durvalumab is indicated for the maintenance treatment of adult patients with primary advanced or recurrent endometrial cancer that is mismatch repair proficient (pMMR) whose disease has not progressed on first-line tr",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza"
+   }
+  ],
+  "first_authorisation_date": "2014-12-16"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL521686",
+  "pref_name": "OLAPARIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XK01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XK01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00516438,NCT00516802,NCT00777582,NCT00782574,NCT00819221,NCT01851265,NCT01894243,NCT01894256,NCT01900028,NCT01921140,NCT01929603,NCT02029001,NCT02093351,NCT02430311,NCT02588105,NCT02925234,NCT03057145,NCT03239015,NCT03553108,NCT03742895,NCT03772561,NCT03842228,NCT04123366,NCT04197713,NCT04236414,NCT05240898,NCT05522491,NCT05898399,NCT05932862,NCT06331559"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01844986,NCT01874353,NCT02419495,NCT03534453,NCT04633239,NCT05158062,NCT05564377,NCT06121401"
+     },
+     {
+      "type": "DailyMed",
+      "id": "5e31a6a9-864f-4aba-8085-37ee1ddcd499"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01682772,NCT02893917,NCT03317392,NCT03432897,NCT03516812,NCT03570476,NCT03834519,NCT04336943,NCT04951492,NCT06353386"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01562210,NCT01788332,NCT02117167,NCT02419495,NCT02679963,NCT03334617,NCT03775486,NCT03976362,NCT04380636,NCT04538378,NCT04550104,NCT05568212,NCT06130254"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02227082,NCT02849496,NCT03598257,NCT03955640,NCT04090567,NCT06298084"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03462342,NCT03976323"
+     }
+    ]
+   },
+   {
+    "efo_term": "Ewing sarcoma",
+    "mesh_heading": "Sarcoma, Ewing",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01583543,NCT01858168"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00494234,NCT01042379,NCT03109080,NCT03594396,NCT03740893,NCT04191135"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003726"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01758731,NCT02686008,NCT02882308,NCT03022409,NCT04643379,NCT05366166"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01078662,NCT03263650,NCT03317392,NCT03516812,NCT04336943,NCT04951492,NCT05167175,NCT05262608"
+     }
+    ]
+   },
+   {
+    "efo_term": "germ cell tumor",
+    "mesh_heading": "Neoplasms, Germ Cell and Embryonal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02533765"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02893917,NCT03012321,NCT05167175"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04076579"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01296763,NCT02511223,NCT02677038,NCT04005690,NCT04753879,NCT05093231,NCT05411094,NCT05659914"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian neoplasm",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00494442,NCT00516373,NCT00628251,NCT03314740"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003726"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02974621,NCT04614909,NCT05463848"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03575078"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02446704,NCT02511795,NCT02769962,NCT02899728,NCT02937818,NCT03009682,NCT03428607,NCT03532880,NCT03923270,NCT04624204,NCT04728230,NCT05245994,NCT05623319,NCT06217757,NCT06419179"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01491139"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary arterial hypertension",
+    "mesh_heading": "Hypertension, Pulmonary",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03251872,NCT03782818"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic neoplasm",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00515866"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003726"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial neoplasm",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04269200"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02308072"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02227082"
+     }
+    ]
+   },
+   {
+    "efo_term": "bladder tumor",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03459846"
+     }
+    ]
+   },
+   {
+    "efo_term": "mesothelioma",
+    "mesh_heading": "Mesothelioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03531840,NCT04515836"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03741426,NCT03786796"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastasis",
+    "mesh_heading": "Neoplasm Metastasis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00633269,NCT00710268"
+     }
+    ]
+   },
+   {
+    "efo_term": "Fallopian Tube Carcinoma",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneal neoplasm",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02571725"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial carcinoma",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03745950"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hereditary breast and ovarian cancer syndrome",
+    "mesh_heading": "Hereditary Breast and Ovarian Cancer Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02208375,NCT03685331,NCT06177171"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric adenocarcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04209686,NCT05268510"
+     }
+    ]
+   },
+   {
+    "efo_term": "rhabdomyosarcoma",
+    "mesh_heading": "Rhabdomyosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01858168"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "cholangiocarcinoma",
+    "mesh_heading": "Cholangiocarcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03878095,NCT04306367,NCT06441747"
+     }
+    ]
+   },
+   {
+    "efo_term": "Central Nervous System Neoplasm",
+    "mesh_heading": "Central Nervous System Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01390571"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine neoplasm",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04086485,NCT05870423"
+     }
+    ]
+   },
+   {
+    "efo_term": "soft tissue sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02787642,NCT03838744"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric cancer",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01063517,NCT01924533,NCT03579784,NCT04592211"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02546661,NCT03534492"
+     }
+    ]
+   },
+   {
+    "efo_term": "peritoneum cancer",
+    "mesh_heading": "Peritoneal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01661868"
+     }
+    ]
+   },
+   {
+    "efo_term": "fallopian tube cancer",
+    "mesh_heading": "Fallopian Tube Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01237067,NCT01661868,NCT02121990,NCT02571725"
+     }
+    ]
+   },
+   {
+    "efo_term": "bile duct cancer",
+    "mesh_heading": "Bile Duct Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04298021"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00707707,NCT01042379,NCT01237067,NCT02000622,NCT02032823,NCT02299999,NCT02561832,NCT02624973,NCT02681562,NCT02810743,NCT03025035,NCT03150576,NCT03167619,NCT03182634,NCT03205761,NCT03286842,NCT03330847,NCT03367689,NCT03641755,NCT03742245,NCT04053322,NCT04421963,NCT05033756,NCT05128734,NCT05174832,NCT05203445,NCT05332561,NCT05498155,NCT05536128,NCT05629429,NCT05900895,NCT06112379,NCT06245889,NCT06298084"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00753545,NCT01081951,NCT01237067,NCT01650376,NCT01661868,NCT02121990,NCT02282020,NCT02340611,NCT02392676,NCT02476968,NCT02477644,NCT02571725,NCT02855697,NCT02889900,NCT02983799,NCT03106987,NCT03117933,NCT03161132,NCT03278717,NCT03402841,NCT03470805,NCT03699449,NCT03737643,NCT04015739,NCT04091204,NCT04239014,NCT04261465,NCT04361370,NCT04377087,NCT04417192,NCT04644289,NCT04669002,NCT04742075,NCT04826198,NCT05233982,NCT05255471,NCT05952453,NCT06120972"
+     },
+     {
+      "type": "DailyMed",
+      "id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01972217,NCT02324998,NCT02987543,NCT03434158,NCT03568656,NCT03570476,NCT03732820,NCT03787680,NCT03810105,NCT03874884,NCT04038502,NCT04556617,NCT04748042,NCT05171816,NCT05262608,NCT05501548,NCT05568550"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01237067,NCT02755844,NCT05255653,NCT05320757"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04417062"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical carcinoma",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04483544"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02419495,NCT04633902"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02208375,NCT02419495,NCT03544125,NCT03801369,NCT04683679"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine cancer",
+    "mesh_heading": "Uterine Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01650376"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04483544,NCT04487587,NCT04641728"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant glioma",
+    "mesh_heading": "Glioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03561870"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04939662"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05405309"
+     }
+    ]
+   },
+   {
+    "efo_term": "serous adenocarcinoma",
+    "mesh_heading": "Cystadenocarcinoma, Serous",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04633239"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinosarcoma",
+    "mesh_heading": "Carcinosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05156268"
+     }
+    ]
+   },
+   {
+    "efo_term": "biliary tract cancer",
+    "mesh_heading": "Biliary Tract Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05222971"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03375307"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant epithelial tumor of ovary",
+    "mesh_heading": "Carcinoma, Ovarian Epithelial",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02822157"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00572364,NCT01813474,NCT02338622,NCT02576444,NCT02813135,NCT02925234,NCT03127215,NCT03448718,NCT03498521,NCT06116578"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03953898"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral squamous cell carcinoma",
+    "mesh_heading": "Squamous Cell Carcinoma of Head and Neck",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03085147"
+     }
+    ]
+   },
+   {
+    "efo_term": "unspecified peripheral T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06160843"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03953898"
+     }
+    ]
+   },
+   {
+    "efo_term": "adrenal gland pheochromocytoma",
+    "mesh_heading": "Pheochromocytoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04394858"
+     }
+    ]
+   },
+   {
+    "efo_term": "leiomyosarcoma",
+    "mesh_heading": "Leiomyosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05633381"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05524935"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate carcinoma",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003726"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01460888"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine neoplasm",
+    "mesh_heading": "Uterine Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02208375"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uveal Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05524935"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03953898"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02677038,NCT04005690"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00535353,NCT00912743,NCT04166435"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung neoplasm",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04380636"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "PARP 1, 2 and 3 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3390820"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 257,
+  "earliest": {
+   "nct": "NCT00494442",
+   "start": "2007-06-11",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2014-12-16",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

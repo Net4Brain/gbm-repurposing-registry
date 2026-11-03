@@ -1,0 +1,602 @@
+{
+ "moiety": "daratumumab",
+ "accessed_utc": "2026-11-03T17:33:08+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761036",
+    "date": "2015-11-16",
+    "brand": [
+     "DARZALEX",
+     "DARZALEX"
+    ]
+   },
+   {
+    "application": "BLA761145",
+    "date": "2020-05-01",
+    "brand": [
+     "DARZALEX FASPRO"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-11-16",
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"daratumumab\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Darzalex",
+    "status": "Authorised",
+    "authorisation_date": "2016-05-20",
+    "atc": "L01FC01",
+    "therapeutic_area": "Multiple Myeloma",
+    "indication": "Multiple Myeloma&nbsp; Darzalex&nbsp;is&nbsp;indicated:  in combination with lenalidomide and dexamethasone&nbsp;or&nbsp;with&nbsp;bortezomib,&nbsp;melphalan&nbsp;and prednisone for the treatment of adult patients with newly diagnosed multiple myeloma who are ineligible for autologous stem cell transplant. in&nbsp;combination&nbsp;with&nbsp;bortezomib,&nbsp;lenalidomide&nbsp;and dexamethasone for the treatment of adult patients with newly diagnosed multiple myeloma. in&nbsp;combination&nbsp;with&nbsp;bortezomib,&nbsp;thalidomide&nbsp;and dexamethasone&nbsp;for&nbsp;the&nbsp;treatment&nbsp;of&nbsp;adult&nbsp;patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplant. in combination with lenalidomide and dexamethasone, or bortezomib and dexamethasone,&nbsp;for&nbsp;the&nbsp;treatment&nbsp;of&nbsp;adult&nbsp;patients with multiple myeloma who have received at least one prior therapy. in combination with pomalidomide and dexamethasone for the treatment of adult patients with&nbsp;multiple&nbsp;myeloma&nbsp;who&nbsp;have&nbsp;received&nbsp;one&nbsp;prior therapy containing a proteasome inhibitor and lenalidomide and were lenalidomide refractory, or who have received at least two prior therapies that included lenalidomide and a proteasome inhibitor and have demonstrated disease progression on or after the last therapy (see section 5.1). in as monotherapy for the treatment of adult patients with relapsed and refractory multiple myeloma, whose prior therapy included a proteasome&nbsp;inhibitor&nbsp;and&nbsp;an&nbsp;immunomodulatory agent&nbsp;and&nbsp;who&nbsp;have&nbsp;demonstrated&nbsp;disease progression on the last therapy.  Smouldering&nbsp;multiple&nbsp;myeloma Darzalex&nbsp;as&nbsp;monotherapy&nbsp;is&nbsp;indicated&nbsp;for&nbsp;the treatment of adult patients with smouldering multiple myeloma at high risk of developing multiple myeloma. Light&nbsp;chain&nbsp;(AL)&nbsp;amyloidosis Darzalex is indicated in combination with cyclophosphamide,&nbsp;bortezomib&nbsp;and&nbsp;dexamethasone for the treatment of adult patients with newly diagnosed systemic light chain (AL) amyloidosis. Darzalex&nbsp;is&nbsp;indicated:  in combination with lenalidomide and dexamethasone&nbsp;or&nbsp;with&nbsp;bortezomib,&nbsp;melphalan&nbsp;and prednisone for the treatment of adult patients with newly diagnosed multiple myeloma who are ineligible for autologous stem cell transplant. in&nbsp;combination&nbsp;with&nbsp;bortezomib,&nbsp;thalidomide&nbsp;and dexamethasone&nbsp;for&nbsp;the&nbsp;treatment&nbsp;of&nbsp;adult&nbsp;patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplant. in combination with lenalidomide and dexamethasone, or bortezomib and dexamethasone,&nbsp;for&nbsp;the&nbsp;treatment&nbsp;of&nbsp;adult&nbsp;patients with multiple myeloma who have received at least one prior therapy. as monotherapy for the treatment of adult patients with relapsed and refractory multiple myeloma",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/darzalex"
+   }
+  ],
+  "first_authorisation_date": "2016-05-20"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1743007",
+  "pref_name": "DARATUMUMAB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FC01"
+  ],
+  "molecule_type": "Antibody",
+  "indications": [
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00574288,NCT01415882,NCT01592370,NCT01615029,NCT01620879,NCT01665794,NCT01946477,NCT01985126,NCT01998971,NCT02076009,NCT02116569,NCT02136134,NCT02195479,NCT02252172,NCT02316106,NCT02343042,NCT02419118,NCT02431208,NCT02477891,NCT02497378,NCT02519452,NCT02541383,NCT02626481,NCT02773030,NCT02807454,NCT02852837,NCT02874742,NCT02918331,NCT02944565,NCT02951819,NCT02955810,NCT02977494,NCT03000452,NCT03004287,NCT03012880,NCT03068351,NCT03143036,NCT03158688,NCT03180736,NCT03184194,NCT03188172,NCT03215524,NCT03217812,NCT03221634,NCT03224507,NCT03234972,NCT03236428,NCT03242889,NCT03277105,NCT03289299,NCT03290950,NCT03311828,NCT03314181,NCT03346135,NCT03357952,NCT03412565,NCT03439293,NCT03450057,NCT03475628,NCT03477539,NCT03481556,NCT03490344,NCT03500445,NCT03556332,NCT03589222,NCT03590652,NCT03606577,NCT03622775,NCT03651128,NCT03652064,NCT03669445,NCT03695744,NCT03697629,NCT03697655,NCT03701321,NCT03710603,NCT03732703,NCT03742297,NCT03746652,NCT03763162,NCT03768960,NCT03829371,NCT03837509,NCT03841565,NCT03871829,NCT03896737,NCT03901963,NCT03942224,NCT03989414,NCT03992170,NCT03993912,NCT04009109,NCT04024384,NCT04052880,NCT04065789,NCT04071457,NCT04108195,NCT04121260,NCT04124497,NCT04133636,NCT04140162,NCT04150692,NCT04151667,NCT04166565,NCT04176718,NCT04181827,NCT04205240,NCT04223661,NCT04230031,NCT04246047,NCT04268498,NCT04280328,NCT04288765,NCT04302324,NCT04407442,NCT04497961,NCT04513639,NCT04566328,NCT04586426,NCT04635189,NCT04649060,NCT04656951,NCT04661137,NCT04667663,NCT04700176,NCT04722146,NCT04756401,NCT04775550,NCT04776018,NCT04782687,NCT04892264,NCT04892446,NCT04895410,NCT04910568,NCT04925193,NCT04933539,NCT04956302,NCT04975997,NCT05020236,NCT05050097,NCT05083169,NCT05137054,NCT05139225,NCT05182073,NCT05243342,NCT05257083,NCT05259839,NCT05308654,NCT05363111,NCT05392946,NCT05408026,NCT05434689,NCT05438043,NCT05455320,NCT05497804,NCT05511428,NCT05527340,NCT05552222,NCT05556616,NCT05561387,NCT05572229,NCT05590377,NCT05623020,NCT05675319,NCT05695508,NCT05849610,NCT05857982,NCT05896228,NCT06042725,NCT06055075,NCT06100237,NCT06107738,NCT06169215,NCT06182774,NCT06187441,NCT06189833,NCT06232707,NCT06296121,NCT06348147,NCT06353022,NCT06413498,NCT06464991"
+     },
+     {
+      "type": "DailyMed",
+      "id": "4bb241af-4299-4373-8762-2d6709515db0"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a4d0efe9-5e54-467e-9eb4-56fa7d53b60b"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004077"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FC01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03207542"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02927925,NCT04139304,NCT04915248,NCT05907759"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03447808,NCT03734198,NCT04230304"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02807558,NCT03011034,NCT03067571,NCT03537599"
+     }
+    ]
+   },
+   {
+    "efo_term": "monoclonal gammopathy",
+    "mesh_heading": "Paraproteinemias",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03236428"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03384654,NCT04972942"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02807558,NCT03067571,NCT05749276"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02413489,NCT04139304,NCT04824794"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03023423,NCT05807048"
+     }
+    ]
+   },
+   {
+    "efo_term": "Mantle cell lymphoma",
+    "mesh_heading": "Lymphoma, Mantle-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02413489"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyloidosis",
+    "mesh_heading": "Amyloidosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02816476,NCT03201965,NCT04474938,NCT05250973"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02060188"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01592370,NCT03432741"
+     }
+    ]
+   },
+   {
+    "efo_term": "clear cell renal carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03473730"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03177460"
+     }
+    ]
+   },
+   {
+    "efo_term": "asymptomatic myeloma",
+    "mesh_heading": "Smoldering Multiple Myeloma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03301220,NCT03937635"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01592370,NCT03432741"
+     }
+    ]
+   },
+   {
+    "efo_term": "plasma cell leukemia",
+    "mesh_heading": "Leukemia, Plasma Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03591744,NCT05054478"
+     }
+    ]
+   },
+   {
+    "efo_term": "Waldenstrom macroglobulinemia",
+    "mesh_heading": "Waldenstrom Macroglobulinemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03187262,NCT03679624"
+     }
+    ]
+   },
+   {
+    "efo_term": "mycosis fungoides",
+    "mesh_heading": "Mycosis Fungoides",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03432741"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04204980"
+     }
+    ]
+   },
+   {
+    "efo_term": "plasmacytoma",
+    "mesh_heading": "Plasmacytoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04166565"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03035357"
+     }
+    ]
+   },
+   {
+    "efo_term": "autoimmune thrombocytopenic purpura",
+    "mesh_heading": "Purpura, Thrombocytopenic, Idiopathic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04703621,NCT05562882"
+     }
+    ]
+   },
+   {
+    "efo_term": "POEMS syndrome",
+    "mesh_heading": "POEMS Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04396496"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular lymphoma",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02413489"
+     }
+    ]
+   },
+   {
+    "efo_term": "T-cell acute lymphoblastic leukemia",
+    "mesh_heading": "Leukemia, Biphenotypic, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04972942,NCT05289687"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04922723"
+     }
+    ]
+   },
+   {
+    "efo_term": "lupus nephritis",
+    "mesh_heading": "Lupus Nephritis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04868838"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuromyelitis optica",
+    "mesh_heading": "Neuromyelitis Optica",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05403138"
+     }
+    ]
+   },
+   {
+    "efo_term": "hemolytic anemia",
+    "mesh_heading": "Anemia, Hemolytic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05004259"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04070378"
+     }
+    ]
+   },
+   {
+    "efo_term": "primary membranoproliferative glomerulonephritis",
+    "mesh_heading": "Glomerulonephritis, Membranoproliferative",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03095118"
+     }
+    ]
+   },
+   {
+    "efo_term": "AL amyloidosis",
+    "mesh_heading": "Amyloidosis, Familial",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02841033,NCT03283917,NCT04270175,NCT04304144,NCT04895917,NCT05451771,NCT05486481,NCT05776940,NCT05898646,NCT06022939"
+     }
+    ]
+   },
+   {
+    "efo_term": "immune system disease",
+    "mesh_heading": "Immune System Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05671757"
+     }
+    ]
+   },
+   {
+    "efo_term": "nephrotic syndrome",
+    "mesh_heading": "Nephrotic Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05704400"
+     }
+    ]
+   },
+   {
+    "efo_term": "Aplastic anemia",
+    "mesh_heading": "Anemia, Aplastic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05832216"
+     }
+    ]
+   },
+   {
+    "efo_term": "glomerulonephritis",
+    "mesh_heading": "Glomerulonephritis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05654506"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02488759,NCT03098550,NCT03899155"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04810754"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06253637"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cutaneous T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Cutaneous",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03432741"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid leukemia",
+    "mesh_heading": "Leukemia, Lymphoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06253637"
+     }
+    ]
+   },
+   {
+    "efo_term": "male reproductive organ cancer",
+    "mesh_heading": "Genital Neoplasms, Male",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03035357"
+     }
+    ]
+   },
+   {
+    "efo_term": "sickle cell anemia",
+    "mesh_heading": "Anemia, Sickle Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06358638"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Lymphocyte differentiation antigen CD38 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4660"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 239,
+  "earliest": {
+   "nct": "NCT00574288",
+   "start": "2008-03-26",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-11-16",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

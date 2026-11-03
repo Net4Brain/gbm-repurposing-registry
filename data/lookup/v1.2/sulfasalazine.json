@@ -1,0 +1,283 @@
+{
+ "moiety": "sulfasalazine",
+ "accessed_utc": "2026-11-03T18:21:51+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA007073",
+    "date": "1950-06-20",
+    "brand": [
+     "AZULFIDINE EN-TABS",
+     "AZULFIDINE"
+    ]
+   },
+   {
+    "application": "NDA018605",
+    "date": "1980-12-29",
+    "brand": [
+     "AZULFIDINE"
+    ]
+   },
+   {
+    "application": "NDA020465",
+    "date": "1996-10-17",
+    "brand": [
+     "AZULFIDINE"
+    ]
+   },
+   {
+    "application": "NDA021243",
+    "date": "2000-08-18",
+    "brand": [
+     "AZULFIDINE EN-TABS"
+    ]
+   }
+  ],
+  "first_approval_date": "1950-06-20",
+  "label_indications": [
+   "INDICATIONS AND USAGE Sulfasalazine Tablets are indicated: a) in the treatment of mild to moderate ulcerative colitis, and as adjunctive therapy in severe ulcerative colitis; and b) for the prolongation of the remission period between acute attacks of ulcerative colitis.",
+   "INDICATIONS AND USAGE Sulfasalazine delayed release tablets are indicated: a) in the treatment of mild to moderate ulcerative colitis, and as adjunctive therapy in severe ulcerative colitis; b) for the prolongation of the remission period between acute attacks of ulcerative colitis; c) in the treatment of patients with rheumatoid arthritis who have responded inadequately to salicylates or other nonsteroidal anti-inflammatory drugs (e.g., an insufficient therapeutic response to, or intolerance of, an adequate trial of full doses of one or more nonsteroidal anti-inflammatory drugs); and d) in the treatment of pediatric patients with polyarticular-course 1 juvenile rheumatoid arthritis who have responded inadequately to salicylates or other nonsteroidal anti-inflammatory drugs. Sulfasalazine delayed release tablets are particularly indicated in patients with ulcerative colitis who cannot take uncoated sulfasalazine tablets because of gastrointestinal intolerance, and in whom there is evidence that this intolerance is not primarily the result of high blood levels of sulfapyridine and its metabolites, e.g., patients experiencing nausea and vomiting with the first few doses of the drug, or patients in whom a reduction in dosage does not alleviate the adverse gastrointestinal effects. In patients with rheumatoid arthritis or juvenile rheumatoid arthritis, rest and physiotherapy as indicated should be continued. Unlike anti-inflammatory drugs, sulfasalazine delayed release tablets do not produce an immediate response. Concurrent treatment with analgesics and/or nonsteroidal anti-inflammatory drugs is recommended at least until the effect of sulfasalazine delayed release tablets is apparent.",
+   "INDICATIONS AND USAGE Sulfasalazine tablets are indicated: a) in the treatment of mild to moderate ulcerative colitis, and as adjunctive therapy in severe ulcerative colitis; and b) for the prolongation of the remission period between acute attacks of ulcerative colitis",
+   "INDICATIONS AND USAGE Sulfasalazine tablets are indicated: a) in the treatment of mild to moderate ulcerative colitis, and as adjunctive therapy in severe ulcerative colitis; and b) for the prolongation of the remission period between acute attacks of ulcerative colitis."
+  ],
+  "query": "products.active_ingredients.name:\"sulfasalazine\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL421",
+  "pref_name": "SULFASALAZINE",
+  "max_phase": 4.0,
+  "atc": [
+   "A07EC01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "ankylosing spondylitis",
+    "mesh_heading": "Spondylitis, Ankylosing",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00844142,NCT00889694,NCT02456363"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuropathy",
+    "mesh_heading": "Peripheral Nervous System Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01667029"
+     }
+    ]
+   },
+   {
+    "efo_term": "rheumatoid arthritis",
+    "mesh_heading": "Arthritis, Rheumatoid",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00259610,NCT00422227,NCT00521924,NCT00579878,NCT00764725,NCT00908089,NCT01172639,NCT01659242,NCT01709578,NCT01768572,NCT01941095,NCT02057250,NCT02373202,NCT02374021,NCT02433184,NCT02451748,NCT02466581,NCT02714634,NCT02930343,NCT03414502,NCT03449758,NCT03813771"
+     },
+     {
+      "type": "DailyMed",
+      "id": "257cee60-b68f-4c2b-b57d-8e4d73d17e09"
+     },
+     {
+      "type": "DailyMed",
+      "id": "599be7ea-4036-4e43-a411-1c42369b1b8c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b9ef541a-93c8-4428-ba45-398aa0b327d1"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteomyelitis",
+    "mesh_heading": "Osteomyelitis",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02099240"
+     }
+    ]
+   },
+   {
+    "efo_term": "Chemotherapy-induced nausea and vomiting",
+    "mesh_heading": "Nausea",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02434861"
+     }
+    ]
+   },
+   {
+    "efo_term": "juvenile idiopathic arthritis",
+    "mesh_heading": "Arthritis, Juvenile",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00637780"
+     },
+     {
+      "type": "DailyMed",
+      "id": "257cee60-b68f-4c2b-b57d-8e4d73d17e09"
+     },
+     {
+      "type": "DailyMed",
+      "id": "599be7ea-4036-4e43-a411-1c42369b1b8c"
+     },
+     {
+      "type": "DailyMed",
+      "id": "b9ef541a-93c8-4428-ba45-398aa0b327d1"
+     }
+    ]
+   },
+   {
+    "efo_term": "sclerosing cholangitis",
+    "mesh_heading": "Cholangitis, Sclerosing",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03561584"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04205357,NCT05664464"
+     }
+    ]
+   },
+   {
+    "efo_term": "intestinal obstruction",
+    "mesh_heading": "Intestinal Obstruction",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01596764,NCT01596777"
+     }
+    ]
+   },
+   {
+    "efo_term": "pulmonary arterial hypertension",
+    "mesh_heading": "Hypertension, Pulmonary",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04528056"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriatic arthritis",
+    "mesh_heading": "Arthritis, Psoriatic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04610476"
+     }
+    ]
+   },
+   {
+    "efo_term": "ulcerative colitis",
+    "mesh_heading": "Colitis, Ulcerative",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "1ac35416-0603-44e3-9199-e0639b4de4f0"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05580861"
+     }
+    ]
+   },
+   {
+    "efo_term": "premature birth",
+    "mesh_heading": "Premature Birth",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05703425"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04205357"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Arachidonate 5-lipoxygenase inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL215"
+   },
+   {
+    "mechanism": "Cyclooxygenase inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2094253"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 30,
+  "earliest": {
+   "nct": "NCT00579878",
+   "start": "2001-03-27",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1950-06-20",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "moiety": "tepotinib",
+ "accessed_utc": "2026-11-03T18:25:37+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA214096",
+    "date": "2021-02-03",
+    "brand": [
+     "TEPMETKO"
+    ]
+   }
+  ],
+  "first_approval_date": "2021-02-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE TEPMETKO is indicated for the treatment of adult patients with metastatic non-small cell lung cancer (NSCLC) harboring mesenchymal-epithelial transition ( MET ) exon 14 skipping alterations. TEPMETKO is a kinase inhibitor indicated for the treatment of adult patients with metastatic non-small cell lung cancer (NSCLC) harboring mesenchymal-epithelial transition ( MET ) exon 14 skipping alterations. ( 1 )"
+  ],
+  "query": "products.active_ingredients.name:\"tepotinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3402762",
+  "pref_name": "TEPOTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EX21"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01982955,NCT02864992,NCT03940703,NCT04739358,NCT06031688,NCT06083857,NCT06106802"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01988493,NCT02115373"
+     }
+    ]
+   },
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03546608"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EX21"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234,NCT04647838"
+     },
+     {
+      "type": "USAN",
+      "id": "TEPOTINIB"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal neoplasm",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04515394"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05120960"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma of Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02864992"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02925234"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Hepatocyte growth factor receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3717"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 10,
+  "earliest": {
+   "nct": "NCT01982955",
+   "start": "2013-12-23",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2021-02-03",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

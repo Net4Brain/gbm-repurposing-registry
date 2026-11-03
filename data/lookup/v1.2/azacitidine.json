@@ -1,0 +1,956 @@
+{
+ "moiety": "azacitidine",
+ "accessed_utc": "2026-11-03T17:21:54+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA050794",
+    "date": "2004-05-19",
+    "brand": [
+     "VIDAZA"
+    ]
+   },
+   {
+    "application": "NDA208216",
+    "date": "2016-04-29",
+    "brand": [
+     "AZACITIDINE"
+    ]
+   },
+   {
+    "application": "NDA214120",
+    "date": "2020-09-01",
+    "brand": [
+     "ONUREG",
+     "ONUREG"
+    ]
+   }
+  ],
+  "first_approval_date": "2004-05-19",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE Azacitidine for injection is a nucleoside metabolic inhibitor indicated for the treatment of: Adult patients with the following FAB myelodysplastic syndrome (MDS) subtypes: Refractory anemia (RA) or refractory anemia with ringed sideroblasts (RARS) (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). ( 1.1 ) 1.1 Myelodysplastic Syndromes (MDS) Azacitidine for injection is indicated for treatment of adult patients with the following French-American-British (FAB) myelodysplastic syndrome subtypes: refractory anemia (RA) or refractory anemia with ringed sideroblasts (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). Pediatric use information is approved for Celgene Corporation's Vidaza (azacitidine for injection). However, due to Celgene Corporation's marketing exclusivity rights, this drug product is not labeled with that information.",
+   "1 INDICATIONS AND USAGE Azacitidine for injection is a nucleoside metabolic inhibitor indicated for the treatment of: Adult patients with the following FAB myelodysplastic syndrome (MDS) subtypes: Refractory anemia (RA) or refractory anemia with ringed sideroblasts (RARS) (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). ( 1.1) 1.1 Myelodysplastic Syndromes (MDS) Azacitidine for injection is indicated for treatment of adult patients with the following French-American- British (FAB) myelodysplastic syndrome subtypes: refractory anemia (RA) or refractory anemia with ringed sideroblasts (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). Pediatric use information is approved for Celgene Corporation's Vidaza (azacitidine for injection). However, due to Celgene Corporation's marketing exclusivity rights, this drug product is not labeled with that information.",
+   "1 INDICATIONS AND USAGE ONUREG is indicated for continued treatment of adult patients with acute myeloid leukemia who achieved first complete remission (CR) or complete remission with incomplete blood count recovery (CRi) following intensive induction chemotherapy and are not able to complete intensive curative therapy. ONUREG is a nucleoside metabolic inhibitor indicated for continued treatment of adult patients with acute myeloid leukemia who achieved first complete remission (CR) or complete remission with incomplete blood count recovery (CRi) following intensive induction chemotherapy and are not able to complete intensive curative therapy ( 1 )."
+  ],
+  "query": "products.active_ingredients.name:\"azacitidine\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Onureg",
+    "status": "Authorised",
+    "authorisation_date": "2021-06-17",
+    "atc": "L01BC07",
+    "therapeutic_area": "Leukemia, Myeloid, Acute",
+    "indication": "Onureg is indicated as maintenance therapy in adult patients with acute myeloid leukaemia (AML) who achieved complete remission (CR) or complete remission with incomplete blood count recovery (CRi) following induction therapy with or without consolidation treatment and who are not candidates for, including those who choose not to proceed to, hematopoietic stem cell transplantation (HSCT).",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/onureg"
+   },
+   {
+    "product": "Vidaza",
+    "status": "Authorised",
+    "authorisation_date": "2008-12-17",
+    "atc": "L01BC07",
+    "therapeutic_area": "Myelodysplastic Syndromes;Leukemia, Myelomonocytic, Chronic;Leukemia, Myeloid, Acute",
+    "indication": "Vidaza is indicated for the treatment of adult patients who are not eligible for haematopoietic stem cell transplantation (HSCT) with:&nbsp;  intermediate 2 and high-risk myelodysplastic syndromes (MDS) according to the International Prognostic Scoring System (IPSS), chronic myelomonocytic leukaemia (CMML) with 10 29 % marrow blasts without myeloproliferative disorder, acute myeloid leukaemia (AML) with 20 30 % blasts and multi-lineage dysplasia, according to World Health Organisation (WHO) classification.  Vidaza is indicated for the treatment of adult patients aged 65 years or older who are not eligible for HSCT with AML with &gt;30% marrow blasts according to the WHO classification.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vidaza"
+   },
+   {
+    "product": "Azacitidine Celgene",
+    "status": "Withdrawn",
+    "authorisation_date": "2019-08-02",
+    "atc": "L01BC07",
+    "therapeutic_area": "Myelodysplastic Syndromes;Leukemia, Myelomonocytic, Chronic;Leukemia, Myeloid, Acute",
+    "indication": "Azacitidine Celgene is indicated for the treatment of adult patients who are not eligible for haematopoietic stem cell transplantation (HSCT) with:  intermediate 2 and high-risk myelodysplastic syndromes (MDS) according to the International Prognostic Scoring System (IPSS), chronic myelomonocytic leukaemia (CMML) with 10 29 % marrow blasts without myeloproliferative disorder, acute myeloid leukaemia (AML) with 20 30 % blasts and multi-lineage dysplasia, according to World Health Organisation (WHO) classification, AML with &gt;30% marrow blasts according to the WHO classification.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/azacitidine-celgene"
+   }
+  ],
+  "first_authorisation_date": "2008-12-17"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1489",
+  "pref_name": "AZACITIDINE",
+  "max_phase": 4.0,
+  "atc": [
+   "L01BC07"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00326170,NCT00339196,NCT00382590,NCT00446303,NCT00569010,NCT00666497,NCT00728520,NCT00761722,NCT00766116,NCT00795548,NCT00887068,NCT00915252,NCT00915785,NCT00923234,NCT00946647,NCT01016600,NCT01067274,NCT01074047,NCT01093573,NCT01180322,NCT01249430,NCT01301820,NCT01358734,NCT01369368,NCT01390311,NCT01442714,NCT01462578,NCT01488565,NCT01519011,NCT01541280,NCT01556477,NCT01575691,NCT01617226,NCT01700673,NCT01743859,NCT01757535,NCT01794169,NCT01814826,NCT01835587,NCT01861002,NCT01912274,NCT02017457,NCT02038777,NCT02071927,NCT02203773,NCT02204020,NCT02275663,NCT02303782,NCT02341495,NCT02343939,NCT02351037,NCT02367456,NCT02399917,NCT02400281,NCT02421939,NCT02450877,NCT02472691,NCT02543879,NCT02610777,NCT02677922,NCT02719574,NCT02750995,NCT02752035,NCT02775903,NCT02782468,NCT02785900,NCT02807558,NCT02829840,NCT02942758,NCT02953561,NCT02954653,NCT02995655,NCT03013998,NCT03092674,NCT03113643,NCT03151408,NCT03164057,NCT03173248,NCT03194932,NCT03217838,NCT03298516,NCT03338348,NCT03383575,NCT03390296,NCT03416179,NCT03465540,NCT03466294,NCT03483948,NCT03513484,NCT03530683,NCT03573024,NCT03586609,NCT03701295,NCT03709576,NCT03745352,NCT03765541,NCT03769532,NCT03825367,NCT03926624,NCT03932318,NCT03941964,NCT04023526,NCT04062266,NCT04086264,NCT04090736,NCT04128020,NCT04150029,NCT04150887,NCT04161885,NCT04172844,NCT04229979,NCT04241549,NCT04248595,NCT04266795,NCT04336982,NCT04358393,NCT04435691,NCT04485052,NCT04490707,NCT04501120,NCT04623216,NCT04629443,NCT04687761,NCT04742101,NCT04755244,NCT04778397,NCT04801797,NCT04867928,NCT04887857,NCT04905407,NCT04905810,NCT04913922,NCT04964505,NCT04980885,NCT05048615,NCT05079230,NCT05155709,NCT05175508,NCT05183035,NCT05188326,NCT05197426,NCT05226455,NCT05264883,NCT05270200,NCT05287568,NCT05305859,NCT05361057,NCT05401097,NCT05404906,NCT05413018,NCT05442216,NCT05453903,NCT05471700,NCT05520567,NCT05554393,NCT05586074,NCT05603884,NCT05628623,NCT05654194,NCT05659992,NCT05662956,NCT05720988,NCT05736965,NCT05736978,NCT05834244,NCT05904106,NCT05907057,NCT05955261,NCT06014489,NCT06022003,NCT06068621,NCT06084819,NCT06105658,NCT06150040,NCT06158100,NCT06177067,NCT06180863,NCT06220162,NCT06232655,NCT06285890,NCT06317649,NCT06326697,NCT06345365,NCT06370000,NCT06379360,NCT06384261,NCT06387420,NCT06389292,NCT06429098,NCT06445907,NCT06449482,NCT06451861,NCT06454409,NCT06456463"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000978"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005147"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004871,NCT00005598,NCT00071799,NCT00102687,NCT00118287,NCT00326170,NCT00339196,NCT00379912,NCT00382590,NCT00384956,NCT00439673,NCT00446303,NCT00495547,NCT00569010,NCT00666497,NCT00704704,NCT00721214,NCT00741234,NCT00761722,NCT00795548,NCT00887068,NCT00897130,NCT00915785,NCT00923234,NCT00946647,NCT00997243,NCT01011283,NCT01015352,NCT01048034,NCT01065129,NCT01088373,NCT01152346,NCT01186939,NCT01201811,NCT01305135,NCT01305460,NCT01324960,NCT01338337,NCT01342692,NCT01379274,NCT01390311,NCT01442714,NCT01462578,NCT01488565,NCT01519011,NCT01541280,NCT01556477,NCT01566695,NCT01571648,NCT01575691,NCT01599325,NCT01652781,NCT01700673,NCT01718366,NCT01748240,NCT01828346,NCT01835587,NCT01873703,NCT01913951,NCT01993641,NCT01995578,NCT02017457,NCT02018926,NCT02038816,NCT02117219,NCT02159040,NCT02204020,NCT02281084,NCT02323139,NCT02367456,NCT02472691,NCT02497404,NCT02508870,NCT02543879,NCT02610777,NCT02706899,NCT02719574,NCT02721875,NCT02750995,NCT02775903,NCT02782468,NCT02783547,NCT02807558,NCT02829840,NCT02835794,NCT02929498,NCT02942290,NCT02966782,NCT02995655,NCT03047993,NCT03092674,NCT03094637,NCT03113643,NCT03151304,NCT03164057,NCT03259516,NCT03338348,NCT03383575,NCT03465540,NCT03486353,NCT03564873,NCT03745716,NCT04187703,NCT04266301,NCT04313881,NCT04358393,NCT04401748,NCT04417517,NCT04485065,NCT04511975,NCT04638309,NCT04797780,NCT04812548,NCT04878432,NCT04900350,NCT05175508,NCT05226455,NCT05379166,NCT05469737,NCT05709093,NCT05782127,NCT06004765,NCT06109064,NCT06196203,NCT06454409,NCT06465953"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3495a71a-cc04-4776-851f-f185956f32af"
+     },
+     {
+      "type": "DailyMed",
+      "id": "55915b5d-0e85-4ede-ad4f-ac89670d8973"
+     },
+     {
+      "type": "DailyMed",
+      "id": "71d8d758-86c9-b571-aed1-719654fd4b82"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87f7a39d-06db-48ca-be21-9e8806608439"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e437efe0-9c6a-4f87-b3b4-de90443b095f"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000978"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005147"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01207726,NCT01281124,NCT01545947,NCT01886573,NCT01928576,NCT01935947,NCT02009436,NCT02250326,NCT02546986"
+     }
+    ]
+   },
+   {
+    "efo_term": "refractory anemia with excess blasts",
+    "mesh_heading": "Anemia, Refractory, with Excess of Blasts",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "3495a71a-cc04-4776-851f-f185956f32af"
+     },
+     {
+      "type": "DailyMed",
+      "id": "55915b5d-0e85-4ede-ad4f-ac89670d8973"
+     },
+     {
+      "type": "DailyMed",
+      "id": "71d8d758-86c9-b571-aed1-719654fd4b82"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87f7a39d-06db-48ca-be21-9e8806608439"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e437efe0-9c6a-4f87-b3b4-de90443b095f"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004871,NCT00382590,NCT00387647,NCT00413478,NCT00739388,NCT00813124,NCT00948064,NCT00997243,NCT01038635,NCT01202877,NCT01235117,NCT01254890,NCT01442714,NCT01460498,NCT01542684,NCT01720225,NCT02096042,NCT02196857,NCT02269280,NCT02469415,NCT02577406,NCT02599649,NCT02829840,NCT04748848,NCT04905810,NCT06177067"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01167816,NCT01845805,NCT03264404"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01BC07"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00529022,NCT00996515,NCT02587598,NCT02711137,NCT02712905,NCT03614728"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00413478,NCT01241786"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thrombocytopenia",
+    "mesh_heading": "Thrombocytopenia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02158936,NCT05126004"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelomonocytic leukemia",
+    "mesh_heading": "Leukemia, Myelomonocytic, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00761722,NCT00946647,NCT01048034,NCT01350947,NCT01519011,NCT02472691,NCT02610777,NCT04358393,NCT06085638"
+     },
+     {
+      "type": "DailyMed",
+      "id": "3495a71a-cc04-4776-851f-f185956f32af"
+     },
+     {
+      "type": "DailyMed",
+      "id": "55915b5d-0e85-4ede-ad4f-ac89670d8973"
+     },
+     {
+      "type": "DailyMed",
+      "id": "71d8d758-86c9-b571-aed1-719654fd4b82"
+     },
+     {
+      "type": "DailyMed",
+      "id": "87f7a39d-06db-48ca-be21-9e8806608439"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e437efe0-9c6a-4f87-b3b4-de90443b095f"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/000978"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005147"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00901069,NCT01333046,NCT01998035,NCT05355051"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03326310"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00398450"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01004991,NCT02343536,NCT02951156,NCT03530683,NCT05823701,NCT06158399"
+     }
+    ]
+   },
+   {
+    "efo_term": "liposarcoma",
+    "mesh_heading": "Liposarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01537744"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00901069,NCT01120834,NCT01983969,NCT01998035,NCT02701673,NCT03161223,NCT03450343,NCT03703375,NCT04899414,NCT05075460"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00934440"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00443261"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00412919,NCT00761722,NCT01155583,NCT02675452,NCT03465540,NCT03530683,NCT04407442"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02816021"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain neoplasm",
+    "mesh_heading": "Brain Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02940483"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00901069,NCT01333046,NCT01998035,NCT02543879,NCT03465540,NCT04897477"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004062"
+     }
+    ]
+   },
+   {
+    "efo_term": "male breast carcinoma",
+    "mesh_heading": "Breast Neoplasms, Male",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01349959"
+     }
+    ]
+   },
+   {
+    "efo_term": "ependymoma",
+    "mesh_heading": "Ependymoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03572530,NCT04958486"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute erythroblastic leukemia",
+    "mesh_heading": "Leukemia, Erythroblastic, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02497404"
+     }
+    ]
+   },
+   {
+    "efo_term": "Beta-thalassemia",
+    "mesh_heading": "beta-Thalassemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00005934"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01861002,NCT02071927,NCT05809167,NCT06078306"
+     }
+    ]
+   },
+   {
+    "efo_term": "angioimmunoblastic T-cell lymphoma",
+    "mesh_heading": "Immunoblastic Lymphadenopathy",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03593018,NCT05179213,NCT06176027,NCT06224842"
+     }
+    ]
+   },
+   {
+    "efo_term": "central nervous system cancer",
+    "mesh_heading": "Glioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03206021"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteosarcoma",
+    "mesh_heading": "Osteosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03628209"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03572387"
+     }
+    ]
+   },
+   {
+    "efo_term": "rectum cancer",
+    "mesh_heading": "Rectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01105377"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00748553,NCT04891068"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01386346"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00842582,NCT02900560"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00384839,NCT03572387"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular lymphoma",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01121757,NCT02343536,NCT04722601"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01105377"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematopoietic and lymphoid cell neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01039155,NCT02712905,NCT04809181"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00381693,NCT00569660"
+     }
+    ]
+   },
+   {
+    "efo_term": "unspecified peripheral T-cell lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03542266,NCT04480099,NCT04480125,NCT05182957,NCT05559008,NCT05675813,NCT05678933,NCT05958719"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03248479"
+     }
+    ]
+   },
+   {
+    "efo_term": "mature T-cell and NK-cell non-Hodgkin lymphoma",
+    "mesh_heading": "Lymphoma, T-Cell, Peripheral",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04747236"
+     }
+    ]
+   },
+   {
+    "efo_term": "childhood ependymoma",
+    "mesh_heading": "Ependymoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03206021"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic/myeloproliferative disease",
+    "mesh_heading": "Myelodysplastic-Myeloproliferative Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004871"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05317000"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374099"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloproliferative disorder",
+    "mesh_heading": "Myeloproliferative Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05074355,NCT05282719"
+     }
+    ]
+   },
+   {
+    "efo_term": "nasopharyngeal neoplasm",
+    "mesh_heading": "Nasopharyngeal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02269943"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid leukemia",
+    "mesh_heading": "Leukemia, Lymphoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05149378"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute kidney failure",
+    "mesh_heading": "Acute Kidney Injury",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05325099"
+     }
+    ]
+   },
+   {
+    "efo_term": "classic Hodgkin lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05162976,NCT06190067"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01453140"
+     }
+    ]
+   },
+   {
+    "efo_term": "beta-thalassemia major",
+    "mesh_heading": "beta-Thalassemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00007072"
+     }
+    ]
+   },
+   {
+    "efo_term": "tuberculosis",
+    "mesh_heading": "Tuberculosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03941496"
+     }
+    ]
+   },
+   {
+    "efo_term": "T-cell large granular lymphocyte leukemia",
+    "mesh_heading": "Leukemia, Large Granular Lymphocytic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05141682"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute monocytic leukemia",
+    "mesh_heading": "Leukemia, Monocytic, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05566054"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00496444,NCT00741234,NCT01200004,NCT01983969,NCT02959437,NCT04588922,NCT04778410"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic mastocytosis",
+    "mesh_heading": "Mastocytosis, Systemic",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05609942"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03628209"
+     }
+    ]
+   },
+   {
+    "efo_term": "blastic plasmacytoid dendritic cell neoplasm",
+    "mesh_heading": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03113643"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03666559"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02752035,NCT02993523,NCT04102020,NCT04905810"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04257448"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01193517"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute leukemia of ambiguous lineage",
+    "mesh_heading": "Leukemia, Biphenotypic, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06177067"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelomonocytic leukemia",
+    "mesh_heading": "Leukemia, Myelomonocytic, Chronic",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06159491"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "DNA (cytosine-5)-methyltransferase 3A inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1992"
+   },
+   {
+    "mechanism": "DNA (cytosine-5)-methyltransferase 1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1993"
+   },
+   {
+    "mechanism": "DNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2311221"
+   },
+   {
+    "mechanism": "RNA inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2311222"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 388,
+  "earliest": {
+   "nct": "NCT00005934",
+   "start": "2000-06",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2004-05-19",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,822 @@
+{
+ "moiety": "ruxolitinib",
+ "accessed_utc": "2026-11-03T18:16:22+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA202192",
+    "date": "2011-11-16",
+    "brand": [
+     "JAKAFI",
+     "JAKAFI",
+     "JAKAFI"
+    ]
+   },
+   {
+    "application": "NDA215309",
+    "date": "2021-09-21",
+    "brand": [
+     "OPZELURA"
+    ]
+   },
+   {
+    "application": "NDA217180",
+    "date": "2026-05-01",
+    "brand": [
+     "JAKAFI XR",
+     "JAKAFI XR",
+     "JAKAFI XR"
+    ]
+   }
+  ],
+  "first_approval_date": "2011-11-16",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE JAKAFI/JAKAFI XR is a kinase inhibitor indicated for treatment of: intermediate or high-risk myelofibrosis, including primary myelofibrosis, post-polycythemia vera myelofibrosis, and post-essential thrombocythemia myelofibrosis in adults. ( 1.1 ) polycythemia vera in adults who have had an inadequate response to or are intolerant of hydroxyurea. ( 1.2 ) steroid-refractory acute graft-versus-host disease in adult and pediatric patients 12 years and older. ( 1.3 ) chronic graft-versus-host disease after failure of one or two lines of systemic therapy in adult and pediatric patients 12 years and older. ( 1.4 ) 1.1 Myelofibrosis JAKAFI/JAKAFI XR is indicated for treatment of intermediate or high-risk myelofibrosis (MF), including primary MF, post-polycythemia vera MF, and post-essential thrombocythemia MF in adults. 1.2 Polycythemia Vera JAKAFI/JAKAFI XR is indicated for treatment of polycythemia vera (PV) in adults who have had an inadequate response to or are intolerant of hydroxyurea. 1.3 Acute Graft-Versus-Host Disease JAKAFI/JAKAFI XR is indicated for treatment of steroid-refractory acute graft-versus-host disease (aGVHD) in adult and pediatric patients 12 years and older. 1.4 Chronic Graft-Versus-Host Disease JAKAFI/JAKAFI XR is indicated for treatment of chronic graft-versus-host disease (cGVHD) after failure of one or two lines of systemic therapy in adult and pediatric patients 12 years and older.",
+   "1 INDICATIONS AND USAGE OPZELURA is a Janus kinase (JAK) inhibitor indicated for: the topical short-term and non-continuous chronic treatment of mild to moderate atopic dermatitis in non-immunocompromised adult and pediatric patients 2 years of age and older whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable. ( 1.1 ) the topical treatment of nonsegmental vitiligo in adult and pediatric patients 12 years of age and older. ( 1.2 ) Limitations of Use Use of OPZELURA in combination with therapeutic biologics, other JAK inhibitors or potent immunosuppressants such as azathioprine or cyclosporine is not recommended. ( 1.3 ) 1.1 Atopic Dermatitis OPZELURA is indicated for the topical short-term and non-continuous chronic treatment of mild to moderate atopic dermatitis in non-immunocompromised adult and pediatric patients 2 years of age and older whose disease is not adequately controlled with topical prescription therapies or when those therapies are not advisable. 1.2 Nonsegmental Vitiligo OPZELURA is indicated for the topical treatment of nonsegmental vitiligo in adult and pediatric patients 12 years of age and older. 1.3 Limitations of Use Use of OPZELURA in combination with therapeutic biologics, other Janus kinase (JAK) inhibitors, or potent immunosuppressants such as azathioprine or cyclosporine is not recommended."
+  ],
+  "query": "products.active_ingredients.name:\"ruxolitinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Opzelura",
+    "status": "Authorised",
+    "authorisation_date": "2023-04-19",
+    "atc": "D11AH09",
+    "therapeutic_area": "Vitiligo;Dermatitis, Atopic",
+    "indication": "Vitiligo Opzelura is indicated for the treatment of non segmental vitiligo with facial involvement in adults and adolescents from 12 years of age.&nbsp; Atopic dermatitis Opzelura is indicated for the treatment of moderate atopic dermatitis in adult patients for whom topical corticosteroids and topical calcineurin inhibitors are inadequate or inappropriate.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/opzelura"
+   }
+  ],
+  "first_authorisation_date": "2023-04-19"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1789941",
+  "pref_name": "RUXOLITINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "D11AH09",
+   "L01EJ01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EJ01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02587598,NCT02711137"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02593929,NCT03153982"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01251965,NCT01712659,NCT01895842,NCT02723994"
+     }
+    ]
+   },
+   {
+    "efo_term": "primary myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01392443,NCT01433445,NCT01790295,NCT01969838,NCT01981850,NCT02087059,NCT02091752,NCT02251821,NCT02806375,NCT03222609,NCT03333187,NCT04454658,NCT04468984,NCT04472598,NCT04480086"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01877005,NCT01965119,NCT02613598,NCT03681561"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02066532"
+     }
+    ]
+   },
+   {
+    "efo_term": "psoriasis",
+    "mesh_heading": "Psoriasis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00617994,NCT00820950"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02475655"
+     }
+    ]
+   },
+   {
+    "efo_term": "myeloproliferative disorder",
+    "mesh_heading": "Myeloproliferative Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00726232,NCT00952289,NCT01348490,NCT01375140,NCT02076191,NCT02267278,NCT02718300,NCT03123588,NCT03144687"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02015208,NCT02912754,NCT03041636"
+     }
+    ]
+   },
+   {
+    "efo_term": "alopecia areata",
+    "mesh_heading": "Alopecia Areata",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01950780,NCT02553330"
+     }
+    ]
+   },
+   {
+    "efo_term": "rheumatoid arthritis",
+    "mesh_heading": "Arthritis, Rheumatoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00550043"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute graft vs. host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02913261,NCT03701698,NCT04934670,NCT05121142,NCT05123040"
+     }
+    ]
+   },
+   {
+    "efo_term": "Vitiligo",
+    "mesh_heading": "Vitiligo",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02809976,NCT03099304,NCT04052425,NCT04057573,NCT04530344,NCT04896385,NCT05247489,NCT05750823,NCT05872477"
+     }
+    ]
+   },
+   {
+    "efo_term": "essential thrombocythemia",
+    "mesh_heading": "Thrombocythemia, Essential",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01392443,NCT02577926,NCT03878199,NCT06079879"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycythemia vera",
+    "mesh_heading": "Polycythemia Vera",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01243944,NCT01392443,NCT01632904,NCT01981850,NCT02038036,NCT02292446,NCT02493530,NCT02577926,NCT03669965,NCT03878199,NCT04116502,NCT05870475"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cachexia",
+    "mesh_heading": "Cachexia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02072057"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02494882,NCT03117751,NCT03515200,NCT03571321"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02152956,NCT02638428,NCT03286530,NCT03874052"
+     }
+    ]
+   },
+   {
+    "efo_term": "atopic eczema",
+    "mesh_heading": "Dermatitis, Atopic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03011892,NCT03257644,NCT03745638,NCT03745651,NCT03920852,NCT04839380,NCT04921969,NCT05034822,NCT05127421,NCT05456529,NCT06238817"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelogenous leukemia",
+    "mesh_heading": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01702064,NCT02253277,NCT02973711,NCT03610971,NCT03654768"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02974647,NCT04856137"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00639002,NCT03110822,NCT03773107,NCT06209606,NCT06225310"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01423604,NCT01822756,NCT02117479,NCT02119663"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02119650,NCT02145637,NCT04328844"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02613598,NCT04328844"
+     }
+    ]
+   },
+   {
+    "efo_term": "inflammatory breast carcinoma",
+    "mesh_heading": "Inflammatory Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02876302"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02119676"
+     }
+    ]
+   },
+   {
+    "efo_term": "T-cell acute lymphoblastic leukemia",
+    "mesh_heading": "Leukemia, Biphenotypic, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01712659"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03514069"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04016116"
+     }
+    ]
+   },
+   {
+    "efo_term": "lichen planus",
+    "mesh_heading": "Lichen Planus",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03697460,NCT05593432"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hypereosinophilic syndrome",
+    "mesh_heading": "Hypereosinophilic Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00044304"
+     }
+    ]
+   },
+   {
+    "efo_term": "severe acute respiratory syndrome",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04359290"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01562873,NCT01594216,NCT02041429,NCT02066532,NCT02120417"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00638378"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02155465"
+     }
+    ]
+   },
+   {
+    "efo_term": "classic Hodgkin lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02164500"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02953678,NCT02997280,NCT03112603,NCT03395340,NCT03616184,NCT03774082,NCT04061876,NCT04269850,NCT05622318,NCT05663827,NCT06008808,NCT06075225"
+     }
+    ]
+   },
+   {
+    "efo_term": "hemophagocytic syndrome",
+    "mesh_heading": "Lymphohistiocytosis, Hemophagocytic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02400463,NCT03795909,NCT04120090,NCT04551131,NCT06244862"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelofibrosis",
+    "mesh_heading": "Primary Myelofibrosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00934544,NCT01317875,NCT01340651,NCT01369498,NCT01433445,NCT01493414,NCT01693601,NCT01712308,NCT01730248,NCT01790295,NCT01969838,NCT01981850,NCT02158858,NCT02251821,NCT02370706,NCT02436135,NCT02493530,NCT02593760,NCT02598297,NCT02784496,NCT03069326,NCT03427866,NCT03878199,NCT04097821,NCT04218071,NCT04328844,NCT04354727,NCT04485260,NCT04543279,NCT04562389,NCT04817007,NCT05037760"
+     }
+    ]
+   },
+   {
+    "efo_term": "pneumonia",
+    "mesh_heading": "Pneumonia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04581954"
+     }
+    ]
+   },
+   {
+    "efo_term": "hidradenitis suppurativa",
+    "mesh_heading": "Hidradenitis Suppurativa",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04414514,NCT05635838"
+     }
+    ]
+   },
+   {
+    "efo_term": "necrobiosis lipoidica",
+    "mesh_heading": "Necrobiosis Lipoidica",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04492618"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04334044,NCT04338958,NCT04348071,NCT04348695,NCT04354714,NCT04359290,NCT04362137,NCT04366232,NCT04374149,NCT04377620,NCT04403243,NCT04477993,NCT04581954"
+     }
+    ]
+   },
+   {
+    "efo_term": "bronchiolitis obliterans",
+    "mesh_heading": "Bronchiolitis Obliterans",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04908735"
+     }
+    ]
+   },
+   {
+    "efo_term": "discoid lupus erythematosus",
+    "mesh_heading": "Lupus Erythematosus, Discoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04908280,NCT06261021"
+     }
+    ]
+   },
+   {
+    "efo_term": "macrophage activation syndrome",
+    "mesh_heading": "Macrophage Activation Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05137496"
+     }
+    ]
+   },
+   {
+    "efo_term": "Eczematoid dermatitis",
+    "mesh_heading": "Eczema",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "D11AH09"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05219864,NCT05233410,NCT05906628"
+     }
+    ]
+   },
+   {
+    "efo_term": "dermatitis",
+    "mesh_heading": "Dermatitis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05293717"
+     }
+    ]
+   },
+   {
+    "efo_term": "beta-thalassemia major",
+    "mesh_heading": "beta-Thalassemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02049450"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuromyelitis optica",
+    "mesh_heading": "Neuromyelitis Optica",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05909943"
+     }
+    ]
+   },
+   {
+    "efo_term": "anemia (phenotype)",
+    "mesh_heading": "Anemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01712308"
+     }
+    ]
+   },
+   {
+    "efo_term": "lichen disease",
+    "mesh_heading": "Lichen Sclerosus et Atrophicus",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05593445"
+     }
+    ]
+   },
+   {
+    "efo_term": "seborrheic dermatitis",
+    "mesh_heading": "Dermatitis, Seborrheic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05787860"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03674047,NCT04509700"
+     }
+    ]
+   },
+   {
+    "efo_term": "T-cell large granular lymphocyte leukemia",
+    "mesh_heading": "Leukemia, Large Granular Lymphocytic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05592015"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic graft versus host disease",
+    "mesh_heading": "Bronchiolitis Obliterans Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03954236,NCT05121142,NCT06233110,NCT06388564"
+     }
+    ]
+   },
+   {
+    "efo_term": "prurigo",
+    "mesh_heading": "Prurigo",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05755438"
+     }
+    ]
+   },
+   {
+    "efo_term": "Paraganglioma",
+    "mesh_heading": "Paraganglioma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03514069"
+     }
+    ]
+   },
+   {
+    "efo_term": "Uveal Melanoma",
+    "mesh_heading": "Uveal Melanoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04328844"
+     }
+    ]
+   },
+   {
+    "efo_term": "Histiocytosis",
+    "mesh_heading": "Histiocytosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05762640"
+     }
+    ]
+   },
+   {
+    "efo_term": "inborn error of immunity",
+    "mesh_heading": "Primary Immunodeficiency Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06199427"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05440942"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant atrophic papulosis",
+    "mesh_heading": "Malignant Atrophic Papulosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05998395"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematopoietic and lymphoid cell neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05579769"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 199,
+  "earliest": {
+   "nct": "NCT00044304",
+   "start": "2002-09-26",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2011-11-16",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,661 @@
+{
+ "moiety": "progesterone",
+ "accessed_utc": "2026-11-03T18:11:25+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA009238",
+    "date": "1974-11-01",
+    "brand": [
+     "PROGESTERONE",
+     "PROGESTERONE"
+    ]
+   },
+   {
+    "application": "NDA017553",
+    "date": "1976-02-04",
+    "brand": [
+     "PROGESTASERT"
+    ]
+   },
+   {
+    "application": "NDA017362",
+    "date": "1978-05-11",
+    "brand": [
+     "PROGESTERONE"
+    ]
+   },
+   {
+    "application": "NDA020756",
+    "date": "1997-05-13",
+    "brand": [
+     "CRINONE"
+    ]
+   },
+   {
+    "application": "NDA020701",
+    "date": "1997-07-31",
+    "brand": [
+     "CRINONE",
+     "CRINONE"
+    ]
+   },
+   {
+    "application": "NDA019781",
+    "date": "1998-05-14",
+    "brand": [
+     "PROMETRIUM",
+     "PROMETRIUM",
+     "PROMETRIUM"
+    ]
+   },
+   {
+    "application": "NDA020843",
+    "date": "1998-12-16",
+    "brand": [
+     "PROMETRIUM",
+     "PROMETRIUM",
+     "PROMETRIUM"
+    ]
+   },
+   {
+    "application": "NDA022057",
+    "date": "2007-06-21",
+    "brand": [
+     "ENDOMETRIN"
+    ]
+   },
+   {
+    "application": "NDA210132",
+    "date": "2018-10-28",
+    "brand": [
+     "BIJUVA",
+     "BIJUVA"
+    ]
+   },
+   {
+    "application": "NDA201110",
+    "date": "2020-04-29",
+    "brand": [
+     "MILPROSA"
+    ]
+   }
+  ],
+  "first_approval_date": "1974-11-01",
+  "label_indications": [
+   "INDICATIONS AND USAGE Progesterone capsules are indicated for use in the prevention of endometrial hyperplasia in nonhysterectomized postmenopausal women who are receiving conjugated estrogens tablets. They are also indicated for use in secondary amenorrhea.",
+   "USES: Provides potentized homeo-nutritional support of the prostate.\u2020 \u2020Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.",
+   "USES: \u2022 For the temporary relief of symptoms including: \u2022 female support \u2022 fatigue \u2022 low sex drive These statements are based upon homeopathic principles. They have not been reviewed by the Food and Drug Administration."
+  ],
+  "query": "products.active_ingredients.name:\"progesterone\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL103",
+  "pref_name": "PROGESTERONE",
+  "max_phase": 4.0,
+  "atc": [
+   "G03DA04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "infertility",
+    "mesh_heading": "Infertility",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00117468,NCT00615251,NCT00696800,NCT00696878,NCT00702845,NCT00827983,NCT00828191,NCT01081652,NCT01147770,NCT01176175,NCT01599494,NCT01941875,NCT02118051,NCT02736032,NCT03701490,NCT04537078,NCT04549116,NCT04938011,NCT05555121,NCT05899010,NCT05980091,NCT06091436,NCT06150703,NCT06212102"
+     }
+    ]
+   },
+   {
+    "efo_term": "premature birth",
+    "mesh_heading": "Premature Birth",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00329914,NCT00480402,NCT00536003,NCT00615550,NCT01178788,NCT01180296,NCT01796522,NCT01812239,NCT01985594,NCT02145767,NCT02225353,NCT02304237,NCT02350231,NCT02470676,NCT02697331,NCT02989519,NCT03152942,NCT03537287,NCT04342585"
+     }
+    ]
+   },
+   {
+    "efo_term": "cocaine dependence",
+    "mesh_heading": "Cocaine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00585520,NCT00632099"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000295,NCT00271206,NCT01811225,NCT01972464"
+     }
+    ]
+   },
+   {
+    "efo_term": "preeclampsia",
+    "mesh_heading": "Pre-Eclampsia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00928213"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00123669"
+     }
+    ]
+   },
+   {
+    "efo_term": "HIV-1 infection",
+    "mesh_heading": "HIV Infections",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02400021"
+     }
+    ]
+   },
+   {
+    "efo_term": "epilepsy",
+    "mesh_heading": "Epilepsy",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00029536"
+     }
+    ]
+   },
+   {
+    "efo_term": "pregnancy",
+    "mesh_heading": "Pregnancy",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00086177,NCT00809939,NCT00946088,NCT02510534,NCT03774745,NCT04753957,NCT05365464"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycystic ovary syndrome",
+    "mesh_heading": "Polycystic Ovary Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00594217,NCT03440359,NCT04597099"
+     }
+    ]
+   },
+   {
+    "efo_term": "uterine fibroid",
+    "mesh_heading": "Leiomyoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01156857,NCT01252069"
+     }
+    ]
+   },
+   {
+    "efo_term": "Vulvar Lichen Sclerosus",
+    "mesh_heading": "Vulvar Lichen Sclerosus",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01126255"
+     }
+    ]
+   },
+   {
+    "efo_term": "orthostatic intolerance",
+    "mesh_heading": "Orthostatic Intolerance",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01153581"
+     }
+    ]
+   },
+   {
+    "efo_term": "cannabis dependence",
+    "mesh_heading": "Marijuana Abuse",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03430050,NCT03729869"
+     }
+    ]
+   },
+   {
+    "efo_term": "placenta praevia",
+    "mesh_heading": "Placenta Previa",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03633175"
+     }
+    ]
+   },
+   {
+    "efo_term": "postpartum depression",
+    "mesh_heading": "Depression, Postpartum",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00001481,NCT04051320"
+     }
+    ]
+   },
+   {
+    "efo_term": "female infertility",
+    "mesh_heading": "Infertility, Female",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01850030,NCT02491437"
+     }
+    ]
+   },
+   {
+    "efo_term": "diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "hypertension",
+    "mesh_heading": "Hypertension",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "memory impairment",
+    "mesh_heading": "Memory Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000176"
+     }
+    ]
+   },
+   {
+    "efo_term": "osteoporosis",
+    "mesh_heading": "Osteoporosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000430,NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "bulimia nervosa",
+    "mesh_heading": "Bulimia Nervosa",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04225221"
+     }
+    ]
+   },
+   {
+    "efo_term": "amenorrhea",
+    "mesh_heading": "Amenorrhea",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00946192,NCT02019589"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0224b5a6-25a3-44c9-b94f-90e2e064c164"
+     },
+     {
+      "type": "DailyMed",
+      "id": "a09a3b76-36f1-4d20-930e-7e3da97e7ebd"
+     }
+    ]
+   },
+   {
+    "efo_term": "intermediate coronary syndrome",
+    "mesh_heading": "Angina, Unstable",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000601"
+     }
+    ]
+   },
+   {
+    "efo_term": "Myocardial Ischemia",
+    "mesh_heading": "Myocardial Ischemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466,NCT00000555"
+     }
+    ]
+   },
+   {
+    "efo_term": "Osteopenia",
+    "mesh_heading": "Bone Diseases, Metabolic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000430"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hypercholesterolemia",
+    "mesh_heading": "Hypercholesterolemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "thrombotic disease",
+    "mesh_heading": "Thrombosis",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01608451,NCT03906669"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03077698,NCT04046185"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain injury",
+    "mesh_heading": "Brain Injuries",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00048646,NCT00822900,NCT01143064"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000555,NCT00000601"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04365127,NCT04865029"
+     }
+    ]
+   },
+   {
+    "efo_term": "hemorrhage",
+    "mesh_heading": "Uterine Hemorrhage",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "a09a3b76-36f1-4d20-930e-7e3da97e7ebd"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian neoplasm",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05244811"
+     }
+    ]
+   },
+   {
+    "efo_term": "methamphetamine dependence",
+    "mesh_heading": "Amphetamine-Related Disorders",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05128071"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05091866"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000176,NCT00006399"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian hyperstimulation syndrome",
+    "mesh_heading": "Ovarian Hyperstimulation Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03071172"
+     }
+    ]
+   },
+   {
+    "efo_term": "anorexia nervosa",
+    "mesh_heading": "Anorexia Nervosa",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00088153"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical intraepithelial neoplasia",
+    "mesh_heading": "Uterine Cervical Dysplasia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00247169"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06179303"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466,NCT00000601"
+     }
+    ]
+   },
+   {
+    "efo_term": "bone disease",
+    "mesh_heading": "Bone Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466"
+     }
+    ]
+   },
+   {
+    "efo_term": "Atypical Endometrial Hyperplasia",
+    "mesh_heading": "Endometrial Hyperplasia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0224b5a6-25a3-44c9-b94f-90e2e064c164"
+     }
+    ]
+   },
+   {
+    "efo_term": "menopause",
+    "mesh_heading": "Menopause",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000466,NCT00000555,NCT00000601,NCT00302731,NCT00455962,NCT00775242,NCT01057511,NCT01293747,NCT01942668,NCT02224313,NCT02467673,NCT02841137,NCT03202186,NCT04209543,NCT05586724"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04051320"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Progesterone receptor agonist",
+    "action_type": "AGONIST",
+    "target": "CHEMBL208"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 109,
+  "earliest": {
+   "nct": "NCT00000466",
+   "start": "1987-09",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1974-11-01",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

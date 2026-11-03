@@ -1,0 +1,144 @@
+{
+ "moiety": "brigatinib",
+ "accessed_utc": "2026-11-03T17:25:38+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA208772",
+    "date": "2017-04-28",
+    "brand": [
+     "ALUNBRIG",
+     "ALUNBRIG",
+     "ALUNBRIG"
+    ]
+   }
+  ],
+  "first_approval_date": "2017-04-28",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE ALUNBRIG is indicated for the treatment of adult patients with anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC) as detected by an FDA-approved test [see Dosage and Administration (2.1) ] . ALUNBRIG is a kinase inhibitor indicated for the treatment of adult patients with anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC) as detected by an FDA-approved test. ( 1 , 2.1 )"
+  ],
+  "query": "products.active_ingredients.name:\"brigatinib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Alunbrig",
+    "status": "Authorised",
+    "authorisation_date": "2018-11-22",
+    "atc": "L01XE43",
+    "therapeutic_area": "Carcinoma, Non-Small-Cell Lung",
+    "indication": "Alunbrig is indicated as monotherapy for the treatment of adult patients with anaplastic lymphoma kinase (ALK)?positive advanced non?small cell lung cancer (NSCLC) previously not treated with an ALK inhibitor. Alunbrig is indicated as monotherapy for the treatment of adult patients with anaplastic lymphoma kinase ALKpositive advanced NSCLC previously treated with crizotinib.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/alunbrig"
+   }
+  ],
+  "first_authorisation_date": "2018-11-22"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3545311",
+  "pref_name": "BRIGATINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01ED04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02094573,NCT02706626,NCT02737501,NCT03410108,NCT03420742,NCT03535740,NCT03596866,NCT03707938,NCT03737994,NCT04005144,NCT04074993,NCT04223596,NCT04227028,NCT04318938,NCT05361564,NCT05718297"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/004248"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2017/208772lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01ED04"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaplastic large cell lymphoma",
+    "mesh_heading": "Lymphoma, Large-Cell, Anaplastic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03719898,NCT04260009"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoma",
+    "mesh_heading": "Carcinoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02737501"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02737501"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "ALK tyrosine kinase receptor inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL4247"
+   },
+   {
+    "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL203"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 18,
+  "earliest": {
+   "nct": "NCT02094573",
+   "start": "2014-06-04",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2017-04-28",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

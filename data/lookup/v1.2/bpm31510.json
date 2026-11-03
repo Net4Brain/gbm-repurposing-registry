@@ -1,0 +1,472 @@
+{
+ "moiety": "bpm31510",
+ "accessed_utc": "2026-11-03T17:25:21+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"bpm31510\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL454801",
+  "pref_name": "UBIDECARENONE",
+  "max_phase": 3.0,
+  "atc": [
+   "C01EB09"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "C01EB09"
+     }
+    ]
+   },
+   {
+    "efo_term": "injury",
+    "mesh_heading": "Wounds and Injuries",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02251626"
+     }
+    ]
+   },
+   {
+    "efo_term": "preeclampsia",
+    "mesh_heading": "Pre-Eclampsia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00300937"
+     }
+    ]
+   },
+   {
+    "efo_term": "hepatocellular carcinoma",
+    "mesh_heading": "Carcinoma, Hepatocellular",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01964001"
+     }
+    ]
+   },
+   {
+    "efo_term": "sudden cardiac arrest",
+    "mesh_heading": "Death, Sudden, Cardiac",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01319110"
+     }
+    ]
+   },
+   {
+    "efo_term": "heart failure",
+    "mesh_heading": "Heart Failure",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02779634"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic fatigue syndrome",
+    "mesh_heading": "Fatigue Syndrome, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02865460"
+     }
+    ]
+   },
+   {
+    "efo_term": "gliosarcoma",
+    "mesh_heading": "Gliosarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03020602"
+     }
+    ]
+   },
+   {
+    "efo_term": "Sepsis",
+    "mesh_heading": "Sepsis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01948063,NCT05293132"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00605709,NCT00652080"
+     }
+    ]
+   },
+   {
+    "efo_term": "basal cell carcinoma",
+    "mesh_heading": "Carcinoma, Basal Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00604890"
+     }
+    ]
+   },
+   {
+    "efo_term": "cardiac arrest",
+    "mesh_heading": "Heart Arrest",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02934555"
+     }
+    ]
+   },
+   {
+    "efo_term": "diastolic heart failure",
+    "mesh_heading": "Heart Failure, Diastolic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03133793"
+     }
+    ]
+   },
+   {
+    "efo_term": "Multiple Organ Failure",
+    "mesh_heading": "Multiple Organ Failure",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03968640"
+     }
+    ]
+   },
+   {
+    "efo_term": "cerebellar ataxia",
+    "mesh_heading": "Cerebellar Ataxia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00957216"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00976131"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04752813"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01163500,NCT01424761"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00327756"
+     }
+    ]
+   },
+   {
+    "efo_term": "polycystic ovary syndrome",
+    "mesh_heading": "Polycystic Ovary Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04870502"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02650804"
+     }
+    ]
+   },
+   {
+    "efo_term": "epidermolysis bullosa",
+    "mesh_heading": "Epidermolysis Bullosa",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02793960"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic kidney disease",
+    "mesh_heading": "Renal Insufficiency, Chronic",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05422534"
+     }
+    ]
+   },
+   {
+    "efo_term": "oral lichen planus",
+    "mesh_heading": "Lichen Planus, Oral",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04091698"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcopenia",
+    "mesh_heading": "Sarcopenia",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04999488"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyotrophic lateral sclerosis",
+    "mesh_heading": "Amyotrophic Lateral Sclerosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00243932"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03111433"
+     }
+    ]
+   },
+   {
+    "efo_term": "Parkinson disease",
+    "mesh_heading": "Parkinson Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00004731,NCT00076492,NCT00180037,NCT01892176,NCT03061513"
+     }
+    ]
+   },
+   {
+    "efo_term": "Huntington disease",
+    "mesh_heading": "Huntington Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00608881,NCT00920699,NCT00980694"
+     }
+    ]
+   },
+   {
+    "efo_term": "Prader-Willi syndrome",
+    "mesh_heading": "Prader-Willi Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03831425"
+     }
+    ]
+   },
+   {
+    "efo_term": "Duchenne muscular dystrophy",
+    "mesh_heading": "Muscular Dystrophy, Duchenne",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00033189,NCT00308113"
+     }
+    ]
+   },
+   {
+    "efo_term": "Charcot-Marie-Tooth disease",
+    "mesh_heading": "Charcot-Marie-Tooth Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00541164"
+     }
+    ]
+   },
+   {
+    "efo_term": "progressive supranuclear palsy",
+    "mesh_heading": "Supranuclear Palsy, Progressive",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00328874,NCT00532571"
+     }
+    ]
+   },
+   {
+    "efo_term": "mitochondrial disease",
+    "mesh_heading": "Mitochondrial Diseases",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00432744"
+     }
+    ]
+   },
+   {
+    "efo_term": "juvenile idiopathic arthritis",
+    "mesh_heading": "Arthritis, Juvenile",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05871086"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-alcoholic steatohepatitis",
+    "mesh_heading": "Non-alcoholic Fatty Liver Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05731596"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00327756"
+     }
+    ]
+   },
+   {
+    "efo_term": "Crohn's disease",
+    "mesh_heading": "Crohn Disease",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06419335"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Supplement",
+    "action_type": null,
+    "target": null
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 36,
+  "earliest": {
+   "nct": "NCT00004731",
+   "start": "1998-09",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

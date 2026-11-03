@@ -1,0 +1,202 @@
+{
+ "moiety": "pitavastatin",
+ "accessed_utc": "2026-11-03T18:10:42+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA022363",
+    "date": "2009-08-03",
+    "brand": [
+     "LIVALO",
+     "LIVALO",
+     "LIVALO"
+    ]
+   },
+   {
+    "application": "NDA208379",
+    "date": "2017-07-14",
+    "brand": [
+     "ZYPITAMAG",
+     "ZYPITAMAG",
+     "ZYPITAMAG"
+    ]
+   },
+   {
+    "application": "NDA209875",
+    "date": "2017-08-04",
+    "brand": [
+     "NIKITA",
+     "NIKITA",
+     "NIKITA"
+    ]
+   }
+  ],
+  "first_approval_date": "2009-08-03",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE LIVALO is indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: Adults with primary hyperlipidemia. Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH). LIVALO is a HMG-CoA reductase inhibitor (statin) indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: ( 1 ) Adults with primary hyperlipidemia. Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH).",
+   "1 INDICATIONS AND USAGE Pitavastatin tablets are indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: Adult with primary hyperlipidemia. Adults with heterozygous familial hypercholesterolemia (HeFH). Pediatric use information is approved for Kowa Co Ltd\u2019s LIVALO (pitavastatin) tablets. However, due to Kowa Co Ltd\u2019s marketing exclusivity rights, this drug product is not labeled with that information. Pitavastatin is a HMG-CoA reductase inhibitor (statin) indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: ( 1 ) Adult patients with primary hyperlipidemia. Adults with heterozygous familial hypercholesterolemia (HeFH).",
+   "1 INDICATIONS AND USAGE Pitavastatin tablets are indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: Adults with primary hyperlipidemia. Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH). Pitavastatin tablets are a HMG-CoA reductase inhibitor (statin) indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: ( 1 ) Adults with primary hyperlipidemia. Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH).",
+   "1 INDICATIONS AND USAGE Pitavastatin tablets are indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: \u2022 Adults with primary hyperlipidemia. \u2022 Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH). Pitavastatin tablets are a HMG-CoA reductase inhibitor (statin) indicated as an adjunct to diet to reduce low-density lipoprotein cholesterol (LDL-C) in: ( 1 ) \u2022 Adults with primary hyperlipidemia. \u2022 Adults and pediatric patients aged 8 years and older with heterozygous familial hypercholesterolemia (HeFH)."
+  ],
+  "query": "products.active_ingredients.name:\"pitavastatin\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1201753",
+  "pref_name": "PITAVASTATIN",
+  "max_phase": 4.0,
+  "atc": [
+   "C10AA08"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "cardiovascular disease",
+    "mesh_heading": "Cardiovascular Diseases",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "C10AA08"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hypercholesterolemia",
+    "mesh_heading": "Hypercholesterolemia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00249249,NCT00309738,NCT00309777,NCT00344175,NCT00653913"
+     }
+    ]
+   },
+   {
+    "efo_term": "metabolic syndrome",
+    "mesh_heading": "Metabolic Syndrome",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01595828"
+     }
+    ]
+   },
+   {
+    "efo_term": "influenza",
+    "mesh_heading": "Influenza, Human",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02888327"
+     }
+    ]
+   },
+   {
+    "efo_term": "Renal insufficiency",
+    "mesh_heading": "Renal Insufficiency",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03311841"
+     }
+    ]
+   },
+   {
+    "efo_term": "Disorder of lipid metabolism",
+    "mesh_heading": "Lipid Metabolism Disorders",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00249249,NCT00309738,NCT00309751,NCT00309777,NCT00344175,NCT00344370,NCT02670434"
+     }
+    ]
+   },
+   {
+    "efo_term": "coronary artery disease",
+    "mesh_heading": "Coronary Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00344175"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04705909"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 1 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 1",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01581476"
+     }
+    ]
+   },
+   {
+    "efo_term": "type 2 diabetes mellitus",
+    "mesh_heading": "Diabetes Mellitus, Type 2",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00344370"
+     }
+    ]
+   },
+   {
+    "efo_term": "hyperlipidemia",
+    "mesh_heading": "Hyperlipidemias",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01386853,NCT02634034,NCT02670434"
+     }
+    ]
+   }
+  ],
+  "mechanisms": []
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 12,
+  "earliest": {
+   "nct": "NCT00309738",
+   "start": "2005-09",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2009-08-03",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

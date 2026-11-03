@@ -1,0 +1,31 @@
+{
+ "moiety": "photobac",
+ "accessed_utc": "2026-11-03T18:10:37+00:00",
+ "fda": {
+  "approvals": [],
+  "first_approval_date": null,
+  "label_indications": [],
+  "query": "products.active_ingredients.name:\"photobac\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": false
+ },
+ "first_non_gbm_phase2_trial": null,
+ "flags": {
+  "approved_fda_or_ema": false,
+  "first_approval_date": null,
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": [
+   "not found in FDA, EMA or ChEMBL (check name mapping)"
+  ]
+ }
+}

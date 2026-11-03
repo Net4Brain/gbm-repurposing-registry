@@ -1,0 +1,359 @@
+{
+ "moiety": "cobimetinib",
+ "accessed_utc": "2026-11-03T17:31:40+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA206192",
+    "date": "2015-11-10",
+    "brand": [
+     "COTELLIC"
+    ]
+   }
+  ],
+  "first_approval_date": "2015-11-10",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE COTELLIC \u00ae is a kinase inhibitor indicated: For the treatment of adult patients with unresectable or metastatic melanoma with a BRAF V600E or V600K mutation, in combination with vemurafenib. ( 1.1 , 14.1 ) As a single agent for the treatment of adult patients with histiocytic neoplasms. ( 1.2 , 14.2 ) 1.1 Unresectable or Metastatic Melanoma COTELLIC \u00ae is indicated for the treatment of adult patients with unresectable or metastatic melanoma with a BRAF V600E or V600K mutation, in combination with vemurafenib. 1.2 Histiocytic Neoplasms COTELLIC\u00ae, as a single agent, is indicated for the treatment of adult patients with histiocytic neoplasms."
+  ],
+  "query": "products.active_ingredients.name:\"cobimetinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL2146883",
+  "pref_name": "COBIMETINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EE02"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EE02"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00467779,NCT00996892,NCT01562275,NCT01928394,NCT01974258,NCT01986166,NCT01988896,NCT02639546,NCT02925234,NCT03264066,NCT03284502,NCT03989115,NCT04185831,NCT04190628,NCT04341181,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01271803,NCT01495988,NCT01656642,NCT01689519,NCT01813214,NCT01876641,NCT01959633,NCT02036086,NCT02230306,NCT02303951,NCT02427893,NCT02537600,NCT02583516,NCT02721459,NCT02818023,NCT02902029,NCT02908672,NCT02968303,NCT03005639,NCT03101254,NCT03175432,NCT03178851,NCT03224208,NCT03273153,NCT03554083,NCT04722575,NCT04835805"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02670044,NCT05441514"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03224208"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric adenocarcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03281369"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03312530,NCT03732703"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01495988,NCT01876641,NCT02414750,NCT02768207,NCT03175432,NCT03625141,NCT04109456"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03178552,NCT03202940,NCT03337698,NCT03600701"
+     }
+    ]
+   },
+   {
+    "efo_term": "Craniopharyngioma",
+    "mesh_heading": "Craniopharyngioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03224767"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal carcinoma",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02060188"
+     }
+    ]
+   },
+   {
+    "efo_term": "sarcoma",
+    "mesh_heading": "Sarcoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04216953"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03281369"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02322814,NCT03395899,NCT03566485"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03695380"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03202316"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic myelomonocytic leukemia",
+    "mesh_heading": "Leukemia, Myelomonocytic, Chronic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04409639"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid carcinoma",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03181100"
+     }
+    ]
+   },
+   {
+    "efo_term": "skin cancer",
+    "mesh_heading": "Skin Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02721459"
+     }
+    ]
+   },
+   {
+    "efo_term": "gallbladder carcinoma",
+    "mesh_heading": "Gallbladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04941287"
+     }
+    ]
+   },
+   {
+    "efo_term": "Cerebral arteriovenous malformation",
+    "mesh_heading": "Intracranial Arteriovenous Malformations",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05125471"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05722886"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01106599,NCT02925234,NCT03284502,NCT03498521,NCT03768063,NCT04341181,NCT04551521,NCT05159245"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04005690"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastroesophageal junction adenocarcinoma",
+    "mesh_heading": "Adenocarcinoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03281369"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic ductal adenocarcinoma",
+    "mesh_heading": "Carcinoma, Pancreatic Ductal",
+    "max_phase": 0.5,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04005690"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02291289,NCT02788279,NCT02876224"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Dual specificity mitogen-activated protein kinase kinase 1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3587"
+   },
+   {
+    "mechanism": "Dual specificity mitogen-activated protein kinase kinase 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL2964"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 69,
+  "earliest": {
+   "nct": "NCT01689519",
+   "start": "2013-01-08",
+   "phases": [
+    "PHASE3"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2015-11-10",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "moiety": "sacituzumab govitecan",
+ "accessed_utc": "2026-11-03T18:17:55+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "BLA761115",
+    "date": "2020-04-22",
+    "brand": [
+     "TRODELVY"
+    ]
+   }
+  ],
+  "first_approval_date": "2020-04-22",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE TRODELVY is a Trop-2-directed antibody and topoisomerase inhibitor conjugate indicated: Locally Advanced or Metastatic Triple-Negative Breast Cancer First Line As a single agent for the first-line treatment of adult patients with unresectable locally advanced or metastatic triple negative breast cancer (TNBC) who are not candidates for PD-1 or PD-L1 inhibitor-based therapy. ( 1.1 , 14.1 ) In combination with pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph for the first-line treatment of adult patients with unresectable locally advanced or metastatic TNBC whose tumors express PD-L1 (CPS \u2265 10) as determined by an FDA-authorized test. ( 1.1 , 14.1 ) Second Line or Later For the treatment of adult patients with unresectable locally advanced or mTNBC who have received two or more prior systemic therapies, at least one of them for metastatic disease. ( 1.1 , 14.1 ) Locally Advanced or Metastatic HR-Positive, HER2-Negative Breast Cancer For the treatment of adult patients with unresectable locally advanced or metastatic hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC 1+ or IHC 2+/ISH\u2013) breast cancer who have received endocrine-based therapy and at least two additional systemic therapies in the metastatic setting. ( 1.1 , 14.2 ) 1.1 Locally Advanced or Metastatic Triple-Negative Breast Cancer First Line TRODELVY as a single agent is indicated for the first-line treatment of adult patients with unresectable locally advanced or metastatic triple negative breast cancer (TNBC) who are not candidates for PD-1 or PD-L1 inhibitor based therapy. TRODELVY, in combination with pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph, is indicated for the first-line treatment of adult patients with unresectable locally advanced or metastatic TNBC whose tumors express PD-L1 [Combined Positive Score (CPS \u2265 10)] as determined by an FDA-authorized test [see Dosage and Administration (2.1) ] . Second Line or Later TRODELVY is indicated for the treatment of adult patients with unresectable locally advanced or metastatic TNBC who have received two or more prior systemic therapies, at least one of them for metastatic disease. 1.2 Locally Advanced or Metastatic HR-positive, HER2-negative Breast Cancer TRODELVY is indicated for the treatment of adult patients with unresectable locally advanced or metastatic hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC 1+ or IHC 2+/ISH\u2013) breast cancer who have received endocrine-based therapy and at least two additional systemic therapies in the metastatic setting."
+  ],
+  "query": "products.active_ingredients.name:\"sacituzumab govitecan\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Trodelvy",
+    "status": "Authorised",
+    "authorisation_date": "2021-11-22",
+    "atc": "L01FX06",
+    "therapeutic_area": "Breast Neoplasms;Triple Negative Breast Neoplasms",
+    "indication": "Triple-Negative Breast Cancer&nbsp; Trodelvy is indicated:&nbsp;  as monotherapy for the treatment of adult patients with unresectable locally advanced or metastatic triple-negative breast cancer (TNBC) who have not received prior systemic therapy for metastatic disease and who are not candidates for PD-1 or PD-L1 inhibitor therapy (see section 5.1). as monotherapy for the treatment of adult patients with unresectable or metastatic TNBC who have received two or more prior systemic therapies, including at least one of them for advanced disease (see section 5.1)&nbsp; &nbsp;  HR-Positive, HER2-Negative Breast Cancer&nbsp; Trodelvy as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic hormone receptor (HR)-positive, HER2-negative breast cancer who have received endocrine-based therapy, and at least two additional systemic therapies in the advanced setting.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trodelvy"
+   }
+  ],
+  "first_authorisation_date": "2021-11-22"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3545262",
+  "pref_name": "SACITUZUMAB GOVITECAN",
+  "max_phase": 4.0,
+  "atc": [
+   "L01FX17"
+  ],
+  "molecule_type": "Antibody drug conjugate",
+  "indications": [
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02161679,NCT03971409,NCT04454437,NCT04958785"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005182"
+     },
+     {
+      "type": "FDA",
+      "id": "label/2020/761115s000lbl.pdf"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03995706,NCT04559230"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03869190,NCT04863885,NCT05226117,NCT05327530"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial carcinoma",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04251416"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02574455,NCT03424005,NCT03901339,NCT04039230,NCT04230109,NCT04434040,NCT04448886,NCT04468061,NCT04639986,NCT04927884,NCT05008510,NCT05113966,NCT05143229,NCT05332561,NCT05552001,NCT05675579,NCT05840211,NCT06081244,NCT06100874,NCT06102824,NCT06236269,NCT06238921,NCT06263543,NCT06328387"
+     },
+     {
+      "type": "DailyMed",
+      "id": "57a597d2-03f0-472e-b148-016d7169169d"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03725761"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03337698,NCT05089734,NCT05186974,NCT05609968,NCT05633667"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder cancer",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05581589"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01FX17"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03964727,NCT04143711,NCT04319198,NCT04794699,NCT05119907,NCT06167317,NCT06311214"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04826341"
+     }
+    ]
+   },
+   {
+    "efo_term": "urogenital neoplasm",
+    "mesh_heading": "Urogenital Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04527991"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/005182"
+     }
+    ]
+   },
+   {
+    "efo_term": "cervical cancer",
+    "mesh_heading": "Uterine Cervical Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05838521"
+     }
+    ]
+   },
+   {
+    "efo_term": "urinary bladder carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05581589,NCT06133517"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03547973,NCT05006794,NCT05097599"
+     }
+    ]
+   },
+   {
+    "efo_term": "gastric adenocarcinoma",
+    "mesh_heading": "Stomach Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06123468"
+     }
+    ]
+   },
+   {
+    "efo_term": "mesothelioma",
+    "mesh_heading": "Mesothelioma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06477419"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian carcinoma",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06028932"
+     }
+    ]
+   },
+   {
+    "efo_term": "brain disease",
+    "mesh_heading": "Brain Diseases",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06462079"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal squamous cell carcinoma",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06329869"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thymic Carcinoma",
+    "mesh_heading": "Thymoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06248515"
+     }
+    ]
+   },
+   {
+    "efo_term": "Thymoma",
+    "mesh_heading": "Thymoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06248515"
+     }
+    ]
+   },
+   {
+    "efo_term": "leptomeningeal metastasis",
+    "mesh_heading": "Meningeal Carcinomatosis",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06462092"
+     }
+    ]
+   },
+   {
+    "efo_term": "hilar cholangiocarcinoma",
+    "mesh_heading": "Klatskin Tumor",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06178588"
+     }
+    ]
+   },
+   {
+    "efo_term": "thyroid cancer",
+    "mesh_heading": "Thyroid Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06235216"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06055465"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06486441"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Tumor-associated calcium signal transducer 2 binding agent",
+    "action_type": "BINDING AGENT",
+    "target": "CHEMBL3856163"
+   },
+   {
+    "mechanism": "DNA topoisomerase I inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL1781"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 62,
+  "earliest": {
+   "nct": "NCT02161679",
+   "start": "2016-08",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2020-04-22",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "moiety": "haloperidol",
+ "accessed_utc": "2026-11-03T17:47:12+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA015922",
+    "date": "1967-04-12",
+    "brand": [
+     "HALDOL"
+    ]
+   },
+   {
+    "application": "NDA015921",
+    "date": "1967-04-12",
+    "brand": [
+     "HALDOL",
+     "HALDOL",
+     "HALDOL"
+    ]
+   },
+   {
+    "application": "NDA015923",
+    "date": "1971-05-18",
+    "brand": [
+     "HALDOL"
+    ]
+   },
+   {
+    "application": "NDA018701",
+    "date": "1986-01-14",
+    "brand": [
+     "HALDOL",
+     "HALDOL"
+    ]
+   }
+  ],
+  "first_approval_date": "1967-04-12",
+  "label_indications": [
+   "INDICATIONS AND USAGE Haloperidol decanoate injection, 50 mg/mL and haloperidol decanoate injection, 100 mg/mL are indicated for the treatment of patients with schizophrenia who require prolonged parenteral antipsychotic therapy.",
+   "INDICATIONS AND USAGE Haloperidol is indicated for use in the management of manifestations of psychotic disorders. Haloperidol is indicated for the control of tics and vocal utterances of Tourette\u2019s Disorder in children and adults. Haloperidol is effective for the treatment of severe behavior problems in children of combative, explosive hyperexcitability (which cannot be accounted for by immediate provocation). Haloperidol is also effective in the short-term treatment of hyperactive children who show excessive motor activity with accompanying conduct disorders consisting of some or all of the following symptoms: impulsivity, difficulty sustaining attention, aggressivity, mood lability, and poor frustration tolerance. Haloperidol should be reserved for these two groups of children only after failure to respond to psychotherapy or medications other than antipsychotics.",
+   "INDICATIONS AND USAGE Haloperidol tablets are indicated for use in the management of manifestations of psychotic disorders. Haloperidol tablets are indicated for the control of tics and vocal utterances of Tourette's Disorder in children and adults. Haloperidol tablets are effective for the treatment of severe behavior problems in children of combative, explosive hyperexcitability (which cannot be accounted for by immediate provocation). Haloperidol tablets are also effective in the short-term treatment of hyperactive children who show excessive motor activity with accompanying conduct disorders consisting of some or all of the following symptoms: impulsivity, difficulty sustaining attention, aggressivity, mood lability, and poor frustration tolerance. Haloperidol tablets should be reserved for these two groups of children only after failure to respond to psychotherapy or medications other than antipsychotics.",
+   "INDICATIONS AND USAGE Haloperidol tablets, USP are indicated for use in the management of manifestations of psychotic disorders. Haloperidol tablets, USP are indicated for the control of tics and vocal utterances of Tourette\u2019s Disorder in children and adults. Haloperidol tablets, USP are effective for the treatment of severe behavior problems in children of combative, explosive hyperexcitability (which cannot be accounted for by immediate provocation). Haloperidol tablets, USP are also effective in the short-term treatment of hyperactive children who show excessive motor activity with accompanying conduct disorders consisting of some or all of the following symptoms: impulsivity, difficulty sustaining attention, aggressivity, mood lability, and poor frustration tolerance. Haloperidol tablets, USP should be reserved for these two groups of children only after failure to respond to psychotherapy or medications other than antipsychotics."
+  ],
+  "query": "products.active_ingredients.name:\"haloperidol\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL54",
+  "pref_name": "HALOPERIDOL",
+  "max_phase": 4.0,
+  "atc": [
+   "N05AD01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "psychosis",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "N05AD01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00946491,NCT01161277"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0027b8a3-73bf-4005-a7e3-b035f451a861"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-operative sign or symptom",
+    "mesh_heading": "Postoperative Complications",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01862302"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tourette syndrome",
+    "mesh_heading": "Tourette Syndrome",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0027b8a3-73bf-4005-a7e3-b035f451a861"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e69578b5-3e98-4fc6-a5ad-61e8ec4cb8c1"
+     }
+    ]
+   },
+   {
+    "efo_term": "conduct disorder",
+    "mesh_heading": "Conduct Disorder",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0027b8a3-73bf-4005-a7e3-b035f451a861"
+     }
+    ]
+   },
+   {
+    "efo_term": "aggressive behavior",
+    "mesh_heading": "Aggression",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03375671"
+     }
+    ]
+   },
+   {
+    "efo_term": "nicotine dependence",
+    "mesh_heading": "Tobacco Use Disorder",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01924468"
+     }
+    ]
+   },
+   {
+    "efo_term": "mood disorder",
+    "mesh_heading": "Mood Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00340379"
+     }
+    ]
+   },
+   {
+    "efo_term": "anxiety",
+    "mesh_heading": "Anxiety",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizoaffective disorder",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00797277"
+     }
+    ]
+   },
+   {
+    "efo_term": "Dementia",
+    "mesh_heading": "Dementia",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "delirium",
+    "mesh_heading": "Delirium",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00300391,NCT00429676,NCT00599287,NCT00954603,NCT01140529,NCT01811459,NCT02345902,NCT03021486,NCT04750395,NCT05690698,NCT06168773"
+     }
+    ]
+   },
+   {
+    "efo_term": "Nausea",
+    "mesh_heading": "Nausea",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00124930"
+     }
+    ]
+   },
+   {
+    "efo_term": "Agitation",
+    "mesh_heading": "Psychomotor Agitation",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00797277,NCT00866645,NCT01750541,NCT05803642"
+     }
+    ]
+   },
+   {
+    "efo_term": "methamphetamine dependence",
+    "mesh_heading": "Amphetamine-Related Disorders",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04715230"
+     }
+    ]
+   },
+   {
+    "efo_term": "depressive disorder",
+    "mesh_heading": "Depressive Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02374567"
+     }
+    ]
+   },
+   {
+    "efo_term": "Alzheimer disease",
+    "mesh_heading": "Alzheimer Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00000179"
+     }
+    ]
+   },
+   {
+    "efo_term": "schizophrenia",
+    "mesh_heading": "Schizophrenia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00007774,NCT00044044,NCT00156065,NCT00156104,NCT00157378,NCT00159081,NCT00169091,NCT00189995,NCT00191555,NCT00253110,NCT00419653,NCT00485901,NCT00723606,NCT00797277,NCT00838032,NCT00859872,NCT01052389,NCT01157351,NCT01161277,NCT01164059,NCT01193166,NCT02199743,NCT02240173,NCT02307396,NCT02374567,NCT02431702,NCT03075657"
+     },
+     {
+      "type": "DailyMed",
+      "id": "12053bcb-dc5a-49a6-8e92-6804c07b0355"
+     },
+     {
+      "type": "DailyMed",
+      "id": "27cfe684-7d11-4f37-9c8b-b2bdd6b5348e"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c3606f13-ff90-46f2-a4bb-194e49ce7349"
+     },
+     {
+      "type": "DailyMed",
+      "id": "c9d0d515-adb7-4f93-8363-0f11771321c9"
+     },
+     {
+      "type": "DailyMed",
+      "id": "e69578b5-3e98-4fc6-a5ad-61e8ec4cb8c1"
+     }
+    ]
+   },
+   {
+    "efo_term": "Huntington disease",
+    "mesh_heading": "Huntington Disease",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04071639"
+     }
+    ]
+   },
+   {
+    "efo_term": "mental or behavioural disorder",
+    "mesh_heading": "Psychotic Disorders",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0027b8a3-73bf-4005-a7e3-b035f451a861"
+     }
+    ]
+   },
+   {
+    "efo_term": "post-operative delirium",
+    "mesh_heading": "Emergence Delirium",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00250237"
+     }
+    ]
+   },
+   {
+    "efo_term": "Tics",
+    "mesh_heading": "Tics",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0027b8a3-73bf-4005-a7e3-b035f451a861"
+     }
+    ]
+   },
+   {
+    "efo_term": "bipolar disorder",
+    "mesh_heading": "Bipolar Disorder",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00097266,NCT00129220"
+     }
+    ]
+   },
+   {
+    "efo_term": "pain",
+    "mesh_heading": "Pain",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT06428084"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "action_type": "ANTAGONIST",
+    "target": "CHEMBL224"
+   },
+   {
+    "mechanism": "D2-like dopamine receptor inverse agonist",
+    "action_type": "INVERSE AGONIST",
+    "target": "CHEMBL2331075"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 52,
+  "earliest": {
+   "nct": "NCT00169091",
+   "start": "1996-03",
+   "phases": [
+    "PHASE4"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "1967-04-12",
+  "oncology_approval": false,
+  "oncology_by_atc": false,
+  "oncology_wording_in_label": false,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

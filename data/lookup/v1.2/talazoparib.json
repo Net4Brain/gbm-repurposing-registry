@@ -1,0 +1,381 @@
+{
+ "moiety": "talazoparib",
+ "accessed_utc": "2026-11-03T18:22:51+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA211651",
+    "date": "2018-10-16",
+    "brand": [
+     "TALZENNA",
+     "TALZENNA",
+     "TALZENNA"
+    ]
+   },
+   {
+    "application": "NDA217439",
+    "date": "2024-03-07",
+    "brand": [
+     "TALZENNA",
+     "TALZENNA",
+     "TALZENNA"
+    ]
+   }
+  ],
+  "first_approval_date": "2018-10-16",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE TALZENNA is a poly (ADP-ribose) polymerase (PARP) inhibitor indicated for: Breast Cancer \u2022 As a single agent, for the treatment of adult patients with deleterious or suspected deleterious germline BRCA -mutated (g BRCA m) HER2-negative locally advanced or metastatic breast cancer. Select patients for therapy based on an FDA-approved companion diagnostic for TALZENNA. ( 1.1 ) HRR Gene-Mutated mCRPC \u2022 In combination with enzalutamide for the treatment of adult patients with HRR gene-mutated metastatic castration-resistant prostate cancer (mCRPC). ( 1.2 ) 1.1 BRCA -mutated (g BRCA m) HER2-negative Locally Advanced or Metastatic Breast Cancer TALZENNA is indicated as a single agent for the treatment of adult patients with deleterious or suspected deleterious germline breast cancer susceptibility gene ( BRCA )-mutated (g BRCA m) human epidermal growth factor receptor 2 (HER2)-negative locally advanced or metastatic breast cancer. Select patients for therapy based on an FDA-approved companion diagnostic for TALZENNA [see Dosage and Administration (2.1) ] . 1.2 HRR Gene-mutated mCRPC TALZENNA is indicated in combination with enzalutamide for the treatment of adult patients with homologous recombination repair (HRR) gene-mutated metastatic castration-resistant prostate cancer (mCRPC) [see Dosage and Administration (2.3) ] .",
+   "1 INDICATIONS AND USAGE TALZENNA is a poly (ADP-ribose) polymerase (PARP) inhibitor indicated for: Breast Cancer \u2022 As a single agent, for the treatment of adult patients with deleterious or suspected deleterious germline BRCA -mutated (g BRCA m) HER2-negative locally advanced or metastatic breast cancer. Select patients for therapy based on an FDA-approved companion diagnostic for TALZENNA. ( 1.1 ) HRR Gene-mutated Metastatic Castration-Resistant Prostate Cancer (mCRPC) \u2022 In combination with enzalutamide for the treatment of adult patients with HRR gene-mutated metastatic castration-resistant prostate cancer (mCRPC). ( 1.2 ) 1.1 BRCA -mutated (g BRCA m) HER2-negative Locally Advanced or Metastatic Breast Cancer TALZENNA is indicated as a single agent for the treatment of adult patients with deleterious or suspected deleterious germline breast cancer susceptibility gene ( BRCA )-mutated (g BRCA m) human epidermal growth factor receptor 2 (HER2)-negative locally advanced or metastatic breast cancer. Select patients for therapy based on an FDA-approved companion diagnostic for TALZENNA [see Dosage and Administration (2.1) ] . 1.2 HRR Gene-mutated Metastatic Castration-Resistant Prostate Cancer (mCRPC) TALZENNA is indicated in combination with enzalutamide for the treatment of adult patients with homologous recombination repair (HRR) gene-mutated metastatic castration-resistant prostate cancer (mCRPC) [see Dosage and Administration (2.3) ] ."
+  ],
+  "query": "products.active_ingredients.name:\"talazoparib\""
+ },
+ "ema": {
+  "products": [
+   {
+    "product": "Talzenna",
+    "status": "Authorised",
+    "authorisation_date": "2019-06-20",
+    "atc": "L01XK04",
+    "therapeutic_area": "Breast Neoplasms",
+    "indication": "Treatment with Talzenna should be initiated and supervised by a physician experienced in the use of anticancer medicinal products. Patient selection Breast cancer: Patients should be selected for the treatment of breast cancer with Talzenna based on the presence of deleterious or suspected deleterious germline BRCA mutations determined by an experienced laboratory using a validated test method. Genetic counselling for patients with BRCA mutations should be performed according to local regulations, as applicable. Prostate cancer: There is no requirement for tumour mutation testing for selection of patients with mCRPC for treatment with Talzenna.",
+    "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/talzenna"
+   }
+  ],
+  "first_authorisation_date": "2019-06-20"
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL3137320",
+  "pref_name": "TALAZOPARIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01XK04"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "breast neoplasm",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379,NCT01945775,NCT02034916,NCT03343054,NCT03426254"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02878785,NCT04207190,NCT05101551,NCT05319249"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01XK04"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01989546,NCT02317874,NCT02392793,NCT02925234,NCT02997163,NCT02997176,NCT03042910,NCT03070548,NCT03077607,NCT03330405,NCT03343054,NCT03565991,NCT04497116,NCT04635631,NCT05327010"
+     }
+    ]
+   },
+   {
+    "efo_term": "squamous cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02154490"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02537561,NCT04173507,NCT04672460"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hereditary breast and ovarian cancer syndrome",
+    "mesh_heading": "Hereditary Breast and Ovarian Cancer Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02282345,NCT02286687"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03974217,NCT04207190"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate adenocarcinoma",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04019327,NCT04734730"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04068831,NCT04337970"
+     }
+    ]
+   },
+   {
+    "efo_term": "small cell lung carcinoma",
+    "mesh_heading": "Small Cell Lung Carcinoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03672773,NCT04334941"
+     }
+    ]
+   },
+   {
+    "efo_term": "triple-negative breast cancer",
+    "mesh_heading": "Triple Negative Breast Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04755868"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04019327,NCT04332744,NCT04846478"
+     }
+    ]
+   },
+   {
+    "efo_term": "pancreatic carcinoma",
+    "mesh_heading": "Pancreatic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03637491,NCT04672460"
+     }
+    ]
+   },
+   {
+    "efo_term": "angiosarcoma",
+    "mesh_heading": "Hemangiosarcoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01042379,NCT01989546,NCT02358200,NCT03499353,NCT03964532,NCT03990896,NCT04039230,NCT04134884,NCT04672460,NCT04690855,NCT04819243,NCT04849364,NCT04892693,NCT05035745,NCT05288127,NCT06193525"
+     }
+    ]
+   },
+   {
+    "efo_term": "ovarian cancer",
+    "mesh_heading": "Ovarian Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01989546,NCT02316834,NCT02326844,NCT02836028,NCT03642132,NCT04672460"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03148795,NCT04672460,NCT04734730,NCT04821622,NCT04824937,NCT05425862,NCT05873192"
+     }
+    ]
+   },
+   {
+    "efo_term": "endometrial cancer",
+    "mesh_heading": "Endometrial Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02127151,NCT02912572,NCT04486352"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04740190"
+     }
+    ]
+   },
+   {
+    "efo_term": "urothelial carcinoma",
+    "mesh_heading": "Urinary Bladder Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04678362"
+     }
+    ]
+   },
+   {
+    "efo_term": "neuroendocrine neoplasm",
+    "mesh_heading": "Neuroendocrine Tumors",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05053854"
+     }
+    ]
+   },
+   {
+    "efo_term": "adrenal gland pheochromocytoma",
+    "mesh_heading": "Pheochromocytoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT05142241"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02921919,NCT02925234,NCT05097599"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast carcinoma",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02282345"
+     }
+    ]
+   },
+   {
+    "efo_term": "melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04187833"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04672460"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Poly [ADP-ribose] polymerase-1 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL3105"
+   },
+   {
+    "mechanism": "Poly [ADP-ribose] polymerase 2 inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5366"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 64,
+  "earliest": {
+   "nct": "NCT01042379",
+   "start": "2010-03-01",
+   "phases": [
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2018-10-16",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}

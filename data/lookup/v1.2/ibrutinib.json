@@ -1,0 +1,660 @@
+{
+ "moiety": "ibrutinib",
+ "accessed_utc": "2026-11-03T17:47:44+00:00",
+ "fda": {
+  "approvals": [
+   {
+    "application": "NDA205552",
+    "date": "2013-11-13",
+    "brand": [
+     "IMBRUVICA",
+     "IMBRUVICA"
+    ]
+   },
+   {
+    "application": "NDA205552",
+    "date": "2014-02-12",
+    "brand": [
+     "IMBRUVICA",
+     "IMBRUVICA"
+    ]
+   },
+   {
+    "application": "NDA210563",
+    "date": "2018-02-16",
+    "brand": [
+     "IMBRUVICA",
+     "IMBRUVICA",
+     "IMBRUVICA"
+    ]
+   },
+   {
+    "application": "NDA210563",
+    "date": "2018-02-16",
+    "brand": [
+     "IMBRUVICA",
+     "IMBRUVICA",
+     "IMBRUVICA"
+    ]
+   },
+   {
+    "application": "NDA217003",
+    "date": "2022-08-24",
+    "brand": [
+     "IMBRUVICA",
+     "IMBRUVICA",
+     "IMBRUVICA"
+    ]
+   }
+  ],
+  "first_approval_date": "2013-11-13",
+  "label_indications": [
+   "1 INDICATIONS AND USAGE IMBRUVICA is a kinase inhibitor indicated for the treatment of: Adult patients with chronic lymphocytic leukemia (CLL)/Small lymphocytic lymphoma (SLL) ( 1.1 ). Adult patients with chronic lymphocytic leukemia (CLL)/Small lymphocytic lymphoma (SLL) with 17p deletion ( 1.2 ). Adult patients with Waldenstr\u00f6m\u2019s macroglobulinemia (WM) ( 1.3 ). Adult and pediatric patients age 1 year and older with chronic graft versus host disease (cGVHD) after failure of one or more lines of systemic therapy ( 1.4 ). 1.1 Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma IMBRUVICA is indicated for the treatment of adult patients with chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL). 1. 2 Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma with 17p deletion IMBRUVICA is indicated for the treatment of adult patients with chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL) with 17p deletion. 1. 3 Waldenstr\u00f6m\u2019s Macroglobulinemia IMBRUVICA is indicated for the treatment of adult patients with Waldenstr\u00f6m\u2019s macroglobulinemia (WM). 1. 4 Chronic Graft versus Host Disease IMBRUVICA is indicated for the treatment of adult and pediatric patients age 1 year and older with chronic graft-versus-host disease (cGVHD) after failure of one or more lines of systemic therapy."
+  ],
+  "query": "products.active_ingredients.name:\"ibrutinib\""
+ },
+ "ema": {
+  "products": [],
+  "first_authorisation_date": null
+ },
+ "chembl": {
+  "found": true,
+  "chembl_id": "CHEMBL1873475",
+  "pref_name": "IBRUTINIB",
+  "max_phase": 4.0,
+  "atc": [
+   "L01EL01"
+  ],
+  "molecule_type": "Small molecule",
+  "indications": [
+   {
+    "efo_term": "liver disease",
+    "mesh_heading": "Liver Diseases",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01767948"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ATC",
+      "id": "L01EL01"
+     },
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01704963,NCT03525925,NCT04522284"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoma",
+    "mesh_heading": "Lymphoma",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01325701,NCT01779791,NCT01855750,NCT01974440,NCT02077166,NCT02269085,NCT02272686,NCT02309580,NCT02436707,NCT02542514,NCT02670317,NCT02756247,NCT02760485,NCT02780830,NCT02874404,NCT03093831,NCT03136497,NCT03295240,NCT03478514"
+     }
+    ]
+   },
+   {
+    "efo_term": "macroglobulinemia",
+    "mesh_heading": "Waldenstrom Macroglobulinemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "DailyMed",
+      "id": "0dfd0279-ff17-4ea9-89be-9803c71bab44"
+     }
+    ]
+   },
+   {
+    "efo_term": "multiple myeloma",
+    "mesh_heading": "Multiple Myeloma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01478581,NCT01962792,NCT02548962,NCT02902965,NCT02943473,NCT03015792,NCT03702725"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic lymphocytic leukemia",
+    "mesh_heading": "Leukemia, Lymphocytic, Chronic, B-Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01105247,NCT01109069,NCT01217749,NCT01292135,NCT01500733,NCT01578707,NCT01589302,NCT01611090,NCT01644253,NCT01722487,NCT01724346,NCT01744691,NCT01804686,NCT01886872,NCT01973387,NCT02006485,NCT02007044,NCT02160015,NCT02200848,NCT02251548,NCT02264574,NCT02268851,NCT02301156,NCT02315768,NCT02345863,NCT02381080,NCT02388048,NCT02406742,NCT02420912,NCT02427451,NCT02477696,NCT02514083,NCT02518555,NCT02537613,NCT02611908,NCT02614508,NCT02629809,NCT02649387,NCT02666898,NCT02677948,NCT02689141,NCT02733042,NCT02756897,NCT02757040,NCT02758665,NCT02759016,NCT02787369,NCT02801578,NCT02863718,NCT02910583,NCT02912754,NCT02950051,NCT03045328,NCT03128879,NCT03207555,NCT03226301,NCT03280160,NCT03301207,NCT03331198,NCT03400176,NCT03422393,NCT03447808,NCT03454165,NCT03462719,NCT03513562,NCT03514017,NCT03701282,NCT03708003,NCT03734016,NCT03734198,NCT03737981,NCT03755947,NCT03943342,NCT03980002,NCT04010968,NCT04016805,NCT04209621,NCT04230304,NCT04494503,NCT04608318,NCT04639362,NCT04665115,NCT04685915,NCT04754035,NCT04758975,NCT04771507,NCT04876092,NCT04908228,NCT05105841,NCT05963074,NCT06136559"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dfd0279-ff17-4ea9-89be-9803c71bab44"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003791"
+     }
+    ]
+   },
+   {
+    "efo_term": "leukemia",
+    "mesh_heading": "Leukemia",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00849654,NCT01520519,NCT01752426,NCT02232386,NCT02910583"
+     }
+    ]
+   },
+   {
+    "efo_term": "Mantle cell lymphoma",
+    "mesh_heading": "Lymphoma, Mantle-Cell",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01109069,NCT01236391,NCT01599949,NCT01646021,NCT01776840,NCT01804686,NCT01833039,NCT01880567,NCT02159755,NCT02169180,NCT02242097,NCT02268851,NCT02356458,NCT02419560,NCT02427620,NCT02446236,NCT02460276,NCT02471391,NCT02558816,NCT02682641,NCT02735876,NCT02736617,NCT02756247,NCT02858258,NCT02927964,NCT03112174,NCT03190330,NCT03219047,NCT03232307,NCT03282396,NCT03295240,NCT03323151,NCT03478514,NCT03617484,NCT03710772,NCT03877055,NCT04477486,NCT04662255,NCT04665115,NCT04802590,NCT05564052,NCT05864742,NCT06357676,NCT06482684"
+     },
+     {
+      "type": "DailyMed",
+      "id": "0dfd0279-ff17-4ea9-89be-9803c71bab44"
+     },
+     {
+      "type": "EMA",
+      "id": "EMEA/H/C/003791"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid leukemia",
+    "mesh_heading": "Leukemia, Lymphoid",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02556892,NCT02614508,NCT04209621"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute myeloid leukemia",
+    "mesh_heading": "Leukemia, Myeloid, Acute",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02351037,NCT02635074,NCT03642236"
+     }
+    ]
+   },
+   {
+    "efo_term": "neoplasm of mature B-cells",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT00849654,NCT01980628,NCT02055924,NCT02207062,NCT02443077,NCT02955628,NCT03424122,NCT03770416,NCT04607772"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-Hodgkins lymphoma",
+    "mesh_heading": "Lymphoma, Non-Hodgkin",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02006485,NCT02689869,NCT02703272,NCT02954406,NCT03198026,NCT03223610,NCT04514393,NCT05283720,NCT05998642"
+     }
+    ]
+   },
+   {
+    "efo_term": "Hodgkins lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02626884,NCT02744612"
+     }
+    ]
+   },
+   {
+    "efo_term": "carcinoid tumor",
+    "mesh_heading": "Carcinoid Tumor",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02575300"
+     }
+    ]
+   },
+   {
+    "efo_term": "acute lymphoblastic leukemia",
+    "mesh_heading": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02815059"
+     }
+    ]
+   },
+   {
+    "efo_term": "diffuse large B-cell lymphoma",
+    "mesh_heading": "Lymphoma, Large B-Cell, Diffuse",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01804686,NCT02077166,NCT02142049,NCT02219737,NCT02401048,NCT02636322,NCT02692248,NCT02756247,NCT02780830,NCT02874404,NCT02955628,NCT03129828,NCT03136497,NCT03223610,NCT03310619,NCT03399513,NCT03731234,NCT03876028,NCT03949062,NCT04025593,NCT04739813,NCT04994626"
+     }
+    ]
+   },
+   {
+    "efo_term": "myelodysplastic syndrome",
+    "mesh_heading": "Myelodysplastic Syndromes",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03359460"
+     }
+    ]
+   },
+   {
+    "efo_term": "Burkitts lymphoma",
+    "mesh_heading": "Burkitt Lymphoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01109069,NCT03223610,NCT04739813"
+     }
+    ]
+   },
+   {
+    "efo_term": "cutaneous melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02581930,NCT03427398"
+     }
+    ]
+   },
+   {
+    "efo_term": "renal cell carcinoma",
+    "mesh_heading": "Carcinoma, Renal Cell",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02899078"
+     }
+    ]
+   },
+   {
+    "efo_term": "metastatic melanoma",
+    "mesh_heading": "Melanoma",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02581930,NCT03427398"
+     }
+    ]
+   },
+   {
+    "efo_term": "non-small cell lung carcinoma",
+    "mesh_heading": "Carcinoma, Non-Small-Cell Lung",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02950038"
+     }
+    ]
+   },
+   {
+    "efo_term": "amyloidosis",
+    "mesh_heading": "Amyloidosis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03130348"
+     }
+    ]
+   },
+   {
+    "efo_term": "food allergy",
+    "mesh_heading": "Food Hypersensitivity",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03149315"
+     }
+    ]
+   },
+   {
+    "efo_term": "glioblastoma multiforme",
+    "mesh_heading": "Glioblastoma",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03535350"
+     }
+    ]
+   },
+   {
+    "efo_term": "Waldenstrom macroglobulinemia",
+    "mesh_heading": "Waldenstrom Macroglobulinemia",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01109069,NCT01614821,NCT01804686,NCT02165397,NCT02604511,NCT03053440,NCT03225716,NCT03506373,NCT03620903,NCT03679624,NCT04061512,NCT04062448,NCT04263480,NCT04273139,NCT04274738,NCT04665115,NCT04840602"
+     }
+    ]
+   },
+   {
+    "efo_term": "marginal zone B-cell lymphoma",
+    "mesh_heading": "Lymphoma, B-Cell, Marginal Zone",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02532257,NCT04212013"
+     }
+    ]
+   },
+   {
+    "efo_term": "Anemia, Hemolytic, Autoimmune",
+    "mesh_heading": "Anemia, Hemolytic, Autoimmune",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03827603,NCT04398459"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck squamous cell carcinoma",
+    "mesh_heading": "Carcinoma, Squamous Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03646461"
+     }
+    ]
+   },
+   {
+    "efo_term": "mast-cell leukemia",
+    "mesh_heading": "Leukemia, Mast-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02415608"
+     }
+    ]
+   },
+   {
+    "efo_term": "T-Cell Prolymphocytic Leukemia",
+    "mesh_heading": "Leukemia, Prolymphocytic, T-Cell",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03873493"
+     }
+    ]
+   },
+   {
+    "efo_term": "prolymphocytic leukemia",
+    "mesh_heading": "Leukemia, Prolymphocytic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01589302,NCT02007044"
+     }
+    ]
+   },
+   {
+    "efo_term": "breast cancer",
+    "mesh_heading": "Breast Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03379428"
+     }
+    ]
+   },
+   {
+    "efo_term": "esophageal cancer",
+    "mesh_heading": "Esophageal Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02884453"
+     }
+    ]
+   },
+   {
+    "efo_term": "prostate cancer",
+    "mesh_heading": "Prostatic Neoplasms, Castration-Resistant",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02643667"
+     }
+    ]
+   },
+   {
+    "efo_term": "lung cancer",
+    "mesh_heading": "Lung Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02321540"
+     }
+    ]
+   },
+   {
+    "efo_term": "classic Hodgkin lymphoma",
+    "mesh_heading": "Hodgkin Disease",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02824029,NCT02940301"
+     }
+    ]
+   },
+   {
+    "efo_term": "graft versus host disease",
+    "mesh_heading": "Graft vs Host Disease",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02195869,NCT03112603,NCT03474679,NCT04235036"
+     }
+    ]
+   },
+   {
+    "efo_term": "follicular lymphoma",
+    "mesh_heading": "Lymphoma, Follicular",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01109069,NCT01804686,NCT01829568,NCT01849263,NCT01980654,NCT02401048,NCT02451111,NCT02532257,NCT02756247,NCT02927964,NCT02947347,NCT02956382,NCT02966730,NCT03198026,NCT03310619,NCT04450173"
+     }
+    ]
+   },
+   {
+    "efo_term": "malignant colon neoplasm",
+    "mesh_heading": "Colonic Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03332498"
+     }
+    ]
+   },
+   {
+    "efo_term": "hematopoietic and lymphoid cell neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02329847,NCT02352558"
+     }
+    ]
+   },
+   {
+    "efo_term": "COVID-19",
+    "mesh_heading": "Severe Acute Respiratory Syndrome",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT04375397,NCT04439006,NCT04665115"
+     }
+    ]
+   },
+   {
+    "efo_term": "anaphylaxis",
+    "mesh_heading": "Anaphylaxis",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03149315"
+     }
+    ]
+   },
+   {
+    "efo_term": "lymphoid neoplasm",
+    "mesh_heading": "Hematologic Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03121534"
+     }
+    ]
+   },
+   {
+    "efo_term": "cancer",
+    "mesh_heading": "Neoplasms",
+    "max_phase": 4.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02914327,NCT02973399,NCT04509700"
+     }
+    ]
+   },
+   {
+    "efo_term": "chronic graft versus host disease",
+    "mesh_heading": "Bronchiolitis Obliterans Syndrome",
+    "max_phase": 3.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT01804686,NCT02959944,NCT03689894,NCT03790332,NCT04294641,NCT05348096,NCT06271616"
+     }
+    ]
+   },
+   {
+    "efo_term": "head and neck malignant neoplasia",
+    "mesh_heading": "Head and Neck Neoplasms",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03646461"
+     }
+    ]
+   },
+   {
+    "efo_term": "colorectal cancer",
+    "mesh_heading": "Colorectal Neoplasms",
+    "max_phase": 1.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT03332498"
+     }
+    ]
+   },
+   {
+    "efo_term": "systemic mastocytosis",
+    "mesh_heading": "Mastocytosis, Systemic",
+    "max_phase": 2.0,
+    "refs": [
+     {
+      "type": "ClinicalTrials",
+      "id": "NCT02415608"
+     }
+    ]
+   }
+  ],
+  "mechanisms": [
+   {
+    "mechanism": "Tyrosine-protein kinase BTK inhibitor",
+    "action_type": "INHIBITOR",
+    "target": "CHEMBL5251"
+   }
+  ]
+ },
+ "first_non_gbm_phase2_trial": {
+  "n_refs_checked": 254,
+  "earliest": {
+   "nct": "NCT01105247",
+   "start": "2010-05",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ]
+  }
+ },
+ "flags": {
+  "approved_fda_or_ema": true,
+  "first_approval_date": "2013-11-13",
+  "oncology_approval": true,
+  "oncology_by_atc": true,
+  "oncology_wording_in_label": true,
+  "tumour_agnostic_text": false,
+  "glioma_in_label": false,
+  "glioma_in_first_ema_label": false,
+  "needs_human_check": []
+ }
+}
