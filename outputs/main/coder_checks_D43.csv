@@ -1,0 +1,36 @@
+check,nct_id,coder,in_cohort,variable,detail
+quote symbols_only,NCT03919071,coderB,True,trial.treatment_setting_evidence,Newly diagnosed high-grade glioma with BRAF^V600-mutation
+quote symbols_only,NCT03919071,coderB,True,biomarkers.source_quote,Newly diagnosed high-grade glioma with BRAF^V600-mutation
+biomarker arms differ only,NCT04099797,A vs B,False,H3K27M eligibility unmatched,A [] | B ['C7R-GD2.CAR T cells (Cohort 2)']
+biomarker arms differ only,NCT04421378,A vs B,True,MGMT enrichment unmatched,"A ['Arm A Control: Temozolomide+Radiation Therapy', 'Arm B Control: Temozolomide+Radiation Therapy', 'Phase 1: Arm A: Selinexor+Radiation Therapy', 'Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy'] | B ['Arm B Control: Temozolomide+Radiation Therapy', 'Phase 1: Arm B: Selinexor+Temozolomide+Radiation Therapy']"
+biomarker arms differ only,NCT04650204,A vs B,False,IDH exploratory_correlative unmatched,A ['Arm A (perampanel)'] | B []
+quote symbols_only,NCT04715620,coderB,True,screening.candidate_evidence,"Niraparib 300mg/day (body weight ≥77Kg and baseline platelet count ≥150,000/µL) or 200mg/day (body weight <77Kg or baseline platelet count <150,000/µL)"
+quote symbols_only,NCT04775485,coderB,False,trial.treatment_setting_evidence,Low Grade Glioma & Low-Grade Glioma Extension: a relapsed or progressive LGG with documented known activating BRAF alteration.
+quote symbols_only,NCT04775485,coderB,False,biomarkers.source_quote,Low Grade Glioma & Low-Grade Glioma Extension: a relapsed or progressive LGG with documented known activating BRAF alteration.
+biomarker arms differ only,NCT04982926,A vs B,True,EGFR_EGFRvIII eligibility matched,A [] | B ['TAS2940 Dose Escalation']; D21-reviewed
+biomarker arms differ only,NCT04982926,A vs B,True,other eligibility matched,A [] | B ['TAS2940 Dose Escalation']; D21-reviewed
+quote symbols_only,NCT05030298,coderB,False,screening.gbm_population_evidence,"(World Health Organization [WHO] grade III-IV, including glioblastoma) regardless of IDH and MGMT status"
+quote symbols_only,NCT05099003,coderB,True,screening.gbm_population_evidence,"are eligible if the tumors are biopsied and proven to be high-grade gliomas (such as anaplastic astrocytoma, glioblastoma, high-grade glioma not otherwise specified [NOS], and/or H3 K27M-mutant) by in"
+biomarker arms differ only,NCT05120960,A vs B,False,MET eligibility matched,"A [] | B ['Group A', 'Group B']; D21-reviewed"
+quote symbols_only,NCT05186064,coderA,False,biomarkers.source_quote,Number of targeted treatment options identified (at least one potentially actionable DNA alteration in >75% of patients with a WGS report)
+biomarker arms differ only,NCT05256290,A vs B,True,EGFR_EGFRvIII eligibility matched,A [] | B ['Phase 1 Dose Escalation - Monotherapy (Recruitment Closed)']; D21-reviewed
+quote symbols_only,NCT05473923,coderA,False,screening.gbm_population_evidence,The resected recurrent gliomas was identified as WHO III~IV Glioma by histologic pathology
+quote symbols_only,NCT05473923,coderB,False,screening.gbm_population_evidence,The resected recurrent gliomas was identified as WHO III~IV Glioma by histologic pathology
+biomarker arms differ only,NCT05540275,A vs B,True,PTEN_PI3K enrichment unmatched,"A ['Cohort 1', 'Cohort 2'] | B ['Cohort 1']"
+quote symbols_only,NCT05753995,coderB,False,screening.candidate_evidence,The evaluation of PET imaging using PET ligand [18F]JNJ-64413739 or a [18F] labeled equivalent in vivo in patients.
+quote symbols_only,NCT05753995,coderB,False,agents.role_evidence,The evaluation of PET imaging using PET ligand [18F]JNJ-64413739 or a [18F] labeled equivalent in vivo in patients.
+biomarker arms differ only,NCT06001281,A vs B,False,other exploratory_correlative unmatched,A [] | B ['plasma collection']
+quote symbols_only,NCT06095375,coderB,True,biomarkers.source_quote,"Methylated MGMT according to local laboratory (in case of pyrosequencing, methylation >10%)"
+biomarker arms differ only,NCT06161519,A vs B,True,other enrichment matched,A ['Phase II: RP2D of PLX038'] | B ['Phase II']; D21-reviewed
+quote symbols_only,NCT06258018,coderB,True,screening.gbm_population_evidence,"Patients with diagnosis of recurrent\progressive IDH wild-type GBM (WHO 2021, grade 4)."
+quote symbols_only,NCT06258018,coderB,True,trial.treatment_setting_evidence,"Patients with diagnosis of recurrent\progressive IDH wild-type GBM (WHO 2021, grade 4)."
+biomarker arms differ only,NCT06624371,A vs B,True,H3K27M eligibility unmatched,A ['Stratum 1:'] | B []
+biomarker arms differ only,NCT06630260,A vs B,True,BRAF enrichment matched,"A ['Phase 1b', 'Phase 2'] | B []; D21-reviewed"
+biomarker arms differ only,NCT06630260,A vs B,True,MGMT enrichment unmatched,A ['Phase 2'] | B []
+biomarker arms differ only,NCT06630260,A vs B,True,other enrichment matched,"A ['Phase 1b', 'Phase 2'] | B []; D21-reviewed"
+quote pieces_present,NCT06831773,coderB,False,screening.gbm_population_evidence,"Anaplastic Oligoastrocytoma, AOA; anaplastic oligoastrocytoma, AOA; Anaplastic Oligodendroglioma, AOG; anaplastic oligodendroglioma, AOG"
+biomarker arms differ only,NCT07089641,A vs B,True,EGFR_EGFRvIII eligibility matched,"A [] | B ['Cohort A (ERAS-801)', 'Cohort C (ERAS-801)']; D21-reviewed"
+biomarker arms differ only,NCT07089641,A vs B,True,IDH eligibility unmatched,A [] | B ['Cohort C (ERAS-801)']
+quote symbols_only,NCT07243470,coderB,False,screening.candidate_evidence,then tarlatamab at 10mg every D1 & D15 of each 4-week cycle thereafter in combination with temozolomide from C2D1.
+biomarker arms differ only,NCT07244835,A vs B,False,BRAF enrichment unmatched,A [] | B ['DEG6498 Treatment']
+biomarker arms differ only,NCT07391215,A vs B,True,IDH eligibility unmatched,A [] | B ['Phase 1b']

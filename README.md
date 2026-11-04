@@ -62,6 +62,17 @@ What each kind of output gives you:
   - *Drug lookups* (`05`): FDA, EMA and ChEMBL change over time. The dated cache in `data/lookup/v1.2/` is the reference.
   - *AI coding*: model outputs are not deterministic. The exact prompts, manual version, model IDs (Claude Opus 5.5 = coder A, Claude Sonnet 5.5 = coder B; D18) and every coder output are archived. Re-running the coding tests agreement; it does not reproduce outputs byte for byte.
 
+### Downstream stages (after the main coding pass; not yet in `run_all.sh`)
+Each script refuses to overwrite its outputs, so to re-run a stage, work in a copy and move the committed outputs aside first, then compare.
+1. `07_compare_coders_v2.py` (main pass) → `09_prioritise_queue.py` → adjudication → `11_build_adjudicated_table.py` (D30–D32)
+2. `06_derive_origin_v2.py` → `06c_apply_unidentified_rule.py` (D35, D36); checks: `06d_origin_checks_D43.py`, `07b_coder_checks_D43.py`
+3. `14_apply_screening.py` (D37) → `16_redo_check.py` (D39) → `17_analysis.py`, `17_analysis.py --mechanism` (D40) → `18_descriptives.py` and its Table 2 correction `18b_table2_D43.py`
+4. Active subset (D41): the browser extract `20a_status_history_extract.js` (scripted requests are refused) → `20a_status_history_from_raw.py` → `20_active_subset.py`
+5. Pathway analysis (D42): `22a_pathway_evidence.py` → `22b_pathway_review_sheet.py` → (XL review, frozen `data/reference/agent_pathway_D42.csv`) → `22_pathway_analysis.py` → `22c_pathway_figure.py`
+6. Manuscript builders `19_build_manuscript_v5.py`, `21_build_manuscript_v6.py` need the earlier manuscript versions, which are kept outside the repository.
+
+The frozen decision log at registration is `protocol_decisions_frozen_v1.4.md`; verify the v1.4 freeze with `shasum -a 256 -c FROZEN_v1.4_verify.sha256` (the original `FROZEN_v1.4.sha256` points at the live log, which keeps receiving dated entries).
+
 ## Data sources and licences
 | Source | Terms |
 |---|---|
