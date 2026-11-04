@@ -1,0 +1,88 @@
+stratum,de_novo_n,repurposing_n,used
+P1 | both | 2025-26 | targeted_signalling,3,1,yes
+P1 | recurrent | 2020-22 | cytotoxic,2,1,yes
+P1 | recurrent | 2020-22 | epigenetic,1,1,yes
+P1 | recurrent | 2020-22 | immunomodulatory,1,6,yes
+P1 | recurrent | 2020-22 | multiple,2,3,yes
+P1 | recurrent | 2020-22 | other,5,1,yes
+P1 | recurrent | 2020-22 | targeted_signalling,7,2,yes
+P1 | recurrent | 2023-24 | other,1,1,yes
+P1 | recurrent | 2025-26 | immunomodulatory,2,3,yes
+P1 | recurrent | 2025-26 | multiple,1,1,yes
+P2 | both | 2020-22 | targeted_signalling,1,2,yes
+P2 | newly_diagnosed | 2023-24 | cytotoxic,1,2,yes
+P2 | newly_diagnosed | 2023-24 | multiple,1,2,yes
+P2 | newly_diagnosed | 2023-24 | targeted_signalling,1,2,yes
+P2 | newly_diagnosed | 2025-26 | targeted_signalling,2,1,yes
+P2 | recurrent | 2020-22 | cytotoxic,1,4,yes
+P2 | recurrent | 2020-22 | other,1,3,yes
+P2 | recurrent | 2020-22 | targeted_signalling,2,6,yes
+P2 | recurrent | 2025-26 | cytotoxic,1,2,yes
+P2 | recurrent | 2025-26 | multiple,1,4,yes
+P2 | recurrent | 2025-26 | targeted_signalling,2,1,yes
+P1 | both | 2020-22 | cytotoxic,0,1,no (one-sided)
+P1 | both | 2020-22 | immunomodulatory,1,0,no (one-sided)
+P1 | both | 2020-22 | metabolic,0,2,no (one-sided)
+P1 | both | 2020-22 | other,1,0,no (one-sided)
+P1 | both | 2023-24 | targeted_signalling,0,1,no (one-sided)
+P1 | both | 2025-26 | immunomodulatory,0,1,no (one-sided)
+P1 | newly_diagnosed | 2020-22 | anti_angiogenic,0,1,no (one-sided)
+P1 | newly_diagnosed | 2020-22 | epigenetic,1,0,no (one-sided)
+P1 | newly_diagnosed | 2020-22 | immunomodulatory,0,1,no (one-sided)
+P1 | newly_diagnosed | 2020-22 | other,0,2,no (one-sided)
+P1 | newly_diagnosed | 2020-22 | targeted_signalling,0,1,no (one-sided)
+P1 | newly_diagnosed | 2023-24 | cytotoxic,2,0,no (one-sided)
+P1 | newly_diagnosed | 2023-24 | immunomodulatory,0,1,no (one-sided)
+P1 | newly_diagnosed | 2023-24 | metabolic,0,1,no (one-sided)
+P1 | newly_diagnosed | 2023-24 | other,0,1,no (one-sided)
+P1 | newly_diagnosed | 2025-26 | cytotoxic,0,1,no (one-sided)
+P1 | newly_diagnosed | 2025-26 | immunomodulatory,0,1,no (one-sided)
+P1 | newly_diagnosed | 2025-26 | other,0,1,no (one-sided)
+P1 | newly_diagnosed | 2025-26 | targeted_signalling,1,0,no (one-sided)
+P1 | recurrent | 2020-22 | anti_angiogenic,1,0,no (one-sided)
+P1 | recurrent | 2020-22 | metabolic,0,1,no (one-sided)
+P1 | recurrent | 2023-24 | cytotoxic,3,0,no (one-sided)
+P1 | recurrent | 2023-24 | immunomodulatory,0,1,no (one-sided)
+P1 | recurrent | 2023-24 | multiple,0,1,no (one-sided)
+P1 | recurrent | 2023-24 | not_applicable,0,1,no (one-sided)
+P1 | recurrent | 2023-24 | targeted_signalling,3,0,no (one-sided)
+P1 | recurrent | 2025-26 | epigenetic,1,0,no (one-sided)
+P1 | recurrent | 2025-26 | metabolic,1,0,no (one-sided)
+P1 | recurrent | 2025-26 | targeted_signalling,1,0,no (one-sided)
+P2 | both | 2020-22 | immunomodulatory,0,1,no (one-sided)
+P2 | both | 2020-22 | multiple,0,1,no (one-sided)
+P2 | both | 2023-24 | epigenetic,1,0,no (one-sided)
+P2 | both | 2023-24 | immunomodulatory,0,1,no (one-sided)
+P2 | both | 2023-24 | metabolic,0,1,no (one-sided)
+P2 | both | 2023-24 | multiple,0,1,no (one-sided)
+P2 | both | 2023-24 | targeted_signalling,1,0,no (one-sided)
+P2 | newly_diagnosed | 2020-22 | cytotoxic,0,1,no (one-sided)
+P2 | newly_diagnosed | 2020-22 | immunomodulatory,0,5,no (one-sided)
+P2 | newly_diagnosed | 2020-22 | other,0,2,no (one-sided)
+P2 | newly_diagnosed | 2020-22 | targeted_signalling,0,2,no (one-sided)
+P2 | newly_diagnosed | 2023-24 | immunomodulatory,0,1,no (one-sided)
+P2 | newly_diagnosed | 2023-24 | metabolic,0,2,no (one-sided)
+P2 | newly_diagnosed | 2023-24 | other,0,4,no (one-sided)
+P2 | newly_diagnosed | 2025-26 | cytotoxic,0,2,no (one-sided)
+P2 | newly_diagnosed | 2025-26 | epigenetic,1,0,no (one-sided)
+P2 | newly_diagnosed | 2025-26 | immunomodulatory,0,2,no (one-sided)
+P2 | newly_diagnosed | 2025-26 | other,0,2,no (one-sided)
+P2 | recurrent | 2020-22 | epigenetic,2,0,no (one-sided)
+P2 | recurrent | 2020-22 | immunomodulatory,0,9,no (one-sided)
+P2 | recurrent | 2020-22 | metabolic,0,1,no (one-sided)
+P2 | recurrent | 2020-22 | multiple,0,7,no (one-sided)
+P2 | recurrent | 2023-24 | cytotoxic,1,0,no (one-sided)
+P2 | recurrent | 2023-24 | immunomodulatory,0,8,no (one-sided)
+P2 | recurrent | 2023-24 | multiple,0,2,no (one-sided)
+P2 | recurrent | 2023-24 | other,0,4,no (one-sided)
+P2 | recurrent | 2023-24 | targeted_signalling,0,4,no (one-sided)
+P2 | recurrent | 2025-26 | immunomodulatory,0,4,no (one-sided)
+P2 | recurrent | 2025-26 | other,1,0,no (one-sided)
+P2 | unclear | 2025-26 | epigenetic,1,0,no (one-sided)
+P3 | newly_diagnosed | 2020-22 | immunomodulatory,0,1,no (one-sided)
+P3 | newly_diagnosed | 2023-24 | targeted_signalling,0,1,no (one-sided)
+P3 | newly_diagnosed | 2025-26 | immunomodulatory,0,2,no (one-sided)
+P3 | newly_diagnosed | 2025-26 | metabolic,0,1,no (one-sided)
+P3 | recurrent | 2020-22 | targeted_signalling,0,1,no (one-sided)
+P3 | recurrent | 2023-24 | cytotoxic,0,1,no (one-sided)
+P3 | recurrent | 2025-26 | cytotoxic,1,0,no (one-sided)
