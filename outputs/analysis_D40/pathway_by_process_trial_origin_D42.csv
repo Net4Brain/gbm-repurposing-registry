@@ -1,0 +1,44 @@
+analysis,scope,process,unique_drugs,distinct_trials,trials_drug_matched_selection,pct_trials_drug_matched,trials_co_candidate_selection_only,unique_drugs_any,distinct_trials_any,drugs
+trial-level origin (sensitivity),2a,P1 Receptor tyrosine kinase signalling,1,1,1,100.0,0,1,1,atorvastatin
+trial-level origin (sensitivity),2a,P10 Other immune modulation,7,7,0,0.0,0,9,9,crizanlizumab; gm-csf; manganese chloride; nicotinic acid; sitagliptin; tadalafil; tocilizumab
+trial-level origin (sensitivity),2a,P11 Angiogenesis and vasculature,0,0,0,,0,1,1,
+trial-level origin (sensitivity),2a,P12 Tumour metabolism,4,9,1,11.1,0,6,11,eflornithine; gabapentin; metformin; mycophenolic acid
+trial-level origin (sensitivity),2a,P13 Autophagy and lysosome,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+trial-level origin (sensitivity),2a,P14 Neural and ion-channel signalling,6,5,0,0.0,0,7,6,cannabidiol; dronabinol; haloperidol; memantine; sulfasalazine; vortioxetine
+trial-level origin (sensitivity),2a,P15 Hormone and nuclear receptors,1,1,0,0.0,0,1,1,thiamazole
+trial-level origin (sensitivity),2a,P17 Radiation and photo/sonodynamic sensitisation,1,1,0,0.0,0,2,2,dodecafluoropentane
+trial-level origin (sensitivity),2a,P2 RAS–MAPK and PI3K–mTOR signalling,2,2,0,0.0,0,3,3,atovaquone; tofacitinib
+trial-level origin (sensitivity),2a,P3 Developmental signalling,1,1,0,0.0,0,1,1,verteporfin
+trial-level origin (sensitivity),2a,P5 DNA damage response,1,1,0,0.0,0,1,1,spironolactone
+trial-level origin (sensitivity),2a,"P7 Proteostasis, nuclear transport and cell death",3,2,0,0.0,0,4,3,ascorbic acid; ferumoxytol; sulfasalazine
+trial-level origin (sensitivity),2a,unclear,1,1,0,0.0,0,1,1,chlorpromazine
+trial-level origin (sensitivity),2b,P1 Receptor tyrosine kinase signalling,16,8,5,62.5,0,17,9,alectinib; amivantamab; avapritinib; brigatinib; cetuximab; entrectinib; erdafitinib; erlotinib; lapatinib; pemigatinib; pertuzumab; pralsetinib; selpercatinib; trastuzumab; trastuzumab deruxtecan; trastuzumab emtansine
+trial-level origin (sensitivity),2b,P10 Other immune modulation,4,4,0,0.0,0,4,4,daratumumab; ibrutinib; nogapendekin alfa inbakicept; tarlatamab
+trial-level origin (sensitivity),2b,P11 Angiogenesis and vasculature,2,3,0,0.0,0,2,3,cabozantinib; regorafenib
+trial-level origin (sensitivity),2b,P12 Tumour metabolism,2,2,0,0.0,0,2,2,eflornithine; mercaptopurine
+trial-level origin (sensitivity),2b,P17 Radiation and photo/sonodynamic sensitisation,3,14,3,21.4,0,3,14,aminolevulinic acid; lutetium (177lu) oxodotreotide; psma-617
+trial-level origin (sensitivity),2b,P2 RAS–MAPK and PI3K–mTOR signalling,9,5,2,40.0,1,9,5,alpelisib; cobimetinib; dabrafenib; everolimus; ponatinib; ruxolitinib; tamoxifen; trametinib; vemurafenib
+trial-level origin (sensitivity),2b,P3 Developmental signalling,1,1,1,100.0,0,1,1,vismodegib
+trial-level origin (sensitivity),2b,P4 Cell cycle and p53,3,5,2,40.0,1,3,5,abemaciclib; palbociclib; ribociclib
+trial-level origin (sensitivity),2b,P5 DNA damage response,3,9,2,22.2,1,3,9,niraparib; olaparib; talazoparib
+trial-level origin (sensitivity),2b,P6 Cytotoxic DNA damage and mitosis,8,16,1,6.2,1,11,19,carboplatin; cisplatin; doxorubicin; etoposide; irinotecan; paclitaxel; sacituzumab govitecan; thiotepa
+trial-level origin (sensitivity),2b,"P7 Proteostasis, nuclear transport and cell death",1,4,0,0.0,0,1,4,selinexor
+trial-level origin (sensitivity),2b,P8 Epigenetic regulation,2,2,0,0.0,0,2,2,azacitidine; panobinostat
+trial-level origin (sensitivity),2b,P9 Immune checkpoint,9,52,3,5.8,0,9,52,atezolizumab; cemiplimab; dostarlimab; ipilimumab; nivolumab; pembrolizumab; relatlimab; retifanlimab; tislelizumab
+trial-level origin (sensitivity),all,P1 Receptor tyrosine kinase signalling,17,9,6,66.7,0,18,10,alectinib; amivantamab; atorvastatin; avapritinib; brigatinib; cetuximab; entrectinib; erdafitinib; erlotinib; lapatinib; pemigatinib; pertuzumab; pralsetinib; selpercatinib; trastuzumab; trastuzumab deruxtecan; trastuzumab emtansine
+trial-level origin (sensitivity),all,P10 Other immune modulation,11,11,0,0.0,0,13,13,crizanlizumab; daratumumab; gm-csf; ibrutinib; manganese chloride; nicotinic acid; nogapendekin alfa inbakicept; sitagliptin; tadalafil; tarlatamab; tocilizumab
+trial-level origin (sensitivity),all,P11 Angiogenesis and vasculature,2,3,0,0.0,0,3,4,cabozantinib; regorafenib
+trial-level origin (sensitivity),all,P12 Tumour metabolism,5,11,1,9.1,0,7,13,eflornithine; gabapentin; mercaptopurine; metformin; mycophenolic acid
+trial-level origin (sensitivity),all,P13 Autophagy and lysosome,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+trial-level origin (sensitivity),all,P14 Neural and ion-channel signalling,6,5,0,0.0,0,7,6,cannabidiol; dronabinol; haloperidol; memantine; sulfasalazine; vortioxetine
+trial-level origin (sensitivity),all,P15 Hormone and nuclear receptors,1,1,0,0.0,0,1,1,thiamazole
+trial-level origin (sensitivity),all,P17 Radiation and photo/sonodynamic sensitisation,4,15,3,20.0,0,5,16,aminolevulinic acid; dodecafluoropentane; lutetium (177lu) oxodotreotide; psma-617
+trial-level origin (sensitivity),all,P2 RAS–MAPK and PI3K–mTOR signalling,11,7,2,28.6,1,12,8,alpelisib; atovaquone; cobimetinib; dabrafenib; everolimus; ponatinib; ruxolitinib; tamoxifen; tofacitinib; trametinib; vemurafenib
+trial-level origin (sensitivity),all,P3 Developmental signalling,2,2,1,50.0,0,2,2,verteporfin; vismodegib
+trial-level origin (sensitivity),all,P4 Cell cycle and p53,3,5,2,40.0,1,3,5,abemaciclib; palbociclib; ribociclib
+trial-level origin (sensitivity),all,P5 DNA damage response,4,10,2,20.0,1,4,10,niraparib; olaparib; spironolactone; talazoparib
+trial-level origin (sensitivity),all,P6 Cytotoxic DNA damage and mitosis,8,16,1,6.2,1,11,19,carboplatin; cisplatin; doxorubicin; etoposide; irinotecan; paclitaxel; sacituzumab govitecan; thiotepa
+trial-level origin (sensitivity),all,"P7 Proteostasis, nuclear transport and cell death",4,6,0,0.0,0,5,7,ascorbic acid; ferumoxytol; selinexor; sulfasalazine
+trial-level origin (sensitivity),all,P8 Epigenetic regulation,2,2,0,0.0,0,2,2,azacitidine; panobinostat
+trial-level origin (sensitivity),all,P9 Immune checkpoint,9,52,3,5.8,0,9,52,atezolizumab; cemiplimab; dostarlimab; ipilimumab; nivolumab; pembrolizumab; relatlimab; retifanlimab; tislelizumab
+trial-level origin (sensitivity),all,unclear,1,1,0,0.0,0,1,1,chlorpromazine

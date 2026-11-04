@@ -13,8 +13,13 @@ Rules  : prompts/pathway_coding_rules_D42.md section 8.
   - sensitivities: excluding the tailored-therapy trial where a molecular tumour board assigns drugs by genotype
     (NCT04591431, 22 repurposed drugs; the regimen-once check of section 8), and excluding `unclear` and
     low-confidence drugs
-No P values or confidence intervals. Agents that the record does not identify and unspecified panels are not in the
-drug list (D36), so 140 of the 143 repurposing-containing trials contribute.
+No P values or confidence intervals.
+Origin: each drug's 2a/2b subcategory is its category at its earliest cohort trial (the agent-level rule, D12), and
+the drug list is the 92 agents that are repurposed at that trial. So 140 of the 143 repurposing-containing trials
+contribute: NCT05743595 and NCT06160206 are repurposing-containing only through retifanlimab (category 3 at its
+earliest trial, 2b later), and NCT05857969 only through an unspecified approved-drug panel (D36). Eflornithine
+counts as 2a although it is 2b in NCT07468136. scripts/22d_pathway_trial_origin_D42.py repeats the counts with
+origin judged per trial (sensitivity check).
 Outputs (outputs/analysis_D40/, each refused if it exists): pathway_supplementary_table_D42.csv,
 pathway_by_process_D42.csv, pathway_by_level2_D42.csv
 Usage: python3 scripts/22_pathway_analysis.py
