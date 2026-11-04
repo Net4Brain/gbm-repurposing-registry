@@ -8,7 +8,7 @@ mechanism, but no approval or origin information.
 
 Input:  <run>/adjudicated_trials_D32.csv (trials passing S5-S6 with candidate_matched_selection true),
         coderA/, coderB/, latest proposal (proposals_v3 > proposals_v2 > proposals), data/coder_input/
-Output: <run>/d21_match_review_D32.xlsx with sheets Read_me, Trials (one row per trial) and Matches (one row per
+Output: <run>/d21_match_review_D32_v2.xlsx (v1 output d21_match_review_D32.xlsx kept) with sheets Read_me, Trials (one row per trial) and Matches (one row per
         matched biomarker-candidate pair). XL fills XL_confirm (yes / no / unsure) and XL_note.
 Refuses to overwrite an existing sheet.
 
@@ -16,6 +16,7 @@ Usage: python3 scripts/12_build_d21_match_review.py outputs/main
 """
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -65,7 +66,7 @@ def write_sheet(ws, header, rows, widths):
 
 def main(run_dir):
     run = Path(run_dir)
-    dst = run / "d21_match_review_D32.xlsx"
+    dst = run / "d21_match_review_D32_v2.xlsx"
     if dst.exists():
         sys.exit(f"{dst} exists; refusing to overwrite")
     adj = [r for r in csv.DictReader(open(run / "adjudicated_trials_D32.csv"))
@@ -82,10 +83,10 @@ def main(run_dir):
                 m = ag.get("stated_antitumour_mechanism") or ag.get("drug_class_hint") or ""
                 mech.setdefault(ag["active_moiety"].lower(), m)
         final = json.loads(r["matched_biomarkers"] or "[]")
-        coder_rows = {}
-        for who, d in (("A", a), ("B", b)):
-            for row in sel_rows(d):
-                coder_rows.setdefault(key(row), {})[who] = row
+        # v2 (2026-11-04): keep every coder row (v1 kept one row per biomarker category and agent, so two
+        # requirements of the same category in one trial showed the same quote), and use each row once
+        coder_rows = {"A": sel_rows(a), "B": sel_rows(b)}
+        used = set()
         reasons = {}
         if prop:
             for it in prop["items"]:
@@ -97,10 +98,19 @@ def main(run_dir):
             # 'other' with the text in biomarker_other
             bm_key = "other" if str(bm).lower().startswith("other") else bm
             agents = {x.strip() for x in ag.lower().replace(",", ";").split(";") if x.strip()}
-            hit = coder_rows.get((bm_key, ag.lower())) or next(
-                (v for (k_bm, k_ag), v in coder_rows.items()
-                 if k_bm == bm_key and ({x.strip() for x in k_ag.replace(",", ";").split(";")} & agents)), {}) \
-                or next((v for (k_bm, k_ag), v in coder_rows.items() if k_bm == bm_key), {})
+            label = set(re.findall(r"[a-z0-9]+", str(bm).lower())) - {"other"}
+            hit = {}
+            for who, rows_ in coder_rows.items():
+                def score(cr):
+                    cr_agents = {x.strip() for x in (cr.get("matched_agent") or "").lower().replace(",", ";").split(";")}
+                    words = set(re.findall(r"[a-z0-9]+", (cr.get("biomarker_other") or "").lower()))
+                    return ((who, id(cr)) not in used, bool(cr_agents & agents), len(words & label))
+                cands = [cr for cr in rows_ if cr["biomarker"] == bm_key]
+                if cands:
+                    best = max(cands, key=score)
+                    if score(best)[1] or not agents:
+                        hit[who] = best
+                        used.add((who, id(best)))
             row = hit.get("A") or hit.get("B")
             quote = row["source_quote"]["quote"] if row else "(no coder row; set at adjudication, see proposal reason)"
             other = (row.get("biomarker_other") or "") if row else ""
@@ -115,6 +125,19 @@ def main(run_dir):
                        (prop or {}).get("note", "") if prop else "coders agreed; not queued",
                        "\n".join(reasons.get("all", []))[:3000], "", ""])
 
+    # v2: carry XL's D21 decisions (d21_match_decisions_XL.csv, keyed by the v1 Excel row) when present
+    dec_path = run / "d21_match_decisions_XL.csv"
+    if dec_path.exists():
+        dec = {}
+        for d in csv.DictReader(open(dec_path)):
+            dec.setdefault(int(d["source_excel_row"]), []).append(d)
+        for i, m in enumerate(matches, start=2):
+            ds = dec.get(i, [])
+            if ds and all(d["nct_id"] == m[0] for d in ds):
+                m[8] = ds[0]["XL_decision"] if len(ds) == 1 else "; ".join(f"{d['biomarker']}: {d['XL_decision']}" for d in ds)
+                m[9] = " | ".join(d["basis"] for d in ds) + f" (XL {ds[0]['review_date']})"
+            elif ds:
+                sys.exit(f"decision row {i} is for {ds[0]['nct_id']}, sheet row is {m[0]}: row order changed")
     wb = Workbook()
     ws = wb.active
     ws.title = "Read_me"
