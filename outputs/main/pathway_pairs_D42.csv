@@ -1,0 +1,192 @@
+active_moiety,subcategory,nct_id,role,drug_matched_selection,matched_biomarkers,selection_for_co_candidate,co_candidate_biomarkers,n_candidates_in_trial
+cannabidiol,2a,NCT03529448,experimental_monotherapy,no,,no,,2
+dronabinol,2a,NCT03529448,experimental_monotherapy,no,,no,,2
+dodecafluoropentane,2a,NCT03862430,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT03897491,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT03899857,experimental_monotherapy,no,,no,,1
+dabrafenib,2b,NCT03919071,experimental_combination,yes,BRAF,no,,2
+trametinib,2b,NCT03919071,experimental_combination,yes,BRAF,no,,2
+pembrolizumab,2b,NCT04013672,experimental_monotherapy,no,,no,,1
+nivolumab,2b,NCT04116658,experimental_monotherapy,no,,no,,1
+ipilimumab,2b,NCT04145115,experimental_combination,yes,TMB_MMR,no,,2
+nivolumab,2b,NCT04145115,experimental_combination,yes,TMB_MMR,no,,2
+atezolizumab,2b,NCT04160494,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT04201873,experimental_monotherapy,no,,no,,1
+sulfasalazine,2a,NCT04205357,experimental_monotherapy,no,,no,,1
+selinexor,2b,NCT04216329,experimental_monotherapy,no,,no,,1
+irinotecan,2b,NCT04267978,experimental_combination,no,,no,,2
+nivolumab,2b,NCT04323046,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT04391062,experimental_monotherapy,no,,no,,1
+ipilimumab,2b,NCT04396860,experimental_combination,no,,no,,2
+nivolumab,2b,NCT04396860,experimental_combination,no,,no,,2
+chloroquine,2a,NCT04397679,experimental_monotherapy,no,,no,,1
+carboplatin,2b,NCT04417088,experimental_monotherapy,no,,no,,1
+selinexor,2b,NCT04421378,experimental_monotherapy,no,,no,,1
+carboplatin,2b,NCT04440358,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT04469699,experimental_monotherapy,no,,no,,1
+mycophenolic acid,2a,NCT04477200,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT04479241,experimental_monotherapy,no,,no,,1
+carboplatin,2b,NCT04528680,experimental_combination,no,,no,,2
+paclitaxel,2b,NCT04528680,experimental_combination,no,,no,,2
+sacituzumab govitecan,2b,NCT04559230,experimental_monotherapy,yes,other (Trop-2 expression (H-score >=200)),no,,1
+verteporfin,2a,NCT04590664,experimental_monotherapy,no,,no,,1
+alectinib,2b,NCT04591431,experimental_combination,yes,other (ALK alterations),no,,25
+alpelisib,2b,NCT04591431,experimental_combination,yes,PTEN_PI3K,no,,25
+atezolizumab,2b,NCT04591431,experimental_combination,yes,TMB_MMR,no,,25
+brigatinib,2b,NCT04591431,experimental_combination,yes,other (ALK alterations),no,,25
+cobimetinib,2b,NCT04591431,experimental_combination,yes,BRAF,no,,25
+entrectinib,2b,NCT04591431,experimental_combination,yes,NTRK,no,,25
+erlotinib,2b,NCT04591431,experimental_combination,yes,EGFR_EGFRvIII,no,,25
+everolimus,2b,NCT04591431,experimental_combination,yes,PTEN_PI3K,no,,25
+ipilimumab,2b,NCT04591431,experimental_combination,yes,TMB_MMR,no,,25
+lapatinib,2b,NCT04591431,experimental_combination,yes,other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation),no,,25
+nivolumab,2b,NCT04591431,experimental_combination,yes,TMB_MMR,no,,25
+palbociclib,2b,NCT04591431,experimental_combination,yes,CDK4_6_pathway; CDKN2A_B,no,,25
+pemigatinib,2b,NCT04591431,experimental_combination,yes,FGFR,no,,25
+pertuzumab,2b,NCT04591431,experimental_combination,yes,other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation),no,,25
+ponatinib,2b,NCT04591431,experimental_combination,yes,other (BCR-ABL) (BCR-ABL),no,,25
+pralsetinib,2b,NCT04591431,experimental_combination,no,,yes,"EGFR_EGFRvIII (erlotinib); other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation) (trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib); PTEN_PI3K (everolimus; ipatasertib; alpelisib); BRAF (vemurafenib; cobimetinib); other (ALK alterations) (alectinib; brigatinib); CDK4_6_pathway (palbociclib); CDKN2A_B (palbociclib); other (BCR-ABL) (BCR-ABL) (ponatinib); other (SMO/PTCH1) (SMO/PTCH1 (Hedgehog pathway) alterations) (vismodegib); other (JAK mutation) (JAK mutation) (itacitinib); FGFR (pemigatinib); NTRK (entrectinib); MET (tepotinib); other (BRCA1/2, ATM, HRD) (BRCA1/2, ATM, other homologous recombination deficiency) (talazoparib); TMB_MMR (atezolizumab; nivolumab; ipilimumab)",25
+selpercatinib,2b,NCT04591431,experimental_combination,no,,yes,"EGFR_EGFRvIII (erlotinib); other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation) (trastuzumab; pertuzumab; trastuzumab emtansine; lapatinib); PTEN_PI3K (everolimus; ipatasertib; alpelisib); BRAF (vemurafenib; cobimetinib); other (ALK alterations) (alectinib; brigatinib); CDK4_6_pathway (palbociclib); CDKN2A_B (palbociclib); other (BCR-ABL) (BCR-ABL) (ponatinib); other (SMO/PTCH1) (SMO/PTCH1 (Hedgehog pathway) alterations) (vismodegib); other (JAK mutation) (JAK mutation) (itacitinib); FGFR (pemigatinib); NTRK (entrectinib); MET (tepotinib); other (BRCA1/2, ATM, HRD) (BRCA1/2, ATM, other homologous recombination deficiency) (talazoparib); TMB_MMR (atezolizumab; nivolumab; ipilimumab)",25
+talazoparib,2b,NCT04591431,experimental_combination,yes,"other (BRCA1/2, ATM, HRD) (BRCA1/2, ATM, other homologous recombination deficiency)",no,,25
+trastuzumab,2b,NCT04591431,experimental_combination,yes,other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation),no,,25
+trastuzumab emtansine,2b,NCT04591431,experimental_combination,yes,other (ERBB2/HER2) (ERBB2 (HER2) amplification/mutation),no,,25
+vemurafenib,2b,NCT04591431,experimental_combination,yes,BRAF,no,,25
+vismodegib,2b,NCT04591431,experimental_combination,yes,other (SMO/PTCH1) (SMO/PTCH1 (Hedgehog pathway) alterations),no,,25
+ipilimumab,2b,NCT04606316,experimental_combination,no,,no,,2
+nivolumab,2b,NCT04606316,experimental_combination,no,,no,,2
+nicotinic acid,2a,NCT04677049,experimental_monotherapy,no,,no,,1
+hydroxychloroquine,2a,NCT04678648,experimental_combination,no,,no,,2
+nivolumab,2b,NCT04704154,experimental_combination,no,,no,,2
+regorafenib,2b,NCT04704154,experimental_combination,no,,no,,2
+niraparib,2b,NCT04715620,experimental_monotherapy,no,,no,,1
+atezolizumab,2b,NCT04729959,experimental_combination,no,,no,,2
+tocilizumab,2a,NCT04729959,experimental_combination,no,,no,,2
+carboplatin,2b,NCT04740190,experimental_combination,no,,yes,"other (BRCAness/DDR gene alterations) (BRCAness / DNA damage repair gene alterations (ATM, ATR, BRCA1, BRCA2, PALB2, etc.)) (talazoparib)",2
+talazoparib,2b,NCT04740190,experimental_combination,yes,"other (BRCAness/DDR gene alterations) (BRCAness / DNA damage repair gene alterations (ATM, ATR, BRCA1, BRCA2, PALB2, etc.))",no,,2
+tadalafil,2a,NCT04757662,experimental_monotherapy,no,,no,,1
+tamoxifen,2b,NCT04765098,experimental_monotherapy,no,,no,,1
+avapritinib,2b,NCT04771520,experimental_monotherapy,yes,other (KIT (CKIT) or PDGFRA activating mutation/amplification),no,,1
+ipilimumab,2b,NCT04817254,experimental_combination,no,,no,,2
+nivolumab,2b,NCT04817254,experimental_combination,no,,no,,2
+cemiplimab,2b,NCT04826393,experimental_combination,no,,no,,2
+aminolevulinic acid,2b,NCT04845919,experimental_monotherapy,no,,no,,1
+imipramine,2a,NCT04863950,experimental_monotherapy,no,,no,,1
+ascorbic acid,2a,NCT04900792,experimental_combination,no,,no,,2
+ferumoxytol,2a,NCT04900792,experimental_combination,no,,no,,2
+avapritinib,2b,NCT04908176,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT04913337,experimental_combination,no,,no,,2
+daratumumab,2b,NCT04922723,experimental_monotherapy,no,,no,,1
+metformin,2a,NCT04945148,experimental_monotherapy,yes,other (OXPHOS+ subtype (RNA assay of mitochondrial/OXPHOS markers)),no,,1
+pembrolizumab,2b,NCT04977375,experimental_monotherapy,no,,no,,1
+atezolizumab,2b,NCT05039281,experimental_combination,no,,no,,2
+cabozantinib,2b,NCT05039281,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT05053880,experimental_combination,no,,no,,2
+ipilimumab,2b,NCT05074992,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT05082259,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT05084430,experimental_monotherapy,no,,no,,1
+selinexor,2b,NCT05099003,experimental_monotherapy,no,,no,,1
+ibrutinib,2b,NCT05106296,experimental_combination,no,,no,,2
+lutetium (177lu) oxodotreotide,2b,NCT05109728,experimental_monotherapy,yes,other: SSTR expression ([68Ga]Ga-DOTA-TATE PET uptake) (somatostatin receptor (SSTR) expression by [68Ga]Ga-DOTA-TATE PET uptake),no,,1
+gm-csf,2a,NCT05131711,experimental_combination,no,,no,,3
+manganese chloride,2a,NCT05131711,experimental_combination,no,,no,,3
+metformin,2a,NCT05183204,experimental_combination,no,,no,,2
+chlorpromazine,2a,NCT05190315,experimental_monotherapy,no,,no,,1
+irinotecan,2b,NCT05201326,experimental_monotherapy,no,,no,,1
+mycophenolic acid,2a,NCT05236036,experimental_monotherapy,no,,no,,1
+pemigatinib,2b,NCT05267106,experimental_monotherapy,yes,FGFR,no,,1
+niraparib,2b,NCT05297864,experimental_monotherapy,no,,no,,1
+panobinostat,2b,NCT05324501,experimental_monotherapy,no,,no,,1
+tofacitinib,2a,NCT05326464,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT05362409,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT05366062,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT05370508,experimental_monotherapy,no,,no,,1
+ribociclib,2b,NCT05429502,experimental_monotherapy,no,,no,,1
+selinexor,2b,NCT05432804,experimental_monotherapy,no,,no,,1
+olaparib,2b,NCT05463848,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT05463848,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT05465954,experimental_combination,no,,no,,2
+eflornithine,2a,NCT05500508,experimental_combination,no,,no,,2
+tislelizumab,2b,NCT05540275,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT05590689,experimental_monotherapy,no,,no,,1
+thiamazole,2a,NCT05607407,experimental_monotherapy,no,,no,,1
+cannabidiol,2a,NCT05629702,experimental_monotherapy,no,,no,,2
+dronabinol,2a,NCT05629702,experimental_monotherapy,no,,no,,2
+gabapentin,2a,NCT05664464,experimental_combination,no,,no,,3
+memantine,2a,NCT05664464,experimental_combination,no,,no,,3
+sulfasalazine,2a,NCT05664464,experimental_combination,no,,no,,3
+cisplatin,2b,NCT05694416,experimental_combination,no,,no,,2
+etoposide,2b,NCT05694416,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT05700955,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT05736406,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT05785754,experimental_combination,no,,no,,2
+everolimus,2b,NCT05843253,experimental_combination,no,,yes,other: RB1 homozygous loss (exclusion) (RB1 homozygous loss (exclusion)) (ribociclib),2
+ribociclib,2b,NCT05843253,experimental_combination,yes,other: RB1 homozygous loss (exclusion) (RB1 homozygous loss (exclusion)),no,,2
+erdafitinib,2b,NCT05859334,experimental_monotherapy,yes,FGFR,no,,1
+doxorubicin,2b,NCT05864534,experimental_combination,no,,no,,3
+eflornithine,2a,NCT05879367,experimental_monotherapy,no,,no,,1
+carboplatin,2b,NCT05902169,experimental_monotherapy,no,,no,,1
+crizanlizumab,2a,NCT05909618,experimental_monotherapy,no,,no,,2
+nivolumab,2b,NCT05909618,experimental_combination,no,,no,,2
+metformin,2a,NCT05929495,experimental_monotherapy,no,,no,,1
+ipilimumab,2b,NCT05933265,experimental_combination,no,,no,,4
+nivolumab,2b,NCT05933265,experimental_combination,no,,no,,4
+olaparib,2b,NCT05933265,experimental_combination,no,,no,,4
+cetuximab,2b,NCT05956821,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT06039709,experimental_monotherapy,no,,no,,1
+trastuzumab deruxtecan,2b,NCT06058988,experimental_monotherapy,no,,no,,1
+nogapendekin alfa inbakicept,2b,NCT06061809,experimental_monotherapy,no,,no,,1
+atezolizumab,2b,NCT06069726,experimental_monotherapy,no,,no,,1
+regorafenib,2b,NCT06095375,experimental_monotherapy,no,,no,,1
+ipilimumab,2b,NCT06097975,experimental_combination,no,,no,,2
+nivolumab,2b,NCT06097975,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT06157541,experimental_monotherapy,no,,no,,1
+cisplatin,2b,NCT06186440,experimental_monotherapy,no,,no,,1
+haloperidol,2a,NCT06218524,experimental_monotherapy,no,,no,,1
+niraparib,2b,NCT06258018,experimental_monotherapy,no,,no,,1
+mercaptopurine,2b,NCT06279767,experimental_monotherapy,no,,no,,1
+doxorubicin,2b,NCT06297512,experimental_monotherapy,no,,no,,1
+nivolumab,2b,NCT06325683,experimental_combination,no,,no,,2
+relatlimab,2b,NCT06325683,experimental_combination,no,,no,,2
+atorvastatin,2a,NCT06327451,experimental_monotherapy,yes,EGFR_EGFRvIII,no,,1
+tislelizumab,2b,NCT06353360,experimental_monotherapy,no,,no,,1
+carboplatin,2b,NCT06356883,experimental_combination,no,,no,,3
+doxorubicin,2b,NCT06356883,experimental_combination,no,,no,,3
+etoposide,2b,NCT06356883,experimental_combination,no,,no,,3
+niraparib,2b,NCT06388733,experimental_monotherapy,no,,no,,1
+abemaciclib,2b,NCT06413706,experimental_monotherapy,no,,no,,1
+dostarlimab,2b,NCT06521567,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT06556563,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT06558214,experimental_monotherapy,no,,no,,1
+lutetium (177lu) oxodotreotide,2b,NCT06607692,experimental_combination,yes,other: SSTR expression (SSTR-PET) (somatostatin receptor (SSTR) expression by SSTR-PET uptake (visual score >= 2)),no,,2
+olaparib,2b,NCT06607692,experimental_combination,no,,yes,other: SSTR expression (SSTR-PET) (somatostatin receptor (SSTR) expression by SSTR-PET uptake (visual score >= 2)) (lutetium (177lu) oxodotreotide),2
+atovaquone,2a,NCT06624371,experimental_monotherapy,no,,no,,1
+amivantamab,2b,NCT06632236,experimental_monotherapy,yes,EGFR_EGFRvIII,no,,1
+pembrolizumab,2b,NCT06640582,experimental_monotherapy,no,,no,,1
+aminolevulinic acid,2b,NCT06665724,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT06719362,experimental_combination,no,,no,,2
+pembrolizumab,2b,NCT06749925,experimental_monotherapy,no,,no,,1
+abemaciclib,2b,NCT06810544,experimental_combination,no,,yes,other: MTAP loss (MTAP loss) (tng456),2
+tarlatamab,2b,NCT06814496,experimental_monotherapy,no,,no,,1
+nivolumab,2b,NCT06816927,experimental_combination,no,,no,,2
+relatlimab,2b,NCT06816927,experimental_combination,no,,no,,2
+paclitaxel,2b,NCT06818331,experimental_monotherapy,no,,no,,1
+azacitidine,2b,NCT06896110,experimental_combination,no,,no,,2
+nivolumab,2b,NCT06896110,experimental_combination,no,,no,,2
+ruxolitinib,2b,NCT06991101,experimental_monotherapy,no,,no,,1
+sitagliptin,2a,NCT07003542,experimental_monotherapy,no,,no,,1
+nivolumab,2b,NCT07031765,experimental_monotherapy,no,,no,,1
+ipilimumab,2b,NCT07134842,experimental_monotherapy,no,,no,,1
+thiotepa,2b,NCT07193654,experimental_monotherapy,no,,no,,1
+psma-617,2b,NCT07223034,experimental_monotherapy,yes,other (PSMA expression by immunohistochemistry),no,,1
+aminolevulinic acid,2b,NCT07225621,experimental_monotherapy,no,,no,,1
+atezolizumab,2b,NCT07263438,experimental_combination,no,,no,,2
+trimipramine,2a,NCT07263438,experimental_combination,no,,no,,2
+vortioxetine,2a,NCT07284628,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT07347210,experimental_monotherapy,no,,no,,1
+pembrolizumab,2b,NCT07385846,experimental_monotherapy,yes,TMB_MMR,no,,1
+pembrolizumab,2b,NCT07410676,experimental_monotherapy,no,,no,,1
+spironolactone,2a,NCT07431216,experimental_combination,no,,no,,2
+eflornithine,2a,NCT07468136,experimental_combination,no,,no,,2
+thiotepa,2b,NCT07511725,experimental_monotherapy,no,,no,,1
+sitagliptin,2a,NCT07541781,experimental_monotherapy,no,,no,,1
+mycophenolic acid,2a,NCT07605364,experimental_monotherapy,no,,no,,1

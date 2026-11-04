@@ -1,0 +1,199 @@
+analysis,scope,pathway,unique_drugs,distinct_trials,trials_drug_matched_selection,pct_trials_drug_matched,trials_co_candidate_selection_only,unique_drugs_any,distinct_trials_any,drugs
+main,2a,EGFR/HER family,1,1,1,100.0,0,1,1,atorvastatin
+main,2a,Hippo–YAP/TEAD,1,1,0,0.0,0,1,1,verteporfin
+main,2a,IL-6–JAK–STAT and inflammatory signalling,1,1,0,0.0,0,1,1,tocilizumab
+main,2a,JAK–STAT (tumour-intrinsic) [added D42],2,2,0,0.0,0,2,2,atovaquone; tofacitinib
+main,2a,PI3K–AKT–mTOR,0,0,0,,0,1,1,
+main,2a,autophagy–lysosome inhibition,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+main,2a,cannabinoid receptors,2,2,0,0.0,0,2,2,cannabidiol; dronabinol
+main,2a,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",1,1,0,0.0,0,1,1,gm-csf
+main,2a,dopamine and serotonin receptors,2,2,0,0.0,0,2,2,haloperidol; vortioxetine
+main,2a,"glutamate receptors (AMPA, NMDA)",2,1,0,0.0,0,3,2,memantine; sulfasalazine
+main,2a,glutamine,1,1,0,0.0,0,1,1,gabapentin
+main,2a,"innate sensing (STING, TLR)",1,1,0,0.0,0,1,1,manganese chloride
+main,2a,lipid and cholesterol synthesis,0,0,0,,0,1,1,
+main,2a,mitochondrial respiration/OXPHOS and AMPK,1,3,1,33.3,0,2,4,metformin
+main,2a,myeloid and MDSC modulation,4,5,0,0.0,0,6,7,crizanlizumab; nicotinic acid; sitagliptin; tadalafil
+main,2a,nucleotide synthesis,1,3,0,0.0,0,1,3,mycophenolic acid
+main,2a,other DNA repair,1,1,0,0.0,0,1,1,spironolactone
+main,2a,"other vascular and adhesion (angiopoietin, selectins)",0,0,0,,0,1,1,
+main,2a,oxidative stress and ferroptosis,3,2,0,0.0,0,4,3,ascorbic acid; ferumoxytol; sulfasalazine
+main,2a,polyamines,1,3,0,0.0,0,1,3,eflornithine
+main,2a,thyroid hormone,1,1,0,0.0,0,1,1,thiamazole
+main,2a,tumour oxygenation and radiosensitisation,1,1,0,0.0,0,2,2,dodecafluoropentane
+main,2a,unclear,1,1,0,0.0,0,1,1,chlorpromazine
+main,2b,ALK/ROS1/NTRK,3,1,1,100.0,0,3,1,alectinib; brigatinib; entrectinib
+main,2b,CDK4/6–RB,3,5,2,40.0,1,3,5,abemaciclib; palbociclib; ribociclib
+main,2b,CTLA-4,1,9,2,22.2,0,1,9,ipilimumab
+main,2b,DNA alkylation and platinum,3,10,0,0.0,1,3,10,carboplatin; cisplatin; thiotepa
+main,2b,DNMT,1,1,0,0.0,0,1,1,azacitidine
+main,2b,EGFR/HER family,8,4,2,50.0,0,8,4,amivantamab; cetuximab; erlotinib; lapatinib; pertuzumab; trastuzumab; trastuzumab deruxtecan; trastuzumab emtansine
+main,2b,FGFR,2,3,3,100.0,0,2,3,erdafitinib; pemigatinib
+main,2b,HDAC,1,1,0,0.0,0,1,1,panobinostat
+main,2b,Hedgehog,1,1,1,100.0,0,1,1,vismodegib
+main,2b,JAK–STAT (tumour-intrinsic) [added D42],1,1,0,0.0,0,1,1,ruxolitinib
+main,2b,LAG-3,1,2,0,0.0,0,1,2,relatlimab
+main,2b,MET,0,0,0,,0,2,2,
+main,2b,PARP,3,9,2,22.2,1,3,9,niraparib; olaparib; talazoparib
+main,2b,PD-1/PD-L1,6,47,3,6.4,0,6,47,atezolizumab; cemiplimab; dostarlimab; nivolumab; pembrolizumab; tislelizumab
+main,2b,PDGFR/KIT,1,2,1,50.0,0,1,2,avapritinib
+main,2b,PI3K–AKT–mTOR,2,2,1,50.0,1,2,2,alpelisib; everolimus
+main,2b,RAS–RAF–MEK–ERK (MAPK),4,2,2,100.0,0,4,2,cobimetinib; dabrafenib; trametinib; vemurafenib
+main,2b,RET,2,1,0,0.0,1,2,1,pralsetinib; selpercatinib
+main,2b,"T-cell redirection and antibody effector (bispecifics, CD38)",2,2,0,0.0,0,2,2,daratumumab; tarlatamab
+main,2b,VEGF/VEGFR,2,3,0,0.0,0,2,3,cabozantinib; regorafenib
+main,2b,XPO1 nuclear export,1,4,0,0.0,0,1,4,selinexor
+main,2b,antimetabolite,0,0,0,,0,1,1,
+main,2b,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",1,1,0,0.0,0,1,1,nogapendekin alfa inbakicept
+main,2b,"immunosuppressive metabolism (IDO, adenosine)",0,0,0,,0,1,1,
+main,2b,microtubule,1,2,0,0.0,0,2,3,paclitaxel
+main,2b,myeloid and MDSC modulation,1,1,0,0.0,0,1,1,ibrutinib
+main,2b,nucleotide synthesis,1,1,0,0.0,0,1,1,mercaptopurine
+main,2b,"other intracellular kinases (BTK, PKC)",2,2,1,50.0,0,2,2,ponatinib; tamoxifen
+main,2b,photo- or sonosensitiser (5-ALA),1,11,0,0.0,0,1,11,aminolevulinic acid
+main,2b,targeted radioligand delivery,2,3,3,100.0,0,2,3,lutetium (177lu) oxodotreotide; psma-617
+main,2b,topoisomerase,4,7,1,14.3,0,5,8,doxorubicin; etoposide; irinotecan; sacituzumab govitecan
+main,all,ALK/ROS1/NTRK,3,1,1,100.0,0,3,1,alectinib; brigatinib; entrectinib
+main,all,CDK4/6–RB,3,5,2,40.0,1,3,5,abemaciclib; palbociclib; ribociclib
+main,all,CTLA-4,1,9,2,22.2,0,1,9,ipilimumab
+main,all,DNA alkylation and platinum,3,10,0,0.0,1,3,10,carboplatin; cisplatin; thiotepa
+main,all,DNMT,1,1,0,0.0,0,1,1,azacitidine
+main,all,EGFR/HER family,9,5,3,60.0,0,9,5,amivantamab; atorvastatin; cetuximab; erlotinib; lapatinib; pertuzumab; trastuzumab; trastuzumab deruxtecan; trastuzumab emtansine
+main,all,FGFR,2,3,3,100.0,0,2,3,erdafitinib; pemigatinib
+main,all,HDAC,1,1,0,0.0,0,1,1,panobinostat
+main,all,Hedgehog,1,1,1,100.0,0,1,1,vismodegib
+main,all,Hippo–YAP/TEAD,1,1,0,0.0,0,1,1,verteporfin
+main,all,IL-6–JAK–STAT and inflammatory signalling,1,1,0,0.0,0,1,1,tocilizumab
+main,all,JAK–STAT (tumour-intrinsic) [added D42],3,3,0,0.0,0,3,3,atovaquone; ruxolitinib; tofacitinib
+main,all,LAG-3,1,2,0,0.0,0,1,2,relatlimab
+main,all,MET,0,0,0,,0,2,2,
+main,all,PARP,3,9,2,22.2,1,3,9,niraparib; olaparib; talazoparib
+main,all,PD-1/PD-L1,6,47,3,6.4,0,6,47,atezolizumab; cemiplimab; dostarlimab; nivolumab; pembrolizumab; tislelizumab
+main,all,PDGFR/KIT,1,2,1,50.0,0,1,2,avapritinib
+main,all,PI3K–AKT–mTOR,2,2,1,50.0,1,3,3,alpelisib; everolimus
+main,all,RAS–RAF–MEK–ERK (MAPK),4,2,2,100.0,0,4,2,cobimetinib; dabrafenib; trametinib; vemurafenib
+main,all,RET,2,1,0,0.0,1,2,1,pralsetinib; selpercatinib
+main,all,"T-cell redirection and antibody effector (bispecifics, CD38)",2,2,0,0.0,0,2,2,daratumumab; tarlatamab
+main,all,VEGF/VEGFR,2,3,0,0.0,0,2,3,cabozantinib; regorafenib
+main,all,XPO1 nuclear export,1,4,0,0.0,0,1,4,selinexor
+main,all,antimetabolite,0,0,0,,0,1,1,
+main,all,autophagy–lysosome inhibition,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+main,all,cannabinoid receptors,2,2,0,0.0,0,2,2,cannabidiol; dronabinol
+main,all,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",2,2,0,0.0,0,2,2,gm-csf; nogapendekin alfa inbakicept
+main,all,dopamine and serotonin receptors,2,2,0,0.0,0,2,2,haloperidol; vortioxetine
+main,all,"glutamate receptors (AMPA, NMDA)",2,1,0,0.0,0,3,2,memantine; sulfasalazine
+main,all,glutamine,1,1,0,0.0,0,1,1,gabapentin
+main,all,"immunosuppressive metabolism (IDO, adenosine)",0,0,0,,0,1,1,
+main,all,"innate sensing (STING, TLR)",1,1,0,0.0,0,1,1,manganese chloride
+main,all,lipid and cholesterol synthesis,0,0,0,,0,1,1,
+main,all,microtubule,1,2,0,0.0,0,2,3,paclitaxel
+main,all,mitochondrial respiration/OXPHOS and AMPK,1,3,1,33.3,0,2,4,metformin
+main,all,myeloid and MDSC modulation,5,6,0,0.0,0,7,8,crizanlizumab; ibrutinib; nicotinic acid; sitagliptin; tadalafil
+main,all,nucleotide synthesis,2,4,0,0.0,0,2,4,mercaptopurine; mycophenolic acid
+main,all,other DNA repair,1,1,0,0.0,0,1,1,spironolactone
+main,all,"other intracellular kinases (BTK, PKC)",2,2,1,50.0,0,2,2,ponatinib; tamoxifen
+main,all,"other vascular and adhesion (angiopoietin, selectins)",0,0,0,,0,1,1,
+main,all,oxidative stress and ferroptosis,3,2,0,0.0,0,4,3,ascorbic acid; ferumoxytol; sulfasalazine
+main,all,photo- or sonosensitiser (5-ALA),1,11,0,0.0,0,1,11,aminolevulinic acid
+main,all,polyamines,1,3,0,0.0,0,1,3,eflornithine
+main,all,targeted radioligand delivery,2,3,3,100.0,0,2,3,lutetium (177lu) oxodotreotide; psma-617
+main,all,thyroid hormone,1,1,0,0.0,0,1,1,thiamazole
+main,all,topoisomerase,4,7,1,14.3,0,5,8,doxorubicin; etoposide; irinotecan; sacituzumab govitecan
+main,all,tumour oxygenation and radiosensitisation,1,1,0,0.0,0,2,2,dodecafluoropentane
+main,all,unclear,1,1,0,0.0,0,1,1,chlorpromazine
+excluding tailored-therapy trial NCT04591431,2a,EGFR/HER family,1,1,1,100.0,0,1,1,atorvastatin
+excluding tailored-therapy trial NCT04591431,2a,Hippo–YAP/TEAD,1,1,0,0.0,0,1,1,verteporfin
+excluding tailored-therapy trial NCT04591431,2a,IL-6–JAK–STAT and inflammatory signalling,1,1,0,0.0,0,1,1,tocilizumab
+excluding tailored-therapy trial NCT04591431,2a,JAK–STAT (tumour-intrinsic) [added D42],2,2,0,0.0,0,2,2,atovaquone; tofacitinib
+excluding tailored-therapy trial NCT04591431,2a,PI3K–AKT–mTOR,0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,2a,autophagy–lysosome inhibition,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+excluding tailored-therapy trial NCT04591431,2a,cannabinoid receptors,2,2,0,0.0,0,2,2,cannabidiol; dronabinol
+excluding tailored-therapy trial NCT04591431,2a,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",1,1,0,0.0,0,1,1,gm-csf
+excluding tailored-therapy trial NCT04591431,2a,dopamine and serotonin receptors,2,2,0,0.0,0,2,2,haloperidol; vortioxetine
+excluding tailored-therapy trial NCT04591431,2a,"glutamate receptors (AMPA, NMDA)",2,1,0,0.0,0,3,2,memantine; sulfasalazine
+excluding tailored-therapy trial NCT04591431,2a,glutamine,1,1,0,0.0,0,1,1,gabapentin
+excluding tailored-therapy trial NCT04591431,2a,"innate sensing (STING, TLR)",1,1,0,0.0,0,1,1,manganese chloride
+excluding tailored-therapy trial NCT04591431,2a,lipid and cholesterol synthesis,0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,2a,mitochondrial respiration/OXPHOS and AMPK,1,3,1,33.3,0,2,4,metformin
+excluding tailored-therapy trial NCT04591431,2a,myeloid and MDSC modulation,4,5,0,0.0,0,6,7,crizanlizumab; nicotinic acid; sitagliptin; tadalafil
+excluding tailored-therapy trial NCT04591431,2a,nucleotide synthesis,1,3,0,0.0,0,1,3,mycophenolic acid
+excluding tailored-therapy trial NCT04591431,2a,other DNA repair,1,1,0,0.0,0,1,1,spironolactone
+excluding tailored-therapy trial NCT04591431,2a,"other vascular and adhesion (angiopoietin, selectins)",0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,2a,oxidative stress and ferroptosis,3,2,0,0.0,0,4,3,ascorbic acid; ferumoxytol; sulfasalazine
+excluding tailored-therapy trial NCT04591431,2a,polyamines,1,3,0,0.0,0,1,3,eflornithine
+excluding tailored-therapy trial NCT04591431,2a,thyroid hormone,1,1,0,0.0,0,1,1,thiamazole
+excluding tailored-therapy trial NCT04591431,2a,tumour oxygenation and radiosensitisation,1,1,0,0.0,0,2,2,dodecafluoropentane
+excluding tailored-therapy trial NCT04591431,2a,unclear,1,1,0,0.0,0,1,1,chlorpromazine
+excluding tailored-therapy trial NCT04591431,2b,CDK4/6–RB,2,4,1,25.0,1,2,4,abemaciclib; ribociclib
+excluding tailored-therapy trial NCT04591431,2b,CTLA-4,1,8,1,12.5,0,1,8,ipilimumab
+excluding tailored-therapy trial NCT04591431,2b,DNA alkylation and platinum,3,10,0,0.0,1,3,10,carboplatin; cisplatin; thiotepa
+excluding tailored-therapy trial NCT04591431,2b,DNMT,1,1,0,0.0,0,1,1,azacitidine
+excluding tailored-therapy trial NCT04591431,2b,EGFR/HER family,3,3,1,33.3,0,3,3,amivantamab; cetuximab; trastuzumab deruxtecan
+excluding tailored-therapy trial NCT04591431,2b,FGFR,2,2,2,100.0,0,2,2,erdafitinib; pemigatinib
+excluding tailored-therapy trial NCT04591431,2b,HDAC,1,1,0,0.0,0,1,1,panobinostat
+excluding tailored-therapy trial NCT04591431,2b,JAK–STAT (tumour-intrinsic) [added D42],1,1,0,0.0,0,1,1,ruxolitinib
+excluding tailored-therapy trial NCT04591431,2b,LAG-3,1,2,0,0.0,0,1,2,relatlimab
+excluding tailored-therapy trial NCT04591431,2b,MET,0,0,0,,0,2,2,
+excluding tailored-therapy trial NCT04591431,2b,PARP,3,8,1,12.5,1,3,8,niraparib; olaparib; talazoparib
+excluding tailored-therapy trial NCT04591431,2b,PD-1/PD-L1,6,46,2,4.3,0,6,46,atezolizumab; cemiplimab; dostarlimab; nivolumab; pembrolizumab; tislelizumab
+excluding tailored-therapy trial NCT04591431,2b,PDGFR/KIT,1,2,1,50.0,0,1,2,avapritinib
+excluding tailored-therapy trial NCT04591431,2b,PI3K–AKT–mTOR,1,1,0,0.0,1,1,1,everolimus
+excluding tailored-therapy trial NCT04591431,2b,RAS–RAF–MEK–ERK (MAPK),2,1,1,100.0,0,2,1,dabrafenib; trametinib
+excluding tailored-therapy trial NCT04591431,2b,"T-cell redirection and antibody effector (bispecifics, CD38)",2,2,0,0.0,0,2,2,daratumumab; tarlatamab
+excluding tailored-therapy trial NCT04591431,2b,VEGF/VEGFR,2,3,0,0.0,0,2,3,cabozantinib; regorafenib
+excluding tailored-therapy trial NCT04591431,2b,XPO1 nuclear export,1,4,0,0.0,0,1,4,selinexor
+excluding tailored-therapy trial NCT04591431,2b,antimetabolite,0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,2b,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",1,1,0,0.0,0,1,1,nogapendekin alfa inbakicept
+excluding tailored-therapy trial NCT04591431,2b,"immunosuppressive metabolism (IDO, adenosine)",0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,2b,microtubule,1,2,0,0.0,0,1,2,paclitaxel
+excluding tailored-therapy trial NCT04591431,2b,myeloid and MDSC modulation,1,1,0,0.0,0,1,1,ibrutinib
+excluding tailored-therapy trial NCT04591431,2b,nucleotide synthesis,1,1,0,0.0,0,1,1,mercaptopurine
+excluding tailored-therapy trial NCT04591431,2b,"other intracellular kinases (BTK, PKC)",1,1,0,0.0,0,1,1,tamoxifen
+excluding tailored-therapy trial NCT04591431,2b,photo- or sonosensitiser (5-ALA),1,11,0,0.0,0,1,11,aminolevulinic acid
+excluding tailored-therapy trial NCT04591431,2b,targeted radioligand delivery,2,3,3,100.0,0,2,3,lutetium (177lu) oxodotreotide; psma-617
+excluding tailored-therapy trial NCT04591431,2b,topoisomerase,4,7,1,14.3,0,5,8,doxorubicin; etoposide; irinotecan; sacituzumab govitecan
+excluding tailored-therapy trial NCT04591431,all,CDK4/6–RB,2,4,1,25.0,1,2,4,abemaciclib; ribociclib
+excluding tailored-therapy trial NCT04591431,all,CTLA-4,1,8,1,12.5,0,1,8,ipilimumab
+excluding tailored-therapy trial NCT04591431,all,DNA alkylation and platinum,3,10,0,0.0,1,3,10,carboplatin; cisplatin; thiotepa
+excluding tailored-therapy trial NCT04591431,all,DNMT,1,1,0,0.0,0,1,1,azacitidine
+excluding tailored-therapy trial NCT04591431,all,EGFR/HER family,4,4,2,50.0,0,4,4,amivantamab; atorvastatin; cetuximab; trastuzumab deruxtecan
+excluding tailored-therapy trial NCT04591431,all,FGFR,2,2,2,100.0,0,2,2,erdafitinib; pemigatinib
+excluding tailored-therapy trial NCT04591431,all,HDAC,1,1,0,0.0,0,1,1,panobinostat
+excluding tailored-therapy trial NCT04591431,all,Hippo–YAP/TEAD,1,1,0,0.0,0,1,1,verteporfin
+excluding tailored-therapy trial NCT04591431,all,IL-6–JAK–STAT and inflammatory signalling,1,1,0,0.0,0,1,1,tocilizumab
+excluding tailored-therapy trial NCT04591431,all,JAK–STAT (tumour-intrinsic) [added D42],3,3,0,0.0,0,3,3,atovaquone; ruxolitinib; tofacitinib
+excluding tailored-therapy trial NCT04591431,all,LAG-3,1,2,0,0.0,0,1,2,relatlimab
+excluding tailored-therapy trial NCT04591431,all,MET,0,0,0,,0,2,2,
+excluding tailored-therapy trial NCT04591431,all,PARP,3,8,1,12.5,1,3,8,niraparib; olaparib; talazoparib
+excluding tailored-therapy trial NCT04591431,all,PD-1/PD-L1,6,46,2,4.3,0,6,46,atezolizumab; cemiplimab; dostarlimab; nivolumab; pembrolizumab; tislelizumab
+excluding tailored-therapy trial NCT04591431,all,PDGFR/KIT,1,2,1,50.0,0,1,2,avapritinib
+excluding tailored-therapy trial NCT04591431,all,PI3K–AKT–mTOR,1,1,0,0.0,1,2,2,everolimus
+excluding tailored-therapy trial NCT04591431,all,RAS–RAF–MEK–ERK (MAPK),2,1,1,100.0,0,2,1,dabrafenib; trametinib
+excluding tailored-therapy trial NCT04591431,all,"T-cell redirection and antibody effector (bispecifics, CD38)",2,2,0,0.0,0,2,2,daratumumab; tarlatamab
+excluding tailored-therapy trial NCT04591431,all,VEGF/VEGFR,2,3,0,0.0,0,2,3,cabozantinib; regorafenib
+excluding tailored-therapy trial NCT04591431,all,XPO1 nuclear export,1,4,0,0.0,0,1,4,selinexor
+excluding tailored-therapy trial NCT04591431,all,antimetabolite,0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,all,autophagy–lysosome inhibition,4,4,0,0.0,0,7,7,chloroquine; hydroxychloroquine; imipramine; trimipramine
+excluding tailored-therapy trial NCT04591431,all,cannabinoid receptors,2,2,0,0.0,0,2,2,cannabidiol; dronabinol
+excluding tailored-therapy trial NCT04591431,all,"cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",2,2,0,0.0,0,2,2,gm-csf; nogapendekin alfa inbakicept
+excluding tailored-therapy trial NCT04591431,all,dopamine and serotonin receptors,2,2,0,0.0,0,2,2,haloperidol; vortioxetine
+excluding tailored-therapy trial NCT04591431,all,"glutamate receptors (AMPA, NMDA)",2,1,0,0.0,0,3,2,memantine; sulfasalazine
+excluding tailored-therapy trial NCT04591431,all,glutamine,1,1,0,0.0,0,1,1,gabapentin
+excluding tailored-therapy trial NCT04591431,all,"immunosuppressive metabolism (IDO, adenosine)",0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,all,"innate sensing (STING, TLR)",1,1,0,0.0,0,1,1,manganese chloride
+excluding tailored-therapy trial NCT04591431,all,lipid and cholesterol synthesis,0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,all,microtubule,1,2,0,0.0,0,1,2,paclitaxel
+excluding tailored-therapy trial NCT04591431,all,mitochondrial respiration/OXPHOS and AMPK,1,3,1,33.3,0,2,4,metformin
+excluding tailored-therapy trial NCT04591431,all,myeloid and MDSC modulation,5,6,0,0.0,0,7,8,crizanlizumab; ibrutinib; nicotinic acid; sitagliptin; tadalafil
+excluding tailored-therapy trial NCT04591431,all,nucleotide synthesis,2,4,0,0.0,0,2,4,mercaptopurine; mycophenolic acid
+excluding tailored-therapy trial NCT04591431,all,other DNA repair,1,1,0,0.0,0,1,1,spironolactone
+excluding tailored-therapy trial NCT04591431,all,"other intracellular kinases (BTK, PKC)",1,1,0,0.0,0,1,1,tamoxifen
+excluding tailored-therapy trial NCT04591431,all,"other vascular and adhesion (angiopoietin, selectins)",0,0,0,,0,1,1,
+excluding tailored-therapy trial NCT04591431,all,oxidative stress and ferroptosis,3,2,0,0.0,0,4,3,ascorbic acid; ferumoxytol; sulfasalazine
+excluding tailored-therapy trial NCT04591431,all,photo- or sonosensitiser (5-ALA),1,11,0,0.0,0,1,11,aminolevulinic acid
+excluding tailored-therapy trial NCT04591431,all,polyamines,1,3,0,0.0,0,1,3,eflornithine
+excluding tailored-therapy trial NCT04591431,all,targeted radioligand delivery,2,3,3,100.0,0,2,3,lutetium (177lu) oxodotreotide; psma-617
+excluding tailored-therapy trial NCT04591431,all,thyroid hormone,1,1,0,0.0,0,1,1,thiamazole
+excluding tailored-therapy trial NCT04591431,all,topoisomerase,4,7,1,14.3,0,5,8,doxorubicin; etoposide; irinotecan; sacituzumab govitecan
+excluding tailored-therapy trial NCT04591431,all,tumour oxygenation and radiosensitisation,1,1,0,0.0,0,2,2,dodecafluoropentane
+excluding tailored-therapy trial NCT04591431,all,unclear,1,1,0,0.0,0,1,1,chlorpromazine

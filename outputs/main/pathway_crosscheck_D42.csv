@@ -1,0 +1,93 @@
+active_moiety,pathway_primary,process_primary,pathway_secondary,source_type,pmids,confidence,reason
+abemaciclib,CDK4/6–RB,P4 Cell cycle and p53,,established_pharmacology,,high,ChEMBL CDK4/6 inhibitor; target is the antitumour hypothesis
+alectinib,ALK/ROS1/NTRK,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,ALK inhibitor; genotype-matched panel trial
+alpelisib,PI3K–AKT–mTOR,P2 RAS–MAPK and PI3K–mTOR signalling,,established_pharmacology,,high,PI3K-alpha inhibitor per ChEMBL
+aminolevulinic acid,photo- or sonosensitiser (5-ALA),P17 Radiation and photo/sonodynamic sensitisation,,registry_stated,,high,Registry: 5-ALA-PpIX photodynamic or focused-ultrasound sonodynamic therapy
+amivantamab,EGFR/HER family,P1 Receptor tyrosine kinase signalling,MET,established_pharmacology,,high,EGFR-MET bispecific; ChEMBL lists both targets
+ascorbic acid,oxidative stress and ferroptosis,"P7 Proteostasis, nuclear transport and cell death",,published_gbm_rationale,,low,Pharmacologic IV ascorbate pro-oxidant (H2O2) hypothesis; no registry mechanism; PMID not retrieved
+atezolizumab,PD-1/PD-L1,P9 Immune checkpoint,,established_pharmacology,,high,Anti-PD-L1; registry states PD-L1 blockade
+atorvastatin,EGFR/HER family,P1 Receptor tyrosine kinase signalling,lipid and cholesterol synthesis,registry_stated,,medium,Registry: statins block glioma progression via EGFR pathway; HMG-CoA reductase is approved target
+atovaquone,IL-6–JAK–STAT and inflammatory signalling,P10 Other immune modulation,Mitochondrial respiration/OXPHOS and AMPK; Tumour oxygenation and radiosensitisation,registry_stated,,medium,"Registry: STAT3 inhibition, hypoxic radiosensitisation; OXPHOS (cytochrome b) is known pharmacology, not stated"
+avapritinib,PDGFR/KIT,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,KIT/PDGFRA inhibitor; registry says blocks growth enzymes
+azacitidine,DNMT,P8 Epigenetic regulation,,established_pharmacology,,high,Hypomethylating DNMT inhibitor
+brigatinib,ALK/ROS1/NTRK,P1 Receptor tyrosine kinase signalling,EGFR/HER family,established_pharmacology,,medium,ALK inhibitor; ChEMBL also lists EGFR
+cabozantinib,VEGF/VEGFR,P11 Angiogenesis and vasculature,MET,established_pharmacology,,medium,"Multi-kinase; VEGFR2 main antitumour use, MET secondary; registry non-specific"
+cannabidiol,cannabinoid receptors,P14 Neural and ion-channel signalling,,registry_stated,,medium,Registry: CB1/CB2 activation causing ER stress and autophagic tumour cell death (joint THC+CBD product)
+carboplatin,DNA alkylation and platinum,P6 Cytotoxic DNA damage and mitosis,,registry_stated,,high,Platinum DNA crosslinking; also stated to sensitise to PARP inhibition
+cemiplimab,PD-1/PD-L1,P9 Immune checkpoint,,established_pharmacology,,high,Anti-PD-1 antibody
+cetuximab,EGFR/HER family,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,Anti-EGFR antibody
+chloroquine,Autophagy–lysosome inhibition,P13 Autophagy and lysosome,Tumour oxygenation and radiosensitisation,published_gbm_rationale,,medium,"Registry: enhances RT and TTFields, no mechanism; autophagy inhibition is the known glioma rationale; PMID not retrieved"
+chlorpromazine,dopamine and serotonin receptors,P14 Neural and ion-channel signalling,,established_pharmacology,,low,Phenothiazine D2/5-HT2A antagonism; record states no GBM mechanism
+cisplatin,DNA alkylation and platinum,P6 Cytotoxic DNA damage and mitosis,,established_pharmacology,,high,Platinum cytotoxic
+cobimetinib,RAS–RAF–MEK–ERK (MAPK),P2 RAS–MAPK and PI3K–mTOR signalling,,established_pharmacology,,high,MEK1/2 inhibitor
+crizanlizumab,"other vascular and adhesion (angiopoietin, selectins)",P11 Angiogenesis and vasculature,,established_pharmacology,,medium,"P-selectin blocker; adhesion/vascular hypothesis assumed, not stated; combined with nivolumab"
+dabrafenib,RAS–RAF–MEK–ERK (MAPK),P2 RAS–MAPK and PI3K–mTOR signalling,,registry_stated,,high,Registry: blocking BRAF
+daratumumab,"T-cell redirection and antibody effector (bispecifics, CD38)",P10 Other immune modulation,,registry_stated,,high,Registry: therapeutic targeting of CD38 in GBM and microenvironment
+dodecafluoropentane,Tumour oxygenation and radiosensitisation,P17 Radiation and photo/sonodynamic sensitisation,,registry_stated,,high,Registry: oxygen delivery to reoxygenate hypoxic tumour for radiation
+dostarlimab,PD-1/PD-L1,P9 Immune checkpoint,,established_pharmacology,,high,Anti-PD-1 antibody
+doxorubicin,topoisomerase,P6 Cytotoxic DNA damage and mitosis,,registry_stated,,medium,Anthracycline; registry lists DNA binding and topoisomerase II inhibition
+dronabinol,cannabinoid receptors,P14 Neural and ion-channel signalling,,registry_stated,,medium,"Registry: CB1/CB2 activation, ER stress, autophagy (nabiximols)"
+eflornithine,polyamines,P12 Tumour metabolism,,registry_stated,,high,Ornithine decarboxylase inhibitor; polyamine synthesis
+entrectinib,ALK/ROS1/NTRK,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,NTRK/ROS1/ALK inhibitor
+erdafitinib,FGFR,P1 Receptor tyrosine kinase signalling,,registry_stated,,high,Registry: blocks abnormal FGFR protein
+erlotinib,EGFR/HER family,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,EGFR TKI
+etoposide,topoisomerase,P6 Cytotoxic DNA damage and mitosis,,established_pharmacology,,high,Topoisomerase II inhibitor
+everolimus,PI3K–AKT–mTOR,P2 RAS–MAPK and PI3K–mTOR signalling,,registry_stated,,high,Registry: targets PI3K/mTOR pathway alterations
+ferumoxytol,oxidative stress and ferroptosis,"P7 Proteostasis, nuclear transport and cell death",,published_gbm_rationale,,low,Iron oxide with ascorbate: iron-catalysed ROS hypothesis; no registry mechanism; PMID not retrieved
+gabapentin,glutamine,P12 Tumour metabolism,,registry_stated,,medium,Registry: inhibits BCAT1 glutamate synthesis; joint regimen with memantine and sulfasalazine
+gm-csf,"Cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",P10 Other immune modulation,,registry_stated,,medium,Registry: immune adjuvant promoting antigen presentation and T-cell priming
+haloperidol,dopamine and serotonin receptors,P14 Neural and ion-channel signalling,oxidative stress and ferroptosis,registry_stated,,high,Registry: DRD2 antagonism removing TMZ-induced ferroptosis inhibition
+hydroxychloroquine,Autophagy–lysosome inhibition,P13 Autophagy and lysosome,,registry_stated,,high,Registry: autophagy inhibitor
+ibrutinib,myeloid and MDSC modulation,P10 Other immune modulation,"other intracellular kinases (BTK, PKC); immunosuppressive metabolism (IDO, adenosine)",registry_stated,,medium,Registry: BTK and IDO metabolic checkpoint in antigen-presenting cells; BTK inhibition enhances immunity
+imipramine,Autophagy–lysosome inhibition,P13 Autophagy and lysosome,myeloid and MDSC modulation,published_gbm_rationale,36113478,medium,Imipramine modulates autophagy and reprograms macrophages in GBM mice; autophagy modulation mapped to only autophagy level-2
+ipilimumab,CTLA-4,P9 Immune checkpoint,,registry_stated,,high,Anti-CTLA-4; registry immune attack statement
+irinotecan,topoisomerase,P6 Cytotoxic DNA damage and mitosis,,established_pharmacology,,high,Topoisomerase I inhibitor
+lapatinib,EGFR/HER family,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,EGFR/HER2 TKI
+lutetium (177lu) oxodotreotide,targeted radioligand delivery,P17 Radiation and photo/sonodynamic sensitisation,,registry_stated,,high,Registry: radioligand therapy; SSTR-directed beta emitter
+manganese chloride,"innate sensing (STING, TLR)",P10 Other immune modulation,,established_pharmacology,,low,Registry says immune adjuvant only; STING agonism from coder notes and Mn pharmacology
+memantine,"Glutamate receptors (AMPA, NMDA)",P14 Neural and ion-channel signalling,,registry_stated,,high,Registry: NMDA receptor blockade limits glutamate-driven invasion
+mercaptopurine,nucleotide synthesis,P12 Tumour metabolism,Mitochondrial respiration/OXPHOS and AMPK,registry_stated,,medium,Registry: HPRT1 inhibition blocking TMZ-induced AMPK activation; purine salvage
+metformin,Mitochondrial respiration/OXPHOS and AMPK,P12 Tumour metabolism,,registry_stated,,high,Registry: mitochondrial complex I inhibitor
+mycophenolic acid,nucleotide synthesis,P12 Tumour metabolism,,established_pharmacology,,high,IMPDH inhibitor; guanine nucleotide synthesis; registry implies IMPDH
+nicotinic acid,myeloid and MDSC modulation,P10 Other immune modulation,NAD+,registry_stated,,low,Registry: peripheral activity in innate immune cells monitored; mechanism not stated
+niraparib,PARP,P5 DNA damage response,,registry_stated,,high,Registry: PARP inhibition to enhance TMZ
+nivolumab,PD-1/PD-L1,P9 Immune checkpoint,,established_pharmacology,,high,Anti-PD-1 antibody
+nogapendekin alfa inbakicept,"Cytokine agonists (IL-2/IL-15, GM-CSF, interferon)",P10 Other immune modulation,,established_pharmacology,,high,IL-15 superagonist
+olaparib,PARP,P5 DNA damage response,,registry_stated,,high,Registry: PARP inhibitor impairing DNA repair
+paclitaxel,microtubule,P6 Cytotoxic DNA damage and mitosis,,established_pharmacology,,high,Tubulin stabiliser
+palbociclib,CDK4/6–RB,P4 Cell cycle and p53,,established_pharmacology,,high,CDK4/6 inhibitor
+panobinostat,HDAC,P8 Epigenetic regulation,,established_pharmacology,,high,HDAC inhibitor
+pembrolizumab,PD-1/PD-L1,P9 Immune checkpoint,,registry_stated,,high,Anti-PD-1 antibody; registry immune attack statement
+pemigatinib,FGFR,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,FGFR1-3 inhibitor
+pertuzumab,EGFR/HER family,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,Anti-HER2 antibody
+ponatinib,multi-RTK,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,low,BCR-ABL multikinase inhibitor in genotype-matched panel; no stated GBM target
+pralsetinib,RET,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,RET inhibitor
+psma-617,targeted radioligand delivery,P17 Radiation and photo/sonodynamic sensitisation,,established_pharmacology,,high,177Lu-PSMA radioligand delivery
+regorafenib,VEGF/VEGFR,P11 Angiogenesis and vasculature,multi-RTK,established_pharmacology,,medium,Multikinase; angiogenesis taken as primary per rules
+relatlimab,LAG-3,P9 Immune checkpoint,,established_pharmacology,,high,Anti-LAG-3 antibody
+ribociclib,CDK4/6–RB,P4 Cell cycle and p53,,registry_stated,,high,"Registry: targets cell cycle alterations CDK4/6, CDKN2A, CCND"
+ruxolitinib,IL-6–JAK–STAT and inflammatory signalling,P10 Other immune modulation,,established_pharmacology,,medium,JAK1/2 inhibitor; GBM hypothesis not stated
+sacituzumab govitecan,[proposed] Trop-2-directed antibody targeting,P1 Receptor tyrosine kinase signalling,topoisomerase,established_pharmacology,,medium,ADC classified by Trop-2 target; no level-2 fits; SN-38 payload secondary
+selinexor,XPO1 nuclear export,"P7 Proteostasis, nuclear transport and cell death",,registry_stated,,high,XPO1/CRM1 inhibitor; registry radiosensitisation
+selpercatinib,RET,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,RET inhibitor
+sitagliptin,myeloid and MDSC modulation,P10 Other immune modulation,,registry_stated,,high,Registry: DPP-4 inhibition blocks MDSC brain entry and function
+spironolactone,other DNA repair,P5 DNA damage response,,registry_stated,,high,Registry: TC-NER inhibitor sensitising GBM to STAR-001
+sulfasalazine,oxidative stress and ferroptosis,"P7 Proteostasis, nuclear transport and cell death",,registry_stated,,high,"Registry: xCT inhibition reduces glutathione, radiosensitises"
+tadalafil,myeloid and MDSC modulation,P10 Other immune modulation,,registry_stated,,high,Registry: reduces MDSCs and restores T-cell activation
+talazoparib,PARP,P5 DNA damage response,,registry_stated,,high,Registry: PARP inhibition in DNA repair-deficient glioma
+tamoxifen,"other intracellular kinases (BTK, PKC)",P2 RAS–MAPK and PI3K–mTOR signalling,sex-steroid and mineralocorticoid receptors,published_gbm_rationale,,low,High-dose tamoxifen PKC inhibition in glioma; coder note; no registry mechanism; PMID not retrieved
+tarlatamab,"T-cell redirection and antibody effector (bispecifics, CD38)",P10 Other immune modulation,,registry_stated,,high,Registry: bispecific T-cell engager against DLL3
+thiamazole,Thyroid hormone,P15 Hormone and nuclear receptors,,registry_stated,,medium,Registry: suppress thyroid hormone signalling to raise H2S; thyroid peroxidase inhibitor
+thiotepa,DNA alkylation and platinum,P6 Cytotoxic DNA damage and mitosis,,registry_stated,,high,"Registry: lipophilic alkylating agent, intrathecal"
+tislelizumab,PD-1/PD-L1,P9 Immune checkpoint,,established_pharmacology,,high,Anti-PD-1 antibody
+tocilizumab,IL-6–JAK–STAT and inflammatory signalling,P10 Other immune modulation,,registry_stated,,high,Registry: IL-6 receptor blockade relieves immune suppression
+tofacitinib,IL-6–JAK–STAT and inflammatory signalling,P10 Other immune modulation,,established_pharmacology,,low,JAK inhibitor; registry only says suppressing tumour invasion
+trametinib,RAS–RAF–MEK–ERK (MAPK),P2 RAS–MAPK and PI3K–mTOR signalling,,registry_stated,,high,Registry: blocking MEK
+trastuzumab,EGFR/HER family,P1 Receptor tyrosine kinase signalling,,established_pharmacology,,high,Anti-HER2 antibody
+trastuzumab deruxtecan,EGFR/HER family,P1 Receptor tyrosine kinase signalling,topoisomerase,established_pharmacology,,high,HER2 ADC; topoisomerase I payload secondary
+trastuzumab emtansine,EGFR/HER family,P1 Receptor tyrosine kinase signalling,microtubule,established_pharmacology,,high,HER2 ADC; DM1 tubulin payload secondary
+trimipramine,Autophagy–lysosome inhibition,P13 Autophagy and lysosome,,published_gbm_rationale,36113478,low,TCA class extrapolation from imipramine autophagy work; no registry mechanism
+vemurafenib,RAS–RAF–MEK–ERK (MAPK),P2 RAS–MAPK and PI3K–mTOR signalling,,established_pharmacology,,high,BRAF V600 inhibitor
+verteporfin,Hippo–YAP/TEAD,P3 Developmental signalling,,published_gbm_rationale,,low,Registry: used without light as chemotherapy in EGFR+ GBM; YAP-TEAD inhibition assumed; PMID not retrieved
+vismodegib,Hedgehog,P3 Developmental signalling,,established_pharmacology,,high,SMO inhibitor
+vortioxetine,dopamine and serotonin receptors,P14 Neural and ion-channel signalling,,established_pharmacology,,low,"Identified by ex vivo drug screening; serotonergic pharmacology, GBM mechanism not stated"
