@@ -1,0 +1,30 @@
+nct_id,in_cohort,exclusion_reason,withdrawn,origin_primary_group,redo_drug_inn,redo_removed,redo_title,our_coding_of_redo_drugs,result
+NCT03688178,yes,,no,repositioning_only,Diphtheria vaccine; Tetanus vaccine,N,DC Migration Study to Evaluate TReg Depletion In GBM Patients With and Without Varlilumab,Diphtheria vaccine: not a coded candidate | Tetanus vaccine: not a coded candidate,DISCREPANCY: coded repositioning_only
+NCT03763396,no,phase0_early_phase1,no,,Ketoconazole; Posaconazole,N,Azoles Targeting Recurrent High Grade Gliomas,Ketoconazole: not a coded candidate | Posaconazole: not a coded candidate,not in cohort (phase0_early_phase1)
+NCT04201457,no,high_grade_glioma_unspecified,no,,Hydroxychloroquine,N,"A Trial of Dabrafenib, Trametinib and Hydroxychloroquine for Patients With Recurrent LGG or HGG With a BRAF Aberration",Hydroxychloroquine: not a coded candidate,not in cohort (high_grade_glioma_unspecified)
+NCT04397679,yes,,no,repurposing_containing,Chloroquine,N,"Partial Brain RT, Temozolomide, Chloroquine, and TTF Therapy for the Treatment of Newly Diagnosed Glioblastoma",Chloroquine: chloroquine=2a,agree
+NCT04477200,yes,,no,repurposing_containing,Mycophenolate,N,Mycophenolate Mofetil Combined With Radiation Therapy in Glioblastoma,Mycophenolate: not a coded candidate,agree at trial level; ReDO drug not coded category 2
+NCT04488783,no,phase_not_applicable,no,,Ascorbic acid,N,Potentiation of Chemotherapy in Brain Tumors by Zinc,Ascorbic acid: not a coded candidate,not in cohort (phase_not_applicable)
+NCT04590664,yes,,no,repurposing_containing,Verteporfin,N,Verteporfin for the Treatment of Recurrent High Grade EGFR-Mutated Glioblastoma,Verteporfin: verteporfin=2a,agree
+NCT04677049,yes,,no,repurposing_containing,Nicotinamide,N,Study of Niacin in Glioblastoma,Nicotinamide: not a coded candidate,agree at trial level; ReDO drug not coded category 2
+NCT04729959,yes,,no,repurposing_containing,Tocilizumab,N,"Testing the Addition of the Immune Therapy Drugs, Tocilizumab and Atezolizumab, to Radiation Therapy for Recurrent Glioblastoma",Tocilizumab: tocilizumab=2a,agree
+NCT04863950,yes,,no,repurposing_containing,Imipramine,N,Investigator-Initiated Study of Imipramine Hydrochloride and Lomustine in Recurrent Glioblastoma,Imipramine: imipramine=2a,agree
+NCT04900792,yes,,no,repurposing_containing,Ascorbic acid,N,A Safety Study of Pharmacologic Ascorbate and Ferumoxytol in Addition to Standard of Care Chemoradiation in Glioblastoma,Ascorbic acid: ascorbic acid=2a,agree
+NCT04945148,yes,,no,repurposing_containing,Metformin,N,Oxidative Phosphorylation Targeting In Malignant Glioma Using Metformin Plus Radiotherapy Temozolomide,Metformin: metformin=2a,agree
+NCT04962672,no,phase_not_applicable,no,repurposing_containing,Propofol,N,Anesthesia Induced Brain Cancer Survival (ABC Survival): A Feasibility Study,Propofol: propofol=2a,not in cohort (phase_not_applicable)
+NCT05096481,no,excluded_intervention_type,no,,Diphtheria vaccine; Tetanus vaccine,N,PEP-CMV Vaccine Targeting CMV Antigen to Treat Newly Diagnosed Pediatric HGG and DIPG and Recurrent Medulloblastoma,Diphtheria vaccine: not a coded candidate | Tetanus vaccine: not a coded candidate,not in cohort (excluded_intervention_type)
+NCT05183204,yes,,no,repurposing_containing,Metformin,N,"Paxalisib With a High Fat, Low Carb Diet and Metformin for Glioblastoma",Metformin: metformin=2a,agree
+NCT05190315,yes,,no,repurposing_containing,Chlorpromazine,N,Chlorpromazine and Standard of Care in Glioblastoma,Chlorpromazine: chlorpromazine=2a,agree
+NCT05236036,yes,,no,repurposing_containing,Mycophenolate,N,Mycophenolate Mofetil in Combination With Standard of Care for the Treatment of Glioblastoma,Mycophenolate: not a coded candidate,agree at trial level; ReDO drug not coded category 2
+NCT05607407,yes,,no,repurposing_containing,Methimazole,N,Methimazole in Patients With Progressive Glioblastoma,Methimazole: not a coded candidate,agree at trial level; ReDO drug not coded category 2
+NCT05664464,yes,,no,repurposing_containing,Memantine; Sulfasalazine,N,Glutamate Inhibitors in Glioblastoma,Memantine: memantine=2a | Sulfasalazine: sulfasalazine=2a,agree
+NCT05929495,yes,,no,repurposing_containing,Metformin,N,"Phase 2, Open-label, Single-arm Study on the Use of Metformin as Adjunctive Therapy in High-grade Glioma",Metformin: metformin=2a,agree
+NCT06102525,no,excluded_intervention_type,no,,Valganciclovir,N,"A Study to Evaluate the Safety, Tolerability and Efficacy of RZ-001 With Valganciclovir (VGCV) in Subjects With Glioblastoma",Valganciclovir: not a coded candidate,not in cohort (excluded_intervention_type)
+NCT06218524,yes,,no,repurposing_containing,Haloperidol,N,The Effectiveness of HP and TMZ Synergism on Adult Recurrence GBM,Haloperidol: haloperidol=2a,agree
+NCT06327451,yes,,no,repurposing_containing,Atorvastatin,N,Evaluate the Efficacy and Safety of Atorvastatin Combined With Temozolomide in the Treatment of Glioblastoma,Atorvastatin: atorvastatin=2a,agree
+NCT06428045,no,high_grade_glioma_unspecified,no,,Ritonavir,N,STARLITE for Unresectable High-Grade Gliomas,Ritonavir: not a coded candidate,not in cohort (high_grade_glioma_unspecified)
+NCT06624371,yes,,no,repurposing_containing,Atovaquone,N,Atovaquone Combined With Radiation in Children With Malignant Brain Tumors,Atovaquone: atovaquone=2a,agree
+NCT07003542,yes,,no,repurposing_containing,Sitagliptin,N,A Phase 2 and Pharmacodynamic Study of Sitagliptin in Patients With Progressive Grade 4 Gliomas,Sitagliptin: sitagliptin=2a,agree
+NCT07284069,no,phase0_early_phase1,no,repurposing_containing,Perampanel,N,Senicapoc and Perampanel for Newly Diagnosed Glioblastoma,Perampanel: perampanel=2a,not in cohort (phase0_early_phase1)
+NCT07541781,yes,,no,repurposing_containing,Sitagliptin,N,Sitagliptin in Recurrent/Progressive Grade 4 Glioma,Sitagliptin: sitagliptin=2a,agree
+NCT07585851,no,phase0_early_phase1,no,repurposing_containing,Ketoconazole,N,Administration of Repurposed Ketoconazole in Glioma Patients,Ketoconazole: ketoconazole=2a,not in cohort (phase0_early_phase1)
